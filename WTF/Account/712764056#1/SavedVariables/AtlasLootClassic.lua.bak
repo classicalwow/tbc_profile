@@ -452,11 +452,11 @@ AtlasLootClassicDB = {
 			[33588] = "BoJ:35",
 			[28307] = "honor:4750",
 			[40611] = "EmblemOfHeroism:80",
-			[32789] = "honor:5320",
-			[40877] = "honor:21700",
 			[41996] = "EmblemOfHeroism:45",
-			[29266] = "BoJ:33",
+			[40877] = "honor:21700",
 			[33812] = "honor:6840",
+			[29266] = "BoJ:33",
+			[32789] = "honor:5320",
 			[42028] = "honor:33180",
 			[42060] = "honor:16590",
 			[28295] = "honor:4750",
@@ -575,7 +575,7 @@ AtlasLootClassicDB = {
 			[38547] = "arena:400",
 			[40721] = "EmblemOfValor:25",
 			[15200] = "honor:100",
-			[40689] = "EmblemOfHeroism:40",
+			[18826] = "honor:2500",
 			[45836] = "EmblemOfConquest:28",
 			[42290] = "arena:1350",
 			[18874] = "honor:5000",
@@ -659,8 +659,8 @@ AtlasLootClassicDB = {
 			[40693] = "EmblemOfHeroism:40",
 			[35129] = "honor:5700",
 			[42322] = "arena:4500",
-			[18826] = "honor:2500",
 			[33528] = "BoJ:60",
+			[40689] = "EmblemOfHeroism:40",
 			[42575] = "honor:4480:arena:175",
 			[42450] = "arena:1200",
 			[35321] = "BoJ:60",
@@ -847,24 +847,24 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 305.257928873555,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					291.9126892089844, -- [4]
-					-91.47720336914062, -- [5]
+					291.9999084472656, -- [4]
+					-91.58297729492188, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"Ulduar", -- [2]
-					14, -- [3]
-					9, -- [4]
+					"AtlasLootClassic_Factions", -- [1]
+					"KnightsoftheEbonBlade", -- [2]
+					2, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 305.257928873555,
 			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {

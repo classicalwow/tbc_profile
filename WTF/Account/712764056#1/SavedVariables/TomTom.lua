@@ -54,39 +54,6 @@ TomTomWaypointsM = {
 		["特變電工 - 伊弗斯"] = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			[120] = {
-				["120:444743276.28362:281662591.68704:古怪的沙瓦留斯"] = {
-					120, -- [1]
-					0.4447432762836187, -- [2]
-					0.2816625916870416, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "古怪的沙瓦留斯",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "古怪的沙瓦留斯",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 		},
