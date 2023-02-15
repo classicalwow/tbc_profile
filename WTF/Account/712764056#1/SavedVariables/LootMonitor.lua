@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "纳克萨玛斯",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2023-02-05",
 			["Class"] = "WARLOCK",
+			["Date"] = "2023-02-05",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-10273-15952-00005FA045",

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0716,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46143,
@@ -8,14 +10,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:46143::::::::80:::::::::|h[征服者的天灾追猎者头饰]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 40065,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r",
+			["ID"] = 45945,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:45945::::::::80:::::::::|h[杀戮之种]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 40507,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40507::::::::80:::::::::|h[勇猛的地穴追猎者护肩]|h|r",
+			["ID"] = 45677,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:45677::::::::80:::::::::|h[叛逆肩垫]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -94,8 +96,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45261::::::::80:::::::::|h[巨人之灾]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

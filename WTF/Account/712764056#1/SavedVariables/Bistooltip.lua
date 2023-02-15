@@ -83,12 +83,9 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimapPos"] = 253.8366132909164,
+			["class_index"] = 3,
 			["spec_index"] = 3,
 			["version"] = 6.1,
-			["phase_index"] = 3,
-			["class_index"] = 3,
-			["data_source"] = "wowtbc",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -143,15 +140,18 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
+			["minimapPos"] = 253.8366132909164,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 3,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["minimapPos"] = 253.4463397527872,
+			["class_index"] = 10,
 			["version"] = 6.1,
 			["spec_index"] = 2,
-			["class_index"] = 10,
+			["minimapPos"] = 253.4463397527872,
 			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
 		},

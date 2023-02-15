@@ -86,12 +86,9 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["class_index"] = 3,
+			["minimapPos"] = 253.8366132909164,
 			["version"] = 6.1,
 			["spec_index"] = 3,
-			["phase_index"] = 3,
-			["minimapPos"] = 253.8366132909164,
-			["data_source"] = "wowtbc",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -146,12 +143,15 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["class_index"] = 3,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 3,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["minimapPos"] = 253.4463397527872,
+			["class_index"] = 10,
 			["spec_index"] = 2,
 			["phase_index"] = 3,
-			["class_index"] = 10,
+			["minimapPos"] = 253.4463397527872,
 			["data_source"] = "wowtbc",
 			["version"] = 6.1,
 		},
