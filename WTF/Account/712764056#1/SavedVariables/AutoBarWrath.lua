@@ -97,13 +97,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 				},
-				["AutoBarButtonCharge"] = {
+				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
+					["buttonClass"] = "AutoBarButtonTrap",
 					["square_popups"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = 2,
+					["buttonKey"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = 4,
 				},
 				["AutoBarButtonClassPets3"] = {
 					["barKey"] = "AutoBarClassBarHunter",
@@ -129,13 +129,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPets2",
 					["defaultButtonIndex"] = 8,
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
+					["buttonClass"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
-					["defaultButtonIndex"] = 4,
+					["buttonKey"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = 2,
 				},
 			},
 		},
@@ -266,12 +266,12 @@ AutoBarDB2 = {
 		["邁克爾假死 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 41989,
+					["arrangeOnUse"] = 42104,
 				},
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "珠宝加工",
+					["arrangeOnUse"] = "工程学",
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
@@ -343,7 +343,7 @@ AutoBarDB2 = {
 		["特斯拉大股東 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 41989,
+					["arrangeOnUse"] = 42104,
 				},
 				["AutoBarButtonMount"] = {
 				},
@@ -457,13 +457,13 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 				},
-				["AutoBarButtonCharge"] = {
+				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
+					["buttonClass"] = "AutoBarButtonTrap",
 					["square_popups"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = 2,
+					["buttonKey"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = 4,
 				},
 				["AutoBarButtonClassPets3"] = {
 					["barKey"] = "AutoBarClassBarHunter",
@@ -489,13 +489,13 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonClassPets2",
 					["defaultButtonIndex"] = 8,
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
+					["buttonClass"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
-					["defaultButtonIndex"] = 4,
+					["buttonKey"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = 2,
 				},
 			},
 		},
@@ -613,22 +613,6 @@ AutoBarDB2 = {
 				},
 			},
 			["buttonList"] = {
-				["AutoBarButtonDebuff"] = {
-					["barKey"] = "AutoBarClassBarWarlock",
-					["buttonClass"] = "AutoBarButtonDebuff",
-					["defaultButtonIndex"] = 6,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonDebuff",
-					["square_popups"] = true,
-				},
-				["AutoBarButtonClassPet"] = {
-					["barKey"] = "AutoBarClassBarWarlock",
-					["buttonClass"] = "AutoBarButtonClassPet",
-					["defaultButtonIndex"] = 10,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonClassPet",
-					["square_popups"] = true,
-				},
 				["AutoBarButtonShields"] = {
 					["barKey"] = "AutoBarClassBarWarlock",
 					["buttonClass"] = "AutoBarButtonShields",
@@ -643,6 +627,30 @@ AutoBarDB2 = {
 					["defaultButtonIndex"] = 9,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonTrack",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonClassBuff"] = {
+					["barKey"] = "AutoBarClassBarWarlock",
+					["buttonClass"] = "AutoBarButtonClassBuff",
+					["defaultButtonIndex"] = 5,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonClassBuff",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonDebuff"] = {
+					["barKey"] = "AutoBarClassBarWarlock",
+					["buttonClass"] = "AutoBarButtonDebuff",
+					["defaultButtonIndex"] = 6,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonDebuff",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonClassPet"] = {
+					["barKey"] = "AutoBarClassBarWarlock",
+					["buttonClass"] = "AutoBarButtonClassPet",
+					["defaultButtonIndex"] = 10,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonConjure"] = {
@@ -667,14 +675,6 @@ AutoBarDB2 = {
 					["defaultButtonIndex"] = 2,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonClassPets2",
-					["square_popups"] = true,
-				},
-				["AutoBarButtonClassBuff"] = {
-					["barKey"] = "AutoBarClassBarWarlock",
-					["buttonClass"] = "AutoBarButtonClassBuff",
-					["defaultButtonIndex"] = 5,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonClassBuff",
 					["square_popups"] = true,
 				},
 			},
@@ -717,10 +717,15 @@ AutoBarDB2 = {
 				["posX"] = 548.1345679080187,
 				["hide"] = false,
 				["enabled"] = true,
+				["buttonHeight"] = 36,
 				["columns"] = 16,
-				["posY"] = 111.0937674062861,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
+				["posY"] = 111.0937674062861,
+				["allowed_class"] = "*",
+				["alpha"] = 1,
+				["padding"] = 0,
+				["dockShiftX"] = 0,
 				["buttonKeys"] = {
 					"AutoBarButtonHearth", -- [1]
 					"AutoBarButtonBandages", -- [2]
@@ -744,11 +749,6 @@ AutoBarDB2 = {
 					"AutoBarButtonTrinket1", -- [20]
 					"AutoBarButtonTrinket2", -- [21]
 				},
-				["allowed_class"] = "*",
-				["alpha"] = 1,
-				["padding"] = 0,
-				["dockShiftX"] = 0,
-				["buttonHeight"] = 36,
 			},
 			["AutoBarClassBarExtras"] = {
 				["popupDirection"] = "1",
@@ -772,16 +772,16 @@ AutoBarDB2 = {
 				["posX"] = 300,
 				["hide"] = true,
 				["enabled"] = true,
-				["alignButtons"] = "3",
+				["posY"] = 360,
 				["columns"] = 9,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
-				["scale"] = 1,
+				["alignButtons"] = "3",
 				["allowed_class"] = "*",
 				["alpha"] = 1,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["posY"] = 360,
+				["scale"] = 1,
 			},
 		},
 		["buttonList"] = {

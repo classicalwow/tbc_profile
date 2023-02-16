@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "纳克萨玛斯",
 			["Date"] = "2023-02-05",
-			["Class"] = "WARLOCK",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARLOCK",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-10273-15952-00005FA045",

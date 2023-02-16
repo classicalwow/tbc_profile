@@ -44,17 +44,7 @@ HekiliDB = {
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["runOnce"] = {
-				["forceReloadAllDefaultPriorities_20220228"] = true,
-				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
-				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
-				["forceReloadClassDefaultOptions_20220306_9"] = true,
-				["forceReloadClassDefaultOptions_20220306_3"] = true,
-				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
-				["forceReloadClassDefaultOptions_20220306_2"] = true,
-				["forceReloadClassDefaultOptions_20220306_1"] = true,
-				["resetAberrantPackageDates_20190728_1"] = true,
-			},
+			["enabled"] = false,
 			["toggles"] = {
 				["essences"] = {
 					["value"] = false,
@@ -74,25 +64,25 @@ HekiliDB = {
 					["package"] = "Protection Paladin (wowtbc.gg)",
 				}, -- [2]
 				{
-					["package"] = "my",
 					["settings"] = {
 						["marksmanship"] = "Marksmanship (wowtbc.gg)",
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
 						["survival"] = "Survival (wowtbc.gg)",
 					},
+					["package"] = "my",
 				}, -- [3]
 				[9] = {
 					["package"] = "Demonology (wowtbc.gg)",
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["group_type"] = "party",
-						["group_curse"] = "curse_of_agony",
 						["inferno_enabled"] = false,
+						["destruction"] = "Destruction",
+						["group_type"] = "party",
 						["demonology"] = "Demonology (wowtbc.gg)",
 						["shadow_mastery"] = false,
 						["affliction"] = "Affliction",
-						["destruction"] = "Destruction",
+						["group_curse"] = "curse_of_agony",
 					},
 				},
 			},
@@ -916,9 +906,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1232,8 +1222,8 @@ HekiliDB = {
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["criteria"] = "target.health.pct < 25",
 								["action"] = "drain_soul",
+								["criteria"] = "target.health.pct < 25",
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
 							}, -- [12]
 							{
@@ -1333,9 +1323,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.1-1.6.4 #",
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1587,9 +1577,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2006,9 +1996,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -2336,6 +2326,17 @@ HekiliDB = {
 					},
 					["author"] = "Icy Veins",
 				},
+			},
+			["runOnce"] = {
+				["forceReloadAllDefaultPriorities_20220228"] = true,
+				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
+				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+				["forceReloadClassDefaultOptions_20220306_9"] = true,
+				["forceReloadClassDefaultOptions_20220306_3"] = true,
+				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
+				["forceReloadClassDefaultOptions_20220306_2"] = true,
+				["forceReloadClassDefaultOptions_20220306_1"] = true,
+				["resetAberrantPackageDates_20190728_1"] = true,
 			},
 		},
 	},

@@ -74,25 +74,25 @@ HekiliDB = {
 					["package"] = "Protection Paladin (wowtbc.gg)",
 				}, -- [2]
 				{
+					["package"] = "my",
 					["settings"] = {
 						["marksmanship"] = "Marksmanship (wowtbc.gg)",
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
 						["survival"] = "Survival (wowtbc.gg)",
 					},
-					["package"] = "my",
 				}, -- [3]
 				[9] = {
 					["package"] = "Demonology (wowtbc.gg)",
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["group_curse"] = "curse_of_agony",
 						["destruction"] = "Destruction",
+						["group_curse"] = "curse_of_agony",
 						["affliction"] = "Affliction",
 						["demonology"] = "Demonology (wowtbc.gg)",
 						["shadow_mastery"] = false,
-						["inferno_enabled"] = false,
 						["group_type"] = "party",
+						["inferno_enabled"] = false,
 					},
 				},
 			},
@@ -916,9 +916,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
+								["criteria"] = "active_enemies > 3",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1233,8 +1233,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
-								["action"] = "drain_soul",
 								["criteria"] = "target.health.pct < 25",
+								["action"] = "drain_soul",
 							}, -- [12]
 							{
 								["action"] = "shadow_bolt",
@@ -1336,9 +1336,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["action"] = "fel_armor",
 								["description"] = "APL v3.4.1-1.6.4 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
+								["action"] = "fel_armor",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1587,9 +1587,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
+								["action"] = "fel_armor",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2006,9 +2006,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
+								["criteria"] = "active_enemies > 3",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -2337,6 +2337,7 @@ HekiliDB = {
 					},
 				},
 			},
+			["enabled"] = false,
 		},
 	},
 }
