@@ -474,8 +474,8 @@ AtlasLootClassicDB = {
 			[45840] = "EmblemOfConquest:28",
 			[33532] = "BoJ:35",
 			[41566] = "honor:1250",
+			[34580] = "honor:3990",
 			[40718] = "EmblemOfValor:25",
-			[45833] = "EmblemOfConquest:28",
 			[33589] = "BoJ:35",
 			[16548] = "honor:2000",
 			[42611] = "honor:4480:arena:175",
@@ -696,7 +696,7 @@ AtlasLootClassicDB = {
 			[28246] = "honor:2280",
 			[41588] = "honor:5700",
 			[22872] = "honor:1250",
-			[34580] = "honor:3990",
+			[45833] = "EmblemOfConquest:28",
 			[33716] = "honor:17100",
 			[18828] = "honor:2500",
 			[18844] = "honor:2500",
@@ -849,6 +849,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 305.257928873555,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -865,9 +868,6 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 305.257928873555,
-			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			["GUI"] = {
@@ -875,8 +875,8 @@ AtlasLootClassicDB = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
-					-127.6140289306641, -- [4]
-					54.81240081787109, -- [5]
+					-150.732177734375, -- [4]
+					55.58287048339844, -- [5]
 				},
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]

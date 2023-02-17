@@ -26,19 +26,19 @@ HekiliDB = {
 					["y"] = -280.0000305175781,
 				},
 				["Primary"] = {
-					["y"] = -67.0404281616211,
-					["x"] = -34.38767242431641,
+					["y"] = -116.0020370483398,
+					["x"] = -57.11985397338867,
 					["rel"] = "CENTER",
 				},
 				["AOE"] = {
 					["rel"] = "CENTER",
-					["y"] = -67.4137191772461,
-					["x"] = 139.308349609375,
+					["y"] = -115.2096710205078,
+					["x"] = 112.4958572387695,
 				},
 				["Defensives"] = {
 					["rel"] = "CENTER",
 					["y"] = -224.9999542236328,
-					["x"] = -110.0000076293945,
+					["x"] = -110.0000152587891,
 				},
 			},
 			["iconStore"] = {
@@ -74,31 +74,35 @@ HekiliDB = {
 					["package"] = "Protection Paladin (wowtbc.gg)",
 				}, -- [2]
 				{
-					["package"] = "my",
 					["settings"] = {
 						["marksmanship"] = "Marksmanship (wowtbc.gg)",
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
 						["survival"] = "Survival (wowtbc.gg)",
 					},
+					["package"] = "my",
 				}, -- [3]
 				[9] = {
-					["package"] = "Demonology (wowtbc.gg)",
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["destruction"] = "Destruction",
-						["group_curse"] = "curse_of_agony",
-						["affliction"] = "Affliction",
-						["demonology"] = "Demonology (wowtbc.gg)",
 						["shadow_mastery"] = false,
 						["group_type"] = "party",
+						["group_curse"] = "curse_of_agony",
+						["demonology"] = "Demonology (wowtbc.gg)",
+						["destruction"] = "Destruction",
 						["inferno_enabled"] = false,
+						["affliction"] = "Affliction",
+					},
+					["autoPacks"] = {
+						["demonology"] = "Demonology (wowtbc.gg)",
+						["affliction"] = "Affliction",
+						["destruction"] = "Destruction",
 					},
 				},
 			},
 			["notifications"] = {
-				["x"] = 41.38317489624023,
-				["y"] = 23.31549263000488,
+				["x"] = 41.3831787109375,
+				["y"] = 23.31549453735352,
 			},
 			["packs"] = {
 				["my"] = {
@@ -916,9 +920,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
-								["criteria"] = "active_enemies > 3",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1305,7 +1309,7 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["criteria"] = "active_enemies = 1 & target.health.pct > 26",
-								["action"] = "run_action_list",
+								["action"] = "banish",
 								["list_name"] = "st",
 							}, -- [1]
 							{
@@ -1336,9 +1340,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "fel_armor",
 								["description"] = "APL v3.4.1-1.6.4 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
-								["action"] = "fel_armor",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1587,9 +1591,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
-								["action"] = "fel_armor",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2006,9 +2010,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
-								["criteria"] = "active_enemies > 3",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -2337,7 +2341,6 @@ HekiliDB = {
 					},
 				},
 			},
-			["enabled"] = false,
 		},
 	},
 }

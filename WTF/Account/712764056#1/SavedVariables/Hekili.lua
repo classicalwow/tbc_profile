@@ -27,27 +27,37 @@ HekiliDB = {
 				},
 				["Primary"] = {
 					["rel"] = "CENTER",
-					["y"] = -67.0404281616211,
-					["x"] = -34.38767242431641,
+					["y"] = -116.0020370483398,
+					["x"] = -57.11985397338867,
 				},
 				["AOE"] = {
 					["rel"] = "CENTER",
-					["y"] = -67.4137191772461,
-					["x"] = 139.308349609375,
+					["y"] = -115.2096710205078,
+					["x"] = 112.4958572387695,
 				},
 				["Defensives"] = {
 					["rel"] = "CENTER",
 					["y"] = -224.9999542236328,
-					["x"] = -110.0000076293945,
+					["x"] = -110.0000152587891,
 				},
 			},
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["enabled"] = false,
+			["runOnce"] = {
+				["forceReloadAllDefaultPriorities_20220228"] = true,
+				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
+				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+				["forceReloadClassDefaultOptions_20220306_9"] = true,
+				["forceReloadClassDefaultOptions_20220306_3"] = true,
+				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
+				["forceReloadClassDefaultOptions_20220306_2"] = true,
+				["forceReloadClassDefaultOptions_20220306_1"] = true,
+				["resetAberrantPackageDates_20190728_1"] = true,
+			},
 			["toggles"] = {
-				["essences"] = {
-					["value"] = false,
+				["cooldowns"] = {
+					["value"] = true,
 				},
 				["mode"] = {
 					["value"] = "single",
@@ -72,23 +82,27 @@ HekiliDB = {
 					["package"] = "my",
 				}, -- [3]
 				[9] = {
-					["package"] = "Demonology (wowtbc.gg)",
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["inferno_enabled"] = false,
-						["destruction"] = "Destruction",
-						["group_type"] = "party",
-						["demonology"] = "Demonology (wowtbc.gg)",
 						["shadow_mastery"] = false,
+						["group_type"] = "party",
+						["destruction"] = "Destruction",
+						["demonology"] = "Demonology (wowtbc.gg)",
 						["affliction"] = "Affliction",
+						["inferno_enabled"] = true,
 						["group_curse"] = "curse_of_agony",
+					},
+					["autoPacks"] = {
+						["demonology"] = "Demonology (wowtbc.gg)",
+						["affliction"] = "Affliction",
+						["destruction"] = "Destruction",
 					},
 				},
 			},
 			["notifications"] = {
-				["x"] = 41.38317489624023,
-				["y"] = 23.31549263000488,
+				["x"] = 41.3831787109375,
+				["y"] = 23.31549453735352,
 			},
 			["packs"] = {
 				["my"] = {
@@ -906,9 +920,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1275,7 +1289,7 @@ HekiliDB = {
 				},
 				["Affliction"] = {
 					["builtIn"] = true,
-					["date"] = 20230208,
+					["date"] = 20230217.000211,
 					["author"] = "Kiloc",
 					["lists"] = {
 						["life"] = {
@@ -1291,7 +1305,7 @@ HekiliDB = {
 						["default"] = {
 							{
 								["enabled"] = true,
-								["action"] = "run_action_list",
+								["action"] = "call_action_list",
 								["criteria"] = "active_enemies = 1 & target.health.pct > 26",
 								["list_name"] = "st",
 							}, -- [1]
@@ -1323,9 +1337,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["action"] = "fel_armor",
 								["description"] = "APL v3.4.1-1.6.4 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
+								["action"] = "fel_armor",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1577,9 +1591,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1996,9 +2010,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -2326,17 +2340,6 @@ HekiliDB = {
 					},
 					["author"] = "Icy Veins",
 				},
-			},
-			["runOnce"] = {
-				["forceReloadAllDefaultPriorities_20220228"] = true,
-				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
-				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
-				["forceReloadClassDefaultOptions_20220306_9"] = true,
-				["forceReloadClassDefaultOptions_20220306_3"] = true,
-				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
-				["forceReloadClassDefaultOptions_20220306_2"] = true,
-				["forceReloadClassDefaultOptions_20220306_1"] = true,
-				["resetAberrantPackageDates_20190728_1"] = true,
 			},
 		},
 	},

@@ -149,8 +149,60 @@ BisTooltipDB = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			["minimapPos"] = 253.4463397527872,
-			["spec_index"] = 2,
 			["phase_index"] = 3,
+			["filter_specs"] = {
+				["Warrior"] = {
+					["Fury"] = true,
+					["Protection"] = true,
+					["Arms"] = true,
+				},
+				["Paladin"] = {
+					["Protection"] = true,
+					["Holy"] = true,
+					["Retribution"] = true,
+				},
+				["Shaman"] = {
+					["Enhancement"] = true,
+					["Elemental"] = true,
+					["Restoration"] = true,
+				},
+				["Rogue"] = {
+					["Combat"] = true,
+					["Assassination"] = true,
+				},
+				["Mage"] = {
+					["Frost"] = true,
+					["Fire"] = true,
+					["Fire FFB"] = true,
+					["Arcane"] = true,
+				},
+				["Warlock"] = {
+					["Demonology"] = true,
+					["Affliction"] = true,
+					["Destruction"] = true,
+				},
+				["Death knight"] = {
+					["Unholy"] = true,
+					["Frost"] = true,
+					["Blood tank"] = true,
+				},
+				["Hunter"] = {
+					["Marksmanship"] = true,
+					["Survival"] = true,
+					["Beast mastery"] = true,
+				},
+				["Druid"] = {
+					["Restoration"] = true,
+					["Balance"] = true,
+					["Feral dps"] = true,
+					["Feral tank"] = true,
+				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Shadow"] = true,
+					["Holy"] = true,
+				},
+			},
 			["class_index"] = 10,
 			["data_source"] = "wowtbc",
 			["version"] = 6.1,

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 1343,
+	["session"] = 1359,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -1790,21 +1790,13 @@ BugGrabberDB = {
 			["counter"] = 9,
 		}, -- [233]
 		{
-			["message"] = "Interface/AddOns/ItemRack/ItemRack.lua:2006: Usage: SaveBindings(1||2)",
-			["time"] = "2023/02/04 13:26:02",
-			["locals"] = "(*temporary) = 0\n",
-			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:2006: in function `SetSetBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:265: in function `?'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:230: in function `OnEvent'\n[string \"*ItemRack.xml:4_OnEvent\"]:1: in function <[string \"*ItemRack.xml:4_OnEvent\"]:1>",
-			["session"] = 1302,
-			["counter"] = 7,
-		}, -- [234]
-		{
 			["message"] = "Interface_Wrath/FrameXML/PetStable.lua:180: bad argument #4 to 'format' (string expected, got nil)",
 			["time"] = "2023/02/12 15:02:16",
 			["locals"] = "(*temporary) = \"等级%1$d %2$s|n%3$s\"\n(*temporary) = 80\n(*temporary) = \"恶魔卫士\"\n(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `format'\n[string \"@Interface_Wrath/FrameXML/PetStable.lua\"]:180: in function <Interface_Wrath/FrameXML/PetStable.lua:42>\n[string \"=[C]\"]: in function `PetStable_Update'\n[string \"@Interface_Wrath/FrameXML/PetStable.lua\"]:28: in function <Interface_Wrath/FrameXML/PetStable.lua:13>",
 			["session"] = 1310,
 			["counter"] = 5,
-		}, -- [235]
+		}, -- [234]
 		{
 			["message"] = "Interface/AddOns/ItemRack/ItemRack.lua:1242: calling 'GetName' on bad self (Usage: local name = self:GetName())",
 			["time"] = "2023/02/05 16:14:15",
@@ -1812,14 +1804,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:1242: in function `func'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:968: in function `OnUpdate'\n[string \"*ItemRack.xml:7_OnUpdate\"]:1: in function <[string \"*ItemRack.xml:7_OnUpdate\"]:1>",
 			["session"] = 1311,
 			["counter"] = 55,
-		}, -- [236]
+		}, -- [235]
 		{
 			["message"] = "光环'Resources - Warlock'的Lua错误：更新位置\nWeakAuras 版本：5.3.7\n光环版本：2.0.27\n[string \"return function() local local_env = aura_en...\"]:798: bad argument #1 to 'unpack' (table expected, got nil)",
 			["time"] = "2023/02/06 21:21:33",
 			["stack"] = "[string \"=[C]\"]: in function `unpack'\n[string \"return function() local local_env = aura_env\"]:798: in function `UpdateBar'\n[string \"return function() local local_env = aura_env\"]:361: in function `InitResource'\n[string \"return function() local local_env = aura_env\"]:379: in function <[string \"return function() local local_env = aura_en...\"]:309>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua\"]:50: in function <...e/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua:46>",
 			["session"] = 1313,
 			["counter"] = 3,
-		}, -- [237]
+		}, -- [236]
 		{
 			["message"] = "Interface/FrameXML/ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
 			["time"] = "2023/02/04 20:22:35",
@@ -1827,7 +1819,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1060: in function <Interface/FrameXML/ChatFrame.lua:1055>",
 			["session"] = 1320,
 			["counter"] = 56,
-		}, -- [238]
+		}, -- [237]
 		{
 			["message"] = "...terface/AddOns/GlobalIgnoreList/GlobalIgnoreList.lua:1018: attempt to perform arithmetic on a nil value",
 			["time"] = "2023/02/15 22:48:42",
@@ -1835,7 +1827,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/GlobalIgnoreList/GlobalIgnoreList.lua\"]:1018: in function `filterComplex'\n[string \"@Interface/AddOns/GlobalIgnoreList/GlobalIgnoreList.lua\"]:1666: in function `filterFunc'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:1824: in function `ChatFrame_MessageEventHandler'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:2271: in function <Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2267>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:2275: in function `FloatingChatFrame_OnEvent'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:2280: in function <Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2279>",
 			["session"] = 1327,
 			["counter"] = 1,
-		}, -- [239]
+		}, -- [238]
 		{
 			["message"] = "...e/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua:248: assertion failed!",
 			["time"] = "2023/02/05 01:21:53",
@@ -1843,7 +1835,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:248: in function `callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/DefaultUI.lua\"]:148: in function `HandleEvent'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/DefaultUI.lua\"]:43: in function `callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:132: in function `ProcessEvent'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:150: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>\n[string \"=[C]\"]: in function `CloseAuctionHouse'\n[string \"@Interface/AddOns/aux-addon/frame.lua\"]:29: in function <Interface/AddOns/aux-addon/frame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/aux-addon/aux-addon.lua\"]:207: in function `?'\n[string \"@Interface/AddOns/aux-addon/aux-addon.lua\"]:40: in function <Interface/AddOns/aux-addon/aux-addon.lua:28>",
 			["session"] = 1332,
 			["counter"] = 14,
-		}, -- [240]
+		}, -- [239]
 		{
 			["message"] = "...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:146: assertion failed!",
 			["time"] = "2023/02/05 01:22:13",
@@ -1851,7 +1843,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:146: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>",
 			["session"] = 1332,
 			["counter"] = 132,
-		}, -- [241]
+		}, -- [240]
 		{
 			["message"] = "...Master/LibTSM/Service/ItemTooltipClasses/Builder.lua:240: assertion failed!",
 			["time"] = "2023/02/05 01:22:16",
@@ -1859,7 +1851,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Builder.lua\"]:240: in function <...Master/LibTSM/Service/ItemTooltipClasses/Builder.lua:239>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass-2/LibTSMClass.lua\"]:332: in function `_IsEmpty'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:212: in function `SetTooltipItem'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:152: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:482: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:476>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n...\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:106: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:104>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:408: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:402>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetInboxItem'\n[string \"@Interface/FrameXML/MailFrame.lua\"]:314: in function `InboxFrameItem_OnEnter'\n[string \"@Interface/AddOns/Postal/Modules/Express.lua\"]:100: in function <Interface/AddOns/Postal/Modules/Express.lua:99>\n[string \"=(tail call)\"]: ?\n[string \"*MailFrame.xml:152_OnUpdate\"]:2: in function <[string \"*MailFrame.xml:152_OnUpdate\"]:1>",
 			["session"] = 1332,
 			["counter"] = 287,
-		}, -- [242]
+		}, -- [241]
 		{
 			["message"] = "...ce/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua:51: Could not acquire temp table",
 			["time"] = "2023/02/05 01:22:14",
@@ -1867,7 +1859,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua\"]:51: in function `Acquire'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:142: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>",
 			["session"] = 1332,
 			["counter"] = 1867,
-		}, -- [243]
+		}, -- [242]
 		{
 			["message"] = "Interface/AddOns/WIM/Sources/Options/CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
 			["time"] = "2023/02/05 13:05:54",
@@ -1875,7 +1867,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/WIM/Sources/Options/CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:194: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:188>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:289: in function `UpdateSubCategories'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:104: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:335: in function `ShowOptions'\n[string \"@Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua\"]:11: in function <Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:216: in function `CallSkin'\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:310: in function `?'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:109: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:109>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...UI_Libraries/Core/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>",
 			["session"] = 1336,
 			["counter"] = 11,
-		}, -- [244]
+		}, -- [243]
 		{
 			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
 			["time"] = "2023/02/04 22:04:35",
@@ -1883,22 +1875,38 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
 			["session"] = 1338,
 			["counter"] = 624,
-		}, -- [245]
-		{
-			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2023/02/04 20:26:27",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:385: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:428: in function `InspectFrame_LoadUI'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:733: in function `InspectUnit'\n[string \"@Interface/FrameXML/UnitPopupSharedButtonMixins.lua\"]:200: in function `OnClick'\n[string \"@Interface/FrameXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/FrameXML/UIDropDownMenu.lua\"]:948: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1>",
-			["session"] = 1343,
-			["counter"] = 88,
-		}, -- [246]
+		}, -- [244]
 		{
 			["message"] = "Interface/AddOns/Blizzard_AuctionUI/Localization.lua:10: attempt to index global 'BrowseBidText' (a nil value)",
 			["time"] = "2023/01/31 21:49:53",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"BOTTOMLEFT\"\n(*temporary) = \"AuctionFrameBrowse\"\n(*temporary) = \"TOPLEFT\"\n(*temporary) = 230\n(*temporary) = -56\n(*temporary) = AuctionFrameBrowse {\n 0 = <userdata>\n FilterButtons = <table> {\n }\n isSearchingThrottle = 0\n page = 0\n dotCount = 0\n}\n(*temporary) = <userdata>\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'BrowseBidText' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_AuctionUI/Localization.lua\"]:10: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:44: in function `pendingCallback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:171: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:136>",
-			["session"] = 1343,
-			["counter"] = 92,
+			["session"] = 1344,
+			["counter"] = 93,
+		}, -- [245]
+		{
+			["message"] = "Interface/AddOns/ItemRack/ItemRack.lua:2006: Usage: SaveBindings(1||2)",
+			["time"] = "2023/02/04 13:26:02",
+			["locals"] = "(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:2006: in function `SetSetBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:265: in function `?'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:230: in function `OnEvent'\n[string \"*ItemRack.xml:4_OnEvent\"]:1: in function <[string \"*ItemRack.xml:4_OnEvent\"]:1>",
+			["session"] = 1345,
+			["counter"] = 8,
+		}, -- [246]
+		{
+			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2023/02/04 20:26:27",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:385: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:428: in function `InspectFrame_LoadUI'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:733: in function `InspectUnit'\n[string \"@Interface/FrameXML/UnitPopupSharedButtonMixins.lua\"]:200: in function `OnClick'\n[string \"@Interface/FrameXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/FrameXML/UIDropDownMenu.lua\"]:948: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1>",
+			["session"] = 1359,
+			["counter"] = 104,
 		}, -- [247]
+		{
+			["message"] = "Interface/AddOns/DBM-Core/DBM-Core.lua:4015: attempt to compare nil with number",
+			["time"] = "2023/02/16 22:07:27",
+			["locals"] = "revision = 20230214205020\nversion = 20230214000000\ndisplayVersion = \"3.4.31\"\nsender = \"隔壁班噁女\"\n(*temporary) = nil\n(*temporary) = 30401\n(*temporary) = \"Newer version detected from 隔壁班噁女 : Rev - 20230214205020, Ver - 20230214000000, Rev Diff - 12150571\"\n(*temporary) = 3\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to compare nil with number\"\nDBM = <table> {\n SelectGossip = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2673\n GetUnitIdFromCID = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2598\n CHAT_MSG_ADDON_LOGGED = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:4346\n StopLogging = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:5585\n FindScenarioIDs = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6556\n GetNumGuildPlayersInZone = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2339\n VibrateController = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6522\n FindDungeonMapIDs = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6548\n GetUnitIdFromGUID = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2420\n CopyProfile = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:1839\n CHAT_MSG_MONSTER_EMOTE = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:4693\n CHAT_MSG_WHISPER = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6294\n SendPVPTimers = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6099\n DeleteProfile = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:1856\n DungeonMusic = <table> {\n }\n ShowUpdateReminder = <function> defined @Interface/AddOns/DBM-Core/modules/UpdateReminder.lua:76\n GetRaidRoster = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2375\n PLAYER_REGEN_DISABLED = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:4458\n FireEvent = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:1747\n CreateModLocalization = <function> defined @Interface/AddOns/DBM-Core/modules/objects/Localization.lua:89\n SCENARIO_COMPLETED = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:3303\n IsEnabled = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6379\n GetMyPlayerInfo = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2443\n ADDON_LOADED = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:1430\n NewerVersion = \"3.4.31\"\n IconNumToTexture = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6537\n BattleMusic = <table> {\n }\n INSTANCE_GROUP_SIZE_CHANGED = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2310\n AddDefeatSound = <function> defined @Interface/AddOns/DBM-Core/modules/Sounds.lua:106\n GetBossUnitId = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2580\n AddDefaultOptions = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2686\n UPDATE_MOUSEOVER_UNIT = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:3632\n InfoFrame = <table> {\n }\n FilterRaidBossEmote = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:1263\n RequestTimers = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:5998\n UPDATE_BATTLEFIELD_STATUS = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:3281\n CheckNearby = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:2622\n CHAT_MSG_MONSTER_YELL = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:4658\n SendCombatInfo = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6120\n LFG_PROPOSAL_SHOW = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:3197\n ReleaseRevision = 20230201000000\n NewMod = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:6620\n VoiceVersions = <table> {\n }\n Voices = <table> {\n }\n RegisterShortTermEvents = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:1201\n AddOns = <table> {\n }\n LOADING_SCREEN_DISABLED = <function> defined @Interface/AddOns/DBM-Core/DBM-Core.lua:3465\n GetUnitFullName = <function> defined @Interface/AddOns/DB",
+			["stack"] = "[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:4015: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:3983>\n[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:4071: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:4061>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:4349: in function `handler'\n[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:932: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:919>",
+			["session"] = 1359,
+			["counter"] = 12,
+		}, -- [248]
 	},
 }
