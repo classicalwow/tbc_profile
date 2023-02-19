@@ -1,3 +1,6 @@
+VER 3 0000000001000022 "1" "134072"
+/s 111111111
+END
 VER 3 000000000100001F "target" "135769"
 /target 乌
 /script SetRaidTarget("target",8)

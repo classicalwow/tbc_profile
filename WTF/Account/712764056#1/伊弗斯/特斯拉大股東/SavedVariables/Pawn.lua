@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0716,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 40421,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40421::::::::80:::::::::|h[勇猛的天灾之心头饰]|h|r",
+			["ID"] = 46140,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46140::::::::80:::::::::|h[征服者的死亡信使兜帽]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 44661,
@@ -31,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45508::::::::80:::::::::|h[暗语者腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 42004,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:42004::::::::80:::::::::|h[致命角斗士的邪纹长裤]|h|r",
+			["ID"] = 46139,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46139::::::::80:::::::::|h[征服者的死亡信使护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 40326,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45511::::::::80:::::::::|h[迷失灵魂节杖]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

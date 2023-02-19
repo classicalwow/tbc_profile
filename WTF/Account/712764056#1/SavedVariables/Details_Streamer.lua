@@ -2,9 +2,9 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["特變電工 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
-		["特斯拉大股東 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
-		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+		["特斯拉大股東 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 	},
 	["profiles"] = {
 		["邁克爾假死 - 伊弗斯"] = {
@@ -29,19 +29,14 @@ Details_StreamerDB = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
-			["author"] = "Details! Team",
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["y"] = 0,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -53,6 +48,11 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -62,8 +62,8 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 0,
 			["use_spark"] = true,
-			["font_size"] = 10,
 			["x"] = -3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

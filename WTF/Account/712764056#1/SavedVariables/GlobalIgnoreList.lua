@@ -3,7 +3,7 @@ GlobalIgnoreDB = {
 	["filterCount"] = {
 		0, -- [1]
 		0, -- [2]
-		0, -- [3]
+		1, -- [3]
 		0, -- [4]
 		0, -- [5]
 		0, -- [6]
@@ -14,11 +14,9 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 		"player", -- [1]
-		"player", -- [2]
-		"player", -- [3]
 	},
-	["invertSpam"] = false,
 	["openWithFriends"] = true,
+	["invertSpam"] = false,
 	["skipPrivate"] = true,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
@@ -34,37 +32,36 @@ GlobalIgnoreDB = {
 	},
 	["autoUpdate"] = true,
 	["autoCount"] = 3,
-	["sameserver"] = true,
-	["ignoreList"] = {
+	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
 		"大圣商行-伊弗斯", -- [3]
+	},
+	["syncInfo"] = {
+		{
+			"邁克爾假死-伊弗斯@1", -- [1]
+		}, -- [1]
 	},
 	["autoTime"] = 600,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
-		"Horde", -- [2]
-		"Horde", -- [3]
 	},
-	["dateList"] = {
-		"15 Feb 2023", -- [1]
-		"15 Feb 2023", -- [2]
-		"15 Feb 2023", -- [3]
-	},
-	["delList"] = {
-	},
+	["defexpire"] = 0,
+	["sameserver"] = true,
 	["attachFriends"] = true,
-	["revision"] = 1,
+	["notes"] = {
+		"广告工作室", -- [1]
+	},
 	["expList"] = {
 		0, -- [1]
-		0, -- [2]
-		0, -- [3]
 	},
-	["skipParty"] = false,
+	["skipGuild"] = true,
 	["chatmsg"] = true,
-	["filterTotal"] = 0,
-	["defexpire"] = 0,
+	["filterTotal"] = 1,
+	["dateList"] = {
+		"18 Feb 2023", -- [1]
+	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -91,20 +88,11 @@ GlobalIgnoreDB = {
 		false, -- [10]
 	},
 	["asknote"] = true,
-	["skipGuild"] = true,
-	["notes"] = {
-		"", -- [1]
-		"", -- [2]
-		"商人", -- [3]
-	},
+	["skipParty"] = false,
+	["revision"] = 1,
 	["trackChanges"] = true,
 	["samefaction"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
+	["ignoreList"] = {
+		"老默我想吃鱼-伊弗斯", -- [1]
 	},
 }

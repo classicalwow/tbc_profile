@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 1360,
 	["lastSanitation"] = 3,
+	["session"] = 1397,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["session"] = 47,
 			["time"] = "2021/06/08 20:55:27",
+			["session"] = 47,
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["session"] = 333,
 			["time"] = "2021/08/22 00:26:04",
+			["session"] = 333,
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -529,14 +529,14 @@ BugGrabberDB = {
 		}, -- [68]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [69]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [70]
 		{
@@ -642,14 +642,14 @@ BugGrabberDB = {
 		}, -- [83]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [84]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [85]
 		{
@@ -724,14 +724,14 @@ BugGrabberDB = {
 		}, -- [94]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [95]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [96]
 		{
@@ -751,14 +751,14 @@ BugGrabberDB = {
 		}, -- [98]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [99]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [100]
 		{
@@ -881,56 +881,56 @@ BugGrabberDB = {
 		}, -- [115]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-EditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [116]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Heading.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [117]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [118]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-InteractiveLabel.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [119]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Keybinding.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [120]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Label.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [121]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-MultiLineEditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [122]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Slider.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [123]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-ColorPicker.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 2,
 		}, -- [124]
 		{
@@ -1404,8 +1404,8 @@ BugGrabberDB = {
 		}, -- [184]
 		{
 			["message"] = "Error loading WTF\\Account\\712764056#1\\SavedVariables\\ArkInventory-31010.lua",
-			["time"] = "2022/12/02 21:14:42",
 			["session"] = 1068,
+			["time"] = "2022/12/02 21:14:42",
 			["counter"] = 2,
 		}, -- [185]
 		{
@@ -1806,28 +1806,13 @@ BugGrabberDB = {
 			["counter"] = 55,
 		}, -- [235]
 		{
-			["message"] = "光环'Resources - Warlock'的Lua错误：更新位置\nWeakAuras 版本：5.3.7\n光环版本：2.0.27\n[string \"return function() local local_env = aura_en...\"]:798: bad argument #1 to 'unpack' (table expected, got nil)",
-			["time"] = "2023/02/06 21:21:33",
-			["stack"] = "[string \"=[C]\"]: in function `unpack'\n[string \"return function() local local_env = aura_env\"]:798: in function `UpdateBar'\n[string \"return function() local local_env = aura_env\"]:361: in function `InitResource'\n[string \"return function() local local_env = aura_env\"]:379: in function <[string \"return function() local local_env = aura_en...\"]:309>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua\"]:50: in function <...e/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua:46>",
-			["session"] = 1313,
-			["counter"] = 3,
-		}, -- [236]
-		{
-			["message"] = "Interface/FrameXML/ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
-			["time"] = "2023/02/04 20:22:35",
-			["locals"] = "Skipped (In Encounter)",
-			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1060: in function <Interface/FrameXML/ChatFrame.lua:1055>",
-			["session"] = 1320,
-			["counter"] = 56,
-		}, -- [237]
-		{
 			["message"] = "...terface/AddOns/GlobalIgnoreList/GlobalIgnoreList.lua:1018: attempt to perform arithmetic on a nil value",
 			["time"] = "2023/02/15 22:48:42",
 			["locals"] = "filterStr = nil\nchatStr = \"|hspell:16194|h[潮汐掌握]|h|r现在还是说明错误，实际加5%暴击么？\"\nchNum = 6\nchatData = <table> {\n}\nitemID = <table> {\n}\nspellID = <table> {\n}\nachieveID = <table> {\n}\npetID = <table> {\n}\ntalentID = <table> {\n}\ngmatch = <function> defined =[C]:-1\nsub = <function> defined =[C]:-1\nfind = <function> defined =[C]:-1\nlower = <function> defined =[C]:-1\nchar = <function> defined =[C]:-1\nlen = <function> defined =[C]:-1\nicons = 0\npos1 = 1\n(*temporary) = 1\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"|hspell:16194|h[潮汐掌握]|h|r现在还是说明错误，实际加5%暴击么？\"\n(*temporary) = 9\n(*temporary) = nil\n(*temporary) = \"|hspell:16194|h[潮汐掌握]|h|r现在还是说明错误，实际加5%暴击么？\"\n(*temporary) = \":\"\n(*temporary) = 10\n(*temporary) = true\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on a nil value\"\n",
 			["stack"] = "[string \"@Interface/AddOns/GlobalIgnoreList/GlobalIgnoreList.lua\"]:1018: in function `filterComplex'\n[string \"@Interface/AddOns/GlobalIgnoreList/GlobalIgnoreList.lua\"]:1666: in function `filterFunc'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:1824: in function `ChatFrame_MessageEventHandler'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:2271: in function <Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2267>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:2275: in function `FloatingChatFrame_OnEvent'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:2280: in function <Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2279>",
 			["session"] = 1327,
 			["counter"] = 1,
-		}, -- [238]
+		}, -- [236]
 		{
 			["message"] = "...e/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua:248: assertion failed!",
 			["time"] = "2023/02/05 01:21:53",
@@ -1835,7 +1820,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:248: in function `callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/DefaultUI.lua\"]:148: in function `HandleEvent'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/DefaultUI.lua\"]:43: in function `callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:132: in function `ProcessEvent'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:150: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>\n[string \"=[C]\"]: in function `CloseAuctionHouse'\n[string \"@Interface/AddOns/aux-addon/frame.lua\"]:29: in function <Interface/AddOns/aux-addon/frame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/aux-addon/aux-addon.lua\"]:207: in function `?'\n[string \"@Interface/AddOns/aux-addon/aux-addon.lua\"]:40: in function <Interface/AddOns/aux-addon/aux-addon.lua:28>",
 			["session"] = 1332,
 			["counter"] = 14,
-		}, -- [239]
+		}, -- [237]
 		{
 			["message"] = "...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:146: assertion failed!",
 			["time"] = "2023/02/05 01:22:13",
@@ -1843,7 +1828,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:146: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>",
 			["session"] = 1332,
 			["counter"] = 132,
-		}, -- [240]
+		}, -- [238]
 		{
 			["message"] = "...Master/LibTSM/Service/ItemTooltipClasses/Builder.lua:240: assertion failed!",
 			["time"] = "2023/02/05 01:22:16",
@@ -1851,7 +1836,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Builder.lua\"]:240: in function <...Master/LibTSM/Service/ItemTooltipClasses/Builder.lua:239>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass-2/LibTSMClass.lua\"]:332: in function `_IsEmpty'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:212: in function `SetTooltipItem'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:152: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:482: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:476>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n...\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:106: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:104>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:408: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:402>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetInboxItem'\n[string \"@Interface/FrameXML/MailFrame.lua\"]:314: in function `InboxFrameItem_OnEnter'\n[string \"@Interface/AddOns/Postal/Modules/Express.lua\"]:100: in function <Interface/AddOns/Postal/Modules/Express.lua:99>\n[string \"=(tail call)\"]: ?\n[string \"*MailFrame.xml:152_OnUpdate\"]:2: in function <[string \"*MailFrame.xml:152_OnUpdate\"]:1>",
 			["session"] = 1332,
 			["counter"] = 287,
-		}, -- [241]
+		}, -- [239]
 		{
 			["message"] = "...ce/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua:51: Could not acquire temp table",
 			["time"] = "2023/02/05 01:22:14",
@@ -1859,15 +1844,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua\"]:51: in function `Acquire'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:142: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>",
 			["session"] = 1332,
 			["counter"] = 1867,
-		}, -- [242]
-		{
-			["message"] = "Interface/AddOns/WIM/Sources/Options/CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
-			["time"] = "2023/02/05 13:05:54",
-			["locals"] = "frame = WIM3_OptionFrameFrame1 {\n ImportCustomObject = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:401\n welcome = WIM3_OptionFrameFrame2 {\n }\n CreateDropDownMenu = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:184\n CreateColorPicker = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:76\n CreateCheckButtonMenu = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:311\n lastObj = WIM3_OptionFrameFrame2 {\n }\n nextOffsetX = 0\n CreateButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:66\n CreateCheckButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n nextOffSetY = 0\n CreateSlider = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:129\n 0 = <userdata>\n CreateSection = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:356\n CreateText = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:343\n SetFullSize = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:61\n CreateFramedPanel = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:395\n}\n(*temporary) = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:260\n Text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n UpdateChildren = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:284\n _Enable = <function> defined =[C]:-1\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n isCheckButton = true\n _Disable = <function> defined =[C]:-1\n children = <table> {\n }\n Disable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:272\n}\n(*temporary) = \"小地图按钮自由移动\"\n(*temporary) = nil\n(*temporary) = <table> {\n enabled = false\n OnDisable = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:412\n RegisterWidget = <function> defined @Interface/AddOns/WIM/WIM.lua:313\n OnEnable = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:394\n Enable = <function> defined @Interface/AddOns/WIM/WIM.lua:309\n OnDisableWIM = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:383\n canDisable = true\n OnEnableWIM = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:372\n dPrint = <function> defined @Interface/AddOns/WIM/WIM.lua:311\n enableByDefault = true\n title = \"MinimapIcon\"\n RegisterEvent = <function> defined @Interface/AddOns/WIM/WIM.lua:308\n db_defaults = <table> {\n }\n resources = <table> {\n }\n hasWidget = false\n Disable = <function> defined @Interface/AddOns/WIM/WIM.lua:310\n}\n(*temporary) = \"enabled\"\n(*temporary) = nil\n(*temporary) = <function> defined @Interface/AddOns/WIM/Sources/Options/CoreOptions.lua:36\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:260\n Text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n UpdateChildren = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:284\n _Enable = <function> defined =[C]:-1\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n isCheckButton = true\n _Disable = <function> defined =[C]:-1\n children = <table> {\n }\n Disable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:272\n}\n(*temporary) = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:48\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:260\n Text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Inte",
-			["stack"] = "[string \"@Interface/AddOns/WIM/Sources/Options/CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:194: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:188>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:289: in function `UpdateSubCategories'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:104: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:335: in function `ShowOptions'\n[string \"@Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua\"]:11: in function <Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:216: in function `CallSkin'\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:310: in function `?'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:109: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:109>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...UI_Libraries/Core/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>",
-			["session"] = 1336,
-			["counter"] = 11,
-		}, -- [243]
+		}, -- [240]
 		{
 			["message"] = "Interface/AddOns/Blizzard_AuctionUI/Localization.lua:10: attempt to index global 'BrowseBidText' (a nil value)",
 			["time"] = "2023/01/31 21:49:53",
@@ -1875,23 +1852,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_AuctionUI/Localization.lua\"]:10: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:44: in function `pendingCallback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:171: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:136>",
 			["session"] = 1344,
 			["counter"] = 93,
-		}, -- [244]
-		{
-			["message"] = "Interface/AddOns/ItemRack/ItemRack.lua:2006: Usage: SaveBindings(1||2)",
-			["time"] = "2023/02/04 13:26:02",
-			["locals"] = "(*temporary) = 0\n",
-			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:2006: in function `SetSetBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:265: in function `?'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:230: in function `OnEvent'\n[string \"*ItemRack.xml:4_OnEvent\"]:1: in function <[string \"*ItemRack.xml:4_OnEvent\"]:1>",
-			["session"] = 1345,
-			["counter"] = 8,
-		}, -- [245]
-		{
-			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2023/02/04 20:26:27",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:385: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:428: in function `InspectFrame_LoadUI'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:733: in function `InspectUnit'\n[string \"@Interface/FrameXML/UnitPopupSharedButtonMixins.lua\"]:200: in function `OnClick'\n[string \"@Interface/FrameXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/FrameXML/UIDropDownMenu.lua\"]:948: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1>",
-			["session"] = 1360,
-			["counter"] = 105,
-		}, -- [246]
+		}, -- [241]
 		{
 			["message"] = "Interface/AddOns/DBM-Core/DBM-Core.lua:4015: attempt to compare nil with number",
 			["time"] = "2023/02/16 22:07:27",
@@ -1899,14 +1860,153 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:4015: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:3983>\n[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:4071: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:4061>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:4349: in function `handler'\n[string \"@Interface/AddOns/DBM-Core/DBM-Core.lua\"]:932: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:919>",
 			["session"] = 1360,
 			["counter"] = 19,
+		}, -- [242]
+		{
+			["message"] = "光环'Resources - Warlock'的Lua错误：更新位置\nWeakAuras 版本：5.3.7\n光环版本：2.0.27\n[string \"return function() local local_env = aura_en...\"]:798: bad argument #1 to 'unpack' (table expected, got nil)",
+			["time"] = "2023/02/06 21:21:33",
+			["stack"] = "[string \"=[C]\"]: in function `unpack'\n[string \"return function() local local_env = aura_env\"]:798: in function `UpdateBar'\n[string \"return function() local local_env = aura_env\"]:361: in function `InitResource'\n[string \"return function() local local_env = aura_env\"]:379: in function <[string \"return function() local local_env = aura_en...\"]:309>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua\"]:50: in function <...e/AddOns/WeakAuras/AuraEnvironmentWrappedSystems.lua:46>",
+			["session"] = 1382,
+			["counter"] = 6,
+		}, -- [243]
+		{
+			["message"] = "Interface/FrameXML/ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
+			["time"] = "2023/02/04 20:22:35",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1060: in function <Interface/FrameXML/ChatFrame.lua:1055>",
+			["session"] = 1383,
+			["counter"] = 88,
+		}, -- [244]
+		{
+			["message"] = "Interface/AddOns/Hekili/Options.lua:4800: attempt to concatenate field '?' (a nil value)",
+			["time"] = "2023/02/18 11:00:58",
+			["stack"] = "[string \"@Interface/AddOns/Hekili/Options.lua\"]:4800: in function `member'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:337: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:310>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1114: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1110>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1639: in function `FeedGroup'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1564: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1548>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua\"]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua\"]:300: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/widgets/AceGUIContainer-DropDownGroup.lua\"]:66: in function `SetGroup'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1700: in function `FeedGroup'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1564: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1548>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua\"]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua\"]:300: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/widgets/AceGUIContainer-TreeGroup.lua\"]:510: in function `SetSelected'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/widgets/AceGUIContainer-TreeGroup.lua\"]:185: in function <...ce3/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua:181>",
+			["session"] = 1392,
+			["counter"] = 1,
+		}, -- [245]
+		{
+			["message"] = "Usage: self:SetVertexColor(color [, a])",
+			["time"] = "2023/02/18 11:01:10",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetVertexColor'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceGUI-3.0-41/widgets/AceGUIWidget-ColorPicker.lua\"]:105: in function `SetColor'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1377: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1110>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1137: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1110>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1639: in function `FeedGroup'\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1564: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1548>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua\"]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua\"]:300: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/widgets/AceGUIContainer-TreeGroup.lua\"]:510: in function `SetSelected'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/widgets/AceGUIContainer-TreeGroup.lua\"]:185: in function <...ce3/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua:181>",
+			["session"] = 1392,
+			["counter"] = 2,
+		}, -- [246]
+		{
+			["message"] = "Interface/AddOns/WIM/Sources/Options/CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
+			["time"] = "2023/02/05 13:05:54",
+			["locals"] = "frame = WIM3_OptionFrameFrame1 {\n ImportCustomObject = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:401\n welcome = WIM3_OptionFrameFrame2 {\n }\n CreateDropDownMenu = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:184\n CreateColorPicker = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:76\n CreateCheckButtonMenu = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:311\n lastObj = WIM3_OptionFrameFrame2 {\n }\n nextOffsetX = 0\n CreateButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:66\n CreateCheckButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n nextOffSetY = 0\n CreateSlider = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:129\n 0 = <userdata>\n CreateSection = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:356\n CreateText = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:343\n SetFullSize = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:61\n CreateFramedPanel = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:395\n}\n(*temporary) = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:260\n Text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n UpdateChildren = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:284\n _Enable = <function> defined =[C]:-1\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n isCheckButton = true\n _Disable = <function> defined =[C]:-1\n children = <table> {\n }\n Disable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:272\n}\n(*temporary) = \"小地图按钮自由移动\"\n(*temporary) = nil\n(*temporary) = <table> {\n enabled = false\n OnDisable = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:412\n RegisterWidget = <function> defined @Interface/AddOns/WIM/WIM.lua:313\n OnEnable = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:394\n Enable = <function> defined @Interface/AddOns/WIM/WIM.lua:309\n OnDisableWIM = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:383\n canDisable = true\n OnEnableWIM = <function> defined @Interface/AddOns/WIM/Modules/MinimapIcon.lua:372\n dPrint = <function> defined @Interface/AddOns/WIM/WIM.lua:311\n enableByDefault = true\n title = \"MinimapIcon\"\n RegisterEvent = <function> defined @Interface/AddOns/WIM/WIM.lua:308\n db_defaults = <table> {\n }\n resources = <table> {\n }\n hasWidget = false\n Disable = <function> defined @Interface/AddOns/WIM/WIM.lua:310\n}\n(*temporary) = \"enabled\"\n(*temporary) = nil\n(*temporary) = <function> defined @Interface/AddOns/WIM/Sources/Options/CoreOptions.lua:36\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:260\n Text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:223\n UpdateChildren = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:284\n _Enable = <function> defined =[C]:-1\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n isCheckButton = true\n _Disable = <function> defined =[C]:-1\n children = <table> {\n }\n Disable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:272\n}\n(*temporary) = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:48\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface/AddOns/WIM/Sources/Options/OptionsTookKit.lua:260\n Text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Inte",
+			["stack"] = "[string \"@Interface/AddOns/WIM/Sources/Options/CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:194: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:188>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:289: in function `UpdateSubCategories'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:104: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:335: in function `ShowOptions'\n[string \"@Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua\"]:11: in function <Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:216: in function `CallSkin'\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:310: in function `?'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:109: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:109>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...UI_Libraries/Core/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>",
+			["session"] = 1394,
+			["counter"] = 19,
 		}, -- [247]
+		{
+			["message"] = "Interface/AddOns/ItemRack/ItemRack.lua:2006: Usage: SaveBindings(1||2)",
+			["time"] = "2023/02/04 13:26:02",
+			["locals"] = "(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:2006: in function `SetSetBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:265: in function `?'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:230: in function `OnEvent'\n[string \"*ItemRack.xml:4_OnEvent\"]:1: in function <[string \"*ItemRack.xml:4_OnEvent\"]:1>",
+			["session"] = 1394,
+			["counter"] = 11,
+		}, -- [248]
+		{
+			["message"] = "光环'技能 6 2'的Lua错误：init\nWeakAuras 版本：5.3.7\n光环版本：1.1.0\n[string \"return function() WeakAurasSaved.displays[a...\"]:1: attempt to index field 'displays' (a nil value)",
+			["time"] = "2023/02/18 14:46:50",
+			["stack"] = "[string \"return function() WeakAurasSaved.displays[aura_env.id][\"_data_\"] = WeakAurasSaved.displays[aura_env.id][\"_data_\"] or {}\"]:1: in function <[string \"return function() WeakAurasSaved.displays[a...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:812: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 1,
+		}, -- [249]
+		{
+			["message"] = "光环'其他 6 2'的Lua错误：init\nWeakAuras 版本：5.3.7\n光环版本：1.1.0\n[string \"return function() if not aura_env.region._m...\"]:11: attempt to index field 'displays' (a nil value)",
+			["time"] = "2023/02/18 14:46:50",
+			["stack"] = "[string \"return function() if not aura_env.region._mouseoverFrame then\"]:11: in function <[string \"return function() if not aura_env.region._m...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:812: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 1,
+		}, -- [250]
+		{
+			["message"] = "光环'Rage Bar 3'的Lua错误：init\nWeakAuras 版本：5.3.7\n光环版本：1.0.2\n[string \"return function() if aura_env.region then\"]:12: attempt to index field 'text' (a nil value)",
+			["time"] = "2023/02/18 14:48:45",
+			["stack"] = "[string \"return function() if aura_env.region then\"]:12: in function <[string \"return function() if aura_env.region then\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:812: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 1,
+		}, -- [251]
+		{
+			["message"] = "光环'range_bar'的Lua错误：自定义文本函数\nWeakAuras 版本：5.3.7\n光环版本：1.0.2\n[string \"return function(expirationTime, rawDuration...\"]:9: attempt to compare nil with number",
+			["time"] = "2023/02/18 14:48:46",
+			["stack"] = "[string \"return function(expirationTime, rawDuration, progress, formatedDuration, name, icon, stacks)\"]:9: in function <[string \"return function(expirationTime, rawDuration...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4539: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/SubRegionTypes/SubText.lua\"]:272: in function `?'\n[string \"@Interface/AddOns/WeakAuras/SubscribableObject.lua\"]:74: in function `Notify'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4272: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4267>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4364: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4326>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4474: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4201: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 1,
+		}, -- [252]
+		{
+			["message"] = "光环'Rage Bar 2'的Lua错误：init\nWeakAuras 版本：5.3.7\n光环版本：1.0.2\n[string \"return function() if aura_env.region then\"]:12: attempt to index field 'text' (a nil value)",
+			["time"] = "2023/02/18 14:49:41",
+			["stack"] = "[string \"return function() if aura_env.region then\"]:12: in function <[string \"return function() if aura_env.region then\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:812: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 1,
+		}, -- [253]
+		{
+			["message"] = "光环'技能 6 2'的Lua错误：触发器 1\nWeakAuras 版本：5.3.7\n光环版本：1.1.0\n[string \"return function(event,tb)\"]:2: attempt to call method 'loadevent' (a nil value)",
+			["time"] = "2023/02/18 14:46:50",
+			["stack"] = "[string \"return function(event,tb)\"]:2: in function <[string \"return function(event,tb)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:618: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:544>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:814: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 3,
+		}, -- [254]
+		{
+			["message"] = "光环'技能 6 2'的Lua错误：自定义文本函数\nWeakAuras 版本：5.3.7\n光环版本：1.1.0\n[string \"return function ()\"]:2: attempt to call method 'getstr' (a nil value)",
+			["time"] = "2023/02/18 14:46:50",
+			["stack"] = "[string \"return function ()\"]:2: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4539: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:202: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4270: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4267>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4364: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4326>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4474: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4201: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 3,
+		}, -- [255]
+		{
+			["message"] = "光环'其他 6 2'的Lua错误：触发器 5\nWeakAuras 版本：5.3.7\n光环版本：1.1.0\n[string \"return function(event,tb)\"]:2: attempt to call method 'loadevent' (a nil value)",
+			["time"] = "2023/02/18 14:46:50",
+			["stack"] = "[string \"return function(event,tb)\"]:2: in function <[string \"return function(event,tb)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:618: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:544>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:814: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 3,
+		}, -- [256]
+		{
+			["message"] = "光环'其他 6 2'的Lua错误：自定义文本函数\nWeakAuras 版本：5.3.7\n光环版本：1.1.0\n[string \"return function ()\"]:2: attempt to call method 'getstr' (a nil value)",
+			["time"] = "2023/02/18 14:46:50",
+			["stack"] = "[string \"return function ()\"]:2: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4539: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:202: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4270: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4267>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4364: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4326>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4474: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4201: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 3,
+		}, -- [257]
+		{
+			["message"] = "光环'Rage Bar'的Lua错误：init\nWeakAuras 版本：5.3.7\n光环版本：1.0.2\n[string \"return function() if aura_env.region then\"]:12: attempt to index field 'text' (a nil value)",
+			["time"] = "2023/02/18 14:49:43",
+			["stack"] = "[string \"return function() if aura_env.region then\"]:12: in function <[string \"return function() if aura_env.region then\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:812: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4198: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4174: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1335: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1183: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:514: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:467>",
+			["session"] = 1394,
+			["counter"] = 1,
+		}, -- [258]
+		{
+			["message"] = "Interface/AddOns/Hekili/UI.lua:1617: attempt to perform arithmetic on local 'start' (a nil value)",
+			["time"] = "2023/02/18 20:13:04",
+			["locals"] = "self = HekiliDisplayCooldowns {\n 0 = <userdata>\n UpdateAlpha = <function> defined @Interface/AddOns/Hekili/UI.lua:1569\n index = 2\n Active = true\n firstForce = 0\n UpdateKeybindings = <function> defined @Interface/AddOns/Hekili/UI.lua:969\n Deactivate = <function> defined @Interface/AddOns/Hekili/UI.lua:1819\n combatTime = <table> {\n }\n combatUpdates = <table> {\n }\n GetPerimeterButtons = <function> defined @Interface/AddOns/Hekili/UI.lua:1831\n RefreshCooldowns = <function> defined @Interface/AddOns/Hekili/UI.lua:1595\n Initialized = true\n Buttons = <table> {\n }\n Recommendations = <table> {\n }\n refreshTimer = 0\n postRange = 0.458700\n Header = HekiliDisplayCooldownsHeader {\n }\n eventCount = 12059\n Backdrop = HekiliDisplayCooldowns_Backdrop {\n }\n RecommendationsStr = \":hyperspeed_acceleration\"\n auraTimer = 0\n flashReady = true\n postGlow = 0.355800\n postAlpha = 0.130700\n flashTimer = 0\n lastUpdate = 0\n eventTime = 0.011697\n alphaCheck = 0.500000\n postDelay = 0.245700\n postRecs = 0.428500\n IsThreadLocked = <function> defined @Interface/AddOns/Hekili/UI.lua:991\n glowTimer = -1\n postTargets = 0.298100\n updateMax = 0.696300\n numIcons = 1\n updateTime = 0.008270\n updateCount = 594857\n HasRecommendations = true\n eventMaxType = \"ACTIONBAR_UPDATE_STATE\"\n delayTimer = -1\n NewRecommendations = false\n id = \"Cooldowns\"\n eventMax = 0.124000\n alpha = 1\n OnEvent = <function> defined @Interface/AddOns/Hekili/UI.lua:1633\n Activate = <function> defined @Interface/AddOns/Hekili/UI.lua:1761\n recTimer = 1\n SetThreadLocked = <function> defined @Interface/AddOns/Hekili/UI.lua:995\n targetTimer = 0.053000\n postFlash = 0.118600\n OnUpdate = <function> defined @Interface/AddOns/Hekili/UI.lua:999\n rangeTimer = -1\n threadLocked = false\n}\nevent = \"RECS_UPDATED\"\ngStart = 0\ncStart = 0\nnow = 127787.951000\nconf = <table> {\n glow = <table> {\n }\n indicators = <table> {\n }\n builtIn = true\n order = 3\n primaryWidth = 50\n flash = <table> {\n }\n rel = \"CENTER\"\n frameLevel = 10\n numIcons = 1\n keybindings = <table> {\n }\n border = <table> {\n }\n enabled = true\n zoom = 30\n keepAspectRatio = true\n range = <table> {\n }\n captions = <table> {\n }\n primaryHeight = 50\n frameStrata = \"LOW\"\n queue = <table> {\n }\n y = -97.558693\n x = 129.981537\n name = \"Cooldowns\"\n filter = \"cooldowns\"\n targets = <table> {\n }\n elvuiCooldown = false\n visibility = <table> {\n }\n delays = <table> {\n }\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n}\n(for control) = 1\ni = 1\nrec = <table> {\n actionName = \"hyperspeed_acceleration\"\n index = 1\n exact_time = 127791.715000\n scriptType = \"simc\"\n time = 4.869000\n list = \"st\"\n listName = \"st\"\n resources = <table> {\n }\n texture = 132951\n hook = \"Affliction:default:1\"\n script = \"Affliction:st:2\"\n keybind = \"\"\n actionID = 54758\n wait = 4.869000\n action = 2\n since = 0\n display = \"Cooldowns\"\n depth = 0\n delay = 4.869000\n pack = \"Affliction\"\n}\nbutton = Hekili_Cooldowns_B1 {\n Overlay = Texture {\n }\n index = 1\n Keybinding = Hekili_Cooldowns_B1_KB {\n }\n PixelSnapDisabled = true\n lastAction = \"hyperspeed_acceleration\"\n Targets = Hekili_Cooldowns_B1_Targets {\n }\n glowing = false\n 0 = <userdata>\n targetShown = false\n Highlight = Texture {\n }\n Icon = Texture {\n }\n Texture = Texture {\n }\n Action = \"hyperspeed_acceleration\"\n ExactTime = 127791.715000\n Ability = <table> {\n }\n Keybind = \"\"\n DelayText = Hekili_Cooldowns_B1_DelayText {\n }\n unusable = true\n texCoords = <table> {\n }\n glowStop = <function> defined @Interface/AddOns/Hekili/UI.lua:2409\n Image = 132951\n DelayIcon = Hekili_Cooldowns_B1_DelayIcon {\n }\n Caption = Hekili_Cooldowns_B1_Caption {\n }\n display = \"Cooldowns\"\n Backdrop = Hekili_Cooldowns_B1_Backdrop {\n }\n Cooldown = Hekili_Cooldowns_B1_Cooldown {\n }\n Recommendation = <table> {\n }\n}\ncd = Hekili_Cooldowns_B1_Cooldown {\n 0 = <userdata>\n lastDuration = 60\n lastStart = 127731.715000\n}\nability = <table> {\n gcd = \"off\"\n charges = 1\n recharge = 60\n key = \"hyperspeed_accelerat",
+			["stack"] = "[string \"@Interface/AddOns/Hekili/UI.lua\"]:1617: in function `RefreshCooldowns'\n[string \"@Interface/AddOns/Hekili/UI.lua\"]:1159: in function <Interface/AddOns/Hekili/UI.lua:999>",
+			["session"] = 1396,
+			["counter"] = 1,
+		}, -- [259]
 		{
 			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
 			["time"] = "2023/02/04 22:04:35",
 			["locals"] = "GearScore = 596\nItemLevel = 232\nRed = 0.818200\nBlue = 0.818200\nGreen = 0.818200\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
-			["session"] = 1360,
-			["counter"] = 636,
-		}, -- [248]
+			["session"] = 1396,
+			["counter"] = 1010,
+		}, -- [260]
+		{
+			["message"] = "Interface/AddOns/Hekili/UI.lua:1625: Usage: self:SetCooldown(start, duration [, modRate])",
+			["time"] = "2023/02/18 12:19:51",
+			["locals"] = "(*temporary) = Hekili_Cooldowns_B1_Cooldown {\n 0 = <userdata>\n lastDuration = 0\n lastStart = 0\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetCooldown'\n[string \"@Interface/AddOns/Hekili/UI.lua\"]:1625: in function `RefreshCooldowns'\n[string \"@Interface/AddOns/Hekili/UI.lua\"]:1159: in function <Interface/AddOns/Hekili/UI.lua:999>",
+			["session"] = 1396,
+			["counter"] = 274,
+		}, -- [261]
+		{
+			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2023/02/04 20:26:27",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:385: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:428: in function `InspectFrame_LoadUI'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:733: in function `InspectUnit'\n[string \"@Interface/FrameXML/UnitPopupSharedButtonMixins.lua\"]:200: in function `OnClick'\n[string \"@Interface/FrameXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/FrameXML/UIDropDownMenu.lua\"]:948: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1>",
+			["session"] = 1397,
+			["counter"] = 142,
+		}, -- [262]
 	},
 }

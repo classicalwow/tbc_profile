@@ -3,19 +3,18 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 533,
-			["Player"] = "特斯拉大股東",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "纳克萨玛斯",
-			["Date"] = "2023-02-05",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2023-02-05",
 			["Class"] = "WARLOCK",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-10273-15952-00005FA045",
 					["Time"] = "20:50:12",
-					["Looter"] = "天天泡面吃",
-					["Date"] = "2023-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2023-02-05",
+					["Looter"] = "天天泡面吃",
 					["Name"] = "迈克斯纳",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40255::::::::80:::::::::|h[消逝的诅咒]|h|r", -- [1]
@@ -28,9 +27,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-10273-15954-00005FA045",
 					["Time"] = "20:57:32",
-					["Looter"] = "龍鳳",
-					["Date"] = "2023-02-05",
 					["Class"] = "DEATHKNIGHT",
+					["Date"] = "2023-02-05",
+					["Looter"] = "龍鳳",
 					["Name"] = "药剂师诺斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40069::::::::80:::::::::|h[传承]|h|r", -- [1]
@@ -43,9 +42,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-10273-16060-00005FA045",
 					["Time"] = "21:32:16",
-					["Looter"] = "三二一二三",
-					["Date"] = "2023-02-05",
 					["Class"] = "DEATHKNIGHT",
+					["Date"] = "2023-02-05",
+					["Looter"] = "三二一二三",
 					["Name"] = "收割者戈提克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40331::::::::80:::::::::|h[无可逃避护腿]|h|r", -- [1]
@@ -58,9 +57,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-10273-15932-00005FA045",
 					["Time"] = "22:00:17",
-					["Looter"] = "小陳哥哥",
-					["Date"] = "2023-02-05",
 					["Class"] = "WARRIOR",
+					["Date"] = "2023-02-05",
+					["Looter"] = "小陳哥哥",
 					["Name"] = "格拉斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40339::::::::80:::::::::|h[戈提克的罩帽]|h|r", -- [1]
@@ -71,6 +70,7 @@ LootMonitorDB = {
 					},
 				}, -- [4]
 			},
+			["Player"] = "特斯拉大股東",
 		}, -- [1]
 	},
 	["Config"] = {
