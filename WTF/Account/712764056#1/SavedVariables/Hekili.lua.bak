@@ -23,18 +23,18 @@ HekiliDB = {
 				},
 				["Cooldowns"] = {
 					["rel"] = "CENTER",
-					["y"] = -97.5586929321289,
-					["x"] = 129.9815368652344,
+					["y"] = -102.2216567993164,
+					["x"] = 150.9654235839844,
 				},
 				["Primary"] = {
 					["rel"] = "CENTER",
-					["y"] = -100.8474960327148,
-					["x"] = -104.3333587646484,
+					["y"] = -74.61827087402344,
+					["x"] = -36.72129821777344,
 				},
 				["AOE"] = {
 					["rel"] = "CENTER",
-					["y"] = -43.51576614379883,
-					["x"] = -108.4142913818359,
+					["y"] = -19.03487586975098,
+					["x"] = -35.55425262451172,
 				},
 				["Defensives"] = {
 					["rel"] = "CENTER",
@@ -59,15 +59,12 @@ HekiliDB = {
 			["toggles"] = {
 				["potions"] = {
 					["key"] = "ALT-SHIFT-R",
-					["value"] = true,
 				},
 				["essences"] = {
 					["value"] = false,
 				},
 				["cooldowns"] = {
-					["value"] = true,
 					["key"] = "",
-					["separate"] = true,
 				},
 				["mode"] = {
 					["value"] = "single",
@@ -89,7 +86,12 @@ HekiliDB = {
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
 						["survival"] = "Survival (wowtbc.gg)",
 					},
-					["package"] = "my",
+					["autoPacks"] = {
+						["marksmanship"] = "Marksmanship (wowtbc.gg)",
+						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
+						["survival"] = "Survival (wowtbc.gg)",
+					},
+					["package"] = "Survival (wowtbc.gg)",
 				}, -- [3]
 				[9] = {
 					["cycle"] = true,
@@ -930,9 +932,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1347,9 +1349,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["description"] = "APL v3.4.1-1.6.4 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
+								["description"] = "APL v3.4.1-1.6.4 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1601,9 +1603,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2020,9 +2022,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
