@@ -475,6 +475,16 @@ function GBB.UpdateList()
 	GroupBulletinBoardFrameStatusText:SetText(string.format(GBB.L["msgNbRequest"], count))
 end
 
+function findStrInTab (tab, val)
+    for index, value in ipairs(tab) do
+        if strfind(val:lower(),value:lower()) then
+            return true
+        end
+    end
+
+    return false
+end
+
 function GBB.GetDungeons(msg,name)
 	if msg==nil then return {} end
 	local dungeons={}
@@ -488,6 +498,20 @@ function GBB.GetDungeons(msg,name)
 	local runDungeon=""
 
 	local wordcount=0
+
+	if not(findStrInTab({"10","25"},msg)) then
+		msg = ""
+	end
+
+	if not(strfind(msg:lower(), "h")) then
+		msg = ""
+	end
+
+	if not(findStrInTab({"lr","猎人","獵人","ss","術士","术士","dps","dd"},msg)) then
+		msg = ""
+	end
+
+	
 
 	if GBB.DB.TagsZhcn then
 		for key, v in pairs(GBB.tagList) do

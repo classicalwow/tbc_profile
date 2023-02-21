@@ -177,3 +177,5 @@ kExtraBossFrames: disabled
 WeakAurasCompanion: enabled
 ElvUI_ExtraDataTexts: disabled
 ElvUI_SecondsToBuff: disabled
+FakeAchievement: enabled
+GlobalIgnoreList: enabled

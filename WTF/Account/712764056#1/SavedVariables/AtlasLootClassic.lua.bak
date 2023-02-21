@@ -481,8 +481,8 @@ AtlasLootClassicDB = {
 			[18844] = "honor:2500",
 			[18828] = "honor:2500",
 			[33716] = "honor:17100",
+			[45833] = "EmblemOfConquest:28",
 			[34580] = "honor:3990",
-			[40718] = "EmblemOfValor:25",
 			[33589] = "BoJ:35",
 			[16548] = "honor:2000",
 			[41588] = "honor:5700",
@@ -703,7 +703,7 @@ AtlasLootClassicDB = {
 			[29382] = "BoJ:25",
 			[42611] = "honor:4480:arena:175",
 			[22872] = "honor:1250",
-			[45833] = "EmblemOfConquest:28",
+			[40718] = "EmblemOfValor:25",
 			[41566] = "honor:1250",
 			[33532] = "BoJ:35",
 			[45840] = "EmblemOfConquest:28",
@@ -817,9 +817,6 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 221.2639414330138,
-			},
 			["Addons"] = {
 				["Favourites"] = {
 					["lists"] = {
@@ -828,6 +825,9 @@ AtlasLootClassicDB = {
 						},
 					},
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 221.2639414330138,
 			},
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -849,24 +849,24 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["GUI"] = {
-				["point"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					-225.6812133789063, -- [4]
-					0, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"Ulduar", -- [2]
-					nil, -- [3]
-					7, -- [4]
-					0, -- [5]
-				},
-			},
 			["minimap"] = {
 				["minimapPos"] = 305.257928873555,
+			},
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-243.3770751953125, -- [4]
+					-78.50642395019531, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingWrath", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {

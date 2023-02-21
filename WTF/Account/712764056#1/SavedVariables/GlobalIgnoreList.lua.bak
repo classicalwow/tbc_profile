@@ -24,7 +24,7 @@ GlobalIgnoreDB = {
 	["ignoreList"] = {
 		"老默我想吃鱼-伊弗斯", -- [1]
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["autoCount"] = 3,
 	["notes"] = {
 		"广告工作室", -- [1]
@@ -41,7 +41,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -91,7 +91,7 @@ GlobalIgnoreDB = {
 		"殇灬-伊弗斯", -- [2]
 		"大圣商行-伊弗斯", -- [3]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }
