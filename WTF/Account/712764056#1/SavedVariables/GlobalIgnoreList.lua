@@ -13,22 +13,10 @@ GlobalIgnoreDB = {
 		0, -- [10]
 	},
 	["typeList"] = {
-		"player", -- [1]
-	},
-	["ignoreList"] = {
-		"老默我想吃鱼-伊弗斯", -- [1]
 	},
 	["openWithFriends"] = true,
+	["invertSpam"] = false,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-		{
-			"特斯拉大股東-伊弗斯@1", -- [1]
-			"碼農巴菲特-伊弗斯@1", -- [2]
-		}, -- [1]
-	},
-	["autoTime"] = 600,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -42,27 +30,31 @@ GlobalIgnoreDB = {
 		"[nonlatin]", -- [10]
 	},
 	["trackChanges"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-		"Horde", -- [1]
-	},
-	["skipParty"] = false,
+	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
 		"大圣商行-伊弗斯", -- [3]
+		"老默我想吃鱼-伊弗斯", -- [4]
 	},
+	["syncInfo"] = {
+	},
+	["autoUpdate"] = true,
+	["autoIgnore"] = true,
+	["factionList"] = {
+	},
+	["defexpire"] = 0,
+	["sameserver"] = true,
 	["attachFriends"] = true,
 	["notes"] = {
-		"广告工作室", -- [1]
 	},
 	["expList"] = {
-		0, -- [1]
 	},
 	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["defexpire"] = 0,
+	["dateList"] = {
+	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -75,7 +67,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -88,12 +80,11 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
-		"18 Feb 2023", -- [1]
-	},
-	["sameserver"] = true,
-	["autoUpdate"] = true,
+	["asknote"] = true,
+	["skipParty"] = false,
+	["revision"] = 1,
+	["autoTime"] = 600,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["ignoreList"] = {
+	},
 }

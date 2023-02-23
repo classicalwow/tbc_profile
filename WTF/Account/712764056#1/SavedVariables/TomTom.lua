@@ -5,8 +5,8 @@ TomTomDB = {
 		["碼農巴菲特 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
-		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Default",
 		["特斯拉大股東 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
@@ -44,8 +44,8 @@ TomTomWaypointsM = {
 		["碼農巴菲特 - 伊弗斯"] = "碼農巴菲特 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
-		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
 	},
 	["profiles"] = {
@@ -57,34 +57,32 @@ TomTomWaypointsM = {
 		},
 		["特變電工 - 伊弗斯"] = {
 		},
+		["暖男你馬四了 - 伊弗斯"] = {
+		},
 		["邁克爾假死 - 伊弗斯"] = {
-			[1944] = {
-				["1944:562836185.81907:362347188.26406:巴尔雷"] = {
-					1944, -- [1]
-					0.5628361858190709, -- [2]
-					0.3623471882640587, -- [3]
+			[115] = {
+				["115:577261613.69193:142542787.28606:水晶冰雪元素"] = {
+					115, -- [1]
+					0.5772616136919315, -- [2]
+					0.1425427872860636, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "巴尔雷",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "巴尔雷",
+					["title"] = "水晶冰雪元素",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-		},
-		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			[1944] = {
@@ -102,10 +100,18 @@ TomTomWaypointsM = {
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
-						},
-						["minimap"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
