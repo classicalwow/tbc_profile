@@ -14,9 +14,16 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 	},
-	["openWithFriends"] = true,
+	["syncInfo"] = {
+	},
 	["invertSpam"] = false,
 	["skipPrivate"] = true,
+	["ignoreList"] = {
+	},
+	["trackChanges"] = true,
+	["autoCount"] = 3,
+	["notes"] = {
+	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -29,28 +36,17 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["trackChanges"] = true,
-	["autoCount"] = 3,
-	["delList"] = {
-		"Wandteil-伊弗斯", -- [1]
-		"殇灬-伊弗斯", -- [2]
-		"大圣商行-伊弗斯", -- [3]
-		"老默我想吃鱼-伊弗斯", -- [4]
-	},
-	["syncInfo"] = {
-	},
 	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 	},
-	["defexpire"] = 0,
+	["skipGuild"] = true,
 	["sameserver"] = true,
 	["attachFriends"] = true,
-	["notes"] = {
-	},
+	["revision"] = 1,
 	["expList"] = {
 	},
-	["skipGuild"] = true,
+	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["dateList"] = {
@@ -67,7 +63,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["spamFilter"] = true,
+	["asknote"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -80,11 +76,15 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["asknote"] = true,
-	["skipParty"] = false,
-	["revision"] = 1,
+	["spamFilter"] = true,
+	["defexpire"] = 0,
+	["delList"] = {
+		"Wandteil-伊弗斯", -- [1]
+		"殇灬-伊弗斯", -- [2]
+		"大圣商行-伊弗斯", -- [3]
+		"老默我想吃鱼-伊弗斯", -- [4]
+	},
 	["autoTime"] = 600,
 	["samefaction"] = true,
-	["ignoreList"] = {
-	},
+	["openWithFriends"] = true,
 }

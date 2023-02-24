@@ -14,16 +14,9 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 	},
-	["syncInfo"] = {
-	},
 	["invertSpam"] = false,
+	["openWithFriends"] = true,
 	["skipPrivate"] = true,
-	["ignoreList"] = {
-	},
-	["autoUpdate"] = true,
-	["autoCount"] = 3,
-	["notes"] = {
-	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -36,12 +29,23 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
+	["autoUpdate"] = true,
+	["autoCount"] = 3,
+	["sameserver"] = true,
+	["ignoreList"] = {
+	},
 	["autoTime"] = 600,
 	["autoIgnore"] = true,
 	["factionList"] = {
 	},
-	["skipGuild"] = true,
-	["sameserver"] = true,
+	["dateList"] = {
+	},
+	["delList"] = {
+		"Wandteil-伊弗斯", -- [1]
+		"殇灬-伊弗斯", -- [2]
+		"大圣商行-伊弗斯", -- [3]
+		"老默我想吃鱼-伊弗斯", -- [4]
+	},
 	["attachFriends"] = true,
 	["revision"] = 1,
 	["expList"] = {
@@ -49,8 +53,7 @@ GlobalIgnoreDB = {
 	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["dateList"] = {
-	},
+	["defexpire"] = 0,
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -63,7 +66,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -76,15 +79,12 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["defexpire"] = 0,
-	["delList"] = {
-		"Wandteil-伊弗斯", -- [1]
-		"殇灬-伊弗斯", -- [2]
-		"大圣商行-伊弗斯", -- [3]
-		"老默我想吃鱼-伊弗斯", -- [4]
+	["asknote"] = true,
+	["skipGuild"] = true,
+	["notes"] = {
 	},
 	["trackChanges"] = true,
 	["samefaction"] = true,
-	["openWithFriends"] = true,
+	["syncInfo"] = {
+	},
 }
