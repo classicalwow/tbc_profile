@@ -29,13 +29,13 @@ HekiliDB = {
 				},
 				["Primary"] = {
 					["rel"] = "CENTER",
-					["y"] = -121.8318252563477,
-					["x"] = -30.89232444763184,
+					["y"] = 2.904076814651489,
+					["x"] = -230.8188781738281,
 				},
 				["AOE"] = {
 					["rel"] = "CENTER",
-					["y"] = -52.25838470458984,
-					["x"] = -29.72527885437012,
+					["y"] = 67.81431579589844,
+					["x"] = -18.06756210327148,
 				},
 				["Defensives"] = {
 					["rel"] = "CENTER",
@@ -66,7 +66,6 @@ HekiliDB = {
 					["value"] = false,
 				},
 				["cooldowns"] = {
-					["value"] = true,
 					["key"] = "",
 				},
 				["mode"] = {
@@ -104,6 +103,7 @@ HekiliDB = {
 					["package"] = "Protection Paladin (wowtbc.gg)",
 				}, -- [2]
 				{
+					["package"] = "Survival (wowtbc.gg)",
 					["settings"] = {
 						["marksmanship"] = "Marksmanship (wowtbc.gg)",
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
@@ -114,7 +114,6 @@ HekiliDB = {
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
 						["survival"] = "Survival (wowtbc.gg)",
 					},
-					["package"] = "Survival (wowtbc.gg)",
 				}, -- [3]
 				[7] = {
 					["settings"] = {
@@ -131,11 +130,11 @@ HekiliDB = {
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["shadow_mastery"] = true,
 						["affliction"] = "Affliction",
 						["group_curse"] = "curse_of_agony",
-						["demonology"] = "Demonology (wowtbc.gg)",
 						["group_type"] = "party",
+						["demonology"] = "Demonology (wowtbc.gg)",
+						["shadow_mastery"] = true,
 						["inferno_enabled"] = true,
 						["destruction"] = "Destruction",
 					},
@@ -147,8 +146,8 @@ HekiliDB = {
 				},
 			},
 			["notifications"] = {
-				["x"] = 41.3831787109375,
-				["y"] = 23.31549644470215,
+				["x"] = 41.38348388671875,
+				["y"] = -47.79546356201172,
 			},
 			["packs"] = {
 				["my"] = {
@@ -1462,9 +1461,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["description"] = "APL v3.4.1-1.6.4 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
-								["description"] = "APL v3.4.1-1.6.4 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1882,9 +1881,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "windfury_weapon",
 								["description"] = "APL v3.4.1-1.2.0 #",
 								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
-								["action"] = "windfury_weapon",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1947,9 +1946,9 @@ HekiliDB = {
 							}, -- [4]
 							{
 								["enabled"] = true,
+								["action"] = "thunderstorm",
 								["description"] = "actions.aoe+=/thunderstorm,if=mana.pct<90||target.distance<10&glyph.glyph_of_thunderstorm.enabled",
 								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
-								["action"] = "thunderstorm",
 							}, -- [5]
 						},
 						["default"] = {
@@ -1992,9 +1991,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
+								["action"] = "chain_lightning",
 								["description"] = "Need to create this specialization option.",
 								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
-								["action"] = "chain_lightning",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -2014,9 +2013,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["action"] = "call_of_the_elements",
 								["description"] = "Place your totems if they're not already up, don't want to use it if we've used a major CD totem.",
 								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
-								["action"] = "call_of_the_elements",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -2025,9 +2024,9 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
+								["action"] = "searing_totem",
 								["description"] = "Need to find a way to verify that the snapshot has taken place.",
 								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
-								["action"] = "searing_totem",
 							}, -- [4]
 						},
 					},
@@ -2075,9 +2074,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2494,9 +2493,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -2755,9 +2754,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "berserker_stance",
 								["description"] = "APL v3.4.1-1.7.0 #",
 								["criteria"] = "buff.stance.down",
-								["action"] = "berserker_stance",
 							}, -- [1]
 							{
 								["enabled"] = true,

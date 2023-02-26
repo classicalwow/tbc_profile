@@ -162,7 +162,7 @@ local function ResetCdByCast(info, reset, spellID)
 					end
 				end
 			else
-				if resetID == 6143 and resetID == info.active[resetID].castedLink then
+				if resetID == 6143 and info.active[resetID] and resetID == info.active[resetID].castedLink then
 					local linkedIcon = info.spellIcons[543]
 					if linkedIcon and linkedIcon.active then
 						P:ResetCooldown(linkedIcon)

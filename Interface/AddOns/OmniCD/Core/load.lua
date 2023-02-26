@@ -104,7 +104,6 @@ function E:OnEnable()
 	end
 
 	self.enabled = true
-
 end
 
 function E:Refresh(arg)
@@ -132,6 +131,8 @@ function E:Refresh(arg)
 			module:Disable()
 		end
 	end
+
+	self.TooltipID:SetHooks()
 
 	if arg == "OnProfileReset" then
 		self.global.disableElvMsg = nil

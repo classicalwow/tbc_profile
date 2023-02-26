@@ -132,9 +132,6 @@ function CM:CHAT_MSG_ADDON(prefix, message, _, sender)
 		error("Error decompressing sync message from " .. info.name)
 	end
 
-	wipe(info.talentData)
-	wipe(info.itemData)
-
 	local treeID = CLASS_TREE_IDS[info.class]
 	local nodeIndices = treeNodeIndices[treeID]
 
@@ -224,6 +221,8 @@ function CM:CHAT_MSG_ADDON(prefix, message, _, sender)
 				return
 			end
 			info.spec = tonumber(v)
+			wipe(info.talentData)
+			wipe(info.itemData)
 		end
 	end
 
@@ -479,7 +478,7 @@ local function CooldownSyncFrame_OnUpdate(_, elapsed)
 		return
 	end
 
-	for i = c + 1, #cooldownData do
+	for i = #cooldownData, c + 1, -1 do
 		cooldownData[i] = nil
 	end
 

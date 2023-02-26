@@ -1,6 +1,18 @@
 ------------------------------------------------------------------------------
 -- Dragonflight
 --
+v10.0.5.2743
+	CD resets on encounter end will correctly use the unmodified base cooldown as a reference
+	Icons are now click through while Tooltips are enabled
+	Fixed Army of the Damned CDR by Epidemic
+	Fixed Blessing of Santuary CD
+	Fixed Kleptomania icon texture
+	Feb 6, 2023 Hotfixes
+
+v10.0.5.2742
+	Fixed missing talents after Patch 10.0.5
+	Avatar for Protection spec has been added as a separate spell
+
 v10.0.5.2741
 	Patch 10.0.5 updates
 
@@ -618,6 +630,16 @@ v2.5.0
 ------------------------------------------------------------------------------
 -- WOTLKC
 --
+v3.4.1.2743
+	Class abilities with a base cooldown of 2 minutes or more (with some exceptions, such as Reincarnation, Ritual of
+	Doom, Astral Recall, and Lay on Hands) will reset when an encounter ends
+	Added rest of WG pvp trinkets
+	Fixed nil error when Cold Snap is used while Frost Ward isn't being tracked
+	Jan 31, 2023 Hotfixes
+
+v3.4.1.2742
+	Titan-Forged Rune of Determination merged to PvP Trinket
+
 v3.4.1.2740
 	Fixed Set bonus inspection
 	Added Season 6 tier set bonuses

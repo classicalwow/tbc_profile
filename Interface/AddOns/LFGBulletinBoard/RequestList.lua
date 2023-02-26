@@ -507,7 +507,7 @@ function GBB.GetDungeons(msg,name)
 		msg = ""
 	end
 
-	if not(findStrInTab({"lr","猎人","獵人","ss","術士","术士","dps","dd"},msg)) then
+	if not(findStrInTab({"lr","猎人","獵人"},msg)) then
 		msg = ""
 	end
 

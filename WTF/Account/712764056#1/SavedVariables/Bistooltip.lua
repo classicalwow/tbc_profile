@@ -24,8 +24,8 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["class_index"] = 3,
-			["version"] = 6.1,
 			["spec_index"] = 3,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -157,10 +157,9 @@ BisTooltipDB = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			["minimapPos"] = 253.4463397527872,
-			["phase_index"] = 3,
-			["class_index"] = 10,
+			["filter_class_names"] = false,
 			["version"] = 6.1,
-			["data_source"] = "wh",
+			["phase_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -213,6 +212,13 @@ BisTooltipDB = {
 					["Shadow"] = true,
 					["Holy"] = true,
 				},
+			},
+			["class_index"] = 10,
+			["data_source"] = "wh",
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
 			},
 		},
 	},

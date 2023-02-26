@@ -265,14 +265,9 @@ AutoBarDB2 = {
 				["hide"] = false,
 				["enabled"] = true,
 				["buttonHeight"] = 36,
-				["posY"] = 101.5436780709988,
+				["columns"] = 16,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
-				["columns"] = 16,
-				["allowed_class"] = "*",
-				["alpha"] = 1,
-				["padding"] = 0,
-				["dockShiftX"] = 0,
 				["buttonKeys"] = {
 					"AutoBarButtonHearth", -- [1]
 					"AutoBarButtonBandages", -- [2]
@@ -296,6 +291,11 @@ AutoBarDB2 = {
 					"AutoBarButtonTrinket1", -- [20]
 					"AutoBarButtonTrinket2", -- [21]
 				},
+				["allowed_class"] = "*",
+				["alpha"] = 1,
+				["padding"] = 0,
+				["dockShiftX"] = 0,
+				["posY"] = 101.5436780709988,
 			},
 			["AutoBarClassBarExtras"] = {
 				["popupDirection"] = "1",
@@ -319,16 +319,16 @@ AutoBarDB2 = {
 				["posX"] = 300,
 				["hide"] = true,
 				["enabled"] = true,
-				["columns"] = 9,
 				["posY"] = 360,
+				["columns"] = 9,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
-				["alignButtons"] = "3",
+				["scale"] = 1,
 				["allowed_class"] = "*",
 				["alpha"] = 1,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["scale"] = 1,
+				["alignButtons"] = "3",
 			},
 		},
 		["buttonList"] = {
@@ -351,14 +351,14 @@ AutoBarDB2 = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonTrinket2"] = {
-				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 14,
 				["buttonKey"] = "AutoBarButtonTrinket2",
-				["defaultButtonIndex"] = 27,
-				["buttonClass"] = "AutoBarButtonTrinket2",
-				["barKey"] = "AutoBarClassBarBasic",
-				["equipped"] = 14,
 				["square_popups"] = true,
+				["buttonClass"] = "AutoBarButtonTrinket2",
+				["enabled"] = true,
+				["equipped"] = 14,
+				["defaultButtonIndex"] = 27,
 			},
 			["AutoBarButtonDrums"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -378,14 +378,14 @@ AutoBarDB2 = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonTrinket1"] = {
-				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 13,
 				["buttonKey"] = "AutoBarButtonTrinket1",
-				["defaultButtonIndex"] = 26,
-				["buttonClass"] = "AutoBarButtonTrinket1",
-				["barKey"] = "AutoBarClassBarBasic",
-				["equipped"] = 13,
 				["square_popups"] = true,
+				["buttonClass"] = "AutoBarButtonTrinket1",
+				["enabled"] = true,
+				["equipped"] = 13,
+				["defaultButtonIndex"] = 26,
 			},
 			["AutoBarButtonCooldownPotionCombat"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -406,14 +406,14 @@ AutoBarDB2 = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonMillHerbs"] = {
-				["barKey"] = "AutoBarClassBarExtras",
+				["enabled"] = true,
 				["targeted"] = "Milling",
 				["buttonKey"] = "AutoBarButtonMillHerbs",
-				["square_popups"] = true,
+				["defaultButtonIndex"] = 11,
 				["arrangeOnUse"] = true,
 				["buttonClass"] = "AutoBarButtonMillHerbs",
-				["enabled"] = true,
-				["defaultButtonIndex"] = 11,
+				["barKey"] = "AutoBarClassBarExtras",
+				["square_popups"] = true,
 			},
 			["AutoBarButtonRecovery"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -528,13 +528,13 @@ AutoBarDB2 = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonFood"] = {
-				["enabled"] = true,
+				["disableConjure"] = false,
 				["include_combo_basic"] = true,
 				["buttonKey"] = "AutoBarButtonFood",
-				["defaultButtonIndex"] = 15,
-				["buttonClass"] = "AutoBarButtonFood",
-				["disableConjure"] = false,
 				["square_popups"] = true,
+				["buttonClass"] = "AutoBarButtonFood",
+				["enabled"] = true,
+				["defaultButtonIndex"] = 15,
 				["barKey"] = "AutoBarClassBarBasic",
 			},
 			["AutoBarButtonWaterBuff"] = {
@@ -1052,19 +1052,19 @@ AutoBarDB2 = {
 	["settings"] = {
 		["show_empty_buttons"] = false,
 		["fade_out"] = false,
+		["show_count"] = true,
 		["log_memory"] = false,
+		["self_cast_right_click"] = true,
 		["show_tooltip"] = true,
+		["clamp_bars_to_screen"] = true,
 		["throttle_event_limit"] = 0,
 		["log_throttled_events"] = false,
+		["performance_threshold"] = 100,
 		["show_hotkey"] = true,
+		["hack_PetActionBarFrame"] = false,
 		["performance"] = false,
 		["log_events"] = false,
 		["handle_spell_changed"] = true,
-		["show_count"] = true,
-		["self_cast_right_click"] = true,
-		["clamp_bars_to_screen"] = true,
-		["performance_threshold"] = 100,
-		["hack_PetActionBarFrame"] = false,
 		["show_tooltip_in_combat"] = true,
 	},
 	["whatsnew_version"] = "3.04.1.01",
@@ -1113,26 +1113,6 @@ AutoBarDB2 = {
 			["buttonList"] = {
 			},
 		},
-		["路易斯桑拿 - 伊弗斯"] = {
-			["buttonDataList"] = {
-				["AutoBarButtonMount"] = {
-				},
-			},
-			["barList"] = {
-			},
-			["buttonList"] = {
-			},
-		},
-		["碼農巴菲特 - 伊弗斯"] = {
-			["buttonDataList"] = {
-				["AutoBarButtonMount"] = {
-				},
-			},
-			["barList"] = {
-			},
-			["buttonList"] = {
-			},
-		},
 		["特變電工 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonElixirBattle"] = {
@@ -1161,6 +1141,26 @@ AutoBarDB2 = {
 			["buttonList"] = {
 			},
 		},
+		["碼農巴菲特 - 伊弗斯"] = {
+			["buttonDataList"] = {
+				["AutoBarButtonMount"] = {
+				},
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
+		["路易斯桑拿 - 伊弗斯"] = {
+			["buttonDataList"] = {
+				["AutoBarButtonMount"] = {
+				},
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonMount"] = {
@@ -1182,7 +1182,7 @@ AutoBarDB2 = {
 					["arrangeOnUse"] = 37091,
 				},
 				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "工程学",
+					["arrangeOnUse"] = "选矿",
 				},
 			},
 			["barList"] = {

@@ -920,7 +920,7 @@ TalentEmuSV = {
 		["Player-4487-001C0EC2"] = "!T32420110!G32116++++++!E320+^+^+^+^+Dt5:82:9+^+^+Ft5:82:9+Gt5:82:9+^+^+^+^+^+^+^+mg5:82:9+^+^+^",
 		["Player-4487-00370F7B"] = "!T32750110!G32116++++++!E320+^+^+^+^+O2:85:9+oA1:85:9+NJ:85:9+tA1:85:9+^+^+mA1:85:9+^+^+^+^+UJ:85:9+GO1:85:9+^+^+^",
 		["Player-4487-0018BE27"] = "!T32810110!G32116++++++!E320+^+^+^+^+FT1:81:9+t:81:9+^+oJ:81:9+v:81:9+^+^+^+^+^+^+^+X:81:9+^+^+^",
-		["Player-4487-00246B86"] = "!T328E121I8kCB:UAAY:1X3:::XiJ5J::0w6U1RPdKHzyav6XiJ5!G3221w+9:MRD:71u+-:K=C:F1u+-:T=C:E1u+9:XIF:H1u+-:v=C:E1u+9:6RD:21uw+9:qiB:61u+-:v=C:E1u+-:K=C:F1u+9:XIF:H1u+-:T=C:E1u+9:MRD:71u!E320+^+wE=:1gv:155-:1Ol9:5E1:9+pt-:2Ol9:6E1:9+cr9:1Wv:1UG-:6E1:9+^+tE=:1sv:1UG-:1nl9:5E1:9+47=:2Ol9:1UG-:5E1:9+vE=:17u:1yk9:1yk9:5E1:9+6q9:1Ks:1ll9:6E1:9+Yw9:1QY:7E1:9+rE=:1Is:1yk9:6E1:9+Em9:8E1:9+e5=:8E1:9+kr9:8E1:9+zo9:8E1:9+xo9:1Hw:7E1:9+aC=:1uv:1ll9:6E1:9+vv9:8E1:9+77=:8E1:9+JW-:8E1:9",
+		["Player-4487-00246B86"] = "!T328E121I8kCB:UAAY:1X3:::XiJ5J::0w6U1RPdKHzyav6XiJ5!G3221w+9:MRD:71u+-:K=C:F1u+-:T=C:E1u+9:XIF:H1u+-:v=C:E1u+9:6RD:21uw+9:qiB:61u+-:v=C:E1u+-:K=C:F1u+9:XIF:H1u+-:T=C:E1u+9:MRD:71u!E320+^+wE=:1gv:155-:1Ol9:5E1:9+pt-:2Ol9:6E1:9+cr9:1Wv:1UG-:6E1:9+^+M3=:1sF:1nl9:6E1:9+47=:2Ol9:1UG-:5E1:9+vE=:17u:1yk9:1yk9:5E1:9+6q9:1Ks:1ll9:6E1:9+Yw9:1QY:7E1:9+rE=:1Is:1yk9:6E1:9+=6=:8E1:9+e5=:8E1:9+kr9:8E1:9+zo9:8E1:9+xo9:1Hw:7E1:9+aC=:1uv:1ll9:6E1:9+vv9:8E1:9+77=:8E1:9+JW-:8E1:9",
 		["Player-4487-000B0452"] = "!T329W0110!G32116++++++!E320+^+^+^+^+^+oQ2:8W:9+^+nQ2:8W:9+^+^+^+^+^+^+^+^+vA1:8W:9+^+^+^",
 		["savedTalent"] = {
 			["pvp- |cff7fbfff武器55|r 狂怒 7 防护 0"] = "!T329E111EivcpArwyp7mW9A:F",

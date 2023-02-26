@@ -95,29 +95,6 @@ TomTomWaypointsM = {
 			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			[120] = {
-				["120:451030387.7052:610792874.60706:风暴峭壁巨龙"] = {
-					120, -- [1]
-					0.4510303877052044, -- [2]
-					0.6107928746070556, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "风暴峭壁巨龙",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["world"] = true,
-				},
-			},
 		},
 	},
 }

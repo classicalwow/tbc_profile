@@ -1628,7 +1628,7 @@ E.spell_db = {
 
 
 
-		{ ["class"]="DRUID",["type"]="other",["buff"]=204066,["spec"]=true,["maxRanks"]=1,["name"]="Lunar Beam",["ID"]=227,["duration"]=75,["icon"]=136057,["spellID"]=204066, },
+		{ ["class"]="DRUID",["type"]="other",["buff"]=204066,["spec"]=true,["maxRanks"]=1,["name"]="Lunar Beam",["ID"]=227,["duration"]=60,["icon"]=136057,["spellID"]=204066, },
 
 
 	},
@@ -2063,7 +2063,7 @@ E.spell_db = {
 
 
 		{ ["class"]="PALADIN",["type"]="cc",["buff"]=853,["duration"]=60,["name"]="Hammer of Justice",["icon"]=135963,["spellID"]=853, },
-		{ ["class"]="PALADIN",["type"]="counterCC",["buff"]=210256,["spec"]=true,["duration"]=15,["name"]="Blessing of Sanctuary",["icon"]=135911,["spellID"]=210256, },
+		{ ["class"]="PALADIN",["type"]="counterCC",["buff"]=210256,["spec"]=true,["duration"]=45,["name"]="Blessing of Sanctuary",["icon"]=135911,["spellID"]=210256, },
 
 		{ ["class"]="PALADIN",["type"]="other",["buff"]=62124,["duration"]=8,["name"]="Hand of Reckoning",["icon"]=135984,["spellID"]=62124,["talent"]=207028, },
 		{ ["class"]="PALADIN",["type"]="immunity",["buff"]=642,["duration"]=300,["name"]="Divine Shield",["icon"]=524354,["spellID"]=642, },
@@ -2488,7 +2488,7 @@ E.spell_db = {
 	},
 	["MAGE"] = {
 		{ ["class"]="MAGE",["type"]="offensive",["buff"]=353128,["spec"]=true,["duration"]=45,["name"]="Arcanosphere",["icon"]=4226155,["spellID"]=353128, },
-		{ ["class"]="MAGE",["type"]="dispel",["buff"]=198100,["spec"]=true,["duration"]=30,["name"]="Kleptomania",["icon"]=610472,["spellID"]=198100, },
+		{ ["class"]="MAGE",["type"]="dispel",["buff"]=198100,["spec"]=true,["duration"]=30,["name"]="Kleptomania",["icon"]=135729,["spellID"]=198100, },
 		{ ["class"]="MAGE",["type"]="defensive",["buff"]=198111,["spec"]=true,["duration"]=45,["name"]="Temporal Shield",["icon"]=610472,["spellID"]=198111, },
 		{ ["class"]="MAGE",["type"]="defensive",["buff"]=198158,["spec"]=true,["duration"]=60,["name"]="Mass Invisibility",["icon"]=1387356,["spellID"]=198158, },
 

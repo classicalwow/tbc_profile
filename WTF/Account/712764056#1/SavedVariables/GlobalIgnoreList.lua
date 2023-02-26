@@ -20,7 +20,7 @@ GlobalIgnoreDB = {
 	["skipPrivate"] = true,
 	["ignoreList"] = {
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["autoCount"] = 3,
 	["notes"] = {
 	},
@@ -36,7 +36,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 	},
@@ -84,7 +84,7 @@ GlobalIgnoreDB = {
 		"大圣商行-伊弗斯", -- [3]
 		"老默我想吃鱼-伊弗斯", -- [4]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }

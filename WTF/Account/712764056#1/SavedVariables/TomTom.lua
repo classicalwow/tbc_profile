@@ -58,68 +58,10 @@ TomTomWaypointsM = {
 		["特變電工 - 伊弗斯"] = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			[115] = {
-				["115:577261613.69193:142542787.28606:水晶冰雪元素"] = {
-					115, -- [1]
-					0.5772616136919315, -- [2]
-					0.1425427872860636, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "水晶冰雪元素",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "水晶冰雪元素",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			[120] = {
-				["120:451030387.7052:610792874.60706:风暴峭壁巨龙"] = {
-					120, -- [1]
-					0.4510303877052044, -- [2]
-					0.6107928746070556, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "风暴峭壁巨龙",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "风暴峭壁巨龙",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 	},
 }
