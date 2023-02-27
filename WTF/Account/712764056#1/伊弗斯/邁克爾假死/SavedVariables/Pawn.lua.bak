@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0716,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46143,
@@ -36,9 +34,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45844::::::::80:::::::::|h[不倦斥候护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 46346,
-			["Level"] = 225,
-			["Link"] = "|cffa335ee|Hitem:46346::::::::80:::::::::|h[掠食之靴]|h|r",
+			["ID"] = 45562,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45562::39997:40023:::::80:::::::::|h[生命鳞片长靴]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 45454,
@@ -46,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45454::::::::80:::::::::|h[冰箍锁链护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 40541,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:40541::::::::80:::::::::|h[霜冻灵敏护手]|h|r",
+			["ID"] = 45836,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45836::::::::80:::::::::|h[精确瞄准手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 45157,
@@ -75,20 +73,21 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:44253::::::::80:::::::::|h[暗月卡片：伟大]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 40721,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40721::::::::80:::::::::|h[锤头鲨皮披风]|h|r",
+			["ID"] = 45873,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:45873::::::::80:::::::::|h[寒冬之拥]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 45311,
-			["Level"] = 225,
-			["Link"] = "|cffa335ee|Hitem:45311::::::::80:::::::::|h[无情之刃]|h|r",
+			["ID"] = 46036,
+			["Level"] = 245,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:46036::::::::80:::::::::|h[虚空弯刀]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 44250,
-			["Level"] = 200,
+			["ID"] = 46036,
+			["Level"] = 245,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:44250::::::::80:::::::::|h[暗魂收割者]|h|r",
+			["Link"] = "|cffa335ee|Hitem:46036::39997::::::80:::::::::|h[虚空弯刀]|h|r",
 		}, -- [17]
 		{
 			["ID"] = 45570,
@@ -96,6 +95,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45570::::::::80:::::::::|h[天铸之弩]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

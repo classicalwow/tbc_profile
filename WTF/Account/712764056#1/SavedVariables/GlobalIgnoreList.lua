@@ -13,17 +13,23 @@ GlobalIgnoreDB = {
 		0, -- [10]
 	},
 	["typeList"] = {
+		"player", -- [1]
+		"player", -- [2]
+		"player", -- [3]
+		"player", -- [4]
+		"player", -- [5]
+		"player", -- [6]
+		"player", -- [7]
+		"player", -- [8]
+		"player", -- [9]
+		"player", -- [10]
+		"player", -- [11]
+		"player", -- [12]
+		"player", -- [13]
 	},
-	["syncInfo"] = {
-	},
+	["openWithFriends"] = true,
 	["invertSpam"] = false,
 	["skipPrivate"] = true,
-	["ignoreList"] = {
-	},
-	["autoTime"] = 600,
-	["autoCount"] = 3,
-	["notes"] = {
-	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -37,19 +43,108 @@ GlobalIgnoreDB = {
 		"[nonlatin]", -- [10]
 	},
 	["trackChanges"] = true,
+	["autoCount"] = 3,
+	["delList"] = {
+		"Wandteil-伊弗斯", -- [1]
+		"殇灬-伊弗斯", -- [2]
+		"大圣商行-伊弗斯", -- [3]
+		"老默我想吃鱼-伊弗斯", -- [4]
+	},
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+		{
+		}, -- [5]
+		{
+		}, -- [6]
+		{
+		}, -- [7]
+		{
+		}, -- [8]
+		{
+		}, -- [9]
+		{
+		}, -- [10]
+		{
+		}, -- [11]
+		{
+		}, -- [12]
+		{
+		}, -- [13]
+	},
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
+		"Horde", -- [1]
+		"Horde", -- [2]
+		"Horde", -- [3]
+		"Horde", -- [4]
+		"Horde", -- [5]
+		"Horde", -- [6]
+		"Horde", -- [7]
+		"Horde", -- [8]
+		"Horde", -- [9]
+		"Horde", -- [10]
+		"Horde", -- [11]
+		"Horde", -- [12]
+		"Horde", -- [13]
 	},
-	["skipGuild"] = true,
+	["defexpire"] = 0,
 	["sameserver"] = true,
 	["attachFriends"] = true,
-	["revision"] = 1,
-	["expList"] = {
+	["notes"] = {
+		"刷屏", -- [1]
+		"", -- [2]
+		"", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		"", -- [9]
+		"", -- [10]
+		"", -- [11]
+		"", -- [12]
+		"", -- [13]
 	},
-	["skipParty"] = false,
+	["expList"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+		0, -- [12]
+		0, -- [13]
+	},
+	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["dateList"] = {
+		"26 Feb 2023", -- [1]
+		"26 Feb 2023", -- [2]
+		"26 Feb 2023", -- [3]
+		"26 Feb 2023", -- [4]
+		"26 Feb 2023", -- [5]
+		"26 Feb 2023", -- [6]
+		"26 Feb 2023", -- [7]
+		"26 Feb 2023", -- [8]
+		"26 Feb 2023", -- [9]
+		"26 Feb 2023", -- [10]
+		"26 Feb 2023", -- [11]
+		"26 Feb 2023", -- [12]
+		"26 Feb 2023", -- [13]
 	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
@@ -63,7 +158,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -76,15 +171,24 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["defexpire"] = 0,
-	["delList"] = {
-		"Wandteil-伊弗斯", -- [1]
-		"殇灬-伊弗斯", -- [2]
-		"大圣商行-伊弗斯", -- [3]
-		"老默我想吃鱼-伊弗斯", -- [4]
-	},
-	["autoUpdate"] = true,
+	["asknote"] = true,
+	["skipParty"] = false,
+	["revision"] = 1,
+	["autoTime"] = 600,
 	["samefaction"] = true,
-	["openWithFriends"] = true,
+	["ignoreList"] = {
+		"又見小可憐-伊弗斯", -- [1]
+		"Garrixux-伊弗斯", -- [2]
+		"Workmen-伊弗斯", -- [3]
+		"哞鬥凱薩-伊弗斯", -- [4]
+		"夜明之前-伊弗斯", -- [5]
+		"射手獵-伊弗斯", -- [6]
+		"小小煌-伊弗斯", -- [7]
+		"我回來了-伊弗斯", -- [8]
+		"松島菜菜子-伊弗斯", -- [9]
+		"無敵阿強-伊弗斯", -- [10]
+		"白馬王子-伊弗斯", -- [11]
+		"終歸一夢-伊弗斯", -- [12]
+		"羅貝特弗羅斯-伊弗斯", -- [13]
+	},
 }

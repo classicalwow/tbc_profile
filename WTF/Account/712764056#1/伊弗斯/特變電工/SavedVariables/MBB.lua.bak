@@ -2,6 +2,8 @@
 MBB_Exclude = {
 	"Lib_GPI_Minimap_LFGBulletinBoard", -- [1]
 	"LibDBIcon10_PoisonCharges", -- [2]
+	"LibDBIcon10_ItemRack", -- [3]
+	"LibDBIcon10_BisTooltipIcon", -- [4]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,

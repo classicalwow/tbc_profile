@@ -18,6 +18,13 @@ VER 3 0000000001000021 "爆发" "INV_MISC_QUESTIONMARK"
 /use 菲斯克的怀表
 /cast 野性呼唤
 END
+VER 3 0000000001000023 "爆发2" "134400"
+#showtooltip 急速射击
+/cast 急速射击
+/cast 野性呼唤
+/cast 狂暴
+/use 霜冻灵敏护手
+END
 VER 3 000000000100000E "爆發" "136048"
 #showtooltip 急速射击
 /cast 急速射击
