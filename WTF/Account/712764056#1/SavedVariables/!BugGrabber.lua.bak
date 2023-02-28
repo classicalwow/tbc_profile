@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 1472,
 	["lastSanitation"] = 3,
+	["session"] = 1473,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -116,36 +116,36 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [14]
 		{
-			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
-			["time"] = "2023/02/26 20:58:54",
-			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
-			["session"] = 1470,
-			["counter"] = 25,
-		}, -- [15]
-		{
-			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
-			["time"] = "2023/02/26 20:58:58",
-			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 1470,
-			["counter"] = 3,
-		}, -- [16]
-		{
 			["message"] = "Interface/FrameXML/ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
 			["time"] = "2023/02/25 19:59:42",
 			["locals"] = "Skipped (In Encounter)",
 			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1060: in function <Interface/FrameXML/ChatFrame.lua:1055>",
 			["session"] = 1471,
 			["counter"] = 31,
-		}, -- [17]
+		}, -- [15]
 		{
 			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
 			["time"] = "2023/02/25 11:45:05",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 1472,
-			["counter"] = 26,
+			["session"] = 1473,
+			["counter"] = 27,
+		}, -- [16]
+		{
+			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
+			["time"] = "2023/02/26 20:58:54",
+			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
+			["session"] = 1473,
+			["counter"] = 30,
+		}, -- [17]
+		{
+			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
+			["time"] = "2023/02/26 20:58:58",
+			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
+			["session"] = 1473,
+			["counter"] = 4,
 		}, -- [18]
 	},
 }

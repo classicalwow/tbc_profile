@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 1474,
 	["lastSanitation"] = 3,
-	["session"] = 1473,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -100,21 +100,13 @@ BugGrabberDB = {
 			["counter"] = 15,
 		}, -- [12]
 		{
-			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
-			["time"] = "2023/02/25 12:06:35",
-			["locals"] = "GearScore = 6473\nItemLevel = 227\nRed = 0.999940\nBlue = 0\nGreen = 0.000470\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 6\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
-			["session"] = 1462,
-			["counter"] = 293,
-		}, -- [13]
-		{
 			["message"] = "Interface/AddOns/LootMonitor/LootMonitor.lua:412: attempt to index field '?' (a nil value)",
 			["time"] = "2023/02/26 16:51:46",
 			["locals"] = "self = <table> {\n SetWindow = <table> {\n }\n UpdatePosition = <function> defined @Interface/AddOns/LootMonitor/MinimapIcon.lua:81\n LDBIcon = <table> {\n }\n LDB = <table> {\n }\n GetMobNameFromGUID = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:189\n InitGroupInfo = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:349\n CleanLootLogs = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:555\n NewLoots = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:225\n GroupState = <table> {\n }\n PrintLootLog = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:498\n InitGroupFlags = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:272\n DoShowState = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:473\n MinimapIcon = <table> {\n }\n UpdateGroupInfo = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:404\n DoUpdateCheck = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:238\n NewRaid = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:210\n RaidInstanceID = <table> {\n }\n DoReply = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:260\n Output = <table> {\n }\n DoCheck = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:246\n Config = <table> {\n }\n Version = \"3.30\"\n GetUnitPartyUnit = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:177\n IsRaidBoss = <table> {\n }\n Frame = Frame {\n }\n UpdateTable = <function> defined @Interface/AddOns/LootMonitor/LootMonitor.lua:162\n L = <table> {\n }\n}\nSender = \"Farcry\"\nREST = \"3.30\"\nIndex = 4\n(*temporary) = nil\n(*temporary) = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\nIsInRaid = <function> defined =[C]:-1\nUnitInRaid = <function> defined =[C]:-1\nGroupMemberStates = <table> {\n}\nUnitIsGroupLeader = <function> defined =[C]:-1\nAnnounce = <table> {\n Index = 0\n Rank = \"NONE\"\n}\nUnitIsGroupAssistant = <function> defined =[C]:-1\nIsInGroup = <function> defined =[C]:-1\nUnitName = <function> defined =[C]:-1\n",
 			["stack"] = "[string \"@Interface/AddOns/LootMonitor/LootMonitor.lua\"]:412: in function `UpdateGroupInfo'\n[string \"@Interface/AddOns/LootMonitor/LootMonitor.lua\"]:793: in function <Interface/AddOns/LootMonitor/LootMonitor.lua:761>\n[string \"=(tail call)\"]: ?",
 			["session"] = 1463,
 			["counter"] = 1,
-		}, -- [14]
+		}, -- [13]
 		{
 			["message"] = "Interface/FrameXML/ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
 			["time"] = "2023/02/25 19:59:42",
@@ -122,30 +114,38 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1060: in function <Interface/FrameXML/ChatFrame.lua:1055>",
 			["session"] = 1471,
 			["counter"] = 31,
-		}, -- [15]
+		}, -- [14]
 		{
 			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
 			["time"] = "2023/02/25 11:45:05",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 1473,
-			["counter"] = 27,
-		}, -- [16]
-		{
-			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
-			["time"] = "2023/02/26 20:58:54",
-			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
-			["session"] = 1473,
-			["counter"] = 30,
-		}, -- [17]
+			["session"] = 1474,
+			["counter"] = 28,
+		}, -- [15]
 		{
 			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["time"] = "2023/02/26 20:58:58",
 			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 1473,
-			["counter"] = 4,
+			["session"] = 1474,
+			["counter"] = 5,
+		}, -- [16]
+		{
+			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
+			["time"] = "2023/02/25 12:06:35",
+			["locals"] = "GearScore = 6473\nItemLevel = 227\nRed = 0.999940\nBlue = 0\nGreen = 0.000470\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 6\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
+			["session"] = 1474,
+			["counter"] = 307,
+		}, -- [17]
+		{
+			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
+			["time"] = "2023/02/26 20:58:54",
+			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
+			["session"] = 1474,
+			["counter"] = 80,
 		}, -- [18]
 	},
 }
