@@ -1,38 +1,42 @@
 # Hekili
 
-## [v3.4.1-1.8.1](https://github.com/Hekili/hekili/tree/v3.4.1-1.8.1) (2023-02-12)
-[Full Changelog](https://github.com/Hekili/hekili/compare/v3.4.1-1.8.0...v3.4.1-1.8.1) [Previous Releases](https://github.com/Hekili/hekili/releases)
+## [v3.4.1-1.8.2](https://github.com/Hekili/hekili/tree/v3.4.1-1.8.2) (2023-02-27)
+[Full Changelog](https://github.com/Hekili/hekili/compare/v3.4.1-1.8.1...v3.4.1-1.8.2) [Previous Releases](https://github.com/Hekili/hekili/releases)
 
-- Remove duplicate keys in some ability tables.  
-- Merge pull request #2394 from zmsl/wrath  
-- Update Warrior.lua  
-    Increment Arms pack date.  
+- Demonology: Soul Fire logic update.  
+- Affliction: Fix glyph-related logic.  
+- Warlock: Add Shadowflame debuff information.  
+- Merge pull request #2415 from dieck/wrath  
+- Merge pull request #2424 from Supernuss/wrath  
+- Merge pull request #2431 from zmsl/wrath  
+- Hunter: Toy with Explosive Shot ranks.  
+- Disable PvP trinket explanation.  
+- Warrior and Hunter fixes  
+    Warrior  
+    - Fixed bug with arms overpower optimization  
+    Hunter  
+    - Marksmanship hunter baseline implementation  
+- Warrior fixes  
+    - Updated Arms and Fury APL  
+- Druid fixes  
+    - Removed version marking on APL  
+    - Updated Druid APL to support new SR logic  
+- Merge branch 'wrath' of https://github.com/zmsl/hekili into wrath  
+- Druid and Warrior fixes  
+    - Updated SR offset logic to better handle T8 4pc  
+    - Increased SR offset soft max  
+    - Added Warrior "optimize overpower" option  
+    - Added Warrior support for victory rush  
+- Merge pull request #1 from Supernuss/sn\_paladin\_fixPrimaryAndHoR  
+    Paladin Fixes  
+- paladin fixes:  
+    next\_primary\_at; profile\_spec; implemented:  
+    primary\_slack; HoR\_Macros; AoW\_for\_FoL  
+- Wrath WL Demo: Removed "Molten Core" requirement from casting Soul Fire under 35% HP  
+    changed "actions+=/soul\_fire,if=talent.decimation.enabled&target.health.pct<35  
+    &buff.molten\_core.up" to "actions+=/soul\_fire,if=talent.decimation.enabled&target.health.pct<35"  
+    According to wowtbc.gg, it's casted always <35% - the side note on Molten Core on the web just means you don't cast Incinerate anymore  
 - Merge branch 'Hekili:wrath' into wrath  
-- Arms Warrior implementation  
-    - Implemented Arms warrior spells and rotation  
-    - Implemented Taste For Blood prediction  
-- Paladin: Don't recast Sacred Shield or Divine Plea if they've been extended on you.  
-- Don't purge tracked auras based on UnitCanAttack (to fix Sacred Shield).  
-- Merge pull request #2393 from zmsl/wrath  
-- DK, Druid, Hunter: Turn on pack selector by default.  
-- Warrior pack selector.  
-- Warlock pack selector.  
-- Shaman pack selector.  
-- Shaman: Fix Call of the X abilities (assuming the action slots don't get changed).  
-- Rogue pack selector.  
-- Rogue: Add vanish aura and fix Combat priority.  
-- Paladin pack selector.  
-- Mage pack selector framework (no priorities yet!).  
-- Pack Selector: Don't swap if the package doesn't seem to exist.  
-- Hunter priority selectors.  
-- Minimap dropdown is not going to dynamically update, unfortunately.  
-- Whoops, include updated Shadow Priest APL text.  
-- Shoehorn package selector into specialization settings; Priest updates.  
-- Retribution Paladin fixes  
-    - Implemented better aura and blessing recommendations. Icons will now display correctly without reloading when changing settings  
-    - Implemented toggle for blessing and aura settings. Paladins using PallyPower can disable blessing settings completely.  
-- Shaman mainhand spell power inspection fixed  
-- Merge branch 'Hekili:wrath' into wrath  
-- Fixed persistent Shaman lua error  
-- Track debuffs by key rather than by spell ID (to support active\_dot.X for dots with multiple ranks).  
-- Hunter: Changed 'sting' alias to 'stings' to avoid collision with Wasp pet's Sting effect.  
+- Reduce work on combat exit.  
+- Tweak logic in pool\_resource.  
+- Warrior fixes  

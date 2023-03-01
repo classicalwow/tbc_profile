@@ -90,6 +90,7 @@ BisTooltipDB = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			["class_index"] = 9,
+			["filter_class_names"] = false,
 			["spec_index"] = 2,
 			["version"] = 6.1,
 			["filter_specs"] = {
@@ -161,13 +162,6 @@ BisTooltipDB = {
 			["filter_class_names"] = false,
 			["version"] = 6.1,
 			["phase_index"] = 3,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
-			["class_index"] = 10,
-			["data_source"] = "wowtbc",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -220,6 +214,13 @@ BisTooltipDB = {
 					["Shadow"] = true,
 					["Holy"] = true,
 				},
+			},
+			["class_index"] = 10,
+			["data_source"] = "wowtbc",
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
 			},
 		},
 	},

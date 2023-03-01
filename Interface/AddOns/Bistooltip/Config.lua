@@ -11,7 +11,7 @@ local sources = {
 }
 
 Bistooltip_source_to_url = {
-    ["wh"] = "wowhead.com/wotlk [beta]",
+    ["wh"] = "wowhead.com/wotlk",
     ["wowtbc"] = "wowtbc.gg/wotlk"
 }
 
