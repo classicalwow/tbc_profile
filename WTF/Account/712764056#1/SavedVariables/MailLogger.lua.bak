@@ -9454,5 +9454,68 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [501]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "特斯拉大股東",
+			["Reason"] = 1,
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:01:28",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff0070dd|Hitem:42225::::::::80:::::::::|h[龙眼石]|h|r",
+					["Name"] = "龙眼石",
+				}, -- [1]
+			},
+		}, -- [502]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:04:37",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40002::::::::80:::::::::|h[断裂血玉石]|h|r",
+					["Name"] = "断裂血玉石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40002::::::::80:::::::::|h[断裂血玉石]|h|r",
+					["Name"] = "断裂血玉石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40002::::::::80:::::::::|h[断裂血玉石]|h|r",
+					["Name"] = "断裂血玉石",
+				}, -- [3]
+			},
+		}, -- [503]
+		{
+			["TargetName"] = "海豚",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:04:29",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [504]
 	},
 }

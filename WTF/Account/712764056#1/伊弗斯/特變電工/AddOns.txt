@@ -146,7 +146,7 @@ altoholic_guild: disabled
 altoholic_grids: disabled
 altoholic_search: disabled
 Altoholic: disabled
-arkinventoryconfig: disabled
+arkinventoryconfig: enabled
 blizzmove: enabled
 blizzmove_debug: enabled
 dbm-worldevents: enabled
@@ -183,8 +183,8 @@ ArkInventory: enabled
 ArkInventoryRules_Example: disabled
 ArkInventoryRules_Profession: disabled
 AddonProfiles: enabled
-ArkInventoryRules: disabled
-ArkInventorySearch: disabled
+ArkInventoryRules: enabled
+ArkInventorySearch: enabled
 AutoCombatLogger: enabled
 DataStore_Currencies: disabled
 Hekili: enabled

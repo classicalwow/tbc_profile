@@ -9504,5 +9504,441 @@ MailLoggerDB = {
 				}, -- [3]
 			},
 		}, -- [503]
+		{
+			["Date"] = "2023-03-01",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["TargetName"] = "海豚",
+			["Time"] = "22:04:29",
+			["ReceiveItems"] = {
+			},
+		}, -- [504]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:33:34",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [505]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:33:34",
+			["GiveMoney"] = 21000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:45286::::::::80:::::::::|h[蓝铁灌注器]|h|r",
+					["Name"] = "蓝铁灌注器",
+				}, -- [1]
+			},
+		}, -- [506]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:34:06",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [507]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 2400000,
+			["Time"] = "22:34:06",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [508]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:45:23",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [509]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 7600000,
+			["Time"] = "22:45:23",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [510]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:58:17",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [511]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 600000,
+			["Time"] = "22:58:17",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [512]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:10:55",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [513]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 1500000,
+			["Time"] = "23:10:55",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [514]
+		{
+			["TargetName"] = "海外游子",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:26:17",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [515]
+		{
+			["TargetName"] = "海外游子",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 900000,
+			["Time"] = "23:26:17",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [516]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:37:21",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [517]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:37:21",
+			["GiveMoney"] = 3000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:45458::::::::80:::::::::|h[雷暴]|h|r",
+					["Name"] = "雷暴",
+				}, -- [1]
+			},
+		}, -- [518]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:10:10",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [519]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 4500000,
+			["Time"] = "00:10:10",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [520]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:28:53",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [521]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 2600000,
+			["Time"] = "00:28:53",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [522]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:52:20",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [523]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 3000000,
+			["Time"] = "00:52:20",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [524]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:26:39",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [525]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:26:39",
+			["GiveMoney"] = 3000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:46016::::::::80:::::::::|h[魔渊]|h|r",
+					["Name"] = "魔渊",
+				}, -- [1]
+			},
+		}, -- [526]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:27:29",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [527]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 2400000,
+			["Time"] = "01:27:29",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [528]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:28:33",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [529]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:28:33",
+			["GiveMoney"] = 3000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:45997::::::::80:::::::::|h[恶劣者的手套]|h|r",
+					["Name"] = "恶劣者的手套",
+				}, -- [1]
+			},
+		}, -- [530]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:29:01",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-03-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [531]
+		{
+			["TargetName"] = "小白菜炒豆腐",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 300000,
+			["Time"] = "01:29:01",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [532]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 9,
+			["Date"] = "2023-03-02",
+			["ReceiveMoney"] = 1503572,
+			["Time"] = "01:44:51",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:38992::::::::80:::::::::|h[卷轴：附魔双手武器 - 强效野蛮]|h|r",
+					["Name"] = "卷轴：附魔双手武器 - 强效野蛮",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:38992::::::::80:::::::::|h[卷轴：附魔双手武器 - 强效野蛮]|h|r",
+					["Name"] = "卷轴：附魔双手武器 - 强效野蛮",
+				}, -- [2]
+			},
+		}, -- [533]
 	},
 }

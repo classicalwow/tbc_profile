@@ -127,9 +127,9 @@ LootMonitorDB = {
 					},
 				}, -- [11]
 			},
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2023-02-27",
 			["Class"] = "WARRIOR",
+			["Date"] = "2023-02-27",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "纳克萨玛斯",
 			["FirstPlayer"] = "未知",
 		}, -- [1]
