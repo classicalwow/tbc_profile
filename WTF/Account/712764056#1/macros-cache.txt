@@ -1,13 +1,13 @@
 VER 3 00000000000000A9 " 5人本提醒" "134400"
 /p 請大家看好自己頭上的標記控怪，打怪時注意仇恨UI
 END
-VER 3 00000000000000AA " 污染的元素" "132099"
-/target 污染的元素
-/script SetRaidTarget("target",8)
-END
 VER 3 000000000000009A " 污染的元素" "132099"
 /use 薩弗隆牢獄
 /console ffxglow 0
+END
+VER 3 00000000000000AA " 污染的元素" "132099"
+/target 污染的元素
+/script SetRaidTarget("target",8)
 END
 VER 3 000000000000006F "12" "132112"
 /4 {十字}{十字}{十字} H 奴隸監獄 {十字}{十字}{十字} 徵 坦 補 術~
@@ -70,16 +70,16 @@ END
 VER 3 00000000000000A0 "t" "INV_MISC_QUESTIONMARK"
 /target 莎爾萊
 END
-VER 3 0000000000000098 "target" "132090"
-/target 薩
-/script SetRaidTarget("target",8)
-END
 VER 3 000000000000006E "target" "132092"
 /target 幽暗的工人
 /script SetRaidTarget("target",8)
 END
 VER 3 000000000000009E "target" "132090"
 /target 日怒弓箭手
+/script SetRaidTarget("target",8)
+END
+VER 3 0000000000000098 "target" "132090"
+/target 薩
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000038 "VuhDoDCShieldNames" "Ability_Repair"
@@ -118,13 +118,6 @@ END
 VER 3 0000000000000042 "VuhDoDCShieldNames" "132281"
 N[x]斷風五初夏的Nat給本仙屁縫子韓森蓋魅惑夜民主的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
-VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,冰凍陷阱
-END
 VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /petpassive
@@ -145,6 +138,13 @@ VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /PetPassiveMode
 /petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
+VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/stopcasting
+/cleartarget
 /castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
@@ -189,11 +189,11 @@ VER 3 0000000000000094 "加血" "INV_MISC_QUESTIONMARK"
 /use 極強效治療石
 /use 治療藥水注射器
 END
-VER 3 0000000000000097 "吐口水" "132100"
-/吐口水
-END
 VER 3 0000000000000076 "吐口水" "132100"
 /耳光
+END
+VER 3 0000000000000097 "吐口水" "132100"
+/吐口水
 END
 VER 3 000000000000004C "吼吼吼" "132117"
 /cast 瞄準射擊
@@ -258,10 +258,6 @@ VER 3 000000000000004E "圖騰" "132136"
 /petattack [target=灼熱圖騰][target=圖騰]
 /petattack [target=法力之泉圖騰][target=圖騰]
 END
-VER 3 00000000000000A4 "坐騎" "132231"
-/cast 迅捷紅色雙足飛龍
-/cast 黑色戰鬥迅猛龍之哨
-END
 VER 3 00000000000000AC "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 阿曼尼戰熊
@@ -269,6 +265,10 @@ END
 VER 3 000000000000007C "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 大型棕色科多獸
+END
+VER 3 00000000000000A4 "坐騎" "132231"
+/cast 迅捷紅色雙足飛龍
+/cast 黑色戰鬥迅猛龍之哨
 END
 VER 3 0000000000000034 "坐騎宏" "132265"
 /cast 塞納里奧戰爭角鷹獸
@@ -300,12 +300,12 @@ VER 3 00000000000000A7 "换武器" "132281"
 /equipslot 16 item:28439:3225
 /equipslot 17 item:28439:2673
 END
-VER 3 0000000000000088 "援護" "132365"
+VER 3 000000000000008A "援護" "132365"
+/target 毛茸茸的玩意
 /cast [stance:1/3] 防禦姿態
 /cast 阻擾
 END
-VER 3 000000000000008A "援護" "132365"
-/target 毛茸茸的玩意
+VER 3 0000000000000088 "援護" "132365"
 /cast [stance:1/3] 防禦姿態
 /cast 阻擾
 END
@@ -339,15 +339,15 @@ VER 3 0000000000000054 "獻技" "INV_Misc_QuestionMark"
 /cleartarget
 /castsequence reset=10 假死,獻祭陷阱
 END
-VER 3 000000000000008C "王子" "132148"
-/equipslot 16 無盡之刃
-/equipslot 17 相位壁壘
-/targetenemyplayer
-/castsequence reset=alt/5 破甲攻擊(等級 6),破甲攻擊(等級 6),破甲攻擊(等級 6)
-END
 VER 3 000000000000009C "王子" "132148"
 /equipslot 16 無盡之刃
 /equipslot 17 扭曲分割者
+/targetenemyplayer
+/castsequence reset=alt/5 破甲攻擊(等級 6),破甲攻擊(等級 6),破甲攻擊(等級 6)
+END
+VER 3 000000000000008C "王子" "132148"
+/equipslot 16 無盡之刃
+/equipslot 17 相位壁壘
 /targetenemyplayer
 /castsequence reset=alt/5 破甲攻擊(等級 6),破甲攻擊(等級 6),破甲攻擊(等級 6)
 END
@@ -431,6 +431,9 @@ VER 3 000000000000008F "血沸" "132143"
 /cast 靈魂枷鎖 
 /cast 靈魂之矛
 END
+VER 3 0000000000000095 "血魔" "132140"
+wa
+END
 VER 3 00000000000000A3 "血魔" "132140"
 /cleartarget
 /targetenemy
@@ -438,18 +441,15 @@ VER 3 00000000000000A3 "血魔" "132140"
 /cast 靈魂枷鎖
 /cast 靈魂之矛
 END
-VER 3 0000000000000095 "血魔" "132140"
-wa
-END
-VER 3 000000000000005B "通告" "132111"
-/RA 上組門神重置時間 20:38
-/RA 下組門神重置時間 20:39
-END
 VER 3 000000000000005C "通告" "132111"
 /RA 樓梯眼睛要殺 刷太快沒和平
 /RA 蟲子重置時間 20:13
 /RA 上組門神重置時間 20:46
 /RA 下組門神重置時間 20:55
+END
+VER 3 000000000000005B "通告" "132111"
+/RA 上組門神重置時間 20:38
+/RA 下組門神重置時間 20:39
 END
 VER 3 000000000000005D "野性" "132104"
 /castsequence 野性守護,獵豹守護
@@ -480,14 +480,14 @@ VER 3 0000000000000062 "開抓" "132187"
 /targetenemy
 / SetCVar("targetNearestDistance", 41)
 END
-VER 3 0000000000000064 "雄鹰" "136076"
-/cast [mod:shift]獵豹守護
-/cast [mod:alt]自然守護
-/cast 雄鷹守護
-END
 VER 3 0000000000000063 "雄鹰" "136076"
 /cast [mod:shift]獵豹守護
 /cast [mod:alt]野性守護
+/cast 雄鷹守護
+END
+VER 3 0000000000000064 "雄鹰" "136076"
+/cast [mod:shift]獵豹守護
+/cast [mod:alt]自然守護
 /cast 雄鷹守護
 END
 VER 3 0000000000000081 "雙手武器" "132090"

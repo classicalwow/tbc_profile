@@ -409,15 +409,15 @@ AtlasLootClassicDB = {
 			[33661] = "honor:12825",
 			[35326] = "BoJ:75",
 			[42570] = "arena:2250",
-			[40716] = "EmblemOfHeroism:15",
+			[34578] = "honor:3990",
 			[33331] = "BoJ:60",
 			[45639] = "EmblemOfConquest:58",
 			[42602] = "arena:1200",
 			[201993] = "arena:550",
-			[45831] = "EmblemOfConquest:28",
+			[40716] = "EmblemOfHeroism:15",
 			[33587] = "BoJ:60",
 			[33523] = "BoJ:60",
-			[34578] = "honor:3990",
+			[45831] = "EmblemOfConquest:28",
 			[16341] = "honor:200",
 			[39757] = "EmblemOfValor:25",
 			[23243] = "honor:1000",
@@ -455,9 +455,9 @@ AtlasLootClassicDB = {
 			[40611] = "EmblemOfHeroism:80",
 			[32450] = "honor:7125",
 			[40877] = "honor:21700",
+			[32789] = "honor:5320",
 			[33812] = "honor:6840",
 			[41996] = "EmblemOfHeroism:45",
-			[32789] = "honor:5320",
 			[42028] = "honor:33180",
 			[42060] = "honor:16590",
 			[40749] = "EmblemOfValor:40",
@@ -863,16 +863,16 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-233.6376953125, -- [4]
-					-5.60297155380249, -- [5]
+					"CENTER", -- [3]
+					-29.51905632019043, -- [4]
+					26.64111328125, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingWrath", -- [2]
-					nil, -- [3]
+					nil, -- [1]
+					"Ulduar", -- [2]
+					7, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
@@ -881,16 +881,16 @@ AtlasLootClassicDB = {
 		["特斯拉大股東 - 伊弗斯"] = {
 			["GUI"] = {
 				["point"] = {
-					"LEFT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"LEFT", -- [3]
-					25, -- [4]
-					113.9999923706055, -- [5]
+					"CENTER", -- [3]
+					-103.1238708496094, -- [4]
+					51.04923248291016, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"TrialoftheCrusader", -- [2]
-					3, -- [3]
+					"Ulduar", -- [2]
+					7, -- [3]
 					9, -- [4]
 					0, -- [5]
 				},

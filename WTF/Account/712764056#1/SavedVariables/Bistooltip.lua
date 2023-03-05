@@ -97,8 +97,8 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimapPos"] = 281.1238099041077,
-			["version"] = 6.1,
 			["spec_index"] = 3,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -154,17 +154,12 @@ BisTooltipDB = {
 				},
 			},
 			["class_index"] = 3,
-			["data_source"] = "wh",
+			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			["class_index"] = 10,
 			["filter_class_names"] = false,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
 			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
@@ -218,6 +213,11 @@ BisTooltipDB = {
 					["Restoration"] = true,
 					["Feral tank"] = true,
 				},
+			},
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
 			},
 			["minimapPos"] = 253.4463397527872,
 			["data_source"] = "wowtbc",

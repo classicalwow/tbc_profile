@@ -152,7 +152,7 @@ arkinventoryconfig: disabled
 blizzmove: enabled
 blizzmove_debug: enabled
 dbm-worldevents: enabled
-TalentEmu: disabled
+TalentEmu: enabled
 ArkInventoryRules_Profession: disabled
 ArkInventoryRules_Example: disabled
 ArkInventory: enabled
