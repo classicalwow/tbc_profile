@@ -1,13 +1,13 @@
 
 GTFOData = {
+	["TestMode"] = false,
+	["Active"] = true,
 	["SoundOverrides"] = {
 		"", -- [1]
 		"", -- [2]
 		"", -- [3]
 		"", -- [4]
 	},
-	["Active"] = true,
-	["TestMode"] = false,
 	["TrivialDamagePercent"] = 2,
 	["SoundChannel"] = "Master",
 	["Sounds"] = {
