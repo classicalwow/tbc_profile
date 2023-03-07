@@ -56,6 +56,39 @@ TomTomWaypointsM = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
+			[1944] = {
+				["1944:562836185.81907:362347188.26406:巴尔雷"] = {
+					1944, -- [1]
+					0.5628361858190709, -- [2]
+					0.3623471882640587, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "巴尔雷",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "巴尔雷",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 		},

@@ -56,6 +56,31 @@ TomTomWaypointsM = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
+			[1944] = {
+				["1944:562836185.81907:362347188.26406:巴尔雷"] = {
+					1944, -- [1]
+					0.5628361858190709, -- [2]
+					0.3623471882640587, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "巴尔雷",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "巴尔雷",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 		},

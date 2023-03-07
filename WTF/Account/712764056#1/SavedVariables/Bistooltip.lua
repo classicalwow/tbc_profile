@@ -32,8 +32,8 @@ BisTooltipDB = {
 		["特變電工 - 伊弗斯"] = {
 			["minimapPos"] = 248.3304143632559,
 			["filter_class_names"] = false,
-			["spec_index"] = 2,
 			["version"] = 6.1,
+			["spec_index"] = 2,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -97,8 +97,8 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimapPos"] = 281.1238099041077,
-			["version"] = 6.1,
 			["spec_index"] = 3,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -154,7 +154,7 @@ BisTooltipDB = {
 				},
 			},
 			["class_index"] = 3,
-			["data_source"] = "wowtbc",
+			["data_source"] = "wh",
 			["phase_index"] = 3,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {

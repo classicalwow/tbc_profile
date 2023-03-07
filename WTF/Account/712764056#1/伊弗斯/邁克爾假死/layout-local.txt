@@ -8,9 +8,9 @@ W: 365
 H: 240
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
-Anchor: LEFT
-X: 100
-Y: 74
+Anchor: CENTER
+X: -310
+Y: 84
 W: 920
 H: 600
 Frame: aux_frame
@@ -27,10 +27,3 @@ X: 15
 Y: -110
 W: 1084
 H: 503
-Frame: WIM3_msgFrame1
-FrameLevel: 2
-Anchor: TOPLEFT
-X: 356
-Y: -170
-W: 333
-H: 220
