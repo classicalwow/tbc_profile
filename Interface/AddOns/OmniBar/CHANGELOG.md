@@ -1,1 +1,1 @@
-- Spell updates from citna
+- Orbital Strike CA/Incarn Fixes

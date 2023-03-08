@@ -46,7 +46,6 @@ HekiliDB = {
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["enabled"] = false,
 			["toggles"] = {
 				["potions"] = {
 					["key"] = "ALT-SHIFT-R",
@@ -58,6 +57,18 @@ HekiliDB = {
 				["cooldowns"] = {
 					["key"] = "",
 				},
+			},
+			["runOnce"] = {
+				["forceReloadAllDefaultPriorities_20220228"] = true,
+				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
+				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+				["forceReloadClassDefaultOptions_20220306_9"] = true,
+				["forceReloadClassDefaultOptions_20220306_2"] = true,
+				["forceReloadClassDefaultOptions_20220306_3"] = true,
+				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
+				["forceReloadClassDefaultOptions_20220306_7"] = true,
+				["forceReloadClassDefaultOptions_20220306_1"] = true,
+				["resetAberrantPackageDates_20190728_1"] = true,
 			},
 			["specs"] = {
 				{
@@ -78,10 +89,10 @@ HekiliDB = {
 						["optimize_overpower"] = false,
 						["debuff_sunder_enabled"] = true,
 						["rend_health_threshold"] = 20,
-						["protection"] = "Protection Warrior (wowtbc.gg)",
 						["rend_cooldown_threshold"] = 1.5,
-						["main_gcd_spell"] = "slam",
 						["shout_spell"] = "commanding_shout",
+						["main_gcd_spell"] = "slam",
+						["protection"] = "Protection Warrior (wowtbc.gg)",
 						["execute_queueing_enabled"] = true,
 					},
 					["autoPacks"] = {
@@ -1715,9 +1726,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.stance.down",
 								["action"] = "berserker_stance",
 								["description"] = "APL v3.4.1-1.7.0 #",
+								["criteria"] = "buff.stance.down",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1983,9 +1994,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["description"] = "APL v3.4.1-1.6.5 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
+								["description"] = "APL v3.4.1-1.6.5 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2454,9 +2465,9 @@ HekiliDB = {
 							}, -- [4]
 							{
 								["enabled"] = true,
-								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
 								["action"] = "thunderstorm",
 								["description"] = "actions.aoe+=/thunderstorm,if=mana.pct<90||target.distance<10&glyph.glyph_of_thunderstorm.enabled",
+								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
 							}, -- [5]
 						},
 						["default"] = {
@@ -2499,9 +2510,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
-								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
 								["action"] = "chain_lightning",
 								["description"] = "Need to create this specialization option.",
+								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -2521,9 +2532,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
 								["action"] = "call_of_the_elements",
 								["description"] = "Place your totems if they're not already up, don't want to use it if we've used a major CD totem.",
+								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -2532,9 +2543,9 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
 								["action"] = "searing_totem",
 								["description"] = "Need to find a way to verify that the snapshot has taken place.",
+								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
 							}, -- [4]
 						},
 					},
@@ -2740,9 +2751,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["description"] = "APL v3.4.0-1.4.2 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
+								["description"] = "APL v3.4.0-1.4.2 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3108,9 +3119,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
+								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -3562,9 +3573,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
 								["action"] = "windfury_weapon",
 								["description"] = "APL v3.4.1-1.2.0 #",
+								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3598,18 +3609,6 @@ HekiliDB = {
 						},
 					},
 				},
-			},
-			["runOnce"] = {
-				["forceReloadAllDefaultPriorities_20220228"] = true,
-				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
-				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
-				["forceReloadClassDefaultOptions_20220306_9"] = true,
-				["forceReloadClassDefaultOptions_20220306_2"] = true,
-				["forceReloadClassDefaultOptions_20220306_3"] = true,
-				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
-				["forceReloadClassDefaultOptions_20220306_7"] = true,
-				["forceReloadClassDefaultOptions_20220306_1"] = true,
-				["resetAberrantPackageDates_20190728_1"] = true,
 			},
 		},
 	},

@@ -409,15 +409,15 @@ AtlasLootClassicDB = {
 			[33661] = "honor:12825",
 			[35326] = "BoJ:75",
 			[42570] = "arena:2250",
-			[45831] = "EmblemOfConquest:28",
+			[40716] = "EmblemOfHeroism:15",
 			[33331] = "BoJ:60",
 			[45639] = "EmblemOfConquest:58",
 			[42602] = "arena:1200",
 			[201993] = "arena:550",
-			[34578] = "honor:3990",
+			[45831] = "EmblemOfConquest:28",
 			[33587] = "BoJ:60",
 			[33523] = "BoJ:60",
-			[40716] = "EmblemOfHeroism:15",
+			[34578] = "honor:3990",
 			[16341] = "honor:200",
 			[39757] = "EmblemOfValor:25",
 			[23243] = "honor:1000",
@@ -455,9 +455,9 @@ AtlasLootClassicDB = {
 			[40611] = "EmblemOfHeroism:80",
 			[32450] = "honor:7125",
 			[40877] = "honor:21700",
+			[33812] = "honor:6840",
 			[41996] = "EmblemOfHeroism:45",
 			[32789] = "honor:5320",
-			[33812] = "honor:6840",
 			[42028] = "honor:33180",
 			[42060] = "honor:16590",
 			[40749] = "EmblemOfValor:40",
@@ -819,10 +819,10 @@ AtlasLootClassicDB = {
 					-122.1258239746094, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Collections", -- [1]
-					"EmblemofConquest", -- [2]
-					nil, -- [3]
-					1, -- [4]
+					nil, -- [1]
+					"VaultofArchavon", -- [2]
+					2, -- [3]
+					9, -- [4]
 					0, -- [5]
 				},
 			},
@@ -872,7 +872,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"Ulduar", -- [2]
-					13, -- [3]
+					14, -- [3]
 					9, -- [4]
 					0, -- [5]
 				},

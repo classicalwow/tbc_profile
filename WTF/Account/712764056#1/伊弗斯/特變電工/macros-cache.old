@@ -10,10 +10,6 @@ VER 3 0000000001000001 "target" "132090"
 /target 卡莱恩
 /script SetRaidTarget("target",8)
 END
-VER 3 0000000001000018 "力量卷軸" "INV_MISC_QUESTIONMARK"
-/equip 黑冰
-/cast [stance:2/3] 战斗姿态
-END
 VER 3 0000000001000002 "吐口水" "132100"
 /耳光
 END
@@ -53,6 +49,10 @@ VER 3 0000000001000015 "斬殺" "INV_MISC_QUESTIONMARK"
 /cast 斩杀
 /cast !英勇打击
 /startattack
+END
+VER 3 0000000001000018 "爆发" "135567"
+/施放 死亡之愿
+/use 速度药水
 END
 VER 3 0000000001000017 "爆發" "INV_MISC_QUESTIONMARK"
 #showtooltip 死亡之願

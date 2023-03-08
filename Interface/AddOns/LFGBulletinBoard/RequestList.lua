@@ -499,13 +499,13 @@ function GBB.GetDungeons(msg,name)
 
 	local wordcount=0
 
-	if (findStrInTab({"消费","打工"},msg)) then
-		msg = ""
-	end
+	-- if (findStrInTab({"消费","打工"},msg)) then
+	-- 	msg = ""
+	-- end
 
-	if not(findStrInTab({"10","25"},msg)) then
-		msg = ""
-	end
+	-- if not(findStrInTab({"10","25"},msg)) then
+	-- 	msg = ""
+	-- end
 
 	-- if not(strfind(msg:lower(), "h")) then
 		-- msg = ""
@@ -513,9 +513,9 @@ function GBB.GetDungeons(msg,name)
 
 	
 
-	if not(findStrInTab({"lr","猎","獵","kbz","战","戰","dd","dps"},msg)) then
-		msg = ""
-	end
+	-- if not(findStrInTab({"lr","猎","獵","kbz","战","戰","dd","dps"},msg)) then
+	-- 	msg = ""
+	-- end
 
 	-- if not(findStrInTab({"kbz","战","戰","dd","dps"},msg)) then
 	-- 	msg = ""

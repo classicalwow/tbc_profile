@@ -43,7 +43,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
 	["autoCount"] = 3,
 	["sameserver"] = true,
 	["ignoreList"] = {
@@ -62,7 +62,7 @@ GlobalIgnoreDB = {
 		"羅貝特弗羅斯-伊弗斯", -- [13]
 		"来自天堂灬-伊弗斯", -- [14]
 	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -167,7 +167,7 @@ GlobalIgnoreDB = {
 		"", -- [13]
 		"", -- [14]
 	},
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
 	["syncInfo"] = {
 		{
