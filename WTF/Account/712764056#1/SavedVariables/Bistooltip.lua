@@ -30,13 +30,10 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 		},
 		["特變電工 - 伊弗斯"] = {
-			["class_index"] = 9,
-			["filter_class_names"] = false,
-			["version"] = 6.1,
-			["spec_index"] = 2,
-			["phase_index"] = 3,
 			["minimapPos"] = 248.3304143632559,
-			["data_source"] = "wh",
+			["filter_class_names"] = false,
+			["spec_index"] = 3,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -91,14 +88,17 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["class_index"] = 9,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimapPos"] = 281.1238099041077,
-			["spec_index"] = 3,
 			["version"] = 6.1,
+			["spec_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -158,9 +158,10 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["class_index"] = 10,
+			["minimapPos"] = 253.4463397527872,
 			["filter_class_names"] = false,
 			["version"] = 6.1,
+			["phase_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -214,8 +215,7 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
-			["phase_index"] = 3,
-			["minimapPos"] = 253.4463397527872,
+			["class_index"] = 10,
 			["data_source"] = "wowtbc",
 			["highlight_spec"] = {
 				["spec_name"] = "Affliction",

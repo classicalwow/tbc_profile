@@ -914,7 +914,7 @@ TalentEmuSV = {
 		["minimap"] = true,
 	},
 	["var"] = {
-		["Player-4487-0012ECFA"] = "!T329E121LPoBoA:08Jn11fIt-9R674p7NS::0cd09S::kH4a8tnxg=DpV1!G3221w+9:yDC:11u+-:4dE:81u+-:k=C:C1u+9:2EC:G1u+-:l=C:D1u+9:pDC:E1uw+9:RRD:-1u+-:4dE:81u+-:k=C:C1u+9:7EC:A1u+-:l=C:D1u+9:8EC:21u!E320+^+Et9:1dv:1q6-:1dG-:5E1:9+w==:8E1:9+5F=:1Uv:1dG-:6E1:9+^+d2=:1om:1CP-:6E1:9+n6=:22l9:12l9:5E1:9+6F=:1jv:12l9:1dG-:5E1:9+w7=:1Ks:12l9:12l9:5E1:9+Rw9:15w:7E1:9+4F=:1Is:1Zl9:6E1:9+r3=:8E1:9+Bw9:8E1:9+0p9:8E1:9+fT-:8E1:9+Fw9:1=F:7E1:9+G6=:1ov:7E1:9+0D=:1ov:7E1:9+3I=:8E1:9+IW-:8E1:9",
+		["Player-4487-0012ECFA"] = "!T329E121LPoBoA:08Jn11fIt-9R674p7NS::0cd09S::kH4a8tnxg=DpV1!G3221w+9:yDC:11u+-:4dE:81u+-:k=C:C1u+9:2EC:G1u+-:l=C:D1u+9:pDC:E1uw+9:RRD:-1u+-:4dE:81u+-:k=C:C1u+9:7EC:A1u+-:l=C:D1u+9:8EC:21u!E320+^+Et9:1dv:1q6-:1dG-:5E1:9+w==:8E1:9+5F=:1Uv:1dG-:6E1:9+^+d2=:1om:1CP-:6E1:9+n6=:22l9:12l9:5E1:9+6F=:1jv:12l9:1dG-:5E1:9+w7=:1Ks:12l9:12l9:5E1:9+Rw9:15w:7E1:9+4F=:1Is:1Zl9:6E1:9+r3=:8E1:9+m0=:8E1:9+0p9:8E1:9+fT-:8E1:9+Fw9:1=F:7E1:9+G6=:1ov:7E1:9+0D=:1ov:7E1:9+3I=:8E1:9+IW-:8E1:9",
 		["Player-4487-0008386D"] = "!T322E122JB1::0HAy6KaUrALiWA3UcO::07ye66:0sB038-SbAxroK2n4!G3222w+9:0sB:B1u+-:g8C:G1u+-:j8C:-1u+9:urB:H1u+-:-8C:91u+9:-sB:21uw+9:PND:81u+-:j8C:-1u+-:C8C:41u+9:OND:71u+-:-8C:91u+9:QND:91u!E320+^+zE=:1dv:1q6-:1xk9:5E1:9+w==:8E1:9+vs9:1Uv:1TG-:6E1:9+z1:8E1:9+xE=:1sv:1xk9:1CP-:5E1:9+P6=:2xk9:6E1:9+IA=:1jv:1TG-:1TG-:5E1:9+u7=:1Ks:1xk9:1Ll9:5E1:9+C6=:15w:7E1:9+AA=:1Km:7E1:9+z6=:8E1:9+Z1=:8E1:9+Rn-:8E1:9+gv9:8E1:9+lA=:1Js:7E1:9+ID=:1tv:1xk9:6E1:9+ID=:1tv:1xk9:6E1:9+28=:1Ms:7E1:9+GW-:8E1:9",
 		["Player-4487-000AC97B"] = "910",
 		["Player-4487-001C0EC2"] = "!T32420110!G32116++++++!E320+^+^+^+^+Dt5:82:9+^+^+Ft5:82:9+Gt5:82:9+^+^+^+^+^+^+^+mg5:82:9+^+^+^",
@@ -931,8 +931,8 @@ TalentEmuSV = {
 			["复仇战- |cff7fbfff武器37|r 狂怒 2 防护32"] = "!T329E111OaLI1228JQ7kqsA1::EmUa8ZS-G",
 			["pvp斧头- |cff7fbfff武器55|r 狂怒12 防护 0"] = "!T329E111GivcpA5Mxp7m-nA9Jh=",
 			["老雷狂暴戰 - 武器21 |cff7fbfff狂怒40|r 防护 0"] = "9FOcV76:4oFU3tBb1361",
-			["防戰仇恨- 武器17 狂怒 3 |cff7fbfff防护41|r"] = "91jgV7:g1::QTm62JSIv661",
 			["pvp - |cff7fbfff武器41|r 狂怒17 防护 3"] = "98=BV-OPjKHhwnN:2:G61",
+			["防戰仇恨- 武器17 狂怒 3 |cff7fbfff防护41|r"] = "91jgV7:g1::QTm62JSIv661",
 			["最新的狂暴战- 武器18 |cff7fbfff狂怒51|r 防护 2"] = "!T329E111LPoBoA:08Jn11fIt-9R674p7",
 		},
 	},
