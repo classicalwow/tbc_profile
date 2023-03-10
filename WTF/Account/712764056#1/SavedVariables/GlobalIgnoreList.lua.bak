@@ -13,16 +13,21 @@ GlobalIgnoreDB = {
 		0, -- [10]
 	},
 	["typeList"] = {
+		"player", -- [1]
 	},
 	["syncInfo"] = {
+		{
+		}, -- [1]
 	},
 	["invertSpam"] = false,
 	["skipPrivate"] = true,
 	["ignoreList"] = {
+		"关羽黑公会-伊弗斯", -- [1]
 	},
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["autoCount"] = 3,
 	["notes"] = {
+		"", -- [1]
 	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
@@ -36,20 +41,23 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
 	["autoIgnore"] = true,
 	["factionList"] = {
+		"Horde", -- [1]
 	},
 	["skipGuild"] = true,
 	["sameserver"] = true,
 	["attachFriends"] = true,
 	["revision"] = 1,
 	["expList"] = {
+		0, -- [1]
 	},
 	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["dateList"] = {
+		"09 Mar 2023", -- [1]
 	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
@@ -98,7 +106,7 @@ GlobalIgnoreDB = {
 		"羅貝特弗羅斯-伊弗斯", -- [17]
 		"来自天堂灬-伊弗斯", -- [18]
 	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }

@@ -13,6 +13,7 @@ GlobalIgnoreDB = {
 		0, -- [10]
 	},
 	["typeList"] = {
+		"player", -- [1]
 	},
 	["openWithFriends"] = true,
 	["invertSpam"] = false,
@@ -29,7 +30,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
@@ -52,22 +53,28 @@ GlobalIgnoreDB = {
 		"来自天堂灬-伊弗斯", -- [18]
 	},
 	["syncInfo"] = {
+		{
+		}, -- [1]
 	},
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
+		"Horde", -- [1]
 	},
 	["defexpire"] = 0,
 	["sameserver"] = true,
 	["attachFriends"] = true,
 	["notes"] = {
+		"", -- [1]
 	},
 	["expList"] = {
+		0, -- [1]
 	},
 	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["dateList"] = {
+		"09 Mar 2023", -- [1]
 	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
@@ -97,8 +104,9 @@ GlobalIgnoreDB = {
 	["asknote"] = true,
 	["skipParty"] = false,
 	["revision"] = 1,
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["ignoreList"] = {
+		"关羽黑公会-伊弗斯", -- [1]
 	},
 }
