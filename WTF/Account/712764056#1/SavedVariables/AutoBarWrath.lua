@@ -281,7 +281,7 @@ AutoBarDB2 = {
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "工程学",
+					["arrangeOnUse"] = "珠宝加工",
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 40211,
@@ -600,7 +600,7 @@ AutoBarDB2 = {
 					["dockShiftY"] = 0,
 					["alignButtons"] = "3",
 					["posX"] = 300,
-					["hide"] = false,
+					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
 					["alpha"] = 1,
@@ -829,15 +829,10 @@ AutoBarDB2 = {
 				["posX"] = 584.1615023466366,
 				["hide"] = false,
 				["enabled"] = true,
-				["columns"] = 16,
+				["buttonHeight"] = 36,
 				["posY"] = 101.5436780709988,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
-				["buttonHeight"] = 36,
-				["allowed_class"] = "*",
-				["alpha"] = 1,
-				["padding"] = 0,
-				["dockShiftX"] = 0,
 				["buttonKeys"] = {
 					"AutoBarButtonHearth", -- [1]
 					"AutoBarButtonBandages", -- [2]
@@ -861,6 +856,11 @@ AutoBarDB2 = {
 					"AutoBarButtonTrinket1", -- [20]
 					"AutoBarButtonTrinket2", -- [21]
 				},
+				["allowed_class"] = "*",
+				["alpha"] = 1,
+				["padding"] = 0,
+				["dockShiftX"] = 0,
+				["columns"] = 16,
 			},
 			["AutoBarClassBarExtras"] = {
 				["popupDirection"] = "1",
@@ -884,16 +884,16 @@ AutoBarDB2 = {
 				["posX"] = 300,
 				["hide"] = true,
 				["enabled"] = true,
-				["alignButtons"] = "3",
 				["columns"] = 9,
+				["posY"] = 360,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
-				["posY"] = 360,
+				["scale"] = 1,
 				["allowed_class"] = "*",
 				["alpha"] = 1,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["scale"] = 1,
+				["alignButtons"] = "3",
 			},
 		},
 		["buttonList"] = {
