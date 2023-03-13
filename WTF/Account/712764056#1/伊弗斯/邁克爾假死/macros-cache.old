@@ -42,6 +42,7 @@ END
 VER 3 000000000100001D "自动攻击" "INV_MISC_QUESTIONMARK"
 /castsequence reset=6 猛禽一击
 /castrandom 猫鼬撕咬
+/施放 猛禽一击
 /petattack
 END
 VER 3 0000000001000020 "误导宠物" "INV_MISC_QUESTIONMARK"

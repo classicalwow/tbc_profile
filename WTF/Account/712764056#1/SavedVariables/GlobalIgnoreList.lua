@@ -15,18 +15,9 @@ GlobalIgnoreDB = {
 	["typeList"] = {
 		"player", -- [1]
 	},
-	["ignoreList"] = {
-		"关羽黑公会-伊弗斯", -- [1]
-	},
 	["openWithFriends"] = true,
+	["invertSpam"] = false,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-	},
-	["trackChanges"] = true,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -39,12 +30,8 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-		"Horde", -- [1]
-	},
-	["skipParty"] = false,
+	["trackChanges"] = true,
+	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -65,6 +52,17 @@ GlobalIgnoreDB = {
 		"羅貝特弗羅斯-伊弗斯", -- [17]
 		"来自天堂灬-伊弗斯", -- [18]
 	},
+	["syncInfo"] = {
+		{
+		}, -- [1]
+	},
+	["autoUpdate"] = true,
+	["autoIgnore"] = true,
+	["factionList"] = {
+		"Horde", -- [1]
+	},
+	["defexpire"] = 0,
+	["sameserver"] = true,
 	["attachFriends"] = true,
 	["notes"] = {
 		"", -- [1]
@@ -75,7 +73,9 @@ GlobalIgnoreDB = {
 	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["defexpire"] = 0,
+	["dateList"] = {
+		"09 Mar 2023", -- [1]
+	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -88,7 +88,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -101,12 +101,12 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
-		"09 Mar 2023", -- [1]
-	},
-	["sameserver"] = true,
+	["asknote"] = true,
+	["skipParty"] = false,
+	["revision"] = 1,
 	["autoTime"] = 600,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["ignoreList"] = {
+		"关羽黑公会-伊弗斯", -- [1]
+	},
 }
