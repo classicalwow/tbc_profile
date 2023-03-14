@@ -3,14 +3,15 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 533,
+			["FirstPlayer"] = "未知",
 			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15956-00007CBBBA",
 					["Time"] = "22:28:37",
-					["Class"] = "MAGE",
-					["Date"] = "2023-02-27",
 					["Looter"] = "绿巨人灬",
+					["Date"] = "2023-02-27",
+					["Class"] = "MAGE",
 					["Name"] = "阿努布雷坎",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r", -- [1]
@@ -19,9 +20,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15953-00007CBBBA",
 					["Time"] = "22:33:18",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "四川莽夫",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "黑女巫法琳娜",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40064::::::::80:::::::::|h[雷霆风暴护符]|h|r", -- [1]
@@ -30,9 +31,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15954-00007CBBBA",
 					["Time"] = "22:45:16",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "四川莽夫",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "药剂师诺斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40185::::::::80:::::::::|h[机遇护肩]|h|r", -- [1]
@@ -41,9 +42,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15936-00007CBBBA",
 					["Time"] = "22:50:00",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "明明会奶",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "肮脏的希尔盖",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40207::::::::80:::::::::|h[警觉魔印]|h|r", -- [1]
@@ -52,9 +53,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-16011-00007CBBBA",
 					["Time"] = "22:55:42",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "明明会奶",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "洛欧塞布",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40638::::::::80:::::::::|h[失落保卫者的肩甲]|h|r", -- [1]
@@ -63,9 +64,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-16028-00007CBBBA",
 					["Time"] = "23:02:53",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "明明会奶",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "帕奇维克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40260::::::::80:::::::::|h[被折磨者的腰带]|h|r", -- [1]
@@ -74,9 +75,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15932-00007CBBBA",
 					["Time"] = "23:11:14",
-					["Class"] = "SHAMAN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "Kesmin",
+					["Date"] = "2023-02-27",
+					["Class"] = "SHAMAN",
 					["Name"] = "格拉斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40639::::::::80:::::::::|h[失落胜利者的肩甲]|h|r", -- [1]
@@ -85,9 +86,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15928-00007CBBBA",
 					["Time"] = "23:20:04",
-					["Class"] = "WARRIOR",
-					["Date"] = "2023-02-27",
 					["Looter"] = "特變電工",
+					["Date"] = "2023-02-27",
+					["Class"] = "WARRIOR",
 					["Name"] = "塔迪乌斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40636::::::::80:::::::::|h[失落胜利者的腿甲]|h|r", -- [1]
@@ -96,9 +97,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-16060-00007CBBBA",
 					["Time"] = "23:35:38",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "明明会奶",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "收割者戈提克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40251::::::::80:::::::::|h[光辉斗篷]|h|r", -- [1]
@@ -107,9 +108,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15989-00007CD00F",
 					["Time"] = "23:48:33",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-02-27",
 					["Looter"] = "四川莽夫",
+					["Date"] = "2023-02-27",
+					["Class"] = "PALADIN",
 					["Name"] = "萨菲隆",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40369::::::::80:::::::::|h[冰冷爆裂护符]|h|r", -- [1]
@@ -118,20 +119,19 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-533-16852-15990-00007CBBBA",
 					["Time"] = "23:57:42",
-					["Class"] = "ROGUE",
-					["Date"] = "2023-02-27",
 					["Looter"] = "錦鯉附體",
+					["Date"] = "2023-02-27",
+					["Class"] = "ROGUE",
 					["Name"] = "克尔苏加德",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40631::::::::80:::::::::|h[失落征服者的头冠]|h|r", -- [1]
 					},
 				}, -- [11]
 			},
-			["FirstClass"] = "UNKNOWN",
 			["Date"] = "2023-02-27",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "纳克萨玛斯",
-			["FirstPlayer"] = "未知",
 		}, -- [1]
 	},
 	["Config"] = {

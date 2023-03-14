@@ -14,10 +14,31 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 		"player", -- [1]
+		"player", -- [2]
+		"player", -- [3]
+		"player", -- [4]
+	},
+	["ignoreList"] = {
+		"关羽黑公会-伊弗斯", -- [1]
+		"Poisoning-伊弗斯", -- [2]
+		"午夜牛-伊弗斯", -- [3]
+		"阿度根-伊弗斯", -- [4]
 	},
 	["openWithFriends"] = true,
-	["invertSpam"] = false,
 	["skipPrivate"] = true,
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["autoUpdate"] = true,
+	["autoCount"] = 3,
+	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -30,8 +51,15 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["trackChanges"] = true,
-	["autoCount"] = 3,
+	["autoTime"] = 600,
+	["autoIgnore"] = true,
+	["factionList"] = {
+		"Horde", -- [1]
+		"Horde", -- [2]
+		"Horde", -- [3]
+		"Horde", -- [4]
+	},
+	["skipParty"] = false,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -52,30 +80,23 @@ GlobalIgnoreDB = {
 		"羅貝特弗羅斯-伊弗斯", -- [17]
 		"来自天堂灬-伊弗斯", -- [18]
 	},
-	["syncInfo"] = {
-		{
-		}, -- [1]
-	},
-	["autoUpdate"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-		"Horde", -- [1]
-	},
-	["defexpire"] = 0,
-	["sameserver"] = true,
 	["attachFriends"] = true,
 	["notes"] = {
 		"", -- [1]
+		"刷屏", -- [2]
+		"坑", -- [3]
+		"巨坑", -- [4]
 	},
 	["expList"] = {
 		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
 	},
 	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["dateList"] = {
-		"09 Mar 2023", -- [1]
-	},
+	["defexpire"] = 0,
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -88,7 +109,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["spamFilter"] = true,
+	["asknote"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -101,12 +122,15 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["asknote"] = true,
-	["skipParty"] = false,
-	["revision"] = 1,
-	["autoTime"] = 600,
-	["samefaction"] = true,
-	["ignoreList"] = {
-		"关羽黑公会-伊弗斯", -- [1]
+	["spamFilter"] = true,
+	["dateList"] = {
+		"09 Mar 2023", -- [1]
+		"13 Mar 2023", -- [2]
+		"14 Mar 2023", -- [3]
+		"14 Mar 2023", -- [4]
 	},
+	["sameserver"] = true,
+	["trackChanges"] = true,
+	["samefaction"] = true,
+	["invertSpam"] = false,
 }
