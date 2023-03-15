@@ -6,16 +6,17 @@ MBB_Exclude = {
 	"LibDBIcon10_BisTooltipIcon", -- [4]
 	"LibDBIcon10_Hekili", -- [5]
 	"LibDBIcon10_AtlasLoot", -- [6]
+	"WIM3MinimapButton", -- [7]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
 	["ExpandDirection"] = 1,
-	["DetachedButtonPos"] = "TOPLEFT",
+	["MaxButtonsPerLine"] = 5,
 	["ButtonPos"] = {
 		-27.38744735717773, -- [1]
 		-64.9427719116211, -- [2]
 	},
-	["MaxButtonsPerLine"] = 5,
+	["DetachedButtonPos"] = "TOPLEFT",
 }

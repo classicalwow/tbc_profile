@@ -17,28 +17,11 @@ GlobalIgnoreDB = {
 		"player", -- [2]
 		"player", -- [3]
 		"player", -- [4]
+		"player", -- [5]
 	},
-	["ignoreList"] = {
-		"关羽黑公会-伊弗斯", -- [1]
-		"Poisoning-伊弗斯", -- [2]
-		"午夜牛-伊弗斯", -- [3]
-		"阿度根-伊弗斯", -- [4]
-	},
+	["invertSpam"] = false,
 	["openWithFriends"] = true,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["autoUpdate"] = true,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -52,14 +35,31 @@ GlobalIgnoreDB = {
 		"[nonlatin]", -- [10]
 	},
 	["autoTime"] = 600,
+	["autoCount"] = 3,
+	["sameserver"] = true,
+	["ignoreList"] = {
+		"关羽黑公会-伊弗斯", -- [1]
+		"Poisoning-伊弗斯", -- [2]
+		"午夜牛-伊弗斯", -- [3]
+		"阿度根-伊弗斯", -- [4]
+		"弯湾会魔法-伊弗斯", -- [5]
+	},
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
 		"Horde", -- [2]
 		"Horde", -- [3]
 		"Horde", -- [4]
+		"Horde", -- [5]
 	},
-	["skipParty"] = false,
+	["dateList"] = {
+		"09 Mar 2023", -- [1]
+		"13 Mar 2023", -- [2]
+		"14 Mar 2023", -- [3]
+		"14 Mar 2023", -- [4]
+		"14 Mar 2023", -- [5]
+	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -81,19 +81,15 @@ GlobalIgnoreDB = {
 		"来自天堂灬-伊弗斯", -- [18]
 	},
 	["attachFriends"] = true,
-	["notes"] = {
-		"", -- [1]
-		"刷屏", -- [2]
-		"坑", -- [3]
-		"巨坑", -- [4]
-	},
+	["revision"] = 1,
 	["expList"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0, -- [4]
+		0, -- [5]
 	},
-	["skipGuild"] = true,
+	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["defexpire"] = 0,
@@ -109,7 +105,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -122,15 +118,28 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
-		"09 Mar 2023", -- [1]
-		"13 Mar 2023", -- [2]
-		"14 Mar 2023", -- [3]
-		"14 Mar 2023", -- [4]
+	["asknote"] = true,
+	["skipGuild"] = true,
+	["notes"] = {
+		"", -- [1]
+		"刷屏", -- [2]
+		"坑", -- [3]
+		"巨坑", -- [4]
+		"", -- [5]
 	},
-	["sameserver"] = true,
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+		{
+			"特變電工-伊弗斯@1", -- [1]
+		}, -- [5]
+	},
 }
