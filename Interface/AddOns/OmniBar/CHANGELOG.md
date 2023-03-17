@@ -1,1 +1,1 @@
-- Orbital Strike CA/Incarn Fixes
+- Spell updates

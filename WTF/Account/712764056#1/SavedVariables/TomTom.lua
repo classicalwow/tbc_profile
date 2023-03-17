@@ -5,8 +5,8 @@ TomTomDB = {
 		["碼農巴菲特 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
-		["暖男你馬四了 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
+		["暖男你馬四了 - 伊弗斯"] = "Default",
 		["特斯拉大股東 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
@@ -44,8 +44,8 @@ TomTomWaypointsM = {
 		["碼農巴菲特 - 伊弗斯"] = "碼農巴菲特 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
-		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
 		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
 	},
 	["profiles"] = {
@@ -71,6 +71,33 @@ TomTomWaypointsM = {
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["邁克爾假死 - 伊弗斯"] = {
+			[120] = {
+				["120:444743276.28362:281662591.68704:古怪的沙瓦留斯"] = {
+					120, -- [1]
+					0.4447432762836187, -- [2]
+					0.2816625916870416, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "古怪的沙瓦留斯",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "古怪的沙瓦留斯",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
 							[15] = nil --[[ skipped inline function ]],
 						},
@@ -92,34 +119,7 @@ TomTomWaypointsM = {
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 		},
-		["邁克爾假死 - 伊弗斯"] = {
-		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			[120] = {
-				["120:444743276.28362:281662591.68704:古怪的沙瓦留斯"] = {
-					120, -- [1]
-					0.4447432762836187, -- [2]
-					0.2816625916870416, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "古怪的沙瓦留斯",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "古怪的沙瓦留斯",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 	},
 }
