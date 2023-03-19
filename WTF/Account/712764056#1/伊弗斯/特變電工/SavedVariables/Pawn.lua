@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 40528,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40528::::::::80:::::::::|h[勇猛的无畏头盔]|h|r",
+			["ID"] = 46151,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46151::::::::80:::::::::|h[征服者的突围头盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 45819,
@@ -67,10 +65,10 @@ PawnOptions = {
 			["Level"] = 232,
 			["Link"] = "|cffa335ee|Hitem:46148::::::::80:::::::::|h[征服者的突围护手]|h|r",
 		},
-		[5] = {
-			["ID"] = 45225,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[断钢者的拥抱]|h|r",
+		[9] = {
+			["ID"] = 40888,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 45106,
@@ -89,12 +87,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:45303::::::::80:::::::::|h[龙类狡诈指环]|h|r",
 		},
-		[9] = {
-			["ID"] = 40888,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
+		[5] = {
+			["ID"] = 45225,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[断钢者的拥抱]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
