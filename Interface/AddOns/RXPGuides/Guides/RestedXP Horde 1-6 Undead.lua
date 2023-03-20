@@ -1,338 +1,690 @@
+local faction = UnitFactionGroup("player")
+if faction == "Alliance" then return end
+
 RXPGuides.RegisterGuide([[
 #tbc
 #wotlk
 << Horde
 #name 1-6 提瑞斯法林地
 #version 1
-#group RestedXP 部落 1-30
+#group RestedXP部落1-30
 #defaultfor Scourge
 #next 6-10 永歌森林
-step << !Scourge
-    #sticky
+
+step << !Undead
     #completewith next
-    .goto Tirisfal Glades,30.2,71.7
-    +您选择了一个为亡灵准备的指南。建议您选择与开始时相同的起始区域
+    +|cFFFCDC00您选择了一个亡灵指南。建议您选择与您在|r开始的起始区域相同的起始区域
 step
-	.destroy 6948
-    >>跑出地窖并删除您的炉石 << tbc
-    .goto Tirisfal Glades,30.2,71.7 << tbc
-    .goto Tirisfal Glades,29.99,71.86 << wotlk
-    .accept 363 >> 接受粗鲁的觉醒
-step << Warrior
+    #completewith Zombies
+	.destroy 6948 >>Destroy the |T134414:0|t[Hearthstone] in your bags, as it's no longer needed
+step << tbc
+    #completewith next
+    .goto Tirisfal Glades,30.04,72.78,8,0
+    .goto Tirisfal Glades,30.27,72.78,8,0
+    .goto Tirisfal Glades,30.22,71.65,10 >>从地下室跑向|cFF00FF25Mordo|r
+step
+    .goto Tirisfal Glades,30.22,71.65 << tbc
+    .goto Tirisfal Glades,29.99,71.89 << wotlk
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Mordo|r
+    .accept 363 >>接任务: |cFFFCDC00突然醒来|r
+    .target Undertaker Mordo
+step << wotlk
+    #completewith next
+    .goto Tirisfal Glades,30.04,72.78,8,0
+    .goto Tirisfal Glades,30.27,72.78,8,0
+    .goto Tirisfal Glades,30.32,72.32,10 >>从地下室跑出来
+step << Warrior/Warlock/Priest/Mage
+    #completewith Vendor
+    .goto Tirisfal Glades,30.70,69.28,0 << Warrior/Warlock
+    .goto Tirisfal Glades,29.92,70.30,40,0
+    .goto Tirisfal Glades,30.70,69.28,40,0 
+    .goto Tirisfal Glades,29.18,68.94,40,0 << Priest/Mage
+    .goto Tirisfal Glades,29.10,67.66,40,0 << Priest/Mage
+    .goto Tirisfal Glades,30.19,65.32,40,0 << Priest/Mage
+    +|cFFFCDC00杀死|cFFFF5722年轻的清道夫|r和|cFFFF5 722黄昏鸟|r。在你拥有价值60铜的供应商物品（包括你的盔甲）之前，将它们洗劫一空|r << Mage tbc
+    +|cFFFCDC00杀死|cFFFF5722年轻的清道夫|r和|cFFFF5 722黄昏鸟|r。在你拥有价值50铜的供应商物品（包括你的盔甲）之前，将它们洗劫一空。|r << Priest tbc
+    +|cFFFCDC00杀死|cFFFF5722年轻的清道夫|r和|cFFFF5 722黄昏鸟|r。在您拥有34件价值铜的供应商物品（包括您的盔甲）之前，将其洗劫一空。|r << Mage wotlk/Warlock wotlk
+    +|cFFFCDC00杀死|cFFFF5722年轻的清道夫|r和|cFFFF5 722黄昏鸟|r。在您拥有24件价值铜的供应商物品（包括您的盔甲）之前，将其洗劫一空。|r << Priest wotlk
+    +|cFFFCDC00杀死|cFFFF5722年轻的清道夫|r和|cFFFF5 722黄昏鸟|r。在你拥有10件价值铜的供应商物品（包括你的盔甲）之前，将它们洗劫一空。|r << Warrior/Warlock tbc
+    .mob Young Scavenger
+    .mob Duskbat
+    .money >0.01
+step << Warrior/Priest/Mage/Warlock wotlk
+    #completewith Training1
+    .goto Tirisfal Glades,32.22,65.64,8 >>进入大楼
+step << Priest/Mage/Warlock wotlk
+    #label Vendor
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r 
+    .vendor >>供应商垃圾箱 
+	.collect 159,10,383,1 << tbc --Collect Refreshing Spring Water (10)
+	.collect 159,5,383,1 << wotlk --Collect Refreshing Spring Water (5)
+    .target Joshua Kien
+step << Warlock/Mage
     #sticky
-    #completewith vendorWar
-    +把暴徒赶到镇上，直到你有价值10美分的商品
-    .goto Tirisfal Glades,31.5,69.8
+    #label Piercing
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Venya|r and |cFF00FF25Sarvis|r << Warlock tbc
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r << Warlock wotlk/Mage
+    .accept 1470 >>接任务: |cFFFCDC00控制小鬼|r << Warlock tbc
+    .goto Tirisfal Glades,30.98,66.41,0,0 << Warlock tbc
+    .turnin 363 >>交任务: |cFF00FF25突然醒来|r
+    .accept 364 >>接任务: |cFFFCDC00无脑的僵尸|r
+    .goto Tirisfal Glades,30.84,66.20,0,0
+    .target Venya Marthand << tbc
+    .target Shadow Priest Sarvis
+step << Warlock/Mage
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Elreth|r
+    .accept 376 >>接任务: |cFFFCDC00被诅咒者|r
+    .goto Tirisfal Glades,30.86,66.05
+    .target Shadow Priest Sarvis
+    .target Novice Elreth
+    .xp <2,1
+step << Mage
+    .goto Tirisfal Glades,30.94,66.06
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Isabella|r
+    .train 1459 >>列车|T135932:0|t[奥秘智力]
+    .target Isabella
 step << Warlock tbc
-    #sticky
-    #completewith vendorLock
-    +把暴徒赶到镇上，直到你有价值10美分的商品
-    .goto Tirisfal Glades,31.5,69.8
-step << Priest/Mage
-    #sticky
-    #completewith vendorCaster
-    +把暴徒赶到镇上，直到你有价值35美分的商品
-    .goto Tirisfal Glades,31.5,69.8
-step << Warrior
-    #label vendorWar
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >> 供应商垃圾
-step << Warrior
-    .goto Tirisfal Glades,32.7,65.6
-    .train 6673 >>火车战斗呐喊
-step << Priest/Mage
-    #label vendorCaster
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >> 供应商扔掉垃圾，然后购买10杯清凉泉水 << tbc
-    .vendor >> 供应商垃圾箱 << wotlk	
-	.collect 159,10 << tbc --Collect Refreshing Spring Water (x10)
-step << Warlock tbc
-    #label vendorLock
-    .goto Tirisfal Glades,30.8,66.4
-    .vendor >>Demon Trainer的供应商垃圾
-step << Warlock tbc
-    .goto Tirisfal Glades,30.9,66.3
-    .train 348 >>火车献祭
-step << Warlock tbc
-    .goto Tirisfal Glades,31.0,66.4
-    .accept 1470 >>接受刺破面纱
+    #label Vendor
+    .goto Tirisfal Glades,30.81,66.41
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Kayla|r
+    .vendor >>供应商垃圾箱
+    .target Kayla Smithe
+    .money >0.1
 step << Warlock
-    .goto Tirisfal Glades,30.8,66.2
-    .turnin 363 >> 鲁莽地醒来
-    .accept 364 >> 接受无意识的人
+    .goto Tirisfal Glades,30.91,66.34
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Maximillion|r
+    .train 348 >>火车|T135817:0|t[献祭]
+    .target Maximillion
+step << !Warlock !Mage
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .goto Tirisfal Glades,30.84,66.20
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r
+    .turnin 363 >>交任务: |cFF00FF25突然醒来|r
+    .accept 364 >>接任务: |cFFFCDC00无脑的僵尸|r
+    .target Shadow Priest Sarvis
+step << !Warlock !Mage
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Elreth|r
+    .accept 376 >>接任务: |cFFFCDC00被诅咒者|r
+    .goto Tirisfal Glades,30.86,66.05
+    .target Shadow Priest Sarvis
+    .target Novice Elreth
+    .xp <2,1
+step << Warrior
+    #completewith next
+    #label Vendor
+    .goto Tirisfal Glades,32.42,65.66
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Archibald|r
+    .vendor >>供应商垃圾箱
+    .target Archibald Kava
+    .money >0.1
+step << Warrior
+    #label Training1
+    .goto Tirisfal Glades,32.68,65.56 << tbc
+    .goto Tirisfal Glades,32.66,65.61 << wotlk
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Dannal|r
+    .train 6673 >>火车|T132333:0|t[战斗呐喊]
+    .target Dannal Stern
 step << Warlock tbc
-    .goto Tirisfal Glades,32.5,61.4
-    >> 在头骨区域杀死鼠笼骷髅
+    #requires Piercing
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .loop 40,Tirisfal Glades,31.82,61.48,31.11,60.71,32.07,60.17,32.26,59.21,33.28,59.53,33.66,60.76,33.94,61.81,34.21,63.05,33.01,63.01,31.82,61.48
+    >>杀死|cFFFF5722 Rattleage Skeletons |r。抢夺他们的|cFF00BCD4头骨|r
     .complete 1470,1 --Rattlecage Skull (3)
+    .mob Rattlecage Skeleton
 step << Warlock tbc
     #completewith next
-    .goto Tirisfal Glades,32.3,65.4,30 >> 在回镇的路上磨磨蹭蹭，直到你有25c+的可卖品
+    +|cFFFCDC00杀死|cFFFF5722无意识僵尸|r和|cFFFF5 722丧尸|r。在您拥有24件价值铜的供应商物品（包括您的盔甲）之前，将其洗劫一空。|r
+    .mob Mindless Zombie
+    .mob Wretched Zombie
+    .money >0.0024
 step << Warlock tbc
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >> 供应商清理垃圾并从Joshua那里购买5杯水
-	.collect 159,5 --Collect Refreshing Spring Water (x5)
+    .goto Tirisfal Glades,32.23,65.59,8,0
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r 
+	.collect 159,5,383,1 --Collect Refreshing Spring Water (10)
+    .target Joshua Kien
+    .isOnQuest 1470
 step << Warlock tbc
-    >>在你完成任务后召唤你的小鬼
-    .goto Tirisfal Glades,31.0,66.4
-    .turnin 1470 >>转身刺破面纱
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .goto Tirisfal Glades,30.98,66.41
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Venya|r
+    .turnin 1470 >>交任务: |cFF00FF25控制小鬼|r
+    .target Venya Marthand
 step << Warlock tbc
-    .xp 2 >> 研磨至2级
-step << Mage
     #completewith next
-    .goto Tirisfal Glades,30.9,66.1
-    .trainer >> 训练你的职业咒语
-step << Priest
+    .cast 688 >>|cFFFCDC00Cast|r|T136218:0|t[召唤小鬼]
+step
+    #label Zombies
+    #requires Piercing << Warlock/Mage
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .loop 40,Tirisfal Glades,31.72,63.98,30.69,63.88,30.90,62.20,30.73,61.66,31.14,61.41,31.80,61.83,32.85,63.02,32.90,63.54,33.41,63.06,33.75,62.86,33.51,63.82,33.55,64.57,33.29,64.96,31.72,63.98
+    >>杀死|cFFFF5722无意识僵尸|r和|cFFFF5722丧尸|r << tbc
+    >>杀死|cFFFF5722无意识僵尸|r和|cFFFF5 722可怕的食尸鬼|r << wotlk
+    .complete 364,1 --Kill Mindless Zombie (x8) // --Kill Mindless Zombie (x5) wotlk
+    .complete 364,2 --Kill Wretched Zombie (x8) // --Kill Wretched Ghoul (x5) wotlk
+    .mob Mindless Zombie
+    .mob Wretched Zombie << tbc
+    .mob Wretched Ghoul << wotlk
+step << Mage/Warlock tbc/Priest
+    #completewith Vendor2
+    +|cFFFCDC00杀死|cFFFF5722无意识僵尸|r和|cFFFF5 722丧尸|r。在您拥有33件价值铜的供应商物品（包括您的盔甲）之前，将其洗劫一空。|r
+    .mob Mindless Zombie
+    .mob Wretched Zombie
+    .money >0.0033
+step << Mage/Warlock tbc/Priest
+    .goto Tirisfal Glades,32.23,65.59,8,0
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r 
+    .collect 159,10,383,1 --Collect Refreshing Spring Water (5)
+    .vendor >>供应商垃圾箱
+    .target Joshua Kien
+    .isOnQuest 364
+    .money <0.0050
+    .itemcount 159,<10
+ step << Mage/Warlock tbc/Priest
+    #label Vendor2
+    .goto Tirisfal Glades,32.23,65.59,8,0
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r 
+    .collect 159,5,383,1 --Collect Refreshing Spring Water (5)
+    .vendor >>供应商垃圾箱
+    .target Joshua Kien
+    .isOnQuest 364
+    .money >0.0050
+    .itemcount 159,<5
+step << Warlock wotlk
     #completewith next
-    .goto Tirisfal Glades,31.1,66.0
-    .trainer >> 训练你的职业咒语
-step << !Warlock
-    .goto Tirisfal Glades,30.8,66.2
-    .turnin 363 >> 鲁莽地醒来
-    .accept 364 >> 接受无意识的人
-step
-    >> 杀死该地区的僵尸
-    .goto Tirisfal Glades,32.4,62.8
-    .complete 364,1 --Kill Mindless Zombie (x8)
-    .complete 364,2 --Kill Wretched Zombie (x8)
-step !Warlock tbc
-	.goto Tirisfal Glades,32.4,62.8
-	.xp 2 >> 研磨至2级
-step << Mage tbc/Warlock tbc/Priest tbc
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商扔掉垃圾，再购买10瓶水
-	.collect 159,10 --Collect Refreshing Spring Water (x10)
-step << Mage wotlk/Priest wotlk
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾
-step << Warrior/Rogue
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾
-step << Warlock wotlk
-    .goto Tirisfal Glades,32.3,65.4
-	.money >0.0054
-	.vendor >>研磨暴徒，直到你得到总共54铜。（从卖完所有商品后的商品）
-	*We will get 17c from a the next quest turn in and 12c from starting gear
---95c for imp
-step
-    .goto Tirisfal Glades,30.8,66.2
-    .turnin 364 >> 交给那些没头脑的人
-step
-    .goto Tirisfal Glades,30.8,66.2
-    .accept 3095 >> 接受简单滚动 << Warrior
-    .accept 3096 >> 接受加密滚动 << Rogue
-    .accept 3097 >> 接受神圣卷轴 << Priest
-    .accept 3098 >> 接受字形滚动 << Mage
-    .accept 3099 >> 接受变形的卷轴 << Warlock
-    .accept 3901 >> 接受响尾蛇的叮当声
-    .accept 376 >> 接受该死的
-step << Mage
-    .goto Tirisfal Glades,30.9,66.1
-    .turnin 3098 >> 转入字形卷轴
-step << Warlock
-    .goto Tirisfal Glades,30.9,66.3
-    .turnin 3099 >> 交上歪斜的卷轴
-step << Warlock wotlk
-	#completewith next
-    .goto Tirisfal Glades,32.3,65.4
-	.money >0.0095
-	.vendor >>研磨暴徒，直到你得到总共95铜。如果有助于获得95铜，请尽可能提供任何产品。
---95c for imp	
-step << Warlock wotlk
-	#label impcheck
-	.goto Tirisfal Glades,30.9,66.3
-	.train 688 >> 列车召唤小鬼
-step << Priest
-    .goto Tirisfal Glades,31.1,66.0
-    .turnin 3097 >> 交上神圣的卷轴
-step << Warlock wotlk
-	#completewith next
-	.cast 688 >> 召唤你的小鬼
-step
-    .goto Tirisfal Glades,29.5,67.2,40,0
-    .goto Tirisfal Glades,29.6,61.3,50,0
-    .goto Tirisfal Glades,32.5,56.7,50,0
-    .goto Tirisfal Glades,35.2,57.0,50,0
-    .goto Tirisfal Glades,29.5,67.2,40,0
-    .goto Tirisfal Glades,29.6,61.3,50,0
-    .goto Tirisfal Glades,32.5,56.7,50,0
-    .goto Tirisfal Glades,35.2,57.0,50,0
-    >>杀死和掠夺狼和夜猫
+    >>杀死|cFFFF5722年轻的清道夫|r。抢夺他们的|cFF00BCD4爪爪|r 
+    >>杀死|cFFFF5722 Duskbats|r。抢夺他们的|cFF00BCD4Doskbat翅膀|r 
     .complete 376,1 --Collect Scavenger Paw (x6)
     .complete 376,2 --Collect Duskbat Wing (x6)
-step
-    .goto Tirisfal Glades,33.15,60.70
-    >> 杀死镇上的骷髅
-    .complete 3901,1 --Kill Rattlecage Skeleton (12)
-step
-    .xp 3+980>>在返回城镇的路上碾碎暴徒，达到980+/1400xp
-step << Mage tbc/Mage wotlk/Warlock tbc
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾和购买水的温度不低于95摄氏度
+    .mob Young Scavenger
+    .mob Duskbat
+    .isOnQuest 376
 step << Warlock wotlk
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾
-step << Priest
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾处理和购买水，温度不低于1s 90c
-step
-    .turnin 3901 >> 转入响尾蛇笼
-    .goto Tirisfal Glades,30.9,66.2	
-    .turnin 376 >> 交给该死的	
-    .accept 6395 >> 接受玛拉的遗愿	
-    .goto Tirisfal Glades,30.9,66.1	
-step << Priest
     #completewith next
-    .goto Tirisfal Glades,31.1,66.0
-    .trainer >> 训练你的职业咒语
+    .goto Tirisfal Glades,30.19,65.32,40,0
+    .goto Tirisfal Glades,29.10,67.66,40,0
+    .goto Tirisfal Glades,29.18,68.94,40,0
+    .goto Tirisfal Glades,30.70,69.28,40,0 
+    .goto Tirisfal Glades,29.92,70.30,40,0
+    .goto Tirisfal Glades,30.19,65.32,40,0
+    .goto Tirisfal Glades,29.10,67.66,40,0
+    .goto Tirisfal Glades,29.18,68.94,40,0
+    .goto Tirisfal Glades,30.70,69.28,40,0 
+    .goto Tirisfal Glades,29.92,70.30
+    +|cFFFCDC00Grind |cFFFF5722年轻清道夫|r和|cFFFF5 722黄昏|r。在您拥有价值78铜的供应商物品（包括您的盔甲）之前，将其洗劫一空。|r
+    >>|cFFFCDC00获得78个铜|r后跳过此步骤
+    .mob Young Scavenger
+    .mob Duskbat
+	.money >0.0078
+    .isOnQuest 364
+step << Warlock wotlk
+    .goto Tirisfal Glades,32.25,65.59,8,0
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFFFCDC00不要购买任何|r|T132794:0|t[清凉泉水]
+    .vendor >>供应商垃圾箱
+    .target Joshua Kien
+    .isOnQuest 364
+step
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r and |cFF00FF25Elreth|r << !Warlock !Mage !Priest
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r, |cFF00FF25Elreth|r, and |cFF00FF25Maximillion|r << Warlock
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r, |cFF00FF25Elreth|r, and |cFF00FF25Isabella|r << Mage
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r, |cFF00FF25Elreth|r, and |cFF00FF25Duesten|r << Priest
+    .turnin 364 >>交任务: |cFF00FF25无脑的僵尸|r
+    .accept 3095 >>接任务: |cFFFCDC00简易卷轴|r << Warrior
+    .accept 3096 >>接任务: |cFFFCDC00密文卷轴|r << Rogue
+    .accept 3097 >>接任务: |cFFFCDC00神圣卷轴|r << Priest
+    .accept 3098 >>接任务: |cFFFCDC00雕文卷轴|r << Mage
+    .accept 3099 >>接任务: |cFFFCDC00被污染的卷轴|r << Warlock
+    .accept 3901 >>接任务: |cFFFCDC00断骨骷髅|r
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .goto Tirisfal Glades,30.84,66.20
+    .accept 376 >>接任务: |cFFFCDC00被诅咒者|r
+    .goto Tirisfal Glades,30.86,66.05
+    .turnin 3099 >>交任务: |cFF00FF25被污染的卷轴|r << Warlock
+    .goto Tirisfal Glades,30.91,66.34 << Warlock
+	.train 688 >>列车|T136218:0|t[召唤入口] << Warlock wotlk
+    .goto Tirisfal Glades,30.91,66.34 << Warlock wotlk
+    .turnin 3098 >>交任务: |cFF00FF25雕文卷轴|r << Mage
+    .goto Tirisfal Glades,30.94,66.06 << Mage
+    .turnin 3097 >>交任务: |cFF00FF25神圣卷轴|r << Priest
+    .goto Tirisfal Glades,31.11,66.02 << Priest
+    .target Shadow Priest Sarvis
+    .target Novice Elreth
+    .target Maximillion << Warlock
+    .target Isabella << Mage
+    .target Dark Cleric Duesten << Priest
+step << Warlock wotlk
+	#completewith next
+	.cast 688 >>|cFFFCDC00Cast|r|T136218:0|t[召唤小鬼]
+step << Mage/Warlock tbc/Priest
+    .goto Tirisfal Glades,32.23,65.59,8,0
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r 
+    .collect 159,10,383,1 --Collect Refreshing Spring Water (10)
+    .target Joshua Kien
+    .isOnQuest 364
+step
+    .goto Tirisfal Glades,29.21,66.68,40,0
+    .goto Tirisfal Glades,29.48,65.70,40,0
+    .goto Tirisfal Glades,29.60,64.04,40,0
+    .goto Tirisfal Glades,29.67,63.39,40,0
+    .goto Tirisfal Glades,30.09,61.51,40,0
+    .goto Tirisfal Glades,30.97,59.66,40,0
+    .goto Tirisfal Glades,31.61,58.57,40,0
+    .goto Tirisfal Glades,32.07,57.74,40,0
+    .goto Tirisfal Glades,32.85,58.35,40,0
+    .goto Tirisfal Glades,34.32,56.79,40,0
+    .goto Tirisfal Glades,29.21,66.68,40,0
+    .goto Tirisfal Glades,29.48,65.70,40,0
+    .goto Tirisfal Glades,29.60,64.04,40,0
+    .goto Tirisfal Glades,29.67,63.39,40,0
+    .goto Tirisfal Glades,30.09,61.51,40,0
+    .goto Tirisfal Glades,30.97,59.66,40,0
+    .goto Tirisfal Glades,31.61,58.57,40,0
+    .goto Tirisfal Glades,32.07,57.74,40,0
+    .goto Tirisfal Glades,32.85,58.35,40,0
+    .goto Tirisfal Glades,34.32,56.79
+    >>杀死|cFFFF5722年轻的清道夫|r和|cFFFF5722破烂的清道夫| r。抢夺他们的|cFF00BCD4爪爪|r 
+    >>杀死|cFFFF5722 Duskbats|r和|cFFFF5722 Mangy Duskbats |r。抢夺他们的|cFF00BCD4Doskbat翅膀|r
+    >>|cFFFCDC00如果可能，尽量避免|cFFFF5722大黄昏|r，因为它们比|cFFFF5722黄昏|r|r更难杀死
+    .complete 376,1 --Collect Scavenger Paw (x6)
+    .complete 376,2 --Collect Duskbat Wing (x6)
+    .mob Young Scavenger
+    .mob Ragged Scavenger
+    .mob Duskbat
+    .mob Mangy Duskbat
+step
+    .loop 40,Tirisfal Glades,31.82,61.48,31.11,60.71,32.07,60.17,32.26,59.21,33.28,59.53,33.66,60.76,33.94,61.81,34.21,63.05,33.01,63.01,31.82,61.48
+    >>杀死|cFFFF5722拉拉奇骷髅|r
+    .complete 3901,1 --Kill Rattlecage Skeleton (12)
+    .mob Rattlecage Skeleton
+step
+    .loop 40,Tirisfal Glades,31.72,63.98,30.69,63.88,30.90,62.20,30.73,61.66,31.14,61.41,31.80,61.83,32.85,32.38,63.02,32.90,63.54,33.41,63.06,33.75,62.86,33.51,63.82,33.55,64.57,33.29,64.96,31.72,63.98
+    .xp 3+980>>升级到980+/1400xp
+    .mob Mindless Zombie
+    .mob Wretched Zombie << tbc
+    .mob Wretched Ghoul << wotlk
+step << Mage/Warlock/Priest
+    .goto Tirisfal Glades,32.25,65.59,8,0
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r
+    >>|cFFFCDC00不要低于95铜|r << Mage/Warlock/Priest
+    .vendor >>供应商垃圾箱
+    .target Joshua Kien
+    .money >0.1
+    .isOnQuest 3901
+step
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Sarvis|r and |cFF00FF25Elreth|r
+    .turnin 3901 >>交任务: |cFF00FF25断骨骷髅|r
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .goto Tirisfal Glades,30.84,66.20
+    .turnin 376 >>交任务: |cFF00FF25被诅咒者|r
+    .accept 6395 >>接任务: |cFFFCDC00玛拉的遗愿|r
+    .goto Tirisfal Glades,30.86,66.05
+    .target Shadow Priest Sarvis
+    .target Novice Elreth
+step << Priest
+    .goto Tirisfal Glades,31.11,66.02
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Duesten|r
+    .train 589 >>训练你的职业技能
+    .target Dark Cleric Duesten
 step << Warlock
-    #completewith next
-    .goto Tirisfal Glades,30.9,66.3
-    .trainer >> 训练你的职业咒语
+    .goto Tirisfal Glades,30.91,66.34
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Maximillion|r
+    .train 172 >>列车|T136118:0|t[腐败]
+    .target Maximillion
 step << Mage
-    #completewith next    
-    .goto Tirisfal Glades,30.9,66.1
-    .trainer >> 训练你的职业咒语
+    .goto Tirisfal Glades,30.94,66.06
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Isabella|r
+    .train 116 >>列车|T135846:0|t[霜冻螺栓]
+    .target Isabella
 step
-    .goto Tirisfal Glades,32.2,66.0
-    .accept 380 >> 接受夜网的空洞
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Saltain|r and |cFF00FF25Arren|r
+    .accept 3902 >>接任务: |cFFFCDC00捡破烂|r
+    .goto Tirisfal Glades,31.61,65.62
+    .accept 380 >>接任务: |cFFFCDC00夜行蜘蛛洞穴|r
+    .goto Tirisfal Glades,32.15,66.01
+    .target Deathguard Saltain
+    .target Executor Arren
 step << Rogue/Warrior
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾
+    .goto Tirisfal Glades,32.42,65.66
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Archibald|r
+    .vendor >>供应商垃圾箱
+    .target Archibald Kava
+    .money >0.1
+    .isOnQuest 3095 << Warrior
+    .isOnQuest 3096 << Rogue
+step << Warrior
+    .goto Tirisfal Glades,32.68,65.56 << tbc
+    .goto Tirisfal Glades,32.66,65.61 << wotlk
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Dannal|r
+    .turnin 3095 >>交任务: |cFF00FF25简易卷轴|r
+    .train 100 >>列车|T132337:0|t[收费]
+    .train 772 >>列车|T132155:0|t[伦德]
+    .target Dannal Stern
+    .money <0.02
+ step << Warrior
+    #label Training2
+    .goto Tirisfal Glades,32.68,65.56 << tbc
+    .goto Tirisfal Glades,32.66,65.61 << wotlk
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Dannal|r
+    .turnin 3095 >>交任务: |cFF00FF25简易卷轴|r
+    .train 772 >>列车|T132155:0|t[伦德]
+    .target Dannal Stern
+    .money <0.01
 step << Rogue
-    .goto Tirisfal Glades,32.5,65.7
-    .turnin 3096 >> 交出加密卷轴
-step << Warrior
-    .goto Tirisfal Glades,32.7,65.6
-    .turnin 3095 >> 转入简单滚动
-step << Warrior
-    .goto Tirisfal Glades,32.7,65.6    
-    #completewith next    
-    .trainer >> 训练你的职业咒语
+    .goto Tirisfal Glades,32.53,65.65
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25David|r
+    .turnin 3096 >>交任务: |cFF00FF25密文卷轴|r
+    .train 53 >>列车|T132090:0|t[后标签]
+    .money <0.04
+    .target David Trias
+step << Rogue
+    #label Training2
+    .goto Tirisfal Glades,32.53,65.65
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25David|r
+    .turnin 3096 >>交任务: |cFF00FF25密文卷轴|r
+    .target David Trias
 step
-    .goto Tirisfal Glades,31.6,65.6
-    .accept 3902 >> 接受清理死亡丧钟
-step
-    #sticky
-    #label Goods
-    >>收集成捆的棕色盒子，同时在途中碾磨2+级暴徒。你可以在外墙/建筑物内部找到这些
-    .goto Tirisfal Glades,33.84,64.09
+    >>打开地面上的|cFFDB2EEF设备箱|r。为|cFF00BCD4被盗物品|r
+    .loop 12,Tirisfal Glades,32.37,64.37,32.81,64.39,32.89,64.60,33.01,65.38,33.79,64.57,33.13,63.08,32.79,63.11,31.86,61.49,31.75,61.96,31.70,62.53,31.34,62.44,32.37,64.37
     .complete 3902,1 --Collect Scavenged Goods (x6)
 step
-    #requires Goods
-    .goto Tirisfal Glades,27.1,59.0,80,0
-    .goto Tirisfal Glades,26.8,59.4,30,0
-    .goto Tirisfal Glades,24.0,58.2,60,0
-	.goto Tirisfal Glades,27.1,59.0
-    >>杀死洞穴外的年轻蜘蛛，然后进入洞穴，杀死洞穴内的夜蛛。我们在山洞里跳得死去活来，在你进去之前，一定要把年轻的蜘蛛都处理好。
-    .complete 380,1 --Kill Young Night Web Spider (10)
+    .goto Tirisfal Glades,29.29,59.38,50,0
+    .goto Tirisfal Glades,29.94,57.33,50,0
+    .loop 40,Tirisfal Glades,29.94,57.33,29.82,56.03,29.25,55.77,28.40,56.51,27.68,57.10,28.29,58.31,28.25,59.41,28.80,59.53,29.29,59.40,29.67,58.53,29.94,57.33
+    >>杀死|cFFFF5722年轻的夜蜘蛛|r
+    .complete 380,1,5 << WOTLK --Kill Young Night Web Spider (8)
+    .complete 380,1,6 << TBC --Kill Young Night Web Spider (10)
+    .mob Young Night Web Spider
+step
+    .goto Tirisfal Glades,27.86,58.98,40,0
+    .loop 40,Tirisfal Glades,28.25,58.27,28.42,59.07,27.86,60.57,27.17,59.18,27.30,57.97,26.94,56.42,27.51,56.00,28.25,58.27
+    >>在洞穴入口附近杀死|cFFFF5722年轻的夜蜘蛛|r
+    .complete 380,1 << WOTLK --Kill Young Night Web Spider (8)
+    .complete 380,1 << TBC --Kill Young Night Web Spider (10)
+    .mob Young Night Web Spider
+step
+    #completewith next
+    .goto Tirisfal Glades,26.80,59.40,15,0
+    .goto Tirisfal Glades,26.31,59.60,30 >>进洞里去
+step
+    .goto Tirisfal Glades,26.31,59.60,30,0
+    .goto Tirisfal Glades,25.61,59.55,20,0
+    .goto Tirisfal Glades,25.11,60.33,20,0
+    .goto Tirisfal Glades,24.18,60.77,20,0
+    .goto Tirisfal Glades,23.23,59.91,20,0
+    .goto Tirisfal Glades,23.89,58.36,20,0
+    .goto Tirisfal Glades,24.68,59.54,20,0
+    .goto Tirisfal Glades,26.31,59.60,30,0
+    .goto Tirisfal Glades,25.61,59.55,20,0
+    .goto Tirisfal Glades,25.11,60.33,20,0
+    .goto Tirisfal Glades,24.18,60.77,20,0
+    .goto Tirisfal Glades,23.23,59.91,20,0
+    .goto Tirisfal Glades,23.89,58.36,20,0
+    .goto Tirisfal Glades,24.68,59.54
+    >>在洞穴内杀死|cFFFF5722年轻的夜蜘蛛|r
 	.complete 380,2 --Kill Night Web Spider (x8)
-step
-    #completewith next
-    .deathskip >> 在精神治疗师处死亡并重生
-step
-    .goto Tirisfal Glades,31.6,65.6
-	.cast 688 >> 恢复你的小鬼 << Warlock
-    .turnin 3902 >> 交清丧钟
-step << Rogue/Warrior
-    .goto Tirisfal Glades,32.41,65.66
-    .vendor >>供应商丢弃并修复您的武器
-step << Priest tbc/Mage tbc/Warlock tbc
-    .goto Tirisfal Glades,32.3,65.4
-    .vendor >>供应商垃圾处理和购买15水
-	.collect 159,15 --Collect Refreshing Spring Water (x15)
-step
-    .goto Tirisfal Glades,32.2,66.0
-    .turnin 380 >> 交给夜网的空洞
-step
-	.goto Tirisfal Glades,32.2,66.0
-    .accept 381 >> 接受血腥十字军
-step
-    .goto Tirisfal Glades,37.45,67.93
-    >>为臂章杀死血腥暴徒
-    .complete 381,1 --Collect Scarlet Armband (12)
-step
-    >>杀死塞缪尔·菲普斯，并掠夺他的遗体
-    .goto Tirisfal Glades,36.7,61.6
-    .collect 16333,1 --Collect Samuel's Remains
-    .unitscan Samuel Fipps
-step
-	.goto Tirisfal Glades,36.7,61.6
-    .deathskip >> 在精神治疗师处死亡并重生
-step
-    .goto Tirisfal Glades,31.2,65.1
-	>> 点击墓地中的坟墓埋葬塞缪尔的遗体
-    .complete 6395,1 --Collect Samuel's Remains Buried (1)
-step
-    .goto Tirisfal Glades,30.9,66.1
-    .turnin 6395 >> 交出玛拉的遗愿
-step << Priest
-    .goto Tirisfal Glades,31.11,66.03
-    .accept 5651 >> 接受黑暗
-step
-    #completewith next
-    .goto Tirisfal Glades,32.4,65.6
-    .vendor >>供应商垃圾和维修
-step
-    .goto Tirisfal Glades,32.1,66.0
-    .turnin 381 >> 移交血腥十字军
-step
-	.goto Tirisfal Glades,32.1,66.0
-    .accept 382 >> 接受红色信使
+    .mob Night Web Spider
 step << Warlock
-	#completewith next
-	.cast 688 >> 恢复你的小鬼
+    #completewith ScarletC
+    .cast 688 >>|cFFFCDC00Cast|r|T136218:0|t[召唤小鬼]
 step
-    >>杀死Meven并抢劫他的文件 << !Rogue !Warrior
-    >>杀了梅文，同时把他放回镇上。抢他的文件 << Rogue/Warrior
-    .goto Tirisfal Glades,36.5,68.8
+    #completewith next
+    .deathskip >>在|cFF00FF25Spirit Healer|r处死亡并重生
+    .target Spirit Healer
+step
+    .goto Tirisfal Glades,31.61,65.62
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Saltain|r
+    .turnin 3902 >>交任务: |cFF00FF25捡破烂|r
+    .target Deathguard Saltain
+step
+    #sticky
+    #label NightWebH
+    .goto Tirisfal Glades,32.15,66.01,0,0
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Arren|r
+    .turnin 380 >>交任务: |cFF00FF25夜行蜘蛛洞穴|r
+    .accept 381 >>接任务: |cFFFCDC00血色十字军|r
+    .target Executor Arren
+step << Rogue/Warrior
+    .goto Tirisfal Glades,32.42,65.66
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Archibald|r
+    .vendor >>供应商垃圾箱
+    .target Archibald Kava
+    .isOnQuest 6395
+step << Warlock/Mage/Priest
+    .goto Tirisfal Glades,32.29,65.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Joshua|r
+    >>|cFF0E8312从他那里购买|r |T132794:0|t[清爽的泉水]|cFF0E6312|r 
+	.collect 159,15,383,1 << Warlock tbc/Mage tbc/Priest tbc --Collect Refreshing Spring Water (15)
+	.collect 159,5,383,1 << warlock wotlk/Mage wotlk/Priest wotlk --Collect Refreshing Spring Water (5)
+    .vendor >>供应商垃圾箱 
+    .target Joshua Kien
+    .isOnQuest 6395
+    .itemcount 159,<15 << tbc
+    .itemcount 159,<5 << wotlk
+step
+    #requires NightWebH
+    .loop 40,Tirisfal Glades,36.13,68.74,36.46,69.49,36.85,70.02,37.42,69.58,38.05,69.79,37.91,69.22,38.03,68.77,38.49,68.28,38.72,67.07,38.59,66.25,38.65,65.07,37.62,65.36,36.93,65.38,36.51,65.42,36.85,66.59,37.45,67.95,36.93,68.16,36.13,68.74
+    >>杀死|cFFFF5722猩红启动|r和|cFFFF5722猩红转换|r。为他们的|cFF00BCD4Carlet袖带|r
+    >>|cFFFCDC00还没有杀死|cFFFF5722Meven Korgal|r
+    >>|cFFFCDC00尽可能避免|cFFFF5722猩红转换|r |T135843:0|t[霜甲]|cFFFCDC0（降低攻击速度）|r << Warrior/Rogue
+    .complete 381,1 --Collect Scarlet Armband (12)
+    .mob Scarlet Initiate
+    .mob Scarlet Convert
+step
+    .goto Tirisfal Glades,36.69,61.67
+    >>杀死|cFFFF5722Samuel|r。抢夺他|cFF00BCD4Samuel的遗体|r
+    .collect 16333,1,6395,1 --Collect Samuel's Remains
+    .mob Samuel Fipps
+step
+    #completewith next
+    .deathskip >>在|cFF00FF25Spirit Healer|r处死亡并重生
+    .target Spirit Healer
+step
+    .goto Tirisfal Glades,31.17,65.08
+	>>单击地面上的|cFFDB2EEFMarla的坟墓|r 
+    .complete 6395,1 --Collect Samuel's Remains Buried (1)
+ step << Warlock
+	#completewith ScarletC
+	.cast 688 >>|cFFFCDC00Cast|r|T136218:0|t[召唤小鬼]
+step
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Elreth|r << !Priest/Priest wotlk
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Elreth|r and |cFF00FF25Duesten|r << Priest tbc
+    .turnin 6395 >>交任务: |cFF00FF25玛拉的遗愿|r
+    .goto Tirisfal Glades,31.35,66.21,10,0
+    .goto Tirisfal Glades,30.86,66.05
+    .accept 5651 >>接任务: |cFFFCDC00黑暗的恩赐|r << Priest tbc
+    .goto Tirisfal Glades,31.11,66.02 << Priest tbc
+    .target Novice Elreth
+    .target Dark Cleric Duesten << Priest tbc
+step
+    #sticky
+    #label ScarletC
+    .goto Tirisfal Glades,32.15,66.01,0,0
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Arren|r
+    .turnin 381 >>交任务: |cFF00FF25血色十字军|r
+    .accept 382 >>接任务: |cFFFCDC00十字军信使|r
+    .target Executor Arren 
+step
+    .goto Tirisfal Glades,32.42,65.66
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Archibald|r
+    .vendor >>供应商垃圾箱
+    .target Archibald Kava
+step
+    #requires ScarletC
+    .goto Tirisfal Glades,36.50,68.82
+    >>杀死|cFFFF5722Meven |r。为|cFF00BCD4卡列特十字军东征文件|r而抢劫他
     .complete 382,1 --Collect Scarlet Crusade Documents (1)
+    .mob Meven Korgal
 step
-    .goto Tirisfal Glades,32.2,66.0
-    .turnin 382 >> 交出红色信使
-    .accept 383 >> 接受生命智力
-step
-    .goto Tirisfal Glades,38.1,56.6
-    >>开始走出死亡丧钟
-    .xp 5+2350>>途中研磨至2350+/2800xp
-step
-    .goto Tirisfal Glades,38.2,56.8
-    .accept 8 >> 接受盗贼的交易
-step
-	.goto Tirisfal Glades,42.59,51.30,50,0
-	.goto Tirisfal Glades,42.59,51.30	
-    .deathskip >> 在布里尔的精神疗养院死亡并重生
-step
-    .goto Tirisfal Glades,60.6,51.8
-    .turnin 383 >> 交出生命智力
-step
-    .goto Tirisfal Glades,61.7,52.0
-    .turnin 8 >>交出流氓的交易
-    .vendor >>供应商垃圾
+    .goto Tirisfal Glades,32.15,66.01
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Arren|r
+    .turnin 382 >>交任务: |cFF00FF25十字军信使|r
+    .accept 383 >>接任务: |cFFFCDC00重要情报|r
+    .target Executor Arren 
 step << Warrior
-    .xp 6 >> 研磨至6
+    .goto Tirisfal Glades,34.08,59.51,40,0
+    .goto Tirisfal Glades,35.34,56.55,40,0
+    .goto Tirisfal Glades,36.83,56.85,40,0
+    .goto Tirisfal Glades,37.76,59.38,40,0
+    .goto Tirisfal Glades,37.51,62.99,40,0
+    .loop 40,Tirisfal Glades,36.13,68.74,36.46,69.49,36.85,70.02,37.42,69.58,38.05,69.79,37.91,69.22,38.03,68.77,38.49,68.28,38.72,67.07,38.59,66.25,38.65,65.07,37.62,65.36,36.93,65.38,36.51,65.42,36.85,66.59,37.45,67.95,36.93,68.16,36.13,68.74
+    .xp 5+2350>>升级到2350+/28000p
+step
+    .goto Tirisfal Glades,38.24,56.77
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Calvin|r
+    .accept 8 >>接任务: |cFFFCDC00潜行者的交易|r
+    .target Calvin Montague
+----
+step
+    .goto Tirisfal Glades,38.96,55.74,20,0
+    .goto Tirisfal Glades,41.57,57.66,110 >>向蒂瑞斯法尔·格莱兹跑去
+    .isOnQuest 8
+step
+    #completewith next
+    >>|cFFFCDC00确保您的分区是噩梦谷|r
+    .deathskip >>在|cFF00FF25Spirit Healer|r处死亡并重生
+    .target Spirit Healer
+step
+    .goto Tirisfal Glades,60.58,51.77
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Zygand|r
+    .turnin 383 >>交任务: |cFF00FF25重要情报|r
+    .target Executor Zygand
+step
+    #completewith next
+    .goto Tirisfal Glades,61.58,52.99,8,0
+    .goto Tirisfal Glades,61.75,52.72,8 >>进入客栈
+step
+    .goto Tirisfal Glades,61.71,52.05
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Renee|r
+    .turnin 8 >>交任务: |cFF00FF25潜行者的交易|r
+    .home << Set your Hearthstone to Brill << Priest tbc
+    .vendor >>供应商垃圾箱 << Warrior
+    .isQuestAvailable 8463 << Warrior
 step << Warrior
-    .goto Tirisfal Glades,61.9,52.5
-    .trainer >>列车招架
+    .xp 6 >>升级到6
+step << Warrior
+    .goto Tirisfal Glades,61.85,52.54
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Austil|r
+    .trainer >>训练你的职业技能
+    .target Austil de Mon
+step << Priest tbc
+    .goto Tirisfal Glades,61.99,52.19,6,0
+    .goto Tirisfal Glades,61.76,52.31,6,0
+    .goto Tirisfal Glades,61.57,52.19
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Beryl|r upstairs
+    .turnin 5651 >>交任务: |cFF00FF25黑暗的恩赐|r
+    .accept 5650 >>接任务: |cFFFCDC00黑暗之衣|r
+    .train 2052 >>列车|T135929:0|t[较低治愈等级2]
+    .train 1243 >>火车|T135987:0|t[强力词：坚韧]
+    .target Dark Cleric Beryl
+    .train 2052,1
+    .train 1243,1
+step << Priest tbc
+    .goto Tirisfal Glades,61.99,52.19,6,0
+    .goto Tirisfal Glades,61.76,52.31,6,0
+    .goto Tirisfal Glades,61.57,52.19
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Beryl|r upstairs
+    .turnin 5651 >>交任务: |cFF00FF25黑暗的恩赐|r
+    .accept 5650 >>接任务: |cFFFCDC00黑暗之衣|r
+    .train 1243 >>火车|T135987:0|t[强力词：坚韧]
+    .target Dark Cleric Beryl
+    .train 1243,1
+ step << Priest tbc
+    .goto Tirisfal Glades,61.99,52.19,6,0
+    .goto Tirisfal Glades,61.76,52.31,6,0
+    .goto Tirisfal Glades,61.57,52.19
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Beryl|r upstairs
+    .turnin 5651 >>交任务: |cFF00FF25黑暗的恩赐|r
+    .accept 5650 >>接任务: |cFFFCDC00黑暗之衣|r
+    .train 2052 >>列车|T135929:0|t[较低治愈等级2]
+    .target Dark Cleric Beryl
+    .train 2052,1
+step << Priest tbc
+    .goto Tirisfal Glades,61.99,52.19,6,0
+    .goto Tirisfal Glades,61.76,52.31,6,0
+    .goto Tirisfal Glades,61.57,52.19
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Beryl|r upstairs
+    .turnin 5651 >>交任务: |cFF00FF25黑暗的恩赐|r
+    .accept 5650 >>接任务: |cFFFCDC00黑暗之衣|r
+    .target Dark Cleric Beryl
+step << Priest tbc
+    #completewith next
+    .goto Tirisfal Glades,61.75,52.72,8,0
+    .goto Tirisfal Glades,61.58,52.99,8 >>退出客栈
+step << Priest tbc
+    .goto Tirisfal Glades,59.18,46.49,50 >>前往|cFF00FF25Kel|r
+    .isOnQuest 5650
+step << Priest tbc
+    #sticky
+    #label Kel1
+    .goto Tirisfal Glades,59.18,46.49
+    .cast 2052 >>在|cFF00FF25Kel|r上铸造|T135929:0|t[较低治愈等级2]
+    .isOnQuest 5650
+step << Priest tbc
+    #sticky
+    #requires Kel1
+    #completewith next
+    .goto Tirisfal Glades,59.18,46.49
+    .cast 1243 >>在|cFF00FF25Kel|r上铸造|T135987:0|t[强力词：坚韧]
+step << Priest tbc
+    .goto Tirisfal Glades,59.18,46.49
+    >>治愈并强化|cFF00FF25Kel|r
+    .complete 5650,1 --Heal and fortify Deathguard Kel
+    .target Deathguard Kel
+step << Priest tbc
+    #completewith next
+    .hs >>从炉子到布里尔
+step << Priest tbc
+    .goto Tirisfal Glades,61.99,52.19,6,0
+    .goto Tirisfal Glades,61.76,52.31,6,0
+    .goto Tirisfal Glades,61.57,52.19
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Beryl|r upstairs
+    .turnin 5650 >>交任务: |cFF00FF25黑暗之衣|r
+    .target Dark Cleric Beryl
 step
     #completewith next
-    .goto Undercity,66.2,1.1,25 >>前往幽暗城
-step
-    .goto Undercity,62.0,11.3,20 >>在这里上楼梯
-step
-    #completewith next
-    .goto Undercity,54.9,11.3,20 >>使用易位球
-step
-    .zone Silvermoon City >>前往银月城
+    .goto Tirisfal Glades,61.75,52.72,8,0
+    .goto Tirisfal Glades,61.58,52.99,8 >>退出客栈
 step
     #completewith next
-    .goto Eversong Woods,56.7,49.6,20 >>用完银月城
+    .goto Undercity,65.87,1.48,15,0
+    .goto Undercity,65.82,5.44,15,0
+    .goto Undercity,62.76,11.02,12,0
+    .goto Undercity,54.67,11.25
+    .zone Silvermoon City >>前往: |cFFDB2EEF银月城|r
+ step
+    #completewith next
+    .goto Silvermoon City,62.89,31.20,20,0
+    .goto Silvermoon City,75.63,58.34,20,0
+    .goto Silvermoon City,73.22,59.91,20,0
+    .goto Eversong Woods,56.43,49.91
+    .zone Eversong Woods >>前往: |cFFDB2EEF永歌森林|r
 step
-    .goto Eversong Woods,54.4,50.7
-    .fp Silvermoon City >> 获取银月城飞行路线
+    .goto Eversong Woods,54.37,50.73
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Gloaming|r
+    .fp Silvermoon >>获取银月城飞行路线
+    .target Skymistress Gloaming
 step
-    .goto Eversong Woods,50.3,50.8
-    .accept 8475 >> 接受死亡伤疤
+    .goto Eversong Woods,50.34,50.77
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Jaela|r
+    .accept 8475 >>接任务: |cFFFCDC00死亡之痕|r
+    .target Ranger Jaela
 step
-    .goto Eversong Woods,46.5,49.2,35 >>跑向鹰翼广场
+    .goto Eversong Woods,46.68,49.10,40 >>前往猎鹰翼广场
+    .isQuestAvailable 8463
 ]])
 

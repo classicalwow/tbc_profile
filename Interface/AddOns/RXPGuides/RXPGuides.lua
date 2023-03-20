@@ -20,12 +20,14 @@ addon.version = 40000
 local gameVersion = select(4, GetBuildInfo())
 addon.gameVersion = gameVersion
 
-if gameVersion < 20000 then
-    addon.game = "CLASSIC"
-elseif gameVersion > 20000 and gameVersion < 30000 then
+if gameVersion > 40000 then
+    addon.game = "DF"
+elseif gameVersion > 30000 then
+    addon.game = "WOTLK"
+elseif gameVersion > 20000 then
     addon.game = "TBC"
 else
-    addon.game = "WOTLK"
+    addon.game = "CLASSIC"
 end
 
 addon.questQueryList = {}
@@ -36,49 +38,15 @@ addon.activeItems = {}
 addon.activeSpells = {}
 addon.RXPG = {}
 addon.functions = {}
-addon.activeFrames = {} -- Hold all active frame/features for Hide/Show
+addon.enabledFrames = {} -- Hold all enabled frame/features for Hide/Show
 addon.player = {
     class = select(2, UnitClass("player"))
 }
 
 BINDING_HEADER_RXPGuides = addon.title
+BINDING_HEADER_RXPTargeting = addon.title
 
 local questFrame = CreateFrame("Frame");
-
-function RXPG_init()
-    RXPCData.completedWaypoints = RXPCData.completedWaypoints or {}
-    addon.settings.db.profile.hardcore = addon.game == "CLASSIC" and addon.settings.db.profile.hardcore
-    addon.RenderFrame()
-    RXPCData.stepSkip = RXPCData.stepSkip or {}
-    if not RXPCData.flightPaths or UnitLevel("player") <= 6 then
-        RXPCData.flightPaths = {}
-    end
-    if RXPData.trainGenericSpells == nil then
-        RXPData.trainGenericSpells = true
-    end
-
-    C_Timer.After(0.5, function()
-        if addon.errorCount == addon.guideErrorCount then
-            addon.errorCount = -1
-            _G.ScriptErrorsFrame:Hide()
-        end
-    end)
-end
-
-addon.errorCount = 0
-addon.guideErrorCount = 0
-
-hooksecurefunc(_G.ScriptErrorsFrame, "DisplayMessage",
-               function(self, msg, warnType, keepHidden, messageType)
-    if _G.ScriptErrorsFrame:IsForbidden() then return end
-    if addon.errorCount >= 0 then
-        if warnType == 0 and keepHidden == false and messageType == 1 and
-            type(msg) == "string" and msg:match(addonName .. "\\Guides") then
-            addon.guideErrorCount = addon.guideErrorCount + 1
-        end
-        addon.errorCount = addon.errorCount + 1
-    end
-end)
 
 local startTime = GetTime()
 
@@ -120,6 +88,8 @@ function addon.GetProfessionNames()
                     professionNames[profession] = GetSpellInfo(2575)
                 elseif id == 2383 then
                     professionNames[profession] = GetSpellInfo(9134)
+                elseif id == 1804 then
+                    professionNames[profession] = GetSpellInfo(1809)
                 else
                     professionNames[profession] = GetSpellInfo(id)
                 end
@@ -149,6 +119,11 @@ function addon.GetProfessionLevel()
     elseif IsPlayerSpell(90265) then
         currrentSkillLevel["riding"] = 375
     end
+
+    if IsPlayerSpell(54197) then
+        currrentSkillLevel["coldweatherflying"] = 1
+    end
+
     if not _G.GetSkillLineInfo then
         return
     end
@@ -281,7 +256,7 @@ local GossipGetNumActiveQuests = C_GossipInfo.GetNumActiveQuests or
                                      _G.GetNumGossipActiveQuests
 local GossipGetNumAvailableQuests = C_GossipInfo.GetNumAvailableQuests or
                                         _G.GetNumGossipAvailableQuests
-local GossipGetNumOptions = C_GossipInfo.GetNumOptions or _G.GetNumGossipOptions
+local GossipGetNumOptions = C_GossipInfo.GetOptions and function() return #C_GossipInfo.GetOptions() end or _G.GetNumGossipOptions
 local GossipSelectAvailableQuest = C_GossipInfo.SelectAvailableQuest or
                                        _G.SelectGossipAvailableQuest
 local GossipGetActiveQuests = C_GossipInfo.GetActiveQuests or
@@ -305,6 +280,8 @@ function addon:QuestAutomation(event, arg1, arg2, arg3)
         elseif _G.QuestFrameProgressPanel and
             _G.QuestFrameProgressPanel:IsShown() then
             event = "QUEST_PROGRESS"
+        elseif _G.QuestFrameDetailPanel and _G.QuestFrameDetailPanel:IsShown() then
+            event = "QUEST_DETAIL"
         elseif _G.QuestFrameRewardPanel and _G.QuestFrameRewardPanel:IsShown() or
             _G.QuestFrameCompleteButton and
             _G.QuestFrameCompleteButton:IsShown() then
@@ -363,33 +340,37 @@ function addon:QuestAutomation(event, arg1, arg2, arg3)
     elseif event == "GOSSIP_SHOW" then
         local nActive = GossipGetNumActiveQuests()
         local nAvailable = GossipGetNumAvailableQuests()
-        local quests
+        local quests, selectAvailableByQuestID, selectActiveByQuestID, missingTurnIn
         if C_GossipInfo.GetActiveQuests then
             quests = C_GossipInfo.GetActiveQuests()
+            selectActiveByQuestID = true
         end
         for i = 1, nActive do
-            local title, level, isTrivial, isComplete
+            local title, isComplete
             if type(quests) == "table" then
                 title = quests[i].questID
                 isComplete = quests[i].isComplete
+                if not (isComplete or missingTurnIn) and addon.QuestAutoTurnIn(title) then
+                    local objectives = addon.GetQuestObjectives(title)
+                    missingTurnIn = objectives and objectives[1].generated and (selectActiveByQuestID and title or i)
+                end
             else
-                title, level, isTrivial, isComplete = select(i * 6 - 5,
-                                                             GossipGetActiveQuests())
+                title, _, _, isComplete = select(i * 6 - 5, GossipGetActiveQuests())
             end
-            -- print(title)
-            -- print(quests[i])
-            if addon.QuestAutoTurnIn(title) and isComplete then
-                return GossipSelectActiveQuest(i)
+
+            if isComplete and addon.QuestAutoTurnIn(title) then
+                return GossipSelectActiveQuest(selectActiveByQuestID and title or i)
             end
         end
 
-        if GossipGetNumOptions() == 0 and nAvailable == 1 and nActive == 0 then
-            GossipSelectAvailableQuest(1)
+        local availableQuests
+        if C_GossipInfo.GetAvailableQuests then
+            availableQuests = C_GossipInfo.GetAvailableQuests()
+            selectAvailableByQuestID = true
+        end
+        if GossipGetNumOptions() == 0 and nAvailable == 1 and nActive == 0 and not selectAvailableByQuestID then
+            return GossipSelectAvailableQuest(selectAvailableByQuestID and availableQuests[1] and availableQuests[1].questID or 1)
         else
-            local availableQuests
-            if C_GossipInfo.GetAvailableQuests then
-                availableQuests = C_GossipInfo.GetAvailableQuests()
-            end
             for i = 1, nAvailable do
                 local quest
                 if type(availableQuests) == "table" then
@@ -398,9 +379,12 @@ function addon:QuestAutomation(event, arg1, arg2, arg3)
                     quest = select(i * 7 - 6, GossipGetAvailableQuests())
                 end
                 if addon.QuestAutoAccept(quest) then
-                    return GossipSelectAvailableQuest(i)
+                    return GossipSelectAvailableQuest(selectAvailableByQuestID and quest or i)
                 end
             end
+        end
+        if missingTurnIn then
+            return GossipSelectActiveQuest(missingTurnIn)
         end
     end
 end
@@ -421,26 +405,55 @@ function addon:OnInitialize()
         RXPData.gameVersion = gameVersion
     end
     addon.settings:InitializeSettings()
-    RXPG_init()
+
+    RXPCData.completedWaypoints = RXPCData.completedWaypoints or {}
+    addon.settings.db.profile.hardcore = addon.game == "CLASSIC" and addon.settings.db.profile.hardcore
+    RXPCData.stepSkip = RXPCData.stepSkip or {}
+    if not RXPCData.flightPaths or UnitLevel("player") <= 6 then
+        RXPCData.flightPaths = {}
+    end
+    if RXPData.trainGenericSpells == nil then
+        RXPData.trainGenericSpells = true
+    end
+
+    addon:ImportCustomThemes()
+    addon:LoadActiveTheme()
+    addon.settings:UpdateMinimapButton()
+    addon.SetupGuideWindow()
+    addon.RenderFrame()
+    addon.SetupArrow()
+    addon:CreateActiveItemFrame()
     addon.comms:Setup()
+    addon.targeting:Setup()
     if addon.settings.db.profile.enableTracker then addon.tracker:SetupTracker() end
 
     addon.RXPG.LoadCachedGuides()
     addon.RXPG.LoadEmbeddedGuides()
     addon.UpdateGuideFontSize()
+    addon.isHidden = addon.settings.db.profile.hideGuideWindow
     addon.RXPFrame:SetShown(not addon.settings.db.profile.hideGuideWindow)
     addon.RXPFrame:SetScale(addon.settings.db.profile.windowScale)
     addon.arrowFrame:SetSize(32 * addon.settings.db.profile.arrowScale, 32 * addon.settings.db.profile.arrowScale)
+    addon.arrowFrame.text:SetFont(addon.font, addon.settings.db.profile.arrowText, "OUTLINE")
+    addon.activeItemFrame:SetScale(addon.settings.db.profile.activeItemsScale)
 end
 
 function addon:OnEnable()
-    addon.settings:DetectXPRate()
     ProcessSpells()
     addon.GetProfessionLevel()
     local guide = addon.GetGuideTable(RXPCData.currentGuideGroup,
                                       RXPCData.currentGuideName)
     if not guide and addon.settings.db.profile.autoLoadStartingGuides then
-        guide = addon.defaultGuide
+        if addon.defaultGuideList then
+            local currentMap = C_Map.GetBestMapForUnit("player")
+            for zone,guideName in pairs(addon.defaultGuideList) do
+                if currentMap == zone or currentMap == addon.mapId[zone] then
+                    local group,name = string.match(guideName,"([^\\]+)%s*\\%s*([^\\]+)")
+                    guide = addon.GetGuideTable(group,name)
+                end
+            end
+        end
+        guide = guide or addon.defaultGuide
         if addon.game == "TBC" and
             (UnitLevel("player") == 58 and not guide.boost58) then
             guide = nil
@@ -456,7 +469,7 @@ function addon:OnEnable()
 
 
     self:RegisterEvent("GET_ITEM_INFO_RECEIVED")
-    self:RegisterEvent("BAG_UPDATE_DELAYED")
+    self:RegisterEvent("BAG_UPDATE")
     self:RegisterEvent("PLAYER_REGEN_ENABLED")
     self:RegisterEvent("QUEST_TURNED_IN")
     -- self:RegisterEvent("SKILL_LINES_CHANGED")
@@ -467,6 +480,19 @@ function addon:OnEnable()
     self:RegisterEvent("UNIT_PET")
     self:RegisterEvent("PLAYER_CONTROL_LOST")
     self:RegisterEvent("PLAYER_CONTROL_GAINED")
+
+    self:RegisterEvent("PLAYER_ENTERING_WORLD")
+    self:RegisterEvent("PLAYER_LEAVING_WORLD")
+
+    self:RegisterEvent("CALENDAR_UPDATE_EVENT_LIST")
+
+    if addon.gameVersion > 90000 then
+        self:RegisterEvent("COMPANION_LEARNED")
+        self:RegisterEvent("COMPANION_UNLEARNED")
+        self:RegisterEvent("COMPANION_UPDATE")
+        self:RegisterEvent("NEW_PET_ADDED")
+        self:RegisterEvent("TOYS_UPDATED")
+    end
 
     -- self:RegisterEvent("QUEST_LOG_UPDATE")
 
@@ -482,9 +508,69 @@ function addon:OnEnable()
         self:RegisterEvent("QUEST_DATA_LOAD_RESULT")
     end
 
-    if addon.settings.db.profile.hideInRaid then
-        self:RegisterEvent("GROUP_ROSTER_UPDATE")
+    for _, frame in pairs(addon.enabledFrames) do
+        if frame.IsFeatureEnabled() then
+            frame:SetShown(addon.settings.db.profile.showEnabled)
+        end
     end
+
+    if addon.settings.db.profile.hideInRaid then
+        self:RegisterEvent("GROUP_JOINED", addon.HideInRaid)
+        self:RegisterEvent("GROUP_FORMED", addon.HideInRaid)
+        self:RegisterEvent("GROUP_LEFT")
+
+        -- Check if reloading in raid
+        addon.HideInRaid()
+    end
+
+    if addon.game == "WOTLK" then
+        local detectXPRateQueued = false
+        self:RegisterEvent("PLAYER_EQUIPMENT_CHANGED", function (_, slot)
+            if detectXPRateQueued then return end
+
+            -- Abort if not chest/shoulders
+            if slot ~= 3 and slot ~= 5 then return end
+
+            detectXPRateQueued = true
+            C_Timer.After(3, function ()
+                addon.settings:DetectXPRate()
+                detectXPRateQueued = false
+            end)
+        end)
+    end
+
+    --Only start update loop after everything initializes and enables
+    local updateFrame = CreateFrame("Frame")
+    updateFrame:SetScript("OnUpdate", addon.UpdateLoop)
+end
+
+
+--Tracks if a player is on a loading screen and pauses the main update loop
+--Some information is not available during zone transitions
+function addon:PLAYER_ENTERING_WORLD(_, isInitialLogin)
+    if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE and RXPCData then
+        RXPCData.GA = false
+    end
+    addon.hideArrow = false
+    addon.updateMap = true
+    addon.isHidden = addon.settings and addon.settings.db.profile.hideGuideWindow or
+                                         not (addon.RXPFrame and addon.RXPFrame:IsShown())
+
+    if isInitialLogin then
+        C_Timer.After(5, function ()
+            addon.settings:DetectXPRate()
+            addon.settings:CheckAddonCompatibility()
+        end)
+    end
+end
+
+function addon:PLAYER_LEAVING_WORLD()
+    addon.isHidden = true
+end
+
+function addon:CALENDAR_UPDATE_EVENT_LIST()
+    -- Required by .dmf
+    addon.calendarLoaded = true
 end
 
 function addon:GET_ITEM_INFO_RECEIVED(_, itemNumber, success)
@@ -498,7 +584,7 @@ function addon:GET_ITEM_INFO_RECEIVED(_, itemNumber, success)
     end
 end
 
-function addon:BAG_UPDATE_DELAYED(...) addon.UpdateItemFrame() end
+function addon:BAG_UPDATE(...) addon.UpdateItemFrame() end
 
 function addon:PLAYER_REGEN_ENABLED(...) addon.UpdateItemFrame() end
 
@@ -546,16 +632,35 @@ function addon:QUEST_DATA_LOAD_RESULT(_, questId, success)
     addon.updateStepText = true
 end
 
-function addon:GROUP_ROSTER_UPDATE(_)
+function addon:GROUP_LEFT()
     if not addon.settings.db.profile.hideInRaid or (RXPCData and RXPCData.GA) or (addon.guide and addon.guide.farm) then return end
 
-    if UnitInRaid("player") then
-        addon.settings.HideActive()
-    else
-        addon.settings.RestoreActive()
+    if not addon.settings.db.profile.showEnabled then return end
+
+    for _, frame in pairs(addon.enabledFrames) do
+        frame:SetShown(frame.IsFeatureEnabled())
     end
 end
 
+function addon:COMPANION_LEARNED(...) addon.UpdateItemFrame() end
+
+function addon:COMPANION_UNLEARNED(...) addon.UpdateItemFrame() end
+
+function addon:COMPANION_UPDATE(...) addon.UpdateItemFrame() end
+
+function addon:NEW_PET_ADDED(...) addon.UpdateItemFrame() end
+
+function addon:TOYS_UPDATED(...) addon.UpdateItemFrame() end
+
+function addon.HideInRaid()
+    if not addon.settings.db.profile.hideInRaid or (RXPCData and RXPCData.GA) or (addon.guide and addon.guide.farm) then return end
+
+    if not UnitInRaid("player") then return end
+
+    for _, frame in pairs(addon.enabledFrames) do
+        if not frame:IsForbidden() then frame:Hide() end
+    end
+end
 
 questFrame:SetScript("OnEvent", addon.QuestAutomation)
 
@@ -563,36 +668,6 @@ function addon.GetGuideTable(guideGroup, guideName)
     if guideGroup and addon.guideList[guideGroup] and guideName and
         addon.guideList[guideGroup][guideName] then
         return addon.guides[addon.guideList[guideGroup][guideName]]
-    end
-end
-
-function addon.UnitScanUpdate()
-    local unitscanList = addon.currentGuide.unitscan
-    if _G.unitscan_targets and unitscanList and addon.settings.db.profile.enableUnitscan then
-        for unit, elements in pairs(unitscanList) do
-            local enabled
-            for _, element in pairs(elements) do
-                if element.step.active then
-                    enabled = true
-                    break
-                end
-            end
-
-            if enabled then
-                if not _G.unitscan_targets[unit] then
-                    _G.DEFAULT_CHAT_FRAME:AddMessage(
-                        _G.LIGHTYELLOW_FONT_COLOR_CODE .. '<unitscan> +' .. unit)
-                end
-                _G.unitscan_targets[unit] = true
-            else
-                if _G.unitscan_targets[unit] then
-                    _G.DEFAULT_CHAT_FRAME:AddMessage(
-                        _G.LIGHTYELLOW_FONT_COLOR_CODE .. '<unitscan> -' .. unit)
-                end
-                _G.unitscan_targets[unit] = nil
-            end
-
-        end
     end
 end
 
@@ -624,20 +699,17 @@ addon.updateInactiveQuest = {}
 
 addon.tickTimer = 0
 
-local updateFrame = CreateFrame("Frame")
-
-local eventType
 local updateTick = 0
-local updateStart = 0
-
 local skip = 0
-updateFrame:SetScript("OnUpdate", function(self, diff)
 
+function addon:UpdateLoop(diff)
     updateTick = updateTick + diff
-    if updateTick > (0.05+math.random()/128) then
+    --TODO
+    if addon.isHidden then
+        return
+    elseif updateTick > (0.05+math.random()/128) then
         local currentTime = GetTime()
         updateTick = 0
-        updateStart = currentTime
         local activeQuestUpdate = 0
         skip = skip + 1
         local event = ""
@@ -733,12 +805,8 @@ updateFrame:SetScript("OnUpdate", function(self, diff)
                 event = event .. "/inactiveQ"
             end
         end
-        --[[if event ~= "" then
-            eventType = event
-            print(event)
-        end]]
     end
-end)
+end
 
 function addon.HardcoreToggle()
     if addon.game == "CLASSIC" then
@@ -807,7 +875,7 @@ function addon.IsStepShown(step)
             (addon.settings.db.profile.northrendLM or not step.questguide) and
              addon.AldorScryerCheck(step) and
              addon.PhaseCheck(step) and addon.HardcoreCheck(step) and
-             addon.SeasonCheck(step) and addon.XpRateCheck(step)
+             addon.SeasonCheck(step) and addon.XpRateCheck(step) and addon.FreshAccountCheck(step)
 end
 
 function addon.SeasonCheck(step)
@@ -825,7 +893,7 @@ function addon.HardcoreCheck(step)
 end
 
 function addon.XpRateCheck(step)
-    if step.xprate then
+    if step.xprate and addon.settings.db.profile.enableXpStepSkipping then
         local xpmin,xpmax = 1,0xfff
 
         step.xprate:gsub("^([<>]?)%s*(%d+%.?%d*)%-?(%d*%.?%d*)",function(op,arg1,arg2)
@@ -840,10 +908,54 @@ function addon.XpRateCheck(step)
                 xpmax = tonumber(arg2) or 0xfff
             end
         end)
+
         if addon.settings.db.profile.xprate < xpmin or addon.settings.db.profile.xprate > xpmax then
             return false
         end
     end
+
     return true
 end
+
+function addon.IsFreshAccount()
+    if C_PlayerInfo and C_PlayerInfo.CanPlayerEnterChromieTime then
+        local manualOverride = addon.settings.db.profile.chromieTime
+        if not manualOverride or manualOverride == "auto" then
+            return not C_PlayerInfo.CanPlayerEnterChromieTime()
+        elseif manualOverride == "disabled" then
+            return true
+        end
+    end
+end
+
+function addon.FreshAccountCheck(step)
+    local level = UnitLevel("player")
+    local maxLevelFresh = step.fresh and tonumber(step.fresh) or 1000
+    local maxLevelVeteran = step.veteran and tonumber(step.veteran) or 1000
+    local fresh = addon.IsFreshAccount()
+
+    if not (step.fresh or step.veteran) then
+        return true
+    elseif (step.fresh and level <= maxLevelFresh) and fresh then
+        return true
+    elseif (step.veteran and level <= maxLevelVeteran) and not fresh then
+        return true
+    end
+
+    return false
+end
+
+function addon.LevelCheck(step)
+    if not addon.settings.db.profile.enableXpStepSkipping then
+        return true
+    end
+
+    local level = UnitLevel("player")
+    local maxLevel = tonumber(step.maxlevel) or 1000
+    if level <= maxLevel then
+        return true
+    end
+end
+
+
 RXP = addon --debug purposes

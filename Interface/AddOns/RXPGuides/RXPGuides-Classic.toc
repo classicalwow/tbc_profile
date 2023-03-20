@@ -1,10 +1,10 @@
 ## Interface: 11403
-## Title: RXP Guides
+## Title: RestedXP 指南 狮心-北美刘嘉玲 汉化版
 ## Notes: In-game leveling guides
 ## Notes-zhCN: TODO
 ## Author: RestedXP
-## Version: v4.3.2
-## OptionalDeps: Questie, unitscan
+## Version: v4.4.14
+## OptionalDeps: Questie, RestedXP_Themes
 ## SavedVariables: RXPData, RXPDB
 ## SavedVariablesPerCharacter: RXPCData, RXPCTrackingData, RXPCComms, RXPCSettings
 ## X-Curse-Project-ID: 486246
@@ -13,6 +13,7 @@ libs\embeds.xml
 locale\locales.xml
 
 Locale.lua
+Themes.lua
 RXPGuides.lua
 GuideWindow.lua
 Help.lua
@@ -23,6 +24,7 @@ ActiveItemFrame.lua
 LevelingTracker.lua
 Timers.lua
 Communications.lua
+Targeting.lua
 
 DB/classic.xml
 

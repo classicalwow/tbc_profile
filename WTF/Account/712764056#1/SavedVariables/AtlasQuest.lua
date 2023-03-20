@@ -4,12 +4,16 @@ AtlasQuest_Options = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
+	["Version"] = "4.13.04",
+	["特變電工"] = {
+		["ShownSide"] = "Left",
+		["AtlasAutoShow"] = 1,
+	},
 	["畜生犬隊長"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
-	["Version"] = "4.13.03",
-	["特變電工"] = {
+	["家駒"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},

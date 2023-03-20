@@ -1,7 +1,7 @@
 local _, addon = ...
 
-local fmt, mrand, smatch, sbyte = string.format, math.random, string.match,
-                                  string.byte
+local fmt, mrand, smatch, sbyte, tostr = string.format, math.random,
+                                         string.match, string.byte, tostring
 
 local GetNumGroupMembers, SendChatMessage, GetTime, UnitLevel, UnitClass,
       UnitXP, UnitXPMax, pcall = GetNumGroupMembers, SendChatMessage, GetTime,
@@ -87,7 +87,7 @@ function addon.comms:PLAYER_LEVEL_UP(_, level)
 
             msg = self.BuildNotification(
                       L("I just leveled from %d to %d in %s"), level - 1, level,
-                      addon.tracker:PrettyPrintTime(s))
+                      addon.comms:PrettyPrintTime(s))
             announceLevelUp(msg)
         else
             -- Leave enough time for TIME_PLAYED to return, ish
@@ -103,7 +103,7 @@ function addon.comms:PLAYER_LEVEL_UP(_, level)
                     msg = self.BuildNotification(L(
                                                      "I just leveled from %d to %d in %s"),
                                                  level - 1, level,
-                                                 addon.tracker:PrettyPrintTime(s))
+                                                 addon.comms:PrettyPrintTime(s))
                     announceLevelUp(msg)
                 elseif addon.settings.db.profile.debug then
                     self.PrettyPrint("Invalid .started or .finished %d", level)
@@ -367,10 +367,12 @@ function addon.comms:AnnounceStepEvent(event, data)
         guideAnnouncements.collect[data.title] = UnitLevel("Player")
 
     elseif event == '.fly' then
+        if not data.duration or data.duration <= 0 then return end
+
         -- Questie doesn't announce flight-time, so okay to send this out
         local msg = self.BuildNotification(L("Flying to %s ETA %s"),
                                            data.destination,
-                                           addon.tracker:PrettyPrintTime(
+                                           addon.comms:PrettyPrintTime(
                                                data.duration))
 
         if addon.settings.db.profile.enableFlyStepAnnouncements and
@@ -445,9 +447,19 @@ function addon.comms.OpenBugReport(stepNumber)
                         stepData = fmt("%s\n  goto = %.2f / %.2f", stepData,
                                        e.x, e.y)
                     end
+
+                    if e.targets then
+                        stepData = fmt("%s\n  targets = %s", stepData,
+                                       strjoin(', ', unpack(e.targets)))
+                    end
+
+                    if e.unitscan then
+                        stepData = fmt("%s\n  unitscan = %s", stepData,
+                                       strjoin(', ', unpack(e.unitscan)))
+                    end
                 end
             else
-                stepData = fmt("%s\nUnknown table", stepData, step)
+                stepData = fmt("%s\nNo active step elements", stepData, step)
             end
         elseif type(step) == "string" then
             stepData = fmt("%s\n%s", stepData, step)
@@ -456,6 +468,24 @@ function addon.comms.OpenBugReport(stepNumber)
     else
         stepData = "N/A"
     end
+
+    local af = addon.arrowFrame
+    local sameContinent = 'N/A'
+
+    if af.element and af.element.instance then
+        local _, _, instance =
+            LibStub("HereBeDragons-2.0"):GetPlayerWorldPosition()
+        sameContinent = tostr(af.element.instance == instance)
+    end
+
+    local arrowData = af and fmt(
+                          "  Shown: %s\n  Hidden by step: %s\n  Disabled: %s\n  Distance: %s\n  Same Continent: %s\n  Zone: %s\n  Coordinates: wy (%.02f) wx (%.02f)\n",
+                          tostr(af:IsShown()), tostr(addon.hideArrow),
+                          tostr(addon.settings.db.profile.disableArrow),
+                          af.distance or -1, sameContinent,
+                          af.element and af.element.zone or 'N/A',
+                          af.element and af.element.wy or 0,
+                          af.element and af.element.wx or 0) or 'N/A'
 
     local content = fmt([[%s
 
@@ -470,14 +500,20 @@ Addon: %s
 XP Rate: %.1f
 Locale: %s
 Client Version: %s
+BNet: %s
 
 Current Step data
+%s
+
+Arrow data
 %s
 ```
 ]], L("Describe your issue:"), L("Do not edit below this line"),
                         character or "Error", zone or "Error", guide or "Error",
                         addon.release, addon.settings.db.profile.xprate,
-                        GetLocale(), select(1, GetBuildInfo()), stepData)
+                        GetLocale(), select(1, GetBuildInfo()), select(2,
+                                                                       BNGetInfo()) ~=
+                            nil and "Online" or "Offline", stepData, arrowData)
 
     local f = AceGUI:Create("Frame")
 
@@ -564,4 +600,40 @@ function addon.comms.OpenBrandedExport(title, description, content, width,
 
     f:DoLayout()
     f:Show()
+end
+
+function addon.comms:PrettyPrintTime(s)
+    if not s or s <= 0 then return end
+
+    local days = floor(s / 24 / 60 / 60)
+    s = mod(s, 24 * 60 * 60)
+
+    local hours = floor(s / 60 / 60)
+    s = mod(s, 60 * 60)
+
+    local minutes = floor(s / 60)
+    s = mod(s, 60)
+
+    local formattedString
+    if days > 0 then
+        formattedString = fmt("%d %s %d %s %d %s %d %s", days,
+                              days == 1 and L('day') or L('days'), hours,
+                              hours == 1 and L('hour') or L('hours'), minutes,
+                              minutes == 1 and L('minute') or L('minutes'), s,
+                              s == 1 and L('second') or L('seconds'))
+    elseif hours > 0 then
+        formattedString = fmt("%d %s %d %s %d %s", hours,
+                              hours == 1 and L('hour') or L('hours'), minutes,
+                              minutes == 1 and L('minute') or L('minutes'), s,
+                              s == 1 and L('second') or L('seconds'))
+    elseif minutes > 0 then
+        formattedString = fmt("%d %s %d %s", minutes,
+                              minutes == 1 and L('minute') or L('minutes'), s,
+                              s == 1 and L('second') or L('seconds'))
+    else
+        formattedString =
+            fmt("%d %s", s, s == 1 and L('second') or L('seconds')) -- Big gratz for leveling in under a minute
+    end
+
+    return formattedString
 end

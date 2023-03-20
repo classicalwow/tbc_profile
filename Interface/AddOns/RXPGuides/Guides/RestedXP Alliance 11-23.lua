@@ -1,44 +1,57 @@
+local faction = UnitFactionGroup("player")
+if faction == "Horde" then return end
+
 RXPGuides.RegisterGuide([[
 #tbc
 #wotlk
-<< Alliance !Warlock/Alliance wotlk
+<< Alliance
 #name 11-14 黑海岸
 #version 1
 #group RestedXP 联盟 1-20
 #defaultfor !Draenei
 #next 14-20 秘血岛
-#xprate <1.5 << Human Warlock
+#xprate <1.5 << Warlock
 step << !NightElf !Draenei wotlk
     #sticky
     .goto StormwindNew,21.8,56.2,20,0
     .goto StormwindNew,21.8,56.2,0
-    .zone Darkshore >> 前往暴风港，乘船前往黑海岸
+    .zone Darkshore >>前往: |cFFDB2EEF黑海岸|r
 step
-    >> 与平台的Gwennyth ontop对话
-    .goto Darkshore,36.6,45.6
-    .accept 3524 >> 接受冲上岸
+    >>与平台的Gwennyth ontop对话
+    .goto Darkshore,36.621,45.594
+.target Gwennyth Bly'Leggonde
+>>与|cFF00FF25Gwenneth Bl'Leggonde|r交谈
+    .accept 3524 >>接任务: |cFFFCDC00搁浅的巨兽|r
 step << !NightElf
 	.goto Darkshore,36.3,45.6
-    .fp Auberdine >> 获取奥伯丁飞行路线
+    .fp Auberdine >>获取奥伯丁飞行路线
 step << NightElf
     .goto Darkshore,36.8,44.3
-    .turnin 6342 >> 飞往奥伯丁
+.target Laird
+>>与|cFF00FF25Laird|r交谈
+    .turnin 6342 >>交任务: |cFF00FF25飞往奥伯丁|r
 step << !Warlock/!Rogue
 	.goto Darkshore,37.0,44.1
-    .home >> 将您的炉石设置为Auberdine
+    .home >>将您的炉石设置为Auberdine
 step
-    >> 上楼去
+    >>上楼去
     .goto Darkshore,37.0,44.1
-    .accept 983 >> 接受Buzzbox 827
+.target Wizbang Cranktoggle
+>>与|cFF00FF25Wizbang曲柄开关|r交谈
+    .accept 983 >>接任务: |cFFFCDC00传声盒827号|r
 step
-    >> 接受奥伯丁周围的任务
-    .accept 2118 >> 接受灾区
+    >>接受奥伯丁周围的任务
+.target Tharnariun Treetender
+>>与|cFF00FF25Tharnariun Treetender|r交谈
+    .accept 2118 >>接任务: |cFFFCDC00瘟疫蔓延|r
     .goto Darkshore,38.8,43.4
-    .accept 984 >> 接受威胁有多大？
+.target Terenthis
+>>与|cFF00FF25Terenthis|r交谈
+    .accept 984 >>接任务: |cFFFCDC00熊怪的威胁|r
     .goto Darkshore,39.3,43.4
 step << Dwarf Hunter tbc
     #sticky
-    .train 2981 >> 驯服蓟熊并学习爪2
+    .train 2981 >>驯服蓟熊并学习爪2
     *Thistle Bears can stun, you have to use a dummy pet to tank the stun, abandon the pet and then tame the bear
 step
 	#sticky
@@ -50,12 +63,11 @@ step
 	.waypoint Darkshore,36.7,52.4,40,0
 	.waypoint Darkshore,35.6,47.6,40,0
 	.waypoint Darkshore,36.2,44.5,40,0
-	>> 杀死沿海的螃蟹，并掠夺它们的腿
+	>>杀死沿海的螃蟹，并掠夺它们的腿
     .complete 983,1 --Collect Crawler Leg (x6)
 step
-    .isOnQuest 3524
     .goto Darkshore,36.4,50.8
-	>> 抢劫海滩生物
+	>>掠夺海滩生物
     .complete 3524,1 --Collect Sea Creature Bones (x1)
 step
     .isOnQuest 2118
@@ -69,128 +81,165 @@ step
 step
    #label Crawlers
     .goto Darkshore,38.9,53.0
-    >> 跑到弗波格营地的郊区，尽量不要激怒任何暴徒。
+    >>跑到弗波格营地的郊区，尽量不要激怒任何暴徒。
     .complete 984,1 --Find a corrupt furbolg camp
 step
     #requires Crawlers
     .isOnQuest 983
     .goto Darkshore,36.6,46.3
-    >> 单击山上的机器
-    .turnin 983 >> 打开Buzzbox 827
+    >>单击山上的机器
+    .turnin 983 >>交任务: |cFF00FF25传声盒827号|r
 step
-    .isOnQuest 3524
-    .goto Darkshore,36.6,45.6
-    >> 返回站台上的格温尼思
-    .turnin 3524 >> 转入冲上岸
-    .accept 4681 >> 接受冲上岸
+    .goto Darkshore,36.621,45.594
+    >>返回站台上的格温尼思
+.target Gwennyth Bly'Leggonde
+>>与|cFF00FF25Gwenneth Bl'Leggonde|r交谈
+    .turnin 3524 >>交任务: |cFF00FF25搁浅的巨兽|r
+step
+#xprate <1.7
+    .goto Darkshore,36.621,45.594
+.target Gwennyth Bly'Leggonde
+>>与|cFF00FF25Gwenneth Bl'Leggonde|r交谈
+    .accept 4681 >>接任务: |cFFFCDC00搁浅的巨兽|r
+    .maxlevel 13
 step
     #xprate <1.5
     .maxlevel 13
     .goto Darkshore,35.8,43.7
-    .accept 963 >> 接受永恒的爱
+.target Cerellean Whiteclaw
+>>与|cFF00FF25Cerelean Whiteclaw|r交谈
+    .accept 963 >>接任务: |cFFFCDC00永志不渝|r
 step
+#xprate <1.7
     .isOnQuest 4681
     .goto Darkshore,31.9,46.4
-	>> 在水下抢劫海龟骨头
-    * You can run along the docks to get their faster than just swimming!
+	>>在水下掠夺海龟骨头
+    * You can run along the docks to get there faster than just swimming!
     .complete 4681,1 --Collect Sea Turtle Remains (x1)
 step
+#xprate <1.7
     .isOnQuest 4681
-    >> 返回Gwennyth
-    .goto Darkshore,36.6,45.6
-    .turnin 4681,2 >> 转入冲上岸 << Druid/Paladin/Hunter
-    .turnin 4681 >> 转入冲上岸 << !Druid !Paladin !Hunter
+    >>返回Gwennyth
+    .goto Darkshore,36.621,45.594
+.target Gwennyth Bly'Leggonde
+>>与|cFF00FF25Gwenneth Bl'Leggonde|r交谈
+    .turnin 4681 >>交任务: |cFF00FF25搁浅的巨兽|r
 step << !Dwarf/!Hunter
-    .xp 12 >> 研磨至12级
+    .xp 12 >>升级到12级
 step << !Dwarf/!Hunter
-    >> 与哨兵Glynda和Tharnariun交谈
-    .accept 4811 >> 接受红水晶
-    .goto Darkshore,37.7,43.4
-    .turnin -2118 >> 交出瘟疫土地
+    >>与哨兵Glynda和Tharnariun交谈
+.target Sentinel Glynda Nal'Shea
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .accept 4811 >>接任务: |cFFFCDC00红色水晶|r
+    .goto Darkshore,37.706,43.390
+    .turnin -2118 >>交任务: |cFF00FF25瘟疫蔓延|r
     .goto Darkshore,38.8,43.4
 step
 #xprate <1.5
     .maxlevel 13
     .goto Darkshore,38.8,43.4
-    .accept 2138 >> 接受感染者的清洁
+.target Tharnariun Treetender
+>>与|cFF00FF25Tharnariun Treetender|r交谈
+    .accept 2138 >>接任务: |cFFFCDC00清除疫病|r
 step
     #xprate <1.5
-    >> 与大楼内的特伦蒂斯交谈
+    >>与大楼内的特伦蒂斯交谈
     .goto Darkshore,39.3,43.5
-    .turnin 984 >> 交出威胁有多大？
-    .accept 985 >> 接受威胁有多大？
-    .accept 4761 >> 接受Thundris Windweaver
+>>与|cFF00FF25Terenthis|r交谈
+    .turnin 984 >>交任务: |cFF00FF25熊怪的威胁|r
+.target Terenthis
+    .accept 985 >>接任务: |cFFFCDC00熊怪的威胁|r
+    .accept 4761 >>接任务: |cFFFCDC00桑迪斯·织风|r
 step
-    #xprate >1.499 
-    >> 与大楼内的特伦蒂斯交谈
+    #xprate >1.499
+    >>与大楼内的特伦蒂斯交谈
     .goto Darkshore,39.3,43.5
-    .turnin 984 >> 交出威胁有多大？
-    .accept 4761 >> 接受Thundris Windweaver
+>>与|cFF00FF25Terenthis|r交谈
+    .turnin 984 >>交任务: |cFF00FF25熊怪的威胁|r
+.target Terenthis
+    .accept 4761 >>接任务: |cFFFCDC00桑迪斯·织风|r
 step << Druid
     .goto Darkshore,43.5,45.9
     .use 15208 >>使用洞穴内的塞纳里奥月光石，击败卢纳克劳，并在之后与他的灵魂对话
     .complete 6001,1 --Defeat Lunaclaw (x1)
 step << !Dwarf/!Hunter
+#xprate <1.7
     .goto Darkshore,47.2,48.6
-    >> 当心，该地区的Moonkin愤怒地呼救，非常致命！
+    >>当心，该地区的Moonkin愤怒地呼救，非常致命！
     .complete 4811,1 --Locate the large, red crystal on Darkshore's eastern mountain range
-step << wotlk !Dwarf/!Hunter
-    .deathskip >> 死于附近的猫头鹰野兽并在奥伯丁产卵
 step << !Dwarf/!Hunter
-    .goto Darkshore,37.7,43.4
-    .turnin 4811 >> 交出红色水晶
-    .accept 4812 >> 接受为瀑布
+#xprate <1.7
+    .goto Darkshore,37.706,43.390
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .turnin 4811 >>交任务: |cFF00FF25红色水晶|r
+.target Sentinel Glynda Nal'Shea
+    .accept 4812 >>接任务: |cFFFCDC00清洗水晶|r
 step << !Dwarf/!Hunter
+#xprate <1.7
     .goto Darkshore,37.8,44.0
 	>>在月光井处注满水管
     .complete 4812,1 --Collect Moonwell Water Tube (x1)
 step
     .goto Darkshore,37.4,40.2
-    >> 在市政厅大楼与桑德利斯交谈
-    .turnin 4761 >> 交出桑德里斯·温德韦弗
-    .accept 4762 >> 接受悬崖泉河 << !Warlock/!Rogue
-    .accept 954 >> 接受Bashal'Aran
+    >>在市政厅大楼与桑德利斯交谈
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .turnin 4761 >>交任务: |cFF00FF25桑迪斯·织风|r
+.target Thundris Windweaver
+    .accept 4762 >>接任务: |cFFFCDC00壁泉河|r << !Warlock/!Rogue
+    .accept 954 >>接任务: |cFFFCDC00巴莎兰|r
 step
     #xprate <1.5
     .maxlevel 13
     .goto Darkshore,37.4,40.2
-    .accept 958 >> 接受上流社会的工具
+.target Thundris Windweaver
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .accept 958 >>接任务: |cFFFCDC00上层精灵的工具|r
 step
     .goto Darkshore,44.1,36.3
-    >> 前往城东的废墟
-    .turnin 954 >> 转入Bashal’Aran
-    .accept 955 >> 接受Bashal'Aran
+    >>前往城东的废墟
+>>与|cFF00FF25Asterion|r交谈
+    .turnin 954 >>交任务: |cFF00FF25巴莎兰|r
+.target Asterion
+    .accept 955 >>接任务: |cFFFCDC00巴莎兰|r
 step << !Dwarf !Warlock/!Hunter !Warlock
+#xprate <1.7
     .goto Darkshore,47.3,48.6
-    >> 当你向东南方向转弯时，碾碎格雷尔。我们将在之后回来。
-    .turnin 4812 >> 随着瀑布转向
-    .accept 4813 >> 接受其中的片段
+    >>当你向东南方向转弯时，碾碎格雷尔。我们将在之后回来。
+    .turnin 4812 >>交任务: |cFF00FF25清洗水晶|r
+    .accept 4813 >>接任务: |cFFFCDC00水晶中的碎骨|r
 step
     .goto Darkshore,44.8,37.2
 	>>收集Grell耳环
     .complete 955,1 --Collect Grell Earring (x8)
 step
     .goto Darkshore,44.2,36.3
-    >> 回到神殿
-    .turnin 955 >> 转入Bashal’Aran
-    .accept 956 >> 接受Bashal'Aran
+    >>回到神殿
+>>与|cFF00FF25Asterion|r交谈
+    .turnin 955 >>交任务: |cFF00FF25巴莎兰|r
+.target Asterion
+    .accept 956 >>接任务: |cFFFCDC00巴莎兰|r
 step
     .goto Darkshore,45.6,36.9
-	>> 杀戮和掠夺巴沙拉兰的萨提尔人
+	>>杀戮和掠夺巴沙拉兰的萨提尔人
     .complete 956,1 --Collect Ancient Moonstone Seal (x1)
 step
     .goto Darkshore,44.2,36.3
-    >> 回到神殿
-    .turnin 956 >> 转入Bashal’Aran
+    >>回到神殿
+.target Asterion
+>>与|cFF00FF25Asterion|r交谈
+    .turnin 956 >>交任务: |cFF00FF25巴莎兰|r
 step
 #xprate <1.5
     .maxlevel 14
     .goto Darkshore,44.2,36.3
-    .accept 957 >> 接受Bashal'Aran
+.target Asterion
+>>与|cFF00FF25Asterion|r交谈
+    .accept 957 >>接任务: |cFFFCDC00巴莎兰|r
 step << Warlock
+#xprate <1.7
     .goto Darkshore,47.3,48.6
-    .turnin 4812 >> 随着瀑布转向
-    .accept 4813 >> 接受其中的片段
+    .turnin 4812 >>交任务: |cFF00FF25清洗水晶|r
+    .accept 4813 >>接任务: |cFFFCDC00水晶中的碎骨|r
 step
 #xprate <1.5
 	#sticky
@@ -201,41 +250,47 @@ step
 	>>在你的任务中杀死狂犬病蓟熊
     .complete 2138,1 --Kill Rabid Thistle Bear (x20)
 step << !Warlock/!Rogue
-    #xprate >1.499 
+    #xprate 1.49-1.69
     .goto Darkshore,41.94,31.47
-    .accept 4723 >> 接受海滩生物
+    .accept 4723 >>接任务: |cFFFCDC00搁浅的海洋生物|r
 step << !Warlock/!Rogue
-    #xprate >1.499 
+    #xprate 1.49-1.69
     .goto Darkshore,44.18,20.60
-    .accept 4725 >> 接受海滩海龟
+    .accept 4725 >>接任务: |cFFFCDC00搁浅的海龟|r
 step << !Warlock/!Rogue
     .isOnQuest 4762
     .goto Darkshore,50.8,25.6
 	.use 15844 >>使用瀑布底部的空采样管
-    * 途中碾碎暴徒 if your hearthstone is less than 3 minutes from being off cooldown
+    * Grind mobs en route if your hearthstone is less than 3 minutes from being off cooldown
     .complete 4762,1 --Collect Cliffspring River Sample (x1)
 step << Druid
     #sticky
     #completewith next
     .goto Moonglade,44.1,45.2
-    >>传送至Moonglade
-    .fly Teldrassil>> 飞往Teldrassil
+    >>前往: |cFFDB2EEF月光林地|r
+    .fly Teldrassil>>飞往Teldrassil
 step << Druid
-    .goto Darnassus,35.4,8.4
-    .turnin 6001 >> 全身心投入
+    .goto Darnassus,35.375,8.405
+.target Mathrengyl Bearwalker
+>>与|cFF00FF25Mathrengyl Bearwalker交谈|r
+    .turnin 6001 >>交任务: |cFF00FF25身心之力|r
 step << !Warlock/!Rogue
     #sticky
     #completewith next
-    .hs >> 奥伯丁之炉
+    .hs >>奥伯丁之炉
 step << !Dwarf/!Hunter
-    >> 与哨兵Glynda交谈
-    .goto Darkshore,37.7,43.4
-    .turnin 4813 >> 交出其中的碎片
+    >>与哨兵Glynda交谈
+    .goto Darkshore,37.706,43.390
+.target Sentinel Glynda Nal'Shea
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .turnin 4813 >>交任务: |cFF00FF25水晶中的碎骨|r
 step << Dwarf Hunter
 #xprate <1.5
     .maxlevel 14
-    .goto Darkshore,37.7,43.4
-    .accept 4811 >> 接受红水晶
+    .goto Darkshore,37.706,43.390
+.target Sentinel Glynda Nal'Shea
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .accept 4811 >>接任务: |cFFFCDC00红色水晶|r
 step << Dwarf Hunter
 #xprate <1.5
     .isOnQuest 4811
@@ -244,18 +299,20 @@ step << Dwarf Hunter
 step << !Dwarf/!Hunter
     #xprate <1.5
     .goto Darkshore,39.9,54.9
-    >> 向南前往弗堡营地
+    >>向南前往弗堡营地
     .complete 985,1 --Kill Blackwood Pathfinder (x8)
     .complete 985,2 --Kill Blackwood Windtalker (x5)
 step
     .maxlevel 14
-    .goto Darkshore,40.3,59.7
-    .accept 953 >> 接受Ameth’Aran的堕落
+    .goto Darkshore,40.301,59.732
+.target Sentinel Tysha Moonblade
+>>与|cFF00FF25Sentinel Tysha Moonsblade交谈|r
+    .accept 953 >>接任务: |cFFFCDC00亚米萨兰的毁灭|r
     #xprate <1.5
 step
     .maxlevel 14
     .goto Darkshore,37.1,62.1
-    .accept 4722 >> 接受海滩海龟
+    .accept 4722 >>接任务: |cFFFCDC00搁浅的海龟|r
     #xprate <1.5
 step
     #requires bears
@@ -271,13 +328,13 @@ step
 	#sticky
 	#label relics1
     .goto Darkshore,42.0,59.3,0
-	>>杀死幽灵。抢劫他们的文物
+	>>杀死幽灵。掠夺他们的文物
     .isOnQuest 958
     .complete 958,1 --Collect Highborne Relic (x7)
     #xprate <1.5
 step
     #requires bears
-	>> 点击区域中的平板电脑阅读（您不必滚动页面）
+	>>点击区域中的平板电脑阅读(您不必滚动页面)
     .complete 953,2 --Collect Read the Fall of Ameth'Aran (x1)
     .goto Darkshore,42.7,63.1,-1
     .complete 953,1 --Collect Read the Lay of Ameth'Aran (x1)
@@ -290,8 +347,10 @@ step
 #xprate <1.5
     #requires anaya
     .isOnQuest 953
-    .goto Darkshore,40.3,59.7
-    .turnin 953 >> 《阿米思·阿兰的堕落》（The Fall of Ameth’Aran）
+    .goto Darkshore,40.301,59.732
+.target Sentinel Tysha Moonblade
+>>与|cFF00FF25Sentinel Tysha Moonsblade交谈|r
+    .turnin 953 >>交任务: |cFF00FF25亚米萨兰的毁灭|r
 step << Dwarf Hunter
     #requires relics1
     .isOnQuest 985
@@ -311,70 +370,78 @@ step
     #requires relics1
     .isOnQuest 957
     .goto Darkshore,44.2,36.3
-    .turnin 957 >> 转入Bashal’Aran
+.target Asterion
+>>与|cFF00FF25Asterion|r交谈
+    .turnin 957 >>交任务: |cFF00FF25巴莎兰|r
 step
 #xprate <1.5
     .isOnQuest 958
-    .goto Darkshore,37.4,40.1
-    .turnin 958 >> 上流社会的工具
+    .goto Darkshore,37.395,40.130
+.target Thundris Windweaver
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .turnin 958 >>交任务: |cFF00FF25上层精灵的工具|r
 step << !Warlock/!Rogue
-    >> 回镇上去
-    .turnin -4762 >> 转入悬崖泉河
-    .goto Darkshore,37.4,40.1,-1
-    .turnin -985 >> 交出威胁有多大？
+    >>回镇上去
+    .turnin -4762 >>交任务: |cFF00FF25壁泉河|r
+    .goto Darkshore,37.395,40.130,-1
+    .turnin -985 >>交任务: |cFF00FF25熊怪的威胁|r
     .goto Darkshore,39.3,43.5,-1
-    .isQuestComplete 4762
 step << !Warlock/!Rogue
-    #xprate >1.499 
+    #xprate 1.49-1.69
     .goto Darkshore,36.6,45.5
-    .turnin 4725 >> 上缴海滩海龟
-    .turnin 4727 >> 上缴海滩海龟
-    .turnin -4723 >> 上缴海滩生物
+    .turnin -4725 >>交任务: |cFF00FF25搁浅的海龟|r
+    .turnin -4727 >>交任务: |cFF00FF25搁浅的海龟|r
+    .turnin -4723 >>交任务: |cFF00FF25搁浅的海洋生物|r
 step
 #xprate <1.5
     .goto Darkshore,38.8,43.4
-    .turnin 2138 >> 上交感染者的清洁
+.target Tharnariun Treetender
+>>与|cFF00FF25Tharnariun Treetender|r交谈
+    .turnin 2138 >>交任务: |cFF00FF25清除疫病|r
     .isQuestComplete 2138
 step << Dwarf Hunter
-    .goto Darkshore,37.7,43.4
-    .turnin 4811 >> 交出红色水晶
+    .goto Darkshore,37.706,43.390
+.target Sentinel Glynda Nal'Shea
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .turnin 4811 >>交任务: |cFF00FF25红色水晶|r
     .isQuestComplete 4811
 step
 #xprate <1.5
-    .isOnQuest 4722
-    .goto Darkshore,36.6,45.6
-    .turnin 4722 >> 上缴海滩海龟
-    .turnin -4723 >> 上缴海滩生物
+    .goto Darkshore,36.621,45.594
+    .turnin -4722 >>交任务: |cFF00FF25搁浅的海龟|r
+    .turnin -4723 >>交任务: |cFF00FF25搁浅的海洋生物|r
 step
 #xprate <1.5
     .isQuestComplete 963
     .goto Darkshore,35.7,43.7
-    .turnin 963 >> 为了永恒的爱而投入
+.target Cerellean Whiteclaw
+>>与|cFF00FF25Cerelean Whiteclaw|r交谈
+    .turnin 963 >>交任务: |cFF00FF25永志不渝|r
 step << Druid tbc
     #completewith next
-    >>传送至Moonglade
+    >>前往: |cFFDB2EEF月光林地|r
     .goto Moonglade,52.4,40.6
-    .trainer 12042 >> 火车咒语
+    .trainer 12042 >>火车咒语
 step << Druid tbc
     .goto Moonglade,48.1,67.2
     .fly Auberdine>>飞到黑海岸
 step << Warlock wotlk/Rogue wotlk
-    .xp >> 研磨至14级
+    .xp 14 >>升级到14级
 step << Warlock wotlk/wotlk Gnome Rogue/wotlk Human Rogue/wotlk Dwarf Rogue
-    .hs >> 从火炉到暴风
-step << wotlk Night Elf Rogue
-    .hs >> 达纳苏斯之赫斯
-step << wotlk Night Elf Rogue
+    .hs >>从火炉到暴风
+step << wotlk NightElf Rogue
+    .hs >>达纳苏斯之赫斯
+step << wotlk NightElf Rogue
     .goto Teldrassil,56.4,60.1
-	.trainer >> 去训练你的法术吧
-step << wotlk Night Elf Rogue
-    .zone Darkshore >> 前往海港，带着两只公猪去Azuremyst岛。
+	.trainer >>去训练你的法术吧
+step << wotlk NightElf Rogue
+    .zone Darkshore >>前往: |cFFDB2EEF黑海岸|r
     .zoneskip Azuremyst Isle
 step << Warlock wotlk
     #sticky
     #completewith next
     .goto StormwindClassic,29.2,74.0,15,0
-    .goto StormwindClassic,27.2,78.1,10 >> 走进屠宰羔羊
+    .goto StormwindClassic,27.2,78.1,10 >>走进屠宰羔羊
 step << Warlock wotlk
     .goto StormwindClassic,25.2,78.5
     .train 6222 >>培训腐败r2
@@ -387,15 +454,15 @@ step << Warlock wotlk
     .money >0.3174
 step << Rogue wotlk
 	.goto StormwindClassic,74.6,52.8
-	.trainer >> 训练你的职业咒语
+	.trainer >>训练你的职业技能
 step << Warlock wotlk/wotlk Gnome Rogue/wotlk Human Rogue/wotlk Dwarf Rogue
     .goto StormwindNew,21.8,56.2
-    .zone Darkshore >> 前往暴风港，乘船前往黑海岸
+    .zone Darkshore >>前往: |cFFDB2EEF黑海岸|r
     .zoneskip Azuremyst Isle
 step
 	#label DarkshoreEnd
     .goto Darkshore,30.8,41.0
-    .zone Azuremyst Isle >>乘船去Azuremyst岛
+    .zone Azuremyst Isle >>前往: |cFFDB2EEF秘蓝岛|r
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -406,29 +473,31 @@ RXPGuides.RegisterGuide([[
 #version 1
 #group RestedXP 联盟 1-20
 #defaultfor !Draenei
-#next RestedXP 联盟 20-32\20-21 黑海岸 << !Warlock
-#next RestedXP 联盟 20-32\20-23 黑海岸/灰谷 << Warlock
+#next RestedXP联盟20-32\20-23 Darkshore/Ashenvale；RestedXP联盟20-32\20-21 Darkshore
+step << Druid
+    .goto Azuremyst Isle,24.45,54.56
+    .trainer >>训练你的职业技能
 step
-    .goto The Exodar,68.3,63.5
-    .fp Exodar >> 获取the Exodar飞行路线
+    .goto The Exodar,68.336,63.490
+    .fp Exodar >>获取the Exodar飞行路线
 step << Shaman
 	.goto The Exodar,49.5,36.9,70,0
 	.goto The Exodar,33.2,24.6
-	.trainer >> 《异国他乡》中的火车咒语
+	.trainer >>《异国他乡》中的火车咒语
 step << Mage
 	.goto The Exodar,51.0,46.8,80,0
 	.goto The Exodar,47.2,62.3
-    .trainer >> 《异国他乡》中的火车咒语
+    .trainer >>《异国他乡》中的火车咒语
 step << Hunter
 	.goto The Exodar,42,71.4,60,0
 	.goto The Exodar,54.5,85.6,60,0
 	.goto The Exodar,47.6,88.3
-	.trainer >> 《异国他乡》中的火车咒语
+	.trainer >>《异国他乡》中的火车咒语
 step << Warrior
 	.goto The Exodar,42,71.4,60,0
 	.goto The Exodar,54.5,85.6,60,0
-	.goto The Exodar,55.6,82.3
-	.trainer >> 《异国他乡》中的火车咒语
+	.goto The Exodar,55.579,82.269
+	.trainer >>《异国他乡》中的火车咒语
 step << Hunter/Warrior tbc/Paladin
 	>>进入《外族人》，与交易层顶层的武器大师交谈
     .goto The Exodar,53.3,85.7
@@ -436,18 +505,22 @@ step << Hunter/Warrior tbc/Paladin
 	.train 5011 >>火车十字弓 << Hunter
 step
     .goto Bloodmyst Isle,63.4,88.7
-	.zone Bloodmyst Isle >>向北前往Bloodmyst Isle
+	.zone Bloodmyst Isle >>前往: |cFFDB2EEF秘血岛|r
 step
 	#sticky
 	#completewith monunment
     #title Secondary Objective
-	>> 收集血晶岛上任何暴徒的辐照水晶碎片。不要把这些扔掉。
+	>>收集血晶岛上任何暴徒的辐照水晶碎片。不要把这些扔掉。
 	.collect 23984,10 -- Collect Irradiated Crystal Shard (x10)
 step
-    >> 与牧场的德雷尼族人交谈
-    .accept 9624 >> 接受最喜爱的款待
+    >>与牧场的德雷尼族人交谈
+.target Aonar
+>>与|cFF00FF25Aonar|r交谈
+    .accept 9624 >>接任务: |cFFFCDC00美味的点心|r
     .goto Bloodmyst Isle,63.5,88.8
-    .accept 9634 >> 接受外星捕食者
+.target Vorkhan the Elekk Herder
+>>与|cFF00FF25Vorkhan the Elekk Herder|r交谈
+    .accept 9634 >>接任务: |cFFFCDC00大战异型掠夺者|r
     .goto Bloodmyst Isle,63.1,88.0
     .maxlevel 14
 step
@@ -466,80 +539,107 @@ step
     .isOnQuest 9634
 step
     #requires pears
-    >> 回到牧场
+    >>回到牧场
     .goto Bloodmyst Isle,63.4,88.7
-    .turnin 9624,3 >> 交上最喜欢的款待 << Warrior/Paladin
-    .turnin 9624 >> 交上最喜欢的款待 << !Warrior !Paladin
+.target Aonar
+>>与|cFF00FF25Aonar|r交谈
+    .turnin 9624,3 >>交任务: |cFF00FF25美味的点心|r << Warrior/Paladin
+    .turnin 9624 >>交任务: |cFF00FF25美味的点心|r << !Warrior !Paladin
     .isQuestComplete 9624
 step
     .goto Bloodmyst Isle,63.1,87.9
-    .turnin 9634,1 >> 交出外星捕食者 << Paladin
-    .turnin 9634 >> 交出外星捕食者 << !Paladin
+.target Vorkhan the Elekk Herder
+>>与|cFF00FF25Vorkhan the Elekk Herder|r交谈
+    .turnin 9634,1 >>交任务: |cFF00FF25大战异型掠夺者|r << Paladin
+    .turnin 9634 >>交任务: |cFF00FF25大战异型掠夺者|r << !Paladin
     .isQuestComplete 9634
 step
     #label kesselstart
-    >> 与Kessel交谈
-    .goto Bloodmyst Isle,63.0,87.5
-    .accept 9663 >> 接受Kessel跑步
+    >>与Kessel交谈
+    .goto Bloodmyst Isle,62.990,87.512
+.target Kessel
+>>与|cFF00FF25Kessel|r交谈
+    .accept 9663 >>接任务: |cFFFCDC00凯希尔的信使|r
 step
     #sticky
-    >>使用坐骑buff跑向血腥守卫，如果你绕着桥走，你就不会下马
-    .abandon 9663 >> 失去坐骑buff后放弃Kessel Run
+    #completewith next
+    >>使用坐骑buff跑向血腥守卫，如果你向右跳过河绕过大桥，你就不会下车
+    .abandon 9663 >>失去坐骑buff后放弃Kessel Run
 step
     .goto Bloodmyst Isle,53.3,57.7
-    .accept 9629 >> 接受捕获和释放
+.target Morae
+>>与|cFF00FF25Morae交谈|r
+    .accept 9629 >>接任务: |cFFFCDC00研究鱼人|r
 step
     #sticky
     #completewith next
     .goto Bloodmyst Isle,55.7,59.7
-    .home >> 将您的炉石设置为血液观察
+    .home >>将您的炉石设置为血液观察
 step
-    >> 接受血液观察周围的任务。
-    >> 与通缉海报和辩护人Aalesia交谈
-    .accept 9646 >> 接受通缉：死亡爪
+    >>接受血液观察周围的任务。
+    >>与通缉海报和辩护人Aalesia交谈
+    .accept 9646 >>接任务: |cFFFCDC00通缉：死爪|r
     .goto Bloodmyst Isle,55.2,59.2
-    .accept 9567 >> 接受了解你的敌人
+.target Vindicator Aalesia
+>>与|cFF00FF25Aalesia|r辩护人交谈
+    .accept 9567 >>接任务: |cFFFCDC00知己知彼|r
     .goto Bloodmyst Isle,55.0,58.0
-    >> 与Tracker和Maatparm交谈
-    .accept 9580 >> 接受熊的需要
+    >>与Tracker和Maatparm交谈
+.target Tracker Lyceon
+>>与|cFF00FF25Tracker Lycon|r交谈
+    .accept 9580 >>接任务: |cFFFCDC00猎熊|r
     .goto Bloodmyst Isle,55.9,56.9
-    .accept 9643 >> 接受Constrictor Vines
-    .goto Bloodmyst Isle,56.4,56.8
-    .accept 9648 >> 接受Maatparm Mushroom Menagerie
-    .goto Bloodmyst Isle,56.4,56.8
+    .accept 9643 >>接任务: |cFFFCDC00荆棘巨藤|r
+    .goto Bloodmyst Isle,56.421,56.788
+.target Jessera of Mac'Aree
+>>与Mac'Aree的|cFF00FF25Jessera交谈|r
+    .accept 9648 >>接任务: |cFFFCDC00玛特帕尔姆蘑菇展|r
+    .goto Bloodmyst Isle,56.421,56.788
 step << Paladin
 	.goto Bloodmyst Isle,55.6,55.4
 	.trainer >>维护者伊索的火车课咒语
 step
-    >> 与维护者Boros交谈
+    >>与维护者Boros交谈
     .goto Bloodmyst Isle,55.4,55.4
-    .accept 9641 >> 接受辐照晶体碎片
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+    .accept 9641 >>接任务: |cFFFCDC00辐射水晶碎片|r
 step
 	.goto Bloodmyst Isle,55.4,55.4
 	.itemcount 23984,10
-	.turnin 9641,3 >> 转入辐照晶体碎片 << Warrior/Paladin/Hunter/Rogue/Shaman
-    .turnin 9641,2 >> 转入辐照晶体碎片 << Mage/Priest/Warlock
-    .turnin 9641 >> 转入辐照晶体碎片 << Druid
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+	.turnin 9641,3 >>Turn in Irradiated Crystal Shards << Warrior/Paladin/Hunter/Rogue/Shaman
+    .turnin 9641,2 >>Turn in Irradiated Crystal Shards << Mage/Priest/Warlock
+    .turnin 9641 >>Turn in Irradiated Crystal Shards << Druid
 step << Human Warrior/Human Paladin/Human Rogue
-    .goto Bloodmyst Isle,56.2 54.2
-    .train 2580 >> 与熔炉旁的侏儒交谈。训练采矿，铸造寻找矿物
+    .goto Bloodmyst Isle,56.2,54.2
+    .train 2580 >>和铁匠铺旁的侏儒交谈。训练采矿，铸造寻找矿物。如果您没有矿镐，请购买矿镐
 step
-    >> 与山上建筑中的德雷尼人交谈
+    >>与山上建筑中的德雷尼人交谈
     .goto Bloodmyst Isle,52.7,53.3
-    .accept 9693 >> 接受阿格斯对我的意义
-    .accept 9581 >> 接受水晶的学习
+.target Exarch Admetius
+>>与|cFF00FF25Exarch Admetius|r交谈
+    .accept 9693 >>接任务: |cFFFCDC00阿古斯的意义|r
+.target Harbinger Mikolaas
+>>与|cFF00FF25Harbinger Mikolaas|r交谈
+    .accept 9581 >>接任务: |cFFFCDC00研究水晶|r
 step << Dwarf Hunter
     .goto Bloodmyst Isle,55.4,55.4
-    .turnin 9693 >> 把Argus对我意味着什么
-    .accept 9694 >> 接受血液监测
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9693 >>交任务: |cFF00FF25阿古斯的意义|r
+.target Vindicator Boros
+    .accept 9694 >>接任务: |cFFFCDC00秘血岗哨|r
 step << Dwarf Hunter
-    >> 杀死该地区的血精灵
+    >>杀死该地区的血精灵
     .goto Bloodmyst Isle,48.5,46.8
     .complete 9694,1 --Kill Sunhawk Spy (x10)
 step << Dwarf Hunter
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9694 >> 交血表
-    .accept 9779 >> 接受拦截消息
+    .goto Bloodmyst Isle,55.421,55.232
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9694 >>交任务: |cFF00FF25秘血岗哨|r
+.target Vindicator Boros
+    .accept 9779 >>接任务: |cFFFCDC00拦截情报|r
 step
 	#sticky
     #label bloodmushroom
@@ -560,7 +660,7 @@ step
     >>抢走他的装甲牌，然后在你的包里点击它。
     *He walks from the summoning sigil to the monument and then despawn, a full spawn/despawn cycle takes about 6 minutes.
 	.collect 23900,1,9594 --Tzerak's Armor Plate
-    .accept 9594 >> 接受军团的迹象
+    .accept 9594 >>接任务: |cFFFCDC00军团的徽记|r
 	.unitscan Tzerak
 step
     #requires monument
@@ -590,7 +690,7 @@ step
 	.line Bloodmyst Isle,51.1,93.1,43.0,94.4,35.1,93.7
 	.use 23870 >>杀死在穆洛克营地周围巡逻的名为“残忍”的穆洛克。抢他去拿吊坠。在您的包中点击它
 	.collect 23870,1,9576 --Red Crystal Pendant (1)
-    .accept 9576 >> 接受残忍的项链
+    .accept 9576 >>接任务: |cFFFCDC00克鲁芬的项链|r
 	.unitscan Cruelfin
 step
     #requires mtag1
@@ -599,81 +699,99 @@ step
     .complete 9581,1 --Collect Impact Site Crystal Sample (x1)
 step
     .goto Bloodmyst Isle,57.8,73.4
-	>>在水下抢劫一个大的红色蘑菇，它们也可以从鱼身上掉下来
+	>>在水下掠夺一个大的红色蘑菇，它们也可以从鱼身上掉下来
     .complete 9648,1 --Collect Aquatic Stinkhorn (x1)
 step
     .goto Bloodmyst Isle,53.3,57.9
 	>>途中碾碎暴徒
-    .turnin 9576 >> 交上残忍的项链
-    .turnin 9629,1 >> 接住并松开 << Warrior/Paladin
-    .turnin 9629 >> 接住并松开 << !Warrior !Paladin
-    .accept 9574 >> 接受腐败受害者
+>>与|cFF00FF25Morae交谈|r
+    .turnin 9576 >>交任务: |cFF00FF25克鲁芬的项链|r
+    .turnin 9629,1 >>交任务: |cFF00FF25研究鱼人|r << Warrior/Paladin
+    .turnin 9629 >>交任务: |cFF00FF25研究鱼人|r << !Warrior !Paladin
+.target Morae
+    .accept 9574 >>接任务: |cFFFCDC00腐蚀的牺牲品|r
 step
     #completewith next
     .goto Bloodmyst Isle,53.3,56.6
-    .vendor >> 供应商垃圾和维修
+    .vendor >>供应商垃圾和维修
 step
     .goto Bloodmyst Isle,51.3,75.7
 	>>杀死该区域周围的树人，并掠夺树皮。在途中碾碎暴徒。
     .complete 9574,1 --Collect Crystallized Bark (x6)
 step << Rogue/Warlock
     #completewith next
-    .hs >> Hearth回到Blood Watch
+    .hs >>炉灶回到Blood Watch
 step
     #requires bloodmushroom
-    >> 返回城镇
+    >>返回城镇
     .goto Bloodmyst Isle,53.3,57.8
-    .turnin 9574 >> 移交腐败受害者
-    .accept 9578 >> 接受对Galan的搜索
+>>与|cFF00FF25Morae交谈|r
+    .turnin 9574 >>交任务: |cFF00FF25腐蚀的牺牲品|r
+.target Morae
+    .accept 9578 >>接任务: |cFFFCDC00搜寻加莱恩|r
 step
-    >> 与维护者Aalesia交谈
+    >>与维护者Aalesia交谈
     .goto Bloodmyst Isle,55.0,58.1
-    .turnin 9594 >> 交出军团的迹象
+.target Vindicator Aalesia
+>>与|cFF00FF25Aalesia|r辩护人交谈
+    .turnin 9594 >>交任务: |cFF00FF25军团的徽记|r
 	.isQuestComplete 9594
 step
     .goto Bloodmyst Isle,54.9,58.0
-    .turnin 9567 >> 交出知己知彼
+.target Vindicator Aalesia
+>>与|cFF00FF25Aalesia|r辩护人交谈
+    .turnin 9567 >>交任务: |cFF00FF25知己知彼|r
 step << !Dwarf/!Hunter
-    >> 与维护者Boros交谈
+    >>与维护者Boros交谈
     .goto Bloodmyst Isle,55.4,55.4
-    .turnin 9693 >> 把Argus对我意味着什么
-    .accept 9694 >> 接受血液监测
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9693 >>交任务: |cFF00FF25阿古斯的意义|r
+.target Vindicator Boros
+    .accept 9694 >>接任务: |cFFFCDC00秘血岗哨|r
 step
 	.goto Bloodmyst Isle,55.4,55.4
 	.itemcount 23984,10
-	.turnin 9641,3 >> 转入辐照晶体碎片 << Warrior/Paladin/Hunter/Rogue/Shaman
-    .turnin 9641,2 >> 转入辐照晶体碎片 << Mage/Priest/Warlock
-    .turnin 9641 >> 转入辐照晶体碎片 << Druid
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+	.turnin 9641,3 >>Turn in Irradiated Crystal Shards << Warrior/Paladin/Hunter/Rogue/Shaman
+    .turnin 9641,2 >>Turn in Irradiated Crystal Shards << Mage/Priest/Warlock
+    .turnin 9641 >>Turn in Irradiated Crystal Shards << Druid
 step
-    >> 进入山上的建筑物
+    >>进入山上的建筑物
     .goto Bloodmyst Isle,52.6,53.3
-    .turnin 9581,2 >> 向水晶学习 << Warrior/Paladin
-    .turnin 9581 >> 向水晶学习 << !Warrior !Paladin
-    .accept 9620 >> 接受失踪调查小组
+>>与|cFF00FF25Harbinger Mikolaas|r交谈
+    .turnin 9581,2 >>交任务: |cFF00FF25研究水晶|r << Warrior/Paladin
+    .turnin 9581 >>交任务: |cFF00FF25研究水晶|r << !Warrior !Paladin
+.target Harbinger Mikolaas
+    .accept 9620 >>接任务: |cFFFCDC00失踪的测量小组|r
 step << !Dwarf/!Hunter
-    >> 杀死该地区的血精灵。尽量在南边结束，我们将在之后返回城镇。
+    >>杀死该地区的血精灵。尽量在南边结束，我们将在之后返回城镇。
     .goto Bloodmyst Isle,48.5,46.8
     .complete 9694,1 --Kill Sunhawk Spy (x10)
 step << !Dwarf/!Hunter
-    >> 与维护者Boros交谈
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9694,3 >> 交血表 << Hunter
-    .turnin 9694 >> 交血表 << !Hunter
-    .accept 9779 >> 接受拦截消息
+    >>与维护者Boros交谈
+    .goto Bloodmyst Isle,55.421,55.232
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9694,3 >>交任务: |cFF00FF25秘血岗哨|r << Hunter
+    .turnin 9694 >>交任务: |cFF00FF25秘血岗哨|r << !Hunter
+.target Vindicator Boros
+    .accept 9779 >>接任务: |cFFFCDC00拦截情报|r
 step
     .goto Bloodmyst Isle,47.7,46.6
 	>>杀死Sunhawk间谍并为他们的信件洗劫他们。
     .complete 9779,1 --Collect Sunhawk Missive (x1)
 step
-    >> 往东走，和那加废墟中的尸体交谈
+    >>往东走，和那加废墟中的尸体交谈
     .goto Bloodmyst Isle,61.3,48.6
-    .turnin 9620 >> 交出失踪的调查小组
-    .accept 9628 >> 接受挽救数据
+>>与|cFF00FF25Draenei制图师交谈|r
+    .turnin 9620 >>交任务: |cFF00FF25失踪的测量小组|r
+.target Draenei Cartographer
+    .accept 9628 >>接任务: |cFFFCDC00夺回数据|r
 step
 	#sticky
 	#label bluemushroom
     .goto Bloodmyst Isle,60.7,49.1
-	>>在那加废墟周围抢劫一只蓝色小蘑菇
+	>>在那加废墟周围掠夺一只蓝色小蘑菇
     .complete 9648,3 --Collect Ruinous Polyspore (x1)
 step
     .goto Bloodmyst Isle,64.4,41.8
@@ -681,107 +799,131 @@ step
     .complete 9628,1 --Collect Survey Data Crystal (x1)
 step
     #requires bluemushroom
-    >> 横渡大洋去岛上
+    >>横渡大洋去岛上
     .goto Bloodmyst Isle,74.3,33.4
-    .accept 9687 >> 接受恢复圣洁
-step
+.target Prince Toreth
+>>与|cFF00FF25Prince Toreth|r交谈
+    .accept 9687 >>接任务: |cFFFCDC00找回尊严|r
+step << !Rogue !Warlock
 	#sticky
 	#completewith next
-	.deathskip >> 在血液观察站死去并重生
+	.deathskip >>在血液观察站死去并重生
 step
-    >> 与Maatparm交谈
-    .goto Bloodmyst Isle,56.4,56.8
-    .turnin 9648,3 >> 交出马塔帕姆蘑菇动物园 << Warrior/Paladin
-    .turnin 9648 >> 交出马塔帕姆蘑菇动物园 << !Warrior !Paladin
-    .accept 9649 >> 接受Ysera的眼泪
+    >>与Maatparm交谈
+    .goto Bloodmyst Isle,56.421,56.788
+>>与Mac'Aree的|cFF00FF25Jessera交谈|r
+    .turnin 9648,3 >>交任务: |cFF00FF25玛特帕尔姆蘑菇展|r << Warrior/Paladin
+    .turnin 9648 >>交任务: |cFF00FF25玛特帕尔姆蘑菇展|r << !Warrior !Paladin
+.target Jessera of Mac'Aree
+    .accept 9649 >>接任务: |cFFFCDC00伊瑟拉之泪|r
 step
     .goto Bloodmyst Isle,55.4,55.4
-    >> 与维护者Boros交谈
-    .turnin 9779 >> 转入拦截消息
-    .accept 9696 >> 接受翻译。。。
+    >>与维护者Boros交谈
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9779 >>交任务: |cFF00FF25拦截情报|r
+.target Vindicator Boros
+    .accept 9696 >>接任务: |cFFFCDC00翻译......|r
 step << !Rogue !Warlock
-    >> 在笼子旁与爱丽西亚交谈
+    >>在笼子旁与爱丽西亚交谈
     .goto Bloodmyst Isle,54.5,54.5
-    .turnin 9696 >> 提交翻译。。。
-    .accept 9698 >> 接受先知的观众
+>>与|cFF00FF25询问者Elysia|r交谈
+    .turnin 9696 >>Turn in Translations...
+.target Interrogator Elysia
+    .accept 9698 >>接任务: |cFFFCDC00会见先知|r
 step << Rogue/Warlock
-    >> 在笼子旁与爱丽西亚交谈
+    >>在笼子旁与爱丽西亚交谈
     .goto Bloodmyst Isle,54.5,54.5
-    .turnin 9696 >> 提交翻译。。。
+.target Interrogator Elysia
+>>与|cFF00FF25询问者Elysia|r交谈
+    .turnin 9696 >>Turn in Translations...
 step
-    >> 到山上的房子里
+    >>到山上的房子里
     .goto Bloodmyst Isle,52.6,53.3
-    .turnin 9628 >> 交上来挽救数据
-    .accept 9584 >> 接受第二个样本
+>>与|cFF00FF25Harbinger Mikolaas|r交谈
+    .turnin 9628 >>交任务: |cFF00FF25夺回数据|r
+.target Harbinger Mikolaas
+    .accept 9584 >>接任务: |cFFFCDC00第二份样本|r
 step
-    >> 与树边的侏儒交谈
+    >>与树边的侏儒交谈
     .goto Bloodmyst Isle,56.3,54.3
-    .accept 10063 >> 接受探险家联盟，这是侏儒的事吗？
+.target Prospector Nachlan
+>>与|cFF00FF25浏览者Nachlan|r交谈
+    .accept 10063 >>接任务: |cFFFCDC00探险者协会要为侏儒服务吗？|r
 step << !Rogue !Warlock
 	.goto Bloodmyst Isle,57.9,53.5
-    .fly Exodar>> 飞到外族人
+    .fly Exodar>>飞到外族人
 step << !Rogue !Warlock
     #completewith audience
 	.goto The Exodar,75.0,54.8,80,0
 	.goto The Exodar,64.4,42.4,80,0
-    .goto The Exodar,56.9,50.2,100 >> 头撞到外族人
+    .goto The Exodar,57.008,50.065,100 >>头撞到外族人
 step << Mage/Priest
     #completewith hs1
     .goto The Exodar,46.6,61.2
-    .vendor 16632>>如果你还没有魔杖，请购买一个阴燃魔杖（13 dps）
+    .vendor 16632>>如果你还没有魔杖，请购买一个阴燃魔杖(13 dps)
     >>你可以试着从拍卖行买一根更好的魔杖
     .collect 5208,1,0,1,1 --Smoldering Wand (1)
 step << Shaman
 	.goto The Exodar,49.5,36.9,70,0
 	.goto The Exodar,33.2,24.6
-	.trainer >> 《异国他乡》中的火车咒语
+	.trainer >>《异国他乡》中的火车咒语
 step << Mage
 	.goto The Exodar,51.0,46.8,80,0
 	.goto The Exodar,47.2,62.3,20,0
 	    .goto The Exodar,46.0,62.7
-    .trainer >> 《异国他乡》中的火车咒语
+    .trainer >>《异国他乡》中的火车咒语
 step << Hunter
 	.goto The Exodar,42,71.4,60,0
 	.goto The Exodar,54.5,85.6,60,0
 	.goto The Exodar,47.6,88.3
-	.trainer >> 《异国他乡》中的火车咒语
+	.trainer >>《异国他乡》中的火车咒语
 step << Warrior
 	.goto The Exodar,42,71.4,60,0
 	.goto The Exodar,54.5,85.6,60,0
-	.goto The Exodar,55.6,82.3
-	.trainer >> 《异国他乡》中的火车咒语
+	.goto The Exodar,55.579,82.269
+	.trainer >>《异国他乡》中的火车咒语
 step << Priest
-    >> 进入外族人并训练你的法术
-    .trainer >> 训练你的职业咒语
+    >>进入外族人并训练你的法术
+    .trainer >>训练你的职业技能
     .goto The Exodar,39.2,51.3
 step << !Rogue !Warlock
     #label audience
-    .goto The Exodar,32.8,54.4
-    >> 与Velen交谈
-    .turnin 9698 >> 将观众交给先知
-    .accept 9699 >> 接受真相还是虚构
+    .goto The Exodar,32.858,54.484
+    >>与Velen交谈
+>>与|cFF00FF25Prophet Velen|r交谈
+    .turnin 9698 >>Turn in Audience with the Prophet
+.target Prophet Velen
+    .accept 9699 >>接任务: |cFFFCDC00真相还是谎言|r
 step << Druid
-    >>传送至Moonglade
+    >>前往: |cFFDB2EEF月光林地|r
     .goto Moonglade,52.4,40.6
-    .trainer 12042 >> 火车咒语
+    .trainer 12042 >>火车咒语
 step << !Warlock !Rogue
     #label hs1
-    .hs >> Hearth回到Blood Watch
+    .hs >>炉灶回到Blood Watch
     .zoneskip Bloodmyst Isle
 step
-    >> 与维护者Aalesia交谈
-    .accept 9569 >> 接受遏制威胁
+    >>与维护者Aalesia交谈
+.target Vindicator Aalesia
+>>与|cFF00FF25Aalesia|r辩护人交谈
+    .accept 9569 >>接任务: |cFFFCDC00化解危机|r
     .goto Bloodmyst Isle,55.0,58.0
-    >> 与米堡交谈
-    .turnin -9699 >> 提交真实或虚构
+step << !Rogue !Warlock
+    >>与米堡交谈
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9699 >>Turn in Truth or Fiction
     .goto Bloodmyst Isle,55.4,55.4
-    .accept 9700 >> 接受我将魔法射入黑暗
+.target Vindicator Boros
+    .accept 9700 >>接任务: |cFFFCDC00黑暗中的魔法|r
+    .isOnQuest 9699
 step
     .itemcount 23984,10
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9642,3 >> 交出更多受辐照的晶体碎片 << Warrior/Paladin/Hunter/Rogue/Shaman
-    .turnin 9642,2 >> 交出更多受辐照的晶体碎片 << Warlock/Priest/Mage
-    .turnin 9642 >> 交出更多受辐照的晶体碎片 << Druid
+    .goto Bloodmyst Isle,55.421,55.232
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9642,3 >>Turn in More Irradiated Crystal Shards << Warrior/Paladin/Hunter/Rogue/Shaman
+    .turnin 9642,2 >>Turn in More Irradiated Crystal Shards << Warlock/Priest/Mage
+    .turnin 9642 >>Turn in More Irradiated Crystal Shards << Druid
 step
     .goto Bloodmyst Isle,45.7,47.9
 	.use 23875 >>用你袋子里的镐来收集水晶样品
@@ -800,15 +942,17 @@ step
 step
     #label gnomeyboi
     .goto Bloodmyst Isle,42.0,21.2
-    >> 与龟壳里的侏儒交谈
-    .turnin 10063 >> 加入探险家联盟，这是侏儒的事吗？
-    .accept 9548 >> 接受打桩设备
-    .accept 9549 >> 接受黑淤泥的人工制品
+    >>与龟壳里的侏儒交谈
+>>与|cFF00FF25Clopper Wizbang|r交谈
+    .turnin 10063 >>交任务: |cFF00FF25探险者协会要为侏儒服务吗？|r
+.target Clopper Wizbang
+    .accept 9548 >>接任务: |cFFFCDC00被偷走的设备|r
+    .accept 9549 >>接任务: |cFFFCDC00黑沙神器|r
 step
 	.goto Bloodmyst Isle,42.0,21.2
-	.vendor >> 从Clopper Wizbang（限量供应）处购买青铜管，如果他没有，请跳过此步骤
+	>>从Clopper Wizbang(限量供应)处购买青铜管，如果他没有，请跳过此步骤
 	.collect 4371,1,175,1,1
-	.bronzetube
+    .bronzetube
 step
     #sticky
     #label crate
@@ -819,22 +963,24 @@ step
 	.goto Bloodmyst Isle,43.8,22.4,30,0
 	.goto Bloodmyst Isle,46.4,20.5,30,0
 	.goto Bloodmyst Isle,40.4,20.4
-    >>抢劫可以在任何一个穆洛克营地产卵的板条箱
+    >>掠夺可以在任何一个穆洛克营地产卵的板条箱
     .complete 9548,1 --Collect Clopper's Equipment (x1)
 step
     .goto Bloodmyst Isle,39.5,20.7
-	>> 杀戮和掠夺墨洛克人
+	>>杀戮和掠夺墨洛克人
     .complete 9549,1 --Collect Crude Murloc Idol (x3)
     .complete 9549,2 --Collect Crude Murloc Knife (x6)
 step
     #requires crate
 	#label bloodmyst1
-    .goto Bloodmyst Isle,42.1,21.2
-    .turnin 9548 >> 交还被盗设备
-    .turnin 9549 >> 交出黑淤泥的文物
+    .goto Bloodmyst Isle,42.142,21.174
+.target Clopper Wizbang
+>>与|cFF00FF25Clopper Wizbang|r交谈
+    .turnin 9548 >>交任务: |cFF00FF25被偷走的设备|r
+    .turnin 9549 >>交任务: |cFF00FF25黑沙神器|r
 step
-    .goto Bloodmyst Isle,42.1,21.2
-	.vendor >> 从Clopper Wizbang（限量供应）处购买青铜管，如果他没有或你已经有了，请跳过此步骤
+    .goto Bloodmyst Isle,42.142,21.174
+	>>从Clopper Wizbang(限量供应)处购买青铜管，如果他没有或你已经有了，请跳过此步骤
 	.collect 4371,1,175,1,1
 	.bronzetube
 step
@@ -851,18 +997,20 @@ step
     .goto Bloodmyst Isle,53.1,20.3
     .use 23837 >>点击你袋子里的黑色淤泥任务的人工制品中的风化藏宝图
 	.collect 23837,1,9550 --Collect Weathered Treasure Map (x1)
-    .accept 9550 >> 接受指向何处的地图？
+    .accept 9550 >>接任务: |cFFFCDC00一张地图？|r
 step
 	#sticky
 	#label SunPortalSite
     .goto Bloodmyst Isle,53.1,20.3
 	>>靠近飞船般的建筑
 	.complete 9700,1 --Sun Portal Site Confirmed (1)
+    .isOnQuest 9700
 step
     #label gnome
     .goto Bloodmyst Isle,52.5,25.2
 	>>消灭该区域的虚空异常
     .complete 9700,2 --Kill Void Anomaly (x5)
+    .isOnQuest 9700
 step
     #requires SunPortalSite
     #label vinesdoneboss
@@ -882,48 +1030,66 @@ step
     .goto Bloodmyst Isle,53.9,35.4,60,0
     .goto Bloodmyst Isle,57.0,34.3,60,0
     .goto Bloodmyst Isle,56.1,40.2
-	>>在树营地的地上抢劫龙骨。尽量朝东南方向结束。
+	>>在树营地的地上掠夺龙骨。尽量朝东南方向结束。
     .complete 9687,1 --Collect Dragon Bone (x8)
 step
     .goto Bloodmyst Isle,61.1,41.9
-    >> 与废墟中的书交谈
-    .turnin 9550 >> 交一张地图到哪里？
-    .accept 9557 >> 接受解读书籍
+    >>与废墟中的书交谈
+    .turnin 9550 >>交任务: |cFF00FF25一张地图？|r
+    .accept 9557 >>接任务: |cFFFCDC00破译书籍|r
+step << wotlk
+    #completewith next
+    .hs >>听到或跑回镇上与安克丽特·帕修斯交谈。不要等待他的角色扮演序列。
 step
-    .hs >> 听到或跑回镇上与安克丽特·帕修斯交谈。不要等待他的角色扮演序列。
     .goto Bloodmyst Isle,54.7,54.1
-    .turnin 9557 >> 交上来解密这本书
+.target Anchorite Paetheus
+>>与|cFF00FF25Anchosite Paetheus|r交谈
+    .turnin 9557 >>交任务: |cFF00FF25破译书籍|r
 step
-    >> 向山上的大楼走去
+    >>向山上的大楼走去
     .goto Bloodmyst Isle,52.6,53.3
-    .turnin 9584 >> 交第二个样本
-    .accept 9585 >> 接受最终样品
-    .accept 10064 >> 接受与手交谈
+>>与|cFF00FF25Harbinger Mikolaas|r交谈
+    .turnin 9584 >>交任务: |cFF00FF25第二份样本|r
+.target Harbinger Mikolaas
+    .accept 9585 >>接任务: |cFFFCDC00最终的样本|r
+    .accept 10064 >>接任务: |cFFFCDC00阿古斯之手|r
 step
-    >> 返回安克雷特
+    >>返回安克雷特
     .goto Bloodmyst Isle,54.7,54.0
-    .accept 9561 >> 接受诺凯的话
-step
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9700,3 >> 我把魔法投向黑暗 << Warrior/Paladin
-    .turnin 9700 >> 我把魔法投向黑暗 << !Warrior !Paladin
-    .accept 9703 >> 接受Cryo Core
+.target Anchorite Paetheus
+>>与|cFF00FF25Anchosite Paetheus|r交谈
+    .accept 9561 >>接任务: |cFFFCDC00诺尔凯的日记|r
+step << !Rogue !Warlock
+    .goto Bloodmyst Isle,55.421,55.232
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9700,3 >>交任务: |cFF00FF25黑暗中的魔法|r << Warrior/Paladin
+    .turnin 9700 >>交任务: |cFF00FF25黑暗中的魔法|r << !Warrior !Paladin
+.target Vindicator Kuros
+>>与|cFF00FF25辩护人Kuros|r交谈
+    .accept 9703 >>接任务: |cFFFCDC00冷却核心|r
 step
     .itemcount 23984,10
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9642,3 >> 交出更多受辐照的晶体碎片 << Warrior/Paladin/Hunter/Rogue/Shaman
-    .turnin 9642,2 >> 交出更多受辐照的晶体碎片 << Warlock/Priest/Mage
-    .turnin 9642 >> 交出更多受辐照的晶体碎片 << Druid
+    .goto Bloodmyst Isle,55.421,55.232
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9642,3 >>Turn in More Irradiated Crystal Shards << Warrior/Paladin/Hunter/Rogue/Shaman
+    .turnin 9642,2 >>Turn in More Irradiated Crystal Shards << Warlock/Priest/Mage
+    .turnin 9642 >>Turn in More Irradiated Crystal Shards << Druid
 step
 	#label flutterers
-    >> 与Tracker Lyceon交谈
+    >>与Tracker Lyceon交谈
     .goto Bloodmyst Isle,55.9,56.9
-    .turnin 9643 >> 收起Constrictor Vines
-    .accept 9647 >> 接受筛选颤抖者
+>>与|cFF00FF25Tracker Lycon|r交谈
+    .turnin 9643 >>交任务: |cFF00FF25荆棘巨藤|r
+.target Tracker Lyceon
+    .accept 9647 >>接任务: |cFFFCDC00消灭巨蛾|r
 step
 	.goto Bloodmyst Isle,55.9,56.9
 	.isQuestComplete 9580
-	.turnin 9580 >> 交出熊的必需品
+.target Tracker Lyceon
+>>与|cFF00FF25Tracker Lycon|r交谈
+	.turnin 9580 >>交任务: |cFF00FF25猎熊|r
 step
 	#requires flutterers
 	#sticky
@@ -932,36 +1098,46 @@ step
     .complete 9647,1 --Kill Royal Blue Flutterer (x10)
 step
     .goto Bloodmyst Isle,37.5,61.3
-    >> 优先处理任务中的转向，不要研磨精灵。
-    .turnin 9578 >> 转身寻找加伦
-    .accept 9579 >> 接受加伦的命运
-    .accept 9706 >> 接受加伦杂志-维护者萨鲁的命运
-step
+    >>优先处理任务中的转向，不要研磨精灵。
+>>与|cFF00FF25Galaen的尸体交谈|r
+    .turnin 9578 >>交任务: |cFF00FF25搜寻加莱恩|r
+.target Galaen's Corpse
+    .accept 9579 >>接任务: |cFFFCDC00加莱恩的命运|r
+    .accept 9706 >>接任务: |cFFFCDC00加莱恩的日记 - 守备官撒鲁安的命运|r
+step << !Rogue !Warlock
     .goto Bloodmyst Isle,37.8,58.9
 	>>杀戮和掠夺附近的血精灵
     .complete 9579,1 --Collect Galaen's Amulet (x1)
     .complete 9703,1 --Collect Medical Supplies (x12)
 step
     .isQuestComplete 9579
-    >> 返回城镇
+    >>返回城镇
     .goto Bloodmyst Isle,53.3,57.7
-    .turnin 9579 >> 交出加伦的命运
+.target Morae
+>>与|cFF00FF25Morae交谈|r
+    .turnin 9579 >>交任务: |cFF00FF25加莱恩的命运|r
 step
-    >> 与Achelus交谈
+    >>与Achelus交谈
     .goto Bloodmyst Isle,53.3,57.2
-    .accept 9669 >> 接受缺失的远征
+.target Achelus
+>>与|cFF00FF25Achelus|r交谈
+    .accept 9669 >>接任务: |cFFFCDC00覆灭的远征队|r
 step
     #completewith next
     .goto Bloodmyst Isle,53.3,56.7
-    .vendor >> 供应商和维修
+    .vendor >>供应商和维修
 step
-    >> 与维护者Kuros交谈
+    >>与维护者Kuros交谈
     .goto Bloodmyst Isle,55.6,55.1
-    .turnin 9703,1 >> 交回Cryo Core << Paladin
-    .turnin 9703 >> 交回Cryo Core << !Paladin
-    .turnin 9706 >> 上交加伦杂志——维护者萨鲁的命运
-    .accept 9711 >> 接受残酷的马蒂斯
-    .accept 9748 >> 接受不要喝水
+>>与|cFF00FF25辩护人Kuros|r交谈
+    .turnin 9703,1 >>交任务: |cFF00FF25冷却核心|r << Paladin !Rogue !Warlock
+    .turnin 9703 >>交任务: |cFF00FF25冷却核心|r << !Paladin !Rogue !Warlock
+    .turnin 9706 >>交任务: |cFF00FF25加莱恩的日记 - 守备官撒鲁安的命运|r
+.target Vindicator Kuros
+    .accept 9711 >>接任务: |cFFFCDC00残忍的玛提斯|r
+.target Vindicator Aesom
+>>与|cFF00FF25辩护人Aesom|r交谈
+    .accept 9748 >>接任务: |cFFFCDC00毒水|r << !Rogue !Warlock
 step
 	#sticky
 	#completewith bearend
@@ -993,15 +1169,27 @@ step
 	.unitscan Matis the Cruel
 step
     .goto Bloodmyst Isle,30.3,45.8
-    >> 与维护者休息处的侦察员交谈
-    .turnin 10064 >> 转身和手说话
-    .accept 10065 >> 接受剪切路径
-    .accept 9741 >> 接受虚空的怪物
+    >>与维护者休息处的侦察员交谈
+>>与|cFF00FF25Scout Jorli|r交谈
+    .turnin 10064 >>交任务: |cFF00FF25阿古斯之手|r
+.target Scout Jorli
+    .accept 10065 >>接任务: |cFFFCDC00披荆斩棘|r
+.target Scout Loryi
+>>与|cFF00FF25Scout Loryi|r交谈
+    .accept 9741 >>接任务: |cFFFCDC00虚空幼体|r
 step
-    >> 与维护者Corin交谈
+    >>与维护者Corin交谈
     .goto Bloodmyst Isle,30.8,46.8
-    .accept 10066 >> 接受哦，他们编织的纠结网
-    .accept 10067 >> 接受污水灵
+.target Defender Sorli
+.target Defender Adrielle
+.target Vindicator Corin
+>>与|cFF00FF25辩护人Corin|r交谈
+-->>与|cFF00FF25Defender Adrielle交谈|r
+-->>与|cFF00FF25Defender Sorli|r交谈
+    .accept 10066 >>接任务: |cFFFCDC00纠结之网|r
+--
+--
+    .accept 10067 >>接任务: |cFFFCDC00污秽的水之魂|r
 step
     #sticky
     #completewith next
@@ -1012,7 +1200,7 @@ step
     .complete 10065,1 --Kill Enraged Ravager (x10)
 step
     .goto Bloodmyst Isle,19.6,63.2
-    >> 你必须杀死水中的异常才能最终繁殖出怪物
+    >>你必须杀死水中的异常才能最终繁殖出怪物
     .complete 9741,1 --Kill Void Critter (x12)
 step
     #label ravager4
@@ -1023,10 +1211,14 @@ step
 step
     #requires ravager4
 	#label bloodmyst2
-    >> 返回维护者的休息
-    .turnin 10066 >> 哦，他们编织的纠结网
+    >>返回维护者的休息
+.target Vindicator Corin
+>>与|cFF00FF25辩护人Corin|r交谈
+    .turnin 10066 >>交任务: |cFF00FF25纠结之网|r
     .goto Bloodmyst Isle,30.7,46.9
-    .turnin 10065 >> 转弯切割路径
+.target Scout Jorli
+>>与|cFF00FF25Scout Jorli|r交谈
+    .turnin 10065 >>交任务: |cFF00FF25披荆斩棘|r
     .goto Bloodmyst Isle,30.3,46.0
 step
     .goto Bloodmyst Isle,38.4,47
@@ -1038,13 +1230,17 @@ step
 	>>杀死该地区的污水灵
     .complete 10067,1 --Kill Fouled Water Spirit (x6)
 step
-    .goto Bloodmyst Isle,30.7,46.8
-    >> 快速返回并返回任务
-    .turnin 10067 >> 交出污水灵
+    .goto Bloodmyst Isle,30.746,46.808
+    >>快速返回并返回任务
+.target Vindicator Corin
+>>与|cFF00FF25辩护人Corin|r交谈
+    .turnin 10067 >>交任务: |cFF00FF25污秽的水之魂|r
 step
-    .goto Bloodmyst Isle,24.9,34.3
-    >> 返回北方，经过水元素，与科尼利厄斯研究员交谈
-    .accept 9670 >> 接受他们还活着！大概
+    .goto Bloodmyst Isle,24.872,34.310
+    >>返回北方，经过水元素，与科尼利厄斯研究员交谈
+.target Researcher Cornelius
+>>与|cFF00FF25研究员Cornelius交谈|r
+    .accept 9670 >>接任务: |cFFFCDC00他们还活着！也许......|r
 step
 	#sticky
 	#label Researchers
@@ -1062,9 +1258,11 @@ step
 step
 	#requires Researchers
 	#label AliveM
-    >> 返回研究员
+    >>返回研究员
     .goto Bloodmyst Isle,24.9,34.4
-    .turnin 9670 >> 上车他们还活着！大概
+.target Researcher Cornelius
+>>与|cFF00FF25研究员Cornelius交谈|r
+    .turnin 9670 >>交任务: |cFF00FF25他们还活着！也许......|r
 step
     .goto Bloodmyst Isle,43.9,43.7,70,0
     .goto Bloodmyst Isle,30.1,51.7,70,0
@@ -1079,7 +1277,7 @@ step
 	*Once you find him, use the flare in your bags to summon a Draenei NPC to assist you
 	*The flare gun only have 1 charge, if you fail this quest, you will have to abandon it
 	.unitscan Matis the Cruel
-step
+step << !Rogue !Warlock
     .goto Bloodmyst Isle,34.3,33.6
 	.use 24318 >>使用瀑布底部袋子中的取样瓶
     .complete 9748,1 --Collect Bloodmyst Water Sample (x1)
@@ -1091,86 +1289,110 @@ step << Druid
     #sticky
     #completewith next
     .goto Moonglade,44.1,45.2
-    >>传送至Moonglade
-    .fly Teldrassil>> 飞往Teldrassil
+    >>前往: |cFFDB2EEF月光林地|r
+    .fly Teldrassil>>飞往Teldrassil
 step << Druid
-    .goto Darnassus,35.3,8.5
-    .accept 26 >> 接受教训以学习 << tbc
-    .accept 6121 >> 接受新的教训
+    .goto Darnassus,35.375,8.405
+.target Mathrengyl Bearwalker
+>>与|cFF00FF25Mathrengyl Bearwalker交谈|r
+    .accept 26 >>接任务: |cFFFCDC00必修的课程|r << tbc
+    .accept 6121 >>接任务: |cFFFCDC00新的课程|r
 step << Druid
     .goto Moonglade,56.1,30.7
-    >>传送至Moonglade
-    .turnin 6121 >> 新上的课
-    .accept 6122 >> 接受主要来源
-    .turnin 26 >> 交一堂课来学习 << tbc
-    .accept 29 >> 接受湖的审判 << tbc
+    >>前往: |cFFDB2EEF月光林地|r
+>>与|cFF00FF25Dendrite Starblaze交谈|r
+    .turnin 6121 >>交任务: |cFF00FF25新的课程|r
+.target Dendrite Starblaze
+    .accept 6122 >>接任务: |cFFFCDC00毒水之源|r
+    .turnin 26 >>交任务: |cFF00FF25必修的课程|r << tbc
+    .accept 29 >>接任务: |cFFFCDC00湖中试炼|r << tbc
 step << Druid tbc
     .goto Moonglade,52.6,51.6
     >>潜入湖中，寻找Shrine Bauble，它看起来像一个红色的小罐子
     .complete 29,1 --Complete the Trial of the Lake.
 step << Druid tbc
-    .goto Moonglade,36.5,40.1
-    .turnin 29 >> 《湖的试航》（Turn in Trial of the Lake）
-    .accept 272 >> 接受海狮的审判
+    .goto Moonglade,36.517,40.104
+>>与|cFF00FF25Tajarri|r交谈
+    .turnin 29 >>交任务: |cFF00FF25湖中试炼|r
+.target Tajarri
+    .accept 272 >>接任务: |cFFFCDC00海狮试炼|r
 step
 	#completewith next
-    .hs >> 心脏到血液观察
+    .hs >>心脏到血液观察
 step
     .goto Bloodmyst Isle,55.0,58.1
-    >> 与维护者Aalesia交谈
-    .turnin 9569,1 >> 转而遏制威胁 << Hunter
-    .turnin 9569,2 >> 转而遏制威胁 << Warlock/Mage/Priest
-    .turnin 9569 >> 转而遏制威胁 << !Warlock !Hunter !Mage !Priest
+    >>与维护者Aalesia交谈
+.target Vindicator Aalesia
+>>与|cFF00FF25Aalesia|r辩护人交谈
+    .turnin 9569,1 >>交任务: |cFF00FF25化解危机|r << Hunter
+    .turnin 9569,2 >>交任务: |cFF00FF25化解危机|r << Warlock/Mage/Priest
+    .turnin 9569 >>交任务: |cFF00FF25化解危机|r << !Warlock !Hunter !Mage !Priest
 step
-    >> 与Achelus交谈
+    >>与Achelus交谈
     .goto Bloodmyst Isle,53.4,57.1
-    .turnin 9669 >> 交出失踪的探险队
+.target Achelus
+>>与|cFF00FF25Achelus|r交谈
+    .turnin 9669 >>交任务: |cFF00FF25覆灭的远征队|r
 step
     #completewith next
-    .vendor >> 供应商和维修
+    .vendor >>供应商和维修
 step
-    >> 到山上的大楼里去
+    >>到山上的大楼里去
     .goto Bloodmyst Isle,52.7,53.3
-    .turnin 9585 >> 提交最终样本
-    .turnin 9646 >> 通缉犯：死亡爪
+.target Harbinger Mikolaas
+>>与|cFF00FF25Harbinger Mikolaas|r交谈
+    .turnin 9585 >>交任务: |cFF00FF25最终的样本|r
+    .turnin 9646 >>交任务: |cFF00FF25通缉：死爪|r
 step
-    >> 与安克丽特·帕修斯交谈
+    >>与安克丽特·帕修斯交谈
     .goto Bloodmyst Isle,54.7,54.1
-    .accept 9632 >> 接受新发现的盟友
+.target Anchorite Paetheus
+>>与|cFF00FF25Anchosite Paetheus|r交谈
+    .accept 9632 >>接任务: |cFFFCDC00新的盟友|r
 step
-	>> 与维护者交谈
+	>>与维护者交谈
     .goto Bloodmyst Isle,55.6,55.3
-    .turnin 9741 >> 《空虚的怪物》
-    .turnin 9748 >> 睡觉，不要喝水
-    .turnin 9711,3 >> 把残忍的马蒂斯交出来 << Warrior/Paladin
-    .turnin 9711 >> 把残忍的马蒂斯交出来 << !Warrior !Paladin
+.target Vindicator Aesom
+>>与|cFF00FF25辩护人Aesom|r交谈
+    .turnin 9741 >>交任务: |cFF00FF25虚空幼体|r
+    .turnin 9748 >>交任务: |cFF00FF25毒水|r << !Rogue !Warlock
+.target Vindicator Kuros
+>>与|cFF00FF25辩护人Kuros|r交谈
+    .turnin 9711,3 >>交任务: |cFF00FF25残忍的玛提斯|r << Warrior/Paladin
+    .turnin 9711 >>交任务: |cFF00FF25残忍的玛提斯|r << !Warrior !Paladin
 	.trainer >>维护者埃索的火车课咒语。 << Paladin
 step
     .itemcount 23984,10
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9642,3 >> 交出更多受辐照的晶体碎片 << Warrior/Paladin/Hunter/Rogue/Shaman
-    .turnin 9642,2 >> 交出更多受辐照的晶体碎片 << Warlock/Priest/Mage
-    .turnin 9642 >> 交出更多受辐照的晶体碎片 << Druid
+    .goto Bloodmyst Isle,55.421,55.232
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9642,3 >>Turn in More Irradiated Crystal Shards << Warrior/Paladin/Hunter/Rogue/Shaman
+    .turnin 9642,2 >>Turn in More Irradiated Crystal Shards << Warlock/Priest/Mage
+    .turnin 9642 >>Turn in More Irradiated Crystal Shards << Druid
 step
 	#label bearend
-    >> 与Tracker Lyceon交谈
+    >>与Tracker Lyceon交谈
     .goto Bloodmyst Isle,55.9,56.9
-    .turnin 9647,3 >> 轮流淘汰颤抖者 << Warrior/Paladin
-    .turnin 9647 >> 轮流淘汰颤抖者 << !Warrior !Paladin
-    .turnin 9580 >> 交出熊的必需品
+.target Tracker Lyceon
+>>与|cFF00FF25Tracker Lycon|r交谈
+    .turnin 9647,3 >>交任务: |cFF00FF25消灭巨蛾|r << Warrior/Paladin
+    .turnin 9647 >>交任务: |cFF00FF25消灭巨蛾|r << !Warrior !Paladin
+    .turnin 9580 >>交任务: |cFF00FF25猎熊|r
 step << Paladin wotlk
     .xp <20,1
     .goto Bloodmyst Isle,55.6,55.3
-    .train 13819 >> 训练你的坐骑法术，它将在你角色面板的“宠物”标签下
+    .train 13819 >>训练你的坐骑法术，它将在你角色面板的“宠物”标签下
 step
-    >> 前往那加废墟
+    >>前往那加废墟
     .goto Bloodmyst Isle,61.4,49.6
-    .turnin 9561 >> 交出诺凯的话
+    .turnin 9561 >>交任务: |cFF00FF25诺尔凯的日记|r
 step
-    >> 游到岛上
+    >>游到岛上
     .goto Bloodmyst Isle,74.6,33.6
-    .turnin 9687 >> 交回恢复圣洁
-    .accept 9688 >> 接受梦想
+>>与|cFF00FF25Prince Toreth|r交谈
+    .turnin 9687 >>交任务: |cFF00FF25找回尊严|r
+.target Prince Toreth
+    .accept 9688 >>接任务: |cFFFCDC00进入梦境|r
 step
 	#sticky
     .goto Bloodmyst Isle,70.6,25.7,0
@@ -1182,22 +1404,27 @@ step
     .complete 9688,1 --Kill Veridian Whelp (x5)
     .complete 9688,2 --Kill Veridian Broodling (x5)
 step
-    >> 回到王子身边
+    >>回到王子身边
     .goto Bloodmyst Isle,74.3,33.4
-    .turnin 9688 >> 变成梦想
-    .accept 9689 >> 接受Razormaw
+>>与|cFF00FF25Prince Toreth|r交谈
+    .turnin 9688 >>交任务: |cFF00FF25进入梦境|r
+.target Prince Toreth
+    .accept 9689 >>接任务: |cFFFCDC00刺喉|r
 step
     .goto Bloodmyst Isle,73.0,21.0
-	>>爬到山顶，点击篝火召唤剃须刀（精英）。他可以花一些时间来产卵。
+	>>爬到山顶，点击篝火召唤剃须刀(精英)。他可以花一些时间来产卵。
+    *Note: He can fear
     .complete 9689,1 --Kill Razormaw (x1)
     *This quest can be tough, skip this step if you can't find a group or solo this quest
 step
-    >> 回到王子身边
+    >>回到王子身边
     .goto Bloodmyst Isle,74.3,33.4
-    .turnin 9689,2 >> 交给Razormaw << Warrior/Paladin
-    .turnin 9689,3 >> 交给Razormaw << Rogue/Hunter
-    .turnin 9689,1 >> 交给Razormaw << Mage/Warlock/Priest
-    .turnin 9689 >> 交给Razormaw << Druid/Shaman
+.target Prince Toreth
+>>与|cFF00FF25Prince Toreth|r交谈
+    .turnin 9689,2 >>交任务: |cFF00FF25刺喉|r << Warrior/Paladin
+    .turnin 9689,3 >>交任务: |cFF00FF25刺喉|r << Rogue/Hunter
+    .turnin 9689,1 >>交任务: |cFF00FF25刺喉|r << Mage/Warlock/Priest
+    .turnin 9689 >>交任务: |cFF00FF25刺喉|r << Druid/Shaman
 step << Hunter/Warlock/Mage
     #completewith next
     .goto Bloodmyst Isle,24.8,51.3
@@ -1210,16 +1437,20 @@ step << Hunter/Warlock/Mage
     >>你需要达到20级才能离开血腥结晶
 step
     #completewith next
-    .deathskip >> 在血液观察站死去并重生
+    .deathskip >>在血液观察站死去并重生
 step
     .goto Bloodmyst Isle,56.4,56.7
-    .turnin 9649 >> 交上伊瑟拉的眼泪
+.target Jessera of Mac'Aree
+>>与Mac'Aree的|cFF00FF25Jessera交谈|r
+    .turnin 9649 >>交任务: |cFF00FF25伊瑟拉之泪|r
 step
     .itemcount 23984,10
-    .goto Bloodmyst Isle,55.4,55.2
-    .turnin 9642,3 >> 交出更多受辐照的晶体碎片 << Warrior/Paladin/Hunter/Rogue/Shaman
-    .turnin 9642,2 >> 交出更多受辐照的晶体碎片 << Warlock/Priest/Mage
-    .turnin 9642 >> 交出更多受辐照的晶体碎片 << Druid
+    .goto Bloodmyst Isle,55.421,55.232
+.target Vindicator Boros
+>>与|cFF00FF25辩护人Boros|r交谈
+    .turnin 9642,3 >>Turn in More Irradiated Crystal Shards << Warrior/Paladin/Hunter/Rogue/Shaman
+    .turnin 9642,2 >>Turn in More Irradiated Crystal Shards << Warlock/Priest/Mage
+    .turnin 9642 >>Turn in More Irradiated Crystal Shards << Druid
 step << Paladin
 	#completewith next
 	#level20
@@ -1230,16 +1461,16 @@ step
 	#completewith next
 	.goto Bloodmyst Isle,57.5,54.2
     >>在离开血腥结晶之前，确保你已经20级了 << Hunter/Warlock/Mage
-    .fly Exodar>> 飞到外族人那里
+    .fly Exodar>>飞到外族人那里
 step << Shaman
 	.goto The Exodar,49.5,36.9,70,0
 	.goto The Exodar,33.2,24.6
-	.trainer >> 《异国他乡》中的火车咒语
+	.trainer >>《异国他乡》中的火车咒语
 step << Mage
 	.goto The Exodar,51.0,46.8,80,0
 	.goto The Exodar,47.2,62.3,20,0
 	    .goto The Exodar,46.0,62.7
-    .trainer >> 在《异国他乡》中训练魔法和传送
+    .trainer >>在《异国他乡》中训练魔法和传送
 step << Mage
     >>购买1个传送符文
     .collect 17031,1
@@ -1248,42 +1479,39 @@ step << Hunter
 	.goto The Exodar,42,71.4,60,0
 	.goto The Exodar,54.5,85.6,60,0
 	.goto The Exodar,47.6,88.3
-	.trainer >> 《异国他乡》中的火车咒语
+	.trainer >>《异国他乡》中的火车咒语
 step << Warrior
 	.goto The Exodar,42,71.4,60,0
 	.goto The Exodar,54.5,85.6,60,0
-	.goto The Exodar,55.6,82.3
-	.trainer >> 《异国他乡》中的火车咒语
+	.goto The Exodar,55.579,82.269
+	.trainer >>《异国他乡》中的火车咒语
 step << Priest
-    >> 进入The Exodar并从供应商处购买燃烧魔杖
+    >>进入The Exodar并从供应商处购买燃烧魔杖
     .collect 5210,1
     .goto The Exodar,46.4,61.4
-    .trainer >> 训练你的职业咒语
+    .trainer >>训练你的职业技能
     .goto The Exodar,39.2,51.3
 step
-    .goto Azuremyst Isle,24.2,54.3
+    .goto Azuremyst Isle,24.182,54.346
 	>>在外族人后门外面与暗夜精灵交谈
-    .turnin 9632 >> 交出新发现的盟友
-    .accept 9633 >> 接受通往奥伯丁的路
-step << !Druid
+>>与|cFF00FF25女猎手Kella Nightbow|r交谈
+    .turnin 9632 >>交任务: |cFF00FF25新的盟友|r
+.target Huntress Kella Nightbow
+    .accept 9633 >>接任务: |cFFFCDC00前往奥伯丁|r
+step << Druid
+    .goto Azuremyst Isle,24.45,54.56
+    .trainer >>训练你的职业技能
+step
     >>前往你刚刚与之交谈的夜精灵旁边的码头。等待时进行水平急救。
     .goto Azuremyst Isle,20.4,54.2
-    .zone Darkshore >> 乘船去黑海岸
-step << Druid
-    #completewith next
-    >>传送至Moonglade
-    .goto Moonglade,52.4,40.6
-    .trainer 12042 >> 火车咒语
-step << Druid
-    .goto Moonglade,48.1,67.2
-    .fly Auberdine>>飞到黑海岸
+    .zone Darkshore >>前往: |cFFDB2EEF黑海岸|r
 
 ]])
 
 RXPGuides.RegisterGuide([[
 #tbc
 #wotlk
-<< Alliance !Warlock
+<< Alliance !Warlock/Alliance wotlk
 #name 20-21 黑海岸
 #version 1
 #group RestedXP 联盟 20-32
@@ -1291,64 +1519,116 @@ RXPGuides.RegisterGuide([[
 #next 21-23 灰谷
 step << NightElf wotlk
     .goto Darnassus,38.6,15.6
-    >> 乘船或飞往达纳苏斯
-    .skill riding,1 >> 训练骑术并购买坐骑
+    >>乘船或飞往达纳苏斯
+    .skill riding,1 >>训练骑术并购买坐骑
     .money <4.60
+step << NightElf wotlk
+    .goto Darnassus,29.55,41.11,20
+    .goto Teldrassil,58.4,98.02
+    .fly Auberdine >>飞往奥伯丁
+    .zoneskip Darnassus,1
+step << wotlk Warlock
+    #completewith next
+    .goto Darkshore,32.4,43.8
+    .zone Stormwind City >>前往: |cFFDB2EEF暴风城|r
+step << Warlock wotlk
+    .goto StormwindNew,36.35,67.49
+.target Argos Nightwhisper
+>>与|cFF00FF25Argos夜话|r交谈
+    .accept 3765>>接任务: |cFFFCDC00遥远的旅途|r
+step << Warlock wotlk
+    .goto StormwindClassic,25.3,78.7
+	.trainer >>训练你的职业技能
+step << Warlock wotlk
+    .goto StormwindClassic,25.2,78.5
+.target Gakin the Darkbinder
+>>与|cFF00FF25Gakin the Darkbinder|r交谈
+    .accept 1716 >>接任务: |cFFFCDC00噬魂者|r
+step << wotlk Warlock
+    .goto StormwindNew,21.8,56.2,20,0
+    .goto StormwindNew,21.8,56.2,0
+    .zone Darkshore >>前往: |cFFDB2EEF黑海岸|r
 step
 #xprate <1.5
     .maxlevel 21
-    .goto Darkshore,36.1,44.9
-    .accept 1138 >> 接受大海的果实
+    .goto Darkshore,36.096,44.931
+.target Gubber Blump
+>>与|cFF00FF25Gubber Blump|r交谈
+    .accept 1138 >>接任务: |cFFFCDC00海中的水果|r
 step
-    >> 与客栈外的通缉海报交谈
+    #xprate <1.2
+    >>与客栈外的通缉海报交谈
     .goto Darkshore,37.2,44.2
-    .accept 4740 >> 接受通缉令：Murkdeep！
+    .accept 4740 >>接任务: |cFFFCDC00通缉：莫克迪普！|r
 step
 #xprate <1.5 << !Druid
     .maxlevel 21
     .goto Darkshore,37.3,43.7
-    .accept 947 >> 接受洞穴蘑菇
+.target Barithras Moonshade
+>>与|cFF00FF25Barithras Moonshade|r交谈
+    .accept 947 >>接任务: |cFFFCDC00洞中的蘑菇|r
 step
-    >> 在市政厅旁与侏儒交谈
+    #xprate <1.2
+    >>在市政厅旁与侏儒交谈
     .goto Darkshore,37.5,41.8
-    .accept 729 >> 接受心不在焉的探矿者
+.target Archaeologist Hollee
+>>与|cFF00FF25考古学家Hollee|r交谈
+    .accept 729 >>接任务: |cFFFCDC00健忘的勘察员|r
 step
 #xprate <1.5
     .maxlevel 21
     .isQuestComplete 4762
-    .goto Darkshore,37.4,40.1
-    .accept 4763 >> 接受Blackwood Corrupted
+    .goto Darkshore,37.395,40.130
+.target Thundris Windweaver
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .accept 4763 >>接任务: |cFFFCDC00黑木熊怪的堕落|r
 step
 #xprate >1.5
     .isOnQuest 9633
     .goto Darkshore,37.4,40.2
-    .turnin 9633 >> 在通往奥伯丁的路上转弯
-    .accept 10752 >> 接受前往灰谷
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .turnin 9633 >>Turn in The Way to Auberdine
+.target Thundris Windweaver
+    .accept 10752 >>接任务: |cFFFCDC00前往灰谷|r
 step
 #xprate <1.5
     .maxlevel 21
     .goto Darkshore,38.1,41.2
-    .accept 982 >> 接受深海，浩瀚大海
+.target Gorbold Steelhand
+>>与|cFF00FF25Gorbold Steelhand|r交谈
+    .accept 982 >>接任务: |cFFFCDC00深不可测的海洋|r
 step
-    >> 在神殿里与格沙拉交谈
+    #completewith next
     .goto Darkshore,38.37,43.05
-    .accept 1275 >> 接受腐败调查
+    .turnin -3765>>交任务: 遥远的旅途
+step
+    >>在神殿里与格沙拉交谈
+    .goto Darkshore,38.37,43.05
+.target Gershala Nightwhisper
+>>与|cFF00FF25Gershala夜话|r交谈
+    .accept 1275 >>接任务: |cFFFCDC00研究堕落|r
 step
 #xprate <1.5
     .maxlevel 21
     .goto Darkshore,38.8,43.5
-    .accept 2139 >> 接受塔纳瑞恩的希望
+.target Tharnariun Treetender
+>>与|cFF00FF25Tharnariun Treetender|r交谈
+    .accept 2139 >>接任务: |cFFFCDC00萨纳瑞恩的希望|r
 	.isQuestTurnedIn 2138
 step
 #xprate <1.5
     .goto Darkshore,39.3,43.5
-    .accept 986 >> 接受丢失的主人
+.target Terenthis
+>>与|cFF00FF25Terenthis|r交谈
+    .accept 986 >>接任务: |cFFFCDC00丢失的主人|r
     .isQuestTurnedIn 985
 step
 #xprate <1.5 << !Druid
     .maxlevel 21
     .goto Darkshore,39.1,43.5
-    .accept 965 >> 接受Althalaxx塔
+.target Sentinel Elissa Starbreeze
+>>与|cFF00FF25Sentinel Elissa Starbrew|r交谈
+    .accept 965 >>接任务: |cFFFCDC00奥萨拉克斯之塔|r
 step
 #xprate <1.5
     .goto Darkshore,37.8,44.0
@@ -1358,48 +1638,52 @@ step
 step
     .isOnQuest 9633
     .goto Darkshore,37.4,40.2
-	.turnin 9633 >> 在通往奥伯丁的路上转弯
-    .accept 10752 >> 接受前往灰谷
+>>与|cFF00FF25Thundris Windweaver|r交谈
+	.turnin 9633 >>Turn in The Way to Auberdine
+.target Thundris Windweaver
+    .accept 10752 >>接任务: |cFFFCDC00前往灰谷|r
 step
 #xprate <1.5
     .isOnQuest 982
     .goto Darkshore,38.2,28.8
-	>>通过船体上的洞进入沉船，并在底层抢劫箱子
+	>>通过船体上的洞进入沉船，并在底层掠夺箱子
     .complete 982,1 --Collect Silver Dawning's Lockbox (x1)
 step
 #xprate <1.5
     .isOnQuest 982
     .goto Darkshore,39.6,27.5
-	>>通过船体上的洞进入沉船，并在底层抢劫箱子
+	>>通过船体上的洞进入沉船，并在底层掠夺箱子
     .complete 982,2 --Collect Mist Veil's Lockbox (x1)
 step
 #xprate <1.5
 	#sticky
     #completewith crabraveboys
+    .isOnQuest 1138
 	>>杀死沿岸的珊瑚虫和结壳潮汐虫
     .complete 1138,1 --Collect Fine Crab Chunks (x6)
 step--murlocs
 #xprate <1.5 << !Druid
     .maxlevel 21
     .goto Darkshore,44.2,20.7
-    .accept 4725 >> 接受海滩海龟
+    .accept 4725 >>接任务: |cFFFCDC00搁浅的海龟|r
     .isQuestTurnedIn 4681
 step << Druid tbc
     .goto Darkshore,48.9,11.3
-    >>在水下抢劫位于两块大石头之间的小锁盒
+    >>在水下掠夺位于两块大石头之间的小锁盒
     .collect 15883,1 --Collect Half Pendant of Aquatic Agility (x1)
 step--encrusted crawlers
 #xprate <1.5
     .maxlevel 21
     .goto Darkshore,53.1,18.2
-    .accept 4727 >> 接受海滩海龟
+    .accept 4727 >>接任务: |cFFFCDC00搁浅的海龟|r
     .isQuestTurnedIn 4681
 step
 #xprate <1.5
-    .isOnQuest 2098
 	>>开始向北行驶，同时沿着海岸磨螃蟹
     .goto Darkshore,56.7,13.5
-    .accept 2098 >> 接受陀螺仪的检索
+.target Gelkak Gyromast
+>>与|cFF00FF25Gelkak陀螺仪|r交谈
+    .accept 2098 >>接任务: |cFFFCDC00基尔卡克的钥匙|r
 step
 #xprate <1.5
 	#label foreststriders
@@ -1435,8 +1719,10 @@ step
     #requires bottomkeyman
     .isOnQuest 2098
     .goto Darkshore,56.7,13.5
-    .turnin 2098 >> 交回陀螺仪检索
-    .accept 2078 >> 接受陀螺手的复仇
+>>与|cFF00FF25Gelkak陀螺仪|r交谈
+    .turnin 2098 >>交任务: |cFF00FF25基尔卡克的钥匙|r
+.target Gelkak Gyromast
+    .accept 2078 >>接任务: |cFFFCDC00基尔卡克的报复|r
 step
     #requires crabraveboys
     .isOnQuest 1138
@@ -1450,30 +1736,37 @@ step
 #xprate <1.5
     .isOnQuest 2078
     .goto Darkshore,56.7,13.5
-    .turnin 2078 >> 交回陀螺手的复仇
+.target Gelkak Gyromast
+>>与|cFF00FF25Gelkak陀螺仪|r交谈
+    .turnin 2078 >>交任务: |cFF00FF25基尔卡克的报复|r
 step << !Druid
 #xprate <1.5
 	#sticky
 	#completewith end
+    .isQuestTurnedIn 2078
 	+确保保存好你的吸水药剂，稍后你需要它们来处理30-40之间的几个水下部分
 step
 #xprate <1.5 << !Druid
     .isOnQuest 965
     .goto Darkshore,55.0,24.9
-    .turnin 965 >> 转入Althalaxx塔
-    .accept 966 >> 接受Althalaxx塔
+>>与|cFF00FF25Balthule Shadowstrike|r交谈
+    .turnin 965 >>交任务: |cFF00FF25奥萨拉克斯之塔|r
+.target Balthule Shadowstrike
+    .accept 966 >>接任务: |cFFFCDC00奥萨拉克斯之塔|r
 step
 #xprate <1.5 << !Druid
     .isOnQuest 966
     .goto Darkshore,55.3,26.7
-	>> 杀死邪教信徒并掠夺他们的羊皮纸
+	>>杀死黑股狂热分子并掠夺他们的羊皮纸
     .complete 966,1 --Collect Worn Parchment (x4)
 step
 #xprate <1.5 << !Druid
     .isOnQuest 966
     .goto Darkshore,55.0,24.9
-    .turnin 966 >> 转入Althalaxx塔
-    .accept 967 >> 接受Althalaxx塔
+>>与|cFF00FF25Balthule Shadowstrike|r交谈
+    .turnin 966 >>交任务: |cFF00FF25奥萨拉克斯之塔|r
+.target Balthule Shadowstrike
+    .accept 967 >>接任务: |cFFFCDC00奥萨拉克斯之塔|r
 step << Druid
     .goto Darkshore,55.0,33.4
     .use 15844 >>使用洞口的空采样器
@@ -1482,7 +1775,7 @@ step
 #xprate <1.5 << !Druid
     .isOnQuest 947
     .goto Darkshore,55.3,34.0
-	>> 在洞穴周围掠夺蘑菇，向右拥抱，检查上层是否有死亡帽。如果你没有看到一个，你需要往下看。
+	>>在洞穴周围掠夺蘑菇，向右拥抱，检查上层是否有死亡帽。如果你没有看到一个，你需要往下看。
     .complete 947,1 --Collect Scaber Stalk (x5)
     .complete 947,2 --Collect Death Cap (x1)
 
@@ -1491,7 +1784,7 @@ step
 	#sticky
 	#completewith next
     .isOnQuest 4763
-	>>抢劫弗尔博格营地周围的粮食商店
+	>>掠夺弗尔博格营地周围的粮食商店
 	.collect 12342,1
 	.goto Darkshore,50.74,34.68
 	.collect 12341,1
@@ -1499,7 +1792,7 @@ step
 step
 #xprate <1.5
     #label blackwood
-	.use 12347 >>使用篝火上的清洁碗，在命名的萨提尔产卵后杀死他，然后抢劫他尸体旁边的小篮子
+	.use 12347 >>使用篝火上的清洁碗，在命名的萨提尔产卵后杀死他，然后掠夺他尸体旁边的小篮子
     .goto Darkshore,52.4,33.5
     .complete 4763,1 --Collect Talisman of Corruption (x1)
     .isOnQuest 4763
@@ -1511,57 +1804,78 @@ step
 step << Dwarf Hunter/Rogue
 	#sticky
 	#completewith next
-	.deathskip >> 死亡跳到奥伯丁
+    .isOnQuest 2139
+	.deathskip >>死亡跳到奥伯丁
 step
 #xprate <1.5
-    .goto Darkshore,37.4,40.1
-    .turnin 4763 >> 交出腐败的黑木
+    .goto Darkshore,37.395,40.130
+.target Thundris Windweaver
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .turnin 4763 >>交任务: |cFF00FF25黑木熊怪的堕落|r
     .isOnQuest 4763
 step << Druid
     .goto Darkshore,37.7,40.7
-    .turnin 6122 >> 交出主要来源
+.target Alanndarian Nightsong
+>>与|cFF00FF25Alanndarian Nightsong|r交谈
+    .turnin 6122 >>交任务: |cFF00FF25毒水之源|r
 step
     .goto Darkshore,38.1,41.3
-    .turnin -982 >> 转向深海，浩瀚大海
+.target Gorbold Steelhand
+>>与|cFF00FF25Gorbold Steelhand|r交谈
+    .turnin 982 >>交任务: |cFF00FF25深不可测的海洋|r
     .isQuestComplete 982
 step
     .goto Darkshore,37.5,41.9
-    .accept 729 >> 接受心不在焉的探矿者
+.target Archaeologist Hollee
+>>与|cFF00FF25考古学家Hollee|r交谈
+    .accept 729 >>接任务: |cFFFCDC00健忘的勘察员|r
 step
 #xprate <1.5
     .goto Darkshore,38.8,43.4
-    .turnin 2139 >> 交给塔纳瑞恩的希望
+.target Tharnariun Treetender
+>>与|cFF00FF25Tharnariun Treetender|r交谈
+    .turnin 2139 >>交任务: |cFF00FF25萨纳瑞恩的希望|r
     .isQuestComplete 2139
 step
 #xprate <1.5
     .goto Darkshore,39.3,43.4
-    .turnin 986 >> 交出一个丢失的主人
+.target Terenthis
+>>与|cFF00FF25Terenthis|r交谈
+    .turnin 986 >>交任务: |cFF00FF25丢失的主人|r
     .isQuestComplete 986
 step
 #xprate <1.5
 .goto Darkshore,39.3,43.4
-    .accept 993 >> 接受丢失的主人
+.target Terenthis
+>>与|cFF00FF25Terenthis|r交谈
+    .accept 993 >>接任务: |cFFFCDC00丢失的主人|r
     .isQuestTurnedIn 986
 step
 #xprate <1.5 << !Druid
     .isOnQuest 947
     .goto Darkshore,37.4,43.7
-    .turnin 947 >> 转入洞穴蘑菇
-    .accept 948 >> 接受Onu
+>>与|cFF00FF25Barithras Moonshade|r交谈
+    .turnin 947 >>交任务: |cFF00FF25洞中的蘑菇|r
+.target Barithras Moonshade
+    .accept 948 >>接任务: |cFFFCDC00安努|r
 step
 #xprate <1.5 << !Druid
     .goto Darkshore,36.6,45.5
-    .turnin 4725 >> 上缴海滩海龟
-    .turnin 4727 >> 上缴海滩海龟
+.target Gwennyth Bly'Leggonde
+>>与|cFF00FF25Gwenneth Bl'Leggonde|r交谈
+    .turnin 4725 >>交任务: |cFF00FF25搁浅的海龟|r
+    .turnin 4727 >>交任务: |cFF00FF25搁浅的海龟|r
     .isQuestTurnedIn 4681
 step
 #xprate <1.5
-    .isOnQuest 1138
-    .goto Darkshore,36.1,44.9
-    .turnin 1138 >> 把海果交上来
+    .isQuestComplete 1138
+    .goto Darkshore,36.096,44.931
+.target Gubber Blump
+>>与|cFF00FF25Gubber Blump|r交谈
+    .turnin 1138 >>交任务: |cFF00FF25海中的水果|r
 step << Dwarf Hunter/!NightElf Rogue
     .goto Darkshore,33.1,39.9
-    .zone Teldrassil>>乘船去Teldrassil
+    .zone Teldrassil>>前往: |cFFDB2EEF泰达希尔|r
 step << NightElf Rogue
     #completewith next
     .fly Teldrassil>>飞往Teldrassil
@@ -1579,26 +1893,30 @@ step << Dwarf Hunter
 	.collect 3027,1
 step << Dwarf Hunter
 	.goto Teldrassil,29.2,56.7
-	.train 264 >> 火车弓
-    .train 227 >> 火车杆
+	.train 264 >>火车弓
+    .train 227 >>火车杆
 step << Rogue
     .goto Darnassus,32.7,16.3
-    >> 往树上走
-    .trainer >> 训练你的20级法术
+    >>往树上走
+    .trainer >>训练你的20级法术
 step << Dwarf Hunter/!NightElf Rogue
     .goto Darnassus,31.0,41.5,30,0
-    .goto Teldrassil,58.4,94.0
-    .fp Rut'theran >> 获得Rut'theran Village航线
+    .goto Teldrassil,58.399,94.016
+    >>从紫色大门离开达纳苏斯
+    .fp Rut'theran >>获得Rut'theran Village航线
 step << Dwarf Hunter/Rogue
-    .goto Teldrassil,58.4,94.0
+    .goto Teldrassil,58.399,94.016
     .fly Auberdine >>飞回奥伯丁
 step
 #xprate <1.5 << !Druid
     .isOnQuest 948
     .goto Darkshore,43.5,76.2
-    .turnin 948 >> Onu上车
-    .accept 944 >> 接受大师的垂涎
+>>与|cFF00FF25Onu|r交谈
+    .turnin 948 >>交任务: |cFF00FF25安努|r
+.target Onu
+    .accept 944 >>接任务: |cFFFCDC00主宰之剑|r
 step
+#xprate <1.2
     .isOnQuest 4740
    >>清理营地，但要小心，靠近篝火会引发3波暴徒。一定要远离篝火，这样你就不会一直伤害他们，并且每次波浪过后都可以吃/喝。潜水网，所以要小心
 	.goto Darkshore,36.6,76.6
@@ -1606,33 +1924,43 @@ step
 step
     .isOnQuest 729
     .goto Darkshore,35.7,83.7
-    .turnin 729 >> 交回心不在焉的探矿者
+.target Prospector Remtravel
+>>与|cFF00FF25浏览者Remtravel|r交谈
+    .turnin 729 >>交任务: |cFF00FF25健忘的勘察员|r
 step
+#xprate <1.7
     .isQuestTurnedIn 729
     .goto Darkshore,35.7,83.7
     >>开始护送任务
-    .accept 731,1 >> 接受心不在焉的探矿者
+.target Prospector Remtravel
+>>与|cFF00FF25浏览者Remtravel|r交谈
+    .accept 731,1 >>接任务: |cFFFCDC00健忘的勘察员|r
 step
+#xprate <1.7
     .isOnQuest 731
     .complete 731,1 --Escort Prospector Remtravel
 step
 #xprate <1.5 << !Druid
     .isQuestTurnedIn 947
     .goto Darkshore,39.0,86.4
-    .turnin 944 >> 交上大师的Glaive
-    .accept 949 >> 接受暮光之城营地
+    .turnin 944 >>交任务: |cFF00FF25主宰之剑|r
+    .accept 949 >>接任务: |cFFFCDC00暮光之锤的营地|r
 step
 #xprate <1.5 << !Druid
     .isQuestTurnedIn 947
     .goto Darkshore,39.0,86.4
-    >>使用袋子里的烤面包碗，右击它
-    .turnin 944 >> 交上大师的Glaive
-    .accept 949 >> 接受暮光之城营地
+    .use 5251 >>使用袋子里的烤面包碗，右击它
+    .turnin 944 >>交任务: |cFF00FF25主宰之剑|r
+    .accept 949 >>接任务: |cFFFCDC00暮光之锤的营地|r
 step
+    #xprate <1.2
     .goto Darkshore,38.7,87.3
 	>>与营地后面的树妖对话。如果她不在这里，其他人可能会护送她，如果她不在场，跳过这一步。
-    .accept 945 >> 接受Therylune的逃脱
+.target Therylune
+>>与|cFF00FF25Therylune|r交谈
+    .accept 945 >>接任务: |cFFFCDC00护送瑟瑞露尼|r
 step
+#xprate <1.2
     #sticky
     #label escort
     .complete 945,1 --Escort Therylune
@@ -1642,17 +1970,26 @@ step
     .isOnQuest 949
     .goto Darkshore,38.6,86.1
     >>点击底座顶部的大部头
-    .turnin 949 >> 在暮光之城露营
+    .turnin 949 >>交任务: |cFF00FF25暮光之锤的营地|r
 step
+#xprate <1.5
     #requires escort
-    .goto Darkshore,45.0,85.3
-    .turnin -993 >> 交出一个丢失的主人
+    .isOnQuest 993
+    .goto Darkshore,45.008,85.303
+.target Volcor
+>>与|cFF00FF25Volcor交谈|r
+    .turnin 993 >>交任务: |cFF00FF25丢失的主人|r
 step
-    .goto Darkshore,45.0,85.3
-    .accept 994,1 >> 接受武力逃跑
+#xprate <1.5
+    .goto Darkshore,45.008,85.303
+.target Volcor
+>>与|cFF00FF25Volcor交谈|r
+    .accept 994,1 >>接任务: |cFFFCDC00杀出重围|r
     .isQuestTurnedIn 986
 step
+#xprate <1.5
 	#label end
+    >>带领Volcor上路
     .complete 994,1 --Escort Volcor
     .isQuestTurnedIn 986
 ]])
@@ -1660,7 +1997,7 @@ step
 RXPGuides.RegisterGuide([[
 #tbc
 #wotlk
-<< Alliance !Warlock
+<< Alliance !Warlock/Alliance wotlk
 #name 21-23 灰谷
 #version 1
 #group RestedXP 联盟 20-32
@@ -1669,115 +2006,152 @@ RXPGuides.RegisterGuide([[
 step
 #xprate <1.5 << !Druid
     .goto Ashenvale,26.2,38.6
-    .turnin 967 >> 转入Althalaxx塔
+.target Delgren the Purifier
+>>与|cFF00FF25Delgren净化器交谈|r
+    .turnin 967 >>交任务: |cFF00FF25奥萨拉克斯之塔|r
     .isOnQuest 967
 step
 #xprate <1.5
     .isQuestTurnedIn 967
     .goto Ashenvale,26.2,38.6
-    .accept 970 >> 接受Althalaxx塔
+.target Delgren the Purifier
+>>与|cFF00FF25Delgren净化器交谈|r
+    .accept 970 >>接任务: |cFFFCDC00奥萨拉克斯之塔|r
     .maxlevel 21
 step
     .goto Ashenvale,26.4,38.6
-    .accept 1010 >> 接受Bathran的头发
+.target Orendil Broadleaf
+>>与|cFF00FF25Orendil Broadleaf|r交谈
+    .accept 1010 >>接任务: |cFFFCDC00巴斯兰的头发|r
 step
     .goto Ashenvale,31.3,23.2
-	>> 抢劫该地区的棕色麻袋，它们可能很难被发现。
+	>>掠夺该地区的棕色麻袋，它们可能很难被发现。
     .complete 1010,1 --Collect Bathran's Hair (x5)
 step
 #xprate <1.5
     .isOnQuest 970
     .goto Ashenvale,31.4,31.0
-	>> 下降率非常非常低，继续杀戮暴徒。
+	>>下降率非常非常低，继续杀戮暴徒。
     .complete 970,1 --Collect Glowing Soul Gem (x1)
     .maxlevel 21
 step
     .goto Ashenvale,26.4,38.6
-    .turnin 1010 >> 把Bathran的头发交上来
-    .accept 1020 >> 接受奥伦迪尔的治疗
+>>与|cFF00FF25Orendil Broadleaf|r交谈
+    .turnin 1010 >>交任务: |cFF00FF25巴斯兰的头发|r
+.target Orendil Broadleaf
+    .accept 1020 >>接任务: |cFFFCDC00奥雷迪尔的药剂|r
 step
 #xprate <1.5
     .isQuestComplete 970
     .goto Ashenvale,26.2,38.6
-    .turnin 970 >> 转入Althalaxx塔
+.target Delgren the Purifier
+>>与|cFF00FF25Delgren净化器交谈|r
+    .turnin 970 >>交任务: |cFF00FF25奥萨拉克斯之塔|r
 step
     #xprate <1.5
     .isQuestTurnedIn 970
     .goto Ashenvale,26.2,38.6
-    .accept 973 >> 接受Althalaxx塔
+.target Delgren the Purifier
+>>与|cFF00FF25Delgren净化器交谈|r
+    .accept 973 >>接任务: |cFFFCDC00奥萨拉克斯之塔|r
 step
     .goto Ashenvale,34.40,48.00
-    .fp Astranaar>> 获取Astranaar飞行路线
+    .fp Astranaar>>获取Astranaar飞行路线
 step
     .goto Ashenvale,34.7,48.8
-    .accept 1008 >> 接受Zoram Strand
+.target Shindrell Swiftfire
+>>与|cFF00FF25Shindrell Swiftfire|r交谈
+    .accept 1008 >>接任务: |cFFFCDC00佐拉姆海岸|r
 step
-    .goto Ashenvale,36.6,49.6
-    .accept 1054 >> 接受消除威胁
-    .turnin 10752 >> 转向灰谷
-    .accept 991 >> 接受Raene的清洁
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .accept 1054 >>接任务: |cFFFCDC00解除威胁|r
+    .turnin 10752 >>交任务: |cFF00FF25前往灰谷|r
 step
+#xprate <1.7
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .accept 991 >>接任务: |cFFFCDC00莱恩的净化|r
+step << wotlk
     .goto Ashenvale,37.0,49.3
-    .home >> 将您的炉石设置为Astranaar
+    .home >>将您的炉石设置为Astranaar
 step
     #timer Orendil's Cure roleplay
     .goto Ashenvale,37.3,51.8
-    >> 等待角色扮演，需要26秒。 
-    .turnin 1020 >> 交给奥伦迪尔的治疗
+    >>等待角色扮演，需要26秒。
+>>与|cFF00FF25Pelturas Whitemoon|r交谈
+    .turnin 1020 >>交任务: |cFF00FF25奥雷迪尔的药剂|r
     .timer 26,Orendil's Cure roleplay
-    .accept 1033 >> 接受艾露恩的眼泪
+.target Pelturas Whitemoon
+    .accept 1033 >>接任务: |cFFFCDC00月神之泪|r
 step
     .goto Ashenvale,46.2,45.9
-	>> 点击地面上的蓝色小种子。
+	>>点击地面上的蓝色小种子。
     .complete 1033,1 --Collect Elune's Tear (x1)
 step
     .goto Ashenvale,37.8,34.7
-	>> 杀死达尔·布洛德克劳，并洗劫他的头骨。
+	>>杀死达尔·布洛德克劳，并洗劫他的头骨。他在营地周围巡逻。
 	.unitscan Dal Bloodclaw
     .complete 1054,1 --Collect Dal Bloodclaw's Skull (x1)
 step
-    .goto Ashenvale,36.6,49.6
-    .turnin 1054 >> 转而消除威胁
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1054 >>交任务: |cFF00FF25解除威胁|r
 step
     .goto Ashenvale,37.3,51.8
-    >> 等待角色扮演，需要10秒钟
-    .turnin 1033 >> 艾露恩的眼泪
+    >>等待角色扮演，需要10秒钟
+>>与|cFF00FF25Pelturas Whitemoon|r交谈
+    .turnin 1033 >>交任务: |cFF00FF25月神之泪|r
     .timer 10,Elune's tear roleplay
-    .accept 1034 >> 接受星尘的废墟
+.target Pelturas Whitemoon
+    .accept 1034 >>接任务: |cFFFCDC00星尘废墟|r
 step
     .goto Ashenvale,33.3,67.4
-	>> 掠夺该地区的星尘
+	>>掠夺该地区的星尘
     .complete 1034,1 --Collect Handful of Stardust (x5)
 step
 #xprate <1.5
     .isOnQuest 973
     .goto Ashenvale,25.3,60.8
-	>> 杀了伊尔克鲁德，抢走他的魔法书，你可以打晕他，阻止他寻求帮助。
+	>>杀了伊尔克鲁德，抢走他的魔法书，你可以打晕他，阻止他寻求帮助。
     .complete 973,1 --Collect Ilkrud Magthrull's Tome (x1)
 step
     .goto Ashenvale,22.7,51.9
-    >> 跑上山，翻过山头，然后转入Therylune的逃亡
-    .turnin 945 >> 交给Therylune的逃亡
+    >>跑上山，翻过山头，然后转入Therylune的逃亡
+.target Therysil
+>>与|cFF00FF25Therysil|r交谈
+    .turnin 945 >>交任务: |cFF00FF25护送瑟瑞露尼|r
     .isQuestComplete 945
 step
     .goto Ashenvale,22.7,51.9
-    .abandon 945 >> 如果你还没有完成，就放弃Therylune的逃亡
+    .abandon 945 >>如果你还没有完成，就放弃Therylune的逃亡
 step
 #xprate <1.5
     .isOnQuest 973
-    .goto Ashenvale,26.2,38.7
-    .turnin 973 >> 转入Althalaxx塔
-step <<  Hunter/NightElf/Rogue/wotlk
+    .goto Ashenvale,26.196,38.698
+.target Delgren the Purifier
+>>与|cFF00FF25Delgren净化器交谈|r
+    .turnin 973 >>交任务: |cFF00FF25奥萨拉克斯之塔|r
+step
+#xprate <1.7
     .goto Ashenvale,20.3,42.4
-    .turnin 991 >> 交上Raene的清洁服务
-    .accept 1023 >> 接受Raene的清洁
-step << Hunter/NightElf/Rogue/wotlk
+>>与|cFF00FF25Teronis尸体对话|r
+    .turnin 991 >>交任务: |cFF00FF25莱恩的净化|r
+.target Teronis' Corpse
+    .accept 1023 >>接任务: |cFFFCDC00莱恩的净化|r
+step
+#xprate <1.7
     .goto Ashenvale,20.3,42.4
-	>> 为宝石杀死墨洛克人，掉落率可能很低。
+	>>为宝石杀死墨洛克人，掉落率可能很低。
     .complete 1023,1 --Collect Glowing Gem (x1)
 step
     .goto Ashenvale,14.7,31.3
-    .accept 1007 >> 接受古代雕像
+.target Talen
+>>与|cFF00FF25Talen|r交谈
+    .accept 1007 >>接任务: |cFFFCDC00远古雕像|r
 step
     #label nagas
     #sticky
@@ -1786,18 +2160,20 @@ step
     .complete 1008,1 --Collect Wrathtail Head (x20)
 step
     .goto Ashenvale,14.2,20.6
-	>> 前往古雕像，将其从地上洗劫一空。在途中杀死纳加，但不要为他们让路，你有足够的机会杀掉他们。
+	>>前往古雕像，将其从地上洗劫一空。在途中杀死纳加，但不要为他们让路，你有足够的机会杀掉他们。
     .complete 1007,1 --Collect Ancient Statuette (x1)
 step
-    .goto Ashenvale,14.8,31.3
-	>> 在途中杀死纳加，但不要为他们让路。
-    .turnin 1007 >> 上缴古代雕像
+    .goto Ashenvale,14.790,31.294
+	>>在途中杀死纳加，但不要为他们让路。
+>>与|cFF00FF25Talen|r交谈
+    .turnin 1007 >>交任务: |cFF00FF25远古雕像|r
     .timer 25,The Ancient Statuette RP
-    .accept 1009 >> 接受鲁泽尔
+.target Talen
+    .accept 1009 >>接任务: |cFFFCDC00卢泽尔|r
 step
     .goto Ashenvale,7.0,13.4
 	>>前往北岛，杀死鲁泽尔
-	>> 这场战斗可能很艰难，专注于她的一两个添加，然后在需要时重置。
+	>>这场战斗可能很艰难，专注于她的一两个添加，然后在需要时重置。
     .complete 1009,1 --Collect Ring of Zoram (x1)
 step
     .goto 1414,43.97,35.31,20,0
@@ -1806,47 +2182,47 @@ step
 	.goto 1414,43.91,34.58,20,0
 	.goto 1414,44.02,34.58,20,0
 	.goto 1414,44.16,34.85
-    >>进入寺庙般的建筑进入BFD洞穴，杀死纳迦/萨提尔
+    >>进入通往布莱克法索姆深渊的寺庙建筑，杀死纳加斯/萨提尔。抢他们的脑干。
     .complete 1275,1
 step
     #requires nagas
-    .goto Ashenvale,14.8,31.3
-    .turnin 1009 >> 交给鲁泽尔
+    .goto Ashenvale,14.790,31.294
+.target Talen
+>>与|cFF00FF25Talen|r交谈
+    .turnin 1009 >>交任务: |cFF00FF25卢泽尔|r
 step << Druid
     #completewith next
-    >>传送至Moonglade
+    >>前往: |cFFDB2EEF月光林地|r
     .goto Moonglade,52.4,40.6
-    .trainer >> 训练你的法术
-step << Hunter/NightElf/Rogue/wotlk
-    .goto Ashenvale,36.6,49.6
-    .hs >> 赫斯到阿斯特拉纳
-step << !Hunter !NightElf !Rogue tbc
-    .goto Ashenvale,20.3,42.4
-    .turnin 991 >> 交上Raene的清洁服务
-    .accept 1023 >> 接受Raene的清洁
-step << !Hunter !NightElf !Rogue tbc
-    .goto Ashenvale,20.3,42.4
-	>> 为了宝石杀死murlocs，掉落率很低。
-    .complete 1023,1 --Collect Glowing Gem (x1)
-step << !Hunter !NightElf !Rogue tbc
-    #sticky
-    #completewith next
-    .deathskip >>前往湖的东侧，故意死亡并在阿斯特拉纳重生
+    .trainer >>训练你的法术
 step
-    .goto Ashenvale,36.6,49.6
-    .turnin 1023 >> 交上Raene的清洁服务
+    .goto Ashenvale,36.618,49.581
+    .hs >>赫斯到阿斯特拉纳
 step
-#xprate <1.5 << tbc
-    .goto Ashenvale,36.6,49.6
-    .accept 1025 >> 接受攻击性防御
+#xprate <1.7
+    .isOnQuest 1023
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1023 >>交任务: |cFF00FF25莱恩的净化|r
+step
+#xprate <1.2
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .accept 1025 >>接任务: |cFFFCDC00先发制人|r
 step
     .goto Ashenvale,37.3,51.8
-    .turnin 1034 >> 交出星尘废墟
+.target Pelturas Whitemoon
+>>与|cFF00FF25Pelturas Whitemoon|r交谈
+    .turnin 1034 >>交任务: |cFF00FF25星尘废墟|r
 step
     .goto Ashenvale,34.7,48.9
-    .turnin 1008 >> 在Zoram Strand上转弯
+.target Shindrell Swiftfire
+>>与|cFF00FF25Shindrell Swiftfire|r交谈
+    .turnin 1008 >>交任务: |cFF00FF25佐拉姆海岸|r
 step
-#xprate <1.5 << tbc
+#xprate <1.2
     >>杀死暴徒进行侵略性防御
     .goto Ashenvale,49.9,60.8,40,0
     .goto Ashenvale,56.9,63.7,40,0
@@ -1856,87 +2232,113 @@ step
     .complete 1025,3 --Kill Foulweald Totemic (x10)
     .complete 1025,4 --Kill Foulweald Warrior (x12)
 step
-#xprate <1.5 << tbc
-    .goto Ashenvale,49.8,67.2
-    .accept 1016 >> 接受元素括号
+#xprate <1.2
+    .goto Ashenvale,49.796,67.211
+.target Sentinel Velene Starstrike
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .accept 1016 >>接任务: |cFFFCDC00元素护腕|r
 step
-#xprate <1.5 << tbc
+#xprate <1.2
     >>杀死岛上/水中的所有水元素以获得完整元素护腕。当你有5个时，右击占卜卷轴
     .goto Ashenvale,48.0,69.9
     .complete 1016,1 --Collect Divined Scroll (x1)
 step
-#xprate <1.5 << tbc
-    .goto Ashenvale,49.8,67.2
-    .turnin 1016 >> 交给Elemental Bracers
+#xprate <1.2
+    .goto Ashenvale,49.796,67.211
+.target Sentinel Velene Starstrike
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .turnin 1016 >>交任务: |cFF00FF25元素护腕|r
 step
-#xprate <1.5 << tbc
-    .goto Ashenvale,36.6,49.6
-    .turnin 1025 >> 提交攻击性防御
+#xprate <1.2
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1025 >>交任务: |cFF00FF25先发制人|r
     .isQuestComplete 1025
 step
-    .goto Ashenvale,34.7,48.9
-    .turnin 1008 >> 在Zoram Strand上转弯
-step
     .goto Ashenvale,34.40,48.00
-    .fp Astranaar>> 获取Astranaar飞行路线
-    .fly Auberdine>> 飞往奥伯丁
+    .fly Auberdine>>飞往奥伯丁
 step
-    .goto Darkshore,37.7,43.4
-    .turnin 4740 >> 通缉犯：笨蛋！
+    .isQuestComplete 4740
+    .goto Darkshore,37.706,43.390
+.target Sentinel Glynda Nal'Shea
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .turnin 4740 >>交任务: |cFF00FF25通缉：莫克迪普！|r
 step
     .goto Darkshore,38.36,43.07
-    .turnin 1275 >> 转而研究腐败
+.target Gershala Nightwhisper
+>>与|cFF00FF25Gershala夜话|r交谈
+    .turnin 1275 >>交任务: |cFF00FF25研究堕落|r
+    .isQuestComplete 1275
 step
+    .isOnQuest 994
     .goto Darkshore,39.3,43.4
-    .turnin -994 >> 通过武力逃跑
+.target Terenthis
+>>与|cFF00FF25Terenthis|r交谈
+    .turnin 994 >>交任务: |cFF00FF25杀出重围|r
 step
+    .isOnQuest 731
     .goto Darkshore,37.5,41.9
-    .turnin 731 >> 交回心不在焉的探矿者
-	.accept 741 >> 接受心不在焉的探矿者 << !Hunter !NightElf !Rogue/NightElf wotlk
+>>与|cFF00FF25考古学家Hollee|r交谈
+    .turnin 731 >>交任务: |cFF00FF25健忘的勘察员|r
+.target Archaeologist Hollee
+	.accept 741 >>接任务: |cFFFCDC00健忘的勘察员|r << !Hunter !NightElf !Rogue/NightElf wotlk
 step << !Hunter !NightElf !Rogue
     .goto Darkshore,33.1,39.9
-    .zone Teldrassil>>乘船去Teldrassil
+    .isOnQuest 741
+    .zone Teldrassil>>前往: |cFFDB2EEF泰达希尔|r
 step << NightElf wotlk
     .isOnQuest 741
     .goto Darkshore,36.3,45.6
-    .fly Teldrassil >> 飞往Teldrassil
+    .fly Teldrassil >>飞往Teldrassil
 step << !Hunter !NightElf !Rogue/NightElf wotlk
-	.goto Teldrassil,23.7,64.5
+	.goto Teldrassil,23.703,64.511
     .isOnQuest 741
-	.turnin 741 >> 交回心不在焉的探矿者
-	.accept 942 >> 接受心不在焉的探矿者
+>>与|cFF00FF25首席考古学家格雷维瑟交谈|r
+	.turnin 741 >>交任务: |cFF00FF25健忘的勘察员|r
+.target Chief Archaeologist Greywhisker
+	.accept 942 >>接任务: |cFFFCDC00健忘的勘察员|r
 step << NightElf wotlk
     .goto Darnassus,38.6,15.6
-    >> 乘飞机或乘船去达纳苏斯
-    .skill riding,1 >> 训练骑术并购买坐骑
+    >>乘飞机或乘船去达纳苏斯
+    .skill riding,1 >>训练骑术并购买坐骑
     .money <4.60
+step << Priest
+    .goto Teldrassil,37.89,82.73
+    .trainer >>训练你的职业技能
+    .isOnQuest 942
 step << Warrior tbc/Mage/Priest/Warlock
+    .isOnQuest 942
 	.goto Teldrassil,29.2,56.7
-    .train 227 >> 火车杆
+    .train 227 >>火车杆
 step << !Hunter !NightElf !Rogue
-    .goto Teldrassil,58.4,94.0
-    .fp Rut'theran >> 获得Rut'theran Village航线
+    .isOnQuest 942
+    .goto Darnassus,31.0,41.5,30,0
+    .goto Teldrassil,58.399,94.016
+    >>从紫色大门离开达纳苏斯
+    .fp Rut'theran >>获得Rut'theran Village航线
 step << !Hunter !NightElf !Rogue
-    .goto Teldrassil,58.4,94.0
+    .isOnQuest 942
+    .goto Teldrassil,58.399,94.016
     .fly Auberdine >>飞回奥伯丁
 step << Draenei !Paladin wotlk
     .goto Darkshore,30.8,41.0,40,0
 	.goto The Exodar,81.18,52.56
     .money <4.60
-    >> 乘最西边的船去Azuremyst岛
+    >>乘最西边的船去Azuremyst岛
     .skill riding,75 >>前往Exodar，购买并训练您的坐骑
 step << tbc
     .goto Darkshore,32.4,43.8,30,0
     .goto Darkshore,32.4,43.8,0
-    .zone Wetlands >>乘船去湿地
+    .zone Wetlands >>前往: |cFFDB2EEF湿地|r
 step << Draenei tbc/NightElf tbc
 #xprate >1.499
     .goto Wetlands,9.5,59.7
-    .fp Menethil >> 获取Menethil Harbor航线
+    .fp Menethil >>获取Menethil Harbor航线
 step << Draenei tbc/NightElf tbc
 #xprate >1.499
-    .zone Stormwind City >> 使用网站解锁功能传送到暴风城。此功能具有8小时冷却时间。如果无法正常工作，请跳过此步骤
-    .link https://us.battle.net/support/en/help/product/wow/197/834/solution >> 单击此处并将链接复制粘贴到浏览器中以获取更多信息
+    .zone Stormwind City >>前往: |cFFDB2EEF暴风城|r
+    .link https://us.battle.net/support/en/help/product/wow/197/834/solution >>单击此处并将链接复制粘贴到浏览器中以获取更多信息
     .zoneskip Elwynn Forest
 
 
@@ -1944,180 +2346,228 @@ step << Draenei tbc/NightElf tbc
 #xprate >1.499
    #completewith next
    .goto Wetlands,63.9,78.6
-   .zone Loch Modan >> 在洞穴后面的蘑菇上注销。当您重新登录时，这会将您传送到Thelsamar。
+   .zone Loch Modan >>前往: |cFFDB2EEF洛克莫丹|r
    >>确保登出时尽可能靠近洞穴后部。如果你在靠近洞口的蘑菇边缘登出，这个技巧就行不通了。
-   .link https://www.youtube.com/watch?v=21CuGto26Mk >> 单击此处获取参考
+   .link https://www.youtube.com/watch?v=21CuGto26Mk >>单击此处获取参考
    .zoneskip Elwynn Forest
    .zoneskip Stormwind City
 step << NightElf tbc/Draenei tbc
 #xprate >1.499
-    .goto Loch Modan,33.9,50.9
-    .fp Thelsamar >> 获取Thelsamar飞行路线
+    .goto Loch Modan,33.938,50.954
+    .fp Thelsamar >>获取Thelsamar飞行路线
     .zoneskip Elwynn Forest
     .zoneskip Stormwind City
 step << NightElf tbc/Draenei tbc
 #xprate >1.499
     #completewith next
     .goto Loch Modan,21.30,68.60,40,0
-    .zone Dun Morogh>> 跑到邓莫罗
+    .zone Dun Morogh>>跑到邓莫罗
 step << NightElf tbc/Draenei tbc
 #xprate >1.499
 	>>进入东南特罗格洞穴。执行注销跳过
     .goto Dun Morogh,70.63,56.70,60,0
     .goto Dun Morogh,70.60,54.86
-	.link https://www.youtube.com/watch?v=yQBW3KyguCM >> 单击此处
-	.zone Ironforge >> 注销跳过或前往铁炉堡
+	.link https://www.youtube.com/watch?v=yQBW3KyguCM >>单击此处
+	.zone Ironforge >>前往: |cFFDB2EEF铁炉堡|r
 step << NightElf tbc/Draenei tbc
 #xprate >1.499
     .goto Ironforge,76.03,50.98,30,0
-    .zone Stormwind City >> 乘电车去暴风城
+    .zone Stormwind City >>前往: |cFFDB2EEF暴风城|r
 step << wotlk
     .goto Darkshore,32.4,43.8,30,0
     .goto Darkshore,32.4,43.8,0
-    .zone Stormwind City >>乘船去暴风城
+    .zone Stormwind City >>前往: |cFFDB2EEF暴风城|r
 ]])
 
 RXPGuides.RegisterGuide([[
 #tbc
-#wotlk
 << Alliance Warlock
 #name 20-23 黑海岸/灰谷
 #version 1
 #group RestedXP 联盟 20-32
 #next 23-24 湿地;24-27 赤脊山/暮色森林
-step
+step << tbc
     .goto Darkshore,37.0,44.1
-    .home >> 将您的炉石设置为Auberdine
+    .home >>将您的炉石设置为Auberdine
 step << wotlk
     #completewith next
     .goto Darkshore,32.4,43.8
-    .zone Stormwind City >>乘船去暴风城
+    .zone Stormwind City >>前往: |cFFDB2EEF暴风城|r
 step << tbc
     #completewith next
     .goto Darkshore,32.4,43.8
-    .zone Wetlands >>乘船去湿地
+    .zone Wetlands >>前往: |cFFDB2EEF湿地|r
 step << tbc
     #completewith next
     .goto Wetlands,9.5,59.7
-    .fly Stormwind>> 飞到暴风城
+    .fly Stormwind>>飞到暴风城
 step << Warlock wotlk
     .goto StormwindNew,36.35,67.49
-    .accept 3765>>接受海外腐败
+.target Argos Nightwhisper
+>>与|cFF00FF25Argos夜话|r交谈
+    .accept 3765>>接任务: |cFFFCDC00遥远的旅途|r
 step << Warlock
     .goto StormwindClassic,25.3,78.7
-	.trainer >> 训练你的职业咒语
+	.trainer >>训练你的职业技能
 step << Warlock
     .goto StormwindClassic,25.2,78.5
-    .accept 1716 >> 接受灵魂吞噬者
+.target Gakin the Darkbinder
+>>与|cFF00FF25Gakin the Darkbinder|r交谈
+    .accept 1716 >>接任务: |cFFFCDC00噬魂者|r
+step << wotlk
+    .goto StormwindClassic,52.6,65.6
+    .home >>将您的炉石设置为暴风城
 step << Warlock tbc
     .goto StormwindNew,36.35,67.49
-    .accept 3765>>接受海外腐败
+.target Argos Nightwhisper
+>>与|cFF00FF25Argos夜话|r交谈
+    .accept 3765>>接任务: |cFFFCDC00遥远的旅途|r
 step << tbc
     #label exit
     .goto StormwindClassic,39.9,54.4
     .zone Darkshore>>进入栅栏和犹太区壁炉，前往奥伯丁
     >>当你在寨子里时，邀请一些随机的人离开小组，这样你就可以传送回奥伯丁
-    .link /run InviteUnit("a");C_Timer.After(1,function() LeaveParty() end) >> 单击此处查看邀请/离开宏
+    .link /run InviteUnit("a");C_Timer.After(1,function() LeaveParty() end) >>单击此处查看邀请/离开宏
 step << wotlk
     .goto StormwindNew,21.8,56.2,20,0
     .goto StormwindNew,21.8,56.2,0
-    .zone Darkshore >> 前往暴风港，乘船前往黑海岸
+    .zone Darkshore >>前往: |cFFDB2EEF黑海岸|r
 step
+#xprate <1.5
     .goto Darkshore,37.2,44.2
-    .accept 4740 >> 接受通缉令：Murkdeep！
+    .accept 4740 >>接任务: |cFFFCDC00通缉：莫克迪普！|r
 step
     .goto Darkshore,37.5,41.8
-    .accept 729 >> 接受心不在焉的探矿者
+.target Archaeologist Hollee
+>>与|cFF00FF25考古学家Hollee|r交谈
+    .accept 729 >>接任务: |cFFFCDC00健忘的勘察员|r
 step
     #completewith next
     .goto Darkshore,38.37,43.05
-    .turnin -3765>>向国外移交腐败
+    .turnin -3765>>交任务: 遥远的旅途
 step
     .goto Darkshore,38.37,43.05
-    .accept 1275 >> 接受腐败调查
+.target Gershala Nightwhisper
+>>与|cFF00FF25Gershala夜话|r交谈
+    .accept 1275 >>接任务: |cFFFCDC00研究堕落|r
 step
     .goto Darkshore,37.4,40.2
-    .turnin 9633 >> 在通往奥伯丁的路上转弯
-    .accept 10752 >> 接受前往灰谷
+>>与|cFF00FF25Thundris Windweaver|r交谈
+    .turnin 9633 >>Turn in The Way to Auberdine
+.target Thundris Windweaver
+    .accept 10752 >>接任务: |cFFFCDC00前往灰谷|r
 step
+#xprate <1.5
     .goto Darkshore,36.6,76.6
     >>清理营地，但要小心，靠近篝火会引发3波暴徒。一定要远离篝火，这样你就不会一直伤害他们，并且每次波浪过后都可以吃/喝。潜水网，所以要小心
     .complete 4740,1 --Kill Murkdeep (x1)
 step
     .goto Darkshore,35.7,83.7
-    .turnin 729 >> 交回心不在焉的探矿者
+.target Prospector Remtravel
+>>与|cFF00FF25浏览者Remtravel|r交谈
+    .turnin 729 >>交任务: |cFF00FF25健忘的勘察员|r
+    .isOnQuest 729
 step
+#xprate <1.7
     .goto Darkshore,35.7,83.7
-    .accept 731 >> 接受心不在焉的探矿者
+.target Prospector Remtravel
+>>与|cFF00FF25浏览者Remtravel|r交谈
+    .accept 731,1 >>接任务: |cFFFCDC00健忘的勘察员|r
+    .isQuestTurnedIn 729
 step
+#xprate <1.7
     >>小心，因为傀儡可以在你身上重生，并确保在最后一波中优先考虑风水师
-.complete 731,1 --Escort Prospector Remtravel
+    .complete 731,1 --Escort Prospector Remtravel
+    .isOnQuest 731
 step
+#xprate <1.7
     .goto Darkshore,38.7,87.3
-	>> 如果她不在那里，就在这段时间内在该地区捣乱。
-    .accept 945 >> 接受Therylune的逃脱
+	>>如果她不在那里，就在这段时间内在该地区捣乱。
+.target Therylune
+>>与|cFF00FF25Therylune|r交谈
+    .accept 945 >>接任务: |cFFFCDC00护送瑟瑞露尼|r
 step
+#xprate <1.7
     .complete 945,1 --Escort Therylune
+    .isOnQuest 945
+step
+    .goto Ashenvale,28.5,16.5
+    .zone Ashenvale >>前往: |cFFDB2EEF灰谷|r
 step
     .goto Ashenvale,26.4,38.6
     >>向东南方向驶往灰谷
-    .accept 1010 >> 接受Bathran的头发
+.target Orendil Broadleaf
+>>与|cFF00FF25Orendil Broadleaf|r交谈
+    .accept 1010 >>接任务: |cFFFCDC00巴斯兰的头发|r
 step
-    >>注意头发。它们看起来像地上的小干草块。在图形设置中调低地面杂乱的程度，因为这可能会有所帮助（有些杂乱的东西半埋在地上）。
+    >>注意头发。它们看起来像地上的小干草块。在图形设置中调低地面杂乱的程度，因为这可能会有所帮助(有些杂乱的东西半埋在地上)。
 .goto Ashenvale,31.3,23.2
     .complete 1010,1 --Collect Bathran's Hair (x5)
 step
     .goto Ashenvale,26.4,38.6
-    .turnin 1010 >> 把Bathran的头发交上来
-    .accept 1020 >> 接受奥伦迪尔的治疗
+>>与|cFF00FF25Orendil Broadleaf|r交谈
+    .turnin 1010 >>交任务: |cFF00FF25巴斯兰的头发|r
+.target Orendil Broadleaf
+    .accept 1020 >>接任务: |cFFFCDC00奥雷迪尔的药剂|r
 step
     .goto Ashenvale,34.40,48.00
-    .fp Astranaar>> 获取Astranaar飞行路线
+    .fp Astranaar>>获取Astranaar飞行路线
 step
     .goto Ashenvale,34.7,48.8
-    .accept 1008 >> 接受Zoram Strand
+.target Shindrell Swiftfire
+>>与|cFF00FF25Shindrell Swiftfire|r交谈
+    .accept 1008 >>接任务: |cFFFCDC00佐拉姆海岸|r
 step
-    .goto Ashenvale,36.6,49.6
-    .accept 1054 >> 接受消除威胁
-    .turnin 10752 >> 转向灰谷
-    .accept 991 >> 接受Raene的清洁
-step
-    .goto Ashenvale,37.0,49.3
-    .home >> 将您的炉石设置为Astranaar
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .accept 1054 >>接任务: |cFFFCDC00解除威胁|r
+    .turnin 10752 >>交任务: |cFF00FF25前往灰谷|r
+    .accept 991 >>接任务: |cFFFCDC00莱恩的净化|r
 step
     #timer Orendil's Cure RP
     .goto Ashenvale,37.3,51.8
-    .turnin 1020 >> 交给奥伦迪尔的治疗
+>>与|cFF00FF25Pelturas Whitemoon|r交谈
+    .turnin 1020 >>交任务: |cFF00FF25奥雷迪尔的药剂|r
     .timer 26,Orendil's Cure RP
-    .accept 1033 >> 接受艾露恩的眼泪
+.target Pelturas Whitemoon
+    .accept 1033 >>接任务: |cFFFCDC00月神之泪|r
 step
     .goto Ashenvale,46.2,45.9
-	>> 掠夺地上的蓝色小种子
+	>>掠夺地上的蓝色小种子
     .complete 1033,1 --Collect Elune's Tear (x1)
 step
     #timer Elune's tear roleplay
     .goto Ashenvale,37.3,51.8
-    .turnin 1033 >> 艾露恩的眼泪
+>>与|cFF00FF25Pelturas Whitemoon|r交谈
+    .turnin 1033 >>交任务: |cFF00FF25月神之泪|r
     .timer 10,Elune's tear roleplay
-    .accept 1034 >> 接受星尘的废墟
+.target Pelturas Whitemoon
+    .accept 1034 >>接任务: |cFFFCDC00星尘废墟|r
 step
     .goto Ashenvale,33.3,67.4
     .complete 1034,1 --Collect Handful of Stardust (x5)
 step
     .isOnQuest 945
     .goto Ashenvale,22.7,51.9
-    .turnin 945 >> 交给Therylune的逃亡
+.target Therysil
+>>与|cFF00FF25Therysil|r交谈
+    .turnin 945 >>交任务: |cFF00FF25护送瑟瑞露尼|r
 step
     .goto Ashenvale,20.3,42.4
-    .turnin 991 >> 交上Raene的清洁服务
-    .accept 1023 >> 接受Raene的清洁
+>>与|cFF00FF25Teronis尸体对话|r
+    .turnin 991 >>交任务: |cFF00FF25莱恩的净化|r
+.target Teronis' Corpse
+    .accept 1023 >>接任务: |cFFFCDC00莱恩的净化|r
 step
     >>小心附近的甲骨文，因为它们都可以愈合，并且有很大的伤害冲击能力
 .goto Ashenvale,20.3,42.4
     .complete 1023,1 --Collect Glowing Gem (x1)
 step
     .goto Ashenvale,14.7,31.3
-    .accept 1007 >> 接受古代雕像
+.target Talen
+>>与|cFF00FF25Talen|r交谈
+    .accept 1007 >>接任务: |cFFFCDC00远古雕像|r
 step
     #sticky
     #label nagas
@@ -2128,15 +2578,23 @@ step
     .goto Ashenvale,14.2,20.6
     .complete 1007,1 --Collect Ancient Statuette (x1)
 step
-    .goto Ashenvale,14.8,31.3
-    .turnin 1007 >> 上缴古代雕像
+    .goto Ashenvale,14.790,31.294
+.target Talen
+>>与|cFF00FF25Talen|r交谈
+    .turnin 1007 >>交任务: |cFF00FF25远古雕像|r
     .timer 25,The Ancient Statuette RP
-    .accept 1009 >> 接受鲁泽尔
+step
+    .goto Ashenvale,14.790,31.294
+.target Talen
+>>与|cFF00FF25Talen|r交谈
+    .accept 1009 >>接任务: |cFFFCDC00卢泽尔|r
+    .maxlevel 23
 step
 	>>前往北岛，杀死鲁泽尔
-	>> 这场战斗可能很艰难，专注于她的一两个添加，然后在需要时重置。
+	>>这场战斗可能很艰难，专注于她的一两个添加，然后在需要时重置。
     .goto Ashenvale,7.0,13.4
     .complete 1009,1 --Collect Ring of Zoram (x1)
+    .isOnQuest 1009
 step
     .goto 1414,43.97,35.31,20,0
     .goto 1414,43.80,35.18,20,0
@@ -2148,10 +2606,13 @@ step
     .complete 1275,1
 step
     #requires nagas
-    .goto Ashenvale,14.8,31.3
-    .turnin 1009 >> 交给鲁泽尔
-step
-    .hs >> 赫斯到阿斯特拉纳
+    .goto Ashenvale,14.790,31.294
+.target Talen
+>>与|cFF00FF25Talen|r交谈
+    .turnin 1009 >>交任务: |cFF00FF25卢泽尔|r
+    .isQuestComplete 1009
+step << wotlk
+    .hs >>赫斯到阿斯特拉纳
 step << wotlk
     .goto Ashenvale,39.0,35.9
     .goto Ashenvale,35.9,32.0
@@ -2159,22 +2620,32 @@ step << wotlk
 	.unitscan Dal Bloodclaw
     .complete 1054,1 --Collect Dal Bloodclaw's Skull (x1)
 step
-    .goto Ashenvale,36.6,49.6
-    .turnin 1023 >> 交上Raene的清洁服务
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1023 >>交任务: |cFF00FF25莱恩的净化|r
 step
 #xprate <1.5
-    .goto Ashenvale,36.6,49.6
-    .accept 1025 >> 接受攻击性防御
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .accept 1025 >>接任务: |cFFFCDC00先发制人|r
 step
 #xprate <1.5 << tbc
-    .goto Ashenvale,36.6,49.6
-    .accept 1025 >> 接受攻击性防御
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .accept 1025 >>接任务: |cFFFCDC00先发制人|r
 step
     .goto Ashenvale,37.3,51.8
-    .turnin 1034 >> 交出星尘废墟
+.target Pelturas Whitemoon
+>>与|cFF00FF25Pelturas Whitemoon|r交谈
+    .turnin 1034 >>交任务: |cFF00FF25星尘废墟|r
 step
     .goto Ashenvale,34.7,48.9
-    .turnin 1008 >> 在Zoram Strand上转弯
+.target Shindrell Swiftfire
+>>与|cFF00FF25Shindrell Swiftfire|r交谈
+    .turnin 1008 >>交任务: |cFF00FF25佐拉姆海岸|r
 step
 #xprate <1.5 << tbc
     >>杀死暴徒进行侵略性防御
@@ -2186,8 +2657,10 @@ step
     .complete 1025,4 --Kill Foulweald Warrior (x12)
 step
 #xprate <1.5 << tbc
-    .goto Ashenvale,49.8,67.2
-    .accept 1016 >> 接受元素括号
+    .goto Ashenvale,49.796,67.211
+.target Sentinel Velene Starstrike
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .accept 1016 >>接任务: |cFFFCDC00元素护腕|r
 step
 #xprate <1.5 << tbc
     >>杀死岛上/水中的所有水元素以获得完整元素护腕。当你有5个时，右击占卜卷轴
@@ -2195,16 +2668,22 @@ step
     .complete 1016,1 --Collect Divined Scroll (x1)
 step
 #xprate <1.5 << tbc
-    .goto Ashenvale,49.8,67.2
-    .turnin 1016 >> 交给Elemental Bracers
+    .goto Ashenvale,49.796,67.211
+.target Sentinel Velene Starstrike
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .turnin 1016 >>交任务: |cFF00FF25元素护腕|r
 step
 #xprate <1.5 << tbc
-    .goto Ashenvale,36.6,49.6
-    .turnin 1025 >> 提交攻击性防御
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1025 >>交任务: |cFF00FF25先发制人|r
         .isQuestComplete 1025
 step
     .goto Ashenvale,34.7,48.9
-    .turnin 1008 >> 在Zoram Strand上转弯
+.target Shindrell Swiftfire
+>>与|cFF00FF25Shindrell Swiftfire|r交谈
+    .turnin 1008 >>交任务: |cFF00FF25佐拉姆海岸|r
 step
 #xprate <1.5
     >>杀死暴徒进行侵略性防御
@@ -2216,8 +2695,10 @@ step
     .complete 1025,4 --Kill Foulweald Warrior (x12)
 step
 #xprate <1.5
-    .goto Ashenvale,49.8,67.2
-    .accept 1016 >> 接受元素括号
+    .goto Ashenvale,49.796,67.211
+.target Sentinel Velene Starstrike
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .accept 1016 >>接任务: |cFFFCDC00元素护腕|r
 step
 #xprate <1.5
     >>杀死岛上/水中的所有水元素以获得完整元素护腕。当你有5个时，右击占卜卷轴
@@ -2225,9 +2706,11 @@ step
     .complete 1016,1 --Collect Divined Scroll (x1)
 step
 #xprate <1.5
-    .goto Ashenvale,49.8,67.2
-    .turnin 1016 >> 交给Elemental Bracers
-    .accept 1017 >> 接受法师召唤师 << tbc
+    .goto Ashenvale,49.796,67.211
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .turnin 1016 >>交任务: |cFF00FF25元素护腕|r
+.target Sentinel Velene Starstrike
+    .accept 1017 >>接任务: |cFFFCDC00召唤者|r << tbc
 step << tbc
     .goto The Barrens,49.0,5.3,80,0
     .goto The Barrens,49.0,5.3,0
@@ -2242,14 +2725,16 @@ step << tbc
     .goto The Barrens,50.8,32.6,0
     .deathskip >>在精神治疗师处死亡并重生
 step << tbc
-    .goto The Barrens,49.3,57.1
-    .turnin 1716 >> 交给灵魂吞噬者
-    .accept 1738 >> 接受Heartswood
+    .goto The Barrens,49.307,57.096
+>>与Seer|cFF00FF25Takar交谈
+    .turnin 1716 >>交任务: |cFF00FF25噬魂者|r
+.target Takar the Seer
+    .accept 1738 >>接任务: |cFFFCDC00同心树|r
 step << tbc
     >>跑向棘轮
     .goto The Barrens,63.1,37.2
-    .fp Ratchet >> 获取棘轮飞行路径
-    .fly Astranaar>> 飞往阿斯特拉纳
+    .fp Ratchet >>获取棘轮飞行路径
+    .fly Astranaar>>飞往阿斯特拉纳
 step << tbc
     .goto Ashenvale,39.0,35.9
     .goto Ashenvale,35.9,32.0
@@ -2257,7 +2742,7 @@ step << tbc
 	.unitscan Dal Bloodclaw
     .complete 1054,1 --Collect Dal Bloodclaw's Skull (x1)
 step << Warlock tbc
-    >>抢劫那棵大树
+    >>掠夺那棵大树
     .goto Ashenvale,31.6,31.6
     .complete 1738,1 --Collect Heartswood (x1)
 step << tbc
@@ -2265,120 +2750,79 @@ step << tbc
     .deathskip >>前往穆洛克湖，死在山脚旁，湖的东侧，然后在精神治疗者重生
 step << tbc
 #xprate <1.5
-    .goto Ashenvale,49.8,67.2
-    .turnin 1017 >> 交给法师召唤师
+    .goto Ashenvale,49.796,67.211
+.target Sentinel Velene Starstrike
+>>与|cFF00FF25Sentinel Velene Starstrike交谈|r
+    .turnin 1017 >>交任务: |cFF00FF25召唤者|r
 step
 #xprate <1.5 << tbc
     #completewith next
     .deathskip >>在阿斯特拉纳的精神治疗师那里死去并重生
 step << wotlk !Paladin !Warlock
     #completewith next
-    *If you have money on this server, mail yourself 5g, we'll be buying our mounts soon
+    +如果你在这台服务器上有钱，给自己邮寄5g，我们很快就会购买我们的坐骑
 step
-    .goto Ashenvale,36.6,49.6
-    .turnin 1054 >> 转而消除威胁
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1054 >>交任务: |cFF00FF25解除威胁|r
     .isQuestComplete 1054
 step
-    .goto Ashenvale,36.6,49.6
-    .turnin 1025 >> 提交攻击性防御
+    .goto Ashenvale,36.618,49.581
+.target Raene Wolfrunner
+>>与|cFF00FF25Raene Wolfrunner交谈|r
+    .turnin 1025 >>交任务: |cFF00FF25先发制人|r
     .isQuestComplete 1025
 step
     .goto Ashenvale,34.40,48.00
-    .fly Auberdine>> 飞往奥伯丁
+    .fly Auberdine>>飞往奥伯丁
 step
-    .goto Darkshore,37.7,43.4
-    .turnin 4740 >> 通缉犯：笨蛋！
+#xprate <1.5
+    .goto Darkshore,37.706,43.390
+.target Sentinel Glynda Nal'Shea
+>>与|cFF00FF25Sentinel Glynda Nal'Shea|r交谈
+    .turnin 4740 >>交任务: |cFF00FF25通缉：莫克迪普！|r
+    .isQuestComplete 4740
 step
     .goto Darkshore,38.36,43.07
-    .turnin 1275 >> 转而研究腐败
+.target Gershala Nightwhisper
+>>与|cFF00FF25Gershala夜话|r交谈
+    .turnin 1275 >>交任务: |cFF00FF25研究堕落|r
     .isQuestComplete 1275
 step
     .goto Darkshore,37.5,41.9
-    .turnin 731 >> 交回心不在焉的探矿者
-    .accept 741 >> 接受心不在焉的探矿者
+>>与|cFF00FF25考古学家Hollee|r交谈
+    .turnin 731 >>交任务: |cFF00FF25健忘的勘察员|r
+.target Archaeologist Hollee
+    .accept 741 >>接任务: |cFFFCDC00健忘的勘察员|r
+    .isOnQuest 731
 step
     #completewith next
     .goto Darkshore,33.2,40.2,25,0
     .goto Darkshore,33.2,40.2,0
-    .zone Teldrassil>>乘船去达纳苏斯
+    .zone Teldrassil>>前往: |cFFDB2EEF泰达希尔|r
 step
     #completewith next
     .goto Teldrassil,55.9,89.8
-    .zone Darnassus >> 把紫色大门带到达纳苏斯
-step << NightElf wotlk
-	.goto Darnassus,38.7,15.8
-    .money <4.6
-	.skill riding,75 >> 坐火车，买你的坐骑
-step << Warrior/Rogue
-    .goto Darnassus,64.6,53.0
-    .collect 29009,1 >> 从艾兰德里斯购买一把重型飞刀
+    .zone Darnassus >>前往: |cFFDB2EEF达纳苏斯|r
 step
-    .goto Darnassus,31.2,84.5
-    .turnin 741 >> 交回心不在焉的探矿者
-    .accept 942 >> 接受心不在焉的探矿者
+    .goto Darnassus,31.245,84.508
+>>与|cFF00FF25首席考古学家格雷维瑟交谈|r
+    .turnin 741 >>交任务: |cFF00FF25健忘的勘察员|r
+.target Chief Archaeologist Greywhisker
+    .accept 942 >>接任务: |cFFFCDC00健忘的勘察员|r
+    .isQuestTurnedIn 731
 step
-    .goto Teldrassil,58.4,94.0
+    .goto Darnassus,31.0,41.5,30,0
+    .goto Teldrassil,58.399,94.016
     >>从紫色大门离开达纳苏斯
-    .fp Rut'theran >> 获得Rut'theran Village航线
-    .fly Auberdine>> 飞往奥伯丁
-step << Draenei !Paladin wotlk
-    .goto Darkshore,30.8,41.0,40,0
-	.goto The Exodar,81.18,52.56
-    .money <4.60
-    >> 乘最西边的船去Azuremyst岛
-    .skill riding,75 >>前往Exodar，购买并训练您的坐骑
+    .fp Rut'theran >>获得Rut'theran Village航线
+    .fly Auberdine>>飞往奥伯丁
 step << tbc
     .goto Darkshore,32.4,43.8,30,0
     .goto Darkshore,32.4,43.8,0
-    .zone Wetlands >>乘船去湿地
-step << Draenei tbc/NightElf tbc
-#xprate >1.499
-    .goto Wetlands,9.5,59.7
-    .fp Menethil >> 获取Menethil Harbor航线
-step << Draenei tbc/NightElf tbc
-#xprate >1.499
-    .zone Stormwind City >> 使用网站解锁功能传送到暴风城。此功能具有8小时冷却时间。如果无法正常工作，请跳过此步骤
-    .link https://us.battle.net/support/en/help/product/wow/197/834/solution >> 单击此处并将链接复制粘贴到浏览器中以获取更多信息
-    .zoneskip Elwynn Forest
-
-
-step << Draenei tbc/NightElf tbc
-#xprate >1.499
-   #completewith next
-   .goto Wetlands,63.9,78.6
-   .zone Loch Modan >> 在洞穴后面的蘑菇上注销。当您重新登录时，这会将您传送到Thelsamar。
-   >>确保登出时尽可能靠近洞穴后部。如果你在靠近洞口的蘑菇边缘登出，这个技巧就行不通了。
-   .link https://www.youtube.com/watch?v=21CuGto26Mk >> 单击此处获取参考
-   .zoneskip Elwynn Forest
-   .zoneskip Stormwind City
-step << NightElf tbc/Draenei tbc
-#xprate >1.499
-    .goto Loch Modan,33.9,50.9
-    .fp Thelsamar >> 获取Thelsamar飞行路线
-    .zoneskip Elwynn Forest
-    .zoneskip Stormwind City
-step << NightElf tbc/Draenei tbc
-#xprate >1.499
-    #completewith next
-    .goto Loch Modan,21.30,68.60,40,0
-    .zone Dun Morogh>> 跑到邓莫罗
-step << NightElf tbc/Draenei tbc
-#xprate >1.499
-	>>进入东南特罗格洞穴。执行注销跳过
-    .goto Dun Morogh,70.63,56.70,60,0
-    .goto Dun Morogh,70.60,54.86
-	.link https://www.youtube.com/watch?v=yQBW3KyguCM >> 单击此处
-	.zone Ironforge >> 注销跳过或前往铁炉堡
-step << NightElf tbc/Draenei tbc
-#xprate >1.499
-    .goto Ironforge,76.03,50.98,30,0
-    .zone Stormwind City >> 乘电车去暴风城
+    .zone Wetlands >>前往: |cFFDB2EEF湿地|r
 step << wotlk
-    .zoneskip Darnassus,1
-    .goto Teldrassil,58.4,94.0
-    >>从紫色大门离开达纳苏斯
-step << wotlk
-    .goto Darkshore,32.4,43.8,30,0
-    .goto Darkshore,32.4,43.8,0
-    .zone Stormwind City >>乘船去暴风城
+    .hs >>从火炉到暴风
+
 ]])

@@ -1,6 +1,7 @@
 
 AtlasDB = {
 	["profileKeys"] = {
+		["家駒 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",

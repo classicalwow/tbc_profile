@@ -6,25 +6,25 @@ local HBD = LibStub("HereBeDragons-2.0")
 local HBDPins = LibStub("HereBeDragons-Pins-2.0")
 addon.activeWaypoints = {}
 addon.linePoints = {}
--- local colors = addon.colors
 
 addon.arrowFrame = CreateFrame("Frame", "RXPG_ARROW", UIParent)
 local af = addon.arrowFrame
-addon.activeFrames["arrowFrame"] = af
+addon.enabledFrames["arrowFrame"] = af
+af.IsFeatureEnabled = function ()
+    return not addon.settings.db.profile.disableArrow and (addon.hideArrow ~= nil and not addon.hideArrow)
+end
 
+local chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 af:SetMovable(true)
 af:EnableMouse(1)
 af:SetClampedToScreen(true)
 af:SetSize(32, 32)
 af.texture = af:CreateTexture()
 af.texture:SetAllPoints()
-af.texture:SetTexture(addon.GetTexture("rxp_navigation_arrow-1"))
 -- af.texture:SetScale(0.5)
 af.text = af:CreateFontString(nil, "OVERLAY")
-af.text:SetTextColor(1, 1, 1, 1)
-af.text:SetFont(addon.font, 9,"OUTLINE")
 af.text:SetJustifyH("CENTER")
-af.text:SetJustifyV("CENTER")
+af.text:SetJustifyV("MIDDLE")
 af.text:SetPoint("TOP", af, "BOTTOM", 0, -5)
 af.orientation = 0
 af.distance = 0
@@ -38,6 +38,14 @@ af:SetScript("OnMouseDown", function(self, button)
     if not addon.settings.db.profile.lockFrames and af:GetAlpha() ~= 0 then af:StartMoving() end
 end)
 af:SetScript("OnMouseUp", function(self, button) af:StopMovingOrSizing() end)
+
+function addon.SetupArrow()
+    af.text:SetFont(addon.font, 9,"OUTLINE")
+    af.texture:SetTexture(addon.GetTexture("rxp_navigation_arrow-1"))
+    af.text:SetTextColor(unpack(addon.activeTheme.textColor))
+
+    addon.arrowFrame:SetScript("OnUpdate", addon.UpdateArrow)
+end
 
 function addon.UpdateArrow(self)
 
@@ -74,20 +82,17 @@ function addon.UpdateArrow(self)
             self.distance = dist
             local step = element.step
             if step then
-                self.text:SetText(step.title or
-                                      string.format("Step %d\n(%dyd)",
-                                                    step.index, dist))
+                local title = step.title or ("第 "..step.index.." 步")
+                self.text:SetText(string.format("%s\n(%d码)", title, dist))
             elseif element.title then
-                self.text:SetText(string.format("%s\n(%dyd)",element.title, dist))
+                self.text:SetText(string.format("%s\n(%d码)",element.title, dist))
             else
-                self.text:SetText(string.format("(%dyd)", dist))
+                self.text:SetText(string.format("(%d码)", dist))
             end
         end
     end
 
 end
-
-addon.arrowFrame:SetScript("OnUpdate", addon.UpdateArrow)
 
 -- The Frame Pool that will manage pins on the world and mini map
 -- You must use a frame pool to aquire and release pin frames,
@@ -113,8 +118,7 @@ MapPinPool.creationFunc = function(framePool)
 
     -- Styling
     f:SetBackdrop({
-        bgFile = "Interface\\Addons\\" .. addonName ..
-            "\\Textures\\white_circle",
+        bgFile = addon.GetTexture("white_circle"),
         insets = {left = 0, right = 0, top = 0, bottom = 0}
     })
     f:SetWidth(0)
@@ -127,8 +131,7 @@ MapPinPool.creationFunc = function(framePool)
     f.inner = CreateFrame("Button", nil, f,
                           BackdropTemplateMixin and "BackdropTemplate")
     f.inner:SetBackdrop({
-        bgFile = "Interface\\Addons\\" .. addonName ..
-            "\\Textures\\map_active_step_target_icon",
+        bgFile = addon.GetTexture("map_active_step_target_icon"),
         insets = {left = 0, right = 0, top = 0, bottom = 0}
     })
     f.inner:SetPoint("CENTER", 0, 0)
@@ -232,7 +235,7 @@ MapPinPool.creationFunc = function(framePool)
                     text = element.mapTooltip or element.tooltipText
                 end
                 text = text or step.text or ""
-                _G.GameTooltip:AddLine("Step " .. step.index,
+                _G.GameTooltip:AddLine("第 "..step.index.." 步",
                                        unpack(addon.colors.mapPins))
                 _G.GameTooltip:AddLine(text)
             end
@@ -285,7 +288,7 @@ MapLinePool.creationFunc = function(framePool)
 
     f.render = function(self, coords, isMiniMapPin)
 
-        local thickness = 3
+        local thickness = coords.linethickness or 3
         local alpha = coords.lineAlpha or 1
         self:SetAlpha(alpha)
         local canvas = _G.WorldMapFrame:GetCanvas()
@@ -433,7 +436,11 @@ local function generatePins(steps, numPins, startingIndex, isMiniMap)
     for _, step in pairs(activeSteps) do GetNumPins(step) end
 
     for i = RXPCData.currentStep + 1, RXPCData.currentStep + numPins do
-        GetNumPins(addon.currentGuide.steps[i])
+        local step = addon.currentGuide.steps[i]
+        GetNumPins(step)
+        if step.centerPins then
+            numActive = numActive + #step.centerPins
+        end
     end
 
     if numPins < numActive then numPins = numActive end
@@ -453,8 +460,16 @@ local function generatePins(steps, numPins, startingIndex, isMiniMap)
         -- If it is far enough away, we add a new pin to the map.
         local j = 1;
         local n = 0;
-        while numActivePins < numPins and j <= #step.elements do
-            local element = step.elements[j]
+        local nCenter = step.centerPins and #step.centerPins or 0
+        local nElements = #step.elements
+        while numActivePins < numPins and j <= nElements + nCenter do
+            local element
+            if j > nCenter then
+                element = step.elements[j-nCenter]
+            else
+                element = step.centerPins[j]
+                print('c1',element.x,element.y)
+            end
 
             local skipWp = not(element.zone and element.x)
             if not element.wpHash and not skipWp then
@@ -543,7 +558,7 @@ local function generateLines(steps, numPins, startingIndex, isMiniMap)
     local function GetNumPins(step)
         if step then
             for _, element in pairs(step.elements) do
-                if element.zone and (element.wx or element.segments) then
+                if element.zone and (element.segments) then
                     numActive = numActive + 1
                 end
             end
@@ -562,7 +577,9 @@ local function generateLines(steps, numPins, startingIndex, isMiniMap)
 
     local function ProcessLine(step)
         if not step then return end
+        step.centerPins = {}
         local function InsertLine(element, sX, sY, fX, fY, lineAlpha)
+            local thickness = tonumber(element.step and step.linethickness)
             table.insert(pins, {
                 element = element,
                 zone = element.zone,
@@ -570,18 +587,46 @@ local function generateLines(steps, numPins, startingIndex, isMiniMap)
                 sY = sY,
                 fX = fX,
                 fY = fY,
-                lineAlpha = lineAlpha
+                lineAlpha = lineAlpha,
+                linethickness = thickness or element.thickness or 3
             })
         end
 
+        local centerX, centerY, nEdges = 0,0,0
         local j = 1
         local n = 0
+
+        local function AddPoint(x,y,element,flags,...)
+            local wx, wy, instance =
+                HBD:GetWorldCoordinatesFromZone(x/100, y/100,
+                                                element.zone)
+            local point = {
+                x = x,
+                y = y,
+                wx = wx,
+                wy = wy,
+                instance = instance,
+                zone = element.zone,
+                anchor = element,
+                range = element.range,
+                generated = flags,
+                step = step,
+                parent = element.parent
+            }
+            point.wpHash = GetPinHash(x,y,element.zone,n)
+            n = n + 1
+            local tableList = {...}
+            for _,tbl in pairs(tableList) do
+                table.insert(tbl, point)
+            end
+        end
+
         while numActivePins < numPins and j <= #step.elements do
             local element = step.elements[j]
 
             local nPoints = element.segments and
                                 math.floor(#element.segments / 2)
-
+            local nSegments = element.segments and #element.segments
             if element.zone and nPoints and
                 (not (element.parent and
                     (element.parent.completed or element.parent.skip)) and
@@ -589,14 +634,17 @@ local function generateLines(steps, numPins, startingIndex, isMiniMap)
                 for i = 1, nPoints * 2, 2 do
                     local sX = (element.segments[i])
                     local sY = (element.segments[i + 1])
-                    local fX = (element.segments[i + 2])
-                    local fY = (element.segments[i + 3])
+                    local fX = (element.segments[(i + 1) % nSegments + 1])
+                    local fY = (element.segments[(i + 2) % nSegments + 1])
 
                     if sX and sY and fX and fY then
                         if sX < 0 and sY < 0 then
                             -- Dashed line if start x/y coordinates are negative
                             sX, sY, fX, fY = math.abs(sX), math.abs(sY),
                                              math.abs(fX), math.abs(fY)
+                            centerX = centerX + sX
+                            centerY = centerY + sY
+                            nEdges = nEdges + 1
                             -- local distMod = 1.75
                             local length = math.sqrt(
                                                (fX - sX) ^ 2 + (fY - sY) ^ 2) *
@@ -622,30 +670,20 @@ local function generateLines(steps, numPins, startingIndex, isMiniMap)
                         else
                             sX, sY, fX, fY = math.abs(sX), math.abs(sY),
                                              math.abs(fX), math.abs(fY)
+                            centerX = centerX + sX
+                            centerY = centerY + sY
+                            nEdges = nEdges + 1
                             InsertLine(element, sX, sY, fX, fY, 1)
                         end
                         if element.showArrow and step.active then
-                            local x, y = sX / 100, sY / 100
-                            local wx, wy, instance =
-                                HBD:GetWorldCoordinatesFromZone(x, y,
-                                                                element.zone)
-                            local point = {
-                                x = x,
-                                y = y,
-                                wx = wx,
-                                wy = wy,
-                                instance = instance,
-                                zone = element.zone,
-                                anchor = element,
-                                range = element.range,
-                                generated = true
-                            }
-                            point.wpHash = GetPinHash(x,y,element.zone,n)
-                            n = n + 1
-                            table.insert(addon.linePoints, point)
-                            table.insert(addon.activeWaypoints, point)
+                            AddPoint(sX,sY,element,1,addon.linePoints,addon.activeWaypoints)
                         end
                     end
+                end
+                if element.drawCenterPoint and step.active and centerX ~= 0 and centerY then
+                    centerX = centerX/nEdges
+                    centerY = centerY/nEdges
+                    AddPoint(centerX,centerY,element,1,step.centerPins)
                 end
             end
 
@@ -726,7 +764,7 @@ local function addMiniMapPins(pins)
     end
 end
 
-local corpseWP = {title = "Corpse", generated = true, wpHash = 0}
+local corpseWP = {title = "Corpse", generated = 1, wpHash = 0}
 -- Updates the arrow
 
 local function updateArrow()
@@ -737,12 +775,13 @@ local function updateArrow()
             table.insert(lowPrioWPs, element)
             return
         end
-        if element.generated or (element.arrow and element.step.active and
+        local generated = element.generated or 0
+        if (bit.band(generated,0x1) == 0x1) or (element.arrow and element.step.active and
             not (element.parent and
                 (element.parent.completed or element.parent.skip)) and
             not (element.text and (element.completed or isComplete) and
                 not isComplete)) then
-            af:SetShown(not addon.settings.db.profile.disableArrow and not addon.hideArrow and addon.settings.db.profile.minimap.show)
+            af:SetShown(not addon.settings.db.profile.disableArrow and not addon.hideArrow and addon.settings.db.profile.showEnabled)
             af.dist = 0
             af.orientation = 0
             af.element = element
@@ -755,7 +794,7 @@ local function updateArrow()
         not (addon.QuestAutoTurnIn(3912) or addon.QuestAutoAccept(3913)) then
         local skip
         for i,element in pairs(addon.activeWaypoints) do
-            skip = skip or (not element.textOnly and addon.currentGuide.name == "41-43 Badlands")
+            skip = skip or (element.step and element.step.ignorecorpse) or (not element.textOnly and addon.currentGuide.name == "41-43 Badlands")
         end
         local zone = HBD:GetPlayerZone()
         local corpse = C_DeathInfo.GetCorpseMapPosition(zone)
@@ -782,6 +821,16 @@ local function updateArrow()
     af:Hide()
 end
 
+function addon.ResetArrowPosition()
+    addon.settings.db.profile.disableArrow = false
+    if not addon.settings.db.profile.showEnabled then
+        addon.settings.ToggleActive()
+    end
+    af:ClearAllPoints()
+    af:SetPoint("CENTER", 0, 200)
+    updateArrow()
+end
+
 -- Removes all pins from the map and mini map and resets all data structrures
 local currentPoint
 local lastPoint
@@ -803,8 +852,8 @@ function addon.UpdateMap()
     lastMap = nil
     resetMap()
     addWorldMapPins()
-    addMiniMapPins()
     addWorldMapLines()
+    addMiniMapPins()
     updateArrow()
 end
 
@@ -836,19 +885,11 @@ function addon.UpdateGotoSteps()
     local minDist
     local zone = C_Map.GetBestMapForUnit("player")
     local x, y, instance = HBD:GetPlayerWorldPosition()
-    if af.element and af.element.instance ~= instance then hideArrow = true end
+    if af.element and af.element.instance ~= instance and instance ~= -1 then hideArrow = true end
     for i, element in ipairs(addon.activeWaypoints) do
         if element.step and element.step.active then
 
-            if element.tag == "groundgoto" and not element.skip and
-                                 IsFlyableArea() and addon.GetSkillLevel("riding") >= 225 and
-                                 zone == element.zone and (not addon.game == "WOTLK" or
-                                 instance ~= addon.mapId["Northrend"] or IsPlayerSpell(54197)) then
-                --forceArrowUpdate = forceArrowUpdate or not element.skip
-                element.skip = true
-                addon.updateMap = true
-                return
-            elseif (element.radius or element.dynamic) and element.arrow and
+            if (element.radius or element.dynamic) and element.arrow and
                 not (element.parent and
                     (element.parent.completed or element.parent.skip) and
                     not element.parent.textOnly) and not element.skip then

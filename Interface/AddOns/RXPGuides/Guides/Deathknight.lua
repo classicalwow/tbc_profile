@@ -1,25 +1,28 @@
+local _, class = UnitClass("player")
+if class ~= "DEATHKNIGHT" then return end
+
 RXPGuides.RegisterGuide([[
-#version 5
+#version 6
 #wotlk
-
 << DK
-#group RestedXP 死亡骑士 Start
-
+#group RestedXP死亡骑士开始
 #next RestedXP 联盟 60-70\59-61 地狱火半岛 << Alliance
 #next RestedXP 部落 60-70\59-61 地狱火半岛 << Horde
-
-
 #defaultfor DK
 #name 55-58 东瘟疫之地:血色领地
+
 step
     .goto ScarletEnclave,51.3,35.1
-    .accept 12593 >>接受巫妖王的服务
---X Needs next guide depending on ally/horde
+.target The Lich King
+>>与|cFF00FF25巫妖王|r交谈
+    .accept 12593 >>接任务: |cFFFCDC00为巫妖王而战|r
 step
     .goto ScarletEnclave,48.3,28.2
 	>>与Razuvious教练交谈以提交您的任务
-    .turnin 12593 >>为巫妖王服务
-    .accept 12619 >>接受印有徽标的Runeblade
+>>与|cFF00FF25讲师Razuvious|r交谈
+    .turnin 12593 >>交任务: |cFF00FF25为巫妖王而战|r
+.target Instructor Razuvious
+    .accept 12619 >>接任务: |cFFFCDC00符文之剑|r
 step
     .goto ScarletEnclave,46.8,29.1,40,0
     .goto ScarletEnclave,48.1,27.9,40,0
@@ -31,22 +34,26 @@ step
     .collect 38607,1,12619,1 --Battle-Worn Sword (1)
 step
     .goto ScarletEnclave,47.9,27.6
-	.use 38607 >> 前往Runeforge。点击你包里的战斗佩剑，使其成为一把Runeblade剑
+	.use 38607 >>前往Runeforge。点击你包里的战斗佩剑，使其成为一把Runeblade剑
     .complete 12619,1 --Runebladed Sword (1)
 step
     .goto ScarletEnclave,48.3,28.2
 	>>返回Razuvious
-    .turnin 12619 >>交上印有花纹的Runeblade
-    .accept 12842 >>接受逃跑：准备战斗
+>>与|cFF00FF25讲师Razuvious|r交谈
+    .turnin 12619 >>交任务: |cFF00FF25符文之剑|r
+.target Instructor Razuvious
+    .accept 12842 >>接任务: |cFFFCDC00符文熔铸：战争的准备|r
 step
     .goto ScarletEnclave,47.9,27.5
-	>>前往Runeforge。在你的魔法书中点击Runeforging并将其拖到你的栏上。对你的新武器应用一个附魔
+	>>前往Runeforge。单击你的拼写书中的Runeforging并将其拖到你的栏上。将其中一个附魔应用于你包中的符文魂刃
     .complete 12842,1 --Weapon emblazoned (1)
 step
     .goto ScarletEnclave,48.3,28.2
 	>>返回Razuvious
-    .turnin 12842 >>上缴Runeforging：准备战斗
-    .accept 12848 >>接受无尽的饥饿
+>>与|cFF00FF25讲师Razuvious|r交谈
+    .turnin 12842 >>交任务: |cFF00FF25符文熔铸：战争的准备|r
+.target Instructor Razuvious
+    .accept 12848 >>接任务: |cFFFCDC00无尽的饥渴|r
 step
     .goto ScarletEnclave,48.4,29.0
 	.use 40732 >>到房间中间去。点击其中一个Acherus灵魂监狱，将无名小卒链接到墙上与他们战斗。在等待RP时跑回Razuvious，死亡将他们紧紧地抓住了他。杀了它
@@ -54,56 +61,71 @@ step
 step
     .goto ScarletEnclave,48.3,28.2
 	>>返回Razuvious
-    .turnin 12848 >>交出无尽的饥饿
-    .accept 12636 >>接受阿舍罗斯之眼
+>>与|cFF00FF25讲师Razuvious|r交谈
+    .turnin 12848 >>交任务: |cFF00FF25无尽的饥渴|r
+.target Instructor Razuvious
+    .accept 12636 >>接任务: |cFFFCDC00阿彻鲁斯之眼|r
+step
+    .goto ScarletEnclave,48.67,32.77
+    >>与卡尔洛夫交谈。从他那里买4块尸尘
+    .collect 37201,4 --Corpse Dust (4)
+    .isOnQuest 12636
 step
     .goto ScarletEnclave,51.3,35.1
 	>>返回巫妖王
-    .turnin 12636 >>交给阿舍罗斯的眼睛
-    .accept 12641 >>接受死亡来自高空
+>>与|cFF00FF25巫妖王|r交谈
+    .turnin 12636 >>交任务: |cFF00FF25阿彻鲁斯之眼|r
+.target The Lich King
+    .accept 12641 >>接任务: |cFFFCDC00天降厄运|r
 step
 	#label dkeyes
 	#completewith next
     .goto ScarletEnclave,51.1,36.2
     .goto ScarletEnclave,61.5,60.6,0
 	>>点击巫妖王左边或右边的眼睛
-	>>使用“Acherus虹吸”（1）分析锻造。使用“裹尸布”（3）以避免受到血腥暴徒的伤害。
+	>>使用“Acherus虹吸管”(1)分析锻件。使用“裹尸布”(3)以避免受到血腥暴徒的伤害。
     .complete 12641,1 --New Avalon Forge Analyzed (1)
 step
     .goto ScarletEnclave,61.7,68.2,0
-	>>使用“Acherus虹吸”（1）来分析Hold。使用“裹尸布”（3）以避免受到血腥暴徒的伤害。
+	>>使用“Acherus虹吸”(1)来分析Hold。使用“裹尸布”(3)以避免受到血腥暴徒的伤害。
     .complete 12641,3 --Scarlet Hold Analyzed (1)
 step
     .goto ScarletEnclave,53.4,70.7,0
-	>>使用“Acherus虹吸”（1）分析市政厅。使用“裹尸布”（3）以避免受到血腥暴徒的伤害。
+	>>使用“Acherus虹吸”(1)分析市政厅。使用“裹尸布”(3)以避免受到血腥暴徒的伤害。
     .complete 12641,2 --New Avalon Town Hall Analyzed (1)
 step
     .goto ScarletEnclave,52.2,80.7,0
-	>>使用“阿切鲁斯虹吸管”（1）来分析教堂。使用“裹尸布”（3）以避免受到血腥暴徒的伤害。
+	>>使用“阿切鲁斯虹吸管”(1)来分析教堂。使用“裹尸布”(3)以避免受到血腥暴徒的伤害。
     .complete 12641,4 --Chapel of the Crimson Flame Analyzed (1)
 --X NEED A NEW COMMAND FOR THESE PREVIOUS 4 STEPS
 step
 	#completewith next
- 	+完成后，按取消或（4）返回Ebon Hold
+ 	+完成后，按取消或(4)返回Ebon Hold
 step
 	#requires dkeyes
     .goto ScarletEnclave,51.3,35.3
 	>>返回巫妖王
-    .turnin 12641 >>死亡来自高空
-    .accept 12657 >>接受天灾的力量
+>>与|cFF00FF25巫妖王|r交谈
+    .turnin 12641 >>交任务: |cFF00FF25天降厄运|r
+.target The Lich King
+    .accept 12657 >>接任务: |cFFFCDC00天灾的力量|r
 step
 	#completewith next
     .goto ScarletEnclave,50.5,33.4,10 >>跑进紫色大门
 step
-    .goto ScarletEnclave,48.9,29.8
+    .goto ScarletEnclave,48.871,29.739
 	>>与底层房间中间的Darion交谈
-    .turnin 12657 >>交出天灾的力量
-    .accept 12850 >>接受向天灾指挥官塔拉诺的报告
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 12657 >>交任务: |cFF00FF25天灾的力量|r
+.target Highlord Darion Mograine
+    .accept 12850 >>接任务: |cFFFCDC00向天灾指挥官萨拉诺尔报到|r
 step
     .goto ScarletEnclave,51.0,34.6
 	>>与你目前所在楼层的天灾指挥官塔拉诺交谈
-    .turnin 12850 >>向天灾指挥官塔拉诺提交报告
-    .accept 12670 >>接受鲜红的收获
+>>与|cFF00FF25Scourge指挥官Thalanor交谈
+    .turnin 12850 >>交任务: |cFF00FF25向天灾指挥官萨拉诺尔报到|r
+.target Scourge Commander Thalanor
+    .accept 12670 >>接任务: |cFFFCDC00血色收割|r
 step
 	#completewith next
     .goto ScarletEnclave,52.0,35.0
@@ -111,28 +133,38 @@ step
 step
     .goto ScarletEnclave,52.3,33.9
 	>>与瓦拉纳王子交谈
-    .turnin 12670 >>《血色丰收》上映
-    .accept 12678 >>接受混乱的驱使，让痛苦控制缰绳
+>>与|cFF00FF25Prince Valanar|r交谈
+    .turnin 12670 >>交任务: |cFF00FF25血色收割|r
+.target Prince Valanar
+    .accept 12678 >>接任务: |cFFFCDC00混乱战车，苦痛驭之|r
 step
 	#completewith next
     .goto ScarletEnclave,53.2,33.5,0
     .goto ScarletEnclave,51.4,36.1,0
 	>>与在路上巡逻的Salanar交谈
-    .accept 12680 >>接受Grand Theft Palomino
+.target Salanar the Horseman
+>>与|cFF00FF25Salanar骑士交谈|r
+    .accept 12680 >>接任务: |cFFFCDC00阿彻鲁斯战马|r
 step
     .goto ScarletEnclave,54.5,34.2
 	>>在尸体坑与奥尔伦交谈
-    .accept 12733 >>接受死亡的挑战
+.target Olrun the Battlecaller
+>>与|cFF00FF25Olrun the Battlecaller|r交谈
+    .accept 12733 >>接任务: |cFFFCDC00死亡的挑战|r
 step
     .goto ScarletEnclave,53.2,33.5,30,0
     .goto ScarletEnclave,51.4,36.1
 	>>与在路上巡逻的Salanar交谈
-    .accept 12680 >>接受Grand Theft Palomino
+.target Salanar the Horseman
+>>与|cFF00FF25Salanar骑士交谈|r
+    .accept 12680 >>接任务: |cFFFCDC00阿彻鲁斯战马|r
 step
     .goto ScarletEnclave,53.7,36.3,50,0
     .goto ScarletEnclave,52.1,38.2
-	>>与Orithos（巡逻骷髅弓箭手）交谈
-    .accept 12679 >>接受今晚我们在Havenshire吃饭
+	>>与Orithos(巡逻骷髅弓箭手)交谈
+.target Orithos the Sky Darkener
+>>与|cFF00FF25Orithos the Sky Darkener|r交谈
+    .accept 12679 >>接任务: |cFFFCDC00今夜，我们在海文郡欢宴！|r
 step
 	#completewith next
     .goto ScarletEnclave,55.6,51.4
@@ -146,30 +178,34 @@ step
 	.vehicle >>偷任何Havenshire马。小心马厩主人基特里克在马区巡逻，因为他是精英
 step
     .goto ScarletEnclave,52.4,34.3
-	>>把偷来的马还给死神之怒。在冷却时使用“Gallop”（2）加速跑步。使用“交付被盗马匹”（1）返还
+	>>把偷来的马还给死神之怒。在冷却时使用“Gallop”(2)加速跑步。使用“交付被盗马匹”(1)返还
     .complete 12680,1 --Horse Successfully Stolen (1)
 step
     .goto ScarletEnclave,53.2,33.5,30,0
     .goto ScarletEnclave,51.4,36.1
 	>>与在路上巡逻的Salanar交谈
-    .turnin 12680 >>移交Grand Theft Palomino
-    .accept 12687 >>接受进入阴影王国
+>>与|cFF00FF25Salanar骑士交谈|r
+    .turnin 12680 >>交任务: |cFF00FF25阿彻鲁斯战马|r
+.target Salanar the Horseman
+    .accept 12687 >>接任务: |cFFFCDC00进入暗影界|r
 step
 	#completewith next
     .goto ScarletEnclave,54.6,46.4
     .vehicle >>杀死一个黑暗骑士阿舍罗斯。杀了他后，骑上他的死亡充电器
 step
     .goto ScarletEnclave,52.4,34.7
-	>>将Acherus死亡充电器返回死亡违约。使用“骑士召唤”（1）返回。
+	>>将Acherus死亡充电器返回死亡违约。使用“骑士召唤”(1)返回。
     .complete 12687,1 --The Horseman's Challenge (1)
 step
     .goto ScarletEnclave,53.2,33.5,30,0
     .goto ScarletEnclave,51.4,36.1
 	>>与在路上巡逻的Salanar交谈
-    .turnin 12687 >>转入阴影王国
+.target Salanar the Horseman
+>>与|cFF00FF25Salanar骑士交谈|r
+    .turnin 12687 >>交任务: |cFF00FF25进入暗影界|r
 step
 	#completewith next
-	.cast 48778 >> 进入你的角色面板（C），然后进入集合选项卡。召唤你的弓箭手死亡充电器，然后将其绑定到你的栏中
+	.cast 48778 >>进入你的角色面板(C)，然后进入集合选项卡。召唤你的弓箭手死亡充电器，然后将其绑定到你的栏中
 step
 	#completewith Mailbox
     .goto ScarletEnclave,55.6,51.4,0
@@ -201,24 +237,28 @@ step
     .complete 12733,1 --Death Knights defeated in a duel (5)
 	.skipgossip
 step
-    .goto ScarletEnclave,54.5,34.5
-    .turnin 12733 >>提交死亡挑战
-	.isQuestComplete 12733
-step
 	#requires Citizens
 	>>骑马回到死亡的缺口
-    .turnin 12679 >>我们今晚在Havenshire吃饭
+.target Orithos the Sky Darkener
+>>与|cFF00FF25Orithos the Sky Darkener|r交谈
+    .turnin 12679 >>交任务: |cFF00FF25今夜，我们在海文郡欢宴！|r
     .goto ScarletEnclave,53.3,36.8
-    .turnin 12733 >>提交死亡挑战
+.target Olrun the Battlecaller
+>>与|cFF00FF25Olrun the Battlecaller|r交谈
+    .turnin 12733 >>交任务: |cFF00FF25死亡的挑战|r
     .goto ScarletEnclave,54.5,34.5
-    .turnin 12678 >>如果混乱不断，就上缴，让苦难控制缰绳
-    .accept 12697 >>接受收割机Gothik
-    .goto ScarletEnclave,52.3,34.0
+>>与|cFF00FF25Prince Valanar|r交谈
+    .turnin 12678 >>交任务: |cFF00FF25混乱战车，苦痛驭之|r
+.target Prince Valanar
+    .accept 12697 >>接任务: |cFFFCDC00收割者戈提克|r
+    .goto ScarletEnclave,52.273,33.967
 step
     .goto ScarletEnclave,54.0,35.0
 	>>与收割机Gothik交谈
-    .turnin 12697 >>收割机Gothik
-    .accept 12698 >>接受不断给予的礼物
+>>与|cFF00FF25Gothic the Harvester交谈|r
+    .turnin 12697 >>交任务: |cFF00FF25收割者戈提克|r
+.target Gothik the Harvester
+    .accept 12698 >>接任务: |cFFFCDC00收割者的礼物|r
 step
 	#completewith next
 	.use 39253
@@ -230,30 +270,34 @@ step
 	.goto ScarletEnclave,54.1,34.9
 	>>死亡决裂时将所有5个食尸鬼送回戈提克
     .complete 12698,1 --Scarlet Ghoul Returned (5)
-    .turnin 12698 >>交上不断给予的礼物
-    .accept 12700 >>接受机会的攻击
+    .turnin 12698 >>交任务: |cFF00FF25收割者的礼物|r
+    .accept 12700 >>接任务: |cFFFCDC00伺机待发|r
 step
-    .goto ScarletEnclave,52.3,34.0
+    .goto ScarletEnclave,52.273,33.967
 	>>返回瓦拉纳
-    .turnin 12700 >>交出机会攻击
-    .accept 12701 >>在光明点接受屠杀
+>>与|cFF00FF25Prince Valanar|r交谈
+    .turnin 12700 >>交任务: |cFF00FF25伺机待发|r
+.target Prince Valanar
+    .accept 12701 >>接任务: |cFFFCDC00炮轰圣光哨站|r
 step
     .goto ScarletEnclave,60.2,32.7,40,0
     .goto ScarletEnclave,63.5,32.3,20,0
     .goto ScarletEnclave,67.7,39.1
-    >>跑过矿井，从山上下来，走到Light’s Point Tower后面。在那里下山，然后跑到船上。避开你看到的所有非矿工暴徒。如果你死了，等待瓦尔基尔施压（不要释放灵魂）
-	>>一旦你到了船上，进入一门血色大炮。垃圾邮件“血色大炮”（1）杀死血色卫士。如果血色卫士开始近战攻击加农炮，使用“电磁脉冲”（2）
+    >>跑过矿井，从山上下来，走到Light’s Point Tower后面。在那里下山，然后跑到船上。避开你看到的所有非矿工暴徒。如果你死了，等待瓦尔基尔施压(不要释放灵魂)
+	>>一旦你到了船上，进入一门血色大炮。垃圾邮件“血色大炮”(1)杀死血色卫士。如果血色卫士开始近战攻击加农炮，使用“电磁脉冲”(2)
     .complete 12701,1 --Scarlet Defender (100)
 step
 	#completewith next
-	.vehicle >> 当你杀死了所有100名防御者后，使用“骷髅鹰头逃脱”（3）返回死神之手
+	.vehicle >>当你杀死了所有100名防御者后，使用“骷髅鹰头逃脱”(3)返回死神之手
 step
     .goto ScarletEnclave,52.3,34.1
 	>>返回瓦拉纳
-    .turnin 12701 >>在光点上发动屠杀
-    .accept 12706 >>接受死亡的胜利！
+>>与|cFF00FF25Prince Valanar|r交谈
+    .turnin 12701 >>交任务: |cFF00FF25炮轰圣光哨站|r
+.target Prince Valanar
+    .accept 12706 >>接任务: |cFFFCDC00死亡裂口大捷！|r
 step << skip
-    .hs >> Hearth back to Acherus（您的Hearth在此处自动设置）
+    .hs >>炉背 to Acherus(您的Hearth在此处自动设置)
 --X Flight timer is 15s on retail, so i think its slightly faster. Didn't get a hearthstone on my retail run either
 step << skip
 	#completewith next
@@ -261,19 +305,25 @@ step << skip
 step
 	#completewith next
     .goto ScarletEnclave,53.1,32.5
-	.fly >> 把一只天灾鹰头狮带回阿彻鲁斯
+	.fly >>把一只天灾鹰头狮带回阿彻鲁斯
 step
     .goto ScarletEnclave,48.9,29.9
 	>>返回Darion Mograine
-    .turnin 12706 >>死而复生！
-    .accept 12714 >>接受巫妖王的意志
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 12706 >>交任务: |cFF00FF25死亡裂口大捷！|r
+.target Highlord Darion Mograine
+    .accept 12714 >>接任务: |cFFFCDC00巫妖王的意志|r
 step
-    .goto ScarletEnclave,47.5,26.5
-	.turnin 12849 >>交出血、霜和邪恶的力量
-	.trainer >> 训练你的职业咒语
+    .goto ScarletEnclave,47.472,26.550
+.target Lord Thorval
+>>与|cFF00FF25Lord Thorval|r交谈
+	.turnin 12849 >>交任务: |cFF00FF25鲜血、冰霜与邪恶的力量|r
+	.trainer >>训练你的职业技能
 step
-    .goto ScarletEnclave,47.5,26.5
-	.turnin 12849 >>交出血、霜和邪恶的力量
+    .goto ScarletEnclave,47.472,26.550
+.target Lord Thorval
+>>与|cFF00FF25Lord Thorval|r交谈
+	.turnin 12849 >>交任务: |cFF00FF25鲜血、冰霜与邪恶的力量|r
 step
 	#completewith next
 .goto ScarletEnclave,52.1,35.0
@@ -281,27 +331,35 @@ step
 step
     .goto ScarletEnclave,53.4,36.5
 	>>与瓦拉纳交谈。他已经搬到山边了
-    .turnin 12714 >>交出巫妖王的意志
-    .accept 12715 >>接受记忆之墓
+>>与|cFF00FF25Prince Valanar|r交谈
+    .turnin 12714 >>交任务: |cFF00FF25巫妖王的意志|r
+.target Prince Valanar
+    .accept 12715 >>接任务: |cFFFCDC00追忆墓穴|r
 step
     .goto ScarletEnclave,52.9,35.2
-    >> 购买40具尸尘
+    >>购买40具尸尘
     .collect 37201,40
 step
     .goto ScarletEnclave,55.3,46.2
 	>>单击邮箱上的信件
-    .turnin 12711 >>交出放弃的邮件
+    .turnin 12711 >>交任务: |cFF00FF25被遗弃的信件|r
 step
     .goto ScarletEnclave,55.8,52.4
 	>>在大锅前的田野里与诺思交谈
-    .accept 12716 >>接受瘟疫使者的请求
+.target Noth the Plaguebringer
+>>与|cFF00FF25Noth the Plaguebringer|r交谈
+    .accept 12716 >>接任务: |cFFFCDC00药剂师的要求|r
 step
     .goto ScarletEnclave,53.9,58.1,15,0
 	>>直奔记忆之墓的底部
-    .turnin 12715 >>交出记忆的墓穴
-    .accept 12719 >>无处可跑，无处可藏
+>>与|cFF00FF25Prince Keleseth|r交谈
+    .turnin 12715 >>交任务: |cFF00FF25追忆墓穴|r
+.target Prince Keleseth
+    .accept 12719 >>接任务: |cFFFCDC00无路可逃，无处可藏|r
     .goto ScarletEnclave,54.3,57.4
-    .accept 12722 >>接受羔羊屠宰
+.target Baron Rivendare
+>>与|cFF00FF25Baron Rivendare|r交谈
+    .accept 12722 >>接任务: |cFFFCDC00羊入虎口|r
     .goto ScarletEnclave,54.6,57.4
 step
 	#completewith next
@@ -311,7 +369,7 @@ step
     .complete 12722,1 --Scarlet Crusade Soldier (10)
 step
     .goto ScarletEnclave,53.1,71.1,20,0
-	>>进入市政厅，杀死昆比市长。抢劫他旁边桌子上的书
+	>>进入市政厅，杀死昆比市长。掠夺他旁边桌子上的书
     .complete 12719,1 --Mayor Quimby (1)
     .goto ScarletEnclave,52.2,71.2
     .complete 12719,2 --New Avalon Registry (1)
@@ -319,22 +377,24 @@ step
 step
     .goto ScarletEnclave,53.9,58.1,15,0
 	>>骑马回到地穴
-    .turnin 12719 >>无处可跑，无处可藏
-    .accept 12720 >>接受如何赢得朋友和影响敌人
+>>与|cFF00FF25Prince Keleseth|r交谈
+    .turnin 12719 >>交任务: |cFF00FF25无路可逃，无处可藏|r
+.target Prince Keleseth
+    .accept 12720 >>接任务: |cFFFCDC00说服者|r
     .goto ScarletEnclave,54.3,57.4
 step
 	#completewith Dawn
-	>>杀死新阿瓦隆市民和血腥十字军暴徒。抢劫他们的头骨
+	>>杀死新阿瓦隆市民和血腥十字军暴徒。掠夺他们的头骨
     .complete 12716,3 --Crusader Skull (10)
     .complete 12722,2 --Citizen of New Avalon (15)
     .complete 12722,1 --Scarlet Crusade Soldier (10)
 step
     .goto ScarletEnclave,62.0,60.3
-	>>抢劫铁匠内部墙上的链条
+	>>掠夺铁匠内部墙上的链条
     .complete 12716,2 --Iron Chain (1)
 step
     .goto ScarletEnclave,57.8,61.8
-	>>抢劫客栈地下室的大锅
+	>>掠夺客栈地下室的大锅
     .complete 12716,1 --Empty Cauldron (1)
 step
 	#completewith next
@@ -344,7 +404,7 @@ step
 step
 	#label Dawn
     .goto ScarletEnclave,62.4,68.2
-	>>装备Keleseth的劝导器，攻击血腥暴徒-继续杀戮他们，直到有人告诉你什么（当目标完成时，他们会变得中立）
+	>>装备Keleseth的劝导器，攻击血腥暴徒-继续杀戮他们，直到有人告诉你什么(当目标完成时，他们会变得中立)
     .complete 12720,1 --"Crimson Dawn" Revealed (1)
 step
 	#completewith Soldiers
@@ -374,47 +434,56 @@ step
     .complete 12716,3 --Crusader Skull (10)
 step
 	>>先和瘟疫使者诺思谈谈，然后再和大酒馆谈谈
-    .turnin 12716 >>提交瘟疫制造者的请求
-    .accept 12717 >>接受诺思特酿
-    .goto ScarletEnclave,55.9,52.4
-    .turnin 12717 >>加入诺思特酿
+>>与|cFF00FF25Noth the Plaguebringer|r交谈
+    .turnin 12716 >>交任务: |cFF00FF25药剂师的要求|r
+.target Noth the Plaguebringer
+    .accept 12717 >>接任务: |cFFFCDC00诺斯的特殊药剂|r
+    .goto ScarletEnclave,55.893,52.400
+    .turnin 12717 >>交任务: |cFF00FF25诺斯的特殊药剂|r
     .goto ScarletEnclave,56.2,52.0
 step
-	#completewith next
-    .goto ScarletEnclave,56.2,52.0,0
-	>>如果你有20多个头骨，再次点击坩埚，了解更多诺思特酿。把它们绑在你的酒吧里
-	.turnin 12718 >>多交头骨酿酒
+    .goto ScarletEnclave,56.2,52.0
+	>>再次点击大锅，了解更多诺思特酿啤酒
+	.turnin 12718 >>交任务: |cFF00FF25更多的徽记|r
+    .itemcount 39328,20
 step
     .goto ScarletEnclave,53.9,58.1,15,0
-	>>骑回地穴。重新装备你的普通武器
-	.turnin 12722 >> 把羊羔交给屠夫
+	>>骑回地穴。重新装备你的常规武器。把诺思特酿啤酒绑在你的酒吧里
+.target Baron Rivendare
+>>与|cFF00FF25Baron Rivendare|r交谈
+	.turnin 12722 >>交任务: |cFF00FF25羊入虎口|r
 	.goto ScarletEnclave,54.6,57.5
-    .turnin 12720 >>交出如何赢得朋友和影响敌人
-    .accept 12723 >>在红线后面接受
+>>与|cFF00FF25Prince Keleseth|r交谈
+    .turnin 12720 >>交任务: |cFF00FF25说服者|r
+.target Prince Keleseth
+    .accept 12723 >>接任务: |cFFFCDC00深入血色敌后|r
     .goto ScarletEnclave,54.2,57.4
 step
-	#completewith next
-	.destroy 39328 >> 删除包里剩下的十字军头骨
-step
 	>>骑马到房子，然后上楼到二楼
-    .turnin 12723 >>在红线后面转弯
-    .accept 12724 >>接受正义十字军的道路
+>>与|cFF00FF25Orbaz Bloodbane|r交谈
+    .turnin 12723 >>交任务: |cFF00FF25深入血色敌后|r
+.target Orbaz Bloodbane
+    .accept 12724 >>接任务: |cFFFCDC00十字军的巡逻路线|r
     .goto ScarletEnclave,56.3,79.8
-    .accept 12725 >>接受死亡兄弟
+.target Thassarian
+>>与|cFF00FF25Thassarian|r交谈
+    .accept 12725 >>接任务: |cFFFCDC00死亡骑士的兄弟情谊|r
     .goto ScarletEnclave,56.3,80.0
 step
     .goto ScarletEnclave,62.8,68.6,15,0
     .goto ScarletEnclave,63.0,68.0
-	>>跑到思嘉堡的地窖，和科尔蒂拉·戴斯韦弗谈谈。避免在途中与暴徒战斗-如果你死了，让瓦尔基尔复活你（不要释放）
+	>>跑到思嘉堡的地窖，和科尔蒂拉·戴斯韦弗谈谈。避免在途中与暴徒战斗-如果你死了，让瓦尔基尔复活你(不要释放)
 	>>开始任务后不要保护科尔蒂拉，它不是护送者
-    .turnin 12725 >>死里逃生的兄弟
-    .accept 12727 >>接受血腥突破
+>>与|cFF00FF25Koltira Deathweaver交谈|r
+    .turnin 12725 >>交任务: |cFF00FF25死亡骑士的兄弟情谊|r
+.target Koltira Deathweaver
+    .accept 12727 >>接任务: |cFFFCDC00杀出一条血路|r
 step
 	#completewith next
     .goto ScarletEnclave,63.1,68.2,15,0
     .goto ScarletEnclave,62.7,68.6,15,0
     .goto ScarletEnclave,62.9,68.3
-	>>不要防守科尔蒂拉，而是去顶楼。抢劫桌上的巡逻时间表
+	>>不要防守科尔蒂拉，而是去顶楼。掠夺桌上的巡逻时间表
     .complete 12724,1 --New Avalon Patrol Schedule (1)
 step
 	.goto ScarletEnclave,63.0,68.0
@@ -428,27 +497,41 @@ step
 	>>去顶层，抢夺桌子上的巡逻时间表
     .complete 12724,1 --New Avalon Patrol Schedule (1)
 step
+    .goto ScarletEnclave,56.2,52.0
+	>>再次点击大锅，了解更多诺思特酿啤酒
+	.turnin 12718 >>交任务: |cFF00FF25更多的徽记|r
+    .itemcount 39328,20
+step
+	#completewith next
+	.destroy 39328 >>摧毁: |cFFFF5722十字军徽记|r
+step
 	>>返回房屋二楼
-    .turnin 12724 >>转向正义十字军的道路
+.target Orbaz Bloodbane
+>>与|cFF00FF25Orbaz Bloodbane|r交谈
+    .turnin 12724 >>交任务: |cFF00FF25十字军的巡逻路线|r
     .goto ScarletEnclave,56.3,79.8
-    .turnin 12727 >>交出血腥突围
-    .accept 12738 >>接受复仇的哭泣！
+>>与|cFF00FF25Thassarian|r交谈
+    .turnin 12727 >>交任务: |cFF00FF25杀出一条血路|r
+.target Thassarian
+    .accept 12738 >>接任务: |cFFFCDC00复仇的呐喊！|r
     .goto ScarletEnclave,56.3,80.0
 step
     .goto ScarletEnclave,52.6,80.7,40,0
     .goto ScarletEnclave,53.1,82.1
 	>>骑马走出房子去教堂。与Plaguefist交谈
-    .turnin 12738 >>为复仇而哭泣！
-    .accept 12748 >>接受一个特别的惊喜 << Orc
-    .accept 12739 >>接受一个特别的惊喜 << Tauren
-    .accept 12742 >>接受一个特别的惊喜 << Human
-    .accept 12743 >>接受一个特别的惊喜 << NightElf
-    .accept 12744 >>接受一个特别的惊喜 << Dwarf
-    .accept 12745 >>接受一个特别的惊喜 << Gnome
-    .accept 12746 >>接受一个特别的惊喜 << Draenei
-    .accept 12747 >>接受一个特别的惊喜 << BloodElf
-    .accept 12749 >>接受一个特别的惊喜 << Troll
-    .accept 12750 >>接受一个特别的惊喜 << Undead
+>>与|cFF00FF25Knight Commander Plaguefist|r交谈
+    .turnin 12738 >>交任务: |cFF00FF25复仇的呐喊！|r
+.target Knight Commander Plaguefist
+    .accept 12748 >>接任务: |cFFFCDC00特殊的怜悯|r << Orc
+    .accept 12739 >>接任务: |cFFFCDC00特殊的怜悯|r << Tauren
+    .accept 12742 >>接任务: |cFFFCDC00特殊的怜悯|r << Human
+    .accept 12743 >>接任务: |cFFFCDC00特殊的怜悯|r << NightElf
+    .accept 12744 >>接任务: |cFFFCDC00特殊的怜悯|r << Dwarf
+    .accept 12745 >>接任务: |cFFFCDC00特殊的怜悯|r << Gnome
+    .accept 12746 >>接任务: |cFFFCDC00特殊的怜悯|r << Draenei
+    .accept 12747 >>接任务: |cFFFCDC00特殊的怜悯|r << BloodElf
+    .accept 12749 >>接任务: |cFFFCDC00特殊的怜悯|r << Troll
+    .accept 12750 >>接任务: |cFFFCDC00特殊的怜悯|r << Undead
 step << Orc
     .goto ScarletEnclave,53.8,83.4
 	>>站在库格面前，等待RP结束。之后杀了他
@@ -492,23 +575,29 @@ step << Undead
 step
     .goto ScarletEnclave,53.1,82.1
 	>>返回Plaguefist
-     .turnin 12748 >>交一份特别惊喜 << Orc
-    .turnin 12739 >>交一份特别惊喜 << Tauren
-    .turnin 12742 >>交一份特别惊喜 << Human
-    .turnin 12743 >>交一份特别惊喜 << Nightelf
-    .turnin 12744 >>交一份特别惊喜 << Dwarf
-    .turnin 12745 >>交一份特别惊喜 << Gnome
-    .turnin 12746 >>交一份特别惊喜 << Draenei
-    .turnin 12747 >>交一份特别惊喜 << Bloodelf
-    .turnin 12749 >>交一份特别惊喜 << Troll
-    .turnin 12750 >>交一份特别惊喜 << Undead
-	.accept 12751 >>接受一种回家的感觉
+>>与|cFF00FF25Knight Commander Plaguefist|r交谈
+     .turnin 12748 >>交任务: |cFF00FF25特殊的怜悯|r << Orc
+    .turnin 12739 >>交任务: |cFF00FF25特殊的怜悯|r << Tauren
+    .turnin 12742 >>交任务: |cFF00FF25特殊的怜悯|r << Human
+    .turnin 12743 >>交任务: |cFF00FF25特殊的怜悯|r << Nightelf
+    .turnin 12744 >>交任务: |cFF00FF25特殊的怜悯|r << Dwarf
+    .turnin 12745 >>交任务: |cFF00FF25特殊的怜悯|r << Gnome
+    .turnin 12746 >>交任务: |cFF00FF25特殊的怜悯|r << Draenei
+    .turnin 12747 >>交任务: |cFF00FF25特殊的怜悯|r << Bloodelf
+    .turnin 12749 >>交任务: |cFF00FF25特殊的怜悯|r << Troll
+    .turnin 12750 >>交任务: |cFF00FF25特殊的怜悯|r << Undead
+.target Knight Commander Plaguefist
+	.accept 12751 >>接任务: |cFFFCDC00欢迎回家|r
 step
     .goto ScarletEnclave,56.3,80.0
 	>>回到房子的二楼
-    .turnin 12751 >>交一份返校节
+.target Thassarian
+>>与|cFF00FF25Thassarian|r交谈
+    .turnin 12751 >>交任务: |cFF00FF25欢迎回家|r
     .goto ScarletEnclave,56.3,80.0
-    .accept 12754 >>俯瞰时接受伏击
+.target Orbaz Bloodbane
+>>与|cFF00FF25Orbaz Bloodbane|r交谈
+    .accept 12754 >>接任务: |cFFFCDC00悬崖伏击|r
     .goto ScarletEnclave,56.3,79.8
 step
 	.use 39645 >>使用包中的临时盖。杀死血色信使。
@@ -518,29 +607,37 @@ step
 step
     .goto ScarletEnclave,56.3,79.8
 	>>回到房子的二楼
-    .turnin 12754 >>俯瞰时埋伏
-    .accept 12755 >>接受与命运的会面
+>>与|cFF00FF25Orbaz Bloodbane|r交谈
+    .turnin 12754 >>交任务: |cFF00FF25悬崖伏击|r
+.target Orbaz Bloodbane
+    .accept 12755 >>接任务: |cFFFCDC00命运的交汇点|r
 step
     .goto ScarletEnclave,65.6,83.9
 	>>一路骑行到海滩上的阿本迪斯将军
-    .turnin 12755 >>与命运会面
-    .accept 12756 >>接受血腥的出现
+>>与|cFF00FF25High General Abbendis|r交谈
+    .turnin 12755 >>交任务: |cFF00FF25命运的交汇点|r
+.target High General Abbendis
+    .accept 12756 >>接任务: |cFFFCDC00血色先锋军|r
 step
     .goto ScarletEnclave,56.3,79.8
 	>>回到房子的二楼
-    .turnin 12756 >>《血腥暴发》上映
-    .accept 12757 >>接受红军的接近。。。
+>>与|cFF00FF25Orbaz Bloodbane|r交谈
+    .turnin 12756 >>交任务: |cFF00FF25血色先锋军|r
+.target Orbaz Bloodbane
+    .accept 12757 >>接任务: |cFFFCDC00血色十字军进犯……|r
 step
 	#completewith next
-    .goto ScarletEnclave,50.0,32.3,20 >> 等待奥巴兹召唤传送门。点击通往阿切鲁斯的门户，返回指挥大厅
+    .goto ScarletEnclave,50.0,32.3,20 >>等待奥巴兹召唤传送门。点击通往阿切鲁斯的门户，返回指挥大厅
 step
     .goto ScarletEnclave,48.9,29.9
 	>>返回Darion Mograine
-    .turnin 12757 >>红军接近。。。
-    .accept 12778 >>接受《血腥启示录》
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 12757 >>交任务: |cFF00FF25血色十字军进犯……|r
+.target Highlord Darion Mograine
+    .accept 12778 >>接任务: |cFFFCDC00血色十字军的末日|r
 step
     .goto ScarletEnclave,47.4,26.8
-	.trainer >> 训练你的职业咒语
+	.trainer >>训练你的职业技能
 --X SPELL IDS BASED ON SPECIALIZATION, COPY PASTE THIS FROM EARLIER
 step
 .goto ScarletEnclave,52.0,35.0
@@ -548,14 +645,16 @@ step
 step
     .goto ScarletEnclave,53.5,36.8
 	>>与俯瞰死亡决裂的巫妖王交谈
-    .turnin 12778 >>交给《血腥启示录》
-    .accept 12779 >>接受一切结束。。。
+>>与|cFF00FF25巫妖王|r交谈
+    .turnin 12778 >>交任务: |cFF00FF25血色十字军的末日|r
+.target The Lich King
+    .accept 12779 >>接任务: |cFFFCDC00万物的终结……|r
 step
 	#completewith next
 	.use 39700
-	.vehicle >> 用霜卵之角爬上冻僵龙
+	.vehicle >>用霜卵之角爬上冻僵龙
 step
-	>>施放“冰冻死亡箭”（1）造成伤害（不要施放）。使用“吞噬类人”（2）在近战范围内拾取一个血色士兵，恢复生命值和法力值。杀死被血色士兵包围的巴利斯塔
+	>>施放“冰冻死亡箭”(1)造成伤害(不要施放)。使用“吞噬类人”(2)在近战范围内拾取一个血色士兵，恢复生命值和法力值。杀死被血色士兵包围的巴利斯塔
     .goto ScarletEnclave,56.0,62.2,100,0
     .goto ScarletEnclave,55.4,64.8,100,0
     .goto ScarletEnclave,54.8,66.8,100,0
@@ -575,74 +674,106 @@ step
 step
 	>>飞回巫妖王
     .goto ScarletEnclave,53.5,36.8
-    .turnin 12779 >>结束一切。。。
-    .accept 12800 >>接受巫妖王的命令
+>>与|cFF00FF25巫妖王|r交谈
+    .turnin 12779 >>交任务: |cFF00FF25万物的终结……|r
+.target The Lich King
+    .accept 12800 >>接任务: |cFFFCDC00巫妖王的命令|r
 step
     .goto ScarletEnclave,49.3,28.7,45,0
     .goto ScarletEnclave,47.1,24.1,45,0
     .goto ScarletEnclave,34.1,30.4
-	>> 向北穿过有毒山口。骑马前往布劳曼磨坊，与塔拉诺交谈
-    .turnin 12800 >>交出巫妖王的命令
-    .accept 12801 >>接受黎明之光
+	>>向北穿过有毒山口。骑马前往布劳曼磨坊，与塔拉诺交谈
+>>与|cFF00FF25Scourge指挥官Thalanor交谈
+    .turnin 12800 >>交任务: |cFF00FF25巫妖王的命令|r
+.target Scourge Commander Thalanor
+    .accept 12801 >>接任务: |cFFFCDC00黎明之光|r
 step
 	#completewith next
 	+与大领主达里安·莫格拉涅交谈，开始活动
 	.skipgossip 29173,2
 step
     .goto ScarletEnclave,39.0,38.5
-	>> 等待事件开始（此时您可以休息一下）。完成非常长的战斗和RP
+	>>等待事件开始(此时您可以休息一下)。完成非常长的战斗和RP
     .complete 12801,1 --The Light of Dawn Uncovered (1)
 step
     .goto Eastern Plaguelands,39,39
-    .turnin 12801 >>《黎明之光》
-    .accept 13165 >>接受取回Acherus
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 12801 >>交任务: |cFF00FF25黎明之光|r
+.target Highlord Darion Mograine
+    .accept 13165 >>接任务: |cFFFCDC00夺回阿彻鲁斯|r
 step
 	#completewith next
 	.cast 50977 >>使用你的死亡之门法术返回Ebon Hold
 step
     .goto Eastern Plaguelands,83.4,49.4
 	>>与Ebon Hold内的Darion Mograine交谈
-    .turnin 13165 >>交回阿切罗斯
-    .accept 13166 >>接受Ebon Hold之战
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 13165 >>交任务: |cFF00FF25夺回阿彻鲁斯|r
+.target Highlord Darion Mograine
+    .accept 13166 >>接任务: |cFFFCDC00黑锋要塞之战|r
+    .train 48721 >>训练你的职业技能
+	.xp <58,1
+step
+    .goto Eastern Plaguelands,83.4,49.4
+	>>与Ebon Hold内的Darion Mograine交谈
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 13165 >>交任务: |cFF00FF25夺回阿彻鲁斯|r
+.target Highlord Darion Mograine
+    .accept 13166 >>接任务: |cFFFCDC00黑锋要塞之战|r
+	.xp <57,1
 step
 	#completewith next
-    .goto ScarletEnclave,50.3,33.1,8 >> 通过门户网站
+    .goto ScarletEnclave,50.3,33.1,8 >>通过门户网站
 step
-	#sticky
-	#label ScourgeH
+    #sticky
+    #label Cinderglacier
+    .cast 53341 >>确保你装备了新武器。在房间里的任何符文堡，用灰烬之符文迷住你的新武器
+step
+	#completewith next
 	>>杀死Ebon Hold主楼内的天灾
-    .goto ScarletEnclave,48.1,28.4,-1
+    .goto ScarletEnclave,48.1,28.4,0,0
     .complete 13166,2 --Scourge (10)
---X low prio waypoint?
 step
-    .goto ScarletEnclave,48.9,29.8
+    .goto ScarletEnclave,48.871,29.739
 	>>在乌木小屋的主楼层中间杀死帕奇沃克
     .complete 13166,1 --Patchwerk (1)
 step
+	>>杀死Ebon Hold主楼内的天灾
+    .goto ScarletEnclave,48.1,28.4
+    .complete 13166,2 --Scourge (10)
+step
+    #requires Cinderglacier
 	#completewith next
     .goto ScarletEnclave,50.5,33.4,10 >>跑进紫色大门
 step
-	#requires ScourgeH
+    #requires Cinderglacier
     .goto ScarletEnclave,50.7,33.7
 	>>返回Darion Mograine
-    .turnin 13166 >>为Ebon Hold交战
-    .accept 13188 >>接受国王行走的地方 << Alliance    
-    .accept 13189 >>接受酋长的祝福 << Horde
+>>与|cFF00FF25大领主达里恩·莫格莱尼交谈|r
+    .turnin 13166 >>交任务: |cFF00FF25黑锋要塞之战|r
+.target Highlord Darion Mograine
+    .accept 13188 >>接任务: |cFFFCDC00王者之城|r << Alliance
+    .accept 13189 >>接任务: |cFFFCDC00酋长的祝福|r << Horde
 step << Horde
     .goto ScarletEnclave,52.1,35.0
-	.zone Durotar >>把入口带到奥格瑞玛
+	.zone Durotar >>前往: |cFFDB2EEF杜隆塔尔|r
 step << Horde
     .goto Orgrimmar,31.9,37.8
-    .turnin 13189 >>交出酋长的祝福
---X unsure of how good coordinates are
+.target Thrall
+>>与|cFF00FF25Thrall|r交谈
+    .turnin 13189 >>交任务: |cFF00FF25酋长的祝福|r
 step << Horde
-	#completewith next
     .goto Orgrimmar,38.1,85.8
-	.zone Blasted Lands >> 将门户带到Blasted Lands
+	.zone Blasted Lands >>前往: |cFFDB2EEF诅咒之地|r
 step << Alliance
     .goto ScarletEnclave,50.9,36.3
-	.zone Elwynn Forest >>将入口带到暴风城
+	.zone Elwynn Forest >>前往: |cFFDB2EEF暴风城|r
 step << Alliance
-    .goto Stormwind City,80.0,38.5
-    .turnin 13188 >>在国王步行的地方转弯
+    .goto Stormwind City,79.989,38.468
+.target King Varian Wrynn
+>>与|cFF00FF25King Varian Wrynn|r交谈
+    .turnin 13188 >>交任务: |cFF00FF25王者之城|r
+step << Alliance
+    .goto Stormwind City,48.99,87.36
+	.zone Blasted Lands >>前往: |cFFDB2EEF诅咒之地|r
 ]])

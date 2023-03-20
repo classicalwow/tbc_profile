@@ -11,7 +11,6 @@ addon.skipPreReq = {
 }
 
 addon.questConversion = {
-    [9684] = 63866 -- blood elf rez quest
 }
 
 -- Items required to complete the quest
@@ -458,5 +457,7 @@ addon.questAcceptItems = {
     [3461] = 10444, -- Return to Tymor // Standard Issue Flare Gun
     [2204] = 7667, -- Restoring the Necklace // Talvash's Phial of Scrying
     [949] = 5251, -- The Twilight Camp // Phial of Scrying
-    [2478] = 8051 -- Mission: Possible But Not Probable // Flare Gun
+    [2478] = 8051, -- Mission: Possible But Not Probable // Flare Gun
+    --
+    [11941] = 35684, -- Scintillating Fragment quest
 }

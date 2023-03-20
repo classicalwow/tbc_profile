@@ -2,6 +2,7 @@
 DataStore_InventoryDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
+		["家駒 - 伊弗斯"] = "家駒 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
@@ -10,7 +11,6 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.暖男你馬四了"] = {
-				["lastUpdate"] = 1668964936,
 				["Inventory"] = {
 					[7] = "|cffffffff|Hitem:1396::::::::1:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:59::::::::1:::::::::|h[]|h|r",
@@ -18,17 +18,17 @@ DataStore_InventoryDB = {
 					[5] = "|cffffffff|Hitem:57::::::::1:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:35::::::::1:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1668964936,
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
-				["lastUpdate"] = 1675508554,
 				["Inventory"] = {
 					[5] = "|cffffffff|Hitem:10036::::::::34:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:4923::::::::34:::::::::|h[]|h|r",
 					[7] = "|cffffffff|Hitem:10035::::::::34:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1675508554,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1664462132,
 				["Inventory"] = {
 					"|cffffffff|Hitem:28275:3003:30553:32409:::::70:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:30017::::::::70:::::::::|h[]|h|r", -- [2]
@@ -49,6 +49,16 @@ DataStore_InventoryDB = {
 					[18] = "|cffffffff|Hitem:29351::::::::70:::::::::|h[]|h|r",
 					[19] = "|cffffffff|Hitem:31404::::::::70:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1664462132,
+			},
+			["Default.伊弗斯.家駒"] = {
+				["Inventory"] = {
+					[17] = "|cffffffff|Hitem:2362::::::::1:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:36::::::::1:::::::::|h[]|h|r",
+					[7] = "|cffffffff|Hitem:153::::::::1:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:154::::::::1:::::::::|h[]|h|r",
+				},
+				["lastUpdate"] = 1679213842,
 			},
 			["Default.伊弗斯.特變電工"] = {
 				["Inventory"] = {
@@ -76,13 +86,13 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1663501479,
 			},
 			["Default.伊弗斯.頂級投資家"] = {
+				["lastUpdate"] = 1672640195,
 				["Inventory"] = {
 					[8] = "|cffffffff|Hitem:24146::::::::2:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:23346::::::::2:::::::::|h[]|h|r",
 					[7] = "|cffffffff|Hitem:24145::::::::2:::::::::|h[]|h|r",
 					[4] = "|cffffffff|Hitem:24143::::::::2:::::::::|h[]|h|r",
 				},
-				["lastUpdate"] = 1672640195,
 			},
 		},
 		["Guilds"] = {

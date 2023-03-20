@@ -1,9 +1,12 @@
+local faction = UnitFactionGroup("player")
+if faction == "Alliance" then return end
+
 RXPGuides.RegisterGuide([[
 #classic
 << Horde Mage
 #name 12-17 The 贫瘠之地 AoE
 #version 1
-#group RestedXP 部落 Mage AoE
+#group RestedXP 部落 法师 AoE
 #defaultfor Horde Mage
 #next 17-21 石爪山脉/贫瘠之地 AoE
 
@@ -18,40 +21,54 @@ step << Mage
 	+请注意，您已经选择了AoE指南。AoE通常比单目标法师困难得多，而且由于SoM中最近的100%任务xp更改，速度也较慢
 step
     .goto The Barrens,52.2,31.8
-    .accept 870 >>接受被遗忘的水池
+.target Tonga Runetotem
+>>与|cFF00FF25Tonga Runetotem|r交谈
+    .accept 870 >>接任务: |cFFFCDC00遗忘之池|r
 step
     .goto The Barrens,52.2,31.0
-    .turnin 842 >>交出十字路口征兵
-    .accept 844 >>接受平原漫游者威胁
+>>与|cFF00FF25Sergra Darkthorn|r交谈
+    .turnin 842 >>交任务: |cFF00FF25十字路口征兵|r
+.target Sergra Darkthorn
+    .accept 844 >>接任务: |cFFFCDC00平原陆行鸟的威胁|r
 step << Troll Mage
     .goto The Barrens,52.5,29.8
-    .accept 6365 >>接受Orgrimmar的肉类
+.target Zargh
+>>与|cFF00FF25Zargh|r交谈
+    .accept 6365 >>接任务: |cFFFCDC00送往奥格瑞玛的肉|r
 step
     .goto The Barrens,51.9,30.3
-    .accept 869 >>接受猛禽窃贼
+.target Gazrog
+>>与|cFF00FF25Gazrog|r交谈
+    .accept 869 >>接任务: |cFFFCDC00偷钱的迅猛龙|r
 step
     .goto The Barrens,51.5,30.8
-    .accept 871 >>接受破坏攻击
-    .accept 5041 >>接受十字路口的补给
+.target Thork
+>>与|cFF00FF25Thork|r交谈
+    .accept 871 >>接任务: |cFFFCDC00野猪人的袭击|r
+    .accept 5041 >>接任务: |cFFFCDC00十字路口的补给品|r
 step
     .goto The Barrens,51.5,30.4
-    .fp The Crossroads >> 获得the Crossroads飞行路线
+    .fp The Crossroads >>获得the Crossroads飞行路线
 step << Troll Mage
     >>不要去奥格瑞玛
     .goto The Barrens,51.5,30.3
-    .turnin 6365 >>将肉类交给Orgrimmar
-    .accept 6384 >>接受前往Orgrimmar的骑行
+>>与|cFF00FF25Devrak|r交谈
+    .turnin 6365 >>交任务: |cFF00FF25送往奥格瑞玛的肉|r
+.target Devrak
+    .accept 6384 >>接任务: |cFFFCDC00飞往奥格瑞玛|r
 step
     .goto The Barrens,51.5,30.1
-    .accept 848 >>接受真菌孢子
-    .accept 1492 >>接受码头管理员Dizzywig
+.target Apothecary Helbrim
+>>与|cFF00FF25药剂师Helbrid|r交谈
+    .accept 848 >>接任务: |cFFFCDC00菌类孢子|r
+    .accept 1492 >>接任务: |cFFFCDC00码头管理员迪兹维格|r
 step
     #sticky
     #completewith next
     >>检查陈氏空桶的位置。抢走它并开始任务，否则你稍后会得到它
     .goto The Barrens,55.7,27.3
     .collect 4926,1,819 --Collect Chen's Empty Keg
-    .accept 819 >> 收下陈的空桶
+    .accept 819 >>接任务: |cFFFCDC00老陈的空酒桶|r
 step
     .goto The Barrens,55.6,26.6
     >>杀死该地区的Quillboars
@@ -61,8 +78,8 @@ step
 step << !Undead
     #sticky
     #completewith next
-    >>如果你袋子里的缺陷能量石还有不到10分钟的时间，放下它，然后回去再次抢劫阿克泽洛斯旁边的紫石
-    .turnin 926 >>交出有缺陷的能量石
+    >>如果你袋子里的缺陷能量石还有不到10分钟的时间，放下它，然后回去再次掠夺阿克泽洛斯旁边的紫石
+    .turnin 926 >>交任务: |cFF00FF25有瑕疵的能量石|r
 step << !Undead
     #sticky
     #completewith BeakCave
@@ -90,13 +107,19 @@ step
 step
     >>塔顶
     .goto The Barrens,51.5,30.9
-    .turnin 871 >>转入干扰攻击
-    .accept 872 >>接受干扰结束
-    .accept 867 >>接受哈比突袭者
+>>与|cFF00FF25Thork|r交谈
+    .turnin 871 >>交任务: |cFF00FF25野猪人的袭击|r
+.target Thork
+    .accept 872 >>接任务: |cFFFCDC00野猪人的头目|r
+.target Darsok Swiftdagger
+>>与|cFF00FF25Darsok Swiftdage|r交谈
+    .accept 867 >>接任务: |cFFFCDC00鹰身强盗|r
 step
     .goto The Barrens,52.2,31.0
-    .turnin 844 >>提交平原漫游者威胁
-    .accept 845 >>接受Zhevra
+>>与|cFF00FF25Sergra Darkthorn|r交谈
+    .turnin 844 >>交任务: |cFF00FF25平原陆行鸟的威胁|r
+.target Sergra Darkthorn
+    .accept 845 >>接任务: |cFFFCDC00斑马的威胁|r
 step
     #sticky
     #completewith Crates
@@ -106,7 +129,7 @@ step
 step
     #sticky
     #completewith next
-    >>抢劫在该地区发现的棕色盒子
+    >>掠夺在该地区发现的棕色盒子
     .complete 5041,1 --Crossroads' Supply Crates (1)
 step
     #label Kreenig
@@ -119,7 +142,7 @@ step
     .goto The Barrens,58.4,27.0,40,0
     .goto The Barrens,58.5,25.8,40,0
     .goto The Barrens,59.4,24.8,40,0
-    >>抢劫在该地区发现的棕色盒子
+    >>掠夺在该地区发现的棕色盒子
     .complete 5041,1 --Crossroads' Supply Crates (1)
 step
     .goto The Barrens,56.7,25.3
@@ -133,7 +156,9 @@ step << !Undead
     .complete 845,1 --Zhevra Hooves (4)
 step << !Undead
     .goto The Barrens,62.3,20.1
-    .turnin 924 >>交出恶魔种子
+.target Ak'Zeloth
+>>与|cFF00FF25Ak'Zeloth|r交谈
+    .turnin 924 >>交任务: |cFF00FF25恶魔之种|r
 step
     >>杀死你看到的任何哲夫拉。抢走他们的马蹄。在进入棘轮之前，确保您有4个
     .goto The Barrens,58.03,19.76,150,0 << Undead
@@ -142,24 +167,32 @@ step
 step
     >>建筑物顶层
     .goto The Barrens,62.7,36.3
-    .accept 887 >>接受Southsea Freebooters
+.target Gazlowe
+>>与|cFF00FF25Gazlowe|r交谈
+    .accept 887 >>接任务: |cFFFCDC00南海海盗|r
 step
     .goto The Barrens,63.1,37.1
-    .fp Ratchet >> 获取棘轮飞行路径
+    .fp Ratchet >>获取棘轮飞行路径
 step
     .goto The Barrens,63.0,37.2
-    .accept 894 >>接受Samophlange
+.target Sputtervalve
+>>与|cFF00FF25溅射阀|r交谈
+    .accept 894 >>接任务: |cFFFCDC00什么什么平衡器|r
 step
     >>单击通缉海报。如果你想，也可以在这里存款
     .goto The Barrens,62.6,37.5
-    .accept 895 >>接受通缉：Longshore男爵
+    .accept 895 >>接任务: |cFFFCDC00通缉：巴隆·朗绍尔|r
 step
     .goto The Barrens,62.4,37.7
-    .accept 865 >>接受猛禽角
+.target Mebok Mizzyrix
+>>与|cFF00FF25Mebok Mizzyrix交谈|r
+    .accept 865 >>接任务: |cFFFCDC00迅猛龙角|r
 step
     .goto The Barrens,62.3,38.4
-    .turnin 819 >>交回陈的空桶
-    .accept 821 >>收下陈的空桶
+>>与|cFF00FF25Brewmaster Drohn|r交谈
+    .turnin 819 >>交任务: |cFF00FF25老陈的空酒桶|r
+.target Brewmaster Drohn
+    .accept 821 >>接任务: |cFFFCDC00老陈的空酒桶|r
 step
     #sticky
     #label Southsea
@@ -181,41 +214,55 @@ step
 step
     #requires Southsea
     .goto The Barrens,62.7,36.3
-    .turnin 887 >>交出南海自由球员
-    .accept 890 >>接受丢失的装运
-    .turnin 895 >>通缉犯：Longshore男爵
+>>与|cFF00FF25Gazlowe|r交谈
+    .turnin 887 >>交任务: |cFF00FF25南海海盗|r
+.target Gazlowe
+    .accept 890 >>接任务: |cFFFCDC00丢失的货物|r
+    .turnin 895 >>交任务: |cFF00FF25通缉：巴隆·朗绍尔|r
 step
     .goto The Barrens,63.3,38.4
-    .turnin 1492 >>交码头管理员Dizzywig
-    .turnin 890 >>交回丢失的货物
-    .accept 892 >>接受丢失的装运
-    .accept 896 >>接受矿工的命运
+>>与|cFF00FF25Wharfmaster Dizzywig|r交谈
+    .turnin 1492 >>交任务: |cFF00FF25码头管理员迪兹维格|r
+    .turnin 890 >>交任务: |cFF00FF25丢失的货物|r
+.target Wharfmaster Dizzywig
+    .accept 892 >>接任务: |cFFFCDC00丢失的货物|r
+    .accept 896 >>接任务: |cFFFCDC00矿工的宝贝|r
 step
     .goto The Barrens,62.7,36.3
-    .turnin 892 >>交回丢失的货物
-    .accept 888 >>接受被盗战利品
+>>与|cFF00FF25Gazlowe|r交谈
+    .turnin 892 >>交任务: |cFF00FF25丢失的货物|r
+.target Gazlowe
+    .accept 888 >>接任务: |cFFFCDC00被窃的货物|r
 step
     .goto The Barrens,63.08,37.16
-    .fly Crossroads >> 飞向十字路口
+    .fly Crossroads >>飞向十字路口
 step
     .goto The Barrens,51.5,30.8
-    .turnin 5041 >>十字路口的上缴物资
-    .turnin 872 >>颠覆性结束
+.target Thork
+>>与|cFF00FF25Thork|r交谈
+    .turnin 5041 >>交任务: |cFF00FF25十字路口的补给品|r
+    .turnin 872 >>交任务: |cFF00FF25野猪人的头目|r
 step
     .goto The Barrens,52.2,31.0
-    .turnin 845 >>交出哲夫拉
-    .accept 903 >>接受贫瘠的游荡者
+>>与|cFF00FF25Sergra Darkthorn|r交谈
+    .turnin 845 >>交任务: |cFF00FF25斑马的威胁|r
+.target Sergra Darkthorn
+    .accept 903 >>接任务: |cFFFCDC00草原上的徘徊者|r
 step
     #sticky
     #completewith next
-    >>杀死平原漫游者。抢劫他们的肾脏
+    >>杀死平原漫游者。掠夺他们的肾脏
     .complete 821,2 --Plainstrider Kidney (5)
 step
     .goto The Barrens,45.4,28.4
-    .accept 850 >>接受Kolkar领导人
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .accept 850 >>接任务: |cFFFCDC00科卡尔首领|r
 step
     .goto The Barrens,45.4,28.4
-    .accept 855 >> 接受半人马座护腕
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .accept 855 >>接任务: |cFFFCDC00半人马护腕|r
 step
     #completewith next
     >>杀死半人马座。掠夺他们的护腕。你稍后会完成这个
@@ -227,11 +274,15 @@ step
 step
     .isQuestComplete 855
     .goto The Barrens,45.39,28.44
-    .turnin 850 >> 移交Kolkar领导人
-    .turnin 855 >> 交出半人马座护腕
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 850 >>交任务: |cFF00FF25科卡尔首领|r
+    .turnin 855 >>交任务: |cFF00FF25半人马护腕|r
 step
     .goto The Barrens,45.39,28.44
-    .turnin 850 >> 移交Kolkar领导人
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 850 >>交任务: |cFF00FF25科卡尔首领|r
 step
     #sticky
     #completewith Claws
@@ -263,12 +314,12 @@ step
 step
     #completewith next
     .goto The Barrens,43.8,12.2
-    >> 如果你仍然没有得到重型钉锤，请考虑从BVrang Wildgore那里购买 << Druid/Warrior
-    .vendor >> 如果需要的话，去找这家伙
+    >>如果你仍然没有得到重型钉锤，请考虑从BVrang Wildgore那里购买 << Druid/Warrior
+    .vendor >>如果需要的话，去找这家伙
 step
     #sticky
     #completewith next
-    >>杀死平原漫游者。抢劫他们的肾脏
+    >>杀死平原漫游者。掠夺他们的肾脏
     .complete 821,2 --Plainstrider Kidney (5)
 step
     .goto The Barrens,54.3,12.3,40,0
@@ -282,8 +333,8 @@ step
 step
     >>单击控制台
     .goto The Barrens,52.4,11.6
-    .turnin 894 >>交给Samophlange
-    .accept 900 >>接受Samophlange
+    .turnin 894 >>交任务: |cFF00FF25什么什么平衡器|r
+    .accept 900 >>接任务: |cFFFCDC00什么什么平衡器|r
 step
     >>点击阀门
     .goto The Barrens,52.4,11.4
@@ -297,32 +348,36 @@ step
 step
     >>单击控制台
     .goto The Barrens,52.4,11.6
-    .turnin 900 >>交给Samophlange
-    .accept 901 >>接受Samophlange
+    .turnin 900 >>交任务: |cFF00FF25什么什么平衡器|r
+    .accept 901 >>接任务: |cFFFCDC00什么什么平衡器|r
 step
     >>杀死大楼里的小精灵补锅匠。抢他拿控制台钥匙
     .goto The Barrens,52.8,10.4
     .complete 901,1 --Console Key (1)
 step
     .goto The Barrens,52.4,11.6
-    .turnin 901 >>交给Samophlange
-    .accept 902 >>接受Samophlange
+    .turnin 901 >>交任务: |cFF00FF25什么什么平衡器|r
+    .accept 902 >>接任务: |cFFFCDC00什么什么平衡器|r
 step
-    >>接受碎纸机点火
+    >>接任务: |cFFFCDC00打火钥匙|r from the Shredder
     .goto The Barrens,56.5,7.5
-    .accept 858 >>接受点火
+.target Wizzlecrank's Shredder
+>>与|cFF00FF25Wizzlecrank的碎纸机交谈|r
+    .accept 858 >>接任务: |cFFFCDC00打火钥匙|r
 step
     >>磨练到16级很重要，因为接下来的3个任务相当困难。
-	.xp 16 >> 研磨至16
+	.xp 16 >>升级到16
 step
-    >>杀死监督员Lugwizzle（他在整个塔上巡逻）。抢他取点火钥匙
+    >>杀死监督员Lugwizzle(他在整个塔上巡逻)。抢他取点火钥匙
 	.goto The Barrens,56.3,8.6
     .complete 858,1 --Ignition Key (1)
 step
     >>这将开始护送
     .goto The Barrens,56.5,7.5
-    .turnin 858 >>接通点火开关
-    .accept 863 >>接受逃脱
+>>与|cFF00FF25Wizzlecrank的碎纸机交谈|r
+    .turnin 858 >>交任务: |cFF00FF25打火钥匙|r
+.target Wizzlecrank's Shredder
+    .accept 863 >>接任务: |cFFFCDC00梅贝尔的隐形水|r
 step
     #label Slugs
     >>2个暴徒会在某个时候繁殖。杀死他们，然后等待他的RP事件结束
@@ -337,79 +392,107 @@ step
 	.goto Orgrimmar,11.5,67.0,40 >>跑到奥格瑞玛的西入口
 step
     .goto Orgrimmar,38.79,85.68
-    .trainer >> 训练你的职业咒语
+    .trainer >>训练你的职业技能
 step
     .goto Orgrimmar,54.2,68.6
-    .turnin 6384 >>转入骑行前往奥格瑞玛
-    .accept 6385 >>接受风骑士大师多拉斯
+>>与|cFF00FF25Innkeeper Gryshka|r交谈
+    .turnin 6384 >>交任务: |cFF00FF25飞往奥格瑞玛|r
+.target Innkeeper Gryshka
+    .accept 6385 >>接任务: |cFFFCDC00双足飞龙管理员多拉斯|r
 step
     >>跑向飞行管理员。不要在任何地方飞行
-    .goto Orgrimmar,45.2,63.8
-    .fp Orgrimmar >> 获取Orgrimmar飞行路线 << Undead
-    .turnin 6385 >>交给风骑士大师多拉斯
-    .accept 6386 >>接受返回十字路口。
+    .goto Orgrimmar,45.120,63.889
+    .fp Orgrimmar >>获取Orgrimmar飞行路线 << Undead
+>>与|cFF00FF25Doras|r交谈
+    .turnin 6385 >>交任务: |cFF00FF25双足飞龙管理员多拉斯|r
+.target Doras
+    .accept 6386 >>接任务: |cFFFCDC00返回十字路口|r
 step
     >>跑去Grommash Hold
     .goto Orgrimmar,39.1,38.1
-    .accept 1061 >>接受石爪的精神
+.target Zor Lonetree
+>>与|cFF00FF25Zor Lonestree|r交谈
+    .accept 1061 >>接任务: |cFFFCDC00石爪之灵|r
 step
     #completewith next
     .hs >>炉膛到十字路口
 step
     .goto The Barrens,52.6,29.9
-    .turnin 6386 >>转入返回十字路口。
+.target Zargh
+>>与|cFF00FF25Zargh|r交谈
+    .turnin 6386 >>交任务: |cFF00FF25返回十字路口|r
 step
     .goto The Barrens,51.9,30.3
-    .turnin 869 >>收缴猛禽窃贼
-    .accept 3281 >>接受被盗的银子
+>>与|cFF00FF25Gazrog|r交谈
+    .turnin 869 >>交任务: |cFF00FF25偷钱的迅猛龙|r
+.target Gazrog
+    .accept 3281 >>接任务: |cFFFCDC00被偷走的银币|r
 step
     .goto The Barrens,52.3,31.0
-    .turnin 903 >>收缴贫瘠的游荡者
-    .accept 881 >>接受Echeyakee
+>>与|cFF00FF25Sergra Darkthorn|r交谈
+    .turnin 903 >>交任务: |cFF00FF25草原上的徘徊者|r
+.target Sergra Darkthorn
+    .accept 881 >>接任务: |cFFFCDC00埃其亚基|r
 step
     >>用你袋子里的Echeyakee之角召唤Echeyake。杀了他，抢走他的藏身之地
     .goto The Barrens,55.5,17.3
     .complete 881,1 --Echeyakee's Hide (1)
 step
     .goto The Barrens,52.2,31.0
-    .turnin 881 >>交给Echeyakee
-    .accept 905 >>接受愤怒的镰刀
+>>与|cFF00FF25Sergra Darkthorn|r交谈
+    .turnin 881 >>交任务: |cFF00FF25埃其亚基|r
+.target Sergra Darkthorn
+    .accept 905 >>接任务: |cFFFCDC00狂暴的镰爪龙|r
 step
     .goto The Barrens,52.20,31.90
-    .turnin 870 >> 把被遗忘的水池交出来
-    .accept 877 >> 接受停滞的绿洲
+>>与|cFF00FF25Tonga Runetotem|r交谈
+    .turnin 870 >>交任务: |cFF00FF25遗忘之池|r
+.target Tonga Runetotem
+    .accept 877 >>接任务: |cFFFCDC00死水绿洲|r
 step
     .goto The Barrens,52.00,31.60
-    .accept 899 >> 接受仇恨所消耗
-    .accept 4921 >> 接受战败
+.target Mankrik
+>>与|cFF00FF25Mankrik|r交谈
+    .accept 899 >>接任务: |cFFFCDC00复仇的怒火|r
+    .accept 4921 >>接任务: |cFFFCDC00在战斗中失踪|r
 step
     >>塔顶
     .goto The Barrens,51.6,30.9
-    .turnin 867 >>交出哈比突袭者
-    .accept 875 >>接受哈比中尉
+>>与|cFF00FF25Darsok Swiftdage|r交谈
+    .turnin 867 >>交任务: |cFF00FF25鹰身强盗|r
+.target Darsok Swiftdagger
+    .accept 875 >>接任务: |cFFFCDC00鹰身人首领|r
 step
     .goto The Barrens,51.50,30.20
-    .turnin 848 >> 倒入真菌孢子
+.target Apothecary Helbrim
+>>与|cFF00FF25药剂师Helbrid|r交谈
+    .turnin 848 >>交任务: |cFF00FF25菌类孢子|r
 step
     .goto The Barrens,51.5,30.3
     .fly Ratchet >>飞到棘轮
 step
     .goto The Barrens,63.0,37.2
-    .turnin 902 >>交给Samophlange
-    .turnin 863 >> 上车逃生
-    .accept 1483 >> 接受Ziz Fizziks
+>>与|cFF00FF25溅射阀|r交谈
+    .turnin 902 >>交任务: |cFF00FF25什么什么平衡器|r
+    .turnin 863 >>交任务: |cFF00FF25梅贝尔的隐形水|r
+.target Sputtervalve
+    .accept 1483 >>接任务: |cFFFCDC00菲兹克斯|r
 step
     .goto The Barrens,63.30,38.40
-    .turnin 896 >> 交给矿工的财富
+.target Wharfmaster Dizzywig
+>>与|cFF00FF25Wharfmaster Dizzywig|r交谈
+    .turnin 896 >>交任务: |cFF00FF25矿工的宝贝|r
 step
     .goto The Barrens,62.40,37.70
-    .accept 1069 >> 接受Deepmoss蜘蛛蛋
+.target Mebok Mizzyrix
+>>与|cFF00FF25Mebok Mizzyrix交谈|r
+    .accept 1069 >>接任务: |cFFFCDC00深苔蜘蛛的卵|r
 step
-    >>抢劫板条箱
+    >>掠夺板条箱
     .goto The Barrens,63.6,49.2
     .complete 888,2 --Telescopic Lens (1)
 step
-    >>抢劫板条箱
+    >>掠夺板条箱
     .goto The Barrens,62.6,49.6
 step
     #sticky
@@ -432,7 +515,7 @@ step
     >>杀死半人马座。抢走他们的护腕
     .complete 855,1 --Centaur Bracers (15)
 step
-    >> 在湖边碾磨任何一个Centuar，直到它们产卵Verog（当它产卵时，你会在聊天中看到一声尖叫）
+    >>在湖边碾磨任何一个Centuar，直到它们产卵Verog(当它产卵时，你会在聊天中看到一声尖叫)
     .goto The Barrens,52.95,41.77
     .complete 851,1 --Verog's Head (1)
 step
@@ -468,42 +551,58 @@ step
     .home >>将您的炉石设置为陶拉霍营地
 step
     .goto The Barrens,44.5,59.2
-    .accept 878 >>战争中接受部落
+.target Mangletooth
+>>与|cFF00FF25Mangletooth|r交谈
+    .accept 878 >>接任务: |cFFFCDC00野猪人的内战|r
 step
     .goto The Barrens,44.5,59.2
-    .fp Camp Taurajo >> 获得Taurajo营地飞行路线
+    .fp Camp Taurajo >>获得Taurajo营地飞行路线
     .fly Crossroads >>飞向十字路口
 step
     .goto The Barrens,51.9,30.3
-    .turnin 3281 >>交出被盗的银子
+.target Gazrog
+>>与|cFF00FF25Gazrog|r交谈
+    .turnin 3281 >>交任务: |cFF00FF25被偷走的银币|r
 step
     .goto The Barrens,52.2,31.0
-    .turnin 905 >>交上愤怒的镰刀
-    .accept 3261 >>接受Jorn Skyseer
+>>与|cFF00FF25Sergra Darkthorn|r交谈
+    .turnin 905 >>交任务: |cFF00FF25狂暴的镰爪龙|r
+.target Sergra Darkthorn
+    .accept 3261 >>接任务: |cFFFCDC00乔恩·星眼|r
 step
     .goto The Barrens,52.2,31.9
-    .turnin 877 >>转入停滞的绿洲
-    .accept 880 >>接受改变的存在
+>>与|cFF00FF25Tonga Runetotem|r交谈
+    .turnin 877 >>交任务: |cFF00FF25死水绿洲|r
+.target Tonga Runetotem
+    .accept 880 >>接任务: |cFFFCDC00变异的生物|r
 step
     .goto The Barrens,52.0,31.6
-    .turnin 4921 >>交出战败
+.target Mankrik
+>>与|cFF00FF25Mankrik|r交谈
+    .turnin 4921 >>交任务: |cFF00FF25在战斗中失踪|r
 step
     #sticky
 	#completewith next
-    >>杀死平原漫游者。抢劫他们的肾脏
+    >>杀死平原漫游者。掠夺他们的肾脏
     .complete 821,2 --Plainstrider Kidney (5)
 step
     .goto The Barrens,45.39,28.43
-    .turnin 851 >>交给德维什人维罗
-    .accept 852 >>接受真主党血迹
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 851 >>交任务: |cFF00FF25狂热的维罗戈|r
+.target Regthar Deathgate
+    .accept 852 >>接任务: |cFFFCDC00赫兹鲁尔·血印|r
 step
     .goto The Barrens,45.39,28.43
-    .turnin 855 >> 交出半人马座护腕
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 855 >>交任务: |cFF00FF25半人马护腕|r
     .isQuestComplete 855
 step
     .goto The Barrens,45.39,28.43
-    .turnin 851 >>交给德维什人维罗
-    .accept 852 >>接受真主党血迹
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 851 >>交任务: |cFF00FF25狂热的维罗戈|r
+.target Regthar Deathgate
+    .accept 852 >>接任务: |cFFFCDC00赫兹鲁尔·血印|r
 step
     #sticky
 	#label CeBracers
@@ -511,26 +610,32 @@ step
     .complete 855,1 --Centaur Bracers (15)
 step
     .goto The Barrens,45.87,40.80
-    >> 赫兹鲁尔在大WC湖周围巡逻
+    >>赫兹鲁尔在大WC湖周围巡逻
     .complete 852,1 --Hezrul's Head (1)
 step
 	#requires CeBracers
 	.goto The Barrens,45.37,28.43
-    .turnin 852 >>交出真主党血迹
-    .turnin 855 >> 交出半人马座护腕
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 852 >>交任务: |cFF00FF25赫兹鲁尔·血印|r
+    .turnin 855 >>交任务: |cFF00FF25半人马护腕|r
 step
     .goto The Barrens,45.37,28.43
-    .accept 4021 >>接受反击！
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .accept 4021 >>接任务: |cFFFCDC00人马无双！|r
 step
-    >> 这个任务可能很难单独完成，如果你没有人与你一起组队，可以考虑为它分组，或者在任务给予者的建筑附近放风筝。
-    >> 如果太难就跳过这个
+    >>这个任务可能很难单独完成，如果你没有人与你一起组队，可以考虑为它分组，或者在任务给予者的建筑附近放风筝。
+    >>如果太难就跳过这个
     .goto The Barrens,44.33,28.14
     .complete 4021,1 --Piece of Krom'zar's Banner (1)
 --N Link to safespot abuse
 step
     .isQuestComplete 4021
     .goto The Barrens,45.39,28.44
-    .turnin 4021 >>反击！
+.target Regthar Deathgate
+>>与|cFF00FF25Regthar死亡之门|r交谈
+    .turnin 4021 >>交任务: |cFF00FF25人马无双！|r
 step
     .goto The Barrens,39.8,17.3,80,0
     .goto The Barrens,37.4,15.8,80,0
@@ -542,7 +647,7 @@ step
     .goto The Barrens,37.4,15.8,80,0
     .goto The Barrens,40.3,15.2,80,0
     .goto The Barrens,39.8,17.3
-    >>杀死巫师之翼杀戮者。抢劫他们以换取哈比中尉戒指
+    >>杀死巫师之翼杀戮者。掠夺他们以换取哈比中尉戒指
     .complete 875,1 --Harpy Lieutenant Ring (6)
 step
     .goto The Barrens,41.4,24.5
@@ -550,9 +655,13 @@ step
     .complete 821,1 --Savannah Lion Tusk (5)
 step
     .goto The Barrens,35.3,27.9
-    .turnin 1061 >> 《石爪之魂》（The Spirits of Stonetalon）上映
-    .accept 1062 >> 接受地精侵略者
-    .accept 6548 >> 接受复仇我的村庄
+>>与|cFF00FF25Seereth Stonebreak|r交谈
+    .turnin 1061 >>交任务: |cFF00FF25石爪之灵|r
+.target Seereth Stonebreak
+    .accept 1062 >>接任务: |cFFFCDC00地精侵略者|r
+.target Makaba Flathoof
+>>与|cFF00FF25Makaba Flathhoof|r交谈
+    .accept 6548 >>接任务: |cFFFCDC00为我的村庄复仇|r
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -560,7 +669,7 @@ RXPGuides.RegisterGuide([[
 << Horde Mage
 #name 17-21 石爪山脉/贫瘠之地 AoE
 #version 1
-#group RestedXP 部落 Mage AoE
+#group RestedXP 部落 法师 AoE
 #defaultfor Horde Mage
 #next 21-30 银松森林/希尔斯布莱德丘陵 AoE
 
@@ -577,9 +686,11 @@ step
     .complete 6548,2 --Kill Grimtotem Mercenary (x6)
     .complete 6548,1 --Kill Grimtotem Ruffian (x8)
 step
-    .goto The Barrens,35.2,27.8
-    .turnin 6548 >> 上缴复仇我的村庄
-    .accept 6629 >> 接受Kill Grundig Darkcloud
+    .goto The Barrens,35.191,27.791
+>>与|cFF00FF25Makaba Flathhoof|r交谈
+    .turnin 6548 >>交任务: |cFF00FF25为我的村庄复仇|r
+.target Makaba Flathoof
+    .accept 6629 >>接任务: |cFFFCDC00杀死格鲁迪格·暗云|r
 step
     >>从西边的小路进入村庄。在开始内部任务之前，确保杀死所有6只野兽。在主帐篷前杀死格隆迪希
     .goto Stonetalon Mountains,71.7,86.7,60,0
@@ -589,14 +700,18 @@ step
 step
     >>启动卡亚护送
     .goto Stonetalon Mountains,73.5,85.8
-    .accept 6523 >> 接受保护Kaya
+.target Kaya Flathoof
+>>与|cFF00FF25Kaya Flathhoof|r交谈
+    .accept 6523 >>接任务: |cFFFCDC00保护卡雅|r
 step
      >>护送Kaya并靠近她。3灰熊会在篝火旁产卵。在她到达营地之前吃/喝
     .goto Stonetalon Mountains,75.8,91.4
     .complete 6523,1 --Kaya Escorted to Camp Aparaje
 step
     .goto Stonetalon Mountains,71.4,95.1
-    .accept 6461 >> 接受输血器
+.target Xen'Zilla
+>>与|cFF00FF25Xen'Zilla交谈|r
+    .accept 6461 >>接任务: |cFFFCDC00盗窃的蜘蛛|r
 step
     #sticky
     #label deepmossegg
@@ -617,9 +732,11 @@ step
     .complete 6461,1 --Kill Deepmoss Creeper (x10)
     .complete 6461,2 --Kill Deepmoss Venomspitter (x7)
 step
-    .goto Stonetalon Mountains,59.0,62.6
-    .turnin 1483 >> 交给Ziz Fizziks
-    .accept 1093 >> 接受超级收割者6000
+    .goto Stonetalon Mountains,58.989,62.599
+>>与|cFF00FF25Ziz Fizziks|r交谈
+    .turnin 1483 >>交任务: |cFF00FF25菲兹克斯|r
+.target Ziz Fizziks
+    .accept 1093 >>接任务: |cFFFCDC00超级收割机6000|r
 step
     #sticky
     #requires deepmossegg
@@ -648,15 +765,19 @@ step
     .goto Stonetalon Mountains,73.4,54.3,40,0
     .complete 1062,1 --Kill Venture Co. Logger (x15)
 step
-    .goto Stonetalon Mountains,59.0,62.6
-    .turnin 1093 >> 转入超级收割台6000
-    .accept 1094 >> 接受进一步指示
+    .goto Stonetalon Mountains,58.989,62.599
+>>与|cFF00FF25Ziz Fizziks|r交谈
+    .turnin 1093 >>交任务: |cFF00FF25超级收割机6000|r
+.target Ziz Fizziks
+    .accept 1094 >>接任务: |cFFFCDC00新的指示|r
 step
-    .hs >> Hearth前往陶拉霍营地
+    .hs >>炉灶前往陶拉霍营地
 step
     .goto The Barrens,44.9,59.1
-    .turnin 3261 >>交给Jorn Skyseer
-    .accept 882 >>接受Ishamuhale
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 3261 >>交任务: |cFF00FF25乔恩·星眼|r
+.target Jorn Skyseer
+    .accept 882 >>接任务: |cFFFCDC00伊沙姆哈尔|r
 step
     #sticky
     #label Lizard
@@ -670,9 +791,9 @@ step
     .goto The Barrens,46.0,49.2,0
     .goto The Barrens,45.3,52.5,0
     .goto The Barrens,45.0,51.8,0
-	>>找到并杀死该地区的拉科塔·马尼（格雷·科多）。抢走他的蹄子。如果你找不到他，跳过这个任务。
+	>>找到并杀死该地区的拉科塔·马尼(格雷·科多)。抢走他的蹄子。如果你找不到他，跳过这个任务。
 	.collect 5099,1,883 --Collect Hoof of Lakota'Mani
-	.accept 883 >>接受Lakota'Mani
+	.accept 883 >>接任务: |cFFFCDC00拉克塔曼尼|r
 step
     >>杀死大量的绒猪。掠夺他们的象牙。保存你得到的血块
 	.goto The Barrens,44.3,52.3,50,0
@@ -694,7 +815,7 @@ step
 step
     #sticky
     #completewith Ishamuhale
-    >>杀死平原漫游者。抢劫他们的肾脏
+    >>杀死平原漫游者。掠夺他们的肾脏
     .complete 821,2 --Plainstrider Kidney (5)
 step
     #requires Lizard
@@ -703,7 +824,7 @@ step
     .complete 880,1 --Altered Snapjaw Shell (8)
 step
    #completewith next
-	>>在该地区杀死一名哲夫拉。抢劫尸体
+	>>在该地区杀死一名哲夫拉。掠夺尸体
 	.goto The Barrens,61.0,32.2
 	.collect 10338,1 --Collect Fresh Zhevra Carcass
 step
@@ -712,44 +833,60 @@ step
 	.goto The Barrens,59.9,30.4
     .complete 882,1 --Ishamuhale's Fang (1)
 step
-    >>杀死平原漫游者。抢劫他们的肾脏
+    >>杀死平原漫游者。掠夺他们的肾脏
     .complete 821,2 --Plainstrider Kidney (5)
 step
 	.goto The Barrens,62.7,36.3
     >>跑回棘轮
-    .turnin 888 >>交出被盗战利品
+.target Gazlowe
+>>与|cFF00FF25Gazlowe|r交谈
+    .turnin 888 >>交任务: |cFF00FF25被窃的货物|r
 step
     .goto The Barrens,63.0,37.2
-    .turnin 1094 >>提交进一步说明
-    .accept 1095 >>接受进一步指示
+>>与|cFF00FF25溅射阀|r交谈
+    .turnin 1094 >>交任务: |cFF00FF25新的指示|r
+.target Sputtervalve
+    .accept 1095 >>接任务: |cFFFCDC00新的指示|r
 step
     .goto The Barrens,62.4,37.6
-    .turnin 865 >>转入猛禽角
-    .turnin 1069 >>交上深苔藓蜘蛛蛋
+.target Mebok Mizzyrix
+>>与|cFF00FF25Mebok Mizzyrix交谈|r
+    .turnin 865 >>交任务: |cFF00FF25迅猛龙角|r
+    .turnin 1069 >>交任务: |cFF00FF25深苔蜘蛛的卵|r
 step
     .goto The Barrens,62.3,38.4
-    .turnin 821 >>交回陈的空桶
+.target Brewmaster Drohn
+>>与|cFF00FF25Brewmaster Drohn|r交谈
+    .turnin 821 >>交任务: |cFF00FF25老陈的空酒桶|r
 step
     .goto The Barrens,63.1,37.1
     .fly Crossroads >>飞向十字路口
 step
     .goto The Barrens,52.2,31.9
-    .turnin 880 >>交出改变的存在
-    .accept 1489 >>接受Hamuul Runetotem
-    .accept 3301 >>接受Mura Runetotem
+>>与|cFF00FF25Tonga Runetotem|r交谈
+    .turnin 880 >>交任务: |cFF00FF25变异的生物|r
+.target Tonga Runetotem
+    .accept 1489 >>接任务: |cFFFCDC00哈缪尔·符文图腾|r
+    .accept 3301 >>接任务: |cFFFCDC00茉拉·符文图腾|r
 step
     .goto The Barrens,52.0,31.6
-    .turnin 899 >>因仇恨而上缴
+.target Mankrik
+>>与|cFF00FF25Mankrik|r交谈
+    .turnin 899 >>交任务: |cFF00FF25复仇的怒火|r
 step
     >>塔顶
     .goto The Barrens,51.60,30.90
-    .turnin 875 >> 交出哈比中尉
-    .accept 876 >> 接受Serena Bloodfeather
+>>与|cFF00FF25Darsok Swiftdage|r交谈
+    .turnin 875 >>交任务: |cFF00FF25鹰身人首领|r
+.target Darsok Swiftdagger
+    .accept 876 >>接任务: |cFFFCDC00塞瑞娜·血羽|r
 step
     >>这将启动定时任务
     .goto The Barrens,51.4,30.2
-    .turnin 848 >>倒入真菌孢子
-    .accept 853 >>接受药剂师Zamah
+>>与|cFF00FF25药剂师Helbrid|r交谈
+    .turnin 848 >>交任务: |cFF00FF25菌类孢子|r
+.target Apothecary Helbrim
+    .accept 853 >>接任务: |cFFFCDC00药剂师扎玛|r
 step
     .goto The Barrens,51.5,30.3
     .fly Camp Taurajo >>飞往陶拉霍营地
@@ -759,24 +896,32 @@ step
     .collect 5075 --Blood Shard (1)
 step
     .goto The Barrens,44.6,59.2
-    .turnin 878 >>战争中沦陷的部落
-    .accept 5052 >>接受阿加马根的血片
-    .turnin 5052 >>交出阿加马根血片
+>>与|cFF00FF25Mangletooth|r交谈
+    .turnin 878 >>交任务: |cFF00FF25野猪人的内战|r
+.target Mangletooth
+    .accept 5052 >>接任务: |cFFFCDC00阿迦玛甘的血岩碎片|r
+    .turnin 5052 >>交任务: |cFF00FF25阿迦玛甘的血岩碎片|r
 --N Different classes needing different buffs, e.g. need speed buff later for Mulgore run for classes that didnt get FP earlier
 step
     .goto The Barrens,44.8,59.1
-    .turnin 882 >>转入Ishamuhale
-    .accept 907 >>接受愤怒的雷霆蜥蜴
-    .accept 1130 >>接受Melor发送消息
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 882 >>交任务: |cFF00FF25伊沙姆哈尔|r
+.target Jorn Skyseer
+    .accept 907 >>接任务: |cFFFCDC00被激怒的雷霆蜥蜴|r
+    .accept 1130 >>接任务: |cFFFCDC00梅洛的关注|r
 step
     .goto The Barrens,44.8,59.1
     .isOnQuest 883
-    .turnin 883 >>交给Lakota’mani
+.target Jorn Skyseer
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 883 >>交任务: |cFF00FF25拉克塔曼尼|r
 step
     .goto The Barrens,44.8,59.1
-    .turnin 882 >>转入Ishamuhale
-    .accept 907 >>接受愤怒的雷霆蜥蜴
-    .accept 1130 >>接受Melor发送消息
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 882 >>交任务: |cFF00FF25伊沙姆哈尔|r
+.target Jorn Skyseer
+    .accept 907 >>接任务: |cFFFCDC00被激怒的雷霆蜥蜴|r
+    .accept 1130 >>接任务: |cFFFCDC00梅洛的关注|r
 step
     #sticky
     #label Owatanka2
@@ -784,9 +929,9 @@ step
     .goto The Barrens,44.2,62.1,0
     .goto The Barrens,49.2,62.6,0
     .goto The Barrens,49.6,60.0,0
-    >>在该区域周围搜索Owatanka（蓝雷蜥蜴）。如果你找到他，抢走他的尾钉并开始任务。如果你找不到他，跳过这个任务
+    >>在该区域周围搜索Owatanka(蓝雷蜥蜴)。如果你找到他，抢走他的尾钉并开始任务。如果你找不到他，跳过这个任务
     .collect 5102,1,884 --Collect Owatanka's Tailspike
-    .accept 884 >>接受Owatanka
+    .accept 884 >>接任务: |cFFFCDC00奥瓦坦卡|r
 step
     .goto The Barrens,42.5,60.3,30,0
     .goto The Barrens,47.1,63.7,30,0
@@ -795,16 +940,22 @@ step
     .complete 907,1 --Thunder Lizard Blood (3)
 step
     .goto The Barrens,44.9,59.1
-    .turnin 907 >>交出愤怒的雷霆蜥蜴
-    .accept 913 >>接受雷鹰的哭泣
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 907 >>交任务: |cFF00FF25被激怒的雷霆蜥蜴|r
+.target Jorn Skyseer
+    .accept 913 >>接任务: |cFFFCDC00雷鹰的嘶鸣|r
 step
     .goto The Barrens,44.9,59.1
-    .turnin 884 >>交给Owatanka
+.target Jorn Skyseer
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 884 >>交任务: |cFF00FF25奥瓦坦卡|r
     .isOnQuest 884
 step
     .goto The Barrens,44.9,59.1
-    .turnin 907 >>交出愤怒的雷霆蜥蜴
-    .accept 913 >>接受雷鹰的哭泣
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 907 >>交任务: |cFF00FF25被激怒的雷霆蜥蜴|r
+.target Jorn Skyseer
+    .accept 913 >>接任务: |cFFFCDC00雷鹰的嘶鸣|r
 step
     .goto The Barrens,44.8,63.2,30,0
     .goto The Barrens,47.0,61.6,30,0
@@ -816,37 +967,47 @@ step
     .complete 913,1 --Thunderhawk Wings (1)
 step
     .goto The Barrens,44.8,59.1
-    .turnin 913 >>交出雷鹰的哭声
---    .accept 874 >>接受Mahren Skyseer
+.target Jorn Skyseer
+>>与|cFF00FF25Jorn Skyseer|r交谈
+    .turnin 913 >>交任务: |cFF00FF25雷鹰的嘶鸣|r
+--    .accept 874 >>接任务: |cFFFCDC00玛伦·星眼|r
 step
     #completewith next
     .goto The Barrens,44.54,59.27
     >>将你的血碎片交给来自芒果的风之精灵buff。如果意外出售了任何碎片，请跳过此步骤
-    .turnin 889 >> 风之灵归来
+.target Mangletooth
+>>与|cFF00FF25Mangletooth|r交谈
+    .turnin 889 >>交任务: |cFF00FF25风之魂|r
 step
     .goto Thunder Bluff,32.0,66.9,60 >>跑向电梯，进入雷霆崖
 step
-    .goto Thunder Bluff,45.9,64.7
+    .goto Thunder Bluff,45.814,64.711
     .home >>将您的炉石设置为雷霆崖
 step
-    .goto Thunder Bluff,61.4,80.9
-    .turnin 1130 >>交出Melor发送消息
-    .accept 1131 >>接受Steelsnap
+    .goto Thunder Bluff,61.538,80.919
+>>与|cFF00FF25Melor Stonehoof|r交谈
+    .turnin 1130 >>交任务: |cFF00FF25梅洛的关注|r
+.target Melor Stonehoof
+    .accept 1131 >>接任务: |cFFFCDC00钢齿土狼|r
 step
  	>>走进视野之池
 	.goto Thunder Bluff,30.1,30.0,30,0
 	.goto Thunder Bluff,23.00,21.00
-    .turnin 853 >> 交给药剂师Zamah
+.target Apothecary Zamah
+>>与|cFF00FF25药剂师Zamah|r交谈
+    .turnin 853 >>交任务: |cFF00FF25药剂师扎玛|r
 step
     .goto Thunder Bluff,25.16,20.95
-    .trainer >> 训练你的职业咒语
-	>>还没有回复AoE（如果你已经达到消防规范）
+    .trainer >>训练你的职业技能
+	>>还没有回复AoE(如果你已经达到消防规范)
 step
     .goto Thunder Bluff,28.4,27.7
-    .accept 264 >>接受直到死亡我们分开
+.target Clarice Foster
+>>与|cFF00FF25Clarice Foster交谈|r
+    .accept 264 >>接任务: |cFFFCDC00至死方休|r
 step
-	.goto Thunder Bluff,46.9,49.9
-    .fp Thunder Bluff >> 获得Thunder Bluff飞行路线
+	.goto Thunder Bluff,47.003,49.832
+    .fp Thunder Bluff >>获得Thunder Bluff飞行路线
     .fly Crossroads >>飞向十字路口
 step
     >>杀死Serena Bloodfeather。抢她的头
@@ -854,45 +1015,63 @@ step
     .complete 876,1 --Serena's Head (1)
 step
     .goto The Barrens,35.3,27.9
-    .turnin 1062 >>交出地精侵略者
-    .turnin 6629 >>移交Kill Grundig Darkcloud
-    .turnin 6523 >>交出保护Kaya
-    .accept 6401 >>接受Kaya的活着
-    .accept 1063 >>接受长老克罗恩
---    .accept 1068 >> 接受切碎机
+>>与|cFF00FF25Seereth Stonebreak|r交谈
+    .turnin 1062 >>交任务: |cFF00FF25地精侵略者|r
+>>与|cFF00FF25Makaba Flathhoof|r交谈
+    .turnin 6629 >>交任务: |cFF00FF25杀死格鲁迪格·暗云|r
+    .turnin 6523 >>交任务: |cFF00FF25保护卡雅|r
+.target Makaba Flathoof
+    .accept 6401 >>接任务: |cFFFCDC00卡雅还活着|r
+.target Seereth Stonebreak
+    .accept 1063 >>接任务: |cFFFCDC00长者|r
+--    .accept 1068 >>接任务: |cFFFCDC00伐木机|r
 step
     .goto Stonetalon Mountains,71.3,95.1
-    .turnin 6461 >>收起输血器
+.target Xen'Zilla
+>>与|cFF00FF25Xen'Zilla交谈|r
+    .turnin 6461 >>交任务: |cFF00FF25盗窃的蜘蛛|r
 step
-    .goto Stonetalon Mountains,59.0,62.6
-    .turnin 1095 >>提交进一步说明
+    .goto Stonetalon Mountains,58.989,62.599
+.target Ziz Fizziks
+>>与|cFF00FF25Ziz Fizziks|r交谈
+    .turnin 1095 >>交任务: |cFF00FF25新的指示|r
 step
     .goto Stonetalon Mountains,47.5,58.4
-    .turnin 6401 >>活捉Kaya
+.target Tammra Windfield
+>>与|cFF00FF25Tammra Windfield|r交谈
+    .turnin 6401 >>交任务: |cFF00FF25卡雅还活着|r
 step
     .goto Stonetalon Mountains,45.12,59.84
-    .fp Sun Rock>> 获取Sun Rock Retreat飞行路线
+    .fp Sun Rock>>获取Sun Rock Retreat飞行路线
 step
     #completewith next
-    .hs >> 炉底雷霆崖
+    .hs >>炉底雷霆崖
 step
     .goto Thunder Bluff,70.00,30.90
-    .turnin 1063 >> 交给克罗恩长老
-    .accept 1064 >> 接受被遗弃的援助
+>>与|cFF00FF25Magatha Grimtothem|r交谈
+    .turnin 1063 >>交任务: |cFF00FF25长者|r
+.target Magatha Grimtotem
+    .accept 1064 >>接任务: |cFFFCDC00被遗忘者的援助|r
 step
     .goto Thunder Bluff,78.62,28.56
-    .turnin 1489 >> 交给Hamuul Runetotem
-    .accept 1490 >> 接受Nara Wildmane
+>>与|cFF00FF25Arch Druid Hamuul Runetotem|r交谈
+    .turnin 1489 >>交任务: |cFF00FF25哈缪尔·符文图腾|r
+.target Arch Druid Hamuul Runetotem
+    .accept 1490 >>接任务: |cFFFCDC00纳拉·蛮鬃|r
 step
     .goto Thunder Bluff,75.65,31.62
-    .turnin 1490 >> 交给奈拉·威尔德曼
+.target Nara Wildmane
+>>与|cFF00FF25Nara Wildman|r交谈
+    .turnin 1490 >>交任务: |cFF00FF25纳拉·蛮鬃|r
 step
     .goto Thunder Bluff,23.00,21.0
-    .turnin 1064 >> 交出被遗弃的援助
-    .accept 1065 >> 接受塔伦磨坊之旅
+>>与|cFF00FF25药剂师Zamah|r交谈
+    .turnin 1064 >>交任务: |cFF00FF25被遗忘者的援助|r
+.target Apothecary Zamah
+    .accept 1065 >>接任务: |cFFFCDC00塔伦米尔之旅|r
 step
     .goto Thunder Bluff,25.16,20.95
-    .trainer >> 如果需要，训练你的职业法术
+    .trainer >>如果需要，训练你的职业法术
 	>>如果你还没有，请尊重Frost AoE
 step
     .goto Thunder Bluff,46.8,50.0
@@ -900,8 +1079,10 @@ step
 step
     .goto The Barrens,51.60,30.90
 	>>上楼去
-    .turnin 876 >> 交给Serena Bloodfeather
+.target Darsok Swiftdagger
+>>与|cFF00FF25Darsok Swiftdage|r交谈
+    .turnin 876 >>交任务: |cFF00FF25塞瑞娜·血羽|r
 step
     .goto The Barrens,51.50,30.34
-    .fly Orgrimmar >> 飞往奥格瑞玛
+    .fly Orgrimmar >>飞往奥格瑞玛
 ]])

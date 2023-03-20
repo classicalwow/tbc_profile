@@ -7,19 +7,26 @@ local fmt, smatch, strsub, tinsert, srep, mmax, abs = string.format,
                                                       math.max, abs
 
 local UnitLevel, GetRealZoneText, IsInGroup, tonumber, GetTime, GetServerTime,
-      UnitXP, EasyMenu = UnitLevel, GetRealZoneText, IsInGroup, tonumber,
-                         GetTime, GetServerTime, UnitXP, _G.EasyMenu
+      UnitXP = UnitLevel, GetRealZoneText, IsInGroup, tonumber, GetTime,
+               GetServerTime, UnitXP
 
 local AceGUI = LibStub("AceGUI-3.0")
 local LibDeflate = LibStub("LibDeflate")
 local L = addon.locale.Get
+local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0", true)
+local EasyMenu = function(...)
+    if LibDD then
+        LibDD:EasyMenu(...)
+    else
+        _G.EasyMenu(...)
+    end
+end
 
 addon.tracker = addon:NewModule("LevelingTracker", "AceEvent-3.0",
                                 "AceComm-3.0", "AceSerializer-3.0")
 
 addon.tracker.playerLevel = UnitLevel("player")
-addon.tracker.maxLevel = 70 -- GetMaxPlayerLevel() --Currently returns 80 on login, 70 on reloads
-addon.tracker.state = {otherReports = {}}
+addon.tracker.state = {otherReports = {}, inspectionRequests = {}}
 addon.tracker.reportData = {}
 addon.tracker.ui = {}
 addon.tracker._commPrefix = "RXPLTComms"
@@ -45,6 +52,7 @@ end
 function addon.tracker:SetupTracker()
     local trackerDefaults = {profile = {levels = {}}}
     self.db = LibStub("AceDB-3.0"):New("RXPCTrackingData", trackerDefaults)
+    self.maxLevel = GetMaxPlayerLevel()
 
     self:RegisterEvent("CHAT_MSG_COMBAT_XP_GAIN")
     self:RegisterEvent("TIME_PLAYED_MSG")
@@ -66,8 +74,6 @@ function addon.tracker:SetupTracker()
 
     if addon.settings.db.profile.enablelevelSplits then
         self:CreateLevelSplits()
-
-        self.levelSplits:Show()
     end
 end
 
@@ -76,6 +82,20 @@ function addon.tracker:SetupInspections()
         addon.settings.db.profile.enableBetaFeatures then
         self:RegisterEvent("INSPECT_READY")
         self:RegisterComm(self._commPrefix)
+
+        local UnitGUID, UnitIsEnemy = UnitGUID, UnitIsEnemy
+        hooksecurefunc("NotifyInspect", function(unit)
+            if not addon.settings.db.profile.enableLevelingReportInspections then
+                return
+            end
+
+            -- Gearscore addons inspect on mouseover/nameplate/etc, RXP only inspects via target
+            if unit ~= "target" or UnitIsEnemy("player", unit) then
+                return
+            end
+
+            addon.tracker.state.inspectionRequests[UnitGUID(unit)] = true
+        end)
     else
         self:UnregisterEvent("INSPECT_READY")
     end
@@ -132,21 +152,8 @@ function addon.tracker:UpgradeDB()
             not levelDB[l].timestamp.started then
             levelDB[l].timestamp.started = 0
         end
-    end
 
-    -- On 60/70 login, set timestamp.started to now
-    -- aka ignore raiding time against 60-61 and 70-71
-    -- Also support fresh Wrath users of RXP
-    if UnitXP("player") == 0 and self.playerLevel == 70 and self.maxLevel >
-        self.playerLevel then
-
-        if levelDB[self.playerLevel].timestamp then
-            levelDB[self.playerLevel].timestamp.started = time()
-        else
-            levelDB[self.playerLevel].timestamp = {started = time()}
-        end
-        addon.comms.PrettyPrint(L("Resetting level %d start time to now!"),
-                                self.playerLevel)
+        -- TODO repair level 70 duration, calculated as negative because of level 70 reset grace value
     end
 end
 
@@ -203,50 +210,92 @@ function addon.tracker:CHAT_MSG_COMBAT_XP_GAIN(_, text, ...)
 end
 
 function addon.tracker:TIME_PLAYED_MSG(_, totalTimePlayed, timePlayedThisLevel)
-    local data = addon.tracker.waitingForTimePlayed
+    local data = self.waitingForTimePlayed
 
     if not data then return end
 
     if data.event == 'PLAYER_LEVEL_UP' then
-        addon.tracker.db.profile["levels"][data.level - 1].timestamp
-            .dateFinished = data.date
-        addon.tracker.db.profile["levels"][data.level - 1].timestamp.finished =
+        self.db.profile["levels"][data.level - 1].timestamp.dateFinished =
+            data.date
+        self.db.profile["levels"][data.level - 1].timestamp.finished =
             totalTimePlayed - 1
 
-        addon.tracker.db.profile["levels"][data.level].timestamp.started =
+        self.db.profile["levels"][data.level].timestamp.started =
             totalTimePlayed
-        addon.tracker.db.profile["levels"][data.level].timestamp.dateStarted =
-            data.date
+        self.db.profile["levels"][data.level].timestamp.dateStarted = data.date
 
-        addon.tracker.waitingForTimePlayed = false
+        self.waitingForTimePlayed = false
 
         -- Refresh baseline time on level up
-        addon.tracker.state.login = {
+        self.state.login = {
             time = time(),
             timePlayedThisLevel = timePlayedThisLevel,
             totalTimePlayed = totalTimePlayed
         }
 
         -- Build data after processing level up
-        addon.tracker.reportData[data.level - 1] =
-            addon.tracker:CompileLevelData(data.level - 1)
-        addon.tracker:UpdateLevelSplits("full")
+        self.reportData[data.level - 1] = self:CompileLevelData(data.level - 1)
+        self:UpdateLevelSplits("full")
     elseif data.event == 'PLAYER_ENTERING_WORLD' then
-        addon.tracker.state.login = {
+        self.state.login = {
             time = time(),
             timePlayedThisLevel = timePlayedThisLevel,
             totalTimePlayed = totalTimePlayed
         }
 
-        addon.tracker:UpdateLevelSplits("full")
-
-        if not addon.tracker.db.profile["levels"][addon.tracker.playerLevel]
-            .timestamp.dateStarted and timePlayedThisLevel < 60 then
-            addon.tracker.db.profile["levels"][addon.tracker.playerLevel]
-                .timestamp.dateStarted = data.date
+        if not self.db.profile["levels"][self.playerLevel].timestamp.dateStarted and
+            timePlayedThisLevel < 60 then
+            self.db.profile["levels"][self.playerLevel].timestamp.dateStarted =
+                data.date
         end
 
-        addon.tracker.waitingForTimePlayed = false
+        local remainingTime = totalTimePlayed - timePlayedThisLevel
+        local levelDB = self.db.profile["levels"]
+        local levelDuration
+        -- Reverse engineer splits repairing
+        for l = self.playerLevel - 1, 2, -1 do
+            if not levelDB[l] or not levelDB[l].timestamp then break end
+
+            if levelDB[l].timestamp.finished and levelDB[l].timestamp.started then
+
+                levelDuration = levelDB[l].timestamp.finished -
+                                    levelDB[l].timestamp.started
+                remainingTime = remainingTime - levelDuration
+
+            elseif levelDB[l].timestamp.finished and
+                not levelDB[l].timestamp.started then
+
+                addon.comms.PrettyPrint("Repairing level %d started timestamp",
+                                        l)
+                levelDB[l].timestamp.started = remainingTime -
+                                                   levelDB[l].timestamp.finished
+                break
+            else
+                -- Not sure how we got here, but it's probably bad
+                break
+            end
+
+        end
+
+        -- On 60/70 login, set timestamp.started to now
+        -- aka ignore raiding time against 60-61 and 70-71
+        -- Also support fresh Wrath users of RXP
+        -- Must be later in client load order, returns 0 erroneously oftentimes on init
+        if UnitXP("player") == 0 and self.playerLevel == 70 and self.maxLevel >
+            self.playerLevel then
+
+            if levelDB[self.playerLevel].timestamp then
+                levelDB[self.playerLevel].timestamp.started = time()
+            else
+                levelDB[self.playerLevel].timestamp = {started = time()}
+            end
+            addon.comms.PrettyPrint(L("Resetting level %d start time to now!"),
+                                    self.playerLevel)
+        end
+
+        self:CompileData()
+        self:UpdateLevelSplits("full")
+        self.waitingForTimePlayed = false
     end
 end
 
@@ -354,6 +403,9 @@ function addon.tracker.UpdateReportLevels(levelData, playerLevel, target,
         insertData.arg2 = insertData.text
 
         tinsert(sparse[parentIndex].menuList, insertData)
+
+        table.sort(sparse[parentIndex].menuList,
+                   function(k1, k2) return k1.arg1 < k2.arg1 end)
     end
 
     local menu = {}
@@ -378,7 +430,9 @@ end
 
 function addon.tracker:CreateGui(attachment, target)
     if not attachment then return end
-    if addon.tracker.ui[attachment:GetName()] then return end
+    local attachmentName = attachment.GetName and attachment:GetName()
+    if not attachmentName then return end
+    if addon.tracker.ui[attachmentName] then return end
 
     local offset = {
         x = -38,
@@ -388,8 +442,8 @@ function addon.tracker:CreateGui(attachment, target)
     local padding = 4
     local levelData, playerLevel
 
-    addon.tracker.ui[attachment:GetName()] = AceGUI:Create("Frame")
-    local trackerUi = addon.tracker.ui[attachment:GetName()]
+    addon.tracker.ui[attachmentName] = AceGUI:Create("Frame")
+    local trackerUi = addon.tracker.ui[attachmentName]
 
     trackerUi:SetLayout("Fill")
     trackerUi:Hide()
@@ -397,7 +451,9 @@ function addon.tracker:CreateGui(attachment, target)
 
     trackerUi.statustext:GetParent():Hide() -- Hide the statustext bar
     trackerUi:SetTitle("RestedXP Leveling Report")
-    trackerUi:SetPoint("TOPLEFT", attachment, "TOPRIGHT", offset.x, offset.y)
+    trackerUi.frame:ClearAllPoints()
+    trackerUi.frame:SetPoint("TOPLEFT", attachment, "TOPRIGHT", offset.x,
+                             offset.y)
     trackerUi:SetWidth(attachment:GetWidth() * 0.7)
     trackerUi:SetHeight(attachment:GetHeight() + offset.y - 8 -
                             offset.tabsHeight * 2)
@@ -409,7 +465,7 @@ function addon.tracker:CreateGui(attachment, target)
     trackerUi.frame:SetBackdrop(addon.RXPFrame.backdropEdge)
     trackerUi.frame:SetBackdropColor(unpack(addon.colors.background))
 
-    if attachment:GetName() == 'CharacterFrame' then
+    if attachmentName == 'CharacterFrame' then
         -- Firmly attach to CharacterFrame show/hide
         if addon.settings.db.profile.openTrackerReportOnCharOpen then
             attachment:HookScript("OnShow", function()
@@ -547,14 +603,14 @@ function addon.tracker:CreateGui(attachment, target)
     }
 
     trackerUi.sourcesContainer.data['quests']:SetText('quests')
-    trackerUi.sourcesContainer.data['quests']:SetFont(addon.font, 12,"")
+    trackerUi.sourcesContainer.data['quests']:SetFont(addon.font, 12, "")
     trackerUi.sourcesContainer.data['quests']:SetFullWidth(true)
     trackerUi.sourcesContainer:AddChild(
         trackerUi.sourcesContainer.data['quests'])
     trackerUi.sourcesContainer:AddChild(buildSpacer(padding))
 
     trackerUi.sourcesContainer.data['mobs']:SetText('mobs')
-    trackerUi.sourcesContainer.data['mobs']:SetFont(addon.font, 12,"")
+    trackerUi.sourcesContainer.data['mobs']:SetFont(addon.font, 12, "")
     trackerUi.sourcesContainer.data['mobs']:SetFullWidth(true)
     trackerUi.sourcesContainer:AddChild(trackerUi.sourcesContainer.data['mobs'])
 
@@ -575,7 +631,7 @@ function addon.tracker:CreateGui(attachment, target)
 
     trackerUi.teamworkContainer.data['solo'] = AceGUI:Create("Label")
     trackerUi.teamworkContainer.data['solo']:SetText('solo')
-    trackerUi.teamworkContainer.data['solo']:SetFont(addon.font, 12,"")
+    trackerUi.teamworkContainer.data['solo']:SetFont(addon.font, 12, "")
     trackerUi.teamworkContainer.data['solo']:SetFullWidth(true)
     trackerUi.teamworkContainer:AddChild(
         trackerUi.teamworkContainer.data['solo'])
@@ -703,45 +759,14 @@ function addon.tracker:CompileData()
     return addon.tracker.reportData
 end
 
-function addon.tracker:PrettyPrintTime(s)
-    local days = floor(s / 24 / 60 / 60)
-    s = mod(s, 24 * 60 * 60)
-
-    local hours = floor(s / 60 / 60)
-    s = mod(s, 60 * 60)
-
-    local minutes = floor(s / 60)
-    s = mod(s, 60)
-
-    local formattedString
-    if days > 0 then
-        formattedString = fmt("%d %s %d %s %d %s %d %s", days,
-                              days == 1 and L('day') or L('days'), hours,
-                              hours == 1 and L('hour') or L('hours'), minutes,
-                              minutes == 1 and L('minute') or L('minutes'), s,
-                              s == 1 and L('second') or L('seconds'))
-    elseif hours > 0 then
-        formattedString = fmt("%d %s %d %s %d %s", hours,
-                              hours == 1 and L('hour') or L('hours'), minutes,
-                              minutes == 1 and L('minute') or L('minutes'), s,
-                              s == 1 and L('second') or L('seconds'))
-    elseif minutes > 0 then
-        formattedString = fmt("%d %s %d %s", minutes,
-                              minutes == 1 and L('minute') or L('minutes'), s,
-                              s == 1 and L('second') or L('seconds'))
-    else
-        formattedString =
-            fmt("%d %s", s, s == 1 and L('second') or L('seconds')) -- Big gratz for leveling in under a minute
-    end
-
-    return formattedString
-end
-
 function addon.tracker:UpdateReport(selectedLevel, target, attachment)
     if not attachment then return end
     local trackerUi = addon.tracker.ui[attachment:GetName()]
     if not trackerUi then return end
-    addon.activeFrames["trackerUi"] = trackerUi
+    addon.enabledFrames["trackerUi"] = trackerUi
+    trackerUi.IsFeatureEnabled = function()
+        return addon.settings.db.profile.enableTracker
+    end
     self.state.levelReportData = nil
 
     if target and target ~= playerName then
@@ -790,9 +815,9 @@ function addon.tracker:UpdateReport(selectedLevel, target, attachment)
         end
 
         trackerUi.speedContainer.data:SetText(
-            addon.tracker:PrettyPrintTime(self.state.levelReportData
-                                              .timePlayedThisLevel or
-                                              "Missing data"))
+            addon.comms:PrettyPrintTime(self.state.levelReportData
+                                            .timePlayedThisLevel or
+                                            "Missing data"))
 
         if selectedLevel == 1 or
             (selectedLevel == 55 and addon.player.class == "DEATHKNIGHT") then
@@ -819,8 +844,7 @@ function addon.tracker:UpdateReport(selectedLevel, target, attachment)
             report.timestamp.finished then
             local s = report.timestamp.finished - report.timestamp.started
 
-            trackerUi.speedContainer.data:SetText(
-                addon.tracker:PrettyPrintTime(s))
+            trackerUi.speedContainer.data:SetText(addon.comms:PrettyPrintTime(s))
         else
             trackerUi.speedContainer.data:SetText("Missing data")
         end
@@ -1068,17 +1092,21 @@ function addon.tracker:RenderSplitsBackground()
 end
 
 function addon.tracker:CreateLevelSplits()
-    if addon.tracker.levelSplits then return end
+    if addon.tracker.levelSplits then
+        self:UpdateLevelSplits("full")
+        return
+    end
     -- AceGUI:Create("Frame") has too much magic for how simple this is
     local BackdropTemplate = BackdropTemplateMixin and "BackdropTemplate"
     local anchor = UIParent
 
-    addon.tracker.levelSplits = CreateFrame("Frame", "RXPLevelSplits", anchor,
-                                            BackdropTemplate)
+    local f = CreateFrame("Frame", "RXPLevelSplits", anchor, BackdropTemplate)
 
-    local f = addon.tracker.levelSplits
-    addon.activeFrames["levelSplits"] = f
-
+    addon.tracker.levelSplits = f
+    addon.enabledFrames["levelSplits"] = f
+    f.IsFeatureEnabled = function()
+        return addon.settings.db.profile.enablelevelSplits
+    end
     f:SetClampedToScreen(true)
     f:EnableMouse(true)
     f:SetMovable(true)
@@ -1118,7 +1146,7 @@ function addon.tracker:CreateLevelSplits()
 
     f.title:SetPoint("TOP", f, 0, 5)
     -- Width immediately overwritten in UpdateLevelSplits on PLAYER_ENTERING_WORLD
-    f.title:SetSize(50, 17)
+    f.title:SetSize(80, 17)
 
     f.title.splitsMenuFrame = CreateFrame("Frame", "RXPG_SplitsMenuFrame",
                                           f.title, "UIDropDownMenuTemplate")
@@ -1128,8 +1156,7 @@ function addon.tracker:CreateLevelSplits()
     f.title.cog:SetWidth(18)
     f.title.cog:SetHeight(18)
     f.title.cog:SetPoint("LEFT", f.title, "LEFT", -9, 0)
-    f.title.cog:SetNormalTexture("Interface/AddOns/" .. addonName ..
-                                     "/Textures/rxp_cog-32")
+    f.title.cog:SetNormalTexture(addon.GetTexture("rxp_cog-32"))
     f.title.cog:SetHighlightTexture(
         "Interface/MINIMAP/UI-Minimap-ZoomButton-Highlight", "ADD")
     f.title.cog:Show()
@@ -1141,54 +1168,54 @@ function addon.tracker:CreateLevelSplits()
     f.title.text = f.title:CreateFontString(nil, "OVERLAY")
     f.title.text:ClearAllPoints()
     f.title.text:SetJustifyH("CENTER")
-    f.title.text:SetJustifyV("CENTER")
-    f.title.text:SetTextColor(1, 1, 1)
+    f.title.text:SetJustifyV("MIDDLE")
+    f.title.text:SetTextColor(unpack(addon.activeTheme.textColor))
     f.title.text:SetFont(addon.font, 9, "")
     f.title.text:SetText("Level splits")
     f.title.text:SetPoint("CENTER", f.title, 0, 1)
 
     f.history = AceGUI:Create("Label")
     f.history:SetFont(self.fonts.splits,
-                      addon.settings.db.profile.levelSplitsFontSize)
+                      addon.settings.db.profile.levelSplitsFontSize, "")
     f.history:SetFullWidth(true)
     f.history.frame:SetParent(f)
     f.history.frame:SetPoint("TOPLEFT", f, "TOPLEFT", 8,
                              -(f.title:GetHeight() / 2 + 2))
     f.history.frame:Show()
-    f.history:SetText("Level X: 00:00:00")
+    f.history:SetText("")
 
     f.current = AceGUI:Create("Label")
     f.current:SetFont(self.fonts.splits,
-                      addon.settings.db.profile.levelSplitsFontSize)
+                      addon.settings.db.profile.levelSplitsFontSize, "")
     f.current:SetFullWidth(true)
     f.current.frame:SetParent(f)
     f.current.frame:SetPoint("TOPLEFT", f.history.frame, "BOTTOMLEFT", 0, -8)
     f.current.frame:Show()
-    if addon.tracker.playerLevel == addon.tracker.maxLevel then
-        f.current:SetText("Level Time: Max")
-    else
-        f.current:SetText("Level Time: 00:00:00")
-    end
+    f.current:SetText("")
 
     f.total = AceGUI:Create("Label")
     f.total:SetFont(self.fonts.splits,
-                    addon.settings.db.profile.levelSplitsFontSize)
+                    addon.settings.db.profile.levelSplitsFontSize, "")
     f.total:SetFullWidth(true)
     f.total.frame:SetParent(f)
     f.total.frame:SetPoint("TOPLEFT", f.current.frame, "BOTTOMLEFT", 0, 0)
     f.total.frame:Show()
-    f.total:SetText("Total Time: 00:00:00")
+    f.total:SetText("")
 
     -- Immediately overwritten in UpdateLevelSplits on PLAYER_ENTERING_WORLD
-    f:SetSize(50, 100)
+    f:SetSize(100, 48)
 
     f:SetAlpha(addon.settings.db.profile.levelSplitsOpacity)
     f.title:SetIgnoreParentAlpha(true)
-    f.title:SetAlpha(addon.settings.db.profile.levelSplitsOpacity + 0.1)
+    if addon.settings.db.profile.levelSplitsOpacity + 0.1 > 1.0 then
+        f.title:SetAlpha(1)
+    else
+        f.title:SetAlpha(addon.settings.db.profile.levelSplitsOpacity + 0.1)
+    end
 
-    addon.tracker.levelSplits:HookScript("OnUpdate", function()
-        addon.tracker:RefreshSplitsSummary()
-    end)
+    f:HookScript("OnUpdate", function() addon.tracker:RefreshSplitsSummary() end)
+
+    f:SetScript("OnShow", function() addon.tracker:UpdateLevelSplits("full") end)
 end
 
 function addon.tracker:ToggleLevelSplits()
@@ -1197,12 +1224,11 @@ function addon.tracker:ToggleLevelSplits()
     end
 
     -- Already built
-    if addon.tracker.levelSplits then
-        if addon.tracker.levelSplits:IsShown() then
-            addon.tracker.levelSplits:Hide()
+    if self.levelSplits then
+        if self.levelSplits:IsShown() then
+            self.levelSplits:Hide()
         else
-            addon.tracker:UpdateLevelSplits("full")
-            addon.tracker.levelSplits:Show()
+            self.levelSplits:Show()
         end
 
         return
@@ -1212,6 +1238,7 @@ end
 function addon.tracker:RefreshSplitsSummary()
     if not self.state.lastSplitsUpdate then
         self.state.lastSplitsUpdate = GetTime()
+        addon.tracker:UpdateLevelSplits("full")
         return
     end
 
@@ -1291,15 +1318,22 @@ function addon.tracker:CompileLevelSplits(kind)
                 if data.timestamp and data.timestamp.started and
                     data.timestamp.finished then
                     s = data.timestamp.finished - data.timestamp.started
-                    totalSeconds = totalSeconds + s
 
-                    splitsData.levels[l] = {
-                        text = self:BuildSplitsLevelLine(l + 1,
-                                                         addon.tracker:PrintSplitsTime(
-                                                             totalSeconds)),
-                        duration = s,
-                        totalDuration = totalSeconds
-                    }
+                    if s > 0 then
+                        totalSeconds = totalSeconds + s
+
+                        splitsData.levels[l] = {
+                            text = self:BuildSplitsLevelLine(l + 1,
+                                                             addon.tracker:PrintSplitsTime(
+                                                                 totalSeconds)),
+                            duration = s,
+                            totalDuration = totalSeconds
+                        }
+                    else
+                        splitsData.levels[l] = {
+                            text = self:BuildSplitsLevelLine(l + 1, '-')
+                        }
+                    end
                 else
                     splitsData.levels[l] = {
                         text = self:BuildSplitsLevelLine(l + 1, '-')
@@ -1339,9 +1373,8 @@ end
 
 function addon.tracker:UpdateLevelSplits(kind)
     if not addon.settings.db.profile.enablelevelSplits or
-        not addon.tracker.levelSplits or not addon.tracker.state.login then
-        return
-    end
+        not addon.tracker.levelSplits or not addon.tracker.state.login or
+        not addon.settings.db.profile.showEnabled then return end
 
     local f = addon.tracker.levelSplits
     local reportSplitsData = self:CompileLevelSplits(kind)
@@ -1365,7 +1398,7 @@ function addon.tracker:UpdateLevelSplits(kind)
             end
         end
     else
-        if compareTo and compareTo.history.levels[self.playerLevel] and
+        if compareTo and compareTo.history.levels[self.playerLevel + 1] and
             addon.settings.db.profile.compareNextLevelSplit then
             local cTime = self:BuildSplitsLevelLine(self.playerLevel + 1,
                                                     self:PrintSplitsTime(
@@ -1423,11 +1456,11 @@ function addon.tracker:UpdateLevelSplits(kind)
     if currentFontSize ~= addon.settings.db.profile.levelSplitsFontSize then
         -- Font size changed, set new size before calculating width/height
         f.current:SetFont(self.fonts.splits,
-                          addon.settings.db.profile.levelSplitsFontSize)
+                          addon.settings.db.profile.levelSplitsFontSize, "")
         f.history:SetFont(self.fonts.splits,
-                          addon.settings.db.profile.levelSplitsFontSize)
+                          addon.settings.db.profile.levelSplitsFontSize, "")
         f.total:SetFont(self.fonts.splits,
-                        addon.settings.db.profile.levelSplitsFontSize)
+                        addon.settings.db.profile.levelSplitsFontSize, "")
     end
 
     local width = max(f.current.label:GetStringWidth(),
@@ -1570,6 +1603,9 @@ function addon.tracker:INSPECT_READY(_, inspecteeGUID)
     if not addon.settings.db.profile.enableLevelingReportInspections then
         return
     end
+
+    if UnitInBattleground("player") ~= nil or
+        not self.state.inspectionRequests[inspecteeGUID] then return end
 
     local inspectedName = select(6, GetPlayerInfoByGUID(inspecteeGUID))
     if self.state.otherReports[inspectedName] and
