@@ -441,9 +441,9 @@ AtlasLootClassicDB = {
 			[42602] = "arena:1200",
 			[201993] = "arena:550",
 			[42132] = "honor:43400",
-			[40716] = "EmblemOfHeroism:15",
+			[34578] = "honor:3990",
 			[40684] = "EmblemOfHeroism:40",
-			[45831] = "EmblemOfConquest:28",
+			[40716] = "EmblemOfHeroism:15",
 			[16341] = "honor:200",
 			[39757] = "EmblemOfValor:25",
 			[40844] = "EmblemOfConquest:58",
@@ -510,12 +510,12 @@ AtlasLootClassicDB = {
 			[34580] = "honor:3990",
 			[40750] = "EmblemOfValor:40",
 			[31986] = "honor:13300",
-			[41997] = "EmblemOfConquest:58",
+			[23572] = "BoJ:10",
 			[45961] = "arena:1350",
 			[40878] = "honor:21700",
 			[18428] = "honor:200",
 			[24550] = "honor:9500",
-			[33813] = "honor:5130",
+			[41997] = "EmblemOfConquest:58",
 			[42029] = "honor:33180",
 			[42061] = "honor:16590",
 			[33909] = "honor:6840",
@@ -706,7 +706,7 @@ AtlasLootClassicDB = {
 			[45967] = "arena:1350",
 			[28642] = "honor:3800",
 			[33755] = "honor:8550",
-			[23572] = "BoJ:10",
+			[33813] = "honor:5130",
 			[42003] = "EmblemOfValor:45",
 			[33589] = "BoJ:35",
 			[42067] = "honor:33180",
@@ -742,7 +742,7 @@ AtlasLootClassicDB = {
 			[42004] = "EmblemOfConquest:58",
 			[36921] = "EmblemOfHeroism:10",
 			[42068] = "honor:33180",
-			[34578] = "honor:3990",
+			[45831] = "EmblemOfConquest:28",
 			[29266] = "BoJ:33",
 			[41141] = "EmblemOfValor:30",
 			[32989] = "honor:3990",
@@ -839,18 +839,6 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 221.2639414330138,
-			},
-			["Addons"] = {
-				["Favourites"] = {
-					["lists"] = {
-						["ProfileBase"] = {
-							[32231] = true,
-						},
-					},
-				},
-			},
 			["GUI"] = {
 				["point"] = {
 					"BOTTOM", -- [1]
@@ -865,6 +853,18 @@ AtlasLootClassicDB = {
 					14, -- [3]
 					9, -- [4]
 					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 221.2639414330138,
+			},
+			["Addons"] = {
+				["Favourites"] = {
+					["lists"] = {
+						["ProfileBase"] = {
+							[32231] = true,
+						},
+					},
 				},
 			},
 		},

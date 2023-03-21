@@ -13,7 +13,7 @@ Postal3DB = {
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"家駒|伊弗斯|Horde|70|PALADIN", -- [1]
+				"家駒|伊弗斯|Horde|71|PALADIN", -- [1]
 				"暖男你馬四了|伊弗斯|Alliance|1|WARLOCK", -- [2]
 				"特斯拉大股東|伊弗斯|Horde|80|WARLOCK", -- [3]
 				"特變電工|伊弗斯|Horde|80|WARRIOR", -- [4]
