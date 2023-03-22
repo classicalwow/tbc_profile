@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 199503,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199503::::::::70:::::::::|h[群集护面]|h|r",
+			["ID"] = 38094,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38094::::::::72:::::::::|h[达拉然斥候头盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 35936,
@@ -24,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199505::::::::70:::::::::|h[群集胸铠]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 35879,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35879::::::::71:::::::::|h[金板寒钢束带]|h|r",
+			["ID"] = 38117,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38117::::::::72:::::::::|h[恐爪之握]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 35835,
@@ -39,20 +41,20 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35866::::::::70:::::::::|h[资深炮兵之靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 35910,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35910::::::::70:::::::::|h[页岩护腕]|h|r",
+			["ID"] = 38093,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38093::::::::72:::::::::|h[达拉然斥候护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 35903,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35903::::::::70:::::::::|h[玛瑙手套]|h|r",
+			["ID"] = 38102,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38102::::::::72:::::::::|h[石路护手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 199523,
-			["Level"] = 125,
+			["ID"] = 37982,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:199523::::::::70:::::::::|h[群集浩劫指环]|h|r",
+			["Link"] = "|cff1eff00|Hitem:37982::::::::72:::::::::|h[微光齿环]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 199699,
@@ -61,16 +63,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199699::::::::70:::::::::|h[群集坚韧指环]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 199527,
-			["Level"] = 125,
+			["ID"] = 38259,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:199527::::::::70:::::::::|h[群集突击之石]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38259::::::::71:::::::::|h[大副的怀表]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 199527,
-			["Level"] = 125,
+			["ID"] = 36871,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:199527::::::::71:::::::::|h[群集突击之石]|h|r",
+			["Link"] = "|cff0070dd|Hitem:36871::::::::71:::::::::|h[临近风暴之怒]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 35897,
@@ -78,9 +80,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35897::::::::70:::::::::|h[薄冰斗篷]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 35812,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35812::::::::70:::::::::|h[峭壁重击者]|h|r",
+			["ID"] = 38195,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38195::::::::72:::::::::|h[魔导师的末日]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 2362,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cff9d9d9d|Hitem:2362::::::::1:::::::::|h[用旧的木盾]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

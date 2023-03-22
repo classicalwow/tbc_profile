@@ -7,8 +7,7 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["Queues"] = {
-	},
+	["CurrentSet"] = "武器戰",
 	["Sets"] = {
 		["裸體"] = {
 			["equip"] = {
@@ -56,7 +55,6 @@ ItemRackUser = {
 			},
 		},
 		["防戰"] = {
-			["key"] = "[",
 			["equip"] = {
 				"39610:3818:41380:40034:::::80:::::::::", -- [1]
 				"42027::::::::80:::::::::", -- [2]
@@ -78,6 +76,7 @@ ItemRackUser = {
 				"45137::::::::80:::::::::", -- [18]
 			},
 			["icon"] = 134949,
+			["key"] = "[",
 			["old"] = {
 			},
 		},
@@ -111,9 +110,6 @@ ItemRackUser = {
 		},
 		["~CombatQueue"] = {
 			["equip"] = {
-				[18] = "45296::39996::::::80:::::::::",
-				[16] = "45233:3828:::::::80:::::::::",
-				[17] = "46016:3828:::::::80:::::::::",
 			},
 		},
 		["~Unequip"] = {
@@ -123,8 +119,10 @@ ItemRackUser = {
 	},
 	["EnableQueues"] = "ON",
 	["EnablePerSetQueues"] = "OFF",
-	["EnableEvents"] = "OFF",
+	["Buttons"] = {
+	},
 	["ItemsUsed"] = {
+		["46148"] = 5,
 	},
 	["Events"] = {
 		["Enabled"] = {
@@ -132,12 +130,12 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
+	["Alpha"] = 1,
 	["Hidden"] = {
 		"32757::::::::70:::::::::", -- [1]
 	},
-	["Alpha"] = 1,
-	["Buttons"] = {
-	},
+	["EnableEvents"] = "OFF",
 	["MenuScale"] = 0.85,
-	["CurrentSet"] = "武器戰",
+	["Queues"] = {
+	},
 }
