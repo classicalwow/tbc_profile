@@ -64,7 +64,9 @@ VER 3 000000000000002F "RE假" "INV_Misc_QuestionMark"
 /cast 多重射擊
 END
 VER 3 00000000000000AD "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP 指南 狮心-北美刘嘉玲 汉化版 - current step has no configured targets
+/targetexact 坚不可摧的科查尔
+/targetexact 佐特
+/cleartarget [dead]
 END
 VER 3 0000000000000030 "SS" "132101"
 /吐口水
@@ -73,16 +75,16 @@ END
 VER 3 00000000000000A0 "t" "INV_MISC_QUESTIONMARK"
 /target 莎爾萊
 END
-VER 3 000000000000006E "target" "132092"
-/target 幽暗的工人
-/script SetRaidTarget("target",8)
-END
 VER 3 000000000000009E "target" "132090"
 /target 日怒弓箭手
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000098 "target" "132090"
 /target 薩
+/script SetRaidTarget("target",8)
+END
+VER 3 000000000000006E "target" "132092"
+/target 幽暗的工人
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000040 "VuhDoDCShieldNames" "Ability_Repair"
@@ -261,10 +263,6 @@ VER 3 000000000000004E "圖騰" "132136"
 /petattack [target=灼熱圖騰][target=圖騰]
 /petattack [target=法力之泉圖騰][target=圖騰]
 END
-VER 3 00000000000000AC "坐騎" "132231"
-/cast 迅捷紅色雙足飛龍
-/cast 阿曼尼戰熊
-END
 VER 3 00000000000000A4 "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 黑色戰鬥迅猛龍之哨
@@ -272,6 +270,10 @@ END
 VER 3 000000000000007C "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 大型棕色科多獸
+END
+VER 3 00000000000000AC "坐騎" "132231"
+/cast 迅捷紅色雙足飛龍
+/cast 阿曼尼戰熊
 END
 VER 3 0000000000000034 "坐騎宏" "132265"
 /cast 塞納里奧戰爭角鷹獸

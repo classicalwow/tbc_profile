@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 38094,
@@ -8,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38094::::::::72:::::::::|h[达拉然斥候头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 35936,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35936::::::::70:::::::::|h[狼牙符咒]|h|r",
+			["ID"] = 38032,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38032::::::::73:::::::::|h[龙奴项圈]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 199504,
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38117::::::::72:::::::::|h[恐爪之握]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 35835,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35835::::::::70:::::::::|h[古旧强化护腿]|h|r",
+			["ID"] = 38109,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38109::::::::73:::::::::|h[怨魂微光腿铠]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 38084,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:36871::::::::71:::::::::|h[临近风暴之怒]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 35897,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35897::::::::70:::::::::|h[薄冰斗篷]|h|r",
+			["ID"] = 37949,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37949::::::::73:::::::::|h[爆破师的披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 38195,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cff9d9d9d|Hitem:2362::::::::1:::::::::|h[用旧的木盾]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
