@@ -1,6 +1,7 @@
 # Console Port
 
-## [2.5.27](https://github.com/seblindfors/ConsolePort/tree/2.5.27) (2023-03-02)
-[Full Changelog](https://github.com/seblindfors/ConsolePort/compare/2.5.26...2.5.27) [Previous Releases](https://github.com/seblindfors/ConsolePort/releases)
+## [2.5.29](https://github.com/seblindfors/ConsolePort/tree/2.5.29) (2023-03-21)
+[Full Changelog](https://github.com/seblindfors/ConsolePort/compare/2.5.28...2.5.29) [Previous Releases](https://github.com/seblindfors/ConsolePort/releases)
 
-- Make power gauge default off  
+- Update TOCs  
+- Fix conversion rule to exclude custom icons  

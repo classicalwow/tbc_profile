@@ -12,7 +12,7 @@ local BindingInfoMixin, BindingInfo = {}, {
 	Headers   = {};
 	Actionbar = {};
 	--------------------------------------------------------------
-	ActionInfoHandlers = {
+	ActionNameHandlers = {
 		spell        = function(id) return GetSpellInfo(id) or STAT_CATEGORY_SPELL end; -- Hack fallback: 'Spell'
 		item         = function(id) return GetItemInfo(id) or HELPFRAME_ITEM_TITLE end; -- Hack fallback: 'Item'
 		macro        = function(id) return GetMacroInfo(id) and GetMacroInfo(id) .. ' ('..MACRO..')' end;
@@ -36,7 +36,7 @@ end
 
 function BindingInfo:GetActionInfo(actionID)
 	local kind, kindID = GetActionInfo(actionID)
-	local getinfo = self.ActionInfoHandlers[kind]
+	local getinfo = self.ActionNameHandlers[kind]
 
 	if getinfo then
 		return getinfo(kindID)
@@ -62,7 +62,7 @@ do local customHeader = (' |T%s:20:20:0:-2|t %s '):format(CPAPI.GetAsset('Textur
 
 	function BindingInfo:IsReadonlyBinding(bindingID)
 		if self.Custom[bindingID] then
-			local _, info = FindInTableIf(db.Bindings, function(data)
+			local _, info = FindInTableIf(db.Bindings.Special, function(data)
 				return data.binding == bindingID;
 			end)
 			return info and info.readonly and info.readonly();
@@ -107,7 +107,7 @@ function BindingInfo:RefreshDictionary()
 		wipe(self.Custom)
 
 		-- custom
-		for i, data in db:For('Bindings') do
+		for i, data in db:For('Bindings/Special') do
 			self:AddCustomBinding(data.name, data.binding, data.readonly)
 		end
 
@@ -202,6 +202,11 @@ function BindingInfoMixin:IsReadonlyBinding(binding)
 	return BindingInfo:IsReadonlyBinding(binding)
 end
 
+-- @param binding        : bindingID
+-- @param skipActionInfo : format action as binding ID
+-- @return name          : internal name of the binding
+-- @return texture       : binding or action texture
+-- @return actionID      : formatted action ID
 function BindingInfoMixin:GetBindingInfo(binding, skipActionInfo)
 	if (not binding or binding == '') then return BindingInfo.NotBoundColor:format(NOT_BOUND) end;
 	local bindings, headers = BindingInfo:RefreshDictionary()
