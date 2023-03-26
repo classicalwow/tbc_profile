@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41829,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38761::::::::76:::::::::|h[仇恨之爪]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 37949,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:37949::::::::73:::::::::|h[爆破师的披风]|h|r",
+			["ID"] = 39858,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39858::::::::76:::::::::|h[放血者的斗篷]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 41816,
@@ -90,6 +88,8 @@ PawnOptions = {
 			["Link"] = "|cff9d9d9d|Hitem:2362::::::::1:::::::::|h[用旧的木盾]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
