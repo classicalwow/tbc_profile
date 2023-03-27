@@ -441,9 +441,9 @@ AtlasLootClassicDB = {
 			[42602] = "arena:1200",
 			[201993] = "arena:550",
 			[42132] = "honor:43400",
-			[45831] = "EmblemOfConquest:28",
-			[40684] = "EmblemOfHeroism:40",
 			[34578] = "honor:3990",
+			[40684] = "EmblemOfHeroism:40",
+			[40716] = "EmblemOfHeroism:15",
 			[16341] = "honor:200",
 			[39757] = "EmblemOfValor:25",
 			[40844] = "EmblemOfConquest:58",
@@ -510,12 +510,12 @@ AtlasLootClassicDB = {
 			[45833] = "EmblemOfConquest:28",
 			[33589] = "BoJ:35",
 			[31986] = "honor:13300",
-			[33813] = "honor:5130",
+			[23572] = "BoJ:10",
 			[45961] = "arena:1350",
 			[40878] = "honor:21700",
 			[18428] = "honor:200",
 			[24550] = "honor:9500",
-			[23572] = "BoJ:10",
+			[41997] = "EmblemOfConquest:58",
 			[42029] = "honor:33180",
 			[42061] = "honor:16590",
 			[33909] = "honor:6840",
@@ -706,7 +706,7 @@ AtlasLootClassicDB = {
 			[45967] = "arena:1350",
 			[28642] = "honor:3800",
 			[33755] = "honor:8550",
-			[41997] = "EmblemOfConquest:58",
+			[33813] = "honor:5130",
 			[42003] = "EmblemOfValor:45",
 			[40750] = "EmblemOfValor:40",
 			[42067] = "honor:33180",
@@ -742,7 +742,7 @@ AtlasLootClassicDB = {
 			[42004] = "EmblemOfConquest:58",
 			[36921] = "EmblemOfHeroism:10",
 			[42068] = "honor:33180",
-			[40716] = "EmblemOfHeroism:15",
+			[45831] = "EmblemOfConquest:28",
 			[29266] = "BoJ:33",
 			[41141] = "EmblemOfValor:30",
 			[32989] = "honor:3990",
@@ -839,21 +839,8 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			["GUI"] = {
-				["point"] = {
-					"BOTTOM", -- [1]
-					nil, -- [2]
-					"BOTTOM", -- [3]
-					-69.85625457763672, -- [4]
-					92.67756652832031, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"Ulduar", -- [2]
-					14, -- [3]
-					9, -- [4]
-					0, -- [5]
-				},
+			["minimap"] = {
+				["minimapPos"] = 221.2639414330138,
 			},
 			["Addons"] = {
 				["Favourites"] = {
@@ -864,8 +851,21 @@ AtlasLootClassicDB = {
 					},
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 221.2639414330138,
+			["GUI"] = {
+				["point"] = {
+					"LEFT", -- [1]
+					nil, -- [2]
+					"LEFT", -- [3]
+					65.11856842041016, -- [4]
+					-44.48101425170898, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingWrath", -- [2]
+					4, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 			},
 		},
 		["路易斯桑拿 - 伊弗斯"] = {

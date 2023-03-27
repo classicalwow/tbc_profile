@@ -86,11 +86,11 @@ BisTooltipDB = {
 			},
 		},
 		["家駒 - 伊弗斯"] = {
-			["class_index"] = 5,
-			["phase_index"] = 3,
 			["minimapPos"] = 304.0481514001671,
-			["data_source"] = "wowtbc",
 			["version"] = 6.1,
+			["phase_index"] = 3,
+			["data_source"] = "wowtbc",
+			["class_index"] = 5,
 		},
 		["頂級投資家 - 伊弗斯"] = {
 			["version"] = 6.1,
@@ -100,13 +100,10 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["特變電工 - 伊弗斯"] = {
-			["class_index"] = 9,
-			["filter_class_names"] = false,
-			["version"] = 6.1,
-			["spec_index"] = 2,
-			["phase_index"] = 3,
 			["minimapPos"] = 248.3304143632559,
-			["data_source"] = "wh",
+			["filter_class_names"] = false,
+			["spec_index"] = 2,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -161,6 +158,9 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["class_index"] = 9,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,

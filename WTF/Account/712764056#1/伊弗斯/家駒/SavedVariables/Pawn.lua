@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41829,
@@ -8,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:41829::::::::75:::::::::|h[闪电恐惧之角]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 38032,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38032::::::::73:::::::::|h[龙奴项圈]|h|r",
+			["ID"] = 39848,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39848::::::::76:::::::::|h[放血者的项链]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 199504,
@@ -24,14 +26,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199505::::::::70:::::::::|h[群集胸铠]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 38117,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38117::::::::72:::::::::|h[恐爪之握]|h|r",
+			["ID"] = 39841,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39841::::::::76:::::::::|h[先祖束带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 39096,
-			["Level"] = 154,
-			["Link"] = "|cff1eff00|Hitem:39096::::::::74:::::::::|h[裂齿腿铠]|h|r",
+			["ID"] = 39778,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39778::::::::76:::::::::|h[放血者的腿铠]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 38084,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cff9d9d9d|Hitem:2362::::::::1:::::::::|h[用旧的木盾]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
