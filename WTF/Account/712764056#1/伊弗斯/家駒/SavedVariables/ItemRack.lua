@@ -12,13 +12,23 @@ ItemRackUser = {
 			["equip"] = {
 			},
 		},
+		["奶騎"] = {
+			["equip"] = {
+				[3] = "42876::::::::77:::::::::",
+				[7] = "42881::::::::77:::::::::",
+			},
+			["icon"] = 135458,
+			["old"] = {
+			},
+		},
 		["~Unequip"] = {
 			["equip"] = {
 			},
 		},
 	},
 	["EnableQueues"] = "ON",
-	["EnablePerSetQueues"] = "OFF",
+	["Queues"] = {
+	},
 	["Buttons"] = {
 	},
 	["ItemsUsed"] = {
@@ -29,11 +39,10 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
-	["Alpha"] = 1,
+	["EnableEvents"] = "ON",
 	["Hidden"] = {
 	},
-	["EnableEvents"] = "ON",
+	["Alpha"] = 1,
 	["MenuScale"] = 0.85,
-	["Queues"] = {
-	},
+	["EnablePerSetQueues"] = "OFF",
 }

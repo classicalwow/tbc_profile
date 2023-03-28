@@ -13,13 +13,6 @@ X: -41
 Y: -60
 W: 920
 H: 600
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -161
-Y: 16
-W: 989
-H: 484
 Frame: aux_frame
 FrameLevel: 1
 Anchor: LEFT
@@ -27,3 +20,10 @@ X: 88
 Y: 65
 W: 768
 H: 447
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -161
+Y: 16
+W: 989
+H: 484

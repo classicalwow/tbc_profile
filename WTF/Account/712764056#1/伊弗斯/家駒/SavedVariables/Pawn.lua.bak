@@ -1,16 +1,18 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 41829,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:41829::::::::75:::::::::|h[闪电恐惧之角]|h|r",
+			["ID"] = 42878,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42878::::::::77:::::::::|h[维库训练头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 38032,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38032::::::::73:::::::::|h[龙奴项圈]|h|r",
+			["ID"] = 39848,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39848::::::::76:::::::::|h[放血者的项链]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 199504,
@@ -29,14 +31,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39841::::::::76:::::::::|h[先祖束带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 39096,
-			["Level"] = 154,
-			["Link"] = "|cff1eff00|Hitem:39096::::::::74:::::::::|h[裂齿腿铠]|h|r",
+			["ID"] = 39778,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39778::::::::76:::::::::|h[放血者的腿铠]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 38084,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38084::::::::72:::::::::|h[甲壳战靴]|h|r",
+			["ID"] = 42833,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42833::::::::77:::::::::|h[断腭者]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 39860,
@@ -44,15 +46,15 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39860::::::::75:::::::::|h[辩护者的牺牲护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 39855,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39855::::::::75:::::::::|h[采集者的护手]|h|r",
+			["ID"] = 42880,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42880::::::::77:::::::::|h[艾丝崔的骑术手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 39831,
-			["Level"] = 158,
+			["ID"] = 42864,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:39831::::::::75:::::::::|h[石化食尸鬼指节]|h|r",
+			["Link"] = "|cff1eff00|Hitem:42864::::::::77:::::::::|h[冰冷心境之戒]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 39831,
@@ -61,16 +63,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39831::::::::76:::::::::|h[石化食尸鬼指节]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 38761,
-			["Level"] = 154,
+			["ID"] = 43829,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:38761::::::::75:::::::::|h[仇恨之爪]|h|r",
+			["Link"] = "|cff1eff00|Hitem:43829::::::::77:::::::::|h[北伐军的坠饰]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 38761,
-			["Level"] = 154,
+			["ID"] = 44014,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:38761::::::::76:::::::::|h[仇恨之爪]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44014::::::::77:::::::::|h[菲斯克的怀表]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 39858,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cff9d9d9d|Hitem:2362::::::::1:::::::::|h[用旧的木盾]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

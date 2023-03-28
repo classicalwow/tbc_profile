@@ -17,18 +17,18 @@ MapsterDB = {
 		["家駒 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
-		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Default",
 		["特斯拉大股東 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["point"] = "CENTER",
+			["ejScale"] = 0.52,
 			["scale"] = 0.9138686060905457,
 			["poiScale"] = 0.66,
 			["y"] = -31.56495096302479,
 			["x"] = 29.63904891781385,
-			["ejScale"] = 0.52,
+			["point"] = "CENTER",
 		},
 	},
 }
