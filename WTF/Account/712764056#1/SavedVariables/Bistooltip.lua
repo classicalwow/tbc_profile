@@ -25,8 +25,11 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["class_index"] = 3,
-			["version"] = 6.1,
 			["spec_index"] = 3,
+			["phase_index"] = 3,
+			["minimapPos"] = 281.1238099041077,
+			["version"] = 6.1,
+			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -81,16 +84,66 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
-			["minimapPos"] = 281.1238099041077,
-			["data_source"] = "wh",
-			["phase_index"] = 3,
 		},
 		["家駒 - 伊弗斯"] = {
 			["class_index"] = 5,
-			["phase_index"] = 3,
-			["minimapPos"] = 304.0481514001671,
-			["data_source"] = "wowtbc",
 			["version"] = 6.1,
+			["filter_specs"] = {
+				["Warrior"] = {
+					["Fury"] = true,
+					["Protection"] = true,
+					["Arms"] = true,
+				},
+				["Paladin"] = {
+					["Protection"] = true,
+					["Holy"] = true,
+					["Retribution"] = true,
+				},
+				["Shaman"] = {
+					["Enhancement"] = true,
+					["Elemental"] = true,
+					["Restoration"] = true,
+				},
+				["Rogue"] = {
+					["Combat"] = true,
+					["Assassination"] = true,
+				},
+				["Mage"] = {
+					["Fire FFB"] = true,
+					["Frost"] = true,
+					["Fire"] = true,
+					["Arcane"] = true,
+				},
+				["Warlock"] = {
+					["Demonology"] = true,
+					["Affliction"] = true,
+					["Destruction"] = true,
+				},
+				["Death knight"] = {
+					["Unholy"] = true,
+					["Frost"] = true,
+					["Blood tank"] = true,
+				},
+				["Hunter"] = {
+					["Marksmanship"] = true,
+					["Survival"] = true,
+					["Beast mastery"] = true,
+				},
+				["Druid"] = {
+					["Restoration"] = true,
+					["Balance"] = true,
+					["Feral dps"] = true,
+					["Feral tank"] = true,
+				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Shadow"] = true,
+					["Holy"] = true,
+				},
+			},
+			["phase_index"] = 3,
+			["data_source"] = "wowtbc",
+			["minimapPos"] = 304.0481514001671,
 		},
 		["頂級投資家 - 伊弗斯"] = {
 			["version"] = 6.1,

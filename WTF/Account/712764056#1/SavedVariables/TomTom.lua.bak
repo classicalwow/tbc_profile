@@ -97,7 +97,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "古怪的沙瓦留斯",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "古怪的沙瓦留斯",
 					["from"] = "Questie",
@@ -109,6 +110,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
