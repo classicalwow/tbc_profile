@@ -7,6 +7,7 @@ MBB_Exclude = {
 	"WIM3MinimapButton", -- [5]
 	"LibDBIcon10_RXPGuides", -- [6]
 	"Lib_GPI_Minimap_LFGBulletinBoard", -- [7]
+	"LibDBIcon10_VuhDo", -- [8]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,

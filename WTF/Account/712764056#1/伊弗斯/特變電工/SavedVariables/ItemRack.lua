@@ -7,8 +7,7 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["Queues"] = {
-	},
+	["CurrentSet"] = "武器戰",
 	["Sets"] = {
 		["裸體"] = {
 			["oldset"] = "狂暴",
@@ -56,7 +55,6 @@ ItemRackUser = {
 			},
 		},
 		["防戰"] = {
-			["key"] = "[",
 			["equip"] = {
 				"46166::::::::80:::::::::", -- [1]
 				"42027::::::::80:::::::::", -- [2]
@@ -78,6 +76,7 @@ ItemRackUser = {
 				"45137::::::::80:::::::::", -- [18]
 			},
 			["icon"] = 134949,
+			["key"] = "[",
 			["old"] = {
 			},
 		},
@@ -162,7 +161,8 @@ ItemRackUser = {
 	},
 	["EnableQueues"] = "ON",
 	["EnablePerSetQueues"] = "OFF",
-	["EnableEvents"] = "OFF",
+	["Buttons"] = {
+	},
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
@@ -171,12 +171,12 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
+	["Alpha"] = 1,
 	["Hidden"] = {
 		"32757::::::::70:::::::::", -- [1]
 	},
-	["Alpha"] = 1,
-	["Buttons"] = {
-	},
+	["EnableEvents"] = "OFF",
 	["MenuScale"] = 0.85,
-	["CurrentSet"] = "武器戰",
+	["Queues"] = {
+	},
 }

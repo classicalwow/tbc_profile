@@ -15,7 +15,6 @@ bind 0 NONE
 bind CTRL-F1 NONE
 bind CTRL-F2 NONE
 bind CTRL-F3 NONE
-bind CTRL-1 NONE
 bind CTRL-2 NONE
 bind CTRL-3 NONE
 bind SHIFT-1 CLICK RXPItemFrameButton1:LeftButton
@@ -38,6 +37,6 @@ bind CTRL-C TOGGLECHARACTER0
 bind CTRL-D MULTIACTIONBAR3BUTTON9
 bind CTRL-F MULTIACTIONBAR3BUTTON10
 bind ALT-2 ACTIONBUTTON10
-bind [ CLICK ItemRack特變電工伊弗斯狂暴:LeftButton
-bind ] CLICK ItemRack特變電工伊弗斯防戰:LeftButton
+bind [ CLICK ItemRack家駒伊弗斯惩戒骑:LeftButton
+bind ] CLICK ItemRack家駒伊弗斯奶騎:LeftButton
 bind ALT-R REPLY

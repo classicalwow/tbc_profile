@@ -6,8 +6,8 @@ TomTomDB = {
 		["家駒 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
-		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Default",
 		["特斯拉大股東 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
@@ -46,8 +46,8 @@ TomTomWaypointsM = {
 		["家駒 - 伊弗斯"] = "家駒 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
-		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
 	},
 	["profiles"] = {
@@ -60,31 +60,8 @@ TomTomWaypointsM = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			[120] = {
-				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
-					120, -- [1]
-					0.4369193154034231, -- [2]
-					0.2613691931540342, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Meeting Stone",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
+		},
+		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			[120] = {
@@ -102,26 +79,16 @@ TomTomWaypointsM = {
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-		},
-		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 		},

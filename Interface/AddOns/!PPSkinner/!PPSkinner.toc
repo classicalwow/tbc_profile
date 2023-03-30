@@ -1,0 +1,8 @@
+## Interface: 30401
+## Version: 1.0.2.r
+## Title: |cffD7BEA5PP|r Skinner
+## Author: c0ns0l3 (Updated by Líghts)
+## Notes: Reskinning your Pally Power
+
+!PPSkinner.lua
+
