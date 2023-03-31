@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0717,
+	["LastVersion"] = 2.0718,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46143,
@@ -13,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45945::::::::80:::::::::|h[杀戮之种]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 45677,
-			["Level"] = 225,
-			["Link"] = "|cffa335ee|Hitem:45677::::::::80:::::::::|h[叛逆肩垫]|h|r",
+			["ID"] = 45543,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45543::::::::80:::::::::|h[灾祸护肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
