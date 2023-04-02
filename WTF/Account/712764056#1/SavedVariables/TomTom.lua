@@ -20,8 +20,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					4.679436683654785, -- [4]
-					249.68896484375, -- [5]
+					-3.480915784835815, -- [4]
+					271.8383483886719, -- [5]
 				},
 			},
 			["block"] = {
@@ -56,6 +56,39 @@ TomTomWaypointsM = {
 		["碼農巴菲特 - 伊弗斯"] = {
 		},
 		["家駒 - 伊弗斯"] = {
+			[114] = {
+				["114:283129584.35208:288753056.23472:Meeting Stone"] = {
+					114, -- [1]
+					0.2831295843520783, -- [2]
+					0.2887530562347189, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Meeting Stone",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Meeting Stone",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
@@ -77,18 +110,10 @@ TomTomWaypointsM = {
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,

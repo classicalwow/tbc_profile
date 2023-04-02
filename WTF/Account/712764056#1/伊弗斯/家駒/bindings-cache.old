@@ -37,6 +37,6 @@ bind CTRL-C TOGGLECHARACTER0
 bind CTRL-D MULTIACTIONBAR3BUTTON9
 bind CTRL-F MULTIACTIONBAR3BUTTON10
 bind ALT-2 ACTIONBUTTON10
-bind [ CLICK ItemRack特變電工伊弗斯狂暴:LeftButton
-bind ] CLICK ItemRack特變電工伊弗斯防戰:LeftButton
+bind [ CLICK ItemRack家駒伊弗斯惩戒骑:LeftButton
+bind ] CLICK ItemRack家駒伊弗斯奶騎:LeftButton
 bind ALT-R REPLY

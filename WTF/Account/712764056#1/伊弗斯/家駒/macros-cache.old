@@ -1,7 +1,12 @@
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R3SR1LR1PM1PM1PM2WM2RM2PM2SR3DR3DR3LR3IR4SR4PM[x]4IR4LR6PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4PM[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000002 "坐骑" "134400"
 /施放 迅捷黄色驭风者
 /施放 召唤军马
+END
+VER 3 0000000001000003 "正义之怒" "134400"
+#showtooltip
+/cast 正义之怒
+/cancelaura  正义之怒
 END
