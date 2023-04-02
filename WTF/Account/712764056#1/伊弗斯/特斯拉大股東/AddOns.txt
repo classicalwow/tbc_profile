@@ -179,3 +179,6 @@ ElvUI_ExtraDataTexts: disabled
 ElvUI_SecondsToBuff: disabled
 FakeAchievement: enabled
 GlobalIgnoreList: enabled
+ElvUI_ChatTweaks: disabled
+ElvUI_BuffHighlight: disabled
+WunderUI: disabled

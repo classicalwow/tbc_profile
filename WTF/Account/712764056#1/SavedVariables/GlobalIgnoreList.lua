@@ -17,28 +17,11 @@ GlobalIgnoreDB = {
 		"player", -- [2]
 		"player", -- [3]
 		"player", -- [4]
-	},
-	["ignoreList"] = {
-		"Poisoning-伊弗斯", -- [1]
-		"午夜牛-伊弗斯", -- [2]
-		"阿度根-伊弗斯", -- [3]
-		"弯湾会魔法-伊弗斯", -- [4]
+		"player", -- [5]
 	},
 	["openWithFriends"] = true,
+	["invertSpam"] = false,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["autoUpdate"] = true,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -51,15 +34,8 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
-	["autoIgnore"] = true,
-	["factionList"] = {
-		"Horde", -- [1]
-		"Horde", -- [2]
-		"Horde", -- [3]
-		"Horde", -- [4]
-	},
-	["skipParty"] = false,
+	["trackChanges"] = true,
+	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -82,23 +58,54 @@ GlobalIgnoreDB = {
 		"关羽黑公会-伊弗斯", -- [19]
 		"違規行為警告-伊弗斯", -- [20]
 	},
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+		{
+		}, -- [5]
+	},
+	["autoUpdate"] = true,
+	["autoIgnore"] = true,
+	["factionList"] = {
+		"Horde", -- [1]
+		"Horde", -- [2]
+		"Horde", -- [3]
+		"Horde", -- [4]
+		"Horde", -- [5]
+	},
+	["defexpire"] = 0,
+	["sameserver"] = true,
 	["attachFriends"] = true,
 	["notes"] = {
 		"刷屏", -- [1]
 		"坑", -- [2]
 		"巨坑", -- [3]
 		"", -- [4]
+		"刷人", -- [5]
 	},
 	["expList"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0, -- [4]
+		0, -- [5]
 	},
 	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["defexpire"] = 0,
+	["dateList"] = {
+		"13 Mar 2023", -- [1]
+		"14 Mar 2023", -- [2]
+		"14 Mar 2023", -- [3]
+		"14 Mar 2023", -- [4]
+		"02 Apr 2023", -- [5]
+	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -111,7 +118,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -124,15 +131,16 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
-		"13 Mar 2023", -- [1]
-		"14 Mar 2023", -- [2]
-		"14 Mar 2023", -- [3]
-		"14 Mar 2023", -- [4]
-	},
-	["sameserver"] = true,
-	["trackChanges"] = true,
+	["asknote"] = true,
+	["skipParty"] = false,
+	["revision"] = 1,
+	["autoTime"] = 600,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["ignoreList"] = {
+		"Poisoning-伊弗斯", -- [1]
+		"午夜牛-伊弗斯", -- [2]
+		"阿度根-伊弗斯", -- [3]
+		"弯湾会魔法-伊弗斯", -- [4]
+		"Jellydeathk-伊弗斯", -- [5]
+	},
 }

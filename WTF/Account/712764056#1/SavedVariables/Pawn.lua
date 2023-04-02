@@ -13,6 +13,11 @@ PawnCommon = {
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0718,
 	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -50,10 +55,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK2"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -110,26 +115,26 @@ PawnCommon = {
 			["UnenchantedColor"] = "bfbfbf",
 			["SpecID"] = 2,
 		},
-		["\"Classic\":SHAMAN1"] = {
+		["\"Classic\":PRIEST3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "0070dd",
-			["LocalizedName"] = "萨满祭司: 元素",
-			["ClassID"] = 7,
+			["Color"] = "ffffff",
+			["LocalizedName"] = "牧师: 暗影",
+			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bfbfbf",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
-				["頂級投資家-伊弗斯"] = {
+				["家駒-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["家駒-伊弗斯"] = {
+				["頂級投資家-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -197,10 +202,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK3"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -217,10 +222,10 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
-				["頂級投資家-伊弗斯"] = {
+				["家駒-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["家駒-伊弗斯"] = {
+				["頂級投資家-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -235,22 +240,28 @@ PawnCommon = {
 			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":PRIEST3"] = {
+		["\"Classic\":SHAMAN1"] = {
 			["PerCharacterOptions"] = {
+				["巴非特-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "ffffff",
-			["LocalizedName"] = "牧师: 暗影",
-			["ClassID"] = 5,
+			["Color"] = "0070dd",
+			["LocalizedName"] = "萨满祭司: 元素",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a5",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":SHAMAN2"] = {
 			["PerCharacterOptions"] = {
+				["巴非特-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070dd",
 			["LocalizedName"] = "萨满祭司: 增强",
@@ -333,6 +344,9 @@ PawnCommon = {
 		},
 		["\"Classic\":SHAMAN3"] = {
 			["PerCharacterOptions"] = {
+				["巴非特-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070dd",
 			["LocalizedName"] = "萨满祭司: 恢复",
@@ -403,10 +417,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK1"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -479,10 +493,10 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
-				["頂級投資家-伊弗斯"] = {
+				["家駒-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["家駒-伊弗斯"] = {
+				["頂級投資家-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -524,10 +538,5 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
-	["IgnoreGemsWhileLeveling"] = true,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["ShowSpecIcons"] = true,
 	["ShownGettingStarted"] = true,
 }

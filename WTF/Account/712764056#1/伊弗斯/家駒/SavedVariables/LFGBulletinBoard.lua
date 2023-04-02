@@ -71,8 +71,8 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonEOE"] = false,
 	["FilterDungeonBAD"] = true,
 	["FilterDungeonMAG"] = false,
-	["FilterDungeonSV"] = false,
-	["FilterDungeonVOA"] = true,
+	["FilterDungeonHOL"] = false,
+	["FilterDungeonVOA"] = false,
 	["FilterDungeonFOS"] = false,
 	["FilterDungeonOCC"] = false,
 	["FilterDungeonSSC"] = false,
@@ -87,7 +87,7 @@ GroupBulletinBoardDBChar = {
 	["FilterLevel"] = false,
 	["FilterDungeonBWL"] = false,
 	["FilterDungeonUB"] = false,
-	["FilterDungeonNAXX"] = true,
+	["FilterDungeonNAXX"] = false,
 	["FilterDungeonDTK"] = false,
 	["FilterDungeonNAX"] = false,
 	["FilterDungeonBM"] = false,
@@ -95,9 +95,9 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonEYE"] = false,
 	["FilterDungeonICC"] = false,
 	["FilterDungeonSCH"] = false,
+	["FilterDungeonSETH"] = false,
 	["FilterDungeonSTR"] = false,
 	["FilterDungeonARC"] = false,
-	["FilterDungeonSETH"] = false,
 	["FilterDungeonAZN"] = false,
 	["FilterDungeonNEX"] = false,
 	["FilterDungeonGD"] = false,
@@ -113,6 +113,7 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonBT"] = false,
 	["FilterDungeonDM"] = false,
 	["FilterDungeonLBRS"] = false,
+	["FilterDungeonSV"] = false,
 	["GroupList"] = {
 		{
 			["dungeon"] = "黑曜石圣殿",
@@ -333,73 +334,73 @@ GroupBulletinBoardDBChar = {
 		}, -- [31]
 		{
 			["dungeon"] = "永恒之眼",
-			["name"] = "漸入佳徑",
-			["lastSeen"] = 1680372425,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00327185",
-		}, -- [32]
-		{
-			["dungeon"] = "永恒之眼",
-			["name"] = "丶喵喵酱灬",
-			["lastSeen"] = 1680372425,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00361D22",
-		}, -- [33]
-		{
-			["dungeon"] = "永恒之眼",
-			["name"] = "你也在等风吗",
-			["lastSeen"] = 1680372425,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-003BC198",
-		}, -- [34]
-		{
-			["dungeon"] = "永恒之眼",
-			["name"] = "一抹星光",
-			["lastSeen"] = 1680372425,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0037294F",
-		}, -- [35]
-		{
-			["dungeon"] = "永恒之眼",
-			["name"] = "橡果树",
-			["lastSeen"] = 1680372425,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00271974",
-		}, -- [36]
-		{
-			["dungeon"] = "永恒之眼",
 			["name"] = "神宮未來丶",
 			["lastSeen"] = 1680372425,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-0027FD93",
-		}, -- [37]
+		}, -- [32]
 		{
 			["dungeon"] = "永恒之眼",
 			["name"] = "咯吱大魔丸",
 			["lastSeen"] = 1680372425,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-003068F3",
-		}, -- [38]
+		}, -- [33]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "一抹星光",
+			["lastSeen"] = 1680372425,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0037294F",
+		}, -- [34]
 		{
 			["dungeon"] = "永恒之眼",
 			["name"] = "宋小宝丶",
 			["lastSeen"] = 1680372425,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-002E676A",
+		}, -- [35]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "漸入佳徑",
+			["lastSeen"] = 1680372425,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00327185",
+		}, -- [36]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "橡果树",
+			["lastSeen"] = 1680372425,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00271974",
+		}, -- [37]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "你也在等风吗",
+			["lastSeen"] = 1680372425,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-003BC198",
+		}, -- [38]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "丶喵喵酱灬",
+			["lastSeen"] = 1680372425,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00361D22",
 		}, -- [39]
 		{
 			["dungeon"] = "永恒之眼",
-			["name"] = "坏小杰",
+			["name"] = "三線鼠",
 			["lastSeen"] = 1680372425,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0031AA44",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0040BB87",
 		}, -- [40]
 		{
 			["dungeon"] = "永恒之眼",
-			["name"] = "大力昆",
+			["name"] = "胤禛",
 			["lastSeen"] = 1680372425,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-003D03DB",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-001895DC",
 		}, -- [41]
 		{
 			["dungeon"] = "永恒之眼",
@@ -424,45 +425,45 @@ GroupBulletinBoardDBChar = {
 		}, -- [44]
 		{
 			["dungeon"] = "永恒之眼",
-			["name"] = "安丶骑",
-			["lastSeen"] = 1680372425,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-003E9896",
-		}, -- [45]
-		{
-			["dungeon"] = "永恒之眼",
-			["name"] = "奈薩薩",
-			["lastSeen"] = 1680372425,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0025FFA0",
-		}, -- [46]
-		{
-			["dungeon"] = "永恒之眼",
 			["name"] = "有点儿油腻",
 			["lastSeen"] = 1680372425,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-002B1E31",
-		}, -- [47]
+		}, -- [45]
 		{
 			["dungeon"] = "永恒之眼",
-			["name"] = "三線鼠",
+			["name"] = "大力昆",
 			["lastSeen"] = 1680372425,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0040BB87",
-		}, -- [48]
-		{
-			["dungeon"] = "永恒之眼",
-			["name"] = "胤禛",
-			["lastSeen"] = 1680372425,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-001895DC",
-		}, -- [49]
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-003D03DB",
+		}, -- [46]
 		{
 			["dungeon"] = "永恒之眼",
 			["name"] = "Shadowpal",
 			["lastSeen"] = 1680372425,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-003AE650",
+		}, -- [47]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "安丶骑",
+			["lastSeen"] = 1680372425,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-003E9896",
+		}, -- [48]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "奈薩薩",
+			["lastSeen"] = 1680372425,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0025FFA0",
+		}, -- [49]
+		{
+			["dungeon"] = "永恒之眼",
+			["name"] = "坏小杰",
+			["lastSeen"] = 1680372425,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0031AA44",
 		}, -- [50]
 		{
 			["dungeon"] = "永恒之眼",
@@ -472,7 +473,6 @@ GroupBulletinBoardDBChar = {
 			["guid"] = "Player-4487-000D22AA",
 		}, -- [51]
 	},
-	["FilterDungeonHOL"] = false,
 	["FilterDungeonDME"] = false,
 	["FilterDungeonDMN"] = false,
 	["FilterDungeonZG"] = false,

@@ -191,6 +191,8 @@ end
 function C:StyleFilterSetConfig(filter)
 	C.StyleFilterSelected = filter
 	UpdateFilterGroup()
+
+	E.Libs.AceConfigDialog:SelectGroup('ElvUI', 'nameplates', 'stylefilters', filter and 'triggers' or 'import')
 end
 
 local function validateCreateFilter(_, value) return not (strmatch(value, '^[%s%p]-$') or E.global.nameplates.filters[value]) end
@@ -334,14 +336,14 @@ StyleFilters.triggers.args.faction.args.types.args.Neutral = ACH:Toggle(L["Neutr
 
 StyleFilters.triggers.args.class = ACH:Group(L["CLASS"], nil, 12, nil, nil, nil, DisabledFilter)
 
-for index = 1, 12 do
+for index = 1, _G.MAX_CLASSES do
 	local className, classTag, classID = GetClassInfo(index)
 	if classTag then
 		local coloredName = E:ClassColor(classTag)
 		coloredName = (coloredName and coloredName.colorStr) or 'ff666666'
 		StyleFilters.triggers.args.class.args[classTag] = ACH:Toggle(format('|c%s%s|r', coloredName, className), nil, tIndexOf(sortedClasses, classTag), nil, nil, nil, function() local triggers = GetFilter(true) local tagTrigger = triggers.class[classTag] return tagTrigger and tagTrigger.enabled end, function(_, value) local triggers = GetFilter(true) local tagTrigger = triggers.class[classTag] if not tagTrigger then triggers.class[classTag] = {} end if value then triggers.class[classTag].enabled = value else triggers.class[classTag] = nil end NP:ConfigureAll() end)
 
-		local group = ACH:Group(className, nil, tIndexOf(sortedClasses, classTag) + 12, nil, nil, nil, nil, function() local triggers = GetFilter(true) local tagTrigger = triggers.class[classTag] return not tagTrigger or not tagTrigger.enabled end)
+		local group = ACH:Group(className, nil, tIndexOf(sortedClasses, classTag) + 13, nil, nil, nil, nil, function() local triggers = GetFilter(true) local tagTrigger = triggers.class[classTag] return not tagTrigger or not tagTrigger.enabled end)
 		group.inline = true
 
 		for k = 1, GetNumSpecializationsForClassID(classID) do
@@ -476,8 +478,8 @@ end
 
 StyleFilters.triggers.args.buffs.args.minTimeLeft.desc = L["Apply this filter if a buff has remaining time greater than this. Set to zero to disable."]
 StyleFilters.triggers.args.buffs.args.maxTimeLeft.desc = L["Apply this filter if a buff has remaining time less than this. Set to zero to disable."]
-StyleFilters.triggers.args.debuffs.args.minTimeLeft.desc = L["Apply this filter if a debbuff has remaining time greater than this. Set to zero to disable."]
-StyleFilters.triggers.args.debuffs.args.maxTimeLeft.desc = L["Apply this filter if a debbuff has remaining time less than this. Set to zero to disable."]
+StyleFilters.triggers.args.debuffs.args.minTimeLeft.desc = L["Apply this filter if a debuff has remaining time greater than this. Set to zero to disable."]
+StyleFilters.triggers.args.debuffs.args.maxTimeLeft.desc = L["Apply this filter if a debuff has remaining time less than this. Set to zero to disable."]
 
 StyleFilters.triggers.args.cooldowns = ACH:Group(L["Cooldowns"], nil, 23, nil, nil, nil, DisabledFilter)
 StyleFilters.triggers.args.cooldowns.args.addCooldown = ACH:Input(L["Add Spell ID or Name"], nil, 1, nil, nil, nil, function(_, value) local triggers = GetFilter(true) triggers.cooldowns.names[value] = 'ONCD' UpdateFilterList('cooldowns', nil, value, true) NP:ConfigureAll() end, nil, nil, validateString)

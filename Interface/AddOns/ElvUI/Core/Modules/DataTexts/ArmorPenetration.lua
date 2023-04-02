@@ -33,10 +33,8 @@ local function OnEnter()
 	DT.tooltip:Show()
 end
 
-local function ValueColorUpdate(self, hex)
-	displayString = strjoin('', '%s: ', hex, '%.2f%%|r')
-
-	OnEvent(self)
+local function ApplySettings(_, hex)
+	displayString = strjoin('', '%s: ', hex, '%s|r')
 end
 
-DT:RegisterDatatext('Armor Penetration', STAT_CATEGORY_ENHANCEMENTS, { 'COMBAT_RATING_UPDATE' }, OnEvent, nil, nil, OnEnter, nil, nil, nil, ValueColorUpdate)
+DT:RegisterDatatext('Armor Penetration', STAT_CATEGORY_ENHANCEMENTS, { 'COMBAT_RATING_UPDATE' }, OnEvent, nil, nil, OnEnter, nil, nil, nil, ApplySettings)

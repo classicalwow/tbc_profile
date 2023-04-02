@@ -180,3 +180,6 @@ DBM-TheEye: enabled
 DBM-BlackTemple: enabled
 DBM-BWL: enabled
 HeyboxPlayerInfo: disabled
+ElvUI_ChatTweaks: disabled
+ElvUI_BuffHighlight: disabled
+WunderUI: disabled

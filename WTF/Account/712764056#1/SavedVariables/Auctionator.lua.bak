@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["STARTING_DISCOUNT"] = 5,
 	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["_500"] = 5,
-	["_10000"] = 200,
+	["_1000000"] = 2500,
 	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_5000000"] = 10000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -54,6 +54,11 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1623055961,
 		["firstVersion"] = "100.0.11",
 		["guid"] = "Player-4487-000B0452",
+	},
+	["家駒"] = {
+		["firstSeen"] = 1679213844,
+		["guid"] = "Player-4487-004007DB",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 	["特斯拉大股東"] = {
 		["firstSeen"] = 1672571874,

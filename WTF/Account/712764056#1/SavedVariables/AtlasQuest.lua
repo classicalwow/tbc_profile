@@ -13,6 +13,10 @@ AtlasQuest_Options = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
+	["巴非特"] = {
+		["ShownSide"] = "Left",
+		["AtlasAutoShow"] = 1,
+	},
 	["家駒"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,

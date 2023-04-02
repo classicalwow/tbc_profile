@@ -36,6 +36,9 @@ function QuestieTBCQuestFixes:Load()
         [76] = {
             [questKeys.triggerEnd] = {"Scout through the Jasperlode Mine", {[zoneIDs.ELWYNN_FOREST]={{60.53,50.18}}}},
         },
+        [77] = {
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+        },
         [155] = {
             [questKeys.triggerEnd] = {"Escort The Defias Traitor to discover where VanCleef is hiding", {[zoneIDs.WESTFALL]={{42.55,71.53}}}},
         },
@@ -956,6 +959,9 @@ function QuestieTBCQuestFixes:Load()
         },
         [9489] = {
             [questKeys.requiredRaces] = raceIDs.BLOOD_ELF,
+        },
+        [9491] = {
+            [questKeys.preQuestSingle] = {},
         },
         [9498] = {
             [questKeys.preQuestSingle] = {10123},
@@ -4432,11 +4438,11 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.sourceItemId] = 37737,
             [questKeys.zoneOrSort] = -370,
         },
-        [12513] = { --* tbc? Weird one... https://www.wowhead.com/wotlk/quest=12513/nice-hat
+        [12513] = { --* tbc? Weird one... https://www.wowhead.com/wotlk/quest=12513/nice-hat races that are not changed visually in the dungeon
             [questKeys.exclusiveTo] = {12515},
             [questKeys.finishedBy] = {{28126},nil},
         },
-        [12515] = {  --* wotlk? looks more correct https://www.wowhead.com/wotlk/quest=12515/nice-hat
+        [12515] = {  --* wotlk? looks more correct https://www.wowhead.com/wotlk/quest=12515/nice-hat races that are changed visually in the dungeon
             [questKeys.exclusiveTo] = {12513},
             [questKeys.finishedBy] = {{28126},nil},
         },

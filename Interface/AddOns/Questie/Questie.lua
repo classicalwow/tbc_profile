@@ -138,6 +138,7 @@ Questie.icons = {
     ["available_gray"] = "Interface\\Addons\\Questie\\Icons\\available_gray.blp",
     ["complete"] = "Interface\\Addons\\Questie\\Icons\\complete.blp",
     ["incomplete"] = "Interface\\Addons\\Questie\\Icons\\incomplete.blp",
+    ["interact"] = "Interface\\Addons\\Questie\\Icons\\interact.blp",
     ["glow"] = "Interface\\Addons\\Questie\\Icons\\glow.blp",
     ["repeatable"] = "Interface\\Addons\\Questie\\Icons\\repeatable.blp",
     ["repeatable_complete"] = "Interface\\Addons\\Questie\\Icons\\repeatable_complete.blp",
@@ -184,6 +185,7 @@ Questie.ICON_TYPE_EVENTQUEST = 13
 Questie.ICON_TYPE_EVENTQUEST_COMPLETE = 14
 Questie.ICON_TYPE_PVPQUEST = 15
 Questie.ICON_TYPE_PVPQUEST_COMPLETE = 16
+Questie.ICON_TYPE_INTERACT = 17
 
 -- Load icon pathes from SavedVariables or set the default ones
 function Questie:SetIcons()
@@ -198,11 +200,12 @@ function Questie:SetIcons()
     Questie.usedIcons[Questie.ICON_TYPE_INCOMPLETE] = Questie.db.global.ICON_INCOMPLETE or Questie.icons["incomplete"]
     Questie.usedIcons[Questie.ICON_TYPE_GLOW] = Questie.db.global.ICON_GLOW or Questie.icons["glow"]
     Questie.usedIcons[Questie.ICON_TYPE_REPEATABLE] = Questie.db.global.ICON_REPEATABLE or Questie.icons["repeatable"]
-    Questie.usedIcons[Questie.ICON_TYPE_REPEATABLE_COMPLETE] = Questie.db.global.ICON_REPEATABLE_COMPLETE or Questie.icons["repeatable_complete"]
+    Questie.usedIcons[Questie.ICON_TYPE_REPEATABLE_COMPLETE] = Questie.db.global.ICON_REPEATABLE_COMPLETE or Questie.icons["complete"]
     Questie.usedIcons[Questie.ICON_TYPE_EVENTQUEST] = Questie.db.global.ICON_EVENTQUEST or Questie.icons["eventquest"]
-    Questie.usedIcons[Questie.ICON_TYPE_EVENTQUEST_COMPLETE] = Questie.db.global.ICON_EVENTQUEST_COMPLETE or Questie.icons["eventquest_complete"]
+    Questie.usedIcons[Questie.ICON_TYPE_EVENTQUEST_COMPLETE] = Questie.db.global.ICON_EVENTQUEST_COMPLETE or Questie.icons["complete"]
     Questie.usedIcons[Questie.ICON_TYPE_PVPQUEST] = Questie.db.global.ICON_PVPQUEST or Questie.icons["pvpquest"]
-    Questie.usedIcons[Questie.ICON_TYPE_PVPQUEST_COMPLETE] = Questie.db.global.ICON_PVPQUEST_COMPLETE or Questie.icons["pvpquest_complete"]
+    Questie.usedIcons[Questie.ICON_TYPE_PVPQUEST_COMPLETE] = Questie.db.global.ICON_PVPQUEST_COMPLETE or Questie.icons["complete"]
+    Questie.usedIcons[Questie.ICON_TYPE_INTERACT] = Questie.db.global.ICON_TYPE_INTERACT or Questie.icons["interact"]
 end
 
 function Questie:GetIconNameFromPath(path)

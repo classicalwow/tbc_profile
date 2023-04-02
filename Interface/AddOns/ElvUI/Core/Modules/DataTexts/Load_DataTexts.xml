@@ -5,10 +5,10 @@
 	<Script file='Armor.lua'/>
 	<Script file='AttackPower.lua'/>
 	<Script file='Bags.lua'/>
-	<Script file='BattleStats.lua'/>
+	<Script file='Battlegrounds.lua'/>
 	<Script file='CombatTime.lua'/>
 	<Script file='CombatIndicator.lua'/>
-	<Script file='ConfigElvUI.lua'/>
+	<Script file='ElvUI.lua'/>
 	<Script file='Coordinates.lua'/>
 	<Script file='Crit.lua'/>
 	<Script file='CustomCurrency.lua'/>

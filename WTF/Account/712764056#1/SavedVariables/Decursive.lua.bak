@@ -1,9 +1,17 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["路易斯桑拿 - 伊弗斯"] = "Default",
-	},
 	["class"] = {
+		["SHAMAN"] = {
+			["CureOrder-1"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
 		["WARRIOR"] = {
 			["CureOrder"] = {
 				-11, -- [1]
@@ -15,6 +23,10 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
+	},
+	["profileKeys"] = {
+		["路易斯桑拿 - 伊弗斯"] = "Default",
+		["家駒 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
