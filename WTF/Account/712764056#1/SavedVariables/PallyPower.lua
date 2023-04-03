@@ -2,67 +2,67 @@
 PallyPowerDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Other",
-		["家駒 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Other",
+		["家駒 - 伊弗斯"] = "Default",
 		["特斯拉大股東 - 伊弗斯"] = "Other",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
+			["cBuffNeedAll"] = {
+				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["b"] = 0.5,
+				["r"] = 0.5,
 			},
-			["freeassign"] = false,
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 			["display"] = {
 				["frameLocked"] = true,
 			},
-			["WrathTransition"] = true,
+			["freeassign"] = false,
 			["enable"] = true,
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["cBuffNeedAll"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
-			},
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
-		},
-		["Other"] = {
+			["WrathTransition"] = true,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["enable"] = true,
-			["WrathTransition"] = true,
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
+			},
+		},
+		["Other"] = {
+			["cBuffNeedSpecial"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
+			["WrathTransition"] = true,
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
+			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["enable"] = true,
+			["cBuffNeedAll"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
 			},
 		},
 	},
@@ -80,22 +80,8 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Libralovers"] = {
-		4, -- [1]
-		2, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		2, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		2, -- [10]
-	},
 }
 PallyPower_NormalAssignments = {
-	["Libralovers"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["家駒"] = 0,
@@ -105,9 +91,10 @@ PallyPower_AuraAssignments = {
 	["天堂的黑曼巴"] = 0,
 	["一抹星光"] = 0,
 	["Libralovers"] = 0,
-	["Ninimo"] = 0,
-	["橡果树"] = 0,
+	["影姿哀伤"] = 0,
 	["灰烬小野貓"] = 2,
+	["橡果树"] = 0,
+	["Ninimo"] = 0,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {
@@ -121,14 +108,11 @@ PallyPower_SavedPresets = {
 }
 PallyPower_ChanNames = {
 	"综合", -- [1]
-	"寻求组队", -- [2]
-	"交易", -- [3]
-	"大脚世界频道", -- [4]
-	"尋求組隊", -- [5]
-	"世界防務", -- [6]
-	"组队频道", -- [7]
-	"公會", -- [8]
-	"鏡花水月", -- [9]
+	"交易", -- [2]
+	"本地防务", -- [3]
+	"寻求组队", -- [4]
+	"大脚世界频道", -- [5]
+	"鏡花水月", -- [6]
 	[0] = "None",
 }
 LCD_Data = nil
