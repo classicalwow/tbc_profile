@@ -198,3 +198,6 @@ FFLU: disabled
 HeyboxPlayerInfo: disabled
 ElvUI_ExtraDataTexts: disabled
 ElvUI_SecondsToBuff: disabled
+ElvUI_ChatTweaks: disabled
+ElvUI_BuffHighlight: disabled
+WunderUI: disabled

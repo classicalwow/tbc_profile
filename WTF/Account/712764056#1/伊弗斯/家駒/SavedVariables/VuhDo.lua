@@ -13,7 +13,7 @@ VUHDO_CONFIG = {
 		["config"] = {
 			["poh"] = {
 				["enable"] = true,
-				["thresh"] = 20000,
+				["thresh"] = 40000,
 			},
 			["coh"] = {
 				["enable"] = true,
@@ -67,7 +67,7 @@ VUHDO_CONFIG = {
 	["OMIT_OWN_GROUP"] = false,
 	["MODE"] = 1,
 	["BLIZZ_UI_HIDE_RAID"] = 2,
-	["DETECT_DEBUFFS_REMOVABLE_ONLY"] = false,
+	["DETECT_DEBUFFS_REMOVABLE_ONLY"] = true,
 	["IS_READY_CHECK_DISABLED"] = false,
 	["CLUSTER"] = {
 		["CONE_DEGREES"] = 360,
@@ -114,7 +114,7 @@ VUHDO_CONFIG = {
 	["SHOW_OVERSHIELD_BAR"] = false,
 	["IS_CLIQUE_COMPAT_MODE"] = false,
 	["VERSION"] = 4,
-	["DETECT_DEBUFFS_IGNORE_DURATION"] = false,
+	["DETECT_DEBUFFS_IGNORE_DURATION"] = true,
 	["RES_ANNOUNCE_MASS_TEXT"] = "正在群体复活!",
 	["SCAN_RANGE"] = "2",
 	["PARSE_COMBAT_LOG"] = true,
@@ -123,7 +123,7 @@ VUHDO_CONFIG = {
 	["IS_SHOW_GCD"] = false,
 	["BLIZZ_UI_HIDE_FOCUS"] = 2,
 	["DETECT_DEBUFFS_IGNORE_NO_HARM"] = true,
-	["DETECT_DEBUFFS_IGNORE_BY_CLASS"] = false,
+	["DETECT_DEBUFFS_IGNORE_BY_CLASS"] = true,
 	["IS_DC_SHIELD_DISABLED"] = false,
 	["BLIZZ_UI_HIDE_PARTY"] = 2,
 	["BLIZZ_UI_HIDE_TARGET"] = 2,
@@ -820,7 +820,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["27825"] = {
+			["54769"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -842,7 +842,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["29306"] = {
+			["27825"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -853,7 +853,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["54769"] = {
+			["29306"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -1387,14 +1387,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 515.8760986328125,
-			["x"] = 1261.365966796875,
+			["y"] = 576.4954833984375,
+			["x"] = 1250.291381835938,
 			["scale"] = 1,
 			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
-			["height"] = 235,
+			["height"] = 67.00000762939453,
 			["growth"] = "TOPLEFT",
-			["width"] = 259.9999389648438,
+			["width"] = 89.99998474121094,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -1405,6 +1405,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -1417,7 +1418,6 @@ VUHDO_PANEL_SETUP = {
 				40, -- [9]
 			},
 			["sort"] = 0,
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1541,7 +1541,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 18,
+			["_spacing"] = 18.0000114440918,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["yAdjust"] = 0,
@@ -1560,8 +1560,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 873.3431396484375,
-			["x"] = 1915.93798828125,
+			["y"] = 797.5689697265625,
+			["x"] = 1805.192016601563,
 			["scale"] = 1,
 			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
@@ -1578,12 +1578,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["ordering"] = 0,
 			["groups"] = {
 				42, -- [1]
 				44, -- [2]
 			},
 			["sort"] = 0,
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -3045,8 +3045,8 @@ VUHDO_PANEL_SETUP = {
 		["SLOTS"] = {
 			"圣光道标", -- [1]
 			"圣洁护盾", -- [2]
-			"", -- [3]
-			"", -- [4]
+			"圣光之赐", -- [3]
+			"圣光灌注", -- [4]
 			"", -- [5]
 			"", -- [6]
 			"", -- [7]
@@ -3861,10 +3861,10 @@ VUHDO_PANEL_SETUP = {
 	},
 }
 VUHDO_SPELL_ASSIGNMENTS = {
-	["alt1"] = {
-		"alt-", -- [1]
+	["1"] = {
+		"", -- [1]
 		"1", -- [2]
-		"圣洁护盾", -- [3]
+		"圣光术", -- [3]
 	},
 	["altctrl2"] = {
 		"alt-ctrl-", -- [1]
@@ -3881,10 +3881,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"2", -- [2]
 		"圣光闪现", -- [3]
 	},
-	["shift1"] = {
-		"shift-", -- [1]
-		"1", -- [2]
-		"圣疗术", -- [3]
+	["5"] = {
+		"", -- [1]
+		"5", -- [2]
+		"清洁术", -- [3]
 	},
 	["shift2"] = {
 		"shift-", -- [1]
@@ -3896,10 +3896,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"保护之手", -- [3]
 	},
-	["altctrl1"] = {
-		"alt-ctrl-", -- [1]
+	["ctrl1"] = {
+		"ctrl-", -- [1]
 		"1", -- [2]
-		"!", -- [3]
+		"target", -- [3]
 	},
 	["alt3"] = {
 		"alt-", -- [1]
@@ -3909,27 +3909,27 @@ VUHDO_SPELL_ASSIGNMENTS = {
 	["alt2"] = {
 		"alt-", -- [1]
 		"2", -- [2]
-		"圣光道标", -- [3]
+		"圣洁护盾", -- [3]
 	},
-	["ctrl1"] = {
-		"ctrl-", -- [1]
+	["altctrl1"] = {
+		"alt-ctrl-", -- [1]
 		"1", -- [2]
-		"target", -- [3]
+		"!", -- [3]
 	},
 	["ctrlshift1"] = {
 		"CTRL-SHIFT-", -- [1]
 		"1", -- [2]
 		"target", -- [3]
 	},
-	["5"] = {
-		"", -- [1]
-		"5", -- [2]
-		"清洁术", -- [3]
-	},
-	["1"] = {
-		"", -- [1]
+	["shift1"] = {
+		"shift-", -- [1]
 		"1", -- [2]
-		"圣光术", -- [3]
+		"圣疗术", -- [3]
+	},
+	["alt1"] = {
+		"alt-", -- [1]
+		"1", -- [2]
+		"圣光道标", -- [3]
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -4000,7 +4000,7 @@ VUHDO_BUFF_SETTINGS = {
 			["useOpacity"] = true,
 		},
 		["enabled"] = true,
-		["name"] = "Aarcherrs",
+		["name"] = "Eaten",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4021,7 +4021,7 @@ VUHDO_BUFF_SETTINGS = {
 			["useOpacity"] = true,
 		},
 		["enabled"] = false,
-		["name"] = "无敌小星星",
+		["name"] = "狼",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4042,7 +4042,7 @@ VUHDO_BUFF_SETTINGS = {
 			["useOpacity"] = true,
 		},
 		["enabled"] = true,
-		["name"] = "Aarcherrs",
+		["name"] = "丿無心丿",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4194,8 +4194,8 @@ VUHDO_BUFF_SETTINGS = {
 			["O"] = 1,
 		},
 		["POSITION"] = {
-			["y"] = -37.33359146118164,
-			["x"] = 187.1830444335938,
+			["y"] = -13.43549060821533,
+			["x"] = 128.8952026367188,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
@@ -4557,9 +4557,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4567,9 +4567,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4622,9 +4622,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4654,9 +4654,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4664,9 +4664,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4719,9 +4719,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4766,14 +4766,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "风暴峭壁",
+		["zone"] = "达拉然",
 		["baseRange"] = true,
 		["class"] = "PALADIN",
 		["role"] = 61,
-		["sortMaxHp"] = 16404,
-		["map"] = "风暴峭壁",
+		["sortMaxHp"] = 16954,
+		["map"] = "达拉然",
 		["threat"] = 0,
-		["powermax"] = 22729,
+		["powermax"] = 23314,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "家駒",
@@ -4784,17 +4784,17 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["debuff"] = 0,
-		["healthmax"] = 16404,
-		["loghealth"] = 16404,
+		["healthmax"] = 16954,
+		["loghealth"] = 16954,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "家駒",
-		["power"] = 22729,
+		["power"] = 23314,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 16404,
+		["health"] = 16954,
 		["className"] = "圣骑士",
 		["afk"] = false,
 		["powertype"] = 0,
@@ -4824,9 +4824,9 @@ VUHDO_INDICATOR_CONFIG = {
 		["INCOMING_BAR"] = "",
 		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
+		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "法力条: 只有法力值",
-		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["HEALTH_BAR"] = "血量: (通用, 职业颜色)",
 		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
 		["DAMAGE_FLASH_BAR"] = "",
