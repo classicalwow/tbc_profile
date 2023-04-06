@@ -46,7 +46,7 @@ function P:ShouldShowCompactFrame()
 end
 
 function P:CompactFrameIsShown()
-	return self.isCompactFrameSetShown() and self:ShouldShowCompactFrame()
+	return self.isCompactFrameSetShown and self:ShouldShowCompactFrame()
 end
 
 function P:FindRelativeFrame(guid)
@@ -212,7 +212,7 @@ do
 		if self.enabled and not E.db.position.detached and not hookTimer then
 			hookTimer = C_Timer.NewTimer(0.5, UpdatePosition_OnTimerEnd)
 		end
-		if E.isDF and not E.db.position.detached and not E.customUF.active and self.isInTestMode and not EditModeManagerFrame:IsEditModeActive() then
+		if E.isDF and not E.db.position.detached and not E.customUF.active and self.isInTestMode and not P.isInEditMode then
 			self:Test()
 			E:ACR_NotifyChange()
 		end
@@ -240,14 +240,18 @@ do
 		if E.isDF then
 
 			hooksecurefunc(EditModeManagerFrame, "UpdateRaidContainerFlow", function()
-				P.keepGroupsTogether = EditModeManagerFrame:ShouldRaidFrameShowSeparateGroups()
-				P:HookFunc()
+				if P.isInEditMode then
+					P.keepGroupsTogether = EditModeManagerFrame:ShouldRaidFrameShowSeparateGroups()
+					P:HookFunc()
+				end
 			end)
 
 
 			hooksecurefunc("UpdateRaidAndPartyFrames", function()
-				P.useRaidStylePartyFrames = EditModeManagerFrame:UseRaidStylePartyFrames()
-				P:HookFunc()
+				if P.isInEditMode then
+					P.useRaidStylePartyFrames = EditModeManagerFrame:UseRaidStylePartyFrames()
+					P:HookFunc()
+				end
 			end)
 
 
@@ -258,6 +262,19 @@ do
 						P.isCompactFrameSetShown = isShown
 						P:HookFunc()
 					end
+				end
+			end)
+
+			EventRegistry:RegisterCallback("EditMode.Enter", function()
+				P.isInEditMode = true
+			end)
+
+			EventRegistry:RegisterCallback("EditMode.Exit", function()
+				P.isInEditMode = nil
+
+				if P.isInTestMode then
+					P:Test()
+					E:ACR_NotifyChange()
 				end
 			end)
 		else

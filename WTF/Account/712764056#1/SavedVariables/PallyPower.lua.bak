@@ -2,19 +2,19 @@
 PallyPowerDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Other",
-		["邁克爾假死 - 伊弗斯"] = "Other",
 		["家駒 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Other",
 		["特斯拉大股東 - 伊弗斯"] = "Other",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["WrathTransition"] = true,
 			["freeassign"] = false,
-			["cBuffNeedAll"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
 			},
 			["cBuffNeedSpecial"] = {
 				["r"] = 0.5,
@@ -22,23 +22,29 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
-			["display"] = {
-				["frameLocked"] = true,
+			["cBuffNeedAll"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
 			["enable"] = true,
+			["display"] = {
+				["frameLocked"] = true,
+			},
 		},
 		["Other"] = {
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -52,12 +58,6 @@ PallyPowerDB = {
 			},
 			["enable"] = true,
 			["WrathTransition"] = true,
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -93,12 +93,12 @@ PallyPower_AuraAssignments = {
 	["一抹星光"] = 0,
 	["Libralovers"] = 0,
 	["影姿哀伤"] = 0,
-	["灰烬小野貓"] = 2,
-	["丁一发儿"] = 0,
-	["飛揚的嚕嚕"] = 0,
-	["橡果树"] = 0,
-	["蹭饭灬小天王"] = 0,
 	["Ninimo"] = 0,
+	["丁一发儿"] = 0,
+	["橡果树"] = 0,
+	["飛揚的嚕嚕"] = 0,
+	["蹭饭灬小天王"] = 0,
+	["灰烬小野貓"] = 2,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {
