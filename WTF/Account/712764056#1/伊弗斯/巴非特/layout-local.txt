@@ -1,11 +1,4 @@
 Version: 1
-Frame: RXPTargetFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 187
-Y: -242
-W: 87
-H: 40
 Frame: RXPG_ARROW
 FrameLevel: 1
 Anchor: BOTTOM
@@ -47,4 +40,11 @@ Anchor: CENTER
 X: 118
 Y: -117
 W: 57
+H: 40
+Frame: RXPTargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 187
+Y: -242
+W: 87
 H: 40

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 35933,
@@ -46,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199492::::::::70:::::::::|h[群集腕甲]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 199493,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199493::::::::70:::::::::|h[群集护手]|h|r",
+			["ID"] = 37417,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:37417::::::::71:::::::::|h[西部裂谷护手]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 35881,
@@ -90,6 +88,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199725::::::::70:::::::::|h[群集左爪]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

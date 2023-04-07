@@ -1,7 +1,7 @@
+VER 3 0000000001000024 "1" "135421"
+END
 VER 3 0000000001000022 "1" "134072"
 /castsequence 蝰蛇守护,龙鹰守护
-END
-VER 3 0000000001000024 "1" "135421"
 END
 VER 3 000000000100001F "target" "135769"
 /target 乌
@@ -27,18 +27,18 @@ VER 3 0000000001000023 "爆发2" "134400"
 #showtooltip 急速射击
 /cast 急速射击
 /cast 野性呼唤
-/cast 狂暴
+/施放 血性狂怒
+/use 征服者的天灾追猎者护手
 /施放 准备就绪
-/use 霜冻灵敏护手
 END
 VER 3 000000000100000E "爆發" "136048"
 #showtooltip 急速射击
+/use 速度药水
 /cast 急速射击
 /cast 野性呼唤
-/cast 狂暴
-/use 速度药水
+/施放 血性狂怒
+/use 征服者的天灾追猎者护手
 /施放 准备就绪
-/use 霜冻灵敏护手
 END
 VER 3 000000000100001B "稳固" "INV_MISC_QUESTIONMARK"
 /castsequence reset=3 穩固射擊, 自動射擊
