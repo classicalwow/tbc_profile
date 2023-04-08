@@ -26,8 +26,8 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["class_index"] = 3,
-			["spec_index"] = 3,
 			["version"] = 6.1,
+			["spec_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
