@@ -6,14 +6,14 @@ LootMonitorDB = {
 			["Class"] = "PALADIN",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "鈕聃",
-			["InstanceName"] = "纳克萨玛斯",
+			["FirstClass"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-533-326-16061-00002818B5",
 					["Time"] = "20:48:30",
-					["Looter"] = "家駒",
-					["Date"] = "2023-04-01",
 					["Class"] = "PALADIN",
+					["Date"] = "2023-04-01",
+					["Looter"] = "家駒",
 					["Name"] = "教官拉苏维奥斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40319::::::::80:::::::::|h[猜疑胸甲]|h|r", -- [1]
@@ -24,9 +24,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-15956-0000285151",
 					["Time"] = "00:10:30",
-					["Class"] = "ROGUE",
-					["Date"] = "2023-04-02",
 					["Looter"] = "你也在等风吗",
+					["Date"] = "2023-04-02",
+					["Class"] = "ROGUE",
 					["Name"] = "阿努布雷坎",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40069::::::::80:::::::::|h[傳承]|h|r", -- [1]
@@ -39,9 +39,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-15953-0000285151",
 					["Time"] = "00:14:14",
-					["Class"] = "WARLOCK",
-					["Date"] = "2023-04-02",
 					["Looter"] = "炫天莫邪劍",
+					["Date"] = "2023-04-02",
+					["Class"] = "WARLOCK",
 					["Name"] = "黑女巫法琳娜",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40071::::::::80:::::::::|h[愛慕之鍊]|h|r", -- [1]
@@ -54,9 +54,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-15952-0000285151",
 					["Time"] = "00:19:05",
-					["Class"] = "PALADIN",
-					["Date"] = "2023-04-02",
 					["Looter"] = "宋小宝丶",
+					["Date"] = "2023-04-02",
+					["Class"] = "PALADIN",
 					["Name"] = "迈克斯纳",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40254::::::::80:::::::::|h[危機防制披風]|h|r", -- [1]
@@ -69,9 +69,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-16011-0000285151",
 					["Time"] = "00:32:15",
-					["Class"] = "ROGUE",
-					["Date"] = "2023-04-02",
 					["Looter"] = "你也在等风吗",
+					["Date"] = "2023-04-02",
+					["Class"] = "ROGUE",
 					["Name"] = "洛欧塞布",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40639::::::::80:::::::::|h[失落胜利者的肩甲]|h|r", -- [1]
@@ -84,9 +84,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-16028-0000285151",
 					["Time"] = "01:08:38",
-					["Class"] = "ROGUE",
-					["Date"] = "2023-04-02",
 					["Looter"] = "你也在等风吗",
+					["Date"] = "2023-04-02",
+					["Class"] = "ROGUE",
 					["Name"] = "帕奇维克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40071::::::::80:::::::::|h[愛慕之鍊]|h|r", -- [1]
@@ -99,9 +99,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-15928-0000285151",
 					["Time"] = "01:21:19",
-					["Class"] = "ROGUE",
-					["Date"] = "2023-04-02",
 					["Looter"] = "你也在等风吗",
+					["Date"] = "2023-04-02",
+					["Class"] = "ROGUE",
 					["Name"] = "塔迪乌斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40634::::::::80:::::::::|h[失落征服者的腿甲]|h|r", -- [1]
@@ -113,9 +113,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-1721-15990-0000285151",
 					["Time"] = "01:41:12",
-					["Class"] = "DRUID",
-					["Date"] = "2023-04-02",
 					["Looter"] = "麻园德仔",
+					["Date"] = "2023-04-02",
+					["Class"] = "DRUID",
 					["Name"] = "克尔苏加德",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40395::::::::80:::::::::|h[圣火之炬]|h|r", -- [1]
@@ -127,9 +127,9 @@ LootMonitorDB = {
 					},
 				}, -- [8]
 			},
-			["FirstClass"] = "WARRIOR",
-			["Player"] = "家駒",
 			["SavedID"] = 198224155,
+			["Player"] = "家駒",
+			["InstanceName"] = "纳克萨玛斯",
 		}, -- [1]
 	},
 	["Config"] = {

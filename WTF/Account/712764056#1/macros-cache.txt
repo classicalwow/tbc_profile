@@ -30,6 +30,12 @@ VER 3 000000000000008B "55" "132089"
 /1  5v5 2346認真隊找補牧 補騎 電薩/獵人 韌性要求280+ 意者詳聊
 /2 5v5 2346認真隊找補牧 補騎 電薩/獵人 韌性要求280+ 意者詳聊
 END
+VER 3 0000000000000072 "dd" "132112"
+/console cameraDistanceMaxZoomFactor 4
+/console ffxDeath 0
+/script C_CVar.SetCVar("nameplateMaxDistance",41)
+/script SetCVar("cameraDistanceMax", 25)
+END
 VER 3 0000000000000074 "dd" "132112"
 /console cameraDistanceMaxZoomFactor 4
 /console ffxDeath 0
@@ -38,12 +44,6 @@ VER 3 0000000000000075 "dd" "132112"
 /console cameraDistanceMaxZoomFactor 4
 /console ffxDeath 0
 /script C_CVar.SetCVar("nameplateMaxDistance",41)
-END
-VER 3 0000000000000072 "dd" "132112"
-/console cameraDistanceMaxZoomFactor 4
-/console ffxDeath 0
-/script C_CVar.SetCVar("nameplateMaxDistance",41)
-/script SetCVar("cameraDistanceMax", 25)
 END
 VER 3 0000000000000073 "dd" "132112"
 /console cameraDistanceMaxZoomFactor 4
@@ -65,8 +65,12 @@ VER 3 000000000000002F "RE假" "INV_Misc_QuestionMark"
 /cast 多重射擊
 END
 VER 3 00000000000000AD "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact 药剂师薇吉·莱文
-/targetexact 亡灵卫兵莫德尔
+/targetexact 猛犸人突击者
+/targetexact 猛犸人幼体
+/targetexact 猛犸人族长
+/targetexact 雪原徒工
+/targetexact 雪原萨满祭司
+/targetexact 雪原狂战士
 /cleartarget [dead]
 END
 VER 3 0000000000000030 "SS" "132101"
@@ -76,6 +80,10 @@ END
 VER 3 00000000000000A0 "t" "INV_MISC_QUESTIONMARK"
 /target 莎爾萊
 END
+VER 3 000000000000006E "target" "132092"
+/target 幽暗的工人
+/script SetRaidTarget("target",8)
+END
 VER 3 000000000000009E "target" "132090"
 /target 日怒弓箭手
 /script SetRaidTarget("target",8)
@@ -84,9 +92,17 @@ VER 3 0000000000000098 "target" "132090"
 /target 薩
 /script SetRaidTarget("target",8)
 END
-VER 3 000000000000006E "target" "132092"
-/target 幽暗的工人
-/script SetRaidTarget("target",8)
+VER 3 0000000000000040 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]巴非特[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000003E "VuhDoDCShieldNames" "132281"
+N麥噹噹HanNep舌忝至躺著賺Han瑪嘉黛巴拉逼你這樣[x]穿馬靴[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
+END
+VER 3 0000000000000039 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]人民班[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000003B "VuhDoDCShieldNames" "132281"
+NAxe呣哈哈小重重狄月Nat麻辣白安潔莉韓森蓋Pir魅惑夜肉體菩奧塞里屁縫子[x]裙姊千葉熊穿馬靴警嫂水叫你妹初夏的斷風五民主的Par提摩西給貓罐Kem多多豬妮妮子給本仙花開富Afa哈龟魔恩昕由麻也[x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
 VER 3 000000000000003D "VuhDoDCShieldNames" "Ability_Repair"
 N漫遊者死極香蜜蜜完美小魚閃閃[x]楓豫我現在艾丙兒鲨鳗[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x]狼[x][x][x]匹恩奈[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
@@ -106,23 +122,25 @@ END
 VER 3 0000000000000041 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]巴非特[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 0000000000000040 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]巴非特[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 000000000000003E "VuhDoDCShieldNames" "132281"
-N麥噹噹HanNep舌忝至躺著賺Han瑪嘉黛巴拉逼你這樣[x]穿馬靴[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
-END
-VER 3 0000000000000039 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]人民班[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 000000000000003B "VuhDoDCShieldNames" "132281"
-NAxe呣哈哈小重重狄月Nat麻辣白安潔莉韓森蓋Pir魅惑夜肉體菩奧塞里屁縫子[x]裙姊千葉熊穿馬靴警嫂水叫你妹初夏的斷風五民主的Par提摩西給貓罐Kem多多豬妮妮子給本仙花開富Afa哈龟魔恩昕由麻也[x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
-END
 VER 3 0000000000000042 "VuhDoDCShieldNames" "132281"
 N[x]斷風五初夏的Nat給本仙屁縫子韓森蓋魅惑夜民主的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
 VER 3 000000000000003F "VuhDoDCShieldNames" "132281"
 N快刀[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
+END
+VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/PetPassiveMode
+/petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
+VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/petfollow
+/stopcasting
+/cleartarget
+/castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
 #showtooltip
@@ -138,20 +156,6 @@ VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
 /stopcasting
 /cleartarget
 /castsequence reset=10 假死,獻祭陷阱
-END
-VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/PetPassiveMode
-/petpassive
-/castsequence reset=10 假死,冰凍陷阱
-END
-VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/petfollow
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
 #showtooltip
@@ -213,6 +217,19 @@ END
 VER 3 000000000000007D "啤酒節" "132091"
 /y 啤酒節來了！!
 END
+VER 3 0000000000000089 "喊人" "132089"
+/1 5V5固定隊伍 徵電薩OR術士 牧師 周二周三 22-24點  300+韌 意者詳聊
+/2 5V5固定隊伍 徵電薩OR術士 牧師 周二周三 22-24點  300+韌 意者詳聊
+END
+VER 3 0000000000000077 "喊人" "132089"
+/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 1補 原始虛空和沙漏拍G 4=1
+END
+VER 3 0000000000000083 "喊人" "132089"
+/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 -1 任意DD
+END
+VER 3 0000000000000087 "喊人" "132089"
+/4 {十字}{十字}{十字} H 每日波塔  {十字}{十字}{十字} 徵 -1 DD(法術)
+END
 VER 3 0000000000000092 "喊人" "132089"
 /1   節日王-1坦 2DD
 END
@@ -227,19 +244,6 @@ VER 3 0000000000000082 "喊人" "132089"
 END
 VER 3 000000000000007E "喊人" "132089"
 /1   戰坦/ 戰D雙BIS 找22點后毒蛇風暴團
-END
-VER 3 0000000000000089 "喊人" "132089"
-/1 5V5固定隊伍 徵電薩OR術士 牧師 周二周三 22-24點  300+韌 意者詳聊
-/2 5V5固定隊伍 徵電薩OR術士 牧師 周二周三 22-24點  300+韌 意者詳聊
-END
-VER 3 0000000000000077 "喊人" "132089"
-/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 1補 原始虛空和沙漏拍G 4=1
-END
-VER 3 0000000000000083 "喊人" "132089"
-/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 -1 任意DD
-END
-VER 3 0000000000000087 "喊人" "132089"
-/4 {十字}{十字}{十字} H 每日波塔  {十字}{十字}{十字} 徵 -1 DD(法術)
 END
 VER 3 0000000000000086 "喊人" "132089"
 /4 {十字}{十字}{十字} 頂級PVP戰士找競技場 55 33隊伍
@@ -261,6 +265,10 @@ VER 3 000000000000004E "圖騰" "132136"
 /petattack [target=灼熱圖騰][target=圖騰]
 /petattack [target=法力之泉圖騰][target=圖騰]
 END
+VER 3 000000000000007C "坐騎" "132231"
+/cast 迅捷紅色雙足飛龍
+/cast 大型棕色科多獸
+END
 VER 3 00000000000000AC "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 阿曼尼戰熊
@@ -268,10 +276,6 @@ END
 VER 3 00000000000000A4 "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 黑色戰鬥迅猛龍之哨
-END
-VER 3 000000000000007C "坐騎" "132231"
-/cast 迅捷紅色雙足飛龍
-/cast 大型棕色科多獸
 END
 VER 3 0000000000000034 "坐騎宏" "132265"
 /cast 塞納里奧戰爭角鷹獸

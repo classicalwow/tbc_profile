@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 38045,
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35893::::::::71:::::::::|h[冷石镶嵌腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 35926,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35926::::::::70:::::::::|h[精工护腿]|h|r",
+			["ID"] = 38043,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38043::::::::74:::::::::|h[阿努巴尔甲壳护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 37984,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37982::::::::73:::::::::|h[微光齿环]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 35922,
-			["Level"] = 138,
+			["ID"] = 37982,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:35922::::::::71:::::::::|h[黑铁徽记之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:37982::::::::74:::::::::|h[微光齿环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 35937,
@@ -90,8 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38170::::::::73:::::::::|h[尖刺寒风短棍]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

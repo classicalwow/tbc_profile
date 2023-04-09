@@ -1,9 +1,9 @@
-## Interface: 100002
+## Interface: 100007
 ## Notes: Allows easy saving and restoring of lists of enabled addons.
 ## Title: AddonProfiles
 ## Author: syndenbock
 ## SavedVariables: AddonProfiles_Saved
 ## X-Curse-Project-ID: 504844
-## Version: 1.1.3
+## Version: 1.1.4
 
 AddonProfiles.lua

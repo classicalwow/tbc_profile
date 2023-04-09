@@ -13,10 +13,10 @@ spec:RegisterGear( "idol_of_worship", 39757)
 spec:RegisterGear( "idol_of_the_ravenous_beast", 40713)
 
 -- Sets
-spec:RegisterGear( "tier7", 39557, 39553, 39555, 39554, 39556, 40472, 40473, 40493, 40471, 40494 )
-spec:RegisterGear( "tier8", 46260, 46262, 46265, 46267, 46269, 46158, 46161, 46160, 46159, 46157 )
-spec:RegisterGear( "tier9", 48799, 48800, 48801, 48802, 48803, 48212, 48211, 48210, 48209, 48208, 48203, 48204, 48205, 48206, 48207 )
-spec:RegisterGear( "tier10", 51701, 51700, 51699, 51698, 51697, 51140, 51142, 51143, 51144, 51141, 51299, 51297, 51296, 51295, 51298 )
+spec:RegisterGear( "tier7feral", 39557, 39553, 39555, 39554, 39556, 40472, 40473, 40493, 40471, 40494 )
+spec:RegisterGear( "tier8feral", 45355, 45356, 45357, 45358, 45359, 46158, 46161, 46160, 46159, 46157 )
+spec:RegisterGear( "tier9feral", 48799, 48800, 48801, 48802, 48803, 48212, 48211, 48210, 48209, 48208, 48203, 48204, 48205, 48206, 48207 )
+spec:RegisterGear( "tier10feral", 51701, 51700, 51699, 51698, 51697, 51140, 51142, 51143, 51144, 51141, 51299, 51297, 51296, 51295, 51298 )
 
 local function rage_amount()
     local d = UnitDamage( "player" ) * 0.7
@@ -185,7 +185,6 @@ spec:RegisterStateFunction("set_last_finisher_cp", function(val)
     lastfinishercp = val
 end)
 
-local predatorsswiftness_spell_assigned = false
 local avg_rage_amount = rage_amount()
 spec:RegisterHook( "reset_precast", function()
     stat.spell_haste = stat.spell_haste * (1 + (0.01 * talent.celestial_focus.rank) + (buff.natures_grace.up and 0.2 or 0) + (buff.moonkin_form.up and (talent.improved_moonkin_form.rank * 0.01) or 0))
@@ -198,12 +197,6 @@ spec:RegisterHook( "reset_precast", function()
         Hekili:Debug( "Starting Maul, next swing in %.2f...", buff.maul.remains)
     end
 
-    if not predatorsswiftness_spell_assigned then
-        class.abilityList.predatorsswiftness_spell = "|cff00ccff[Assigned Predator's Swiftness Spell]|r"
-        class.abilities.predatorsswiftness_spell = class.abilities[ settings.predatorsswiftness_spell or "regrowth" ]
-        predatorsswiftness_spell_assigned = true
-    end
-
     avg_rage_amount = rage_amount()
 
     buff.eclipse_lunar.last_applied = eclipse_lunar_last_applied
@@ -214,12 +207,23 @@ spec:RegisterStateExpr("rage_gain", function()
     return avg_rage_amount
 end)
 
+spec:RegisterStateExpr("rip_canextend", function()
+    return debuff.rip.up and glyph.shred.enabled and rip_tracker[target.unit].extension < 6
+end)
+
 spec:RegisterStateExpr("rip_maxremains", function()
     if debuff.rip.remains == 0 then
         return 0
     else
         return debuff.rip.remains + ((debuff.rip.up and glyph.shred.enabled and (6 - rip_tracker[target.unit].extension)) or 0)
     end
+end)
+
+spec:RegisterStateExpr("sr_new_duration", function()
+    if combo_points.current == 0 then
+        return 0
+    end
+    return 14 + (set_bonus.tier8feral_4pc == 1 and 8 or 0) + ((combo_points.current - 1) * 5)
 end)
 
 spec:RegisterStateExpr( "mainhand_remains", function()
@@ -238,43 +242,21 @@ spec:RegisterStateExpr( "mainhand_remains", function()
     return next_swing
 end)
 
-spec:RegisterStateExpr("bearweaving_lacerate_should_maul", function()
-    if buff.clearcasting.up then
-        return false
-    end
-
-    local bearRipRemains = max(debuff.rip.remains - 3, 0)
-    local ripGCDs = floor(bearRipRemains / gcd.max)
-    local energyGCDs = floor(energy.time_to_70 / gcd.max)
-    local gcdsRemaining = min(ripGCDs, energyGCDs)
-
-    local rageNeeded = action.maul.spend
-    if gcdsRemaining == 0 then
-        rageNeeded = rageNeeded + (debuff.lacerate.remains < 9 and action.lacerate.spend or 0)
-    else
-        local gcdPool = gcdsRemaining
-        local laceratesNeeded = (debuff.lacerate.max_stack - debuff.lacerate.stack) + (debuff.lacerate.stack == 5 and debuff.lacerate.remains < 9 and 1 or 0)
-        local laceratesUsed = min(gcdPool, laceratesNeeded)
-        rageNeeded = rageNeeded + laceratesUsed * action.lacerate.spend
-        gcdPool = gcdPool - laceratesUsed
-
-        if gcdPool > 0 and cooldown.mangle_bear.up then
-            rageNeeded = rageNeeded + action.mangle_bear.spend
-            gcdPool = gcdPool - 1
-        end
-    end
-
-    local nextSwing = mainhand_remains
-    --[[if nextSwing <= 0 then
-        nextSwing = mainhand_speed
-    end]]--
-    local willMaul = nextSwing <= min(bearRipRemains + 1.5, energy.time_to_85)
-    return willMaul and energy.current < 70 and rage.current > rageNeeded
-end)
-
 spec:RegisterStateExpr("should_rake", function()
     local r, s = calc_ability_dpe()
     return r >= s or (not settings.optimize_rake)
+end)
+
+spec:RegisterStateExpr("ttd", function()
+    return (debuff.training_dummy.up and 300) or target.time_to_die
+end)
+
+spec:RegisterStateExpr("end_thresh", function()
+    return 10
+end)
+
+spec:RegisterStateExpr("furor_cap", function()
+    return min(20 * talent.furor.rank, 85)
 end)
 
 spec:RegisterStateFunction("calc_ability_dpe", function()
@@ -289,19 +271,6 @@ spec:RegisterStateFunction("calc_ability_dpe", function()
     return rake_dpe, shred_dpe
 end)
 
-spec:RegisterStateFunction("berserk_expected_at", function(current_time, future_time)
-    if buff.berserk.up then
-        return (
-            future_time - current_time < buff.berserk.remains
-            or future_time > current_time + cooldown.berserk.remains
-        )
-    end
-    if cooldown.berserk.remains > 0 then
-        return future_time > current_time + cooldown.berserk.remains
-    end
-    return future_time > current_time + cooldown.tigers_fury.remains
-end)
-
 spec:RegisterStateFunction("tf_expected_before", function(current_time, future_time)
     if cooldown.tigers_fury.remains > 0 then
         return current_time + cooldown.tigers_fury.remains < future_time
@@ -312,68 +281,37 @@ spec:RegisterStateFunction("tf_expected_before", function(current_time, future_t
     return true
 end)
 
-spec:RegisterStateExpr("tf_expected_before_flower_end", function()
-    return tf_expected_before(query_time, query_time+flower_end)
+spec:RegisterStateFunction("ff_expected_before", function(current_time, future_time)
+    if cooldown.faerie_fire_feral.remains > 0 then
+        return current_time + cooldown.faerie_fire_feral.remains < future_time
+    end
+    return true
 end)
 
-spec:RegisterStateExpr("flower_end", function()
-    return action.gift_of_the_wild.gcd+1.5+2*latency
+spec:RegisterStateExpr("should_bearweave", function()
+    local rip_refresh_pending = debuff.rip.up and combo_points.current == 5 and debuff.rip.remains < ttd - end_thresh
+    local weave_end = 6 + 2 * latency
+    local weave_energy = furor_cap - 30 - (20 * latency) - (talent.furor.rank > 3 and 15 or 0)
+    local energy_to_dump = energy.current + weave_end * 10
+    return (
+        bearweaving_enabled and
+        energy.current <= weave_energy and
+        ((not rip_refresh_pending) or (debuff.rip.remains >= weave_end)) and
+        cooldown.mangle_bear.remains < 1.5 and
+        (not buff.clearcasting.up) and
+        (not buff.berserk.up) and
+        (not tf_expected_before(time, time + weave_end)) and
+        (not ff_expected_before(time, time + 3)) and
+        floor(weave_end + energy_to_dump / 42) < ttd
+    )
 end)
 
-spec:RegisterStateExpr("tf_expected_before_weave_end", function()
-    return tf_expected_before(query_time, query_time+weave_end)
-end)
-
-spec:RegisterStateExpr("weave_end", function()
-    return 4.5+2*latency
-end)
-
-spec:RegisterStateExpr("min_roar_offset", function()
-    return settings.min_roar_offset
-end)
-
-spec:RegisterStateExpr("ferociousbite_enabled", function()
-    return settings.ferociousbite_enabled
-end)
-
-spec:RegisterStateExpr("min_bite_sr_remains", function()
-    return settings.min_bite_sr_remains
-end)
-
-spec:RegisterStateExpr("min_bite_rip_remains", function()
-    return settings.min_bite_rip_remains
-end)
-
-spec:RegisterStateExpr("max_bite_energy", function()
-    return settings.max_bite_energy
-end)
-
-spec:RegisterStateExpr("flowerweaving_enabled", function()
-    return settings.flowerweaving_enabled and (state.group_members >= flowerweaving_mingroupsize)
-end)
-
-spec:RegisterStateExpr("flowerweaving_mode", function()
-    return settings.flowerweaving_mode
-end)
-
-spec:RegisterStateExpr("flowerweaving_mode_any", function()
-    return settings.flowerweaving_mode == "any";
+spec:RegisterStateExpr("should_cat", function()
+    return buff.clearcasting.up and cooldown.faerie_fire_feral.remains > 3
 end)
 
 spec:RegisterStateExpr("bearweaving_enabled", function()
     return settings.bearweaving_enabled and (settings.bearweaving_bossonly == false or state.encounterDifficulty > 0) and (settings.bearweaving_instancetype == "any" or (settings.bearweaving_instancetype == "dungeon" and (instanceType == "party" or instanceType == "raid")) or (settings.bearweaving_instancetype == "raid" and instanceType == "raid"))
-end)
-
-spec:RegisterStateExpr("bearweaving_lacerate_enabled", function()
-    return bearweaving_enabled and settings.bearweaving_spell == "lacerate"
-end)
-
-spec:RegisterStateExpr("bearweaving_mangle_enabled", function()
-    return bearweaving_enabled and settings.bearweaving_spell == "mangle"
-end)
-
-spec:RegisterStateExpr("predatorsswiftness_enabled", function()
-    return settings.predatorsswiftness_enabled
 end)
 
 -- Resources
@@ -572,7 +510,7 @@ spec:RegisterAuras( {
     -- All damage taken is reduced by $s2%.  While protected, damaging attacks will not cause spellcasting delays.
     barkskin = {
         id = 22812,
-        duration = function() return 12 + ((set_bonus.tier7_4pc == 1 and 3) or 0) end,
+        duration = function() return 12 + ((set_bonus.tier7feral_4pc == 1 and 3) or 0) end,
         max_stack = 1,
     },
     -- Stunned.
@@ -673,6 +611,12 @@ spec:RegisterAuras( {
         alias = { "eclipse_lunar", "eclipse_solar" },
         aliasType = "buff",
         aliasMode = "first"
+    },
+    -- Your next Starfire will be an instant cast spell.
+    elunes_wrath = {
+        id = 64823,
+        duration = 10,
+        max_stack = 1,
     },
     -- Gain $/10;s1 rage per second.  Base armor reduced.
     enrage = {
@@ -904,7 +848,7 @@ spec:RegisterAuras( {
     -- Bleeding for $s2 damage every $t2 seconds.
     rake = {
         id = 48574,
-        duration = function() return 9 + ((set_bonus.tier9_2pc == 1 and 3) or 0) end,
+        duration = function() return 9 + ((set_bonus.tier9feral_2pc == 1 and 3) or 0) end,
         max_stack = 1,
         copy = { 1822, 1823, 1824, 9904, 27003, 48573, 48574, 59881, 59882, 59883, 59884, 59885, 59886 },
     },
@@ -926,7 +870,7 @@ spec:RegisterAuras( {
     -- Bleed damage every $t1 seconds.
     rip = {
         id = 49800,
-        duration = function() return 12 + ((glyph.rip.enabled and 4) or 0) + ((set_bonus.tier7_2pc == 1 and 4) or 0) end,
+        duration = function() return 12 + ((glyph.rip.enabled and 4) or 0) + ((set_bonus.tier7feral_2pc == 1 and 4) or 0) end,
         tick_time = 2,
         max_stack = 1,
         copy = { 1079, 9492, 9493, 9752, 9894, 9896, 27008, 49799, 49800 },
@@ -940,7 +884,12 @@ spec:RegisterAuras( {
     -- Physical damage done increased by $s2%.
     savage_roar = {
         id = 52610,
-        duration = function() return 14 + (set_bonus.tier8_4pc == 1 and 8 or 0) + ((combo_points.current - 1) * 5) end,
+        duration = function()
+            if combo_points.current == 0 then
+                return 0
+            end
+            return 14 + (set_bonus.tier8feral_4pc == 1 and 8 or 0) + ((combo_points.current - 1) * 5)
+        end,
         max_stack = 1,
         copy = { 52610 },
     },
@@ -1166,7 +1115,7 @@ spec:RegisterAbilities( {
     barkskin = {
         id = 22812,
         cast = 0,
-        cooldown = function() return 60 - ((set_bonus.tier9_4pc == 1 and 12) or 0) end,
+        cooldown = function() return 60 - ((set_bonus.tier9feral_4pc == 1 and 12) or 0) end,
         gcd = "off",
 
         startsCombat = true,
@@ -1474,6 +1423,7 @@ spec:RegisterAbilities( {
         handler = function ()
             removeDebuff( "armor_reduction" )
             applyDebuff( "target", "faerie_fire_feral", 300 )
+            applyBuff("clearcasting")
         end,
     },
 
@@ -1564,9 +1514,6 @@ spec:RegisterAbilities( {
         handler = function ()
             applyBuff( "gift_of_the_wild" )
             swap_form( "" )
-            if (flowerweaving_enabled and (flowerweaving_mode_any or state.active_enemies > 2) and state.group_members >= flowerweaving_mingroupsize) then
-                applyBuff("clearcasting")
-            end
         end,
 
         copy = { 21850, 26991, 48470 },
@@ -1577,7 +1524,7 @@ spec:RegisterAbilities( {
     growl = {
         id = 6795,
         cast = 0,
-        cooldown = function() return 8 - ((set_bonus.tier9_2pc == 1 and 2) or 0) end,
+        cooldown = function() return 8 - ((set_bonus.tier9feral_2pc == 1 and 2) or 0) end,
         gcd = "off",
 
         spend = 0,
@@ -2169,7 +2116,12 @@ spec:RegisterAbilities( {
         cooldown = 0,
         gcd = "totem",
 
-        spend = function () return (buff.clearcasting.up and 0) or ((30 - ((set_bonus.tier10_2pc == 1 and 10) or 0)) * ((buff.berserk.up and 0.5) or 1)) end,
+        spend = function ()
+            if buff.clearcasting.up then
+                return 0
+            end
+            return ((30 - ((set_bonus.tier10feral_2pc == 1 and 10) or 0)) * ((buff.berserk.up and 0.5) or 1))
+        end,
         spendType = "energy",
 
         startsCombat = true,
@@ -2286,7 +2238,7 @@ spec:RegisterAbilities( {
     -- Causes 127 to 155 Arcane damage to the target.
     starfire = {
         id = 2912,
-        cast = function() return (3.5 * haste) - (talent.starlight_wrath.rank * 0.1) end,
+        cast = function() return buff.elunes_wrath.up and 0 or ((3.5 * haste) - (talent.starlight_wrath.rank * 0.1)) end,
         cooldown = 0,
         gcd = "spell",
 
@@ -2436,7 +2388,7 @@ spec:RegisterAbilities( {
     tigers_fury = {
         id = 50213,
         cast = 0,
-        cooldown = function() return 30 - ((set_bonus.tier7_4pc == 1 and 3) or 0) end,
+        cooldown = function() return 30 - ((set_bonus.tier7feral_4pc == 1 and 3) or 0) end,
         gcd = "off",
 
         spend = 0,
@@ -2594,12 +2546,28 @@ spec:RegisterAbilities( {
 
 
 -- Settings
-local bearweaving_spells = {}
-local bearweaving_instancetypes = {}
-local predatorsswiftness_spells = {}
-local flowerweaving_modes = {}
+spec:RegisterSetting("druid_description", nil, {
+    type = "description",
+    name = "Adjust the settings below according to your playstyle preference. It is always recommended that you use a simulator "..
+        "to determine the optimal values for these settings for your specific character."
+})
 
-spec:RegisterSetting("min_roar_offset", 14, {
+spec:RegisterSetting("druid_description_footer", nil, {
+    type = "description",
+    name = "\n\n"
+})
+
+spec:RegisterSetting("druid_feral_header", nil, {
+    type = "header",
+    name = "Feral: General"
+})
+
+spec:RegisterSetting("druid_feral_description", nil, {
+    type = "description",
+    name = "General Feral settings will change the parameters used in the core cat rotation.\n\n"
+})
+
+spec:RegisterSetting("min_roar_offset", 20, {
     type = "range",
     name = "Minimum Roar Offset",
     desc = "Sets the minimum number of seconds over the current rip duration required for Savage Roar recommendations",
@@ -2612,22 +2580,37 @@ spec:RegisterSetting("min_roar_offset", 14, {
     end
 })
 
-spec:RegisterSetting("min_weave_mana", 25, {
+spec:RegisterSetting("max_ff_energy", 15, {
     type = "range",
-    name = "Minimum Spellshift Mana",
-    desc = "Sets the minimum allowable mana for flowershifting and predatorshifting recommendations",
+    name = "Max Energy For Faerie Fire",
+    desc = "Sets the energy allowed for Faerie Fire recommendations during Berserk.\n\nWhen Berserk is down, energy threshold is set to 87.",
     width = "full",
     min = 0,
     softMax = 100,
     step = 1,
     set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.min_weave_mana = val
+        Hekili.DB.profile.specs[ 11 ].settings.max_ff_energy = val
+    end
+})
+
+spec:RegisterSetting("rip_leeway", 1, {
+    type = "range",
+    name = "Maximum Savage Roar Remains For Rip Priority",
+    desc = "Sets maximum remaining time on Savage Roar allowed for a 5CP Rip to be prioritized above everything else.\n\nThere are cases where Rip falls "..
+        "very shortly before Roar and, due to default priorities, Roar falls off before the player is able to utilize 5CP. This leads to Roar being cast "..
+        "and having to rebuild 5CP for Rip. This setting helps address that by forcing Rip priority in these cases.",
+    width = "full",
+    min = 1,
+    softMax = 10,
+    step = 0.1,
+    set = function( _, val )
+        Hekili.DB.profile.specs[ 11 ].settings.rip_leeway = val
     end
 })
 
 spec:RegisterSetting("optimize_rake", false, {
     type = "toggle",
-    name = "Rake: Optimize Use",
+    name = "Optimize Rake Enabled",
     desc = "When enabled, rake will only be suggested if it will do more damage than shred or if there is no active bleed",
     width = "full",
     set = function( _, val )
@@ -2635,9 +2618,26 @@ spec:RegisterSetting("optimize_rake", false, {
     end
 })
 
+local bearweaving_instancetypes = {}
+
+spec:RegisterSetting("druid_feral_footer", nil, {
+    type = "description",
+    name = "\n\n"
+})
+
+spec:RegisterSetting("druid_bite_header", nil, {
+    type = "header",
+    name = "Feral: Ferocious Bite"
+})
+
+spec:RegisterSetting("druid_bite_description", nil, {
+    type = "description",
+    name = "Ferocious Bite Feral settings will change the parameters used when recommending ferocious bite.\n\n"
+})
+
 spec:RegisterSetting("ferociousbite_enabled", true, {
     type = "toggle",
-    name = "Ferocious Bite: Enabled?",
+    name = "Enabled",
     desc = "Select whether or not ferocious bite should be used",
     width = "full",
     set = function( _, val )
@@ -2645,7 +2645,7 @@ spec:RegisterSetting("ferociousbite_enabled", true, {
     end
 })
 
-spec:RegisterSetting("min_bite_sr_remains", 10, {
+spec:RegisterSetting("min_bite_sr_remains", 4, {
     type = "range",
     name = "Minimum Roar Remains For Bite",
     desc = "Sets the minimum number of seconds left on Savage Roar when deciding whether to recommend Ferocious Bite",
@@ -2658,7 +2658,7 @@ spec:RegisterSetting("min_bite_sr_remains", 10, {
     end
 })
 
-spec:RegisterSetting("min_bite_rip_remains", 10, {
+spec:RegisterSetting("min_bite_rip_remains", 4, {
     type = "range",
     name = "Minimum Rip Remains For Bite",
     desc = "Sets the minimum number of seconds left on Rip when deciding whether to recommend Ferocious Bite",
@@ -2684,49 +2684,19 @@ spec:RegisterSetting("max_bite_energy", 25, {
     end
 })
 
-spec:RegisterSetting("flowerweaving_enabled", false, {
-    type = "toggle",
-    name = "Flowerweaving: Enabled?",
-    desc = "Select whether or not flowerweaving should be used in AOE situations",
-    width = "full",
-    set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.flowerweaving_enabled = val
-    end
+spec:RegisterSetting("druid_bite_footer", nil, {
+    type = "description",
+    name = "\n\n"
 })
 
-spec:RegisterSetting("flowerweaving_mingroupsize", 10, {
-    type = "range",
-    name = "Flowerweaving: Minimum Group Size",
-    desc = "Select the minimum number of players present in a group before flowerweaving will be recommended",
-    width = "full",
-    min = 0,
-    softMax = 40,
-    step = 1,
-    set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.flowerweaving_mingroupsize = val
-    end
-})
-
-spec:RegisterSetting("flowerweaving_mode", "any", {
-    type = "select",
-    name = "Flowerweaving: Mode",
-    desc = "Select the flowerweaving mode that determines when flowerweaving is recommended\n\n" ..
-        "Selecting AOE will recommend flowerweaving in only AOE situations. Selecting Any will recommend flowerweaving in any situation.\n\n",
-    width = "full",
-    values = function()
-        table.wipe(flowerweaving_modes)
-        flowerweaving_modes.any = "any"
-        flowerweaving_modes.dungeon = "aoe"
-        return flowerweaving_modes
-    end,
-    set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.flowerweaving_mode = val
-    end
+spec:RegisterSetting("druid_bearweaving_description", nil, {
+    type = "description",
+    name = "Bearweaving Feral settings will change the parameters used when recommending bearshifting abilities.\n\n"
 })
 
 spec:RegisterSetting("bearweaving_enabled", false, {
     type = "toggle",
-    name = "Bearweaving: Enabled?",
+    name = "Enabled",
     desc = "Select whether or not bearweaving should be used",
     width = "full",
     set = function( _, val )
@@ -2734,39 +2704,9 @@ spec:RegisterSetting("bearweaving_enabled", false, {
     end
 })
 
-spec:RegisterSetting("bearweaving_spell", "lacerate", {
-    type = "select",
-    name = "Bearweaving: Spell",
-    desc = "Select the type of bearweaving that you want Hekili to recommend.\n\n" ..
-        "In default priorities, selecting Lacerate will recommend your |cff00ccff[bear_lacerate]|r action list. " ..
-        "Selecting Mangle will recommend your |cff00ccff[bear_mangle]|r action list. " ..
-        "Custom priorities may ignore this setting.",
-    width = "full",
-    values = function()
-            table.wipe(bearweaving_spells)
-            bearweaving_spells.lacerate = class.abilityList.lacerate
-            bearweaving_spells.mangle = class.abilityList.mangle_bear
-            return bearweaving_spells
-    end,
-    set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.bearweaving_spell = val
-    end
-})
-
-spec:RegisterSetting("bearweaving_in_berserk", true, {
-    type = "toggle",
-    name = "Bearweaving: Maintain Lacerate In Berserk",
-    desc = "When enabled and the selected bearweaving spell is Lacerate, Hekili will recommend refreshing lacerate during berserk. " ..
-        "When disabled, lacerate stacks will be allowed to fall off.",
-    width = "full",
-    set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.bearweaving_in_berserk = val
-    end
-})
-
 spec:RegisterSetting("bearweaving_instancetype", "raid", {
     type = "select",
-    name = "Bearweaving: Instance Type",
+    name = "Instance Type",
     desc = "Select the type of instance that is required before the addon recomments your |cff00ccff[bear_lacerate]|r or |cff00ccff[bear_mangle]|r\n\n" ..
         "Selecting party will work for a 5 person group or greater. Selecting raid will work for only 10 or 25 man groups. Selecting any will recommend bearweaving in any situation.\n\n",
     width = "full",
@@ -2784,7 +2724,7 @@ spec:RegisterSetting("bearweaving_instancetype", "raid", {
 
 spec:RegisterSetting("bearweaving_bossonly", true, {
     type = "toggle",
-    name = "Bearweaving: Boss Only?",
+    name = "Boss Only",
     desc = "Select whether or not bearweaving should be used in only boss fights, or whether it can be recommended in any engagement",
     width = "full",
     set = function( _, val )
@@ -2792,33 +2732,38 @@ spec:RegisterSetting("bearweaving_bossonly", true, {
     end
 })
 
-spec:RegisterSetting("predatorsswiftness_enabled", false, {
-    type = "toggle",
-    name = "Predator's Swiftness: Enabled?",
-    desc = "Select whether or not predator's swiftness procs should be consumed by casting a nature spell",
+spec:RegisterSetting("druid_bearweaving_footer", nil, {
+    type = "description",
+    name = "\n\n"
+})
+
+spec:RegisterSetting("druid_balance_header", nil, {
+    type = "header",
+    name = "Balance: General"
+})
+
+spec:RegisterSetting("druid_balance_description", nil, {
+    type = "description",
+    name = "General Balance settings will change the parameters used in the core balance rotation.\n\n"
+})
+
+spec:RegisterSetting("lunar_cooldown_leeway", 14, {
+    type = "range",
+    name = "Cooldown Leeway",
+    desc = "Select the minimum amount of time left on lunar eclipse for consumable and cooldown recommendations",
     width = "full",
+    min = 0,
+    softMax = 15,
+    step = 0.1,
     set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.predatorsswiftness_enabled = val
+        Hekili.DB.profile.specs[ 11 ].settings.lunar_cooldown_leeway = val
     end
 })
 
-spec:RegisterSetting("predatorsswiftness_spell", "regrowth", {
-    type = "select",
-    name = "Predator's Swiftness: Spell",
-    desc = "Select which spell should be recommended when predator's swiftness consumption is recommended",
-    width = "full",
-    values = function()
-        table.wipe(predatorsswiftness_spells)
-        predatorsswiftness_spells.regrowth = class.abilityList.regrowth
-        predatorsswiftness_spells.wrath = class.abilityList.wrath
-        return predatorsswiftness_spells
-    end,
-    set = function( _, val )
-        Hekili.DB.profile.specs[ 11 ].settings.predatorsswiftness_spell = val
-        class.abilities.predatorsswiftness_spell = class.abilities[ val ]
-    end
+spec:RegisterSetting("druid_balance_footer", nil, {
+    type = "description",
+    name = "\n\n"
 })
-
 
 -- Options
 spec:RegisterOptions( {
@@ -2842,9 +2787,9 @@ spec:RegisterOptions( {
 
 
 -- Default Packs
-spec:RegisterPack( "Balance (IV)", 20230208, [[Hekili:DE12UTnoq0VfJcyyJnrRDCUcuhGTyFjblcwav0hPeTeLnr0Tsr5GSqGF77qrDLIYsTV06qo8mhDgoxiAl67iBFmNGE7Mn3SBZnBE0AZtBEA3tiB(NPeKDk27D8r4hX4i4F)goeh7reURE5hRL7(zyc2xIswsoZdSazFiNgYFjgDWm0pc2Ms8qVTDlY(e13NOmLK5HS)(jAMWnLrtyu(Ncx5FDaNr8fUjXcx(jW1V4bB8dcng27yo1NybeHLeqdb3)fH7F9V)JW98oRBT2E9wR7TUv4(fXRyponjoZkLr8sIoG5)X()mcZE3jjWbG15dAO)v0G9lYtxU4qEqG1rAaV7Uw5PMHHFkHfNvD4r8uss870yNGew0fnmnrUM41MDH18WHHoQ)0jKMXVsgl2tJP8UwXYJhAeoHiDNC9ZehsmjIsYEE3KNllfxYZZygfFiKyjxWjo5Jjpzan7uh6BjPjyBnqkJcZJXmNAmV6momNSVu0jEH00mItPf9uCJaLLeobqLwmdG6drZ3DFMwu0ki988eOlfLoOVye4xU43dEfkE4yhipWBC5meNXDWPPHuI)(nff)mNW(0HtJixpH1pVF3MPuWsgFjsOcfZLedTEgKqPeAYDJOwV(sn9VM0Z6lCsWxPfeRrVOqpUxVZ6UjmsCQQyeqzLPVl8jLst9AW15LrjNPXhhCmOaJhrw1kgZZzKb7NXXSaOEYWdIjmkXPXLGlwXXHKyUfnci5zIVthBSiXYpe)IIJSK8uNis0bcl7593vuOO26bUaQyt84ozFGRkcw9z1D9EzQZuk0u1MaHUPmseg81x3nWdFWW8t9Q31hkZYyfL0c3TNP9uY8y4u5W1AkNeLzWvdt1Ro0jOpmd6yc6p2ZJesaUc7lHyIkMvamtzF5QfgXROWWYvs5ZpSEG7gQLJvlR6ag1sDrP9uqlnzp3ptpLOuHJHWVTQwO(EPU9dV3Rw)uoJrH8qy0HZGmd70mVYdiBqAIHRYzi7xIstyC5Ci3lCvqiCLD9YSeVISl)LCmiz0h()3kNSQIlOVHS9G5zGKhmYEHWD4DyH7sHRkVbzRGhzxVpIdCsIx9gAj5DDey6UUMw)DRzZTxIEv0zfmV10faeUffWCyDlciCFEVW9o1ov1PCx3H(TOi5YDZqQ0UR2Iv3nKGD)matx3hlPxU3i1qeUFv4UZCO6HrPWioQfMYChjgpong9R2OfXvuHlhRoaNhYnDLS(a6JxQUn7Og4x2iS5(Nrcjpz7SLqSVNWOnJypSHmWM7Rt8TwvhyE4kT20L85C2Y83sLRzQ8lPD6VGq9oggnvTTPNIyozd(1yp64YYFjeTes9wKllRAhP7BtAKT6nvVhPF1dUk0DXQCglk3HMQnguzBKYv9kP1PKTgRkd8xKwJ0FPf8Mw0xw1n2PSdfn3ZEYWYidevvnU(oYGo(LfAhVlDzo5d9kbRx2C8(bJ0f3qnRXRJpPQ3VMvznhdHXeqHZi82JvJR8xWS4Jgwa7QsV1iGHy8VOtQFEzxNOPugc6t7KXgeQmupAmPdh64D9G70EFXGMITeqvSAguOP1KH7gttHjEqQWfgXyJsoAFbPW9AJjc9pPC6KDBgETO(5yMMJ4xKWdF86CjSPtoKW9FzPPPoMMWN1F5QPHHACXa1QB4vFCLFxNVAWfRMNMxkCdVx2U)6H6thkQ6ALlBpIS)BsW)H9u95r))d]] )
+spec:RegisterPack( "Balance (IV)", 20230228, [[Hekili:9IvZUTnoq4NfFXigBQw74MMgG6COOh20d9IxShLeTmvmr0FlfLnYcb9SVdffTO4pskfO9sRd5mFZhNz4mdL)g))2F)red7)J7wF3213D3N92S5(h)4g)9S3kW(7lqrVIEb(rgkf(3VIsqzr4MWBE(FwX39TKC0rokL5v0iqc)9hQijSNZ8pyf6TpcYwGJ8)XgWiNihpIfIIlJuW)B0kYXMWckjNsyV1egNtBc)l8RKecyxAEmjbSgkIrYZk9kO4O80di2FS7ptr0xdYJdyNWbxijhVLeVBrvXYfhQIJ9EHeZu31RQO572GHDkNMv2PSDrsZZZELKfaClDublY5R189R7cRfHssce)zqcPKDl3dVJKryQsrRYmfcLJ5MJV(zCaodNsWLpTDs9klqT88mIsqhsWE8fcYYVmPMXKYtk03JttqwjqcHsQYq0ajM3EgLuH3160XrjKIsCqRed84wbQmpzcGALyganeIRN7HmTUU3HmWYtGo3POG(chWVCXph8cuIqzbq6EKB3zcQKfGkksi4J7wxx)Vvy6Bbmsk(dti9t72UEkpylJhJeIqXCjHP0ZGecpHM7(QtvU(sn)VK0Z6eoj43OfeLOxxRh3L7Ss9cdhhW0LmenMqBV(k8lGo4YGlue7eKpV8gD0KeOU2uEkofrYk)IWiEsW9Ej6yDDA(zs2lRmOaVOLKcloIBrvUgNbc9mudQXfH5foZqSkk2(jdkPzQictj4GRMKFizOeCgZJKc(PZ4JbkY4HZ4NE4a8cnVQiifNEatlFA39UpsGpahXckVG6Qd3DSuxFqXIo9GwCNGtoxfb0lFjbwYRBDjvE3UqhHWL6IkJFBnSqB8DqP6HqnAILwMAVo9AXlbbADc6XtHUXqiaffHtWGzH9VTQKhQJdGePDB6Zv1QIV0YQDhPNkXmg4qlL3jYZtoMFbAPGXxqVzqerdYF)2LBqcdNw(730tvkWqHzMLdLqSsDzbeRC)HvgMZmf0v3llhihTcvtbHHygEfCI7Ec5nlZiw)ufLsGkVWmHNHuAyNRZD(G)EW1KXdn(7FoTiNYaCd)utOaIMq(CoLEnF3FF7V4JZYV0a))pANqUJl(F1FFemnkuRcXhZ1smlCjmACt4IMqxxCdRRBcDwkVj8lsAnOCUqTUsZHRKd(cJs3jKpdoVo5kWhZYuTKvazpEY954TLJNCdT6)Qgce9JQIkJrAYC)y0R33nJEdcVXG(dnHpTRj8EN(jfu4C5tZWvPDVQhl1n4G9GtWKebozwZU7XSBdoCFEgCtpm6mBBPPkQPABTh5F0jfCyOEyAtN5ySz90GmSbL1SAg)PHXOQeMTRJsf0FmL4MCG4rR8X(g)(bxZ(xsb5sd8mAViAa2q1NRxvM4S2vdCE4YL(6fllh4X0TT2vRN76BqhVuw)9VfD1MS8kzLmfThypzThvLfpRECFMMkQpZ2OyJyYHHLAyI4YON55FF8UzuBBqPsLErASQnQoJUk6pxMhAC39UnFD8PpuiN9r(83RmaeNGJgt)LZszu1KuUZA(LtQRdlAJx6xuhFqb7nWhTdPJ300pXHJZF)8goDapmOvPE7n39kDmzOLMbUBr6ysrx9cARLB5guo4sH4yVAsC5)cErVJ0Jw56kBQralxaENgr(rQunIMNYsc90gX1W1THANXefoOyD902PTU5ST9ey5WrFDtHRT8TK1pnfSekv)IsnHWOGRfUJ(Vdvt4hSEryOM8Pi3U2mTq(rDSDH4DsyZpb2CjSnnnj8WVpLTBFtt4Z6F)lBtzE1egEl1WR(4S)Sg)gJeRRFGVwhNzEz)(Rm9pkuumWqfFYe)9Fdh)FOiX8t())d]] )
 
-spec:RegisterPack( "Feral DPS (IV)", 20230224, [[Hekili:TZZwpQnsw)BHxq2Pded0KUhjGrA1OvAY3Qzhjg9TVHXnu0TvaBKTj9Kvi)BFp1fBxxovvMoz2x2inxASR6uN7xlyZKn)XM17tQiB(TPrtNfnD69JNm9(7N84M1vF9mzZ6Zj7(CYZWFKLCc(V)DsrYX6T)YVVUEBWV()hsxWxpMNSNcOY8lf7GfTz9txspw9RzBEch6paR9mz3MFBYKnRFjD)EcFPKYDBw)VYR(h)F1BBoPIlP7R3(7fP5fPvPKY6pv)P)i)5NpsQ3MS)ljz7iW7lYRsQsZZG)ISl)0js2E2NlR3McpS6fy17oMucFo)m7fJbuVi)q6raHt2XF0z2MFkP6ULF4usXNJZpedBn(10J7FF6HLdUCE4GNUC4W4Ntpuj)2Xxox)jmWu9sErwPyZ4lzxsv8H8Itox05Cg59P23Y24XJX8pgFmTS69uz0Y0S0k5vDPKeNwrovk)WgW19KxaXDbivi7bqUJCey)0x9E62ZpCi(5D7xoHIILKQ4NYZUuogehfpeF)5DlNmmGXwQsFgas8HlfFf4ixVUlp)4(8xZuErb5usAw5QLtMhkJb7tliXprskA5g0p8kj5lPzphFmzhfLiXKSKNos2leeQBco0H7jSx0SEShjWGfFjPiLcSXnhea9tKINjz7(A8LZad5UJW6HpzdeRCcIJ5V6heDyrv6jsCvE8(uYWao59eW1ifFMXm1EWqqqubCMYXYSP0SyXsu4T66RmDngaByBTyXbgw3aVgUnjdiQVoE3LIcsw1ILAlV8f6bWxKqYS7iGw7skP4i9acg0UNI0ZXfKdfKYxIpdMQWkUEvWEG31PHODkWbSpCOoNzyhGRoet(tWZsfOf)ebinsC3ohEkjlz85DvRA5CNa2fxOrFNmdR4sMPPftpljNORB2WKSOrsHdvViJCcCGTAAVoh2zGcpf74cc4OlVOS8vqaKrklJbB4JhP7ULR0Siu0TfcXTGGIZ)qEdYbQN5gXnJefEQFtcvyZyas1HUwKGUybuV6WkAOCoiLCy8(VKC8czzGGRwvamuQSE)LtNO(Iholkk861QeW1uLSNgphb4XoViExYzXbmn6DvjhbvIXS3mUij7Zl(5hN7bmG4a89qvaeWzsKNDuqeCqk9qkA2MNDj8aZ0lfBPtNQHugnlAeqhc)YJccmOOvZgcbNUEnkeER7OqiHBeBTNO6EbEE)453nTbP8XCmnOeqrYQQlWNKngA0MrTpSto5bdSgXuGhZg7tLWAaZgrTxiGgPsSB8Oybqyve)2Ql(u(EsCs2xbHOUrUpzQfpTcCAGNySO4gIhEXR6f3rsbR7b9ANYU4B8UyAlT4NFyE4OjrVJdrZeJH8gLm285qZL)Cbs4Cn(05GeHJtQKGgnb784Z5PzvLnr7woFyaMzYceZeL4yYPrjBE5YmSdu(uUyiVGIbq5MaWIUsJ(Xac39b7P8Kakt(cuKxCrEsbYYllAwDFWW9xkO6VI41cSupDItj)jh28x4bUCvXmYFwHcU7MfD3KwvSvMkPxVg4kxem3KG34qJuU9r(qvV7Bdr0y0BgGOvNP9zLvqz2l85VJIzvW)ACeTeNkgyTIdi67WGcqI3kqM941RTqPJDhEtfT0lP4X0tPnIXaehkJuLTHFyI3iPYao)mvV1e(9tShAWfyqTFiqw(R4QNtM)Dx9CMPYjaffrkiJPR9LeWbJyB3bXuBkhDbkHcaXsY8UYcc2LvDWUxyO(gg6JXkLzGQkVZCYqsjlWME8SUCUmTaYF1Q()hVvtJokDhRHohsifPqOlA1DhO96IL0VaMjfNYPoD3FHhvfOarM75xQkt3tMQdoPgSy2YgnVVZI8kpVbVwlNz(MMyisn4rGNnHfaSYxZH036zy9apH3LX3dHbzUO4uOTOylePLi)QsQD1hKlaHdFP1y0ko0vOg53afWEMaTgrnZHyGToKJgQ(K7ObFP7GkiHYxxWAE54KlfjLkaeI2YB8PoQcPuSVREtnZzbMdYAYEPpdff)8rYytcN)IyLsy1a5aFWWL4dXdNqWrFKnbgnjirxzXZcYydjFM0SJaSTSy(1RQglJAWdyRCe5otK9DtIwTuhHdhgu(s(fWxiDVDMunmDdtJEWGemxnEuN0XkRsvaAiRah44NW8H4Sd9JS3mL3arlbZrT1Slam45mFxA(Lsw2K8ZajdIBm33VdhdwoZch)kWIsNTprKrmpkMLUQ1fNTRwgPixAfjeI1iz1fRMVUHaQ1rsWnAXW24nQDayRInt)Hm18ed0TMTHH6GdYc2Wo5wJkB0BsTqTpyCcUNYH32Tl3GllQig403uNyBBtfiC8KZqWa0q6m3Z2d1VW8OSm4OMaQsKMYNFlauNzfAyaGn6KUC4)F4HLOWOO9j)gtd9(imi8wtquS9Yxtp7mrf0n5oZpXQ8M9WYiioQ64rFmEkB8O4UoddXB00kBbMKlGlex1Xjtb7LVjhstN3tNpyN4pSO8ArrfbaNIKrlP3RL08iS(9DVCd0fa8uYLJMGBGi1Vlh7eHg8pNLCJ(srOCkCLz)TfxlLjIzH(q4AN1OoKMpIW)GiBu6YPOQCBqwTCkTrEbQCSvpeHjXxmtPLecEwBRhKvtnryJ9TtAAEMeVZJXjHBPtliY6wUctiBVrmFhWLBdMdSi6qBcPUDHWlIW2aZAaD94Q(Q6kZW3QSKerrYibB3(LLam3Xm9bBw)faaW7BURur)0M1VMuqhIB5M1)6PZ5fv0B60d1B5aQElD2YLJR)0M1S)IDxUihaYSc(ZFJD3UeYPn)TMl50M163Ai(UJ53VlAx42ub4aDZn7O9gejdpyrZKxe)gfPTI71WHDfaCab8M1i3IO6TlR3oPE7W6Tb1Bz8q1K1Q3E9A9wxzfuVDffgZR3g2HzwUztC6sOmqzxa(o3k(6YkGHYdeOS511G(wZ2PH(4wYyr92oZCILrTwV9oqjGNnGBWTYd4ybP6p4KXo5MCkeDnScPSaysoJhcl3ZLysrqQYAPYRpAvE1GdYcb35yWwIQ1nqPln2MCUgksEDd(oUHRmp4SgZyrCvzKmqawIYXQXqLpo3JkLU6MCsyQiwYlPtaON4gve8qVmzK5XomtOhu382zi10UJx7A1O44QXPkfLE0okHE09)eOq)NSc9w(ULRbqh1JFPR(HgOxnWxbhrVqLctIClK3jDdR(20Se1TWou9yQ2p0EdBgCN6YpMmWAoHn09X2osKELDBT3vm2I2uL6oiJgH1Mva6bzO1wVfYLskEGZWNu9Vb4bjLunvN7e3Yyg(kKd8PMmGusdyjamZkf2N0o6ogHjbwoqDjmj15BdvjKI)zCv(UnNNv92payqei4eTq3BgnAAwsq0DKvLPE15stDYx4pVLqgvVvDExCPjxJr)nqwjAtdJXj8nrmRKMJiw2CIQn6g5N1odfPZJ2F6Eeic7Kg4cWDtDblqKxflmx8DQuTDH3MQKdxUmDjg(J1OlwI9sghWj5XBAh8cSbYfmlBQXVUVNrDKuB3)zAry0)7OKk3(1Kpe2GcsdLq3BvNoHKxg6crDS3xzK6y4Kft6tEZQ0YURmeDmovfO)c5ZFoA6jJCGyVjwUnT9j3SFuSZEKufoJyeSafWMWhBj6eCOGHZjaSXk6333FnOq3ihnvgShgaD4J9jRYUcktBhejxns9nDdJuYGYwjIQBvD0KkkhQmlgnApKvW3OFePbo(g1QLOBdFj3(5knSt0dwYTxi7FWogAglrrirTMypaP38jTusas6Hpe5jzZjoIEAPYsN1ojp5uV63wOJVBft1ozsjDJELJmhdSmntreyxjQUahjS2yn5u50ygkp7B9aWy4HE6(ZKEuk(pA1ZBRqBKw9ur)gZk(gP6TStnXkY3xw5a9QFvBDxQPwDl8VGTURDZEr08QZ6sLG))7astz2Soa4KMrCXDFuVR70o5(MR70o7atfwkoqZWIXkETVLp6PSt3P2ZReuKqkY80LguGRy6Hs(wXBx9kx5PbXBPFfKuAkEOlVaMP))rzLRo(QI(1BObQiQAtN71)KPtex(wTh89hUw)lX1kR9Y3QhM58oMGs3G)NXsEg4Jl92890WCe3mG(iN8oNm0fiDtbWe4DdnxTibKHW3KT7GEGknLfGokA2kKNomxvA682JiWurFfnVw76IlynSmupZgkzFBnJ0bhOdSTpXPFCtMmEGYVHrJ2vuNYfwahtDosVwirzOkx3aJ2g0mUM(5E1nE740KrD7(mh4qntrJU7wpGEevsd6629vy4mWPXVPU)SOVfDwh2kOTcWDiwR5WjFLk0YJJD5gqyB5Nz3hHoy0ioO)1Xlewdee2ZgFX6zAkZIIADly(vSNbqXeFKFmc73pQmnIvYVXxzDqg)Z1BFCU8H1(nmdtY4)OODvSdyK2VOQyou6b0KbM23UFmhm(Hyxy9g6K18e6GNG)NGrP1RTauw3kMJ5HIRocxoYLOT7YR3IbwVLhAavMpi3ucmVF(zc3lYrDQm1IDeOtR3p8nh3JLiB4PypsoCDNgKSQGz2Cyot9JPZgRO8B9AZqHUENd8d9j(HolPqk0nMuIFWBpz6aSzOkVa8F9cAv5OhP(KV10crpCgHC7UkhyKUngo7GCS)dEGmkB5kwWq6B3PAx(8MSLgthJbQ4hSYfEk5JI6O(H5nUxMW9tXbc6VFciUZmrt5cQyO7T7H2zHoYNO7fwHmVb)hU9bh6Ug(fOoymYbx47YQtkFo1KbTITJ00pyu(T7b3dLBRO23WONSoUinYPBKnms62dAG1aaTFYhmou1H9Wo4BpgG(bFhpDG7AnZAthyfUTPOWU2xH2Rb7bbzrJdrZQvMGLsZVcPp2(PtljB462YWgbVepxTwmAUO3EuRbwlUtMjHCbsxYfiCdB1knOfj)O1YIA6BJDqJBKlt6MLZrP(BpuxGQQIAwO2hABOPMa7hFbgwGf7cmz7pwClkSHOSzgY4bnV9yHiwMtM)FrlZz2SlBHSHAOqdLcd5FfnWBn8cR8X2dWt)n9p)pT2IHyX5ShjsTEYWvu(Rm56TN0G36ISuuuGBB4zMf1G7tG2uqp(d(43dNgiDARs0rMKsY()zg2poUjxOJNAZ6FHC4FNS7f2638F(]] )
+spec:RegisterPack( "Feral DPS (IV)", 20230405, [[Hekili:fRrBVnko6Fl5lrKntZL0oPTRus)WPrN00D1CRuwD73aCaNu0qGid0UDve)2VhBJb)kqB35UVmtJTFE)DB8x5)7(7IrLy)VD9YRVz5NxUEXQBxF)Nx7VR81Zy)DNrrFhDe(Jm0j4F)xyckTo8l)2U6qVV(FMrpWRP5OykIkYRirWH83TVkjT8Rz(7TI9B(z4SNXr(FB1k)DpLehJ5hfxe5V7pYl)1FPouqjsvsCD4VrsYjjLj4I6hRF83ZpEmfxhIIFgLfHH9j5LOYK8m4VWr5NoHZIz)UOombwS8j40rPOc435NzBSayDs(HKuGHrr8LoZaEpQC(2)Xje57b5hcaqdEjjn(tjh2oP680j7RoCyXXKdLY7UO6C9J2qt5t5KSIgGTFKiuzWHCYPEp05CM49y7Umattd4)minPO8tuB02KSKs5tvvGdskXNkKxuGUUvEcm3eWQGJbugHtb1pDRprbp)WHGJrXBxrzXcCzW(8SQIfG5GC3bQDk4ZNJ2UAQht3uMCeWuWHkYRGA5YLO88048xYu2GGpHsYkEy7Q1ZKzdsvMPiThJiusZqFCcbhqxHP0Kv8UaNQGr54wmiu4aStPh(zCaodFcCUE46XGmBis1UOzq7mPuJdCINrKe0(umhLLjNWbL5bXj4p9mkTcwPmEayahCW5JGlEQbKUfgasq9NtcIqNBaS93da3EWjkaKmGqnqsDoZdoNNKvwSiQIqWzLBxp1ta3cjbBt7IDm6LlXyMEKKCMAlSb3vshPXNXgQMngMFpgSk4aav9laMK8bQxFzs2XIfNsYcyyd2oOz7PSZxGEgYugqYrK(GRGiaBm8CCfbahyDsbM89wBnMC8vbhVrIiO)Kte(jgYt4W7a9aqcK3H(iwokQITjlPdnRHEcoQlDNeDPQ6um(f0R6K8actsWbhO5eyzIymap4mfYreHkOOGshVse5iUCrEvzrsm(6lxyhRr0v8)mumxUmr)WAkP7VBMoVjLUZmlQg43S8kpRC9Q1xUS0a1c7LbIEy9nAC28vRN3hQ3SD1YLthkhTodizVAm56bZVft9vudm4C1A5xovDL5kHruqPAtyXnq0ug(fQ5IvUAQvBVb3d5mI7YIRPxAKdWrahl97tOmOPdlyJVrGsHbnuoziCmyOJbaOVJhKCcrWiQbtYJsYRkyjlAkQZ1VTB1KgHgpeBxRkLOxQ2WLlQR2L0D2up9Oi9dRg1z42leAQAYZMEAd4s7P6)FfhflOWUa6VjlEUz(9FA1Yh2koiSm7CtherU8NLrN82mOMb6HINYRsJdOOcsTOzTmeBvhmdFjqKvxsegT2He0HV)wuigO79Pw0LA1(8yoPCTgDTxWONXodR9C6Cyxcya(20fZS7aUD5yOX7tbn1JMumcLH)ZswG2ef3OHjRq0OoW2KTwh7zZ0rhTiHwbFAl1VXkW)il42Wo)Ok62GE3fEV9nweTbHfVKCU3AhwbYO6RTtny2sQZQN64C3ZhN7A24C2dIO5VS1P(dU8QNVAX65PiWNn61zJOaTUMr2VJg7)MC6mavE4SM4hgn0ogoJaYHPluRnUjRh942iZjuvQj0tAstxLUO9Qe0D(O0T1RABBowaeEuSNdwyQA6y2Qmiu9LB5V2t5V7zWBf2S7AA839cIKrBiWF3xpDoNusVKLBRd5yPoKopCXI6h93X(l6T)aAr4)(g7kLA6BW)FcltGc7G3I)Uj1HGIkCADOnhR6WT1HRzBBP1r7RlMJkCdaRLPfe3SJ)oyn)sq(6J5S6(qPRxDO2Sd1HxU0aqxgk2zDNsJdZe7GPMmbeO6W7VRoCwNey4YtLNBCkpwq4nlRdVIjnoLuihfJlxQqAP0z(7K8PPgBGj(8OzIhal8nwL35CApF8Sh3OtllX9OCN6fOl9KR7eOgLpL5xpK7kLEkt28oDrbnV6mnCbGZ(67mxYDwBIhMPuBQhgoC4b3j1sSfvYV1PK7u)RpwH0ATDJkrpARhukD3BNst6dXDnCsX(9dzb7nHJrkIF(JWScnJewHIWu0UAPt82)Sx9zBfzNSnhg3Z11SySaioW2YizcQEUm5mtkttYe2XueWZLzzdRoaLf8mtuCLOgKu7QS4fZ(2Rd)jAccE4VE)7wZc5e5UdRnjHrJ7mDDR6wQN92kcgXvZS4a1BTlJ7xqO)SozOqh3RkqFSUFaAzRK4JQRDLNyL7IL6dw2Hc1HqzOXD5oVr5u7wDinR27tzpR)alE5M3gp8rTgcosz01whFJGHXZywgM1Q2rkqMhgAJm8ojmlDvsFKWMhHBSn3kYNA5jcLDnvFDXbBovgy(Bk2F)FAGiM6PTFnXg8hcugjmPUzmSbL5(Qk9))2JDRr)Fy7XJVhDO94B)GTZ6o50a9gkg2Ee9e)o6OCev97so5XA(16LsWJu7PLoEAw56T2UQcMQ2DMn6Wil4tJ0CTfc8nyp2IQ13jhJ1PC1dZIXhGb7TMAPlYv9r(5tChW)CmOpRxRJUaI2h8xLCChX(I77X7X1J(lzqeboQp)p3Kog)zLykhFnc2IVC7TYyhJpxajJL677ROzzxmYiMss6laGQeOOR7ZjG5ND94iOiJ7iMxQJMJg1JyqjRflkB8XS4GMFM5w0bMisJ(xPvW)vwgZwTHnKcaTLCEy8HBFUFz0kTQLSTdJ12V)bzK2TOLWIHX5axWLZ0sBK2OtUCDje2XXv2BC0fQNjl2sZpAl06dl42ySh2QDzh6FDfmiDNT2o8DFLfgYx3uW2cWhwgn6DqHbu)cmmiUAtp2I2)BGbA)gnuCP174IhEZs09EAZ7D37v3TUBV)u3nm54MV7qd)w7FBxsPq8AUv(bVVf57NxzuJU7OxCrMUESarLcB3wVTomPy2zPVUdjDJ(Q9zqnZOcC8)oZ2xWjQIoqH)UVGp8xOONyN3))(]] )
 
 spec:RegisterPack( "Feral Tank (IV)", 20230206, [[Hekili:vIvBVnkoq4FlrRuv72wosAA2Usnv6ovDsT3QEvIQ7(MbhWKAvaJmMu1tr(3(n2obCatE5d7kcEMNzMNz8mtbng9gkibliOxM4p5g)j(Z8Mmz6pUbfi(QKGckXXFGxcpuGZH))pjCCMm6nCXhYOZF6FUqjXxzmCIcOkwnpgKcfSOMMjEQaTWj6t(jiBjjg9Y4XOG3PjjeJOKQyuW)Ye)6VKrBm1J8AAYwl(kNY4ubLujFw(8BSLlZiYiCYkCrmbKIZeybLvaprIz55KIe9VRKru4LI3bPJZWvWVzL6d8GaGZsPzGB)nz0V)6VKrRUXBQ34Rh7nZZxg9n5Z4yJSLAuxGfxo)3YX8pczPHaMHFsZsUIMoFuD5zJwuNM6TKMkSp1RU0nmI3z8IQnk7wKekNeUGG5HPmE(EfTKPJ(NBofExmoll08ZWmAL4kvMCoTGkSLQUIesfK8k7xUfU238ouuWHuhjbGmMKb5i1rxPuNLMgUmoz(yBf41f9nUoyWmIkw001UHiqwNP0zfjKuqYHS9dtpkmhgpB1hGpBzuf3aYTcZP4fzed(cAojuWctOKRwHZQjZppHOnMGJbnkwgMuNN)LY5VX3)I1Rfy(sIWZsXdyc1LMKWmCSIv3ALrBSY2xd4VED33vjGRP3F7jHFymd4ow58kIGMQOHTs750rmqBzZs4213p)2RD6mxy0kKKvrM7Fahlhiqb8VEX(aE0zDnjNOGO6(7g8KgKo(0rpVApm2qrGts7uOgsobQIkI)QlY9llgm2N6D7jYlToL6Ec4uPycNsctvxDsvnMvr)McCwTOIMqM0tjsbhgDSBVbTEGPUFSFp5xaTwi8p69(CCDwFuuy7fxZ5KcXdB4zLKgo(YbkD05WlhoVzoVbUcyaJUxHb1EUwtsXUyOFoZri1G8H56JZQ7gNRxpCm2dVQpPLgNPhXoZVB1GQX9PMC3OJZe8MZ0j54VIbwXuxvb4T)K(m3wXkA6Ghkyf4bG8n7Ja758jMR6ExHcEkVKXfQ9iUfwQqdSmsnHPYt(mkq)KEFjsk4Sc4Xx07prku8Cc6pqbgTqbDh6A0o0SeL6Iosa(Gs5TA0ma2gpqOBSfYmqUJetvsyXukVQrJbgy3bIB7egXWswqriwTiNZXPrNzyO2r0YOhKrtBnCNH07qaBtwktp7en9XBbf6)yq0hjJSbBx7Gu5htEYrsMb6bJaAvE7vn1tqVzuW5YOHwoqtDWccYOlKrRxdlL2BnbnGBce7xVTK5KCLrnUI1OcJLDo4wgDpu)B7c72yPPMSVxqtD7hUbs3P1oJmqNSnrIECjkWVjWCoAvg9D4VlrFb(6bdWlAU1CQm5aUOoNoWewnFE3bLW1CyBURxtCxxBpY8G7HEotf9n7PKnCD)(W8SRY1dWEWgohuMdXW9NAB6cOBL4OlqlB1zpO2qR3KCxxHTWbCmTRo2VfdZC2En47ozyZOvxJgCAl7bP6w3BsGTBqjJUCWcEDbZUc4UOsltd0D2MQ17vw1vio8CP9SSvlS23vMzZwwUshg7h2I1p)TRW3Dy3RBJcvF39D7YLR)ZJploZQYPDpO2cz9u39xmFAfHtoCry3Pf7M03zfn9QlDxLz)HRJQCheqFZOPKMVDY(2LR7x6X8DQ40sZXU(Kr9w0q3DcEAOpo0(Bm0zxfZ3mYf1E8R3yiTTh7AVstndUIK83fnF4VhFny739dxR8duWJK0)dh)UwE0)d]] )
 

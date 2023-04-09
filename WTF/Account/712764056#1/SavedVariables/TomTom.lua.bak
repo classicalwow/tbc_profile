@@ -18,11 +18,11 @@ TomTomDB = {
 			},
 			["arrow"] = {
 				["position"] = {
-					"CENTER", -- [1]
+					"BOTTOM", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					-5.812444686889648, -- [4]
-					-299.9484558105469, -- [5]
+					"BOTTOM", -- [3]
+					-1.149386405944824, -- [4]
+					267.7583312988281, -- [5]
 				},
 			},
 			["block"] = {
@@ -74,9 +74,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
