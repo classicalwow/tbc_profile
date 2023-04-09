@@ -1,18 +1,16 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 35933,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35933::::::::70:::::::::|h[羊角巨盔]|h|r",
+			["ID"] = 38045,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38045::::::::73:::::::::|h[阿努巴尔甲壳头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 35936,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35936::::::::70:::::::::|h[狼牙符咒]|h|r",
+			["ID"] = 38042,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38042::::::::73:::::::::|h[天灾食尸鬼项圈]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 199487,
@@ -36,25 +34,25 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35926::::::::70:::::::::|h[精工护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 35909,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35909::::::::70:::::::::|h[阳炎战靴]|h|r",
+			["ID"] = 37984,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37984::::::::73:::::::::|h[死亡触摸之靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 37422,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37422::::::::71:::::::::|h[西部裂谷护腕]|h|r",
+			["ID"] = 38040,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38040::::::::73:::::::::|h[冰剪护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 37417,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37417::::::::71:::::::::|h[西部裂谷护手]|h|r",
+			["ID"] = 38029,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38029::::::::73:::::::::|h[碧蓝猎人护手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 35881,
-			["Level"] = 138,
+			["ID"] = 37982,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:35881::::::::71:::::::::|h[失落的维库徽记之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:37982::::::::73:::::::::|h[微光齿环]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 35922,
@@ -75,23 +73,25 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35937::::::::71:::::::::|h[布拉克雷的私藏月光酒]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 35897,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35897::::::::70:::::::::|h[薄冰斗篷]|h|r",
+			["ID"] = 38002,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38002::::::::73:::::::::|h[荣耀披风]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 36879,
-			["Level"] = 138,
+			["ID"] = 38196,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:36879::::::::71:::::::::|h[士兵的尖刺钉锤]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38196::::::::73:::::::::|h[血污重斧]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 36879,
-			["Level"] = 138,
+			["ID"] = 38170,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:36879::::::::72:::::::::|h[士兵的尖刺钉锤]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38170::::::::73:::::::::|h[尖刺寒风短棍]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

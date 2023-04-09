@@ -15,7 +15,7 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"家駒|伊弗斯|Horde|80|PALADIN", -- [1]
-				"巴非特|伊弗斯|Horde|72|SHAMAN", -- [2]
+				"巴非特|伊弗斯|Horde|73|SHAMAN", -- [2]
 				"暖男你馬四了|伊弗斯|Alliance|1|WARLOCK", -- [3]
 				"特斯拉大股東|伊弗斯|Horde|80|WARLOCK", -- [4]
 				"特變電工|伊弗斯|Horde|80|WARRIOR", -- [5]
@@ -34,8 +34,8 @@ Postal3DB = {
 		["邁克爾假死 - 伊弗斯"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"家駒|伊弗斯|Horde", -- [1]
-					"特斯拉大股東|伊弗斯|Horde", -- [2]
+					"特斯拉大股東|伊弗斯|Horde", -- [1]
+					"家駒|伊弗斯|Horde", -- [2]
 					"特變電工|伊弗斯|Horde", -- [3]
 					"路易斯桑拿|伊弗斯|Horde", -- [4]
 				},

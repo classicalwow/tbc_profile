@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46140,
@@ -39,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45566::::::::80:::::::::|h[法术爆发便鞋]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 40740,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40740::::::::80:::::::::|h[星界旅者护腕]|h|r",
+			["ID"] = 45275,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45275::::::::80:::::::::|h[魔法释放护腕]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 46135,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45511::::::::80:::::::::|h[迷失灵魂节杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -56,7 +56,7 @@ HekiliDB = {
 				["Primary"] = {
 					["primaryWidth"] = 40,
 					["rel"] = "CENTER",
-					["delays"] = {
+					["targets"] = {
 						["fontSize"] = 11,
 					},
 					["captions"] = {
@@ -67,16 +67,16 @@ HekiliDB = {
 						["width"] = 40,
 						["height"] = 40,
 					},
-					["y"] = -111.9238739013672,
-					["x"] = -35.55280303955078,
-					["primaryHeight"] = 40,
-					["targets"] = {
-						["fontSize"] = 11,
-					},
-					["elvuiCooldown"] = true,
 					["keybindings"] = {
 						["fontSize"] = 11,
 					},
+					["x"] = -35.55280303955078,
+					["primaryHeight"] = 40,
+					["delays"] = {
+						["fontSize"] = 11,
+					},
+					["elvuiCooldown"] = true,
+					["y"] = -111.9238739013672,
 				},
 				["AOE"] = {
 					["delays"] = {
@@ -116,7 +116,17 @@ HekiliDB = {
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["enabled"] = false,
+			["toggles"] = {
+				["potions"] = {
+					["key"] = "ALT-SHIFT-R",
+				},
+				["essences"] = {
+					["override"] = false,
+				},
+				["cooldowns"] = {
+					["key"] = "",
+				},
+			},
 			["runOnce"] = {
 				["forceReloadAllDefaultPriorities_20220228"] = true,
 				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
@@ -166,15 +176,15 @@ HekiliDB = {
 						["holy"] = "Holy Paladin (wowtbc.gg)",
 						["maintain_aura"] = false,
 						["hor_macros"] = true,
-						["judgement_of_wisdom_threshold"] = 70,
+						["primary_slack"] = 0.5,
 						["fol_on_aow"] = true,
 						["assigned_aura"] = "concentration_aura",
-						["retribution"] = "Retribution",
+						["judgement_of_wisdom_threshold"] = 70,
 						["holy_wrath_threshold"] = 2,
 						["divine_plea_threshold"] = 75,
 						["assigned_blessing"] = "blessing_of_kings",
-						["primary_slack"] = 0.5,
 						["maintain_blessing"] = true,
+						["retribution"] = "Retribution",
 					},
 					["autoPacks"] = {
 						["protection"] = "Protection Paladin (wowtbc.gg)",
@@ -219,8 +229,8 @@ HekiliDB = {
 					["settings"] = {
 						["enhancement"] = "Enhancement (IV)",
 						["shaman_rage_threshold"] = 60,
-						["maelstrom_weapon_stack_limit"] = 3,
 						["st_cl_mana_threshold"] = 80,
+						["maelstrom_weapon_stack_limit"] = 3,
 						["restoration"] = "Elemental / Resto DPS (IV)",
 						["elemental"] = "Elemental / Resto DPS (IV)",
 					},
@@ -1142,20 +1152,20 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "rage.deficit > 20",
 								["action"] = "bloodrage",
+								["criteria"] = "rage.deficit > 20",
 							}, -- [1]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "heroic_strike",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 							}, -- [2]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "cleave",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 							}, -- [3]
 							{
 								["enabled"] = true,
@@ -1196,8 +1206,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "active_enemies > 1",
 								["action"] = "sweeping_strikes",
+								["criteria"] = "active_enemies > 1",
 							}, -- [12]
 							{
 								["enabled"] = true,
@@ -1361,8 +1371,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "! settings.hor_macros & glyph.reckoning.enabled & ( debuff.training_dummy.up || ! aggro )",
 								["action"] = "hand_of_reckoning",
+								["criteria"] = "! settings.hor_macros & glyph.reckoning.enabled & ( debuff.training_dummy.up || ! aggro )",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1627,8 +1637,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
-								["action"] = "drain_soul",
 								["criteria"] = "target.health.pct < 25",
+								["action"] = "drain_soul",
 							}, -- [12]
 							{
 								["action"] = "shadow_bolt",
@@ -1822,8 +1832,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "berserker_stance",
 								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
+								["action"] = "berserker_stance",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -1835,20 +1845,20 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "bloodrage",
 								["criteria"] = "rage.deficit > 20",
+								["action"] = "bloodrage",
 							}, -- [1]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "heroic_strike",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "heroic_strike",
 							}, -- [2]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "cleave",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "cleave",
 							}, -- [3]
 							{
 								["enabled"] = true,
@@ -1922,8 +1932,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "battle_stance",
 								["criteria"] = "variable.rendweave_now",
+								["action"] = "battle_stance",
 							}, -- [18]
 						},
 						["defensive_stance"] = {
@@ -1985,9 +1995,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.stance.down",
 								["action"] = "berserker_stance",
 								["description"] = "APL v3.4.1-1.7.0 #",
-								["criteria"] = "buff.stance.down",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2016,8 +2026,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
 								["action"] = "berserker_stance",
+								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -2029,20 +2039,20 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "rage.deficit > 20",
 								["action"] = "bloodrage",
+								["criteria"] = "rage.deficit > 20",
 							}, -- [1]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "heroic_strike",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 							}, -- [2]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "cleave",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 							}, -- [3]
 							{
 								["enabled"] = true,
@@ -2116,8 +2126,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["criteria"] = "variable.rendweave_now",
 								["action"] = "battle_stance",
+								["criteria"] = "variable.rendweave_now",
 							}, -- [18]
 						},
 						["init"] = {
@@ -2253,9 +2263,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["description"] = "APL v3.4.1-1.6.5 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
-								["description"] = "APL v3.4.1-1.6.5 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2582,20 +2592,20 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "bloodrage",
 								["criteria"] = "rage.deficit > 20",
+								["action"] = "bloodrage",
 							}, -- [2]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "heroic_strike",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "heroic_strike",
 							}, -- [3]
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "cleave",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "cleave",
 							}, -- [4]
 							{
 								["enabled"] = true,
@@ -2641,8 +2651,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["use_off_gcd"] = 1,
-								["action"] = "sweeping_strikes",
 								["criteria"] = "active_enemies > 1",
+								["action"] = "sweeping_strikes",
 							}, -- [14]
 							{
 								["enabled"] = true,
@@ -2724,9 +2734,9 @@ HekiliDB = {
 							}, -- [4]
 							{
 								["enabled"] = true,
+								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
 								["action"] = "thunderstorm",
 								["description"] = "actions.aoe+=/thunderstorm,if=mana.pct<90||target.distance<10&glyph.glyph_of_thunderstorm.enabled",
-								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
 							}, -- [5]
 						},
 						["default"] = {
@@ -2769,9 +2779,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
+								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
 								["action"] = "chain_lightning",
 								["description"] = "Need to create this specialization option.",
-								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -2791,9 +2801,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
 								["action"] = "call_of_the_elements",
 								["description"] = "Place your totems if they're not already up, don't want to use it if we've used a major CD totem.",
-								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -2802,9 +2812,9 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
 								["action"] = "searing_totem",
 								["description"] = "Need to find a way to verify that the snapshot has taken place.",
-								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
 							}, -- [4]
 						},
 					},
@@ -3010,9 +3020,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["description"] = "APL v3.4.0-1.4.2 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
-								["description"] = "APL v3.4.0-1.4.2 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3378,9 +3388,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
-								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -3832,9 +3842,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
 								["action"] = "windfury_weapon",
 								["description"] = "APL v3.4.1-1.2.0 #",
-								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3869,17 +3879,7 @@ HekiliDB = {
 					},
 				},
 			},
-			["toggles"] = {
-				["potions"] = {
-					["key"] = "ALT-SHIFT-R",
-				},
-				["essences"] = {
-					["override"] = false,
-				},
-				["cooldowns"] = {
-					["key"] = "",
-				},
-			},
+			["enabled"] = false,
 		},
 	},
 }

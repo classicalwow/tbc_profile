@@ -21,8 +21,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					-3.480915784835815, -- [4]
-					271.8383483886719, -- [5]
+					-1.149386405944824, -- [4]
+					267.7583312988281, -- [5]
 				},
 			},
 			["block"] = {
@@ -95,31 +95,6 @@ TomTomWaypointsM = {
 		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			[120] = {
-				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
-					120, -- [1]
-					0.4369193154034231, -- [2]
-					0.2613691931540342, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Meeting Stone",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 	},
 }

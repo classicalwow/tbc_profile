@@ -1,3 +1,6 @@
+VER 3 0000000001000006 "/target 突击机器人" "134400"
+/target 突击机器人
+END
 VER 3 0000000001000003 "target" "INV_MISC_QUESTIONMARK"
 /target 雷铸技师
 /script SetRaidTarget("target",8)

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46180,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42988::::::::80:::::::::|h[暗月卡片：幻象]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 41610,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:41610::::::::80:::::::::|h[死寒披风]|h|r",
+			["ID"] = 40724,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40724::::::::80:::::::::|h[鹦鹉羽毛披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 40244,
@@ -90,6 +88,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:39716::::::::80:::::::::|h[消化之盾]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
