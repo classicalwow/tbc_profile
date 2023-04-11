@@ -820,7 +820,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["54769"] = {
+			["27825"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -842,7 +842,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["27825"] = {
+			["29306"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -853,7 +853,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["29306"] = {
+			["54769"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -1387,14 +1387,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = -220.0570831298828,
-			["x"] = 255.9198303222656,
+			["y"] = 528.0681762695312,
+			["x"] = 1245.628295898438,
 			["scale"] = 1,
-			["relativePoint"] = "CENTER",
-			["orientation"] = "CENTER",
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
 			["height"] = 235,
 			["growth"] = "TOPLEFT",
-			["width"] = 260.0000305175781,
+			["width"] = 515,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -1405,7 +1405,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -1418,6 +1417,7 @@ VUHDO_PANEL_SETUP = {
 				40, -- [9]
 			},
 			["sort"] = 0,
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1518,7 +1518,7 @@ VUHDO_PANEL_SETUP = {
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 6,
 			["headerWidth"] = 100,
-			["isPlayerOnTop"] = true,
+			["isPlayerOnTop"] = false,
 			["showHeaders"] = true,
 			["isDamFlash"] = true,
 			["showTot"] = false,
@@ -1541,7 +1541,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 18,
+			["_spacing"] = 18.0000114440918,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["yAdjust"] = 0,
@@ -1560,12 +1560,12 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = -129.5483093261719,
-			["x"] = -386.3908386230469,
+			["y"] = 529.445068359375,
+			["x"] = 1772.552124023438,
 			["scale"] = 1,
-			["relativePoint"] = "RIGHT",
-			["orientation"] = "RIGHT",
-			["height"] = 234.9999847412109,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
+			["height"] = 235,
 			["growth"] = "TOPLEFT",
 			["width"] = 259.9999389648438,
 		},
@@ -1578,12 +1578,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
 			["groups"] = {
 				42, -- [1]
 				44, -- [2]
 			},
 			["sort"] = 0,
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -3861,30 +3861,10 @@ VUHDO_PANEL_SETUP = {
 	},
 }
 VUHDO_SPELL_ASSIGNMENTS = {
-	["1"] = {
-		"", -- [1]
-		"1", -- [2]
-		"圣光术", -- [3]
-	},
 	["altctrl2"] = {
 		"alt-ctrl-", -- [1]
 		"2", -- [2]
 		"!", -- [3]
-	},
-	["3"] = {
-		"", -- [1]
-		"3", -- [2]
-		"神圣震击", -- [3]
-	},
-	["2"] = {
-		"", -- [1]
-		"2", -- [2]
-		"圣光闪现", -- [3]
-	},
-	["5"] = {
-		"", -- [1]
-		"5", -- [2]
-		"清洁术", -- [3]
 	},
 	["shift2"] = {
 		"shift-", -- [1]
@@ -3896,10 +3876,50 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"保护之手", -- [3]
 	},
+	["ctrl1"] = {
+		"ctrl-", -- [1]
+		"1", -- [2]
+		"target", -- [3]
+	},
+	["alt1"] = {
+		"alt-", -- [1]
+		"1", -- [2]
+		"圣光道标", -- [3]
+	},
+	["ctrlshift1"] = {
+		"CTRL-SHIFT-", -- [1]
+		"1", -- [2]
+		"target", -- [3]
+	},
 	["altctrl1"] = {
 		"alt-ctrl-", -- [1]
 		"1", -- [2]
 		"!", -- [3]
+	},
+	["1"] = {
+		"", -- [1]
+		"1", -- [2]
+		"圣光术", -- [3]
+	},
+	["5"] = {
+		"", -- [1]
+		"5", -- [2]
+		"清洁术", -- [3]
+	},
+	["3"] = {
+		"", -- [1]
+		"3", -- [2]
+		"神圣震击", -- [3]
+	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"圣光闪现", -- [3]
+	},
+	["shift1"] = {
+		"shift-", -- [1]
+		"1", -- [2]
+		"圣疗术", -- [3]
 	},
 	["alt3"] = {
 		"alt-", -- [1]
@@ -3910,26 +3930,6 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"alt-", -- [1]
 		"2", -- [2]
 		"圣洁护盾", -- [3]
-	},
-	["ctrl1"] = {
-		"ctrl-", -- [1]
-		"1", -- [2]
-		"target", -- [3]
-	},
-	["ctrlshift1"] = {
-		"CTRL-SHIFT-", -- [1]
-		"1", -- [2]
-		"target", -- [3]
-	},
-	["alt1"] = {
-		"alt-", -- [1]
-		"1", -- [2]
-		"圣光道标", -- [3]
-	},
-	["shift1"] = {
-		"shift-", -- [1]
-		"1", -- [2]
-		"圣疗术", -- [3]
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -4000,7 +4000,7 @@ VUHDO_BUFF_SETTINGS = {
 			["useOpacity"] = true,
 		},
 		["enabled"] = true,
-		["name"] = "漫遊者阿彥",
+		["name"] = "如儿不让嘿嘿",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4042,7 +4042,7 @@ VUHDO_BUFF_SETTINGS = {
 			["useOpacity"] = true,
 		},
 		["enabled"] = true,
-		["name"] = "漫遊者阿彥",
+		["name"] = "如儿不让嘿嘿",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4194,8 +4194,8 @@ VUHDO_BUFF_SETTINGS = {
 			["G"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = -93.873779296875,
-			["x"] = 69.43983459472656,
+			["y"] = -82.7990951538086,
+			["x"] = 81.09725189208984,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
@@ -4557,9 +4557,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4567,9 +4567,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4622,9 +4622,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4654,9 +4654,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4664,9 +4664,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4719,9 +4719,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4763,390 +4763,78 @@ VUHDO_SPEC_LAYOUTS = {
 	["selected"] = "",
 	["4"] = "",
 }
-VUHDO_GROUP_SIZE = 9
+VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
-	["raidpet4"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["sortMaxHp"] = 13985,
-		["map"] = "达拉然",
-		["threat"] = 0,
-		["powermax"] = 0,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["name"] = "狼",
-		["number"] = 4,
-		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["unit"] = "raidpet4",
-		["powertype"] = 0,
-		["healthmax"] = 13985,
-		["loghealth"] = 13985,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "狼",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = false,
-		["isAltPower"] = false,
-		["targetUnit"] = "raidpet4target",
-		["health"] = 13985,
-		["className"] = "",
-		["classId"] = 40,
-		["ownerUnit"] = "raid4",
-		["debuff"] = 0,
-		["connected"] = true,
-	},
-	["raidpet7"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["sortMaxHp"] = 12862,
-		["map"] = "达拉然",
-		["threat"] = 0,
-		["powermax"] = 0,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["name"] = "匹恩奈姆",
-		["number"] = 7,
-		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["unit"] = "raidpet7",
-		["powertype"] = 0,
-		["healthmax"] = 12862,
-		["loghealth"] = 12862,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "匹恩奈姆",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = false,
-		["isAltPower"] = false,
-		["targetUnit"] = "raidpet7target",
-		["health"] = 12862,
-		["className"] = "",
-		["classId"] = 40,
-		["ownerUnit"] = "raid7",
-		["debuff"] = 0,
-		["connected"] = true,
-	},
-	["raid5"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["class"] = "DEATHKNIGHT",
-		["role"] = 60,
-		["sortMaxHp"] = 33051,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "魚閃閃",
-		["number"] = 5,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 29,
-		["unit"] = "raid5",
-		["debuff"] = 0,
-		["healthmax"] = 33051,
-		["loghealth"] = 33051,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "魚閃閃",
-		["power"] = 0,
-		["aggro"] = false,
-		["targetUnit"] = "raid5target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 33051,
-		["className"] = "死亡骑士",
-		["afk"] = false,
-		["powertype"] = 6,
-		["connected"] = true,
-		["petUnit"] = "raidpet5",
-	},
-	["raid7"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["class"] = "WARLOCK",
-		["role"] = 62,
-		["sortMaxHp"] = 18324,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 20361,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "我現在要幹嘛",
-		["number"] = 7,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 25,
-		["unit"] = "raid7",
-		["debuff"] = 0,
-		["healthmax"] = 18324,
-		["loghealth"] = 18324,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "我現在要幹嘛",
-		["power"] = 20361,
-		["aggro"] = false,
-		["targetUnit"] = "raid7target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 18324,
-		["className"] = "术士",
-		["afk"] = false,
-		["powertype"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet7",
-	},
-	["raid4"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["class"] = "HUNTER",
-		["role"] = 62,
-		["sortMaxHp"] = 20574,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 11981,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "完美小胖子",
-		["number"] = 4,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 22,
-		["unit"] = "raid4",
-		["debuff"] = 0,
-		["healthmax"] = 20574,
-		["loghealth"] = 20574,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "完美小胖子",
-		["power"] = 11981,
-		["aggro"] = false,
-		["targetUnit"] = "raid4target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 20574,
-		["className"] = "猎人",
-		["afk"] = false,
-		["powertype"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet4",
-	},
-	["raid9"] = {
+	["target"] = {
 		["zone"] = "达拉然",
 		["baseRange"] = false,
-		["class"] = "SHAMAN",
-		["role"] = 62,
-		["sortMaxHp"] = 17730,
+		["class"] = "ROGUE",
+		["role"] = 61,
+		["sortMaxHp"] = 19044,
 		["map"] = "达拉然",
 		["threat"] = 0,
-		["powermax"] = 14121,
+		["powermax"] = 110,
 		["threatPerc"] = 0,
 		["isPet"] = false,
-		["name"] = "鲨鳗",
-		["number"] = 9,
+		["name"] = "蜡笔小星",
+		["number"] = 0,
 		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 26,
-		["unit"] = "raid9",
+		["group"] = 0,
+		["classId"] = 21,
+		["range"] = true,
+		["unit"] = "target",
 		["debuff"] = 0,
-		["healthmax"] = 17730,
-		["loghealth"] = 17730,
+		["healthmax"] = 19044,
+		["loghealth"] = 19044,
 		["dead"] = false,
 		["charmed"] = false,
-		["fullName"] = "鲨鳗",
-		["power"] = 13448,
+		["fullName"] = "蜡笔小星",
+		["power"] = 110,
 		["aggro"] = false,
-		["targetUnit"] = "raid9target",
+		["afk"] = false,
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 17730,
-		["className"] = "萨满祭司",
-		["afk"] = false,
-		["powertype"] = 0,
+		["health"] = 19044,
+		["className"] = "潜行者",
+		["targetUnit"] = "targettarget",
+		["powertype"] = 3,
 		["connected"] = true,
-		["petUnit"] = "raidpet9",
 	},
 	["player"] = {
 		["zone"] = "达拉然",
 		["baseRange"] = true,
 		["class"] = "PALADIN",
 		["role"] = 61,
-		["sortMaxHp"] = 17284,
+		["sortMaxHp"] = 18064,
 		["map"] = "达拉然",
 		["threat"] = 0,
-		["powermax"] = 23254,
+		["powermax"] = 23419,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "家駒",
-		["number"] = 6,
+		["number"] = 1,
 		["isVehicle"] = false,
-		["group"] = 2,
+		["group"] = 1,
 		["classId"] = 23,
 		["range"] = true,
 		["unit"] = "player",
 		["debuff"] = 0,
-		["healthmax"] = 17284,
-		["loghealth"] = 17284,
+		["healthmax"] = 18064,
+		["loghealth"] = 17304,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "家駒",
-		["power"] = 23254,
+		["power"] = 23419,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 17284,
+		["health"] = 18064,
 		["className"] = "圣骑士",
 		["afk"] = false,
 		["powertype"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["raid1"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["class"] = "WARRIOR",
-		["role"] = 60,
-		["sortMaxHp"] = 39141,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "漫遊者阿彥",
-		["number"] = 1,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 20,
-		["unit"] = "raid1",
-		["debuff"] = 0,
-		["healthmax"] = 39141,
-		["loghealth"] = 39141,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "漫遊者阿彥",
-		["power"] = 0,
-		["aggro"] = false,
-		["targetUnit"] = "raid1target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 39141,
-		["className"] = "战士",
-		["afk"] = false,
-		["powertype"] = 1,
-		["connected"] = true,
-		["petUnit"] = "raidpet1",
-	},
-	["raid8"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["class"] = "PRIEST",
-		["role"] = 62,
-		["sortMaxHp"] = 17220,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 19378,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "艾丙兒",
-		["number"] = 8,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 28,
-		["unit"] = "raid8",
-		["debuff"] = 0,
-		["healthmax"] = 17220,
-		["loghealth"] = 17220,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "艾丙兒",
-		["power"] = 19378,
-		["aggro"] = false,
-		["targetUnit"] = "raid8target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 17220,
-		["className"] = "牧师",
-		["afk"] = false,
-		["powertype"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet8",
-	},
-	["raid2"] = {
-		["zone"] = "离线",
-		["baseRange"] = false,
-		["class"] = "MAGE",
-		["role"] = 62,
-		["sortMaxHp"] = 17643,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 20958,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "死極",
-		["number"] = 2,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 24,
-		["range"] = false,
-		["unit"] = "raid2",
-		["debuff"] = 0,
-		["healthmax"] = 17643,
-		["loghealth"] = 17643,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "死極",
-		["power"] = 20958,
-		["aggro"] = false,
-		["targetUnit"] = "raid2target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 17643,
-		["className"] = "法师",
-		["afk"] = false,
-		["powertype"] = 0,
-		["connected"] = false,
-		["petUnit"] = "raidpet2",
-	},
-	["raid3"] = {
-		["zone"] = "奥杜尔",
-		["baseRange"] = false,
-		["class"] = "PRIEST",
-		["role"] = 60,
-		["sortMaxHp"] = 18660,
-		["map"] = "奥杜尔",
-		["threat"] = 0,
-		["powermax"] = 24126,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "香蜜蜜",
-		["number"] = 3,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 28,
-		["unit"] = "raid3",
-		["debuff"] = 0,
-		["healthmax"] = 18660,
-		["loghealth"] = 18660,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "香蜜蜜",
-		["power"] = 24126,
-		["aggro"] = false,
-		["targetUnit"] = "raid3target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 18660,
-		["className"] = "牧师",
-		["afk"] = false,
-		["powertype"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet3",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -5156,7 +4844,7 @@ VUHDO_INDICATOR_CONFIG = {
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "背景: 固定颜色",
 		["INCOMING_BAR"] = "",
-		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
+		["CLUSTER_BORDER"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -5169,14 +4857,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "法力条: 只有法力值",
+		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["HEALTH_BAR"] = "血量: (通用, 职业颜色)",
-		["DAMAGE_FLASH_BAR"] = "",
-		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

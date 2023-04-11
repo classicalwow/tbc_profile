@@ -38,10 +38,9 @@ GlobalIgnoreDB = {
 		{
 		}, -- [4]
 		{
-			"家駒-伊弗斯@1", -- [1]
 		}, -- [5]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["revision"] = 1,
 	["filterList"] = {
@@ -56,7 +55,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -141,7 +140,7 @@ GlobalIgnoreDB = {
 		"02 Apr 2023", -- [5]
 	},
 	["sameserver"] = true,
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["invertSpam"] = false,
 }

@@ -940,7 +940,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["27825"] = {
+			["29306"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -962,7 +962,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["29306"] = {
+			["54769"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -973,7 +973,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["54769"] = {
+			["27825"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -1387,14 +1387,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = -185.6668701171875,
-			["x"] = 318.9704895019531,
-			["orientation"] = "CENTER",
-			["relativePoint"] = "CENTER",
+			["y"] = 528.0681762695312,
+			["x"] = 1245.628295898438,
+			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 234.9999847412109,
+			["height"] = 67.00000762939453,
 			["growth"] = "TOPLEFT",
-			["width"] = 429.9999694824219,
+			["width"] = 89.99998474121094,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -1405,6 +1405,8 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["sort"] = 0,
+			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -1416,8 +1418,6 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 				40, -- [9]
 			},
-			["sort"] = 0,
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1522,7 +1522,7 @@ VUHDO_PANEL_SETUP = {
 			["showHeaders"] = true,
 			["isDamFlash"] = true,
 			["showTot"] = false,
-			["isPlayerOnTop"] = true,
+			["isPlayerOnTop"] = false,
 			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
 			["targetOrientation"] = 1,
@@ -1533,7 +1533,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 18,
+			["_spacing"] = 18.0000114440918,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["yAdjust"] = 0,
@@ -1560,12 +1560,12 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 617.4598388671875,
-			["x"] = 1591.860595703125,
+			["y"] = 529.445068359375,
+			["x"] = 1772.552124023438,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 235.0000305175781,
+			["height"] = 235,
 			["growth"] = "TOPLEFT",
 			["width"] = 259.9999389648438,
 		},
@@ -1578,12 +1578,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["sort"] = 0,
+			["ordering"] = 0,
 			["groups"] = {
 				42, -- [1]
 				44, -- [2]
 			},
-			["sort"] = 0,
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -3861,10 +3861,10 @@ VUHDO_PANEL_SETUP = {
 	},
 }
 VUHDO_SPELL_ASSIGNMENTS = {
-	["1"] = {
-		"", -- [1]
+	["alt1"] = {
+		"alt-", -- [1]
 		"1", -- [2]
-		"圣光术", -- [3]
+		"圣光道标", -- [3]
 	},
 	["altctrl2"] = {
 		"alt-ctrl-", -- [1]
@@ -3896,10 +3896,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"保护之手", -- [3]
 	},
-	["altctrl1"] = {
-		"alt-ctrl-", -- [1]
+	["ctrl1"] = {
+		"ctrl-", -- [1]
 		"1", -- [2]
-		"!", -- [3]
+		"target", -- [3]
 	},
 	["alt3"] = {
 		"alt-", -- [1]
@@ -3921,15 +3921,15 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"1", -- [2]
 		"target", -- [3]
 	},
-	["alt1"] = {
-		"alt-", -- [1]
+	["1"] = {
+		"", -- [1]
 		"1", -- [2]
-		"圣光道标", -- [3]
+		"圣光术", -- [3]
 	},
-	["ctrl1"] = {
-		"ctrl-", -- [1]
+	["altctrl1"] = {
+		"alt-ctrl-", -- [1]
 		"1", -- [2]
-		"target", -- [3]
+		"!", -- [3]
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -4000,7 +4000,7 @@ VUHDO_BUFF_SETTINGS = {
 			["R"] = 1,
 		},
 		["enabled"] = true,
-		["name"] = "漫遊者阿彥",
+		["name"] = "如儿不让嘿嘿",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4042,7 +4042,7 @@ VUHDO_BUFF_SETTINGS = {
 			["R"] = 1,
 		},
 		["enabled"] = true,
-		["name"] = "漫遊者阿彥",
+		["name"] = "如儿不让嘿嘿",
 		["filter"] = {
 			[999] = true,
 		},
@@ -4205,8 +4205,8 @@ VUHDO_BUFF_SETTINGS = {
 		["REBUFF_AT_PERCENT"] = 25,
 		["PANEL_MAX_BUFFS"] = 5,
 		["POSITION"] = {
-			["y"] = -93.873779296875,
-			["x"] = 69.43983459472656,
+			["y"] = -82.7990951538086,
+			["x"] = 81.09725189208984,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
@@ -4557,9 +4557,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4567,9 +4567,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4622,9 +4622,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4651,9 +4651,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4661,9 +4661,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4716,9 +4716,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4763,17 +4763,17 @@ VUHDO_SPEC_LAYOUTS = {
 	["selected"] = "",
 	["4"] = "",
 }
-VUHDO_GROUP_SIZE = 2
+VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
 		["zone"] = "达拉然",
 		["baseRange"] = true,
 		["class"] = "PALADIN",
 		["role"] = 61,
-		["sortMaxHp"] = 17284,
+		["sortMaxHp"] = 18064,
 		["map"] = "达拉然",
 		["threat"] = 0,
-		["powermax"] = 23254,
+		["powermax"] = 23419,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "家駒",
@@ -4784,58 +4784,22 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["debuff"] = 0,
-		["healthmax"] = 17284,
-		["loghealth"] = 17284,
+		["healthmax"] = 18064,
+		["loghealth"] = 18064,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "家駒",
-		["power"] = 23254,
+		["power"] = 23419,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 17284,
+		["health"] = 18064,
 		["className"] = "圣骑士",
-		["afk"] = true,
+		["afk"] = false,
 		["powertype"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["raid2"] = {
-		["zone"] = "离线",
-		["baseRange"] = false,
-		["class"] = "DEATHKNIGHT",
-		["role"] = 61,
-		["sortMaxHp"] = 46301,
-		["map"] = "达拉然",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "能能叔叔",
-		["number"] = 2,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 29,
-		["range"] = false,
-		["unit"] = "raid2",
-		["debuff"] = 0,
-		["healthmax"] = 46301,
-		["loghealth"] = 43233,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "能能叔叔",
-		["power"] = 43,
-		["aggro"] = false,
-		["targetUnit"] = "raid2target",
-		["isAltPower"] = false,
-		["visible"] = false,
-		["health"] = 43233,
-		["className"] = "死亡骑士",
-		["afk"] = false,
-		["powertype"] = 6,
-		["connected"] = false,
-		["petUnit"] = "raidpet2",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -4844,16 +4808,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "背景: 固定颜色",
-		["CLUSTER_BORDER"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
-		["INCOMING_BAR"] = "",
 		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
+		["SIDE_LEFT"] = "",
+		["INCOMING_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "法力条: 只有法力值",
 		["BAR_BORDER"] = "边框: 多边 + 仇恨",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "血量: (通用, 职业颜色)",
-		["SIDE_LEFT"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]

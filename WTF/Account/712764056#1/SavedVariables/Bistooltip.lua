@@ -28,11 +28,14 @@ BisTooltipDB = {
 			["minimapPos"] = 281.1238099041077,
 			["version"] = 6.1,
 			["spec_index"] = 3,
+			["phase_index"] = 3,
+			["class_index"] = 3,
+			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Arms"] = true,
 					["Protection"] = true,
+					["Arms"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -45,15 +48,15 @@ BisTooltipDB = {
 					["Restoration"] = true,
 				},
 				["Rogue"] = {
-					["Combat"] = true,
 					["Subtlety"] = true,
+					["Combat"] = true,
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 					["Fire"] = true,
 					["Frost"] = true,
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = true,
@@ -67,24 +70,21 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Beast mastery"] = true,
 					["Survival"] = true,
+					["Beast mastery"] = true,
+				},
+				["Druid"] = {
+					["Restoration"] = true,
+					["Balance"] = true,
+					["Feral dps"] = true,
+					["Feral tank"] = true,
 				},
 				["Priest"] = {
 					["Discipline"] = true,
-					["Holy"] = true,
 					["Shadow"] = true,
-				},
-				["Druid"] = {
-					["Feral dps"] = true,
-					["Balance"] = true,
-					["Restoration"] = true,
-					["Feral tank"] = true,
+					["Holy"] = true,
 				},
 			},
-			["class_index"] = 3,
-			["data_source"] = "wh",
-			["phase_index"] = 3,
 		},
 		["巴非特 - 伊弗斯"] = {
 			["class_index"] = 8,
@@ -95,15 +95,15 @@ BisTooltipDB = {
 		},
 		["家駒 - 伊弗斯"] = {
 			["minimapPos"] = 304.0481514001671,
-			["version"] = 6.1,
 			["phase_index"] = 3,
 			["class_index"] = 5,
+			["version"] = 6.1,
 			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Protection"] = true,
 					["Arms"] = true,
+					["Protection"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -120,10 +120,10 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = true,
@@ -137,19 +137,19 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Survival"] = true,
 					["Beast mastery"] = true,
-				},
-				["Druid"] = {
-					["Restoration"] = true,
-					["Balance"] = true,
-					["Feral dps"] = true,
-					["Feral tank"] = true,
+					["Survival"] = true,
 				},
 				["Priest"] = {
 					["Discipline"] = true,
-					["Shadow"] = true,
 					["Holy"] = true,
+					["Shadow"] = true,
+				},
+				["Druid"] = {
+					["Feral dps"] = true,
+					["Balance"] = true,
+					["Restoration"] = true,
+					["Feral tank"] = true,
 				},
 			},
 		},
@@ -165,14 +165,11 @@ BisTooltipDB = {
 			["filter_class_names"] = false,
 			["version"] = 6.1,
 			["spec_index"] = 2,
-			["phase_index"] = 3,
-			["class_index"] = 9,
-			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Arms"] = true,
 					["Protection"] = true,
+					["Arms"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -185,20 +182,20 @@ BisTooltipDB = {
 					["Restoration"] = true,
 				},
 				["Rogue"] = {
-					["Combat"] = true,
 					["Subtlety"] = true,
+					["Combat"] = true,
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 				},
 				["Druid"] = {
-					["Feral dps"] = true,
-					["Balance"] = true,
 					["Restoration"] = true,
+					["Balance"] = true,
+					["Feral dps"] = true,
 					["Feral tank"] = true,
 				},
 				["Death knight"] = {
@@ -208,20 +205,23 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Beast mastery"] = true,
 					["Survival"] = true,
-				},
-				["Priest"] = {
-					["Discipline"] = true,
-					["Holy"] = true,
-					["Shadow"] = true,
+					["Beast mastery"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = false,
 					["Affliction"] = true,
 					["Destruction"] = true,
 				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Shadow"] = true,
+					["Holy"] = true,
+				},
 			},
+			["class_index"] = 9,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,
@@ -231,18 +231,11 @@ BisTooltipDB = {
 			["filter_class_names"] = false,
 			["version"] = 6.1,
 			["phase_index"] = 3,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
-			["class_index"] = 10,
-			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Protection"] = true,
 					["Arms"] = true,
+					["Protection"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -259,10 +252,10 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = true,
@@ -276,20 +269,27 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Survival"] = true,
 					["Beast mastery"] = true,
-				},
-				["Druid"] = {
-					["Restoration"] = true,
-					["Balance"] = true,
-					["Feral dps"] = true,
-					["Feral tank"] = true,
+					["Survival"] = true,
 				},
 				["Priest"] = {
 					["Discipline"] = true,
-					["Shadow"] = true,
 					["Holy"] = true,
+					["Shadow"] = true,
 				},
+				["Druid"] = {
+					["Feral dps"] = true,
+					["Balance"] = true,
+					["Restoration"] = true,
+					["Feral tank"] = true,
+				},
+			},
+			["class_index"] = 10,
+			["data_source"] = "wh",
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
 			},
 		},
 	},

@@ -45,6 +45,6 @@ Frame: RXPTargetFrame
 FrameLevel: 1
 Anchor: CENTER
 X: 183
-Y: -247
+Y: -246
 W: 87
-H: 68
+H: 40
