@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 38045,
@@ -92,6 +90,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38170::::::::73:::::::::|h[尖刺寒风短棍]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

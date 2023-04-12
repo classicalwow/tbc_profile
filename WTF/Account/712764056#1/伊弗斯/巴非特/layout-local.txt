@@ -29,9 +29,9 @@ W: 365
 H: 240
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
-Anchor: CENTER
-X: 123
-Y: -96
+Anchor: BOTTOM
+X: 149
+Y: -9
 W: 1045
 H: 554
 Frame: RXPItemFrame
@@ -44,7 +44,7 @@ H: 40
 Frame: RXPTargetFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 183
-Y: -246
+X: 184
+Y: -247
 W: 87
 H: 40
