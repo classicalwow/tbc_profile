@@ -869,18 +869,6 @@ AtlasLootClassicDB = {
 		["碼農巴菲特 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 221.2639414330138,
-			},
-			["Addons"] = {
-				["Favourites"] = {
-					["lists"] = {
-						["ProfileBase"] = {
-							[32231] = true,
-						},
-					},
-				},
-			},
 			["GUI"] = {
 				["point"] = {
 					"LEFT", -- [1]
@@ -895,6 +883,18 @@ AtlasLootClassicDB = {
 					13, -- [3]
 					9, -- [4]
 					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 221.2639414330138,
+			},
+			["Addons"] = {
+				["Favourites"] = {
+					["lists"] = {
+						["ProfileBase"] = {
+							[32231] = true,
+						},
+					},
 				},
 			},
 		},
@@ -948,6 +948,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 305.257928873555,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -963,9 +966,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 305.257928873555,
 			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {

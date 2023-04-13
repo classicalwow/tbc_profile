@@ -22,8 +22,8 @@ W: 768
 H: 447
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
-Anchor: CENTER
-X: -162
-Y: 16
+Anchor: BOTTOMRIGHT
+X: -254
+Y: -18
 W: 987
 H: 484

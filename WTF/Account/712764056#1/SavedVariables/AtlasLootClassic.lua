@@ -937,9 +937,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 305.257928873555,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -955,6 +952,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 305.257928873555,
 			},
 		},
 		["巴非特 - 伊弗斯"] = {
