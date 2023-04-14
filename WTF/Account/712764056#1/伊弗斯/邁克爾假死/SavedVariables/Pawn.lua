@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46143,
@@ -49,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45444::::::::80:::::::::|h[稳固手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 46322,
-			["Level"] = 239,
+			["ID"] = 45608,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:46322::::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45608::::::::80:::::::::|h[布莱恩的徽记之戒]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 46322,
-			["Level"] = 239,
+			["ID"] = 45608,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:46322::39997::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45608::39997::::::80:::::::::|h[布莱恩的徽记之戒]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 45931,
@@ -78,10 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45873::::::::80:::::::::|h[寒冬之拥]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 46036,
-			["Level"] = 245,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:46036::::::::80:::::::::|h[虚空弯刀]|h|r",
+			["ID"] = 45613,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:45613::::::::80:::::::::|h[缚梦者]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 45494,
@@ -94,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45570::::::::80:::::::::|h[天铸之弩]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
