@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 38045,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38045::::::::73:::::::::|h[阿努巴尔甲壳头盔]|h|r",
+			["ID"] = 39859,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39859::::::::76:::::::::|h[放血者的无边帽]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 38042,
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39857::::::::75:::::::::|h[营救者的腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 38043,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38043::::::::74:::::::::|h[阿努巴尔甲壳护腿]|h|r",
+			["ID"] = 39788,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39788::::::::76:::::::::|h[仪祭护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 41762,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35937::::::::71:::::::::|h[布拉克雷的私藏月光酒]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 38002,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38002::::::::73:::::::::|h[荣耀披风]|h|r",
+			["ID"] = 39858,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39858::::::::76:::::::::|h[放血者的斗篷]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 41824,
@@ -90,8 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:41824::::::::76:::::::::|h[深红狼牙棒]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

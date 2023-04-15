@@ -19,7 +19,7 @@ VER 3 000000000100000D "嗜血" "136012"
 END
 VER 3 0000000001000004 "坐騎" "132231"
 /cast 迅捷红色驭风者
-/cast 迅捷作战陆行鸟
+/cast 阿曼尼战熊
 END
 VER 3 000000000100001A "复仇单体" "INV_MISC_QUESTIONMARK"
 #showtooltip 英勇打击
