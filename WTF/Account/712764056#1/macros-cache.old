@@ -65,10 +65,7 @@ VER 3 000000000000002F "RE假" "INV_Misc_QuestionMark"
 /cast 多重射擊
 END
 VER 3 00000000000000AD "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact 犸托斯信徒
-/targetexact Enranged Mammoth
-/targetexact 被激怒的猛犸象
-/cleartarget [dead]
+//RestedXP 指南 狮心-北美刘嘉玲 汉化版 - current step has no configured targets
 END
 VER 3 0000000000000030 "SS" "132101"
 /吐口水
@@ -90,7 +87,7 @@ VER 3 000000000000009E "target" "132090"
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000041 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]巴非特[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000000000040 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

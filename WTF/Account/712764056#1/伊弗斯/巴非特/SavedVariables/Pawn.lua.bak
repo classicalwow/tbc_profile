@@ -1,16 +1,18 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 39859,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39859::::::::76:::::::::|h[放血者的无边帽]|h|r",
+			["ID"] = 42895,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42895::::::::77:::::::::|h[冰虫鳞盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 38042,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:38042::::::::73:::::::::|h[天灾食尸鬼项圈]|h|r",
+			["ID"] = 39848,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39848::::::::76:::::::::|h[放血者的项链]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 199487,
@@ -24,19 +26,19 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199488::::::::70:::::::::|h[群集胸甲]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 39857,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39857::::::::75:::::::::|h[营救者的腰带]|h|r",
+			["ID"] = 42802,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42802::::::::77:::::::::|h[坚硬的鞭笞腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 39788,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39788::::::::76:::::::::|h[仪祭护腿]|h|r",
+			["ID"] = 42867,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42867::::::::77:::::::::|h[熟化始祖龙皮护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 41762,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:41762::::::::75:::::::::|h[自由之路长靴]|h|r",
+			["ID"] = 42891,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42891::::::::77:::::::::|h[布伦希尔达踏雪靴]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 41844,
@@ -49,28 +51,28 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39867::::::::75:::::::::|h[蝙蝠皮手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 39831,
-			["Level"] = 158,
+			["ID"] = 42812,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:39831::::::::75:::::::::|h[石化食尸鬼指节]|h|r",
+			["Link"] = "|cff1eff00|Hitem:42812::::::::77:::::::::|h[K3探险纪念戒指]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 39831,
-			["Level"] = 158,
+			["ID"] = 42864,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:39831::::::::76:::::::::|h[石化食尸鬼指节]|h|r",
+			["Link"] = "|cff1eff00|Hitem:42864::::::::77:::::::::|h[冰冷心境之戒]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 35937,
-			["Level"] = 138,
+			["ID"] = 43829,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:35937::::::::70:::::::::|h[布拉克雷的私藏月光酒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:43829::::::::77:::::::::|h[北伐军的坠饰]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 35937,
-			["Level"] = 138,
+			["ID"] = 44014,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:35937::::::::71:::::::::|h[布拉克雷的私藏月光酒]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44014::::::::77:::::::::|h[菲斯克的怀表]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 39858,
@@ -90,8 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:41824::::::::76:::::::::|h[深红狼牙棒]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

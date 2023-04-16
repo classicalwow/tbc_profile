@@ -1,5 +1,9 @@
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-R1DT1PT2PH2IH2IH[x]2PH3EM3EM3RM3SR4DR4SR4MR4HT4MR5MR5DH5HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1EM1SR[x]1WM1PM2LR2HR2MR2DR2IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000004 "圣光震击" "134400"
+/施放 !
+/施放 圣光术
 END
 VER 3 0000000001000002 "坐骑" "134400"
 /施放 迅捷黄色驭风者

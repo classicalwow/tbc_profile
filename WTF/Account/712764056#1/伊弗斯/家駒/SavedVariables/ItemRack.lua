@@ -7,8 +7,7 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["Queues"] = {
-	},
+	["CurrentSet"] = "奶騎",
 	["Sets"] = {
 		["~CombatQueue"] = {
 			["equip"] = {
@@ -76,8 +75,8 @@ ItemRackUser = {
 				"39716:1128:::::::80:::::::::", -- [17]
 				"40705::::::::80:::::::::", -- [18]
 			},
-			["key"] = "]",
 			["icon"] = 135458,
+			["key"] = "]",
 			["old"] = {
 			},
 		},
@@ -88,7 +87,8 @@ ItemRackUser = {
 	},
 	["EnableQueues"] = "ON",
 	["EnablePerSetQueues"] = "OFF",
-	["EnableEvents"] = "ON",
+	["Buttons"] = {
+	},
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
@@ -97,11 +97,11 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
+	["Alpha"] = 1,
 	["Hidden"] = {
 	},
-	["Alpha"] = 1,
-	["Buttons"] = {
-	},
+	["EnableEvents"] = "ON",
 	["MenuScale"] = 0.85,
-	["CurrentSet"] = "奶騎",
+	["Queues"] = {
+	},
 }

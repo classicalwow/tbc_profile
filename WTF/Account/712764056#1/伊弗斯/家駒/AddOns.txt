@@ -99,8 +99,8 @@ ls_Toasts: disabled
 MailLogger: enabled
 Mapster: enabled
 MaxCam: enabled
-MRT: disabled
-ExRT: disabled
+MRT: enabled
+ExRT: enabled
 MBB: enabled
 Myslot: enabled
 NameplateAuras: disabled

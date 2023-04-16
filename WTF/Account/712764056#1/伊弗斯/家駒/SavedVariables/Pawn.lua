@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "家駒-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46180,
@@ -49,28 +51,28 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45835::::::::80:::::::::|h[平静祝福护手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 45235,
-			["Level"] = 232,
+			["ID"] = 45946,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:45235::::::::80:::::::::|h[光芒徽记之戒]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45946::::::::80:::::::::|h[火兰花徽记]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 45418,
-			["Level"] = 225,
+			["ID"] = 45946,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:45418::::::::80:::::::::|h[麦耶的蓝宝石戒指]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45946::40012::::::80:::::::::|h[火兰花徽记]|h|r",
 		}, -- [12]
+		{
+			["ID"] = 46051,
+			["Level"] = 239,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:46051::::::::80:::::::::|h[陨星水晶]|h|r",
+		}, -- [13]
 		{
 			["ID"] = 40258,
 			["Level"] = 213,
-			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:40258::::::::80:::::::::|h[谋划护符]|h|r",
-		}, -- [13]
-		{
-			["ID"] = 42988,
-			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:42988::::::::80:::::::::|h[暗月卡片：幻象]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40258::::::::80:::::::::|h[谋划护符]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 40724,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:39716::::::::80:::::::::|h[消化之盾]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "家駒-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
