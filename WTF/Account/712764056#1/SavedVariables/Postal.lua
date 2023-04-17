@@ -1,20 +1,5 @@
 
 Postal3DB = {
-	["global"] = {
-		["BlackBook"] = {
-			["alts"] = {
-				"家駒|伊弗斯|Horde|80|PALADIN", -- [1]
-				"巴非特|伊弗斯|Horde|78|SHAMAN", -- [2]
-				"暖男你馬四了|伊弗斯|Alliance|1|WARLOCK", -- [3]
-				"特斯拉大股東|伊弗斯|Horde|80|WARLOCK", -- [4]
-				"特變電工|伊弗斯|Horde|80|WARRIOR", -- [5]
-				"畜生犬隊長|伊弗斯|Horde|34|WARRIOR", -- [6]
-				"碼農巴菲特|伊弗斯|Horde|5|SHAMAN", -- [7]
-				"邁克爾假死|伊弗斯|Horde|80|HUNTER", -- [8]
-				"頂級投資家|伊弗斯|Horde|2|PALADIN", -- [9]
-			},
-		},
-	},
 	["profileKeys"] = {
 		["碼農巴菲特 - 伊弗斯"] = "碼農巴菲特 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
@@ -25,6 +10,21 @@ Postal3DB = {
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
 		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"家駒|伊弗斯|Horde|80|PALADIN", -- [1]
+				"巴非特|伊弗斯|Horde|80|SHAMAN", -- [2]
+				"暖男你馬四了|伊弗斯|Alliance|1|WARLOCK", -- [3]
+				"特斯拉大股東|伊弗斯|Horde|80|WARLOCK", -- [4]
+				"特變電工|伊弗斯|Horde|80|WARRIOR", -- [5]
+				"畜生犬隊長|伊弗斯|Horde|34|WARRIOR", -- [6]
+				"碼農巴菲特|伊弗斯|Horde|5|SHAMAN", -- [7]
+				"邁克爾假死|伊弗斯|Horde|80|HUNTER", -- [8]
+				"頂級投資家|伊弗斯|Horde|2|PALADIN", -- [9]
+			},
+		},
 	},
 	["profiles"] = {
 		["碼農巴菲特 - 伊弗斯"] = {
