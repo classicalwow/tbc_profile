@@ -122,10 +122,10 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
-				["家駒-伊弗斯"] = {
+				["頂級投資家-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["頂級投資家-伊弗斯"] = {
+				["家駒-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -213,10 +213,10 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
-				["家駒-伊弗斯"] = {
+				["頂級投資家-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["頂級投資家-伊弗斯"] = {
+				["家駒-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -481,10 +481,10 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
-				["家駒-伊弗斯"] = {
+				["頂級投資家-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["頂級投資家-伊弗斯"] = {
+				["家駒-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},

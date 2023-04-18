@@ -2362,11 +2362,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4720,
+		["Scale"] = 0.91,
 		["PreVersion"] = 4720,
-		["IconMiniMapTop"] = -13.09867688054399,
 		["IconMiniMapLeft"] = -80,
 		["Timer"] = 0.1,
-		["Scale"] = 0.91,
+		["IconMiniMapTop"] = -13.09867688054399,
 	},
 	["WhoPulled"] = {
 	},

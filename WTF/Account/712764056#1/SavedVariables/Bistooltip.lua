@@ -88,8 +88,8 @@ BisTooltipDB = {
 		},
 		["巴非特 - 伊弗斯"] = {
 			["minimapPos"] = 289.1762105018657,
-			["spec_index"] = 2,
 			["version"] = 6.1,
+			["spec_index"] = 2,
 			["phase_index"] = 3,
 			["class_index"] = 8,
 			["data_source"] = "wowtbc",
@@ -148,9 +148,6 @@ BisTooltipDB = {
 			},
 		},
 		["家駒 - 伊弗斯"] = {
-			["minimapPos"] = 304.0481514001671,
-			["data_source"] = "wh",
-			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -204,6 +201,9 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
+			["minimapPos"] = 304.0481514001671,
+			["data_source"] = "wh",
+			["version"] = 6.1,
 		},
 		["頂級投資家 - 伊弗斯"] = {
 			["version"] = 6.1,

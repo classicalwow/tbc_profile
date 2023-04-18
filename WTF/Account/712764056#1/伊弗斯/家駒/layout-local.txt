@@ -34,6 +34,13 @@ X: 113
 Y: -136
 W: 768
 H: 447
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 22
+Y: 107
+W: 1045
+H: 569
 Frame: PallyPowerBlessingsFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,10 +55,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: BOTTOM
-X: 22
-Y: 107
-W: 1045
-H: 569

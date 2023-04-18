@@ -2089,8 +2089,8 @@ VMRT = {
 			["義憤填膺"] = 0,
 			["Aprioctshour"] = 0,
 			["你好咸玖"] = 0,
-			["园哥哥"] = 0,
 			["把妳當小孩打"] = 0,
+			["园哥哥"] = 0,
 			["牧無王法丶丶"] = 0,
 			["Ezezz"] = 0,
 			["Cstrike"] = 0,
@@ -2366,11 +2366,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4720,
+		["PreVersion"] = 4720,
 		["IconMiniMapTop"] = -13.09867688054399,
-		["Scale"] = 0.91,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -80,
-		["PreVersion"] = 4720,
+		["Scale"] = 0.91,
 	},
 	["WhoPulled"] = {
 	},

@@ -67,9 +67,10 @@ VER 3 000000000100000B "盾反宏" "132361"
 /equip 废墟之颅
 /cast 法术反射
 END
-VER 3 0000000001000006 "致死" "132355"
-/startattack
-/cast 致死打击
+VER 3 0000000001000006 "致死" "134400"
+#showtooltip 拳击
+/cast [target=focus] 拳击
+/cast 拳击
 END
 VER 3 0000000001000010 "英勇打击" "134400"
 #showtooltip 英勇打击
