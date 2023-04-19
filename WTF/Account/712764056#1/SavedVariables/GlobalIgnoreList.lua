@@ -40,7 +40,7 @@ GlobalIgnoreDB = {
 		"弯湾会魔法-伊弗斯", -- [4]
 		"Jellydeathk-伊弗斯", -- [5]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoCount"] = 3,
 	["notes"] = {
 		"刷屏", -- [1]
@@ -61,7 +61,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -140,7 +140,7 @@ GlobalIgnoreDB = {
 		"关羽黑公会-伊弗斯", -- [19]
 		"違規行為警告-伊弗斯", -- [20]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 40521,
@@ -19,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 44697,
-			["Level"] = 183,
-			["Link"] = "|cff0070dd|Hitem:44697::::::-40:395051134:80:::::::::|h[劫掠之瓦格雷外套]|h|r",
+			["ID"] = 40539,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:40539::::::::80:::::::::|h[寂寞胸甲]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 45553,
@@ -49,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40362::::::::80:::::::::|h[快速反应手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 42812,
-			["Level"] = 174,
+			["ID"] = 40717,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:42812::::::::77:::::::::|h[K3探险纪念戒指]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40717::::::::80:::::::::|h[无敌之戒]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 42864,
-			["Level"] = 174,
+			["ID"] = 40474,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:42864::::::::77:::::::::|h[冰冷心境之戒]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40474::::::::80:::::::::|h[湍流之针指环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 40684,
@@ -73,25 +75,22 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44014::::::::77:::::::::|h[菲斯克的怀表]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 43889,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:43889::::::::79:::::::::|h[笨重憎恶披风]|h|r",
+			["ID"] = 40250,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40250::::::::80:::::::::|h[极冬披风]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 41824,
-			["Level"] = 175,
+			["ID"] = 40264,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:41824::::::::75:::::::::|h[深红狼牙棒]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40264::::::::80:::::::::|h[碎裂重锤]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 41824,
-			["Level"] = 175,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:41824::::::::76:::::::::|h[深红狼牙棒]|h|r",
+			["ID"] = 40239,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40239::::::::80:::::::::|h[蛛魔之手]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

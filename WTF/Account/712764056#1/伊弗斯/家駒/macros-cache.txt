@@ -1,5 +1,5 @@
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R6DR1PM1EM1SR1MR2IR2DR2EM2SR[x]3MR5LR5SR5LR5LR6DR6PM7IR7HR7RM7MR8IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2PM[x][x][x][x][x][x][x]0__[x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000004 "圣光震击" "134400"
 /施放 !
@@ -13,4 +13,8 @@ VER 3 0000000001000003 "正义之怒" "134400"
 #showtooltip
 /cast 正义之怒
 /cancelaura  正义之怒
+END
+VER 3 0000000001000005 "爆发" "134400"
+/use 陨星水晶
+/use 平静祝福护手
 END
