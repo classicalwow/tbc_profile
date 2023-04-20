@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 40521,
@@ -13,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45480::::::::80:::::::::|h[仙子之心]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 40524,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40524::::::::80:::::::::|h[勇猛的碎地者护肩]|h|r",
+			["ID"] = 46203,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46203::::::::80:::::::::|h[征服者的世界击碎者护肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -39,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45564::::::::80:::::::::|h[沉寂足垫]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 45301,
-			["Level"] = 225,
-			["Link"] = "|cffa335ee|Hitem:45301::::::::80:::::::::|h[窒息烈焰护腕]|h|r",
+			["ID"] = 45454,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45454::::::::80:::::::::|h[冰箍锁链护腕]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 40362,
@@ -78,10 +80,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40250::::::::80:::::::::|h[极冬披风]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 40264,
-			["Level"] = 213,
+			["ID"] = 45315,
+			["Level"] = 238,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:40264::::::::80:::::::::|h[碎裂重锤]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45315::::::::80:::::::::|h[碎石者]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 40239,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40239::::::::80:::::::::|h[蛛魔之手]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
