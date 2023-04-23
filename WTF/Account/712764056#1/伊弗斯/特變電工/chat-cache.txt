@@ -320,7 +320,6 @@ END
 
 CHANNELS
 大脚世界频道
-寻求组队
 END
 
 ZONECHANNELS 0

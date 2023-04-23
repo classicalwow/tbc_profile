@@ -29,9 +29,8 @@ VER 3 000000000100001A "复仇单体" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000003 "拉怪" "132148"
 /startattack
+/cast !英勇打击
 /cast 毁灭打击
-/cast 复仇
-/cast 盾牌猛击
 END
 VER 3 0000000001000007 "挫敗" "132269"
 /startattack
