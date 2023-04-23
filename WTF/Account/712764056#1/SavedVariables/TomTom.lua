@@ -87,29 +87,6 @@ TomTomWaypointsM = {
 		["家駒 - 伊弗斯"] = {
 		},
 		["巴非特 - 伊弗斯"] = {
-			[1944] = {
-				["1944:562836185.81907:362347188.26406:巴尔雷"] = {
-					1944, -- [1]
-					0.5628361858190709, -- [2]
-					0.3623471882640587, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "巴尔雷",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["world"] = true,
-				},
-			},
 		},
 		["特變電工 - 伊弗斯"] = {
 			[125] = {

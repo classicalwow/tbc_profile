@@ -25,12 +25,9 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimapPos"] = 281.1238099041077,
+			["class_index"] = 3,
 			["version"] = 6.1,
 			["spec_index"] = 3,
-			["phase_index"] = 3,
-			["class_index"] = 3,
-			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -85,14 +82,14 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["minimapPos"] = 281.1238099041077,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["巴非特 - 伊弗斯"] = {
-			["minimapPos"] = 289.1762105018657,
-			["version"] = 6.1,
-			["spec_index"] = 2,
-			["phase_index"] = 3,
 			["class_index"] = 8,
-			["data_source"] = "wh",
+			["spec_index"] = 2,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -146,9 +143,13 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
+			["minimapPos"] = 289.1762105018657,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["家駒 - 伊弗斯"] = {
 			["class_index"] = 5,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -203,7 +204,6 @@ BisTooltipDB = {
 				},
 			},
 			["minimapPos"] = 304.0481514001671,
-			["version"] = 6.1,
 			["data_source"] = "wh",
 			["phase_index"] = 3,
 		},

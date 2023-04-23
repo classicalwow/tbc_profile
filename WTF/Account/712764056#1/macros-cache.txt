@@ -74,6 +74,10 @@ END
 VER 3 00000000000000A0 "t" "INV_MISC_QUESTIONMARK"
 /target 莎爾萊
 END
+VER 3 0000000000000098 "target" "132090"
+/target 薩
+/script SetRaidTarget("target",8)
+END
 VER 3 000000000000006E "target" "132092"
 /target 幽暗的工人
 /script SetRaidTarget("target",8)
@@ -82,12 +86,8 @@ VER 3 000000000000009E "target" "132090"
 /target 日怒弓箭手
 /script SetRaidTarget("target",8)
 END
-VER 3 0000000000000098 "target" "132090"
-/target 薩
-/script SetRaidTarget("target",8)
-END
 VER 3 0000000000000041 "VuhDoDCShieldNames" "Ability_Repair"
-NMocAsm近戰嘻哈黑[x]秋一秋哇嘎哩[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x][x][x][x]狼[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000000000040 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
@@ -122,6 +122,20 @@ END
 VER 3 000000000000003F "VuhDoDCShieldNames" "132281"
 N快刀[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
+VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/petfollow
+/stopcasting
+/cleartarget
+/castsequence reset=10 假死,獻祭陷阱
+END
+VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/PetPassiveMode
+/petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
 VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /petpassive
@@ -135,20 +149,6 @@ VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
 /petpassive
 /stopcasting
 /cleartarget
-/castsequence reset=10 假死,冰凍陷阱
-END
-VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/petfollow
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,獻祭陷阱
-END
-VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/PetPassiveMode
-/petpassive
 /castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
@@ -259,6 +259,10 @@ VER 3 000000000000004E "圖騰" "132136"
 /petattack [target=灼熱圖騰][target=圖騰]
 /petattack [target=法力之泉圖騰][target=圖騰]
 END
+VER 3 00000000000000A4 "坐騎" "132231"
+/cast 迅捷紅色雙足飛龍
+/cast 黑色戰鬥迅猛龍之哨
+END
 VER 3 000000000000007C "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 大型棕色科多獸
@@ -266,10 +270,6 @@ END
 VER 3 00000000000000AC "坐騎" "132231"
 /cast 迅捷紅色雙足飛龍
 /cast 阿曼尼戰熊
-END
-VER 3 00000000000000A4 "坐騎" "132231"
-/cast 迅捷紅色雙足飛龍
-/cast 黑色戰鬥迅猛龍之哨
 END
 VER 3 0000000000000034 "坐騎宏" "132265"
 /cast 塞納里奧戰爭角鷹獸

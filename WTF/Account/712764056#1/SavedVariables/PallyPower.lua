@@ -2,68 +2,68 @@
 PallyPowerDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Other",
-		["邁克爾假死 - 伊弗斯"] = "Other",
 		["家駒 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Other",
 		["特斯拉大股東 - 伊弗斯"] = "Other",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["WrathTransition"] = true,
+			["freeassign"] = false,
 			["cBuffGood"] = {
-				["b"] = 0.2,
+				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
-				["r"] = 0.2,
+				["b"] = 0.2,
 			},
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
+			["cBuffNeedSpecial"] = {
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
+				["b"] = 0.5,
+			},
+			["cBuffNeedAll"] = {
 				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["enable"] = true,
 			["display"] = {
 				["frameLocked"] = true,
 			},
-			["freeassign"] = false,
-			["enable"] = true,
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["WrathTransition"] = true,
 		},
 		["Other"] = {
-			["WrathTransition"] = true,
-			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
 			},
 			["cBuffNeedAll"] = {
-				["r"] = 0.5,
+				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["b"] = 0.5,
+				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
 			["enable"] = true,
+			["WrathTransition"] = true,
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 		},
 	},
 }
@@ -120,16 +120,16 @@ PallyPower_AuraAssignments = {
 	["杰伦丶"] = 2,
 	["林北醉套烂"] = 0,
 	["電競丶冰可樂"] = 1,
-	["變猪變羊變鲵"] = 0,
-	["Pixx"] = 0,
-	["台北"] = 0,
-	["影姿哀伤"] = 0,
-	["Libralovers"] = 0,
-	["飛揚的嚕嚕"] = 0,
-	["奶油雪糕棒"] = 0,
-	["天堂的黑曼巴"] = 0,
-	["理查娣叔父"] = 0,
 	["皮皮侠"] = 6,
+	["Pixx"] = 0,
+	["理查娣叔父"] = 0,
+	["影姿哀伤"] = 0,
+	["天堂的黑曼巴"] = 0,
+	["奶油雪糕棒"] = 0,
+	["飛揚的嚕嚕"] = 0,
+	["Libralovers"] = 0,
+	["台北"] = 0,
+	["變猪變羊變鲵"] = 0,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {
@@ -143,11 +143,14 @@ PallyPower_SavedPresets = {
 }
 PallyPower_ChanNames = {
 	"综合", -- [1]
-	"交易", -- [2]
-	"本地防务", -- [3]
-	"寻求组队", -- [4]
-	"大脚世界频道", -- [5]
-	"鏡花水月", -- [6]
+	"寻求组队", -- [2]
+	"交易", -- [3]
+	"大脚世界频道", -- [4]
+	"尋求組隊", -- [5]
+	"世界防務", -- [6]
+	"组队频道", -- [7]
+	"公會", -- [8]
+	"鏡花水月", -- [9]
 	[0] = "None",
 }
 LCD_Data = nil

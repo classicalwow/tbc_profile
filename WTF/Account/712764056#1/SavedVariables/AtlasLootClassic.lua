@@ -539,9 +539,9 @@ AtlasLootClassicDB = {
 			[32819] = "honor:3990",
 			[22868] = "honor:1000",
 			[33681] = "honor:4275",
-			[18840] = "honor:2500",
-			[33524] = "BoJ:60",
 			[40717] = "EmblemOfValor:25",
+			[33524] = "BoJ:60",
+			[34579] = "honor:3990",
 			[40749] = "EmblemOfValor:40",
 			[28245] = "honor:2850",
 			[33588] = "BoJ:35",
@@ -604,8 +604,8 @@ AtlasLootClassicDB = {
 			[38545] = "arena:400",
 			[16544] = "honor:2000",
 			[34996] = "honor:9500",
-			[45834] = "EmblemOfConquest:28",
 			[40719] = "EmblemOfValor:25",
+			[18841] = "honor:1",
 			[40751] = "EmblemOfValor:40",
 			[40783] = "EmblemOfValor:45",
 			[30767] = "BoJ:20",
@@ -613,12 +613,12 @@ AtlasLootClassicDB = {
 			[40879] = "honor:43400",
 			[42033] = "honor:33180",
 			[32794] = "honor:5320",
-			[33974] = "BoJ:60",
+			[41135] = "EmblemOfValor:30",
 			[42030] = "honor:33180",
 			[42062] = "honor:33180",
 			[33910] = "honor:5130",
+			[33974] = "BoJ:60",
 			[34997] = "honor:19000",
-			[41135] = "EmblemOfValor:30",
 			[32983] = "honor:4750",
 			[28641] = "honor:3800",
 			[35093] = "honor:9500",
@@ -666,9 +666,9 @@ AtlasLootClassicDB = {
 			[42575] = "honor:4480:arena:175",
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
-			[33528] = "BoJ:60",
-			[35095] = "honor:9500",
 			[18826] = "honor:2500",
+			[35095] = "honor:9500",
+			[40689] = "EmblemOfHeroism:40",
 			[40721] = "EmblemOfValor:25",
 			[40785] = "EmblemOfConquest:58",
 			[18874] = "honor:5000",
@@ -686,7 +686,7 @@ AtlasLootClassicDB = {
 			[45836] = "EmblemOfConquest:28",
 			[34580] = "honor:3990",
 			[28305] = "honor:4750",
-			[40689] = "EmblemOfHeroism:40",
+			[33528] = "BoJ:60",
 			[32045] = "honor:6650",
 			[29376] = "BoJ:41",
 			[42384] = "arena:4500",
@@ -712,7 +712,7 @@ AtlasLootClassicDB = {
 			[42001] = "EmblemOfValor:45",
 			[41010] = "EmblemOfHeroism:45",
 			[41042] = "EmblemOfValor:30",
-			[18841] = "honor:1",
+			[45834] = "EmblemOfConquest:28",
 			[42129] = "honor:43400",
 			[24547] = "honor:4750",
 			[23467] = "honor:2500",
@@ -744,7 +744,7 @@ AtlasLootClassicDB = {
 			[42002] = "EmblemOfHeroism:45",
 			[41011] = "EmblemOfValor:45",
 			[42066] = "honor:33180",
-			[34579] = "honor:3990",
+			[18840] = "honor:2500",
 			[42130] = "honor:43400",
 			[29382] = "BoJ:25",
 			[28293] = "honor:7600",
@@ -993,16 +993,16 @@ AtlasLootClassicDB = {
 		["巴非特 - 伊弗斯"] = {
 			["GUI"] = {
 				["point"] = {
-					"LEFT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"LEFT", -- [3]
-					105.2820663452148, -- [4]
-					-5.903635025024414, -- [5]
+					"CENTER", -- [3]
+					106.8579559326172, -- [4]
+					60.44797897338867, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingWrath", -- [2]
-					8, -- [3]
+					nil, -- [1]
+					"Ulduar", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
