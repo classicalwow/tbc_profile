@@ -34,7 +34,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
@@ -70,7 +70,7 @@ GlobalIgnoreDB = {
 		{
 		}, -- [5]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -134,7 +134,7 @@ GlobalIgnoreDB = {
 	["asknote"] = true,
 	["skipParty"] = false,
 	["revision"] = 1,
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["ignoreList"] = {
 		"Poisoning-伊弗斯", -- [1]
