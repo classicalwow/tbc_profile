@@ -8,19 +8,16 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["display"] = {
-				["frameLocked"] = true,
-			},
-			["freeassign"] = false,
 			["enable"] = true,
-			["WrathTransition"] = true,
+			["freeassign"] = false,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["cBuffNeedSome"] = {
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
@@ -31,12 +28,15 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
+			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["display"] = {
+				["frameLocked"] = true,
+			},
+			["WrathTransition"] = true,
 		},
 		["Other"] = {
 			["cBuffGood"] = {
@@ -68,19 +68,6 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
-	["家駒"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		2, -- [11]
-	},
 }
 PallyPower_NormalAssignments = {
 }
@@ -108,23 +95,26 @@ PallyPower_AuraAssignments = {
 	["圣光的陰影"] = 6,
 	["一抹星光"] = 0,
 	["長沙小龍蝦"] = 0,
+	["Yshouldknowm"] = 2,
 	["璀璨丶冬天"] = 1,
 	["清风扶醉月丶"] = 6,
+	["Dktdkt"] = 6,
 	["灰烬小野貓"] = 0,
 	["Ssantot"] = 1,
 	["杰伦丶"] = 2,
+	["名将怒涛"] = 0,
 	["皮皮侠"] = 6,
 	["林北醉套烂"] = 0,
 	["電競丶冰可樂"] = 1,
 	["理查娣叔父"] = 0,
-	["Pixx"] = 0,
+	["一季深蓝"] = 2,
 	["天堂的黑曼巴"] = 0,
 	["影姿哀伤"] = 0,
 	["奶油雪糕棒"] = 0,
 	["飛揚的嚕嚕"] = 0,
 	["Libralovers"] = 0,
 	["台北"] = 0,
-	["一季深蓝"] = 2,
+	["Pixx"] = 0,
 	["變猪變羊變鲵"] = 0,
 }
 PallyPower_SavedPresets = {

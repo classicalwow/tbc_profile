@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 40521,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40521::::::::80:::::::::|h[勇猛的碎地者面甲]|h|r",
+			["ID"] = 46212,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46212::::::::80:::::::::|h[征服者的世界击碎者面甲]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 45480,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40239::::::::80:::::::::|h[蛛魔之手]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

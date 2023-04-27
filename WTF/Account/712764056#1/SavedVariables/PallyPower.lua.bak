@@ -8,35 +8,35 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["WrathTransition"] = true,
-			["freeassign"] = false,
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
 			["cBuffNeedSpecial"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
+			["freeassign"] = false,
 			["cBuffNeedAll"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
+			["WrathTransition"] = true,
+			["display"] = {
+				["frameLocked"] = true,
+			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["enable"] = true,
-			["display"] = {
-				["frameLocked"] = true,
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
 			},
+			["enable"] = true,
 		},
 		["Other"] = {
 			["cBuffGood"] = {
@@ -116,8 +116,8 @@ PallyPower_AuraAssignments = {
 	["變猪變羊變鲵"] = 0,
 	["林北醉套烂"] = 0,
 	["電競丶冰可樂"] = 1,
-	["Pixx"] = 0,
 	["一季深蓝"] = 2,
+	["Pixx"] = 0,
 	["台北"] = 0,
 	["影姿哀伤"] = 0,
 	["Libralovers"] = 0,
