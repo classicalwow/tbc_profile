@@ -8,27 +8,28 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["WrathTransition"] = true,
+			["freeassign"] = false,
+			["display"] = {
+				["frameLocked"] = true,
+			},
 			["cBuffNeedSpecial"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
-			["freeassign"] = false,
+			["enable"] = true,
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 			["cBuffNeedAll"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
-			},
-			["WrathTransition"] = true,
-			["display"] = {
-				["frameLocked"] = true,
-			},
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
 			},
 			["cBuffGood"] = {
 				["r"] = 0.2,
@@ -36,7 +37,6 @@ PallyPowerDB = {
 				["g"] = 0.2,
 				["b"] = 0.2,
 			},
-			["enable"] = true,
 		},
 		["Other"] = {
 			["cBuffGood"] = {
@@ -68,19 +68,6 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
-	["家駒"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		2, -- [11]
-	},
 }
 PallyPower_NormalAssignments = {
 }
@@ -108,24 +95,27 @@ PallyPower_AuraAssignments = {
 	["圣光的陰影"] = 6,
 	["一抹星光"] = 0,
 	["長沙小龍蝦"] = 0,
+	["變猪變羊變鲵"] = 0,
 	["璀璨丶冬天"] = 1,
-	["清风扶醉月丶"] = 6,
+	["Yshouldknowm"] = 2,
+	["Pixx"] = 0,
 	["灰烬小野貓"] = 0,
 	["Ssantot"] = 1,
 	["杰伦丶"] = 2,
-	["變猪變羊變鲵"] = 0,
+	["台北"] = 0,
+	["Libralovers"] = 0,
 	["林北醉套烂"] = 0,
 	["電競丶冰可樂"] = 1,
-	["一季深蓝"] = 2,
-	["Pixx"] = 0,
-	["台北"] = 0,
-	["影姿哀伤"] = 0,
-	["Libralovers"] = 0,
 	["飛揚的嚕嚕"] = 0,
+	["一季深蓝"] = 2,
 	["奶油雪糕棒"] = 0,
+	["影姿哀伤"] = 0,
 	["天堂的黑曼巴"] = 0,
 	["理查娣叔父"] = 0,
 	["皮皮侠"] = 6,
+	["名将怒涛"] = 0,
+	["Dktdkt"] = 6,
+	["清风扶醉月丶"] = 6,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {

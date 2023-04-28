@@ -8,35 +8,35 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["enable"] = true,
-			["freeassign"] = false,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
+			["freeassign"] = false,
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["WrathTransition"] = true,
+			["display"] = {
+				["frameLocked"] = true,
+			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["display"] = {
-				["frameLocked"] = true,
+			["enable"] = true,
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
 			},
-			["WrathTransition"] = true,
 		},
 		["Other"] = {
 			["cBuffGood"] = {
@@ -95,26 +95,26 @@ PallyPower_AuraAssignments = {
 	["圣光的陰影"] = 6,
 	["一抹星光"] = 0,
 	["長沙小龍蝦"] = 0,
-	["Yshouldknowm"] = 2,
-	["璀璨丶冬天"] = 1,
 	["清风扶醉月丶"] = 6,
+	["璀璨丶冬天"] = 1,
+	["Yshouldknowm"] = 2,
 	["Dktdkt"] = 6,
 	["灰烬小野貓"] = 0,
 	["Ssantot"] = 1,
 	["杰伦丶"] = 2,
 	["名将怒涛"] = 0,
 	["皮皮侠"] = 6,
-	["林北醉套烂"] = 0,
+	["台北"] = 0,
 	["電競丶冰可樂"] = 1,
 	["理查娣叔父"] = 0,
-	["一季深蓝"] = 2,
+	["Pixx"] = 0,
 	["天堂的黑曼巴"] = 0,
 	["影姿哀伤"] = 0,
 	["奶油雪糕棒"] = 0,
+	["一季深蓝"] = 2,
 	["飛揚的嚕嚕"] = 0,
+	["林北醉套烂"] = 0,
 	["Libralovers"] = 0,
-	["台北"] = 0,
-	["Pixx"] = 0,
 	["變猪變羊變鲵"] = 0,
 }
 PallyPower_SavedPresets = {
@@ -128,14 +128,15 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"寻求组队", -- [1]
-	"大脚世界频道", -- [2]
+	"综合", -- [1]
+	"寻求组队", -- [2]
 	"交易", -- [3]
-	"综合", -- [4]
-	"大陸老鄉會", -- [5]
-	"胖丁愛唱歌", -- [6]
-	"zzm", -- [7]
-	"鏡花水月", -- [8]
+	"大脚世界频道", -- [4]
+	"尋求組隊", -- [5]
+	"世界防務", -- [6]
+	"组队频道", -- [7]
+	"公會", -- [8]
+	"鏡花水月", -- [9]
 	[0] = "None",
 }
 LCD_Data = nil

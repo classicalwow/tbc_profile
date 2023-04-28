@@ -25,9 +25,12 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["class_index"] = 3,
-			["version"] = 6.1,
+			["minimapPos"] = 281.1238099041077,
 			["spec_index"] = 3,
+			["version"] = 6.1,
+			["phase_index"] = 3,
+			["class_index"] = 3,
+			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -82,9 +85,6 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["minimapPos"] = 281.1238099041077,
-			["data_source"] = "wh",
-			["phase_index"] = 3,
 		},
 		["巴非特 - 伊弗斯"] = {
 			["class_index"] = 8,
@@ -215,10 +215,13 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimapPos"] = 248.3304143632559,
+			["class_index"] = 9,
 			["filter_class_names"] = false,
-			["spec_index"] = 2,
 			["version"] = 6.1,
+			["spec_index"] = 2,
+			["phase_index"] = 3,
+			["minimapPos"] = 248.3304143632559,
+			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -273,9 +276,6 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["class_index"] = 9,
-			["data_source"] = "wh",
-			["phase_index"] = 3,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,
