@@ -549,9 +549,9 @@ AtlasLootClassicDB = {
 			[29382] = "BoJ:25",
 			[22868] = "honor:1000",
 			[33681] = "honor:4275",
-			[40717] = "EmblemOfValor:25",
+			[18840] = "honor:2500",
 			[33524] = "BoJ:60",
-			[34579] = "honor:3990",
+			[40717] = "EmblemOfValor:25",
 			[40749] = "EmblemOfValor:40",
 			[28245] = "honor:2850",
 			[33588] = "BoJ:35",
@@ -614,8 +614,8 @@ AtlasLootClassicDB = {
 			[38545] = "arena:400",
 			[24547] = "honor:4750",
 			[34996] = "honor:9500",
+			[45834] = "EmblemOfConquest:28",
 			[40719] = "EmblemOfValor:25",
-			[18841] = "honor:1",
 			[40751] = "EmblemOfValor:40",
 			[40783] = "EmblemOfValor:45",
 			[41042] = "EmblemOfValor:30",
@@ -623,12 +623,12 @@ AtlasLootClassicDB = {
 			[40879] = "honor:43400",
 			[41010] = "EmblemOfHeroism:45",
 			[42001] = "EmblemOfValor:45",
-			[41135] = "EmblemOfValor:30",
+			[33974] = "BoJ:60",
 			[42030] = "honor:33180",
 			[42062] = "honor:33180",
 			[33910] = "honor:5130",
-			[33974] = "BoJ:60",
 			[34997] = "honor:19000",
+			[41135] = "EmblemOfValor:30",
 			[32983] = "honor:4750",
 			[24549] = "honor:3800",
 			[35093] = "honor:9500",
@@ -676,9 +676,9 @@ AtlasLootClassicDB = {
 			[32045] = "honor:6650",
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
-			[18826] = "honor:2500",
+			[33528] = "BoJ:60",
 			[28305] = "honor:4750",
-			[40689] = "EmblemOfHeroism:40",
+			[18826] = "honor:2500",
 			[40721] = "EmblemOfValor:25",
 			[34580] = "honor:3990",
 			[18874] = "honor:5000",
@@ -696,7 +696,7 @@ AtlasLootClassicDB = {
 			[45964] = "arena:1350",
 			[40785] = "EmblemOfConquest:58",
 			[35095] = "honor:9500",
-			[33528] = "BoJ:60",
+			[40689] = "EmblemOfHeroism:40",
 			[40739] = "EmblemOfValor:60",
 			[42352] = "arena:3150",
 			[42384] = "arena:4500",
@@ -722,7 +722,7 @@ AtlasLootClassicDB = {
 			[32794] = "honor:5320",
 			[42033] = "honor:33180",
 			[30767] = "BoJ:20",
-			[45834] = "EmblemOfConquest:28",
+			[18841] = "honor:1",
 			[42129] = "honor:43400",
 			[16544] = "honor:2000",
 			[30764] = "BoJ:20",
@@ -754,7 +754,7 @@ AtlasLootClassicDB = {
 			[42002] = "EmblemOfHeroism:45",
 			[41011] = "EmblemOfValor:45",
 			[42066] = "honor:33180",
-			[18840] = "honor:2500",
+			[34579] = "honor:3990",
 			[42130] = "honor:43400",
 			[32819] = "honor:3990",
 			[42027] = "honor:33180",
@@ -918,9 +918,6 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 221.2639414330138,
-			},
 			["Addons"] = {
 				["Favourites"] = {
 					["lists"] = {
@@ -929,6 +926,9 @@ AtlasLootClassicDB = {
 						},
 					},
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 221.2639414330138,
 			},
 		},
 		["家駒 - 伊弗斯"] = {
@@ -1020,8 +1020,8 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"Ulduar", -- [2]
-					nil, -- [3]
-					1, -- [4]
+					10, -- [3]
+					9, -- [4]
 					0, -- [5]
 				},
 			},

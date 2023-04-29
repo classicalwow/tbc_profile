@@ -8,6 +8,20 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["enable"] = true,
+			["freeassign"] = false,
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -22,35 +36,20 @@ PallyPowerDB = {
 			["display"] = {
 				["frameLocked"] = true,
 			},
-			["freeassign"] = false,
-			["enable"] = true,
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
+			["WrathTransition"] = true,
+		},
+		["Other"] = {
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["WrathTransition"] = true,
-		},
-		["Other"] = {
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
-			},
-			["WrathTransition"] = true,
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
@@ -58,6 +57,7 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["enable"] = true,
+			["WrathTransition"] = true,
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -68,35 +68,25 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
-	["家駒"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		2, -- [11]
-	},
 }
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
+	["我与定諤的貓"] = 0,
 	["搓牌牌"] = 0,
 	["不消慌"] = 3,
 	["超粉我的筆"] = 0,
 	["丁一发儿"] = 0,
 	["台北丨"] = 0,
 	["不要離我太遠"] = 0,
+	["雪祭祀"] = 0,
 	["蹭饭灬小天王"] = 0,
 	["跳跳小逗比"] = 0,
 	["宋小宝丶"] = 0,
 	["贝吉塔丶"] = 0,
 	["刀刀子"] = 0,
 	["猛狼开怪"] = 0,
+	["岚之谷玄"] = 1,
 	["車神李有田"] = 1,
 	["村頭卧龍"] = 0,
 	["那条好腿"] = 1,
@@ -108,7 +98,9 @@ PallyPower_AuraAssignments = {
 	["圣光的陰影"] = 6,
 	["一抹星光"] = 0,
 	["長沙小龍蝦"] = 0,
+	["天堂的黑曼巴"] = 0,
 	["清风扶醉月丶"] = 6,
+	["时光机"] = 2,
 	["璀璨丶冬天"] = 1,
 	["Yshouldknowm"] = 2,
 	["Dktdkt"] = 6,
@@ -121,10 +113,10 @@ PallyPower_AuraAssignments = {
 	["電競丶冰可樂"] = 1,
 	["理查娣叔父"] = 0,
 	["Pixx"] = 0,
-	["天堂的黑曼巴"] = 0,
+	["大陆仔真牛逼"] = 0,
 	["影姿哀伤"] = 0,
-	["奶油雪糕棒"] = 0,
 	["一季深蓝"] = 2,
+	["奶油雪糕棒"] = 0,
 	["林北醉套烂"] = 0,
 	["飛揚的嚕嚕"] = 0,
 	["Libralovers"] = 0,
@@ -141,12 +133,13 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"综合", -- [1]
-	"交易", -- [2]
-	"本地防务", -- [3]
-	"寻求组队", -- [4]
-	"大脚世界频道", -- [5]
-	"鏡花水月", -- [6]
+	"寻求组队", -- [1]
+	"综合", -- [2]
+	"交易", -- [3]
+	"本地防务", -- [4]
+	"鏡花水月", -- [5]
+	"大脚世界频道", -- [6]
+	"zzm", -- [7]
 	[0] = "None",
 }
 LCD_Data = nil

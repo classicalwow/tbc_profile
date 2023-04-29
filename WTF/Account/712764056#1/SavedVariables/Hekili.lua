@@ -159,10 +159,10 @@ HekiliDB = {
 						["optimize_overpower"] = false,
 						["debuff_sunder_enabled"] = true,
 						["rend_health_threshold"] = 20,
-						["fury"] = "Fury (IV)",
 						["predict_tfb"] = true,
-						["main_gcd_spell"] = "slam",
 						["rend_refresh_time"] = 0,
+						["main_gcd_spell"] = "slam",
+						["fury"] = "Fury (IV)",
 						["execute_queueing_enabled"] = true,
 					},
 					["autoPacks"] = {
@@ -176,16 +176,16 @@ HekiliDB = {
 						["protection"] = "Protection Paladin (wowtbc.gg)",
 						["holy"] = "Holy Paladin (wowtbc.gg)",
 						["maintain_aura"] = false,
-						["primary_slack"] = 0.5,
 						["hor_macros"] = true,
-						["retribution"] = "Retribution",
-						["fol_on_aow"] = true,
+						["primary_slack"] = 0.5,
 						["judgement_of_wisdom_threshold"] = 70,
 						["assigned_aura"] = "concentration_aura",
+						["retribution"] = "Retribution",
 						["holy_wrath_threshold"] = 2,
 						["divine_plea_threshold"] = 75,
 						["assigned_blessing"] = "blessing_of_kings",
 						["maintain_blessing"] = true,
+						["fol_on_aow"] = true,
 					},
 					["autoPacks"] = {
 						["protection"] = "Protection Paladin (wowtbc.gg)",
@@ -227,13 +227,13 @@ HekiliDB = {
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["inferno_enabled"] = true,
-						["group_curse"] = "curse_of_agony",
 						["group_type"] = "party",
+						["destruction"] = "Destruction",
+						["affliction"] = "Affliction",
 						["demonology"] = "Demonology (wowtbc.gg)",
 						["shadow_mastery"] = true,
-						["affliction"] = "Affliction",
-						["destruction"] = "Destruction",
+						["inferno_enabled"] = true,
+						["group_curse"] = "curse_of_agony",
 					},
 					["autoPacks"] = {
 						["demonology"] = "Demonology (wowtbc.gg)",
@@ -2155,9 +2155,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "windfury_weapon",
 								["description"] = "APL v3.4.1-1.2.0 #",
 								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
-								["action"] = "windfury_weapon",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2244,9 +2244,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.1-1.6.5 #",
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2626,9 +2626,9 @@ HekiliDB = {
 							}, -- [4]
 							{
 								["enabled"] = true,
+								["action"] = "thunderstorm",
 								["description"] = "actions.aoe+=/thunderstorm,if=mana.pct<90||target.distance<10&glyph.glyph_of_thunderstorm.enabled",
 								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
-								["action"] = "thunderstorm",
 							}, -- [5]
 						},
 						["default"] = {
@@ -2671,9 +2671,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
+								["action"] = "chain_lightning",
 								["description"] = "Need to create this specialization option.",
 								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
-								["action"] = "chain_lightning",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -2693,9 +2693,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["action"] = "call_of_the_elements",
 								["description"] = "Place your totems if they're not already up, don't want to use it if we've used a major CD totem.",
 								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
-								["action"] = "call_of_the_elements",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -2704,9 +2704,9 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
+								["action"] = "searing_totem",
 								["description"] = "Need to find a way to verify that the snapshot has taken place.",
 								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
-								["action"] = "searing_totem",
 							}, -- [4]
 						},
 					},
@@ -2861,9 +2861,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3280,9 +3280,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -3663,9 +3663,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "berserker_stance",
 								["description"] = "APL v3.4.1-1.7.0 #",
 								["criteria"] = "buff.stance.down",
-								["action"] = "berserker_stance",
 							}, -- [1]
 							{
 								["enabled"] = true,

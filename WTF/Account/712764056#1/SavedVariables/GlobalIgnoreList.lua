@@ -18,6 +18,7 @@ GlobalIgnoreDB = {
 		"player", -- [3]
 		"player", -- [4]
 		"player", -- [5]
+		"player", -- [6]
 	},
 	["openWithFriends"] = true,
 	["invertSpam"] = false,
@@ -34,7 +35,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
@@ -69,8 +70,10 @@ GlobalIgnoreDB = {
 		}, -- [4]
 		{
 		}, -- [5]
+		{
+		}, -- [6]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -78,6 +81,7 @@ GlobalIgnoreDB = {
 		"Horde", -- [3]
 		"Horde", -- [4]
 		"Horde", -- [5]
+		"Horde", -- [6]
 	},
 	["defexpire"] = 0,
 	["sameserver"] = true,
@@ -88,6 +92,7 @@ GlobalIgnoreDB = {
 		"巨坑", -- [3]
 		"", -- [4]
 		"刷人", -- [5]
+		"", -- [6]
 	},
 	["expList"] = {
 		0, -- [1]
@@ -95,6 +100,7 @@ GlobalIgnoreDB = {
 		0, -- [3]
 		0, -- [4]
 		0, -- [5]
+		0, -- [6]
 	},
 	["skipGuild"] = true,
 	["chatmsg"] = true,
@@ -105,6 +111,7 @@ GlobalIgnoreDB = {
 		"14 Mar 2023", -- [3]
 		"14 Mar 2023", -- [4]
 		"02 Apr 2023", -- [5]
+		"29 Apr 2023", -- [6]
 	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
@@ -134,7 +141,7 @@ GlobalIgnoreDB = {
 	["asknote"] = true,
 	["skipParty"] = false,
 	["revision"] = 1,
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["ignoreList"] = {
 		"Poisoning-伊弗斯", -- [1]
@@ -142,5 +149,6 @@ GlobalIgnoreDB = {
 		"阿度根-伊弗斯", -- [3]
 		"弯湾会魔法-伊弗斯", -- [4]
 		"Jellydeathk-伊弗斯", -- [5]
+		"焚魂-伊弗斯", -- [6]
 	},
 }
