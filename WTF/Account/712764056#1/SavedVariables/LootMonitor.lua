@@ -6,14 +6,13 @@ LootMonitorDB = {
 			["Class"] = "SHAMAN",
 			["InstanceID"] = 533,
 			["Player"] = "巴非特",
-			["FirstClass"] = "DRUID",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15956-00003BD3D4",
 					["Time"] = "19:00:58",
-					["Looter"] = "壹頓喫不飽",
-					["Date"] = "2023-04-16",
 					["Class"] = "DRUID",
+					["Date"] = "2023-04-16",
+					["Looter"] = "壹頓喫不飽",
 					["Name"] = "阿努布雷坎",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40108::::::::80:::::::::|h[美貌之戒]|h|r", -- [1]
@@ -24,9 +23,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15953-00003BD3D4",
 					["Time"] = "19:04:53",
-					["Looter"] = "刘枫的爹",
-					["Date"] = "2023-04-16",
 					["Class"] = "ROGUE",
+					["Date"] = "2023-04-16",
+					["Looter"] = "刘枫的爹",
 					["Name"] = "黑女巫法琳娜",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40075::::::::80:::::::::|h[冷酷]|h|r", -- [1]
@@ -37,9 +36,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15952-00003BD3D4",
 					["Time"] = "19:10:03",
-					["Looter"] = "味觉",
-					["Date"] = "2023-04-16",
 					["Class"] = "PALADIN",
+					["Date"] = "2023-04-16",
+					["Looter"] = "味觉",
 					["Name"] = "迈克斯纳",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40254::::::::80:::::::::|h[危机转折披风]|h|r", -- [1]
@@ -50,9 +49,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-16011-00003BD3D4",
 					["Time"] = "19:25:22",
-					["Looter"] = "刘枫的爹",
-					["Date"] = "2023-04-16",
 					["Class"] = "ROGUE",
+					["Date"] = "2023-04-16",
+					["Looter"] = "刘枫的爹",
 					["Name"] = "洛欧塞布",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40638::::::::80:::::::::|h[失落保卫者的肩甲]|h|r", -- [1]
@@ -62,9 +61,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-16061-00003BD3D4",
 					["Time"] = "19:31:39",
-					["Looter"] = "锋湮",
-					["Date"] = "2023-04-16",
 					["Class"] = "DEATHKNIGHT",
+					["Date"] = "2023-04-16",
+					["Looter"] = "锋湮",
 					["Name"] = "教官拉苏维奥斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40327::::::::80:::::::::|h[复原束带]|h|r", -- [1]
@@ -75,9 +74,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-16060-00003BD3D4",
 					["Time"] = "19:39:43",
-					["Looter"] = "刘枫的爹",
-					["Date"] = "2023-04-16",
 					["Class"] = "ROGUE",
+					["Date"] = "2023-04-16",
+					["Looter"] = "刘枫的爹",
 					["Name"] = "收割者戈提克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40342::::::::80:::::::::|h[觉醒神像]|h|r", -- [1]
@@ -88,9 +87,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-16028-00003BD3D4",
 					["Time"] = "19:52:52",
-					["Looter"] = "刘枫的爹",
-					["Date"] = "2023-04-16",
 					["Class"] = "ROGUE",
+					["Date"] = "2023-04-16",
+					["Looter"] = "刘枫的爹",
 					["Name"] = "帕奇维克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40108::::::::80:::::::::|h[美貌之戒]|h|r", -- [1]
@@ -101,9 +100,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15931-00003BD3D4",
 					["Time"] = "19:57:06",
-					["Looter"] = "锋湮",
-					["Date"] = "2023-04-16",
 					["Class"] = "DEATHKNIGHT",
+					["Date"] = "2023-04-16",
+					["Looter"] = "锋湮",
 					["Name"] = "格罗布鲁斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40253::::::::80:::::::::|h[修女披风]|h|r", -- [1]
@@ -114,9 +113,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15928-00003BD3D4",
 					["Time"] = "20:07:24",
-					["Class"] = "MAGE",
-					["Date"] = "2023-04-16",
 					["Looter"] = "雪乄玲珑",
+					["Date"] = "2023-04-16",
+					["Class"] = "MAGE",
 					["Name"] = "塔迪乌斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40635::::::::80:::::::::|h[失落保卫者的腿甲]|h|r", -- [1]
@@ -126,9 +125,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15989-00003BE553",
 					["Time"] = "20:12:04",
-					["Class"] = "DRUID",
-					["Date"] = "2023-04-16",
 					["Looter"] = "壹頓喫不飽",
+					["Date"] = "2023-04-16",
+					["Class"] = "DRUID",
 					["Name"] = "萨菲隆",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40374::::::::80:::::::::|h[宇宙之光]|h|r", -- [1]
@@ -139,9 +138,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15990-00003BD3D4",
 					["Time"] = "20:21:45",
-					["Class"] = "ROGUE",
-					["Date"] = "2023-04-16",
 					["Looter"] = "刘枫的爹",
+					["Date"] = "2023-04-16",
+					["Class"] = "ROGUE",
 					["Name"] = "克尔苏加德",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40385::::::::80:::::::::|h[死亡的使者]|h|r", -- [1]
@@ -152,9 +151,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-22354-15931-00003BF7AD",
 					["Time"] = "22:38:12",
-					["Looter"] = "神聖風暴丶曦",
-					["Date"] = "2023-04-16",
 					["Class"] = "PALADIN",
+					["Date"] = "2023-04-16",
+					["Looter"] = "神聖風暴丶曦",
 					["Name"] = "格罗布鲁斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40257::::::::80:::::::::|h[防御者的准则]|h|r", -- [1]
@@ -167,9 +166,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-22354-15936-00003BF7AE",
 					["Time"] = "23:07:28",
-					["Looter"] = "Fightshadow",
-					["Date"] = "2023-04-16",
 					["Class"] = "ROGUE",
+					["Date"] = "2023-04-16",
+					["Looter"] = "Fightshadow",
 					["Name"] = "肮脏的希尔盖",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40257::::::::80:::::::::|h[防御者的准则]|h|r", -- [1]
@@ -178,9 +177,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-22354-16061-00003BF7AE",
 					["Time"] = "23:20:45",
-					["Looter"] = "訣別的愛",
-					["Date"] = "2023-04-16",
 					["Class"] = "PALADIN",
+					["Date"] = "2023-04-16",
+					["Looter"] = "訣別的愛",
 					["Name"] = "教官拉苏维奥斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40069::::::::80:::::::::|h[传承]|h|r", -- [1]
@@ -193,18 +192,19 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-533-22354-16060-00003BF7AD",
 					["Time"] = "23:29:52",
-					["Looter"] = "美人紙",
-					["Date"] = "2023-04-16",
 					["Class"] = "PRIEST",
+					["Date"] = "2023-04-16",
+					["Looter"] = "美人紙",
 					["Name"] = "收割者戈提克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40256::::::::80:::::::::|h[死亡之钟]|h|r", -- [1]
 					},
 				}, -- [15]
 			},
+			["InstanceName"] = "纳克萨玛斯",
 			["SavedID"] = 206216785,
 			["FirstPlayer"] = "单人隐",
-			["InstanceName"] = "纳克萨玛斯",
+			["FirstClass"] = "DRUID",
 		}, -- [1]
 	},
 	["Config"] = {
