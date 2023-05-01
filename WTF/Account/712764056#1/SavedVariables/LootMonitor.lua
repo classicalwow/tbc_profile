@@ -6,7 +6,6 @@ LootMonitorDB = {
 			["Class"] = "SHAMAN",
 			["InstanceID"] = 533,
 			["Player"] = "巴非特",
-			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-533-25258-15956-00003BD3D4",
@@ -202,9 +201,10 @@ LootMonitorDB = {
 					},
 				}, -- [15]
 			},
-			["FirstClass"] = "DRUID",
-			["FirstPlayer"] = "单人隐",
+			["InstanceName"] = "纳克萨玛斯",
 			["SavedID"] = 206216785,
+			["FirstPlayer"] = "单人隐",
+			["FirstClass"] = "DRUID",
 		}, -- [1]
 	},
 	["Config"] = {

@@ -18310,5 +18310,210 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [930]
+		{
+			["TargetName"] = "特變電工",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 670000000,
+			["Location"] = "达拉然",
+			["Time"] = "14:28:39",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [931]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "家駒",
+			["Reason"] = 1,
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 670000000,
+			["Time"] = "14:29:11",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [932]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "Shuffle",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["Date"] = "2023-04-30",
+			["Time"] = "17:34:29",
+			["ReceiveItems"] = {
+			},
+		}, -- [933]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "Shuffle",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["Date"] = "2023-04-30",
+			["Time"] = "17:34:33",
+			["ReceiveItems"] = {
+			},
+		}, -- [934]
+		{
+			["TargetName"] = "Shuffle",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 25100000,
+			["Time"] = "17:34:33",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [935]
+		{
+			["Date"] = "2023-04-30",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["TargetName"] = "紅豆奶茶",
+			["Time"] = "22:57:54",
+			["ReceiveItems"] = {
+			},
+		}, -- [936]
+		{
+			["TargetName"] = "紅豆奶茶",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 143920000,
+			["Time"] = "22:57:54",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [937]
+		{
+			["TargetName"] = "加住我啊",
+			["PlayerName"] = "巴非特",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:42:25",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-05-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [938]
+		{
+			["TargetName"] = "加住我啊",
+			["PlayerName"] = "巴非特",
+			["Date"] = "2023-05-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:42:25",
+			["GiveMoney"] = 52000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:45642::::::::80:::::::::|h[固执保卫者的护手]|h|r",
+					["Name"] = "固执保卫者的护手",
+				}, -- [1]
+			},
+		}, -- [939]
+		{
+			["TargetName"] = "壞小爷",
+			["PlayerName"] = "巴非特",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:47:15",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-05-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [940]
+		{
+			["TargetName"] = "壞小爷",
+			["PlayerName"] = "巴非特",
+			["Date"] = "2023-05-01",
+			["ReceiveMoney"] = 38130000,
+			["Time"] = "02:47:15",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [941]
+		{
+			["PlayerName"] = "巴非特",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2023-05-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:50:07",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40053::::::::80:::::::::|h[原始帝黄晶]|h|r",
+					["Name"] = "原始帝黄晶",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:36913::::::::80:::::::::|h[萨隆邪铁锭]|h|r",
+					["Name"] = "萨隆邪铁锭",
+				}, -- [2]
+				{
+					["Number"] = 7,
+					["ItemLink"] = "|cffffffff|Hitem:37700::::::::80:::::::::|h[空气结晶]|h|r",
+					["Name"] = "空气结晶",
+				}, -- [3]
+			},
+		}, -- [942]
+		{
+			["PlayerName"] = "巴非特",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2023-05-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:55:34",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:42988::::::::80:::::::::|h[暗月卡片：幻象]|h|r",
+					["Name"] = "暗月卡片：幻象",
+				}, -- [1]
+			},
+		}, -- [943]
 	},
 }

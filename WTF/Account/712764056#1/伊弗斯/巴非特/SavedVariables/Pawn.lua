@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46212,
@@ -46,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45454::::::::80:::::::::|h[冰箍锁链护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 40362,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40362::::::::80:::::::::|h[快速反应手套]|h|r",
+			["ID"] = 46200,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46200::::::::80:::::::::|h[征服者的世界击碎者手甲]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 40717,
@@ -69,10 +67,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40684::::::::80:::::::::|h[真实之镜]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 44014,
-			["Level"] = 174,
+			["ID"] = 42988,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:44014::::::::77:::::::::|h[菲斯克的怀表]|h|r",
+			["Link"] = "|cffa335ee|Hitem:42988::::::::80:::::::::|h[暗月卡片：幻象]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 40250,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40239::::::::80:::::::::|h[蛛魔之手]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

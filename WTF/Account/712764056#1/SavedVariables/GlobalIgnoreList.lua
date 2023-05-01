@@ -20,9 +20,40 @@ GlobalIgnoreDB = {
 		"player", -- [5]
 		"player", -- [6]
 	},
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+		{
+		}, -- [5]
+		{
+		}, -- [6]
+	},
 	["invertSpam"] = false,
-	["openWithFriends"] = true,
 	["skipPrivate"] = true,
+	["ignoreList"] = {
+		"Poisoning-伊弗斯", -- [1]
+		"午夜牛-伊弗斯", -- [2]
+		"阿度根-伊弗斯", -- [3]
+		"弯湾会魔法-伊弗斯", -- [4]
+		"Jellydeathk-伊弗斯", -- [5]
+		"焚魂-伊弗斯", -- [6]
+	},
+	["autoTime"] = 600,
+	["autoCount"] = 3,
+	["notes"] = {
+		"刷屏", -- [1]
+		"坑", -- [2]
+		"巨坑", -- [3]
+		"", -- [4]
+		"刷人", -- [5]
+		"", -- [6]
+	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -35,18 +66,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
-	["autoCount"] = 3,
-	["sameserver"] = true,
-	["ignoreList"] = {
-		"Poisoning-伊弗斯", -- [1]
-		"午夜牛-伊弗斯", -- [2]
-		"阿度根-伊弗斯", -- [3]
-		"弯湾会魔法-伊弗斯", -- [4]
-		"Jellydeathk-伊弗斯", -- [5]
-		"焚魂-伊弗斯", -- [6]
-	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -56,6 +76,21 @@ GlobalIgnoreDB = {
 		"Horde", -- [5]
 		"Horde", -- [6]
 	},
+	["skipGuild"] = true,
+	["sameserver"] = true,
+	["attachFriends"] = true,
+	["revision"] = 1,
+	["expList"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+	},
+	["skipParty"] = false,
+	["chatmsg"] = true,
+	["filterTotal"] = 1,
 	["dateList"] = {
 		"13 Mar 2023", -- [1]
 		"14 Mar 2023", -- [2]
@@ -64,6 +99,33 @@ GlobalIgnoreDB = {
 		"02 Apr 2023", -- [5]
 		"29 Apr 2023", -- [6]
 	},
+	["filterDesc"] = {
+		"Filter \"Anal\" Spammers", -- [1]
+		"Filter Thunderfury linking", -- [2]
+		"Filter Gold Spam #1", -- [3]
+		"Filter Gold Spam #2", -- [4]
+		"Filter Gold Spam #3", -- [5]
+		"Filter Gold Spam #4", -- [6]
+		"Filter Guild Recruitment", -- [7]
+		"Filter Community Recruitment", -- [8]
+		"Filter WTS", -- [9]
+		"Filter Chinese/Korean/Japanese", -- [10]
+	},
+	["asknote"] = true,
+	["filterActive"] = {
+		true, -- [1]
+		true, -- [2]
+		true, -- [3]
+		true, -- [4]
+		true, -- [5]
+		true, -- [6]
+		false, -- [7]
+		false, -- [8]
+		false, -- [9]
+		false, -- [10]
+	},
+	["spamFilter"] = true,
+	["defexpire"] = 0,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -86,70 +148,7 @@ GlobalIgnoreDB = {
 		"关羽黑公会-伊弗斯", -- [19]
 		"違規行為警告-伊弗斯", -- [20]
 	},
-	["attachFriends"] = true,
-	["revision"] = 1,
-	["expList"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-	},
-	["skipParty"] = false,
-	["chatmsg"] = true,
-	["filterTotal"] = 1,
-	["defexpire"] = 0,
-	["filterDesc"] = {
-		"Filter \"Anal\" Spammers", -- [1]
-		"Filter Thunderfury linking", -- [2]
-		"Filter Gold Spam #1", -- [3]
-		"Filter Gold Spam #2", -- [4]
-		"Filter Gold Spam #3", -- [5]
-		"Filter Gold Spam #4", -- [6]
-		"Filter Guild Recruitment", -- [7]
-		"Filter Community Recruitment", -- [8]
-		"Filter WTS", -- [9]
-		"Filter Chinese/Korean/Japanese", -- [10]
-	},
-	["spamFilter"] = true,
-	["filterActive"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
-		true, -- [4]
-		true, -- [5]
-		true, -- [6]
-		false, -- [7]
-		false, -- [8]
-		false, -- [9]
-		false, -- [10]
-	},
-	["asknote"] = true,
-	["skipGuild"] = true,
-	["notes"] = {
-		"刷屏", -- [1]
-		"坑", -- [2]
-		"巨坑", -- [3]
-		"", -- [4]
-		"刷人", -- [5]
-		"", -- [6]
-	},
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-		{
-		}, -- [5]
-		{
-			"家駒-伊弗斯@1", -- [1]
-		}, -- [6]
-	},
+	["openWithFriends"] = true,
 }

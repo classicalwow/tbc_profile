@@ -18283,5 +18283,128 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [928]
+		{
+			["TargetName"] = "之歆",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["PlayerName"] = "家駒",
+			["Time"] = "04:23:17",
+			["ReceiveItems"] = {
+			},
+		}, -- [929]
+		{
+			["TargetName"] = "之歆",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 99530000,
+			["Time"] = "04:23:17",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [930]
+		{
+			["TargetName"] = "特變電工",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 670000000,
+			["Location"] = "达拉然",
+			["Time"] = "14:28:39",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [931]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "家駒",
+			["Reason"] = 1,
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 670000000,
+			["Time"] = "14:29:11",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [932]
+		{
+			["Date"] = "2023-04-30",
+			["TargetName"] = "Shuffle",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:34:29",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "特變電工",
+			["ReceiveItems"] = {
+			},
+		}, -- [933]
+		{
+			["Date"] = "2023-04-30",
+			["TargetName"] = "Shuffle",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:34:33",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "特變電工",
+			["ReceiveItems"] = {
+			},
+		}, -- [934]
+		{
+			["TargetName"] = "Shuffle",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 25100000,
+			["Time"] = "17:34:33",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [935]
+		{
+			["TargetName"] = "紅豆奶茶",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:57:54",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Date"] = "2023-04-30",
+			["ReceiveItems"] = {
+			},
+		}, -- [936]
+		{
+			["TargetName"] = "紅豆奶茶",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-04-30",
+			["ReceiveMoney"] = 143920000,
+			["Time"] = "22:57:54",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [937]
 	},
 }

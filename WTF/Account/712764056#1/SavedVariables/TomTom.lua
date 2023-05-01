@@ -21,8 +21,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					-13.97249126434326, -- [4]
-					271.8384094238281, -- [5]
+					-2.314921379089356, -- [4]
+					275.9183654785156, -- [5]
 				},
 			},
 			["block"] = {
@@ -89,31 +89,6 @@ TomTomWaypointsM = {
 		["巴非特 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			[125] = {
-				["125:524938875.30562:270171149.14425:Mailbox"] = {
-					125, -- [1]
-					0.5249388753056234, -- [2]
-					0.2701711491442543, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mailbox",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mailbox",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["頂級投資家 - 伊弗斯"] = {
 		},
