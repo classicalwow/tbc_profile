@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46140,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45275::::::::80:::::::::|h[魔法释放护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 46135,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:46135::::::::80:::::::::|h[征服者的死亡信使手套]|h|r",
+			["ID"] = 46045,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:46045::::::::80:::::::::|h[脉冲星手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 45451,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44013::::::::78:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 45529,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:45529::::::::80:::::::::|h[鬼魅记忆斗篷]|h|r",
+			["ID"] = 46321,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:46321::::::::80:::::::::|h[阳光斗篷]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 45990,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45511::::::::80:::::::::|h[迷失灵魂节杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

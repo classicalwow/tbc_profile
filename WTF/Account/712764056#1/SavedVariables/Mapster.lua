@@ -24,12 +24,12 @@ MapsterDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["point"] = "CENTER",
+			["ejScale"] = 0.52,
 			["scale"] = 0.9138686060905457,
 			["poiScale"] = 0.66,
 			["y"] = 65.19261682831984,
 			["x"] = -123.0746757754587,
-			["ejScale"] = 0.52,
+			["point"] = "CENTER",
 		},
 	},
 }
