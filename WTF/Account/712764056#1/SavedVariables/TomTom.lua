@@ -74,9 +74,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -87,6 +87,37 @@ TomTomWaypointsM = {
 		["家駒 - 伊弗斯"] = {
 		},
 		["巴非特 - 伊弗斯"] = {
+			[120] = {
+				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
+					120, -- [1]
+					0.4369193154034231, -- [2]
+					0.2613691931540342, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Meeting Stone",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 		["特變電工 - 伊弗斯"] = {
 		},
@@ -110,18 +141,10 @@ TomTomWaypointsM = {
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0718,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46212,
@@ -21,9 +19,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 40539,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:40539::::::::80:::::::::|h[寂寞胸甲]|h|r",
+			["ID"] = 46205,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46205::::::::80:::::::::|h[征服者的世界击碎者胸甲]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 45553,
@@ -86,11 +84,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45315::::::::80:::::::::|h[碎石者]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 40239,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40239::::::::80:::::::::|h[蛛魔之手]|h|r",
+			["ID"] = 45315,
+			["Level"] = 238,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:45315:3830:::::::80:::::::::|h[碎石者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
