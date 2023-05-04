@@ -1,4 +1,11 @@
 Version: 1
+Frame: VuhDoBuffWatchMainFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 72
+Y: -51
+W: 107
+H: 56
 Frame: ReplayFrame
 FrameLevel: 1
 Anchor: BOTTOM

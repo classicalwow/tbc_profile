@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["繁華落盡 - 伊弗斯"] = "Default",
+		["佰鳥朝鳳 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,9 +31,12 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["繁華落盡 - 伊弗斯"] = "繁華落盡 - 伊弗斯",
+		["佰鳥朝鳳 - 伊弗斯"] = "佰鳥朝鳳 - 伊弗斯",
 	},
 	["profiles"] = {
 		["繁華落盡 - 伊弗斯"] = {
+		},
+		["佰鳥朝鳳 - 伊弗斯"] = {
 		},
 	},
 }

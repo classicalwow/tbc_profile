@@ -430,6 +430,9 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID4"] = {
 			["PerCharacterOptions"] = {
+				["康樂股長-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "德鲁伊: 恢复",
@@ -444,6 +447,9 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID2"] = {
 			["PerCharacterOptions"] = {
+				["康樂股長-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "德鲁伊: 野性 (伤害输出)",
@@ -458,6 +464,9 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID3"] = {
 			["PerCharacterOptions"] = {
+				["康樂股長-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "德鲁伊: 野性 (坦克)",
@@ -472,6 +481,9 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID1"] = {
 			["PerCharacterOptions"] = {
+				["康樂股長-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "德鲁伊: 平衡",

@@ -6,6 +6,7 @@ HekiliDB = {
 	},
 	["profileKeys"] = {
 		["碼農巴菲特 - 伊弗斯"] = "Default",
+		["康樂股長 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["巴非特 - 伊弗斯"] = "Default",
@@ -70,13 +71,13 @@ HekiliDB = {
 					["keybindings"] = {
 						["fontSize"] = 11,
 					},
-					["x"] = -35.55280303955078,
+					["x"] = -38.46723175048828,
 					["primaryHeight"] = 40,
 					["delays"] = {
 						["fontSize"] = 11,
 					},
 					["elvuiCooldown"] = true,
-					["y"] = -111.9238739013672,
+					["y"] = -114.8384857177734,
 				},
 				["AOE"] = {
 					["delays"] = {
@@ -116,22 +117,11 @@ HekiliDB = {
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["toggles"] = {
-				["potions"] = {
-					["key"] = "ALT-SHIFT-R",
-				},
-				["essences"] = {
-					["value"] = false,
-					["override"] = false,
-				},
-				["cooldowns"] = {
-					["key"] = "",
-				},
-			},
 			["runOnce"] = {
 				["forceReloadAllDefaultPriorities_20220228"] = true,
 				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
 				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+				["forceReloadClassDefaultOptions_20220306_11"] = true,
 				["forceReloadClassDefaultOptions_20220306_9"] = true,
 				["forceReloadClassDefaultOptions_20220306_2"] = true,
 				["forceReloadClassDefaultOptions_20220306_3"] = true,
@@ -177,8 +167,8 @@ HekiliDB = {
 						["holy"] = "Holy Paladin (wowtbc.gg)",
 						["maintain_aura"] = false,
 						["hor_macros"] = true,
-						["fol_on_aow"] = true,
 						["judgement_of_wisdom_threshold"] = 70,
+						["fol_on_aow"] = true,
 						["assigned_aura"] = "concentration_aura",
 						["primary_slack"] = 0.5,
 						["holy_wrath_threshold"] = 2,
@@ -208,6 +198,30 @@ HekiliDB = {
 					},
 					["package"] = "Survival (wowtbc.gg)",
 				}, -- [3]
+				[11] = {
+					["settings"] = {
+						["balance"] = "Balance (IV)",
+						["bearweaving_enabled"] = true,
+						["lunar_cooldown_leeway"] = 14,
+						["min_roar_offset"] = 24,
+						["bearweaving_instancetype"] = "raid",
+						["min_bite_rip_remains"] = 4,
+						["max_ff_energy"] = 15,
+						["min_bite_sr_remains"] = 4,
+						["feral_dps"] = "Feral DPS (IV)",
+						["max_bite_energy"] = 25,
+						["optimize_rake"] = false,
+						["feral_tank"] = "Feral Tank (IV)",
+						["bearweaving_bossonly"] = true,
+						["ferociousbite_enabled"] = true,
+						["rip_leeway"] = 3,
+					},
+					["autoPacks"] = {
+						["feral_tank"] = "Feral Tank (IV)",
+						["balance"] = "Balance (IV)",
+						["feral_dps"] = "Feral DPS (IV)",
+					},
+				},
 				[9] = {
 					["cycle"] = true,
 					["settings"] = {
@@ -1048,6 +1062,196 @@ HekiliDB = {
 					["author"] = "wowtbc.gg",
 					["profile"] = "## Demonology Warlock\n## 27 Feb 2023\n\nactions.precombat+=/fel_armor,if=buff.armor.down\nactions.precombat+=/summon_felguard,if=!pet.active\nactions.precombat+=/summon_voidwalker,if=!pet.active\nactions.precombat+=/summon_imp,if=!pet.active\nactions.precombat+=/life_tap,if=glyph.life_tap.enabled&buff.life_tap.down\nactions.precombat+=/potion\nactions.precombat+=/soul_fire,if=talent.improved_shadow_bolt.enabled\n\nactions+=/demonic_empowerment\nactions+=/potion\nactions+=/immolate,if=!ticking&target.time_to_die>dot.immolate.duration\nactions+=/group_curse,if=debuff.my_curse.down&curse_grouped\nactions+=/solo_curse,if=debuff.my_curse.down\nactions+=/corruption,if=!ticking&target.time_to_die>dot.corruption.duration\nactions+=/metamorphosis,if=fight_remains>210||boss&fight_remains<40\nactions+=/use_items\nactions+=/demon_charge,if=buff.metamorphosis.up&target.distance>8\nactions+=/immolation_aura,if=!up\nactions+=/call_action_list,name=aoe,strict=1,if=active_enemies>1\nactions+=/shadow_bolt,if=talent.improved_shadow_bolt.enabled&debuff.shadow_mastery.remains<cast_time+2\nactions+=/life_tap,if=glyph.life_tap.enabled&buff.life_tap.down\nactions+=/metamorphosis\nactions+=/soul_fire,if=talent.decimation.enabled&target.health.pct<35&target.time_to_die>cast_time\nactions+=/incinerate,if=buff.molten_core.up\nactions+=/shadow_bolt\n\nactions.aoe+=/metamorphosis,if=active_enemies>3\nactions.aoe+=/immolation_aura,if=!up\nactions.aoe+=/shadowflame,if=active_enemies>3\nactions.aoe+=/seed_of_corruption,if=active_enemies>3\nactions.aoe+=/corruption,cycle_targets=1,if=!ticking&active_enemies<4\nactions.aoe+=/immolate,cycle_targets=1,if=!ticking&active_enemies<4",
 				},
+				["Feral Tank (IV)"] = {
+					["builtIn"] = true,
+					["date"] = 20230206,
+					["spec"] = 11,
+					["desc"] = "WotLK Feral Druid Tank Priorities\n\nToggle advanced rotation recommendations in the class options.",
+					["profile"] = "# APL v3.4.1-1.6.0 #\nactions.precombat+=/mark_of_the_wild,if=!up&!buff.gift_of_the_wild.up\nactions.precombat+=/thorns,if=!up\nactions.precombat+=/dire_bear_form,if=!up\nactions.precombat+=/potion\n\nactions+=/call_action_list,name=init\nactions+=/use_items\nactions+=/potion\nactions+=/hyperspeed_acceleration,use_off_gcd=1\nactions+=/run_action_list,name=bear_aoe,if=buff.dire_bear_form.up&active_enemies>4\nactions+=/run_action_list,name=bear,if=buff.dire_bear_form.up\nactions+=/dire_bear_form,if=!up\n\nactions.init+=/variable,name=time_to_die,value=(debuff.training_dummy.up&300)||target.time_to_die\nactions.init+=/variable,name=build_lacerate,value=!debuff.lacerate.up||debuff.lacerate.stack<5\nactions.init+=/variable,name=build_lacerate_cost,op=setif,if=variable.build_lacerate,value=action.lacerate.spend*(5-debuff.lacerate.stack),value_else=0\nactions.init+=/variable,name=maintain_lacerate,value=!variable.build_lacerate&debuff.lacerate.remains<8&debuff.lacerate.remains<variable.time_to_die\nactions.init+=/variable,name=maintain_lacerate_cost,op=setif,if=variable.maintain_lacerate,value=action.lacerate.spend,value_else=0\nactions.init+=/variable,name=emergency_lacerate,value=debuff.lacerate.up&debuff.lacerate.remains<4.5&debuff.lacerate.remains<variable.time_to_die\n\nactions.bear+=/faerie_fire_feral,if=target.outside2\nactions.bear+=/enrage,use_off_gcd=1,if=time<10\nactions.bear+=/berserk\nactions.bear+=/maul,use_off_gcd=1,if=rage.current>action.maul.spend+variable.build_lacerate_cost+variable.maintain_lacerate_cost+action.mangle_bear.spend\nactions.bear+=/lacerate,if=variable.emergency_lacerate\nactions.bear+=/mangle_bear\nactions.bear+=/faerie_fire_feral\nactions.bear+=/lacerate,if=variable.build_lacerate||variable.maintain_lacerate\nactions.bear+=/swipe_bear,if=rage.current>60\n\nactions.bear_aoe+=/enrage,use_off_gcd=1,if=time<10\nactions.bear_aoe+=/berserk\nactions.bear_aoe+=/maul,cycle_targets=1,use_off_gcd=1,if=rage.current>60\nactions.bear_aoe+=/swipe_bear,cycle_targets=1",
+					["version"] = 20230206,
+					["warnings"] = "Imported 5 action lists.\n",
+					["author"] = "Defzach",
+					["basedOn"] = "Feral DPS (IV)",
+					["lists"] = {
+						["default"] = {
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["list_name"] = "init",
+							}, -- [1]
+							{
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [3]
+							{
+								["use_off_gcd"] = 1,
+								["action"] = "hyperspeed_acceleration",
+								["enabled"] = true,
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["criteria"] = "buff.dire_bear_form.up & active_enemies > 4",
+								["list_name"] = "bear_aoe",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["criteria"] = "buff.dire_bear_form.up",
+								["list_name"] = "bear",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "dire_bear_form",
+							}, -- [7]
+						},
+						["init"] = {
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "( debuff.training_dummy.up & 300 ) || target.time_to_die",
+								["var_name"] = "time_to_die",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! debuff.lacerate.up || debuff.lacerate.stack < 5",
+								["var_name"] = "build_lacerate",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "setif",
+								["action"] = "variable",
+								["var_name"] = "build_lacerate_cost",
+								["value"] = "action.lacerate.spend * ( 5 - debuff.lacerate.stack )",
+								["value_else"] = "0",
+								["criteria"] = "variable.build_lacerate",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! variable.build_lacerate & debuff.lacerate.remains < 8 & debuff.lacerate.remains < variable.time_to_die",
+								["var_name"] = "maintain_lacerate",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "setif",
+								["action"] = "variable",
+								["var_name"] = "maintain_lacerate_cost",
+								["value"] = "action.lacerate.spend",
+								["value_else"] = "0",
+								["criteria"] = "variable.maintain_lacerate",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "debuff.lacerate.up & debuff.lacerate.remains < 4.5 & debuff.lacerate.remains < variable.time_to_die",
+								["var_name"] = "emergency_lacerate",
+							}, -- [6]
+						},
+						["precombat"] = {
+							{
+								["enabled"] = true,
+								["action"] = "mark_of_the_wild",
+								["description"] = "APL v3.4.1-1.6.0 #",
+								["criteria"] = "! up & ! buff.gift_of_the_wild.up",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "thorns",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "dire_bear_form",
+							}, -- [3]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [4]
+						},
+						["bear_aoe"] = {
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "time < 10",
+								["action"] = "enrage",
+							}, -- [1]
+							{
+								["action"] = "berserk",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["action"] = "maul",
+								["cycle_targets"] = 1,
+								["use_off_gcd"] = 1,
+								["criteria"] = "rage.current > 60",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "swipe_bear",
+								["cycle_targets"] = 1,
+							}, -- [4]
+						},
+						["bear"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "target.outside2",
+								["action"] = "faerie_fire_feral",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "time < 10",
+								["action"] = "enrage",
+							}, -- [2]
+							{
+								["action"] = "berserk",
+								["enabled"] = true,
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "rage.current > action.maul.spend + variable.build_lacerate_cost + variable.maintain_lacerate_cost + action.mangle_bear.spend",
+								["action"] = "maul",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.emergency_lacerate",
+								["action"] = "lacerate",
+							}, -- [5]
+							{
+								["action"] = "mangle_bear",
+								["enabled"] = true,
+							}, -- [6]
+							{
+								["action"] = "faerie_fire_feral",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.build_lacerate || variable.maintain_lacerate",
+								["action"] = "lacerate",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "rage.current > 60",
+								["action"] = "swipe_bear",
+							}, -- [9]
+						},
+					},
+				},
 				["Arms (IV)"] = {
 					["builtIn"] = true,
 					["date"] = 20230211,
@@ -1541,6 +1745,409 @@ HekiliDB = {
 					["profile"] = "actions.precombat+=/retribution_aura,if=!up&settings.maintain_aura&assigned_aura.retribution_aura\nactions.precombat+=/concentration_aura,if=!up&settings.maintain_aura&assigned_aura.concentration_aura\nactions.precombat+=/crusader_aura,if=!up&settings.maintain_aura&assigned_aura.crusader_aura\nactions.precombat+=/devotion_aura,if=!up&settings.maintain_aura&assigned_aura.devotion_aura\nactions.precombat+=/fire_resistance_aura,if=!up&settings.maintain_aura&assigned_aura.fire_resistance_aura\nactions.precombat+=/frost_resistance_aura,if=!up&settings.maintain_aura&assigned_aura.frost_resistance_aura\nactions.precombat+=/shadow_resistance_aura,if=!up&settings.maintain_aura&assigned_aura.shadow_resistance_aura\nactions.precombat+=/blessing_of_kings,if=!up&settings.maintain_blessing&assigned_blessing.blessing_of_kings\nactions.precombat+=/blessing_of_might,if=!up&settings.maintain_blessing&assigned_blessing.blessing_of_might\nactions.precombat+=/blessing_of_sanctuary,if=!up&settings.maintain_blessing&assigned_blessing.blessing_of_sanctuary\nactions.precombat+=/blessing_of_wisdom,if=!up&settings.maintain_blessing&assigned_blessing.blessing_of_wisdom\n\nactions+=/hand_of_reckoning,use_off_gcd=1,if=!settings.hor_macros & glyph.reckoning.enabled & (debuff.training_dummy.up  ||!aggro )\nactions+=/seal_of_vengeance,if=buff.seal.down&active_enemies=1\nactions+=/seal_of_command,if=buff.seal.down&active_enemies>1\nactions+=/avenging_wrath\nactions+=/potion\nactions+=/use_items\nactions+=/hammer_of_wrath,if=buff.avenging_wrath.up\nactions+=/hyperspeed_acceleration\nactions+=/judgement_of_wisdom,if=mana.percent<settings.judgement_of_wisdom_threshold\nactions+=/judgement_of_light\nactions+=/divine_storm,if=set_bonus.tier10_2pc=1\nactions+=/consecration,if=!moving&active_enemies>1&!buff.active_consecration.up\nactions+=/hammer_of_wrath\nactions+=/holy_wrath,if=(target.is_demon||target.is_undead)&active_enemies>=settings.holy_wrath_threshold\nactions+=/divine_plea,if=mana.percent<settings.divine_plea_threshold\nactions+=/divine_storm,if=active_enemies > 1\nactions+=/crusader_strike\nactions+=/divine_storm\nactions+=/exorcism,if=(target.is_demon||target.is_undead)&buff.the_art_of_war.up&next_primary_at > settings.primary_slack\nactions+=/consecration,if=!buff.active_consecration.up&next_primary_at > settings.primary_slack\nactions+=/exorcism,if=buff.the_art_of_war.up&next_primary_at > settings.primary_slack\nactions+=/holy_wrath,if=(target.is_demon || target.is_undead)\nactions+=/flash_of_light,if=settings.fol_on_aow & buff.the_art_of_war.up & next_primary_at > primary_slack &  ! buff.divine_plea.up & cooldown.exorcism.remains >6",
 					["author"] = "Supernuss",
 				},
+				["Fury (IV)"] = {
+					["builtIn"] = true,
+					["date"] = 20230209,
+					["spec"] = 1,
+					["desc"] = "Fury Warrior priority for Hekili",
+					["profile"] = "# APL v3.4.1-1.7.0 #\nactions.precombat+=/berserker_stance,if=buff.stance.down\nactions.precombat+=/commanding_shout,if=shout_spell_commanding&buff.my_battle_shout.down&buff.my_commanding_shout.down\nactions.precombat+=/battle_shout,if=shout_spell_battle&buff.my_battle_shout.down&buff.my_commanding_shout.down\n\nactions+=/call_action_list,name=init\nactions+=/sunder_armor,if=variable.should_sunder&variable.emergency_sunder\nactions+=/pummel\nactions+=/run_action_list,name=berserker_stance,if=buff.berserker_stance.up\nactions+=/run_action_list,name=battle_stance,if=buff.battle_stance.up\nactions+=/run_action_list,name=defensive_stance,if=buff.defensive_stance.up\n\nactions.init+=/variable,name=time_to_die,value=(debuff.training_dummy.up&300)||target.time_to_die\nactions.init+=/variable,name=execute_phase,value=target.health.pct<20\nactions.init+=/variable,name=should_slam_over_execute,value=!variable.execute_phase||settings.execute_slam_prio\nactions.init+=/variable,name=should_bloodthirst,value=!variable.execute_phase||settings.execute_bloodthirst_enabled\nactions.init+=/variable,name=should_whirlwind,value=!variable.execute_phase||settings.execute_whirlwind_enabled\nactions.init+=/variable,name=should_sunder,value=settings.debuff_sunder_enabled&variable.time_to_die>((5-debuff.sunder_armor.stack)*(1.5+latency))+3\nactions.init+=/variable,name=build_sunder,value=!debuff.major_armor_reduction.up||(debuff.sunder_armor.up&debuff.sunder_armor.stack<5)\nactions.init+=/variable,name=maintain_sunder,value=!variable.build_sunder&debuff.sunder_armor.stack=5&debuff.sunder_armor.remains<7&cooldown.bloodthirst.remains&cooldown.whirlwind.remains&!buff.bloodsurge.up\nactions.init+=/variable,name=emergency_sunder,value=debuff.sunder_armor.up&debuff.sunder_armor.remains<1.5\nactions.init+=/variable,name=should_rend,value=cooldown.bloodthirst.remains>=settings.rend_cooldown_threshold&cooldown.whirlwind.remains>=settings.rend_cooldown_threshold&cooldown.recklessness.remains>1.5&cooldown.death_wish.remains>1.5&!buff.bloodsurge.up&debuff.rend.remains<=settings.rend_refresh_time&!buff.recklessness.up&!buff.death_wish.up&rage.current>=10&rage.current<=rend_rage_threshold&target.health.pct>=settings.rend_health_threshold\nactions.init+=/variable,name=rendweave_now,value=settings.rendweaving_enabled&variable.should_rend\n\nactions.berserker_stance+=/bloodrage,use_off_gcd=1,if=rage.deficit>20\nactions.berserker_stance+=/heroic_strike,use_off_gcd=1,if=rage.current>=settings.queueing_threshold&active_enemies=1&!buff.recklessness.up&(!variable.execute_phase||settings.execute_queueing_enabled)\nactions.berserker_stance+=/cleave,use_off_gcd=1,if=rage.current>=settings.queueing_threshold&active_enemies>1&!buff.recklessness.up&(!variable.execute_phase||settings.execute_queueing_enabled)\nactions.berserker_stance+=/sunder_armor,if=variable.should_sunder&(variable.build_sunder||variable.maintain_sunder)\nactions.berserker_stance+=/death_wish,if=debuff.major_armor_reduction.up&!debuff.sunder_armor.up||debuff.sunder_armor.stack=5\nactions.berserker_stance+=/use_items,use_off_gcd=1\nactions.berserker_stance+=/hyperspeed_acceleration,use_off_gcd=1\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up&main_gcd_spell_slam&variable.should_slam_over_execute\nactions.berserker_stance+=/bloodthirst,if=variable.should_bloodthirst&main_gcd_spell_bt\nactions.berserker_stance+=/whirlwind,if=variable.should_whirlwind&main_gcd_spell_ww\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up&variable.should_slam_over_execute\nactions.berserker_stance+=/bloodthirst,if=variable.should_bloodthirst\nactions.berserker_stance+=/whirlwind,if=variable.should_whirlwind\nactions.berserker_stance+=/recklessness,if=(buff.death_wish.up||debuff.shattering_throw.up)\nactions.berserker_stance+=/execute\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up\nactions.berserker_stance+=/demoralizing_shout,if=settings.debuff_demoshout_enabled&!debuff.demoralizing_shout.up\nactions.berserker_stance+=/battle_stance,use_off_gcd=1,if=variable.rendweave_now\n\nactions.battle_stance+=/shattering_throw,if=buff.bloodlust.up&debuff.shattering_throw.down\nactions.battle_stance+=/berserker_stance,use_off_gcd=1,if=(cooldown.bloodthirst.up||cooldown.whirlwind.up||rage.current<10)&(debuff.shattering_throw.up||!buff.bloodlust.up)\nactions.battle_stance+=/rend,if=!up\n\nactions.defensive_stance+=/berserker_stance,use_off_gcd=1",
+					["version"] = 20230209,
+					["warnings"] = "Imported 6 action lists.\n",
+					["lists"] = {
+						["default"] = {
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["list_name"] = "init",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.should_sunder & variable.emergency_sunder",
+								["action"] = "sunder_armor",
+							}, -- [2]
+							{
+								["action"] = "pummel",
+								["enabled"] = true,
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["criteria"] = "buff.berserker_stance.up",
+								["list_name"] = "berserker_stance",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["criteria"] = "buff.battle_stance.up",
+								["list_name"] = "battle_stance",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["criteria"] = "buff.defensive_stance.up",
+								["list_name"] = "defensive_stance",
+							}, -- [6]
+						},
+						["precombat"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.stance.down",
+								["action"] = "berserker_stance",
+								["description"] = "APL v3.4.1-1.7.0 #",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "shout_spell_commanding & buff.my_battle_shout.down & buff.my_commanding_shout.down",
+								["action"] = "commanding_shout",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "shout_spell_battle & buff.my_battle_shout.down & buff.my_commanding_shout.down",
+								["action"] = "battle_shout",
+							}, -- [3]
+						},
+						["defensive_stance"] = {
+							{
+								["use_off_gcd"] = 1,
+								["action"] = "berserker_stance",
+								["enabled"] = true,
+							}, -- [1]
+						},
+						["battle_stance"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.bloodlust.up & debuff.shattering_throw.down",
+								["action"] = "shattering_throw",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["action"] = "berserker_stance",
+								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "rend",
+							}, -- [3]
+						},
+						["berserker_stance"] = {
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["action"] = "bloodrage",
+								["criteria"] = "rage.deficit > 20",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["action"] = "heroic_strike",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["action"] = "cleave",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.should_sunder & ( variable.build_sunder || variable.maintain_sunder )",
+								["action"] = "sunder_armor",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.major_armor_reduction.up & ! debuff.sunder_armor.up || debuff.sunder_armor.stack = 5",
+								["action"] = "death_wish",
+							}, -- [5]
+							{
+								["use_off_gcd"] = 1,
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [6]
+							{
+								["use_off_gcd"] = 1,
+								["action"] = "hyperspeed_acceleration",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.bloodsurge.up & main_gcd_spell_slam & variable.should_slam_over_execute",
+								["action"] = "slam",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.should_bloodthirst & main_gcd_spell_bt",
+								["action"] = "bloodthirst",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.should_whirlwind & main_gcd_spell_ww",
+								["action"] = "whirlwind",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.bloodsurge.up & variable.should_slam_over_execute",
+								["action"] = "slam",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.should_bloodthirst",
+								["action"] = "bloodthirst",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.should_whirlwind",
+								["action"] = "whirlwind",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "( buff.death_wish.up || debuff.shattering_throw.up )",
+								["action"] = "recklessness",
+							}, -- [14]
+							{
+								["action"] = "execute",
+								["enabled"] = true,
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.bloodsurge.up",
+								["action"] = "slam",
+							}, -- [16]
+							{
+								["enabled"] = true,
+								["criteria"] = "settings.debuff_demoshout_enabled & ! debuff.demoralizing_shout.up",
+								["action"] = "demoralizing_shout",
+							}, -- [17]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["action"] = "battle_stance",
+								["criteria"] = "variable.rendweave_now",
+							}, -- [18]
+						},
+						["init"] = {
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "( debuff.training_dummy.up & 300 ) || target.time_to_die",
+								["var_name"] = "time_to_die",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "target.health.pct < 20",
+								["var_name"] = "execute_phase",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! variable.execute_phase || settings.execute_slam_prio",
+								["var_name"] = "should_slam_over_execute",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! variable.execute_phase || settings.execute_bloodthirst_enabled",
+								["var_name"] = "should_bloodthirst",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! variable.execute_phase || settings.execute_whirlwind_enabled",
+								["var_name"] = "should_whirlwind",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "settings.debuff_sunder_enabled & variable.time_to_die > ( ( 5 - debuff.sunder_armor.stack ) * ( 1.5 + latency ) ) + 3",
+								["var_name"] = "should_sunder",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! debuff.major_armor_reduction.up || ( debuff.sunder_armor.up & debuff.sunder_armor.stack < 5 )",
+								["var_name"] = "build_sunder",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! variable.build_sunder & debuff.sunder_armor.stack = 5 & debuff.sunder_armor.remains < 7 & cooldown.bloodthirst.remains & cooldown.whirlwind.remains & ! buff.bloodsurge.up",
+								["var_name"] = "maintain_sunder",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "debuff.sunder_armor.up & debuff.sunder_armor.remains < 1.5",
+								["var_name"] = "emergency_sunder",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "cooldown.bloodthirst.remains >= settings.rend_cooldown_threshold & cooldown.whirlwind.remains >= settings.rend_cooldown_threshold & cooldown.recklessness.remains > 1.5 & cooldown.death_wish.remains > 1.5 & ! buff.bloodsurge.up & debuff.rend.remains <= settings.rend_refresh_time & ! buff.recklessness.up & ! buff.death_wish.up & rage.current >= 10 & rage.current <= rend_rage_threshold & target.health.pct >= settings.rend_health_threshold",
+								["var_name"] = "should_rend",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "settings.rendweaving_enabled & variable.should_rend",
+								["var_name"] = "rendweave_now",
+							}, -- [11]
+						},
+					},
+					["author"] = "Defzach",
+				},
+				["Marksmanship"] = {
+					["builtIn"] = true,
+					["date"] = 20230226,
+					["spec"] = 3,
+					["desc"] = "Marksmanship hunter priority for Hekili",
+					["lists"] = {
+						["aoe"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "target.within5",
+								["action"] = "explosive_trap",
+							}, -- [1]
+							{
+								["action"] = "multishot",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "active_enemies >= 3",
+								["action"] = "volley",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.stings.down",
+								["action"] = "serpent_sting",
+							}, -- [4]
+							{
+								["action"] = "chimera_shot",
+								["enabled"] = true,
+							}, -- [5]
+						},
+						["default"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "active_enemies >= 2",
+								["action"] = "run_action_list",
+								["list_name"] = "aoe",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["list_name"] = "st",
+							}, -- [2]
+						},
+						["st"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "action.aspect_of_the_viper.time_since < 6 & buff.aspect_of_the_viper.up & cooldown.chimera_shot.remains > 0",
+								["action"] = "steady_shot",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "down & mana.percent > 25",
+								["action"] = "aspect_of_the_dragonhawk",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "down",
+								["action"] = "hunters_mark",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.rapid_fire.down",
+								["action"] = "rapid_fire",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.call_of_the_wild.down",
+								["action"] = "call_of_the_wild",
+							}, -- [5]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [6]
+							{
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["action"] = "hyperspeed_acceleration",
+								["enabled"] = true,
+							}, -- [8]
+							{
+								["action"] = "kill_shot",
+								["enabled"] = true,
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.stings.down",
+								["action"] = "serpent_sting",
+							}, -- [10]
+							{
+								["action"] = "chimera_shot",
+								["enabled"] = true,
+							}, -- [11]
+							{
+								["action"] = "aimed_shot",
+								["enabled"] = true,
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "( cooldown.rapid_fire.remains >= 150 || cooldown.rapid_fire.remains > target.time_to_die ) & cooldown.chimera_shot.remains > 0 & cooldown.aimed_shot.remains > 0",
+								["action"] = "readiness",
+							}, -- [13]
+							{
+								["action"] = "arcane_shot",
+								["enabled"] = true,
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "settings.suggest_explosive_st",
+								["action"] = "explosive_trap",
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "settings.manage_mana_viper & mana.percent <= 25",
+								["action"] = "aspect_of_the_viper",
+							}, -- [16]
+							{
+								["action"] = "steady_shot",
+								["enabled"] = true,
+							}, -- [17]
+						},
+						["precombat"] = {
+							{
+								["action"] = "aspect_of_the_dragonhawk",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "down",
+								["action"] = "hunters_mark",
+							}, -- [2]
+						},
+					},
+					["version"] = 20230226,
+					["warnings"] = "Imported 4 action lists.\n",
+					["profile"] = "actions.precombat+=/aspect_of_the_dragonhawk\nactions.precombat+=/hunters_mark,if=down\nactions+=/run_action_list,name=aoe,if=active_enemies>=2\nactions+=/run_action_list,name=st\n\nactions.st+=/steady_shot,if=action.aspect_of_the_viper.time_since<6&buff.aspect_of_the_viper.up&cooldown.chimera_shot.remains>0\nactions.st+=/aspect_of_the_dragonhawk,if=down&mana.percent>25\nactions.st+=/hunters_mark,if=down\nactions.st+=/rapid_fire,if=buff.rapid_fire.down\nactions.st+=/call_of_the_wild,if=buff.call_of_the_wild.down\nactions.st+=/potion\nactions.st+=/use_items\nactions.st+=/hyperspeed_acceleration\nactions.st+=/kill_shot\nactions.st+=/serpent_sting,if=debuff.stings.down\nactions.st+=/chimera_shot\nactions.st+=/aimed_shot\nactions.st+=/readiness,if=(cooldown.rapid_fire.remains>=150||cooldown.rapid_fire.remains>target.time_to_die)&cooldown.chimera_shot.remains>0&cooldown.aimed_shot.remains>0\nactions.st+=/arcane_shot\nactions.st+=/explosive_trap,if=settings.suggest_explosive_st\nactions.st+=/aspect_of_the_viper,if=settings.manage_mana_viper&mana.percent<=25\nactions.st+=/steady_shot\n\nactions.aoe+=/explosive_trap,if=target.within5\nactions.aoe+=/multishot\nactions.aoe+=/volley,if=active_enemies>=3\nactions.aoe+=/serpent_sting,if=debuff.stings.down\nactions.aoe+=/chimera_shot",
+					["author"] = "TheEmsleyan",
+				},
 				["Affliction (wowtbc.gg)"] = {
 					["source"] = "https://wowtbc.gg/wotlk/class-guides/affliction-warlock/",
 					["builtIn"] = true,
@@ -1950,15 +2557,241 @@ HekiliDB = {
 					["author"] = "Defox",
 					["profile"] = "actions.precombat+=/berserker_stance,if=buff.stance.down\nactions.precombat+=/commanding_shout,if=assigned_shout.commanding_shout&buff.my_battle_shout.down&buff.my_commanding_shout.down\nactions.precombat+=/battle_shout,if=assigned_shout.battle_shout&buff.my_battle_shout.down&buff.my_commanding_shout.down\n\nactions+=/call_action_list,name=init\nactions+=/sunder_armor,if=variable.should_sunder&variable.emergency_sunder\nactions+=/pummel\nactions+=/run_action_list,name=berserker_stance,if=buff.berserker_stance.up\nactions+=/run_action_list,name=battle_stance,if=buff.battle_stance.up\nactions+=/run_action_list,name=defensive_stance,if=buff.defensive_stance.up\n\nactions.init+=/variable,name=time_to_die,value=(debuff.training_dummy.up&300)||target.time_to_die\nactions.init+=/variable,name=execute_phase,value=target.health.pct<20\nactions.init+=/variable,name=should_slam_over_execute,value=!variable.execute_phase||settings.execute_slam_prio\nactions.init+=/variable,name=should_bloodthirst,value=!variable.execute_phase||settings.execute_bloodthirst_enabled\nactions.init+=/variable,name=should_whirlwind,value=!variable.execute_phase||settings.execute_whirlwind_enabled\nactions.init+=/variable,name=should_sunder,value=settings.debuff_sunder_enabled&variable.time_to_die>((5-debuff.sunder_armor.stack)*(1.5+latency))+3\nactions.init+=/variable,name=build_sunder,value=!debuff.major_armor_reduction.up||(debuff.sunder_armor.up&debuff.sunder_armor.stack<5)\nactions.init+=/variable,name=maintain_sunder,value=!variable.build_sunder&debuff.sunder_armor.stack=5&debuff.sunder_armor.remains<7&cooldown.bloodthirst.remains&cooldown.whirlwind.remains&!buff.bloodsurge.up\nactions.init+=/variable,name=emergency_sunder,value=debuff.sunder_armor.up&debuff.sunder_armor.remains<1.5\nactions.init+=/variable,name=should_rend,value=cooldown.bloodthirst.remains>=settings.rend_cooldown_threshold&cooldown.whirlwind.remains>=settings.rend_cooldown_threshold&cooldown.recklessness.remains>1.5&cooldown.death_wish.remains>1.5&!buff.bloodsurge.up&debuff.rend.remains<=settings.rend_refresh_time&!buff.recklessness.up&!buff.death_wish.up&rage.current>=10&rage.current<=rend_rage_threshold&target.health.pct>=settings.rend_health_threshold\nactions.init+=/variable,name=rendweave_now,value=settings.rendweaving_enabled&variable.should_rend\n\nactions.berserker_stance+=/bloodrage,use_off_gcd=1,if=rage.deficit>20\nactions.berserker_stance+=/heroic_strike,use_off_gcd=1,if=rage.current>=settings.queueing_threshold&active_enemies=1&!buff.recklessness.up&(!variable.execute_phase||settings.execute_queueing_enabled)\nactions.berserker_stance+=/cleave,use_off_gcd=1,if=rage.current>=settings.queueing_threshold&active_enemies>1&!buff.recklessness.up&(!variable.execute_phase||settings.execute_queueing_enabled)\nactions.berserker_stance+=/sunder_armor,if=variable.should_sunder&(variable.build_sunder||variable.maintain_sunder)\nactions.berserker_stance+=/death_wish,if=debuff.major_armor_reduction.up&!debuff.sunder_armor.up||debuff.sunder_armor.stack=5\nactions.berserker_stance+=/use_items,use_off_gcd=1\nactions.berserker_stance+=/hyperspeed_acceleration,use_off_gcd=1\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up&main_gcd_spell_slam&variable.should_slam_over_execute\nactions.berserker_stance+=/bloodthirst,if=variable.should_bloodthirst&main_gcd_spell_bt\nactions.berserker_stance+=/whirlwind,if=variable.should_whirlwind&main_gcd_spell_ww\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up&variable.should_slam_over_execute\nactions.berserker_stance+=/bloodthirst,if=variable.should_bloodthirst\nactions.berserker_stance+=/whirlwind,if=variable.should_whirlwind\nactions.berserker_stance+=/recklessness,if=(buff.death_wish.up||debuff.shattering_throw.up)\nactions.berserker_stance+=/execute\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up\nactions.berserker_stance+=/demoralizing_shout,if=settings.debuff_demoshout_enabled&!debuff.demoralizing_shout.up\nactions.berserker_stance+=/battle_stance,use_off_gcd=1,if=variable.rendweave_now\n\nactions.battle_stance+=/shattering_throw,if=buff.bloodlust.up&debuff.shattering_throw.down\nactions.battle_stance+=/berserker_stance,use_off_gcd=1,if=(cooldown.bloodthirst.up||cooldown.whirlwind.up||rage.current<10)&(debuff.shattering_throw.up||!buff.bloodlust.up)\nactions.battle_stance+=/rend,if=!up\n\nactions.defensive_stance+=/berserker_stance,use_off_gcd=1",
 				},
-				["Fury (IV)"] = {
+				["Feral DPS (IV)"] = {
 					["builtIn"] = true,
-					["date"] = 20230209,
-					["spec"] = 1,
-					["desc"] = "Fury Warrior priority for Hekili",
-					["profile"] = "# APL v3.4.1-1.7.0 #\nactions.precombat+=/berserker_stance,if=buff.stance.down\nactions.precombat+=/commanding_shout,if=shout_spell_commanding&buff.my_battle_shout.down&buff.my_commanding_shout.down\nactions.precombat+=/battle_shout,if=shout_spell_battle&buff.my_battle_shout.down&buff.my_commanding_shout.down\n\nactions+=/call_action_list,name=init\nactions+=/sunder_armor,if=variable.should_sunder&variable.emergency_sunder\nactions+=/pummel\nactions+=/run_action_list,name=berserker_stance,if=buff.berserker_stance.up\nactions+=/run_action_list,name=battle_stance,if=buff.battle_stance.up\nactions+=/run_action_list,name=defensive_stance,if=buff.defensive_stance.up\n\nactions.init+=/variable,name=time_to_die,value=(debuff.training_dummy.up&300)||target.time_to_die\nactions.init+=/variable,name=execute_phase,value=target.health.pct<20\nactions.init+=/variable,name=should_slam_over_execute,value=!variable.execute_phase||settings.execute_slam_prio\nactions.init+=/variable,name=should_bloodthirst,value=!variable.execute_phase||settings.execute_bloodthirst_enabled\nactions.init+=/variable,name=should_whirlwind,value=!variable.execute_phase||settings.execute_whirlwind_enabled\nactions.init+=/variable,name=should_sunder,value=settings.debuff_sunder_enabled&variable.time_to_die>((5-debuff.sunder_armor.stack)*(1.5+latency))+3\nactions.init+=/variable,name=build_sunder,value=!debuff.major_armor_reduction.up||(debuff.sunder_armor.up&debuff.sunder_armor.stack<5)\nactions.init+=/variable,name=maintain_sunder,value=!variable.build_sunder&debuff.sunder_armor.stack=5&debuff.sunder_armor.remains<7&cooldown.bloodthirst.remains&cooldown.whirlwind.remains&!buff.bloodsurge.up\nactions.init+=/variable,name=emergency_sunder,value=debuff.sunder_armor.up&debuff.sunder_armor.remains<1.5\nactions.init+=/variable,name=should_rend,value=cooldown.bloodthirst.remains>=settings.rend_cooldown_threshold&cooldown.whirlwind.remains>=settings.rend_cooldown_threshold&cooldown.recklessness.remains>1.5&cooldown.death_wish.remains>1.5&!buff.bloodsurge.up&debuff.rend.remains<=settings.rend_refresh_time&!buff.recklessness.up&!buff.death_wish.up&rage.current>=10&rage.current<=rend_rage_threshold&target.health.pct>=settings.rend_health_threshold\nactions.init+=/variable,name=rendweave_now,value=settings.rendweaving_enabled&variable.should_rend\n\nactions.berserker_stance+=/bloodrage,use_off_gcd=1,if=rage.deficit>20\nactions.berserker_stance+=/heroic_strike,use_off_gcd=1,if=rage.current>=settings.queueing_threshold&active_enemies=1&!buff.recklessness.up&(!variable.execute_phase||settings.execute_queueing_enabled)\nactions.berserker_stance+=/cleave,use_off_gcd=1,if=rage.current>=settings.queueing_threshold&active_enemies>1&!buff.recklessness.up&(!variable.execute_phase||settings.execute_queueing_enabled)\nactions.berserker_stance+=/sunder_armor,if=variable.should_sunder&(variable.build_sunder||variable.maintain_sunder)\nactions.berserker_stance+=/death_wish,if=debuff.major_armor_reduction.up&!debuff.sunder_armor.up||debuff.sunder_armor.stack=5\nactions.berserker_stance+=/use_items,use_off_gcd=1\nactions.berserker_stance+=/hyperspeed_acceleration,use_off_gcd=1\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up&main_gcd_spell_slam&variable.should_slam_over_execute\nactions.berserker_stance+=/bloodthirst,if=variable.should_bloodthirst&main_gcd_spell_bt\nactions.berserker_stance+=/whirlwind,if=variable.should_whirlwind&main_gcd_spell_ww\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up&variable.should_slam_over_execute\nactions.berserker_stance+=/bloodthirst,if=variable.should_bloodthirst\nactions.berserker_stance+=/whirlwind,if=variable.should_whirlwind\nactions.berserker_stance+=/recklessness,if=(buff.death_wish.up||debuff.shattering_throw.up)\nactions.berserker_stance+=/execute\nactions.berserker_stance+=/slam,if=buff.bloodsurge.up\nactions.berserker_stance+=/demoralizing_shout,if=settings.debuff_demoshout_enabled&!debuff.demoralizing_shout.up\nactions.berserker_stance+=/battle_stance,use_off_gcd=1,if=variable.rendweave_now\n\nactions.battle_stance+=/shattering_throw,if=buff.bloodlust.up&debuff.shattering_throw.down\nactions.battle_stance+=/berserker_stance,use_off_gcd=1,if=(cooldown.bloodthirst.up||cooldown.whirlwind.up||rage.current<10)&(debuff.shattering_throw.up||!buff.bloodlust.up)\nactions.battle_stance+=/rend,if=!up\n\nactions.defensive_stance+=/berserker_stance,use_off_gcd=1",
-					["version"] = 20230209,
+					["date"] = 20230409,
+					["spec"] = 11,
+					["desc"] = "WotLK Feral Druid Priorities\n\nToggle advanced rotation recommendations in the class options.",
+					["profile"] = "actions.precombat+=/mark_of_the_wild,if=!up&!buff.gift_of_the_wild.up\nactions.precombat+=/thorns,if=!up\nactions.precombat+=/cat_form,if=!up\nactions.precombat+=/potion\n\nactions+=/call_action_list,name=init\nactions+=/use_items\nactions+=/potion\nactions+=/hyperspeed_acceleration,use_off_gcd=1,if=set_bonus.tier7feral_4pc=1&(buff.tigers_fury.up||cooldown.tigers_fury.remains>=15)\nactions+=/run_action_list,name=bear,if=buff.dire_bear_form.up\nactions+=/run_action_list,name=cat_aoe,if=buff.cat_form.up&active_enemies>2\nactions+=/run_action_list,name=cat,if=buff.cat_form.up\nactions+=/cat_form,if=!up\n\nactions.init+=/variable,name=time_to_die,value=ttd\nactions.init+=/variable,name=end_thresh,value=end_thresh\nactions.init+=/variable,name=furor_cap,value=furor_cap\nactions.init+=/variable,name=bite_at_end,value=combo_points.current=5&(variable.time_to_die<variable.end_thresh||debuff.rip.up&variable.time_to_die-debuff.rip.remains<variable.end_thresh)\nactions.init+=/variable,name=bite_before_rip,value=combo_points.current=5&debuff.rip.remains>=settings.min_bite_rip_remains&buff.savage_roar.remains>=settings.min_bite_sr_remains\nactions.init+=/variable,name=bite_during_berserk,value=buff.berserk.up&energy.current<=settings.max_bite_energy\nactions.init+=/variable,name=ff_during_berserk,value=energy.current<=settings.max_ff_energy\nactions.init+=/variable,name=wait_for_tf,value=cooldown.tigers_fury.remains<=buff.berserk.duration&cooldown.tigers_fury.remains+1<variable.time_to_die-buff.berserk.duration\nactions.init+=/variable,name=rip_now,value=!debuff.rip.up&combo_points.current=5&variable.time_to_die>=variable.end_thresh\n\nactions.cat+=/faerie_fire_feral,if=!buff.clearcasting.up&(target.outside2||buff.berserk.up&variable.ff_during_berserk||!buff.berserk.up&energy.current<87)&(!variable.rip_now||energy.current<action.rip.spend)\nactions.cat+=/tigers_fury,use_off_gcd=1,if=energy.current<30-(buff.clearcasting.up&15||0)\nactions.cat+=/berserk,if=!variable.wait_for_tf&debuff.rip.up&!buff.clearcasting.up\nactions.cat+=/savage_roar,if=!up\nactions.cat+=/savage_roar,if=debuff.rip.up&buff.savage_roar.up&buff.savage_roar.remains-(rip_maxremains+settings.rip_leeway)<=0&rip_maxremains+settings.min_roar_offset<=sr_new_duration&!buff.clearcasting.up\nactions.cat+=/shred,if=buff.clearcasting.up&debuff.bleed.up&debuff.mangle.up\nactions.cat+=/mangle_cat,if=buff.clearcasting.up&!debuff.mangle.up\nactions.cat+=/rip,if=variable.rip_now\nactions.cat+=/rake,if=buff.clearcasting.up&!debuff.bleed.up&variable.time_to_die>=debuff.rake.duration\nactions.cat+=/ferocious_bite,if=settings.ferociousbite_enabled&energy.current<67&!buff.clearcasting.up&(variable.bite_at_end||variable.bite_before_rip)&(!buff.berserk.up||variable.bite_during_berserk)\nactions.cat+=/rake,if=!up&(combo_points.current<5||(energy.current-action.rake.spend+debuff.rip.remains*10>=action.rip.spend&energy.current-action.rake.spend+buff.savage_roar.remains*10>=action.savage_roar.spend))&(should_rake||!debuff.bleed.up)\nactions.cat+=/mangle_cat,if=!debuff.mangle.up||(debuff.mangle.remains<2&energy.current-action.mangle_cat.spend+debuff.rip.remains*10>=action.rip.spend&energy.current-action.mangle_cat.spend+buff.savage_roar.remains*10>=action.savage_roar.spend)\nactions.cat+=/dire_bear_form,if=should_bearweave\nactions.cat+=/shred,if=((combo_points.current<5||energy.current-action.shred.spend+debuff.rip.remains*10>=action.rip.spend)&(combo_points.current=0||energy.current-action.shred.spend+buff.savage_roar.remains*10>=action.savage_roar.spend)&(rip_canextend||!should_rake||energy.current-action.shred.spend+debuff.rake.remains*10>=action.rake.spend))||energy.current=100\n\nactions.cat_aoe+=/faerie_fire_feral,if=!buff.clearcasting.up&(buff.berserk.up&variable.ff_during_berserk||!buff.berserk.up&energy.current<87)\nactions.cat_aoe+=/tigers_fury,use_off_gcd=1,if=energy.current<30-(buff.clearcasting.up&15||0)\nactions.cat_aoe+=/berserk,if=energy.current>60&cooldown.tigers_fury.remains>=15\nactions.cat_aoe+=/swipe_cat,if=buff.clearcasting.up\nactions.cat_aoe+=/savage_roar,if=!up\nactions.cat_aoe+=/rake,if=!up&(combo_points.current=0||(set_bonus.tier8feral_2pc=1&combo_points.current<5))&(variable.time_to_die>buff.savage_roar.remains+1.5+latency)&!buff.clearcasting.up\nactions.cat_aoe+=/swipe_cat\n\nactions.bear+=/faerie_fire_feral,if=!buff.clearcasting.up\nactions.bear+=/cat_form,if=should_cat\nactions.bear+=/enrage,use_off_gcd=1,if=cooldown.mangle_bear.up\nactions.bear+=/maul,use_off_gcd=1,if=!up&!buff.clearcasting.up&rage.current>=action.maul.spend+(cooldown.mangle_bear.up&action.mangle_bear.spend||0)\nactions.bear+=/mangle_bear",
+					["version"] = 20230409,
 					["warnings"] = "Imported 6 action lists.\n",
+					["author"] = "Defzach",
+					["basedOn"] = "Feral DPS (IV)",
 					["lists"] = {
+						["cat"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.clearcasting.up & ( target.outside2 || buff.berserk.up & variable.ff_during_berserk || ! buff.berserk.up & energy.current < 87 ) & ( ! variable.rip_now || energy.current < action.rip.spend )",
+								["action"] = "faerie_fire_feral",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "energy.current < 30 - ( buff.clearcasting.up & 15 || 0 )",
+								["action"] = "tigers_fury",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! variable.wait_for_tf & debuff.rip.up & ! buff.clearcasting.up",
+								["action"] = "berserk",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "savage_roar",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.rip.up & buff.savage_roar.up & buff.savage_roar.remains - ( rip_maxremains + settings.rip_leeway ) <= 0 & rip_maxremains + settings.min_roar_offset <= sr_new_duration & ! buff.clearcasting.up",
+								["action"] = "savage_roar",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.clearcasting.up & debuff.bleed.up & debuff.mangle.up",
+								["action"] = "shred",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.clearcasting.up & ! debuff.mangle.up",
+								["action"] = "mangle_cat",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.rip_now",
+								["action"] = "rip",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.clearcasting.up & ! debuff.bleed.up & variable.time_to_die >= debuff.rake.duration",
+								["action"] = "rake",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "settings.ferociousbite_enabled & energy.current < 67 & ! buff.clearcasting.up & ( variable.bite_at_end || variable.bite_before_rip ) & ( ! buff.berserk.up || variable.bite_during_berserk )",
+								["action"] = "ferocious_bite",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up & ( combo_points.current < 5 || ( energy.current - action.rake.spend + debuff.rip.remains * 10 >= action.rip.spend & energy.current - action.rake.spend + buff.savage_roar.remains * 10 >= action.savage_roar.spend ) ) & ( should_rake || ! debuff.bleed.up )",
+								["action"] = "rake",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "! debuff.mangle.up || ( debuff.mangle.remains < 2 & energy.current - action.mangle_cat.spend + debuff.rip.remains * 10 >= action.rip.spend & energy.current - action.mangle_cat.spend + buff.savage_roar.remains * 10 >= action.savage_roar.spend )",
+								["action"] = "mangle_cat",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "should_bearweave",
+								["action"] = "dire_bear_form",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "( ( combo_points.current < 5 || energy.current - action.shred.spend + debuff.rip.remains * 10 >= action.rip.spend ) & ( combo_points.current = 0 || energy.current - action.shred.spend + buff.savage_roar.remains * 10 >= action.savage_roar.spend ) & ( rip_canextend || ! should_rake || energy.current - action.shred.spend + debuff.rake.remains * 10 >= action.rake.spend ) ) || energy.current = 100",
+								["action"] = "shred",
+							}, -- [14]
+						},
+						["precombat"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "! up & ! buff.gift_of_the_wild.up",
+								["action"] = "mark_of_the_wild",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "thorns",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "cat_form",
+							}, -- [3]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [4]
+						},
+						["cat_aoe"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.clearcasting.up & ( buff.berserk.up & variable.ff_during_berserk || ! buff.berserk.up & energy.current < 87 )",
+								["action"] = "faerie_fire_feral",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "energy.current < 30 - ( buff.clearcasting.up & 15 || 0 )",
+								["action"] = "tigers_fury",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "energy.current > 60 & cooldown.tigers_fury.remains >= 15",
+								["action"] = "berserk",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.clearcasting.up",
+								["action"] = "swipe_cat",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "savage_roar",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up & ( combo_points.current = 0 || ( set_bonus.tier8feral_2pc = 1 & combo_points.current < 5 ) ) & ( variable.time_to_die > buff.savage_roar.remains + 1.5 + latency ) & ! buff.clearcasting.up",
+								["action"] = "rake",
+							}, -- [6]
+							{
+								["action"] = "swipe_cat",
+								["enabled"] = true,
+							}, -- [7]
+						},
+						["bear"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.clearcasting.up",
+								["action"] = "faerie_fire_feral",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "should_cat",
+								["action"] = "cat_form",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "cooldown.mangle_bear.up",
+								["action"] = "enrage",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "! up & ! buff.clearcasting.up & rage.current >= action.maul.spend + ( cooldown.mangle_bear.up & action.mangle_bear.spend || 0 )",
+								["action"] = "maul",
+							}, -- [4]
+							{
+								["action"] = "mangle_bear",
+								["enabled"] = true,
+							}, -- [5]
+						},
+						["init"] = {
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "ttd",
+								["var_name"] = "time_to_die",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "end_thresh",
+								["var_name"] = "end_thresh",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "furor_cap",
+								["var_name"] = "furor_cap",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "combo_points.current = 5 & ( variable.time_to_die < variable.end_thresh || debuff.rip.up & variable.time_to_die - debuff.rip.remains < variable.end_thresh )",
+								["var_name"] = "bite_at_end",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "combo_points.current = 5 & debuff.rip.remains >= settings.min_bite_rip_remains & buff.savage_roar.remains >= settings.min_bite_sr_remains",
+								["var_name"] = "bite_before_rip",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "buff.berserk.up & energy.current <= settings.max_bite_energy",
+								["var_name"] = "bite_during_berserk",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "energy.current <= settings.max_ff_energy",
+								["var_name"] = "ff_during_berserk",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "cooldown.tigers_fury.remains <= buff.berserk.duration & cooldown.tigers_fury.remains + 1 < variable.time_to_die - buff.berserk.duration",
+								["var_name"] = "wait_for_tf",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! debuff.rip.up & combo_points.current = 5 & variable.time_to_die >= variable.end_thresh",
+								["var_name"] = "rip_now",
+							}, -- [9]
+						},
 						["default"] = {
 							{
 								["enabled"] = true,
@@ -1966,252 +2799,44 @@ HekiliDB = {
 								["list_name"] = "init",
 							}, -- [1]
 							{
+								["action"] = "use_items",
 								["enabled"] = true,
-								["criteria"] = "variable.should_sunder & variable.emergency_sunder",
-								["action"] = "sunder_armor",
 							}, -- [2]
 							{
-								["action"] = "pummel",
+								["action"] = "potion",
 								["enabled"] = true,
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["action"] = "run_action_list",
-								["criteria"] = "buff.berserker_stance.up",
-								["list_name"] = "berserker_stance",
+								["use_off_gcd"] = 1,
+								["criteria"] = "set_bonus.tier7feral_4pc = 1 & ( buff.tigers_fury.up || cooldown.tigers_fury.remains >= 15 )",
+								["action"] = "hyperspeed_acceleration",
 							}, -- [4]
 							{
 								["enabled"] = true,
 								["action"] = "run_action_list",
-								["criteria"] = "buff.battle_stance.up",
-								["list_name"] = "battle_stance",
+								["criteria"] = "buff.dire_bear_form.up",
+								["list_name"] = "bear",
 							}, -- [5]
 							{
 								["enabled"] = true,
 								["action"] = "run_action_list",
-								["criteria"] = "buff.defensive_stance.up",
-								["list_name"] = "defensive_stance",
+								["criteria"] = "buff.cat_form.up & active_enemies > 2",
+								["list_name"] = "cat_aoe",
 							}, -- [6]
-						},
-						["precombat"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.stance.down",
-								["action"] = "berserker_stance",
-								["description"] = "APL v3.4.1-1.7.0 #",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "shout_spell_commanding & buff.my_battle_shout.down & buff.my_commanding_shout.down",
-								["action"] = "commanding_shout",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "shout_spell_battle & buff.my_battle_shout.down & buff.my_commanding_shout.down",
-								["action"] = "battle_shout",
-							}, -- [3]
-						},
-						["defensive_stance"] = {
-							{
-								["use_off_gcd"] = 1,
-								["action"] = "berserker_stance",
-								["enabled"] = true,
-							}, -- [1]
-						},
-						["battle_stance"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.bloodlust.up & debuff.shattering_throw.down",
-								["action"] = "shattering_throw",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["use_off_gcd"] = 1,
-								["action"] = "berserker_stance",
-								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
-							}, -- [2]
+								["action"] = "run_action_list",
+								["criteria"] = "buff.cat_form.up",
+								["list_name"] = "cat",
+							}, -- [7]
 							{
 								["enabled"] = true,
 								["criteria"] = "! up",
-								["action"] = "rend",
-							}, -- [3]
-						},
-						["berserker_stance"] = {
-							{
-								["enabled"] = true,
-								["use_off_gcd"] = 1,
-								["action"] = "bloodrage",
-								["criteria"] = "rage.deficit > 20",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["use_off_gcd"] = 1,
-								["action"] = "heroic_strike",
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["use_off_gcd"] = 1,
-								["action"] = "cleave",
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["criteria"] = "variable.should_sunder & ( variable.build_sunder || variable.maintain_sunder )",
-								["action"] = "sunder_armor",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.major_armor_reduction.up & ! debuff.sunder_armor.up || debuff.sunder_armor.stack = 5",
-								["action"] = "death_wish",
-							}, -- [5]
-							{
-								["use_off_gcd"] = 1,
-								["action"] = "use_items",
-								["enabled"] = true,
-							}, -- [6]
-							{
-								["use_off_gcd"] = 1,
-								["action"] = "hyperspeed_acceleration",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.bloodsurge.up & main_gcd_spell_slam & variable.should_slam_over_execute",
-								["action"] = "slam",
+								["action"] = "cat_form",
 							}, -- [8]
-							{
-								["enabled"] = true,
-								["criteria"] = "variable.should_bloodthirst & main_gcd_spell_bt",
-								["action"] = "bloodthirst",
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["criteria"] = "variable.should_whirlwind & main_gcd_spell_ww",
-								["action"] = "whirlwind",
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.bloodsurge.up & variable.should_slam_over_execute",
-								["action"] = "slam",
-							}, -- [11]
-							{
-								["enabled"] = true,
-								["criteria"] = "variable.should_bloodthirst",
-								["action"] = "bloodthirst",
-							}, -- [12]
-							{
-								["enabled"] = true,
-								["criteria"] = "variable.should_whirlwind",
-								["action"] = "whirlwind",
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "( buff.death_wish.up || debuff.shattering_throw.up )",
-								["action"] = "recklessness",
-							}, -- [14]
-							{
-								["action"] = "execute",
-								["enabled"] = true,
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.bloodsurge.up",
-								["action"] = "slam",
-							}, -- [16]
-							{
-								["enabled"] = true,
-								["criteria"] = "settings.debuff_demoshout_enabled & ! debuff.demoralizing_shout.up",
-								["action"] = "demoralizing_shout",
-							}, -- [17]
-							{
-								["enabled"] = true,
-								["use_off_gcd"] = 1,
-								["action"] = "battle_stance",
-								["criteria"] = "variable.rendweave_now",
-							}, -- [18]
-						},
-						["init"] = {
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "( debuff.training_dummy.up & 300 ) || target.time_to_die",
-								["var_name"] = "time_to_die",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "target.health.pct < 20",
-								["var_name"] = "execute_phase",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "! variable.execute_phase || settings.execute_slam_prio",
-								["var_name"] = "should_slam_over_execute",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "! variable.execute_phase || settings.execute_bloodthirst_enabled",
-								["var_name"] = "should_bloodthirst",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "! variable.execute_phase || settings.execute_whirlwind_enabled",
-								["var_name"] = "should_whirlwind",
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "settings.debuff_sunder_enabled & variable.time_to_die > ( ( 5 - debuff.sunder_armor.stack ) * ( 1.5 + latency ) ) + 3",
-								["var_name"] = "should_sunder",
-							}, -- [6]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "! debuff.major_armor_reduction.up || ( debuff.sunder_armor.up & debuff.sunder_armor.stack < 5 )",
-								["var_name"] = "build_sunder",
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "! variable.build_sunder & debuff.sunder_armor.stack = 5 & debuff.sunder_armor.remains < 7 & cooldown.bloodthirst.remains & cooldown.whirlwind.remains & ! buff.bloodsurge.up",
-								["var_name"] = "maintain_sunder",
-							}, -- [8]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "debuff.sunder_armor.up & debuff.sunder_armor.remains < 1.5",
-								["var_name"] = "emergency_sunder",
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "cooldown.bloodthirst.remains >= settings.rend_cooldown_threshold & cooldown.whirlwind.remains >= settings.rend_cooldown_threshold & cooldown.recklessness.remains > 1.5 & cooldown.death_wish.remains > 1.5 & ! buff.bloodsurge.up & debuff.rend.remains <= settings.rend_refresh_time & ! buff.recklessness.up & ! buff.death_wish.up & rage.current >= 10 & rage.current <= rend_rage_threshold & target.health.pct >= settings.rend_health_threshold",
-								["var_name"] = "should_rend",
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "settings.rendweaving_enabled & variable.should_rend",
-								["var_name"] = "rendweave_now",
-							}, -- [11]
 						},
 					},
-					["author"] = "Defzach",
 				},
 				["Affliction"] = {
 					["builtIn"] = true,
@@ -3496,145 +4121,225 @@ HekiliDB = {
 					["basedOn"] = "Arms (IV)",
 					["profile"] = "## Arms Warrior (Icy Veins)\n## 2022-10-21\n\nactions.precombat+=/battle_stance,if=buff.stance.down\n\nactions+=/pummel\nactions+=/spell_reflection\nactions+=/charge\nactions+=/bloodrage,if=rage.deficit>20\nactions+=/shattering_throw,if=buff.bloodlust.up&debuff.shattering_throw.down\nactions+=/rend,if=!ticking\nactions+=/call_action_list,name=aoe,if=active_enemies>1\nactions+=/overpower\nactions+=/use_items\nactions+=/recklessness,if=cooldown.bladestorm.ready||debuff.shattering_throw.up\nactions+=/bladestorm\nactions+=/execute\nactions+=/heroic_strike,if=rage>60\nactions+=/slam,if=!moving\nactions+=/mortal_strike\n\nactions.aoe+=/sweeping_strikes\n# TODO: Determine threshold for TC vs. Overpower.\nactions.aoe+=/thunder_clap,if=active_enemies>3\nactions.aoe+=/overpower\nactions.aoe+=/thunder_clap\nactions.aoe+=/bladestorm,if=active_dot.rend>0&cooldown.thunder_clap.remains\nactions.aoe+=/cleave,if=rage>80",
 				},
-				["Marksmanship"] = {
+				["Balance (IV)"] = {
 					["builtIn"] = true,
-					["date"] = 20230226,
-					["spec"] = 3,
-					["desc"] = "Marksmanship hunter priority for Hekili",
+					["date"] = 20230228,
+					["spec"] = 11,
+					["desc"] = "Balance Druid priority for Hekili",
+					["profile"] = "actions.precombat+=/mark_of_the_wild,if=!up&!buff.gift_of_the_wild.up\nactions.precombat+=/thorns,if=!up\nactions.precombat+=/moonkin_form,if=!up\nactions.precombat+=/potion\n\nactions+=/call_action_list,name=init\nactions+=/run_action_list,name=aoe,if=active_enemies>3\nactions+=/run_action_list,name=spam,if=variable.spam_now\nactions+=/run_action_list,name=fish\n\nactions.init+=/variable,name=lunar_spam_now,value=buff.eclipse_lunar.up\nactions.init+=/variable,name=solar_spam_now,value=buff.eclipse_solar.up\nactions.init+=/variable,name=spam_now,value=variable.lunar_spam_now||variable.solar_spam_now\nactions.init+=/variable,name=fish_now,value=!variable.lunar_spam_now&!variable.solar_spam_now\nactions.init+=/variable,name=lunar_can_proc,value=buff.eclipse_lunar.last_applied=0||query_time-buff.eclipse_lunar.last_applied>=30\nactions.init+=/variable,name=solar_can_proc,value=buff.eclipse_solar.last_applied=0||query_time-buff.eclipse_solar.last_applied>=30\nactions.init+=/variable,name=lunar_fish_now,value=variable.fish_now&variable.lunar_can_proc\nactions.init+=/variable,name=solar_fish_now,value=variable.fish_now&(variable.solar_can_proc||!variable.lunar_can_proc)\n\nactions.fish+=/starfire,if=buff.elunes_wrath.up&(!variable.lunar_fish_now||buff.elunes_wrath.remains<action.starfire.gcd||moving)\nactions.fish+=/moonfire,if=!debuff.moonfire.up&moving\nactions.fish+=/force_of_nature\nactions.fish+=/starfall\nactions.fish+=/faerie_fire,if=!up&(talent.improved_faerie_fire.enabled||group_members>=5||moving)\nactions.fish+=/insect_swarm,if=!debuff.insect_swarm.up\nactions.fish+=/typhoon,if=moving&glyph.typhoon.enabled\nactions.fish+=/moonfire,if=!debuff.moonfire.up&variable.lunar_fish_now&debuff.moonfire.remains<3\nactions.fish+=/wrath,if=variable.lunar_fish_now\nactions.fish+=/starfire,if=variable.solar_fish_now\n\nactions.spam+=/hyperspeed_acceleration,use_off_gcd=1,if=buff.eclipse_lunar.up&buff.eclipse_lunar.remains>settings.lunar_cooldown_leeway\nactions.spam+=/potion,use_off_gcd=1,if=buff.eclipse_lunar.up&buff.eclipse_lunar.remains>settings.lunar_cooldown_leeway\nactions.spam+=/use_items,use_off_gcd=1,if=buff.eclipse_lunar.up&buff.eclipse_lunar.remains>settings.lunar_cooldown_leeway\nactions.spam+=/starfire,if=buff.elunes_wrath.up\nactions.spam+=/insect_swarm,if=!debuff.insect_swarm.up&(!buff.eclipse_lunar.up||buff.eclipse_lunar.remains>7)\nactions.spam+=/wrath,if=variable.solar_spam_now\nactions.spam+=/starfire,if=variable.lunar_spam_now\n\nactions.aoe+=/typhoon,if=glyph.typhoon.enabled\nactions.aoe+=/starfall\nactions.aoe+=/hurricane",
+					["version"] = 20230228,
+					["warnings"] = "Imported 6 action lists.\n",
+					["author"] = "Defzach",
 					["lists"] = {
-						["aoe"] = {
+						["fish"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "target.within5",
-								["action"] = "explosive_trap",
+								["criteria"] = "buff.elunes_wrath.up & ( ! variable.lunar_fish_now || buff.elunes_wrath.remains < action.starfire.gcd || moving )",
+								["action"] = "starfire",
 							}, -- [1]
 							{
-								["action"] = "multishot",
 								["enabled"] = true,
+								["criteria"] = "! debuff.moonfire.up & moving",
+								["action"] = "moonfire",
 							}, -- [2]
 							{
+								["action"] = "force_of_nature",
 								["enabled"] = true,
-								["criteria"] = "active_enemies >= 3",
-								["action"] = "volley",
 							}, -- [3]
 							{
+								["action"] = "starfall",
 								["enabled"] = true,
-								["criteria"] = "debuff.stings.down",
-								["action"] = "serpent_sting",
 							}, -- [4]
 							{
-								["action"] = "chimera_shot",
 								["enabled"] = true,
+								["criteria"] = "! up & ( talent.improved_faerie_fire.enabled || group_members >= 5 || moving )",
+								["action"] = "faerie_fire",
 							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "! debuff.insect_swarm.up",
+								["action"] = "insect_swarm",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "moving & glyph.typhoon.enabled",
+								["action"] = "typhoon",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "! debuff.moonfire.up & variable.lunar_fish_now & debuff.moonfire.remains < 3",
+								["action"] = "moonfire",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.lunar_fish_now",
+								["action"] = "wrath",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.solar_fish_now",
+								["action"] = "starfire",
+							}, -- [10]
 						},
 						["default"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies >= 2",
+								["action"] = "call_action_list",
+								["list_name"] = "init",
+							}, -- [1]
+							{
+								["enabled"] = true,
 								["action"] = "run_action_list",
+								["criteria"] = "active_enemies > 3",
 								["list_name"] = "aoe",
-							}, -- [1]
+							}, -- [2]
 							{
 								["enabled"] = true,
 								["action"] = "run_action_list",
-								["list_name"] = "st",
-							}, -- [2]
-						},
-						["st"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "action.aspect_of_the_viper.time_since < 6 & buff.aspect_of_the_viper.up & cooldown.chimera_shot.remains > 0",
-								["action"] = "steady_shot",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "down & mana.percent > 25",
-								["action"] = "aspect_of_the_dragonhawk",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "down",
-								["action"] = "hunters_mark",
+								["criteria"] = "variable.spam_now",
+								["list_name"] = "spam",
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.rapid_fire.down",
-								["action"] = "rapid_fire",
+								["action"] = "run_action_list",
+								["list_name"] = "fish",
 							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.call_of_the_wild.down",
-								["action"] = "call_of_the_wild",
-							}, -- [5]
-							{
-								["action"] = "potion",
-								["enabled"] = true,
-							}, -- [6]
-							{
-								["action"] = "use_items",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["action"] = "hyperspeed_acceleration",
-								["enabled"] = true,
-							}, -- [8]
-							{
-								["action"] = "kill_shot",
-								["enabled"] = true,
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.stings.down",
-								["action"] = "serpent_sting",
-							}, -- [10]
-							{
-								["action"] = "chimera_shot",
-								["enabled"] = true,
-							}, -- [11]
-							{
-								["action"] = "aimed_shot",
-								["enabled"] = true,
-							}, -- [12]
-							{
-								["enabled"] = true,
-								["criteria"] = "( cooldown.rapid_fire.remains >= 150 || cooldown.rapid_fire.remains > target.time_to_die ) & cooldown.chimera_shot.remains > 0 & cooldown.aimed_shot.remains > 0",
-								["action"] = "readiness",
-							}, -- [13]
-							{
-								["action"] = "arcane_shot",
-								["enabled"] = true,
-							}, -- [14]
-							{
-								["enabled"] = true,
-								["criteria"] = "settings.suggest_explosive_st",
-								["action"] = "explosive_trap",
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["criteria"] = "settings.manage_mana_viper & mana.percent <= 25",
-								["action"] = "aspect_of_the_viper",
-							}, -- [16]
-							{
-								["action"] = "steady_shot",
-								["enabled"] = true,
-							}, -- [17]
 						},
 						["precombat"] = {
 							{
-								["action"] = "aspect_of_the_dragonhawk",
 								["enabled"] = true,
+								["criteria"] = "! up & ! buff.gift_of_the_wild.up",
+								["action"] = "mark_of_the_wild",
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "down",
-								["action"] = "hunters_mark",
+								["criteria"] = "! up",
+								["action"] = "thorns",
 							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "moonkin_form",
+							}, -- [3]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [4]
+						},
+						["aoe"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "glyph.typhoon.enabled",
+								["action"] = "typhoon",
+							}, -- [1]
+							{
+								["action"] = "starfall",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["action"] = "hurricane",
+								["enabled"] = true,
+							}, -- [3]
+						},
+						["init"] = {
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "buff.eclipse_lunar.up",
+								["var_name"] = "lunar_spam_now",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "buff.eclipse_solar.up",
+								["var_name"] = "solar_spam_now",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "variable.lunar_spam_now || variable.solar_spam_now",
+								["var_name"] = "spam_now",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "! variable.lunar_spam_now & ! variable.solar_spam_now",
+								["var_name"] = "fish_now",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "buff.eclipse_lunar.last_applied = 0 || query_time - buff.eclipse_lunar.last_applied >= 30",
+								["var_name"] = "lunar_can_proc",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "buff.eclipse_solar.last_applied = 0 || query_time - buff.eclipse_solar.last_applied >= 30",
+								["var_name"] = "solar_can_proc",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "variable.fish_now & variable.lunar_can_proc",
+								["var_name"] = "lunar_fish_now",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "variable.fish_now & ( variable.solar_can_proc || ! variable.lunar_can_proc )",
+								["var_name"] = "solar_fish_now",
+							}, -- [8]
+						},
+						["spam"] = {
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "buff.eclipse_lunar.up & buff.eclipse_lunar.remains > settings.lunar_cooldown_leeway",
+								["action"] = "hyperspeed_acceleration",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "buff.eclipse_lunar.up & buff.eclipse_lunar.remains > settings.lunar_cooldown_leeway",
+								["action"] = "potion",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["use_off_gcd"] = 1,
+								["criteria"] = "buff.eclipse_lunar.up & buff.eclipse_lunar.remains > settings.lunar_cooldown_leeway",
+								["action"] = "use_items",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.elunes_wrath.up",
+								["action"] = "starfire",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "! debuff.insect_swarm.up & ( ! buff.eclipse_lunar.up || buff.eclipse_lunar.remains > 7 )",
+								["action"] = "insect_swarm",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.solar_spam_now",
+								["action"] = "wrath",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "variable.lunar_spam_now",
+								["action"] = "starfire",
+							}, -- [7]
 						},
 					},
-					["version"] = 20230226,
-					["warnings"] = "Imported 4 action lists.\n",
-					["profile"] = "actions.precombat+=/aspect_of_the_dragonhawk\nactions.precombat+=/hunters_mark,if=down\nactions+=/run_action_list,name=aoe,if=active_enemies>=2\nactions+=/run_action_list,name=st\n\nactions.st+=/steady_shot,if=action.aspect_of_the_viper.time_since<6&buff.aspect_of_the_viper.up&cooldown.chimera_shot.remains>0\nactions.st+=/aspect_of_the_dragonhawk,if=down&mana.percent>25\nactions.st+=/hunters_mark,if=down\nactions.st+=/rapid_fire,if=buff.rapid_fire.down\nactions.st+=/call_of_the_wild,if=buff.call_of_the_wild.down\nactions.st+=/potion\nactions.st+=/use_items\nactions.st+=/hyperspeed_acceleration\nactions.st+=/kill_shot\nactions.st+=/serpent_sting,if=debuff.stings.down\nactions.st+=/chimera_shot\nactions.st+=/aimed_shot\nactions.st+=/readiness,if=(cooldown.rapid_fire.remains>=150||cooldown.rapid_fire.remains>target.time_to_die)&cooldown.chimera_shot.remains>0&cooldown.aimed_shot.remains>0\nactions.st+=/arcane_shot\nactions.st+=/explosive_trap,if=settings.suggest_explosive_st\nactions.st+=/aspect_of_the_viper,if=settings.manage_mana_viper&mana.percent<=25\nactions.st+=/steady_shot\n\nactions.aoe+=/explosive_trap,if=target.within5\nactions.aoe+=/multishot\nactions.aoe+=/volley,if=active_enemies>=3\nactions.aoe+=/serpent_sting,if=debuff.stings.down\nactions.aoe+=/chimera_shot",
-					["author"] = "TheEmsleyan",
 				},
 				["Enhancement (IV)"] = {
 					["builtIn"] = true,
@@ -3878,6 +4583,18 @@ HekiliDB = {
 							}, -- [7]
 						},
 					},
+				},
+			},
+			["toggles"] = {
+				["potions"] = {
+					["key"] = "ALT-SHIFT-R",
+				},
+				["essences"] = {
+					["value"] = false,
+					["override"] = false,
+				},
+				["cooldowns"] = {
+					["key"] = "",
 				},
 			},
 		},

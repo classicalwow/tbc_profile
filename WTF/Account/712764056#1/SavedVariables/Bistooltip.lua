@@ -2,6 +2,7 @@
 BisTooltipDB = {
 	["profileKeys"] = {
 		["碼農巴菲特 - 伊弗斯"] = "Default",
+		["康樂股長 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["巴非特 - 伊弗斯"] = "Default",
@@ -20,14 +21,21 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
 		},
+		["康樂股長 - 伊弗斯"] = {
+			["version"] = 6.1,
+			["data_source"] = "wh",
+		},
 		["畜生犬隊長 - 伊弗斯"] = {
 			["version"] = 6.1,
 			["data_source"] = "wowtbc",
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["class_index"] = 3,
+			["minimapPos"] = 281.1238099041077,
 			["version"] = 6.1,
 			["spec_index"] = 3,
+			["phase_index"] = 3,
+			["class_index"] = 3,
+			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -82,14 +90,11 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["minimapPos"] = 281.1238099041077,
-			["data_source"] = "wh",
-			["phase_index"] = 3,
 		},
 		["巴非特 - 伊弗斯"] = {
 			["class_index"] = 8,
-			["spec_index"] = 2,
 			["version"] = 6.1,
+			["spec_index"] = 2,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -285,7 +290,13 @@ BisTooltipDB = {
 			["filter_class_names"] = false,
 			["version"] = 6.1,
 			["phase_index"] = 3,
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
+			},
 			["class_index"] = 10,
+			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -338,12 +349,6 @@ BisTooltipDB = {
 					["Restoration"] = true,
 					["Feral tank"] = true,
 				},
-			},
-			["data_source"] = "wh",
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
 			},
 		},
 	},

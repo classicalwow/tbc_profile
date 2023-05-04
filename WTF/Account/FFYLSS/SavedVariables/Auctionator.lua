@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["LOG_DE_DATA_X"] = true,
-	["_500"] = 5,
+	["_10000"] = 200,
+	["_5000000"] = 10000,
 	["_1000000"] = 2500,
 	["_200000"] = 1000,
+	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 5,
-	["_5000000"] = 10000,
-	["_10000"] = 200,
+	["_500"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -30,8 +30,13 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["繁華落盡"] = {
 		["firstSeen"] = 1627111774,
-		["firstVersion"] = "100.0.11",
 		["guid"] = "Player-4487-0004D857",
+		["firstVersion"] = "100.0.11",
+	},
+	["佰鳥朝鳳"] = {
+		["firstSeen"] = 1683098171,
+		["guid"] = "Player-4487-00167B88",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
@@ -45,5 +50,3 @@ AUCTIONATOR_DE_DATA = nil
 AUCTIONATOR_DE_DATA_BAK = nil
 ITEM_ID_VERSION = "3.2.6"
 AUCTIONATOR_SHOW_MAILBOX_TIPS = nil
-AUCTIONATOR_SNAPSHOT = nil
-AUCTIONATOR_AUTOCOMPLETE = 1

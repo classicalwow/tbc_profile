@@ -26,6 +26,7 @@ MailLoggerDB = {
 		["AltList"] = {
 			["家駒"] = true,
 			["頂級投資家"] = true,
+			["康樂股長"] = true,
 			["畜生犬隊長"] = true,
 			["碼農巴菲特"] = true,
 			["邁克爾假死"] = true,
@@ -18854,5 +18855,223 @@ MailLoggerDB = {
 				}, -- [2]
 			},
 		}, -- [963]
+		{
+			["PlayerName"] = "巴非特",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "12:16:57",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:44453::::::::80:::::::::|h[卷轴：附魔武器 - 强效潜能]|h|r",
+					["Name"] = "卷轴：附魔武器 - 强效潜能",
+				}, -- [1]
+			},
+		}, -- [964]
+		{
+			["TargetName"] = "康樂股長",
+			["PlayerName"] = "特斯拉大股東",
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff00ccff|Hitem:42952::::::::80:::::::::|h[褪色的迅影肩甲]|h|r",
+					["Name"] = "褪色的迅影肩甲",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff00ccff|Hitem:48689::::::::80:::::::::|h[褪色的迅影外套]|h|r",
+					["Name"] = "褪色的迅影外套",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff00ccff|Hitem:49177::::::::80:::::::::|h[寒冷天气飞行宝典]|h|r",
+					["Name"] = "寒冷天气飞行宝典",
+				}, -- [3]
+			},
+			["GiveMoney"] = 70000000,
+			["Location"] = "达拉然",
+			["Time"] = "12:44:41",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [965]
+		{
+			["PlayerName"] = "康樂股長",
+			["TargetName"] = "特斯拉大股東",
+			["Reason"] = 1,
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 70000000,
+			["Time"] = "13:05:57",
+			["GiveMoney"] = 0,
+			["Location"] = "雷霆崖",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff00ccff|Hitem:49177::::::::70:::::::::|h[寒冷天气飞行宝典]|h|r",
+					["Name"] = "寒冷天气飞行宝典",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff00ccff|Hitem:48689::::::::70:::::::::|h[褪色的迅影外套]|h|r",
+					["Name"] = "褪色的迅影外套",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff00ccff|Hitem:42952::::::::70:::::::::|h[褪色的迅影肩甲]|h|r",
+					["Name"] = "褪色的迅影肩甲",
+				}, -- [3]
+			},
+		}, -- [966]
+		{
+			["PlayerName"] = "康樂股長",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "13:06:39",
+			["GiveMoney"] = 0,
+			["Location"] = "雷霆崖",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:41599::::::::70:::::::::|h[霜纹包]|h|r",
+					["Name"] = "霜纹包",
+				}, -- [1]
+			},
+		}, -- [967]
+		{
+			["PlayerName"] = "特斯拉大股東",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "13:24:38",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22790::::::::80:::::::::|h[远古苔]|h|r",
+					["Name"] = "远古苔",
+				}, -- [1]
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22786::::::::80:::::::::|h[梦露花]|h|r",
+					["Name"] = "梦露花",
+				}, -- [2]
+			},
+		}, -- [968]
+		{
+			["TargetName"] = "康樂股長",
+			["PlayerName"] = "特斯拉大股東",
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22786::::::::80:::::::::|h[梦露花]|h|r",
+					["Name"] = "梦露花",
+				}, -- [1]
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22790::::::::80:::::::::|h[远古苔]|h|r",
+					["Name"] = "远古苔",
+				}, -- [2]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["Time"] = "13:24:46",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [969]
+		{
+			["PlayerName"] = "康樂股長",
+			["TargetName"] = "特斯拉大股東",
+			["Reason"] = 1,
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "13:33:02",
+			["GiveMoney"] = 0,
+			["Location"] = "赞加沼泽",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22790::::::::70:::::::::|h[远古苔]|h|r",
+					["Name"] = "远古苔",
+				}, -- [1]
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22786::::::::70:::::::::|h[梦露花]|h|r",
+					["Name"] = "梦露花",
+				}, -- [2]
+			},
+		}, -- [970]
+		{
+			["PlayerName"] = "康樂股長",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 6,
+			["Date"] = "2023-05-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:47:31",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:40900::::::::71:::::::::|h[裂伤雕文]|h|r",
+					["Name"] = "裂伤雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:48720::::::::71:::::::::|h[爪击雕文]|h|r",
+					["Name"] = "爪击雕文",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:40901::::::::71:::::::::|h[撕碎雕文]|h|r",
+					["Name"] = "撕碎雕文",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43332::::::::71:::::::::|h[荆棘雕文]|h|r",
+					["Name"] = "荆棘雕文",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43331::::::::71:::::::::|h[无忧复生雕文]|h|r",
+					["Name"] = "无忧复生雕文",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43674::::::::71:::::::::|h[急奔雕文]|h|r",
+					["Name"] = "急奔雕文",
+				}, -- [6]
+			},
+		}, -- [971]
 	},
 }

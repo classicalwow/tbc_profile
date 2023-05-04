@@ -1,0 +1,3 @@
+RXPGuides: disabled
+ElvUI: enabled
+ArkInventoryRules_Example: enabled

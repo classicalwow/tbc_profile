@@ -1,13 +1,3 @@
 
-__DEJUNK_SAVED_VARIABLES__ = {
-	["DDBL_Version"] = "2.0.2",
-	["Global"] = {
-		["version"] = 1,
-	},
-	["Profiles"] = {
-		["繁華落盡-伊弗斯"] = {
-			["version"] = 3,
-		},
-	},
+__DEJUNK_ADDON_GLOBAL_SAVED_VARIABLES__ = {
 }
-DEJUNK_ADDON_SV = nil

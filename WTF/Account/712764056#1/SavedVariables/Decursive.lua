@@ -1,5 +1,11 @@
 
 DecursiveDB = {
+	["profileKeys"] = {
+		["路易斯桑拿 - 伊弗斯"] = "Default",
+		["康樂股長 - 伊弗斯"] = "Default",
+		["家駒 - 伊弗斯"] = "Default",
+		["巴非特 - 伊弗斯"] = "Default",
+	},
 	["class"] = {
 		["WARRIOR"] = {
 			["CureOrder"] = {
@@ -8,6 +14,17 @@ DecursiveDB = {
 				nil, -- [3]
 				-12, -- [4]
 				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["DRUID"] = {
+			["CureOrder-1"] = {
+				-13, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				1, -- [4]
+				[8] = 2,
 				[16] = -14,
 				[32] = -16,
 			},
@@ -24,10 +41,8 @@ DecursiveDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["路易斯桑拿 - 伊弗斯"] = "Default",
-		["家駒 - 伊弗斯"] = "Default",
-		["巴非特 - 伊弗斯"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1683101383,
 	},
 	["profiles"] = {
 		["Default"] = {

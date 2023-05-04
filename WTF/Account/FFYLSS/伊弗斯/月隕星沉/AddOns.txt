@@ -75,7 +75,7 @@ CharacterStatsTBC: disabled
 TradeSkillMaster: disabled
 Accountant_Classic: disabled
 AddOnSkins: disabled
-ElvUI: disabled
+ElvUI: enabled
 ElvUI_OptionsUI: disabled
 ElvUI_PVPDT: disabled
 AtlasQuest: disabled
@@ -117,3 +117,5 @@ AtlasLootClassic_Options: disabled
 AtlasLootClassic_Data: disabled
 MeetingHorn: disabled
 Myslot: disabled
+RXPGuides: disabled
+ArkInventoryRules_Example: enabled

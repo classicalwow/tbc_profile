@@ -6,6 +6,7 @@ RXPData = {
 RXPDB = {
 	["profileKeys"] = {
 		["碼農巴菲特 - 伊弗斯"] = "global",
+		["康樂股長 - 伊弗斯"] = "global",
 		["畜生犬隊長 - 伊弗斯"] = "global",
 		["邁克爾假死 - 伊弗斯"] = "global",
 		["巴非特 - 伊弗斯"] = "global",

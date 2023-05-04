@@ -1,9 +1,11 @@
 
 MailLoggerDB = {
 	["IgnoreItems"] = {
-		["魔法肉桂麵包"] = true,
-		["魔法晶水"] = true,
+		["魔法肉桂面包"] = true,
 		["極效治療石"] = true,
+		["魔法肉桂麵包"] = true,
+		["特效治疗石"] = true,
+		["魔法晶水"] = true,
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
@@ -23,6 +25,7 @@ MailLoggerDB = {
 		["LogDays"] = 90,
 		["AltList"] = {
 			["繁華落盡"] = true,
+			["佰鳥朝鳳"] = true,
 		},
 		["LogEverything"] = false,
 	},

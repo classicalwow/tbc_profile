@@ -161,11 +161,11 @@ ConsolePortDevices = {
 					["SHIFT-"] = "CAMERAZOOMOUT",
 					["CTRL-"] = "CAMERAZOOMIN",
 				},
-				["PADRSHOULDER"] = {
-					[""] = "ACTIONBUTTON4",
-					["SHIFT-"] = "TARGETSCANENEMY",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
+				["PAD4"] = {
+					[""] = "ACTIONBUTTON2",
+					["SHIFT-"] = "ACTIONBUTTON7",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
 				},
 				["PAD2"] = {
 					[""] = "ACTIONBUTTON3",
@@ -191,11 +191,11 @@ ConsolePortDevices = {
 					["CTRL-"] = "TOGGLEAUTORUN",
 					["CTRL-SHIFT-"] = "OPENCHAT",
 				},
-				["PAD4"] = {
-					[""] = "ACTIONBUTTON2",
-					["SHIFT-"] = "ACTIONBUTTON7",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
+				["PADRSHOULDER"] = {
+					[""] = "ACTIONBUTTON4",
+					["SHIFT-"] = "TARGETSCANENEMY",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
 				},
 			},
 		},
@@ -294,11 +294,11 @@ ConsolePortDevices = {
 					["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
 					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
 				},
-				["PAD3"] = {
-					[""] = "ACTIONBUTTON1",
-					["SHIFT-"] = "ACTIONBUTTON6",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON1",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
+				["PADDLEFT"] = {
+					[""] = "MULTIACTIONBAR1BUTTON11",
+					["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
+					["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
 				},
 				["PADDDOWN"] = {
 					[""] = "ACTIONBUTTON11",
@@ -318,11 +318,11 @@ ConsolePortDevices = {
 					["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
 					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
 				},
-				["PAD2"] = {
-					[""] = "ACTIONBUTTON3",
-					["SHIFT-"] = "ACTIONBUTTON8",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
+				["PADLSHOULDER"] = {
+					[""] = "ACTIONBUTTON5",
+					["SHIFT-"] = "ACTIONBUTTON10",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
 				},
 				["PADDRIGHT"] = {
 					[""] = "ACTIONBUTTON12",
@@ -330,17 +330,17 @@ ConsolePortDevices = {
 					["CTRL-"] = "MULTIACTIONBAR2BUTTON7",
 					["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON11",
 				},
-				["PADDLEFT"] = {
-					[""] = "MULTIACTIONBAR1BUTTON11",
-					["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
-					["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
+				["PAD3"] = {
+					[""] = "ACTIONBUTTON1",
+					["SHIFT-"] = "ACTIONBUTTON6",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON1",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
 				},
-				["PADLSHOULDER"] = {
-					[""] = "ACTIONBUTTON5",
-					["SHIFT-"] = "ACTIONBUTTON10",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
+				["PAD2"] = {
+					[""] = "ACTIONBUTTON3",
+					["SHIFT-"] = "ACTIONBUTTON8",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
 				},
 				["PADBACK"] = {
 					["CTRL-"] = "TOGGLEWORLDMAP",
@@ -473,11 +473,11 @@ ConsolePortDevices = {
 					["SHIFT-"] = "CAMERAZOOMOUT",
 					["CTRL-"] = "CAMERAZOOMIN",
 				},
-				["PADRSHOULDER"] = {
-					[""] = "ACTIONBUTTON4",
-					["SHIFT-"] = "TARGETSCANENEMY",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
+				["PAD4"] = {
+					[""] = "ACTIONBUTTON2",
+					["SHIFT-"] = "ACTIONBUTTON7",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
 				},
 				["PAD2"] = {
 					[""] = "ACTIONBUTTON3",
@@ -503,11 +503,11 @@ ConsolePortDevices = {
 					["CTRL-"] = "TOGGLEAUTORUN",
 					["CTRL-SHIFT-"] = "OPENCHAT",
 				},
-				["PAD4"] = {
-					[""] = "ACTIONBUTTON2",
-					["SHIFT-"] = "ACTIONBUTTON7",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
+				["PADRSHOULDER"] = {
+					[""] = "ACTIONBUTTON4",
+					["SHIFT-"] = "TARGETSCANENEMY",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
 				},
 			},
 		},
@@ -607,11 +607,11 @@ ConsolePortDevices = {
 					["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
 					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
 				},
-				["PAD3"] = {
-					[""] = "ACTIONBUTTON1",
-					["SHIFT-"] = "ACTIONBUTTON6",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON1",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
+				["PADDLEFT"] = {
+					[""] = "MULTIACTIONBAR1BUTTON11",
+					["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
+					["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
 				},
 				["PADDDOWN"] = {
 					[""] = "ACTIONBUTTON11",
@@ -631,11 +631,11 @@ ConsolePortDevices = {
 					["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
 					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
 				},
-				["PAD2"] = {
-					[""] = "ACTIONBUTTON3",
-					["SHIFT-"] = "ACTIONBUTTON8",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
+				["PADLSHOULDER"] = {
+					[""] = "ACTIONBUTTON5",
+					["SHIFT-"] = "ACTIONBUTTON10",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
 				},
 				["PADDRIGHT"] = {
 					[""] = "ACTIONBUTTON12",
@@ -643,17 +643,17 @@ ConsolePortDevices = {
 					["CTRL-"] = "MULTIACTIONBAR2BUTTON7",
 					["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON11",
 				},
-				["PADDLEFT"] = {
-					[""] = "MULTIACTIONBAR1BUTTON11",
-					["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
-					["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
+				["PAD3"] = {
+					[""] = "ACTIONBUTTON1",
+					["SHIFT-"] = "ACTIONBUTTON6",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON1",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
 				},
-				["PADLSHOULDER"] = {
-					[""] = "ACTIONBUTTON5",
-					["SHIFT-"] = "ACTIONBUTTON10",
-					["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
-					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
+				["PAD2"] = {
+					[""] = "ACTIONBUTTON3",
+					["SHIFT-"] = "ACTIONBUTTON8",
+					["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
+					["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
 				},
 				["PADBACK"] = {
 					["CTRL-"] = "TOGGLEWORLDMAP",
@@ -760,10 +760,10 @@ ConsolePortUIStack = {
 ConsolePortShared = {
 	["特變電工 (戰士) 伊弗斯"] = {
 		["Meta"] = {
-			["Spec"] = 1,
 			["Class"] = "WARRIOR",
-			["Name"] = "特變電工",
+			["Spec"] = 1,
 			["Icon"] = 1,
+			["Name"] = "特變電工",
 		},
 		["Bindings"] = {
 			["PADLSTICK"] = {
@@ -791,11 +791,11 @@ ConsolePortShared = {
 				["SHIFT-"] = "ACTIONBUTTON9",
 				["CTRL-SHIFT-"] = "CLICK ConsolePortUtilityToggle:LeftButton",
 			},
-			["PAD4"] = {
-				["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
-				["SHIFT-"] = "ACTIONBUTTON7",
-				[""] = "ACTIONBUTTON2",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
+			["PADRSHOULDER"] = {
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
+				["SHIFT-"] = "TARGETSCANENEMY",
+				[""] = "ACTIONBUTTON4",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
 			},
 			["PADDLEFT"] = {
 				["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
@@ -815,17 +815,17 @@ ConsolePortShared = {
 				[""] = "TOGGLEGAMEMENU",
 				["CTRL-SHIFT-"] = "CAMERAZOOMIN",
 			},
-			["PADRSHOULDER"] = {
-				["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
-				["SHIFT-"] = "TARGETSCANENEMY",
-				[""] = "ACTIONBUTTON4",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
+			["PAD4"] = {
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
+				["SHIFT-"] = "ACTIONBUTTON7",
+				[""] = "ACTIONBUTTON2",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
 			},
-			["PADLSHOULDER"] = {
-				["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
-				["SHIFT-"] = "ACTIONBUTTON10",
-				[""] = "ACTIONBUTTON5",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
+			["PAD2"] = {
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
+				["SHIFT-"] = "ACTIONBUTTON8",
+				[""] = "ACTIONBUTTON3",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
 			},
 			["PADDRIGHT"] = {
 				["CTRL-"] = "MULTIACTIONBAR2BUTTON7",
@@ -839,11 +839,11 @@ ConsolePortShared = {
 				[""] = "ACTIONBUTTON1",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
 			},
-			["PAD2"] = {
-				["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
-				["SHIFT-"] = "ACTIONBUTTON8",
-				[""] = "ACTIONBUTTON3",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
+			["PADLSHOULDER"] = {
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
+				["SHIFT-"] = "ACTIONBUTTON10",
+				[""] = "ACTIONBUTTON5",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
 			},
 			["PADBACK"] = {
 				["CTRL-"] = "TOGGLEWORLDMAP",
@@ -899,15 +899,6 @@ ConsolePortShared = {
 					},
 					["dir"] = "down",
 				},
-				["PAD4"] = {
-					["size"] = 64,
-					["point"] = {
-						"RIGHT", -- [1]
-						-240, -- [2]
-						100, -- [3]
-					},
-					["dir"] = "up",
-				},
 				["PADRSHOULDER"] = {
 					["size"] = 64,
 					["point"] = {
@@ -917,14 +908,23 @@ ConsolePortShared = {
 					},
 					["dir"] = "down",
 				},
-				["PADLSHOULDER"] = {
+				["PAD4"] = {
 					["size"] = 64,
 					["point"] = {
 						"RIGHT", -- [1]
-						-456, -- [2]
+						-240, -- [2]
+						100, -- [3]
+					},
+					["dir"] = "up",
+				},
+				["PAD2"] = {
+					["size"] = 64,
+					["point"] = {
+						"RIGHT", -- [1]
+						-176, -- [2]
 						56, -- [3]
 					},
-					["dir"] = "left",
+					["dir"] = "right",
 				},
 				["PADDRIGHT"] = {
 					["size"] = 64,
@@ -935,15 +935,6 @@ ConsolePortShared = {
 					},
 					["dir"] = "right",
 				},
-				["PADDLEFT"] = {
-					["size"] = 64,
-					["point"] = {
-						"LEFT", -- [1]
-						176, -- [2]
-						56, -- [3]
-					},
-					["dir"] = "left",
-				},
 				["PAD3"] = {
 					["size"] = 64,
 					["point"] = {
@@ -953,14 +944,23 @@ ConsolePortShared = {
 					},
 					["dir"] = "left",
 				},
-				["PAD2"] = {
+				["PADDLEFT"] = {
+					["size"] = 64,
+					["point"] = {
+						"LEFT", -- [1]
+						176, -- [2]
+						56, -- [3]
+					},
+					["dir"] = "left",
+				},
+				["PADLSHOULDER"] = {
 					["size"] = 64,
 					["point"] = {
 						"RIGHT", -- [1]
-						-176, -- [2]
+						-456, -- [2]
 						56, -- [3]
 					},
-					["dir"] = "right",
+					["dir"] = "left",
 				},
 			},
 			["watchbars"] = true,
@@ -987,7 +987,7 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADSOCIAL"] = {
+			["PADLSTICKRIGHT"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
@@ -999,11 +999,11 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADDLEFT"] = {
-				["CTRL-"] = "MULTIACTIONBAR2BUTTON9",
-				["SHIFT-"] = "FOCUSTARGET",
-				[""] = "TARGETFOCUS",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON3",
+			["PAD2"] = {
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
+				["SHIFT-"] = "ACTIONBUTTON4",
+				[""] = "ACTIONBUTTON3",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON4",
 			},
 			["PADRTRIGGER"] = {
 				["CTRL-"] = "MULTIACTIONBAR1BUTTON11",
@@ -1011,11 +1011,11 @@ ConsolePortShared = {
 				[""] = "ACTIONBUTTON11",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON12",
 			},
-			["PADDDOWN"] = {
-				["CTRL-"] = "MULTIACTIONBAR2BUTTON8",
-				["SHIFT-"] = "TARGETPREVIOUSFRIEND",
-				[""] = "TARGETPREVIOUSENEMY",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON2",
+			["PAD3"] = {
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
+				["SHIFT-"] = "ACTIONBUTTON6",
+				[""] = "ACTIONBUTTON5",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
 			},
 			["PAD6"] = {
 				["CTRL-"] = "",
@@ -1029,11 +1029,11 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADLSTICKRIGHT"] = {
-				["CTRL-"] = "",
-				["SHIFT-"] = "",
-				[""] = "",
-				["CTRL-SHIFT-"] = "",
+			["PADDDOWN"] = {
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON8",
+				["SHIFT-"] = "TARGETPREVIOUSFRIEND",
+				[""] = "TARGETPREVIOUSENEMY",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON2",
 			},
 			["PADLSHOULDER"] = {
 				["CTRL-"] = "",
@@ -1047,11 +1047,11 @@ ConsolePortShared = {
 				[""] = "ACTIONBUTTON7",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
 			},
-			["PAD2"] = {
-				["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
-				["SHIFT-"] = "ACTIONBUTTON4",
-				[""] = "ACTIONBUTTON3",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON4",
+			["PADLSTICKUP"] = {
+				["CTRL-"] = "",
+				["SHIFT-"] = "",
+				[""] = "",
+				["CTRL-SHIFT-"] = "",
 			},
 			["PADDRIGHT"] = {
 				["CTRL-"] = "MULTIACTIONBAR2BUTTON10",
@@ -1059,13 +1059,13 @@ ConsolePortShared = {
 				[""] = "INTERACTTARGET",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON4",
 			},
-			["PAD3"] = {
-				["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
-				["SHIFT-"] = "ACTIONBUTTON6",
-				[""] = "ACTIONBUTTON5",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
+			["PADDLEFT"] = {
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON9",
+				["SHIFT-"] = "FOCUSTARGET",
+				[""] = "TARGETFOCUS",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON3",
 			},
-			["PADLSTICKLEFT"] = {
+			["PADSYSTEM"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
@@ -1131,10 +1131,10 @@ ConsolePortShared = {
 				[""] = "TARGETNEARESTENEMY",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
 			},
-			["PADPADDLE4"] = {
-				["CTRL-"] = "",
-				["SHIFT-"] = "",
-				[""] = "",
+			["PADFORWARD"] = {
+				["CTRL-"] = "TOGGLECHARACTER0",
+				["SHIFT-"] = "OPENALLBAGS",
+				[""] = "TOGGLEWORLDMAP",
 				["CTRL-SHIFT-"] = "",
 			},
 			["PADRSHOULDER"] = {
@@ -1155,19 +1155,19 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADFORWARD"] = {
-				["CTRL-"] = "TOGGLECHARACTER0",
-				["SHIFT-"] = "OPENALLBAGS",
-				[""] = "TOGGLEWORLDMAP",
-				["CTRL-SHIFT-"] = "",
-			},
-			["PADSYSTEM"] = {
+			["PADPADDLE4"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADLSTICKUP"] = {
+			["PADLSTICKLEFT"] = {
+				["CTRL-"] = "",
+				["SHIFT-"] = "",
+				[""] = "",
+				["CTRL-SHIFT-"] = "",
+			},
+			["PADSOCIAL"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
@@ -1177,10 +1177,10 @@ ConsolePortShared = {
 	},
 	["特變電工 (战士) 伊弗斯"] = {
 		["Meta"] = {
-			["Icon"] = 1,
-			["Spec"] = 1,
 			["Name"] = "特變電工",
 			["Class"] = "WARRIOR",
+			["Icon"] = 1,
+			["Spec"] = 1,
 		},
 		["Bindings"] = {
 			["PADLSTICKDOWN"] = {
@@ -1189,7 +1189,7 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADLSTICKUP"] = {
+			["PADSOCIAL"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
@@ -1201,7 +1201,7 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADSYSTEM"] = {
+			["PADLSTICKLEFT"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
@@ -1213,11 +1213,11 @@ ConsolePortShared = {
 				[""] = "ACTIONBUTTON11",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON12",
 			},
-			["PADFORWARD"] = {
-				["CTRL-"] = "CAMERAZOOMOUT",
-				["SHIFT-"] = "CLICK ConsolePortRaidCursorToggle:LeftButton",
-				[""] = "TOGGLEGAMEMENU",
-				["CTRL-SHIFT-"] = "CAMERAZOOMIN",
+			["PADPADDLE4"] = {
+				["CTRL-"] = "",
+				["SHIFT-"] = "",
+				[""] = "",
+				["CTRL-SHIFT-"] = "",
 			},
 			["PADRSTICKUP"] = {
 				["CTRL-"] = "",
@@ -1231,11 +1231,11 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADDDOWN"] = {
-				["CTRL-"] = "MULTIACTIONBAR2BUTTON8",
-				["SHIFT-"] = "MULTIACTIONBAR2BUTTON4",
-				[""] = "ACTIONBUTTON11",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON12",
+			["PADLSTICKRIGHT"] = {
+				["CTRL-"] = "",
+				["SHIFT-"] = "",
+				[""] = "",
+				["CTRL-SHIFT-"] = "",
 			},
 			["PADRSTICKRIGHT"] = {
 				["CTRL-"] = "",
@@ -1249,10 +1249,10 @@ ConsolePortShared = {
 				[""] = "ACTIONBUTTON2",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADSOCIAL"] = {
+			["PAD2"] = {
 				["CTRL-"] = "",
-				["SHIFT-"] = "",
-				[""] = "",
+				["SHIFT-"] = "ACTIONBUTTON8",
+				[""] = "ACTIONBUTTON3",
 				["CTRL-SHIFT-"] = "",
 			},
 			["PADDRIGHT"] = {
@@ -1261,13 +1261,13 @@ ConsolePortShared = {
 				[""] = "ACTIONBUTTON12",
 				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON11",
 			},
-			["PADDLEFT"] = {
-				["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
-				["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
-				[""] = "MULTIACTIONBAR1BUTTON11",
-				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
+			["PAD3"] = {
+				["CTRL-"] = "",
+				["SHIFT-"] = "ACTIONBUTTON6",
+				[""] = "ACTIONBUTTON1",
+				["CTRL-SHIFT-"] = "",
 			},
-			["PADLSTICKLEFT"] = {
+			["PADSYSTEM"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
@@ -1315,11 +1315,11 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PADPADDLE4"] = {
-				["CTRL-"] = "",
-				["SHIFT-"] = "",
-				[""] = "",
-				["CTRL-SHIFT-"] = "",
+			["PADFORWARD"] = {
+				["CTRL-"] = "CAMERAZOOMOUT",
+				["SHIFT-"] = "CLICK ConsolePortRaidCursorToggle:LeftButton",
+				[""] = "TOGGLEGAMEMENU",
+				["CTRL-SHIFT-"] = "CAMERAZOOMIN",
 			},
 			["PADRSTICKLEFT"] = {
 				["CTRL-"] = "",
@@ -1357,23 +1357,23 @@ ConsolePortShared = {
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
 			},
-			["PAD3"] = {
-				["CTRL-"] = "",
-				["SHIFT-"] = "ACTIONBUTTON6",
-				[""] = "ACTIONBUTTON1",
-				["CTRL-SHIFT-"] = "",
+			["PADDLEFT"] = {
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
+				["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
+				[""] = "MULTIACTIONBAR1BUTTON11",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
 			},
-			["PAD2"] = {
-				["CTRL-"] = "",
-				["SHIFT-"] = "ACTIONBUTTON8",
-				[""] = "ACTIONBUTTON3",
-				["CTRL-SHIFT-"] = "",
-			},
-			["PADLSTICKRIGHT"] = {
+			["PADLSTICKUP"] = {
 				["CTRL-"] = "",
 				["SHIFT-"] = "",
 				[""] = "",
 				["CTRL-SHIFT-"] = "",
+			},
+			["PADDDOWN"] = {
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON8",
+				["SHIFT-"] = "MULTIACTIONBAR2BUTTON4",
+				[""] = "ACTIONBUTTON11",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON12",
 			},
 		},
 	},

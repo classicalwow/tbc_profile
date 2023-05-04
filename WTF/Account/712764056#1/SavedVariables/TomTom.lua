@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["碼農巴菲特 - 伊弗斯"] = "Default",
+		["康樂股長 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["家駒 - 伊弗斯"] = "Default",
@@ -43,6 +44,7 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["碼農巴菲特 - 伊弗斯"] = "碼農巴菲特 - 伊弗斯",
+		["康樂股長 - 伊弗斯"] = "康樂股長 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["家駒 - 伊弗斯"] = "家駒 - 伊弗斯",
@@ -54,6 +56,8 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["碼農巴菲特 - 伊弗斯"] = {
+		},
+		["康樂股長 - 伊弗斯"] = {
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
@@ -74,9 +78,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -85,6 +89,29 @@ TomTomWaypointsM = {
 			},
 		},
 		["家駒 - 伊弗斯"] = {
+			[116] = {
+				["116:214425427.87286:650122249.38875:Mailbox"] = {
+					116, -- [1]
+					0.2144254278728607, -- [2]
+					0.6501222493887531, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mailbox",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 		["巴非特 - 伊弗斯"] = {
 			[120] = {
@@ -95,26 +122,20 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Meeting Stone",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Meeting Stone",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -142,9 +163,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,

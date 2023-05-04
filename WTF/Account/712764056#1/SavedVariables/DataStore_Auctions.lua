@@ -2,6 +2,7 @@
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
+		["康樂股長 - 伊弗斯"] = "康樂股長 - 伊弗斯",
 		["家駒 - 伊弗斯"] = "家駒 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
@@ -11,13 +12,17 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1659269207,
-				["lastVisitDate"] = "2022/07/31 20:06",
-			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1647786761,
 				["lastVisitDate"] = "2022/03/20 22:32",
+			},
+			["Default.伊弗斯.康樂股長"] = {
+				["lastUpdate"] = 1683125234,
+				["lastVisitDate"] = "2023/05/03 22:47",
+			},
+			["Default.伊弗斯.特變電工"] = {
+				["lastUpdate"] = 1659269207,
+				["lastVisitDate"] = "2022/07/31 20:06",
 			},
 		},
 	},

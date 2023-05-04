@@ -2,6 +2,7 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
+		["康樂股長 - 伊弗斯"] = "康樂股長 - 伊弗斯",
 		["家駒 - 伊弗斯"] = "家駒 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
@@ -11,6 +12,9 @@ DataStore_AgendaDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.伊弗斯.頂級投資家"] = {
+				["lastUpdate"] = 1672640197,
+			},
 			["Default.伊弗斯.暖男你馬四了"] = {
 				["lastUpdate"] = 1668964937,
 			},
@@ -20,8 +24,8 @@ DataStore_AgendaDB = {
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1664462132,
 			},
-			["Default.伊弗斯.巴非特"] = {
-				["lastUpdate"] = 1680407571,
+			["Default.伊弗斯.康樂股長"] = {
+				["lastUpdate"] = 1683127943,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213844,
@@ -29,8 +33,8 @@ DataStore_AgendaDB = {
 			["Default.伊弗斯.特變電工"] = {
 				["lastUpdate"] = 1663501480,
 			},
-			["Default.伊弗斯.頂級投資家"] = {
-				["lastUpdate"] = 1672640197,
+			["Default.伊弗斯.巴非特"] = {
+				["lastUpdate"] = 1680407571,
 			},
 		},
 	},
