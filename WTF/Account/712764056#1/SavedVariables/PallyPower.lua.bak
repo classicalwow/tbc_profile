@@ -4,6 +4,7 @@ PallyPowerDB = {
 		["康樂股長 - 伊弗斯"] = "Other",
 		["家駒 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Other",
+		["咩尬空姐萌萌 - 伊弗斯"] = "Other",
 		["邁克爾假死 - 伊弗斯"] = "Other",
 		["特斯拉大股東 - 伊弗斯"] = "Other",
 	},
@@ -69,18 +70,6 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
-	["家駒"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
 }
 PallyPower_NormalAssignments = {
 }
@@ -153,12 +142,7 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"综合", -- [1]
-	"交易", -- [2]
-	"本地防务", -- [3]
-	"寻求组队", -- [4]
-	"大脚世界频道", -- [5]
-	"鏡花水月", -- [6]
+	"交易", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil
