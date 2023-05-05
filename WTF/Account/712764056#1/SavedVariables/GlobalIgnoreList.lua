@@ -14,8 +14,8 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 	},
-	["openWithFriends"] = true,
 	["invertSpam"] = false,
+	["openWithFriends"] = true,
 	["skipPrivate"] = true,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
@@ -31,6 +31,15 @@ GlobalIgnoreDB = {
 	},
 	["autoTime"] = 600,
 	["autoCount"] = 3,
+	["sameserver"] = true,
+	["ignoreList"] = {
+	},
+	["trackChanges"] = true,
+	["autoIgnore"] = true,
+	["factionList"] = {
+	},
+	["dateList"] = {
+	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -59,24 +68,14 @@ GlobalIgnoreDB = {
 		"Jellydeathk-伊弗斯", -- [25]
 		"焚魂-伊弗斯", -- [26]
 	},
-	["syncInfo"] = {
-	},
-	["trackChanges"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-	},
-	["defexpire"] = 0,
-	["sameserver"] = true,
 	["attachFriends"] = true,
-	["notes"] = {
-	},
+	["revision"] = 1,
 	["expList"] = {
 	},
-	["skipGuild"] = true,
+	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["dateList"] = {
-	},
+	["defexpire"] = 0,
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -103,10 +102,11 @@ GlobalIgnoreDB = {
 		false, -- [10]
 	},
 	["asknote"] = true,
-	["skipParty"] = false,
-	["revision"] = 1,
+	["skipGuild"] = true,
+	["notes"] = {
+	},
 	["autoUpdate"] = true,
 	["samefaction"] = true,
-	["ignoreList"] = {
+	["syncInfo"] = {
 	},
 }

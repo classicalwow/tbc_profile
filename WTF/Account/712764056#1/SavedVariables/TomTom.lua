@@ -72,18 +72,20 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "Mailbox",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Mailbox",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

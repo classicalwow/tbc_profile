@@ -19100,5 +19100,35 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [973]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2023-05-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:31:56",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:40211::::::::80:::::::::|h[速度药水]|h|r",
+					["Name"] = "速度药水",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:40211::::::::80:::::::::|h[速度药水]|h|r",
+					["Name"] = "速度药水",
+				}, -- [2]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:40093::::::::80:::::::::|h[不灭药水]|h|r",
+					["Name"] = "不灭药水",
+				}, -- [3]
+			},
+		}, -- [974]
 	},
 }

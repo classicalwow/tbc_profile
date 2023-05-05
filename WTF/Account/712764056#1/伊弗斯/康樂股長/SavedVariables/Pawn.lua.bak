@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35926::::::::70:::::::::|h[精工护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 199468,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199468::::::::70:::::::::|h[群集之靴]|h|r",
+			["ID"] = 37403,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:37403::::::::71:::::::::|h[沼泽行者长靴]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 35889,
@@ -84,6 +84,12 @@ PawnOptions = {
 			["Level"] = 138,
 			["Link"] = "|cff1eff00|Hitem:35812::::::::70:::::::::|h[峭壁重击者]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 37547,
+			["Level"] = 138,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:37547::::::::72:::::::::|h[火铸战锤]|h|r",
+		}, -- [17]
 	},
 }
 PawnMrRobotScaleProviderOptions = nil

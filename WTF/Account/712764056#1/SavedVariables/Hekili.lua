@@ -55,11 +55,13 @@ HekiliDB = {
 					},
 				},
 				["Primary"] = {
-					["targets"] = {
+					["delays"] = {
 						["fontSize"] = 11,
 					},
 					["rel"] = "CENTER",
-					["y"] = -114.8384857177734,
+					["keybindings"] = {
+						["fontSize"] = 11,
+					},
 					["captions"] = {
 						["fontSize"] = 11,
 					},
@@ -68,14 +70,12 @@ HekiliDB = {
 						["width"] = 40,
 						["height"] = 40,
 					},
-					["keybindings"] = {
-						["fontSize"] = 11,
-					},
+					["y"] = -114.8384857177734,
 					["elvuiCooldown"] = true,
 					["primaryHeight"] = 40,
 					["primaryWidth"] = 40,
 					["x"] = -38.46723175048828,
-					["delays"] = {
+					["targets"] = {
 						["fontSize"] = 11,
 					},
 				},
@@ -159,12 +159,12 @@ HekiliDB = {
 						["rend_cooldown_threshold"] = 1.5,
 						["shout_spell"] = "commanding_shout",
 						["optimize_overpower"] = false,
+						["fury"] = "Fury (IV)",
 						["debuff_sunder_enabled"] = true,
 						["rend_health_threshold"] = 20,
 						["predict_tfb"] = true,
 						["rend_refresh_time"] = 0,
 						["main_gcd_spell"] = "slam",
-						["fury"] = "Fury (IV)",
 						["execute_queueing_enabled"] = true,
 					},
 					["autoPacks"] = {
@@ -179,7 +179,7 @@ HekiliDB = {
 						["holy"] = "Holy Paladin (wowtbc.gg)",
 						["maintain_aura"] = false,
 						["hor_macros"] = true,
-						["retribution"] = "Retribution",
+						["fol_on_aow"] = true,
 						["judgement_of_wisdom_threshold"] = 70,
 						["assigned_aura"] = "concentration_aura",
 						["maintain_blessing"] = true,
@@ -187,7 +187,7 @@ HekiliDB = {
 						["divine_plea_threshold"] = 75,
 						["assigned_blessing"] = "blessing_of_kings",
 						["primary_slack"] = 0.5,
-						["fol_on_aow"] = true,
+						["retribution"] = "Retribution",
 					},
 					["autoPacks"] = {
 						["protection"] = "Protection Paladin (wowtbc.gg)",
@@ -196,7 +196,6 @@ HekiliDB = {
 					},
 				}, -- [2]
 				{
-					["package"] = "Survival (wowtbc.gg)",
 					["settings"] = {
 						["manage_mana_viper"] = false,
 						["survival"] = "Survival (wowtbc.gg)",
@@ -209,18 +208,19 @@ HekiliDB = {
 						["beast_mastery"] = "Beast Mastery (wowtbc.gg)",
 						["survival"] = "Survival (wowtbc.gg)",
 					},
+					["package"] = "Survival (wowtbc.gg)",
 				}, -- [3]
 				[11] = {
 					["settings"] = {
 						["bearweaving_enabled"] = true,
-						["bearweaving_instancetype"] = "raid",
-						["min_roar_offset"] = 24,
 						["max_ff_energy"] = 15,
+						["min_roar_offset"] = 24,
+						["bearweaving_instancetype"] = "raid",
 						["min_bite_rip_remains"] = 4,
 						["min_bite_sr_remains"] = 4,
-						["feral_dps"] = "Feral DPS (IV)",
-						["lunar_cooldown_leeway"] = 14,
 						["balance"] = "Balance (IV)",
+						["lunar_cooldown_leeway"] = 14,
+						["feral_dps"] = "Feral DPS (IV)",
 						["max_bite_energy"] = 25,
 						["optimize_rake"] = false,
 						["feral_tank"] = "Feral Tank (IV)",
@@ -238,13 +238,13 @@ HekiliDB = {
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["affliction"] = "Affliction",
-						["group_curse"] = "curse_of_agony",
 						["group_type"] = "party",
+						["destruction"] = "Destruction",
+						["affliction"] = "Affliction",
 						["demonology"] = "Demonology (wowtbc.gg)",
 						["shadow_mastery"] = true,
 						["inferno_enabled"] = true,
-						["destruction"] = "Destruction",
+						["group_curse"] = "curse_of_agony",
 					},
 					["autoPacks"] = {
 						["demonology"] = "Demonology (wowtbc.gg)",
@@ -258,8 +258,8 @@ HekiliDB = {
 						["shaman_rage_threshold"] = 60,
 						["elemental"] = "Elemental / Resto DPS (IV)",
 						["restoration"] = "Elemental / Resto DPS (IV)",
-						["st_cl_mana_threshold"] = 80,
 						["maelstrom_weapon_stack_limit"] = 3,
+						["st_cl_mana_threshold"] = 80,
 					},
 					["autoPacks"] = {
 						["enhancement"] = "Enhancement (IV)",
@@ -1176,8 +1176,8 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "enrage",
 								["criteria"] = "time < 10",
+								["action"] = "enrage",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
@@ -1186,8 +1186,8 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["action"] = "maul",
 								["criteria"] = "rage.current > action.maul.spend + variable.build_lacerate_cost + variable.maintain_lacerate_cost + action.mangle_bear.spend",
+								["action"] = "maul",
 								["use_off_gcd"] = 1,
 							}, -- [4]
 							{
@@ -1217,8 +1217,8 @@ HekiliDB = {
 						["bear_aoe"] = {
 							{
 								["enabled"] = true,
-								["action"] = "enrage",
 								["criteria"] = "time < 10",
+								["action"] = "enrage",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
@@ -1330,20 +1330,20 @@ HekiliDB = {
 						["battle_stance"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "rage.deficit > 20",
 								["action"] = "bloodrage",
+								["criteria"] = "rage.deficit > 20",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "heroic_strike",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "cleave",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["use_off_gcd"] = 1,
 							}, -- [3]
 							{
@@ -1384,8 +1384,8 @@ HekiliDB = {
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 1",
 								["action"] = "sweeping_strikes",
+								["criteria"] = "active_enemies > 1",
 								["use_off_gcd"] = 1,
 							}, -- [12]
 							{
@@ -1587,8 +1587,8 @@ HekiliDB = {
 						["default"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "! settings.hor_macros & glyph.reckoning.enabled & ( debuff.training_dummy.up || ! aggro )",
 								["action"] = "hand_of_reckoning",
+								["criteria"] = "! settings.hor_macros & glyph.reckoning.enabled & ( debuff.training_dummy.up || ! aggro )",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
@@ -2072,8 +2072,8 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "berserker_stance",
 								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
+								["action"] = "berserker_stance",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
@@ -2085,20 +2085,20 @@ HekiliDB = {
 						["berserker_stance"] = {
 							{
 								["enabled"] = true,
-								["action"] = "bloodrage",
 								["criteria"] = "rage.deficit > 20",
+								["action"] = "bloodrage",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "heroic_strike",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "heroic_strike",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["action"] = "cleave",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "cleave",
 								["use_off_gcd"] = 1,
 							}, -- [3]
 							{
@@ -2172,8 +2172,8 @@ HekiliDB = {
 							}, -- [17]
 							{
 								["enabled"] = true,
-								["action"] = "battle_stance",
 								["criteria"] = "variable.rendweave_now",
+								["action"] = "battle_stance",
 								["use_off_gcd"] = 1,
 							}, -- [18]
 						},
@@ -2358,8 +2358,8 @@ HekiliDB = {
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["action"] = "drain_soul",
 								["criteria"] = "target.health.pct < 25",
+								["action"] = "drain_soul",
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
 							}, -- [12]
 							{
@@ -2566,8 +2566,8 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "tigers_fury",
 								["criteria"] = "energy.current < 30 - ( buff.clearcasting.up & 15 || 0 )",
+								["action"] = "tigers_fury",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
@@ -2660,8 +2660,8 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "tigers_fury",
 								["criteria"] = "energy.current < 30 - ( buff.clearcasting.up & 15 || 0 )",
+								["action"] = "tigers_fury",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
@@ -2705,8 +2705,8 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["action"] = "hyperspeed_acceleration",
 								["criteria"] = "set_bonus.tier7feral_4pc = 1 & ( buff.tigers_fury.up || cooldown.tigers_fury.remains >= 15 )",
+								["action"] = "hyperspeed_acceleration",
 								["use_off_gcd"] = 1,
 							}, -- [4]
 							{
@@ -2811,14 +2811,14 @@ HekiliDB = {
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["action"] = "enrage",
 								["criteria"] = "cooldown.mangle_bear.up",
+								["action"] = "enrage",
 								["use_off_gcd"] = 1,
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["action"] = "maul",
 								["criteria"] = "! up & ! buff.clearcasting.up & rage.current >= action.maul.spend + ( cooldown.mangle_bear.up & action.mangle_bear.spend || 0 )",
+								["action"] = "maul",
 								["use_off_gcd"] = 1,
 							}, -- [4]
 							{
@@ -3838,20 +3838,20 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "bloodrage",
 								["criteria"] = "rage.deficit > 20",
+								["action"] = "bloodrage",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["action"] = "heroic_strike",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "heroic_strike",
 								["use_off_gcd"] = 1,
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["action"] = "cleave",
 								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
+								["action"] = "cleave",
 								["use_off_gcd"] = 1,
 							}, -- [4]
 							{
@@ -3897,8 +3897,8 @@ HekiliDB = {
 							}, -- [13]
 							{
 								["enabled"] = true,
-								["action"] = "sweeping_strikes",
 								["criteria"] = "active_enemies > 1",
+								["action"] = "sweeping_strikes",
 								["use_off_gcd"] = 1,
 							}, -- [14]
 							{
@@ -4235,20 +4235,20 @@ HekiliDB = {
 						["spam"] = {
 							{
 								["enabled"] = true,
-								["action"] = "hyperspeed_acceleration",
 								["criteria"] = "buff.eclipse_lunar.up & buff.eclipse_lunar.remains > settings.lunar_cooldown_leeway",
+								["action"] = "hyperspeed_acceleration",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "potion",
 								["criteria"] = "buff.eclipse_lunar.up & buff.eclipse_lunar.remains > settings.lunar_cooldown_leeway",
+								["action"] = "potion",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["action"] = "use_items",
 								["criteria"] = "buff.eclipse_lunar.up & buff.eclipse_lunar.remains > settings.lunar_cooldown_leeway",
+								["action"] = "use_items",
 								["use_off_gcd"] = 1,
 							}, -- [3]
 							{
@@ -4482,8 +4482,8 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
 								["action"] = "berserker_stance",
+								["criteria"] = "( cooldown.bloodthirst.up || cooldown.whirlwind.up || rage.current < 10 ) & ( debuff.shattering_throw.up || ! buff.bloodlust.up )",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
@@ -4495,20 +4495,20 @@ HekiliDB = {
 						["berserker_stance"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "rage.deficit > 20",
 								["action"] = "bloodrage",
+								["criteria"] = "rage.deficit > 20",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "heroic_strike",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies = 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["action"] = "cleave",
+								["criteria"] = "rage.current >= settings.queueing_threshold & active_enemies > 1 & ! buff.recklessness.up & ( ! variable.execute_phase || settings.execute_queueing_enabled )",
 								["use_off_gcd"] = 1,
 							}, -- [3]
 							{
@@ -4582,8 +4582,8 @@ HekiliDB = {
 							}, -- [17]
 							{
 								["enabled"] = true,
-								["criteria"] = "variable.rendweave_now",
 								["action"] = "battle_stance",
+								["criteria"] = "variable.rendweave_now",
 								["use_off_gcd"] = 1,
 							}, -- [18]
 						},
