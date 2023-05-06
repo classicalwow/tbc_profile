@@ -14,15 +14,9 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 	},
-	["ignoreList"] = {
-	},
+	["invertSpam"] = false,
 	["openWithFriends"] = true,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-	},
-	["trackChanges"] = true,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -35,11 +29,17 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
+	["autoCount"] = 3,
+	["sameserver"] = true,
+	["ignoreList"] = {
+	},
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 	},
-	["skipParty"] = false,
+	["dateList"] = {
+	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -69,11 +69,10 @@ GlobalIgnoreDB = {
 		"焚魂-伊弗斯", -- [26]
 	},
 	["attachFriends"] = true,
-	["notes"] = {
-	},
+	["revision"] = 1,
 	["expList"] = {
 	},
-	["skipGuild"] = true,
+	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["defexpire"] = 0,
@@ -89,7 +88,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -102,11 +101,12 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
+	["asknote"] = true,
+	["skipGuild"] = true,
+	["notes"] = {
 	},
-	["sameserver"] = true,
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["syncInfo"] = {
+	},
 }
