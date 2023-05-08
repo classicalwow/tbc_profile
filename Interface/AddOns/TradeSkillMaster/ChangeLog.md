@@ -1,7 +1,5 @@
-## v4.12.34 Changes
+## v4.12.36 Changes
 
-* [Retail] Updated for 10.0.7
-* [Retail] Fixes for Shadowlands legendary crafting recipes
-* [Retail] Updated transform data
+* [Retail] Updated list of bonus IDs for 10.1
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

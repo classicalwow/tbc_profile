@@ -117,6 +117,13 @@ function QuestieEventHandler:RegisterLateEvents()
             end)
         end)
 
+        Questie:RegisterEvent("CRITERIA_UPDATE", function()
+            Questie:Debug(Questie.DEBUG_DEVELOP, "[EVENT] CRITERIA_UPDATE")
+            QuestieCombatQueue:Queue(function()
+                QuestieTracker:Update()
+            end)
+        end)
+
         -- Money based Achievement updates
         Questie:RegisterEvent("CHAT_MSG_MONEY", function()
             Questie:Debug(Questie.DEBUG_DEVELOP, "[EVENT] CHAT_MSG_MONEY")
@@ -128,6 +135,14 @@ function QuestieEventHandler:RegisterLateEvents()
         -- Emote based Achievement updates
         Questie:RegisterEvent("CHAT_MSG_TEXT_EMOTE", function()
             Questie:Debug(Questie.DEBUG_DEVELOP, "[EVENT] CHAT_MSG_TEXT_EMOTE")
+            QuestieCombatQueue:Queue(function()
+                QuestieTracker:Update()
+            end)
+        end)
+
+        -- Player equipment changed based Achievement updates
+        Questie:RegisterEvent("PLAYER_EQUIPMENT_CHANGED", function()
+            Questie:Debug(Questie.DEBUG_DEVELOP, "[EVENT] PLAYER_EQUIPMENT_CHANGED")
             QuestieCombatQueue:Queue(function()
                 QuestieTracker:Update()
             end)
@@ -263,11 +278,13 @@ function _EventHandler:MapExplorationUpdated()
     end
 
     -- Exploratory based Achievement updates
+    --[[
     if Questie.IsWotlk then
         QuestieCombatQueue:Queue(function()
             QuestieTracker:Update()
         end)
     end
+    --]]
 end
 
 --- Fires when the player levels up
@@ -430,6 +447,7 @@ function _EventHandler:PlayerRegenEnabled()
     end
 end
 
+local trackerMinimizedByDungeon = false
 function _EventHandler:ZoneChangedNewArea()
     if (not Questie.db.global.hideTrackerInDungeons) then
         return
@@ -438,6 +456,7 @@ function _EventHandler:ZoneChangedNewArea()
     Questie:Debug(Questie.DEBUG_DEVELOP, "[EVENT] ZONE_CHANGED_NEW_AREA")
     if IsInInstance() then
         QuestieTracker:Collapse()
+        trackerMinimizedByDungeon = true
         -- By my tests it takes a full 6-7 seconds for the instance to load. There are a lot of
         -- backend Questie updates that occur when a player zones into an instance. This is
         -- necessary to get the tracker back into it's "normal" state after all the updates.
@@ -446,8 +465,9 @@ function _EventHandler:ZoneChangedNewArea()
                 QuestieTracker:Update()
             end)
         end)
-    elseif (not Questie.db.char.isTrackerExpanded) then
+    elseif (not Questie.db.char.isTrackerExpanded and not UnitIsGhost("player")) and trackerMinimizedByDungeon == true then
         QuestieTracker:Expand()
+        trackerMinimizedByDungeon = false
         -- By my tests it takes a full 6-7 seconds for the world to load. There are a lot of
         -- backend Questie updates that occur when a player zones out of an instance. This is
         -- necessary to get the tracker back into it's "normal" state after all the updates.

@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0718,
+	["LastVersion"] = 2.08,
+	["LastPlayerFullName"] = "康樂股長-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 35864,
@@ -34,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35926::::::::70:::::::::|h[精工护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 37403,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37403::::::::71:::::::::|h[沼泽行者长靴]|h|r",
+			["ID"] = 37984,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37984::::::::74:::::::::|h[死亡触摸之靴]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 35889,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35889::::::::70:::::::::|h[镶骨护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 35841,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35841::::::::70:::::::::|h[霜痕护手]|h|r",
+			["ID"] = 37996,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37996::::::::74:::::::::|h[飘雪劫掠者手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 35881,
@@ -61,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35922::::::::71:::::::::|h[黑铁徽记之戒]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 35937,
-			["Level"] = 138,
+			["ID"] = 38081,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:35937::::::::70:::::::::|h[布拉克雷的私藏月光酒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38081::::::::74:::::::::|h[伊萨诺斯甲虫]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 35937,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37547::::::::72:::::::::|h[火铸战锤]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "康樂股長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -13,16 +13,16 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1673269625,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1683294087,
+				["lastUpdate"] = 1683476694,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213842,
 			},
-			["Default.伊弗斯.頂級投資家"] = {
-				["lastUpdate"] = 1672640196,
-			},
 			["Default.伊弗斯.巴非特"] = {
 				["lastUpdate"] = 1680407570,
+			},
+			["Default.伊弗斯.頂級投資家"] = {
+				["lastUpdate"] = 1672640196,
 			},
 		},
 	},

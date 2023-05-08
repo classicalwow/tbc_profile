@@ -38,7 +38,7 @@ local l10n = QuestieLoader:ImportModule("l10n")
 local LibDropDown = LibStub:GetLibrary("LibUIDropDownMenuQuestie-4.0")
 local LSM30 = LibStub("LibSharedMedia-3.0")
 
-local linePoolSize = 360
+local linePoolSize = 250
 local lineIndex = 0
 local buttonPoolSize = 25
 local buttonIndex = 0
@@ -196,8 +196,8 @@ function TrackerLinePool.Initialize(questFrame)
         criteriaMark:SetFrameLevel(100)
 
         criteriaMark.SetCriteria = function(self, criteria)
-            if criteria ~= self.criteria then
-                self.criteria = criteria
+            if criteria ~= self.mode then
+                self.mode = criteria
 
                 if criteria == true then
                     self.texture:SetTexture("Interface\\Addons\\Questie\\Icons\\Checkmark")
@@ -647,7 +647,7 @@ function TrackerLinePool.ResetLinesForChange()
             line.expandZone.mode = nil
         end
         if line.criteriaMark then
-            line.criteriaMark:Hide()
+            line.criteriaMark.mode = nil
         end
     end
 
@@ -778,6 +778,7 @@ function TrackerLinePool.HideUnusedLines()
             line.trackTimedQuest = nil
             line.expandQuest.mode = nil
             line.expandZone.mode = nil
+            line.criteriaMark.mode = nil
         end
     end
 end

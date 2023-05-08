@@ -1,6 +1,6 @@
 # AddonProfiles
 
-## [1.1.4](https://github.com/syndenbock/AddonProfiles/tree/1.1.4) (2023-04-06)
-[Full Changelog](https://github.com/syndenbock/AddonProfiles/commits/1.1.4) [Previous Releases](https://github.com/syndenbock/AddonProfiles/releases)
+## [1.1.5](https://github.com/syndenbock/AddonProfiles/tree/1.1.5) (2023-05-03)
+[Full Changelog](https://github.com/syndenbock/AddonProfiles/commits/1.1.5) [Previous Releases](https://github.com/syndenbock/AddonProfiles/releases)
 
-- Update interface versions for 10.0.7 and 3.4.1  
+- Update interface version for 10.1.0  

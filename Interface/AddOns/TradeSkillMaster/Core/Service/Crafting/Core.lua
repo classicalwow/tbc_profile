@@ -804,7 +804,7 @@ function private.GetRestockHelpMessage(itemString)
 		assert(profit)
 
 		if not minProfit then
-			return L["The min profit did not evalulate to a valid value for this item."]
+			return L["The min profit did not evaluate to a valid value for this item."]
 		end
 
 		if profit < minProfit then
