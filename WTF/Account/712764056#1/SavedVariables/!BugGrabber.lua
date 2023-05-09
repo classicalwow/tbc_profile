@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 1970,
 	["lastSanitation"] = 3,
+	["session"] = 1973,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -193,14 +193,14 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["session"] = 1639,
 			["time"] = "2023/03/26 20:12:39",
+			["session"] = 1639,
 			["counter"] = 1,
 		}, -- [25]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["session"] = 1639,
 			["time"] = "2023/03/26 20:12:39",
+			["session"] = 1639,
 			["counter"] = 1,
 		}, -- [26]
 		{
@@ -602,44 +602,13 @@ BugGrabberDB = {
 			["counter"] = 1425,
 		}, -- [77]
 		{
-			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
-			["time"] = "2023/02/25 12:06:35",
-			["locals"] = "GearScore = 6473\nItemLevel = 227\nRed = 0.999940\nBlue = 0\nGreen = 0.000470\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 6\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
-			["session"] = 1968,
-			["counter"] = 4967,
-		}, -- [78]
-		{
-			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2023/02/25 11:45:05",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 1970,
-			["counter"] = 524,
-		}, -- [79]
-		{
-			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
-			["time"] = "2023/02/26 20:58:58",
-			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 1970,
-			["counter"] = 299,
-		}, -- [80]
-		{
-			["message"] = "Interface/AddOns/ElvUI/Core/General/Core.lua:385: attempt to call local 'func' (a boolean value)",
-			["time"] = "2023/05/03 12:45:03",
-			["stack"] = "[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:385: in function `ValueFuncCall'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:337: in function `UpdateMedia'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:265: in function <Interface/AddOns/ElvUI/Core/init.lua:264>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
-			["session"] = 1970,
-			["counter"] = 74,
-		}, -- [81]
-		{
 			["message"] = "Interface/AddOns/Auctionator/AuctionatorConfig.lua:105: bad argument #1 to 'SetSpacing' (Usage: self:SetSpacing(textType, spacing))",
 			["time"] = "2023/05/03 12:29:49",
 			["locals"] = "(*temporary) = AuctionatorDescriptionHTML {\n 0 = <userdata>\n}\n(*temporary) = 3\n",
 			["stack"] = "[string \"=[C]\"]: in function `SetSpacing'\n[string \"@Interface/AddOns/Auctionator/AuctionatorConfig.lua\"]:105: in function `Atr_SetupOptionsFrame'\n[string \"@Interface/AddOns/Auctionator/AuctionatorConfig.lua\"]:75: in function `Atr_InitOptionsPanels'\n[string \"@Interface/AddOns/Auctionator/Auctionator.lua\"]:938: in function `Atr_OnPlayerEnteringWorld'\n[string \"@Interface/AddOns/Auctionator/Auctionator.lua\"]:180: in function `Atr_EventHandler'\n[string \"*Auctionator.xml:23_OnEvent\"]:1: in function <[string \"*Auctionator.xml:23_OnEvent\"]:1>",
 			["session"] = 1970,
 			["counter"] = 26,
-		}, -- [82]
+		}, -- [78]
 		{
 			["message"] = "Interface/AddOns/Auctionator/AuctionatorHints.lua:500: attempt to call global 'GetContainerItemInfo' (a nil value)",
 			["time"] = "2023/05/03 12:46:15",
@@ -647,14 +616,66 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Auctionator/AuctionatorHints.lua\"]:500: in function <Interface/AddOns/Auctionator/AuctionatorHints.lua:499>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:106: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:104>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:408: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:402>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetBagItem'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventoryTooltip.lua\"]:308: in function <...ace/AddOns/ArkInventory/Core/ArkInventoryTooltip.lua:300>\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventoryTooltip.lua\"]:457: in function `TooltipSet'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:8857: in function `Frame_Item_OnEnter'\n[string \"*ArkInventory.xml:484_OnEnter\"]:1: in function <[string \"*ArkInventory.xml:484_OnEnter\"]:1>",
 			["session"] = 1970,
 			["counter"] = 1586,
+		}, -- [79]
+		{
+			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
+			["time"] = "2023/02/26 20:58:58",
+			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
+			["session"] = 1972,
+			["counter"] = 301,
+		}, -- [80]
+		{
+			["message"] = "Interface/AddOns/ElvUI/Core/General/Core.lua:385: attempt to call local 'func' (a boolean value)",
+			["time"] = "2023/05/03 12:45:03",
+			["stack"] = "[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:385: in function `ValueFuncCall'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:337: in function `UpdateMedia'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:265: in function <Interface/AddOns/ElvUI/Core/init.lua:264>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
+			["session"] = 1972,
+			["counter"] = 76,
+		}, -- [81]
+		{
+			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2023/02/25 11:45:05",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
+			["session"] = 1973,
+			["counter"] = 527,
+		}, -- [82]
+		{
+			["message"] = "光环'Equipped Items - Icon'的Lua错误：触发器1\nWeakAuras 版本：5.5.2\n光环版本：1.0.8\n[string \"return function() -- [itemId] = procId,\"]:576: attempt to index field 'displays' (a nil value)",
+			["time"] = "2023/05/08 21:30:39",
+			["stack"] = "[string \"return function() -- [itemId] = procId,\"]:576: in function <[string \"return function() -- [itemId] = procId,\"]:575>\n[string \"return function() -- [itemId] = procId,\"]:791: in function <[string \"return function() -- [itemId] = procId,\"]:757>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:578: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:563>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:958: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1291: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1894: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1678: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1528>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1871: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1163: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1125>",
+			["session"] = 1973,
+			["counter"] = 3,
 		}, -- [83]
+		{
+			["message"] = "光环'Equipped Items - Icon'的Lua错误：触发器 1\nWeakAuras 版本：5.5.2\n光环版本：1.0.8\n[string \"return function() -- [itemId] = procId,\"]:812: attempt to index field 'displays' (a nil value)",
+			["time"] = "2023/05/08 23:18:27",
+			["stack"] = "[string \"return function() -- [itemId] = procId,\"]:812: in function <[string \"return function() -- [itemId] = procId,\"]:811>\n[string \"return function() -- [itemId] = procId,\"]:827: in function <[string \"return function() -- [itemId] = procId,\"]:821>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:578: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:563>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:911: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4221: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4197: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1445: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1471: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:728: in function <...terface/AddOns/WeakAurasOptions/WeakAurasOptions.lua:697>",
+			["session"] = 1973,
+			["counter"] = 1,
+		}, -- [84]
+		{
+			["message"] = "光环'Equipped Items - Icon'的Lua错误：触发器 1\nWeakAuras 版本：5.5.2\n光环版本：1.0.8\n[string \"return function() -- [itemId] = procId,\"]:576: attempt to index field 'displays' (a nil value)",
+			["time"] = "2023/05/08 23:18:45",
+			["stack"] = "[string \"return function() -- [itemId] = procId,\"]:576: in function <[string \"return function() -- [itemId] = procId,\"]:575>\n[string \"return function() -- [itemId] = procId,\"]:791: in function <[string \"return function() -- [itemId] = procId,\"]:757>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:578: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:563>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:958: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1291: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1894: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1678: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1528>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1871: in function `Resume'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:167: in function <...dOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua:147>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2888: in function <Interface_Wrath/FrameXML/UIParent.lua:2883>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1846: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1845>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2926: in function `CloseWindows'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2951: in function <Interface_Wrath/FrameXML/UIParent.lua:2941>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:3594: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
+			["session"] = 1973,
+			["counter"] = 1,
+		}, -- [85]
+		{
+			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
+			["time"] = "2023/02/25 12:06:35",
+			["locals"] = "GearScore = 6473\nItemLevel = 227\nRed = 0.999940\nBlue = 0\nGreen = 0.000470\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 6\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
+			["session"] = 1973,
+			["counter"] = 5010,
+		}, -- [86]
 		{
 			["message"] = "...terface/AddOns/AddOnSkins/Skins/AddOns/Libraries.lua:258: attempt to call field 'GetFreeExtraTipObject' (a nil value)",
 			["time"] = "2023/05/08 00:25:17",
 			["locals"] = "tip = <table> {\n AddMoneyLine = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:802\n Activate = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:999\n SetHyperlinkAndCount = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:832\n AddCallback = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:617\n AddLine = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:708\n hookStore = <table> {\n }\n GetTooltipAdditional = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:951\n embedMode = false\n tooltipRegistry = <table> {\n }\n GetFreeExtraTipObject = <function> defined =[C]:-1\n IsRegistered = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:580\n sortedCallbacks = <table> {\n }\n callbacks = <table> {\n }\n Deactivate = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:966\n extraTippool = <table> {\n }\n SetBattlePetAndCount = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:868\n RemoveCallback = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:664\n SetEmbedMode = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:692\n GetMoneyText = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:763\n RegisterTooltip = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:524\n AddDoubleLine = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:738\n GetExtraTip = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:595\n}\n(*temporary) = nil\n(*temporary) = <table> {\n AddMoneyLine = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:802\n Activate = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:999\n SetHyperlinkAndCount = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:832\n AddCallback = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:617\n AddLine = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:708\n hookStore = <table> {\n }\n GetTooltipAdditional = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:951\n embedMode = false\n tooltipRegistry = <table> {\n }\n GetFreeExtraTipObject = <function> defined =[C]:-1\n IsRegistered = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:580\n sortedCallbacks = <table> {\n }\n callbacks = <table> {\n }\n Deactivate = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:966\n extraTippool = <table> {\n }\n SetBattlePetAndCount = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:868\n RemoveCallback = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:664\n SetEmbedMode = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:692\n GetMoneyText = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:763\n RegisterTooltip = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:524\n AddDoubleLine = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:738\n GetExtraTip = <function> defined @Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:595\n}\n(*temporary) = \"attempt to call field 'GetFreeExtraTipObject' (a nil value)\"\nS = <table> {\n HandleCollapseTexture = <function> defined @Interface/AddOns/AddOnSkins/Core/Skins.lua:2129\n Point = <function> defined @Interface/AddOns/AddOnSkins/Core/Skins.lua:212\n HandleFrame = <function> defined @Interface/AddOns/AddOnSkins/Core/Skins.lua:580\n ArrowRotation = <table> {\n }\n HandleNextPrevButton = <function> defined @Interface/AddOns/AddOnSkins/Core/Skins.lua:1508\n modules = <table> {\n }\n ToggleBorders = <function> defined @Interface/AddOns/AddOnSkins/Core/Skins.l",
 			["stack"] = "[string \"@Interface/AddOns/AddOnSkins/Skins/AddOns/Libraries.lua\"]:258: in function <...terface/AddOns/AddOnSkins/Skins/AddOns/Libraries.lua:257>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `GetFreeExtraTipObject'\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:195: in function `h'\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:480: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:476>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/LoonBestInSlot/UpdateTooltips.lua\"]:205: in function <Interface/AddOns/LoonBestInSlot/UpdateTooltips.lua:199>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetAction'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua\"]:2445: in function `SetTooltip'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua\"]:2146: in function <...ies/Core/LibActionButton-1.0/LibActionButton-1.0.lua:2138>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibActionButton-1.0/LibActionButton-1.0.lua\"]:1098: in function <...ies/Core/LibActionButton-1.0/LibActionButton-1.0.lua:1096>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?",
-			["session"] = 1970,
-			["counter"] = 1064,
-		}, -- [84]
+			["session"] = 1973,
+			["counter"] = 6642,
+		}, -- [87]
 	},
 }

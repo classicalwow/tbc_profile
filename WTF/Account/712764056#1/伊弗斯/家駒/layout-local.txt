@@ -55,6 +55,13 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: GIL
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 366
+Y: -126
+W: 734
+H: 400
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
 Anchor: CENTER

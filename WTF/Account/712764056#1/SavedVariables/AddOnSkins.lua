@@ -17,8 +17,8 @@ AddOnSkinsDB = {
 	["profiles"] = {
 		["Default"] = {
 			["Auctionator"] = false,
-			["WIM"] = false,
 			["DBMSkinHalf"] = true,
+			["WIM"] = false,
 		},
 	},
 }
