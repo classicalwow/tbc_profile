@@ -13,7 +13,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1673269625,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1683476694,
+				["lastUpdate"] = 1683643821,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213842,
