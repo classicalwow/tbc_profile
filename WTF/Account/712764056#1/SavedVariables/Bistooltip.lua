@@ -289,17 +289,9 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["minimapPos"] = 253.4463397527872,
+			["class_index"] = 10,
 			["filter_class_names"] = false,
 			["version"] = 6.1,
-			["phase_index"] = 3,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
-			["class_index"] = 10,
-			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -352,6 +344,14 @@ BisTooltipDB = {
 					["Restoration"] = true,
 					["Feral tank"] = true,
 				},
+			},
+			["phase_index"] = 3,
+			["minimapPos"] = 253.4463397527872,
+			["data_source"] = "wh",
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
 			},
 		},
 	},

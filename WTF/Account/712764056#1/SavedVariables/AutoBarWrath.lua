@@ -63,12 +63,12 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonFoodPet",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonCharge"] = {
+				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = 2,
+					["buttonClass"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = 4,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
+					["buttonKey"] = "AutoBarButtonTrap",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonDebuff"] = {
@@ -87,12 +87,12 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
-					["defaultButtonIndex"] = 4,
+					["buttonClass"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = 2,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
+					["buttonKey"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -689,12 +689,12 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonFoodPet",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonCharge"] = {
+				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = 2,
+					["buttonClass"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = 4,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
+					["buttonKey"] = "AutoBarButtonTrap",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonDebuff"] = {
@@ -713,12 +713,12 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
-					["defaultButtonIndex"] = 4,
+					["buttonClass"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = 2,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
+					["buttonKey"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -978,13 +978,12 @@ AutoBarDB2 = {
 				},
 			},
 			["buttonList"] = {
-				["AutoBarButtonShields"] = {
+				["AutoBarButtonTotemEarth"] = {
 					["barKey"] = "AutoBarClassBarShaman",
-					["buttonClass"] = "AutoBarButtonShields",
-					["defaultButtonIndex"] = "*",
-					["arrangeOnUse"] = true,
+					["buttonClass"] = "AutoBarButtonTotemEarth",
+					["defaultButtonIndex"] = 2,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonShields",
+					["buttonKey"] = "AutoBarButtonTotemEarth",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonTravel"] = {
@@ -995,12 +994,13 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonTravel",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonTotemEarth"] = {
+				["AutoBarButtonShields"] = {
 					["barKey"] = "AutoBarClassBarShaman",
-					["buttonClass"] = "AutoBarButtonTotemEarth",
-					["defaultButtonIndex"] = 2,
+					["buttonClass"] = "AutoBarButtonShields",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTotemEarth",
+					["buttonKey"] = "AutoBarButtonShields",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -1020,13 +1020,12 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonTotemFire",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonER"] = {
+				["AutoBarButtonTotemAir"] = {
 					["barKey"] = "AutoBarClassBarShaman",
-					["buttonClass"] = "AutoBarButtonER",
-					["defaultButtonIndex"] = "*",
-					["noPopup"] = true,
+					["buttonClass"] = "AutoBarButtonTotemAir",
+					["defaultButtonIndex"] = 1,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonER",
+					["buttonKey"] = "AutoBarButtonTotemAir",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonTotemWater"] = {
@@ -1037,12 +1036,13 @@ AutoBarDB2 = {
 					["buttonKey"] = "AutoBarButtonTotemWater",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonTotemAir"] = {
+				["AutoBarButtonER"] = {
 					["barKey"] = "AutoBarClassBarShaman",
-					["buttonClass"] = "AutoBarButtonTotemAir",
-					["defaultButtonIndex"] = 1,
+					["buttonClass"] = "AutoBarButtonER",
+					["defaultButtonIndex"] = "*",
+					["noPopup"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTotemAir",
+					["buttonKey"] = "AutoBarButtonER",
 					["square_popups"] = true,
 				},
 			},

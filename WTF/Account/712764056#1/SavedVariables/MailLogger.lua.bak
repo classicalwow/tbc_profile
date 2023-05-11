@@ -18559,5 +18559,141 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [947]
+		{
+			["TargetName"] = "郭小胖",
+			["Date"] = "2023-05-10",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["PlayerName"] = "家駒",
+			["Time"] = "23:25:22",
+			["ReceiveItems"] = {
+			},
+		}, -- [948]
+		{
+			["TargetName"] = "郭小胖",
+			["Date"] = "2023-05-10",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["PlayerName"] = "家駒",
+			["Time"] = "23:25:25",
+			["ReceiveItems"] = {
+			},
+		}, -- [949]
+		{
+			["TargetName"] = "郭小胖",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-05-10",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:25:25",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [1]
+				{
+					["Number"] = 19,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [2]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [3]
+			},
+		}, -- [950]
+		{
+			["TargetName"] = "福克斯丶",
+			["Date"] = "2023-05-11",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["PlayerName"] = "家駒",
+			["Time"] = "02:52:47",
+			["ReceiveItems"] = {
+			},
+		}, -- [951]
+		{
+			["TargetName"] = "福克斯丶",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-05-11",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:52:47",
+			["GiveMoney"] = 10000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [952]
+		{
+			["TargetName"] = "福克斯丶",
+			["Date"] = "2023-05-11",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["PlayerName"] = "家駒",
+			["Time"] = "03:09:08",
+			["ReceiveItems"] = {
+			},
+		}, -- [953]
+		{
+			["TargetName"] = "福克斯丶",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-05-11",
+			["ReceiveMoney"] = 10000000,
+			["Time"] = "03:09:08",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [954]
+		{
+			["TargetName"] = "不來斯",
+			["Date"] = "2023-05-11",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["PlayerName"] = "家駒",
+			["Time"] = "03:10:55",
+			["ReceiveItems"] = {
+			},
+		}, -- [955]
+		{
+			["TargetName"] = "不來斯",
+			["PlayerName"] = "家駒",
+			["Date"] = "2023-05-11",
+			["ReceiveMoney"] = 135440000,
+			["Time"] = "03:10:55",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [956]
 	},
 }

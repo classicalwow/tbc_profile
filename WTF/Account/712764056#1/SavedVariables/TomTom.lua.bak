@@ -64,18 +64,17 @@ TomTomWaypointsM = {
 		["邁克爾假死 - 伊弗斯"] = {
 		},
 		["家駒 - 伊弗斯"] = {
-			[116] = {
-				["116:214425427.87286:650122249.38875:Mailbox"] = {
-					116, -- [1]
-					0.2144254278728607, -- [2]
-					0.6501222493887531, -- [3]
+			[120] = {
+				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
+					120, -- [1]
+					0.4369193154034231, -- [2]
+					0.2613691931540342, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Mailbox",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Mailbox",
+					["title"] = "Meeting Stone",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
@@ -85,7 +84,6 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -140,9 +138,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
