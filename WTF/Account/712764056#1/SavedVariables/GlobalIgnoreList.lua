@@ -15,8 +15,8 @@ GlobalIgnoreDB = {
 	["typeList"] = {
 		"player", -- [1]
 	},
-	["invertSpam"] = false,
 	["openWithFriends"] = true,
+	["invertSpam"] = false,
 	["skipPrivate"] = true,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
@@ -30,20 +30,8 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoCount"] = 3,
-	["sameserver"] = true,
-	["ignoreList"] = {
-		"Beekìng-伊弗斯", -- [1]
-	},
-	["trackChanges"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-		"Horde", -- [1]
-	},
-	["dateList"] = {
-		"06 May 2023", -- [1]
-	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -72,15 +60,30 @@ GlobalIgnoreDB = {
 		"Jellydeathk-伊弗斯", -- [25]
 		"焚魂-伊弗斯", -- [26]
 	},
+	["syncInfo"] = {
+		{
+		}, -- [1]
+	},
+	["autoTime"] = 600,
+	["autoIgnore"] = true,
+	["factionList"] = {
+		"Horde", -- [1]
+	},
+	["defexpire"] = 0,
+	["sameserver"] = true,
 	["attachFriends"] = true,
-	["revision"] = 1,
+	["notes"] = {
+		"", -- [1]
+	},
 	["expList"] = {
 		0, -- [1]
 	},
-	["skipParty"] = false,
+	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["defexpire"] = 0,
+	["dateList"] = {
+		"06 May 2023", -- [1]
+	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -107,14 +110,11 @@ GlobalIgnoreDB = {
 		false, -- [10]
 	},
 	["asknote"] = true,
-	["skipGuild"] = true,
-	["notes"] = {
-		"", -- [1]
-	},
-	["autoUpdate"] = true,
+	["skipParty"] = false,
+	["revision"] = 1,
+	["trackChanges"] = true,
 	["samefaction"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
+	["ignoreList"] = {
+		"Beekìng-伊弗斯", -- [1]
 	},
 }

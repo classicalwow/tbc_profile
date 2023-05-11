@@ -64,33 +64,6 @@ TomTomWaypointsM = {
 		["邁克爾假死 - 伊弗斯"] = {
 		},
 		["家駒 - 伊弗斯"] = {
-			[116] = {
-				["116:214425427.87286:650122249.38875:Mailbox"] = {
-					116, -- [1]
-					0.2144254278728607, -- [2]
-					0.6501222493887531, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mailbox",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mailbox",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-		},
-		["巴非特 - 伊弗斯"] = {
 			[120] = {
 				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
 					120, -- [1]
@@ -99,8 +72,7 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Meeting Stone",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Meeting Stone",
 					["from"] = "Questie",
@@ -120,10 +92,11 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+		},
+		["巴非特 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			[120] = {
@@ -142,9 +115,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -173,9 +146,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
