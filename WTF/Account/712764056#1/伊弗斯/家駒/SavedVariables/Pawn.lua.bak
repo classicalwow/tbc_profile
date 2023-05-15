@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.08,
+	["LastVersion"] = 2.0801,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46180,
@@ -13,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45822::::::::80:::::::::|h[唤魔师的符咒]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 40590,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:40590::::::::80:::::::::|h[庄严龙巢肩铠]|h|r",
+			["ID"] = 46182,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46182::::::::80:::::::::|h[征服者的庇护肩饰]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{

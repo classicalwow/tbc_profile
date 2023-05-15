@@ -17,7 +17,7 @@ local OmniCDC =	 LibStub("OmniCDC")
 --[[ s r
 local MAJOR, MINOR = "AceConfigDialog-3.0", 85
 ]]
-local MAJOR, MINOR = "AceConfigDialog-3.0-OmniCD", 87 -- 82 DF -- 87 backdrop
+local MAJOR, MINOR = "AceConfigDialog-3.0-OmniCD", 88 -- 82 DF -- 87 backdrop
 -- e
 local AceConfigDialog, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
@@ -1492,6 +1492,11 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 								end
 							end
 
+							-- s b (Multiselect dropdown with disable support) v88
+							-- disabledItem member type must be a function
+							local item = GetOptionsMemberValue("disabledItem", v, options, path, appName)
+							-- e
+
 							control:PauseLayout()
 							local width = GetOptionsMemberValue("width",v,options,path,appName)
 							for s = 1, #valuesort do
@@ -1501,7 +1506,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 								check:SetLabel(name == ALL and text or "") -- name "" is header row
 								check:SetUserData("value", value)
 								check:SetUserData("text", text)
-								check:SetDisabled(disabled)
+								check:SetDisabled(disabled or s == item)
 								check:SetTriState(v.tristate)
 								check:SetValue(GetOptionsMemberValue("get",v, options, path, appName, value))
 								check:SetCallback("OnValueChanged", ActivateMultiControl_NoRefresh) -- don't refresh layout (laggy)

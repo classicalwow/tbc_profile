@@ -815,6 +815,19 @@ registeredEvents['SPELL_DAMAGE'][222024] = ReduceRedThirstCD
 registeredEvents['SPELL_DAMAGE'][207230] = ReduceRedThirstCD
 
 
+registeredEvents['SPELL_CAST_SUCCESS'][49184] = function(info)
+	if info.auras.isRime then
+		local icon = info.spellIcons[279302]
+		if icon and icon.active then
+			P:UpdateCooldown(icon, 2)
+		end
+	end
+end
+
+registeredEvents['SPELL_AURA_APPLIED'][59052] = function(info) info.auras.isRime = true end
+registeredEvents['SPELL_AURA_REMOVED'][59052] = function(info) info.auras.isRime = nil end
+
+
 
 
 
@@ -3010,6 +3023,33 @@ registeredHostileEvents['SPELL_DAMAGE']['PALADIN'] = ReduceDivineShieldCD
 registeredHostileEvents['SPELL_ABSORBED']['PALADIN'] = ReduceDivineShieldCD
 
 
+registeredEvents['SPELL_HEAL'][25914] = function(info, srcGUID, _,_,_,_,_,_,_, criticalHeal)
+	if not criticalHeal then return end
+	local icon = info.spellIcons[114165]
+	if icon and icon.active then
+		P:UpdateCooldown(icon, 1)
+	end
+	local icon = info.spellIcons[114158]
+	if icon and icon.active then
+		P:UpdateCooldown(icon, 2)
+	end
+end
+
+--[[
+registeredEvents['SPELL_DAMAGE'][25912] = function(info, _,_,_, critical)
+	if not critical then return end
+	local icon = info.spellIcons[114165]
+	if icon and icon.active then
+		P:UpdateCooldown(icon, 1)
+	end
+	local icon = info.spellIcons[114158]
+	if icon and icon.active then
+		P:UpdateCooldown(icon, 2)
+	end
+end
+]]
+
+
 
 
 
@@ -4121,6 +4161,19 @@ registeredEvents['SPELL_AURA_REMOVED'][312321] = function(info, srcGUID, spellID
 		E.TimerAfter(0.5, ResetScouringTitheCD_OnDelayEnd, srcGUID, spellID)
 	end
 end
+
+
+registeredEvents['SPELL_CAST_SUCCESS'][264178] = function(info)
+	if info.auras.isDemonicCore then
+		local icon = info.spellIcons[111898]
+		if icon and icon.active then
+			P:UpdateCooldown(icon, 1)
+		end
+	end
+end
+
+registeredEvents['SPELL_AURA_REMOVED'][264173] = function(info) info.auras.isDemonicCore = true end
+registeredEvents['SPELL_AURA_APPLIED'][264173] = function(info) info.auras.isDemonicCore = nil end
 
 
 

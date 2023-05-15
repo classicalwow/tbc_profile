@@ -1,9 +1,7 @@
-# 3.10.14 (20-JAN-2023)
- - fixed - rule function `itemstat( )`
- - fixed - (wrath) default bank and vault windows opening due to `PlayerInteractionFrameManager` being added to wrath
- - changed - (wrath) toc updated to 30401
- - added - rule function `itemstatactive( )`
- - fixed - issue with grey item transmog detection code
+# 3.10.16 (08-MAY-2023)
+ - fixed - https://github.com/arkayenro/arkinventory/issues/1787 - issue handling a null tooltipinfo
+ - updated - categorised some items
+ - changed - (retail) toc updated to 100100
  
 # known issues
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open

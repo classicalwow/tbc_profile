@@ -129,6 +129,8 @@ E.spell_cdmod_talents = {
 	[17767] = { 385881, 30 },
 	[89751] = { 387338, 10 },
 	[104316] = { 212628, 5 },
+	[278350] = { 405571, 5 },
+	[205179] = { 405571, 12 },
 	[845] = { 383293, 3 },
 	[6552] = { 383115, 1, 382461, 1, 391270, 1, 391271, 1 },
 	[7384] = { 382461, 1 },
@@ -549,6 +551,11 @@ E.spellcast_cdr = {
 	[373861] = { 376237, nil, {[367226]=5, [355936]=5, [382266]=5} },
 	[217200] = { 231548, 12, 19574 },
 
+
+	[193455] = { 405525, 1, 19574 },
+	[34026] = { 405525, 1, 19574 },
+	[2643] = { 405525, 1, 19574 },
+	[53351] = { 405527, 1.5, 257044 },
 
 	[133] = { 203283, 2, 190319 },
 	[121253] = {
@@ -1064,7 +1071,6 @@ E.spell_major_cd = E.BLANK
 
 E.item_merged = {
 
-
 	[184052] = 181333,
 	[184054] = 181816,
 	[184053] = 181335,
@@ -1094,11 +1100,15 @@ E.item_merged = {
 	[192304] = 188775,
 	[192305] = 188778,
 
-
 	[201810] = 181333, [201450] = 181333,
 	[201811] = 181816, [201453] = 181816,
 	[201809] = 178447, [201452] = 178447,
 	[201807] = 175921, [201449] = 175921,
+
+	[205711] = 181333, [205779] = 181333,
+	[205712] = 181816, [205782] = 181816,
+	[205710] = 178447, [205781] = 178447,
+	[205708] = 175921, [205778] = 175921,
 }
 
 E.item_equip_bonus = E.BLANK
@@ -1113,8 +1123,23 @@ local class_set_bonus = {
 		[253] = { 393646, 2 },
 	},
 	]]
+
 	WARRIOR = {
 		[73] = { 405581, 2 },
+	},
+	DEATHKNIGHT = {
+		[251] = { 405502, 4 },
+	},
+	HUNTER = {
+		[253] = { 405525, 4 },
+		[254] = { 405527, 4 },
+	},
+	PALADIN = {
+		[65] = { 405545, 2 },
+	},
+	WARLOCK = {
+		[265] = { 405571, 2 },
+		[266] = { 405573, 2 },
 	},
 }
 
@@ -1137,6 +1162,26 @@ E.item_set_bonus = {
 	[202446] = class_set_bonus.WARRIOR,
 	[202444] = class_set_bonus.WARRIOR,
 	[202442] = class_set_bonus.WARRIOR,
+	[202464] = class_set_bonus.DEATHKNIGHT,
+	[202462] = class_set_bonus.DEATHKNIGHT,
+	[202461] = class_set_bonus.DEATHKNIGHT,
+	[202460] = class_set_bonus.DEATHKNIGHT,
+	[202459] = class_set_bonus.DEATHKNIGHT,
+	[202482] = class_set_bonus.HUNTER,
+	[202480] = class_set_bonus.HUNTER,
+	[202479] = class_set_bonus.HUNTER,
+	[202478] = class_set_bonus.HUNTER,
+	[202477] = class_set_bonus.HUNTER,
+	[202455] = class_set_bonus.PALADIN,
+	[202453] = class_set_bonus.PALADIN,
+	[202452] = class_set_bonus.PALADIN,
+	[202451] = class_set_bonus.PALADIN,
+	[202450] = class_set_bonus.PALADIN,
+	[202536] = class_set_bonus.WARLOCK,
+	[202534] = class_set_bonus.WARLOCK,
+	[202533] = class_set_bonus.WARLOCK,
+	[202532] = class_set_bonus.WARLOCK,
+	[202531] = class_set_bonus.WARLOCK,
 }
 
 E.item_unity = {

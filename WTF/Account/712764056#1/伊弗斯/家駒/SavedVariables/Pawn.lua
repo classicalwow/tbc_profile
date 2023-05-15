@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.08,
+	["LastVersion"] = 2.0801,
 	["LastPlayerFullName"] = "家駒-伊弗斯",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45822::::::::80:::::::::|h[唤魔师的符咒]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 40590,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:40590::::::::80:::::::::|h[庄严龙巢肩铠]|h|r",
+			["ID"] = 46182,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46182::::::::80:::::::::|h[征服者的庇护肩饰]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -85,9 +85,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45612::::::::80:::::::::|h[星座]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 39716,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:39716::::::::80:::::::::|h[消化之盾]|h|r",
+			["ID"] = 45682,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:45682::::::::80:::::::::|h[脉冲魔法之盾]|h|r",
 		}, -- [17]
 	},
 }

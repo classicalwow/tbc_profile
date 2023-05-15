@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0718,
+	["LastVersion"] = 2.0801,
 	["LastPlayerFullName"] = "特變電工-伊弗斯",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -47,10 +47,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45988::::::::80:::::::::|h[钢铁军队胫甲]|h|r",
 		},
 		[16] = {
-			["ID"] = 45142,
-			["Level"] = 238,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:45142::::::::80:::::::::|h[悔恨]|h|r",
+			["ID"] = 45516,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:45516::::::::80:::::::::|h[沃德雷萨，黑暗湮灭之剑]|h|r",
 		},
 		[17] = {
 			["ID"] = 45110,

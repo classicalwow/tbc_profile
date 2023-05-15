@@ -855,9 +855,9 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 	
 	-- junk
 	if info.q == ArkInventory.ENUM.ITEM.QUALITY.POOR or ArkInventory.PT_ItemInSets( i.h, "ArkInventory.System.Junk" ) then
-		if not ArkInventory.ItemTransmogState( i.h, i.sb, i.loc_id ) then
+		--if not ArkInventory.ItemTransmogState( i.h, i.sb, i.loc_id ) then
 			return ArkInventory.CategoryGetSystemID( "SYSTEM_JUNK" )
-		end
+		--end
 	end
 	
 	-- projectiles
