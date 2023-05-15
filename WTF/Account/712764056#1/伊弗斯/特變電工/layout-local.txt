@@ -1,4 +1,11 @@
 Version: 1
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -107
+Y: -21
+W: 1045
+H: 611
 Frame: ReplayFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -55,10 +62,3 @@ X: -245
 Y: -178
 W: 200
 H: 50
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -107
-Y: -21
-W: 1045
-H: 611
