@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46212,
@@ -61,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:46322::::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 40684,
-			["Level"] = 200,
+			["ID"] = 45522,
+			["Level"] = 232,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:40684::::::::80:::::::::|h[真实之镜]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45522::::::::80:::::::::|h[古神之血]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 42988,
@@ -78,10 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40250::::::::80:::::::::|h[极冬披风]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 45315,
-			["Level"] = 238,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:45315::::::::80:::::::::|h[碎石者]|h|r",
+			["ID"] = 45132,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:45132::::::::80:::::::::|h[萨隆邪铁金龙之拳]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 45315,
@@ -90,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45315:3830:::::::80:::::::::|h[碎石者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -6,34 +6,22 @@ DataStore_InventoryDB = {
 		["家駒 - 伊弗斯"] = "家駒 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+		["巴非特 - 伊弗斯"] = "巴非特 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
-		["巴非特 - 伊弗斯"] = "巴非特 - 伊弗斯",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.巴非特"] = {
+			["Default.伊弗斯.頂級投資家"] = {
+				["lastUpdate"] = 1672640195,
 				["Inventory"] = {
-					"|cffffffff|Hitem:199486::::::::70:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:199519::::::::70:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:199487::::::::70:::::::::|h[]|h|r", -- [3]
-					nil, -- [4]
-					"|cffffffff|Hitem:199488::::::::70:::::::::|h[]|h|r", -- [5]
-					"|cffffffff|Hitem:199489::::::::70:::::::::|h[]|h|r", -- [6]
-					"|cffffffff|Hitem:199490::::::::70:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:199491::::::::70:::::::::|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:199492::::::::70:::::::::|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:199493::::::::70:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:199522::::::::70:::::::::|h[]|h|r", -- [11]
-					"|cffffffff|Hitem:199699::::::::70:::::::::|h[]|h|r", -- [12]
-					"|cffffffff|Hitem:199530::::::::70:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:199529::::::::70:::::::::|h[]|h|r", -- [14]
-					"|cffffffff|Hitem:199470::::::::70:::::::::|h[]|h|r", -- [15]
+					[8] = "|cffffffff|Hitem:24146::::::::2:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:23346::::::::2:::::::::|h[]|h|r",
+					[7] = "|cffffffff|Hitem:24145::::::::2:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:24143::::::::2:::::::::|h[]|h|r",
 				},
-				["lastUpdate"] = 1680407568,
 			},
 			["Default.伊弗斯.暖男你馬四了"] = {
-				["lastUpdate"] = 1668964936,
 				["Inventory"] = {
 					[7] = "|cffffffff|Hitem:1396::::::::1:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:59::::::::1:::::::::|h[]|h|r",
@@ -41,17 +29,17 @@ DataStore_InventoryDB = {
 					[5] = "|cffffffff|Hitem:57::::::::1:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:35::::::::1:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1668964936,
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
-				["lastUpdate"] = 1675508554,
 				["Inventory"] = {
 					[5] = "|cffffffff|Hitem:10036::::::::34:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:4923::::::::34:::::::::|h[]|h|r",
 					[7] = "|cffffffff|Hitem:10035::::::::34:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1675508554,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1664462132,
 				["Inventory"] = {
 					"|cffffffff|Hitem:28275:3003:30553:32409:::::70:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:30017::::::::70:::::::::|h[]|h|r", -- [2]
@@ -72,9 +60,10 @@ DataStore_InventoryDB = {
 					[18] = "|cffffffff|Hitem:29351::::::::70:::::::::|h[]|h|r",
 					[19] = "|cffffffff|Hitem:31404::::::::70:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1664462132,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684061691,
+				["lastUpdate"] = 1684244768,
 				["averageItemLvl"] = 120.875,
 				["Inventory"] = {
 					"|cff1eff00|Hitem:37986::::::::75:::::::::|h[被遗忘火枪手的兜帽]|h|r", -- [1]
@@ -97,13 +86,13 @@ DataStore_InventoryDB = {
 				},
 			},
 			["Default.伊弗斯.家駒"] = {
-				["lastUpdate"] = 1679213842,
 				["Inventory"] = {
-					[17] = "|cffffffff|Hitem:2362::::::::1:::::::::|h[]|h|r",
-					[16] = "|cffffffff|Hitem:36::::::::1:::::::::|h[]|h|r",
-					[7] = "|cffffffff|Hitem:153::::::::1:::::::::|h[]|h|r",
 					[4] = "|cffffffff|Hitem:154::::::::1:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:36::::::::1:::::::::|h[]|h|r",
+					[17] = "|cffffffff|Hitem:2362::::::::1:::::::::|h[]|h|r",
+					[7] = "|cffffffff|Hitem:153::::::::1:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1679213842,
 			},
 			["Default.伊弗斯.特變電工"] = {
 				["Inventory"] = {
@@ -130,14 +119,25 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 8.588235294117647,
 				["lastUpdate"] = 1663501479,
 			},
-			["Default.伊弗斯.頂級投資家"] = {
+			["Default.伊弗斯.巴非特"] = {
+				["lastUpdate"] = 1680407568,
 				["Inventory"] = {
-					[8] = "|cffffffff|Hitem:24146::::::::2:::::::::|h[]|h|r",
-					[16] = "|cffffffff|Hitem:23346::::::::2:::::::::|h[]|h|r",
-					[7] = "|cffffffff|Hitem:24145::::::::2:::::::::|h[]|h|r",
-					[4] = "|cffffffff|Hitem:24143::::::::2:::::::::|h[]|h|r",
+					"|cffffffff|Hitem:199486::::::::70:::::::::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:199519::::::::70:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:199487::::::::70:::::::::|h[]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffffff|Hitem:199488::::::::70:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:199489::::::::70:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:199490::::::::70:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:199491::::::::70:::::::::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:199492::::::::70:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:199493::::::::70:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:199522::::::::70:::::::::|h[]|h|r", -- [11]
+					"|cffffffff|Hitem:199699::::::::70:::::::::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:199530::::::::70:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:199529::::::::70:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:199470::::::::70:::::::::|h[]|h|r", -- [15]
 				},
-				["lastUpdate"] = 1672640195,
 			},
 		},
 		["Guilds"] = {

@@ -13,7 +13,6 @@ GlobalIgnoreDB = {
 		0, -- [10]
 	},
 	["typeList"] = {
-		"player", -- [1]
 	},
 	["invertSpam"] = false,
 	["openWithFriends"] = true,
@@ -30,19 +29,16 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
 	["autoCount"] = 3,
 	["sameserver"] = true,
 	["ignoreList"] = {
-		"Beekìng-伊弗斯", -- [1]
 	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
-		"Horde", -- [1]
 	},
 	["dateList"] = {
-		"06 May 2023", -- [1]
 	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
@@ -71,11 +67,11 @@ GlobalIgnoreDB = {
 		"弯湾会魔法-伊弗斯", -- [24]
 		"Jellydeathk-伊弗斯", -- [25]
 		"焚魂-伊弗斯", -- [26]
+		"Beekìng-伊弗斯", -- [27]
 	},
 	["attachFriends"] = true,
 	["revision"] = 1,
 	["expList"] = {
-		0, -- [1]
 	},
 	["skipParty"] = false,
 	["chatmsg"] = true,
@@ -109,12 +105,9 @@ GlobalIgnoreDB = {
 	["asknote"] = true,
 	["skipGuild"] = true,
 	["notes"] = {
-		"", -- [1]
 	},
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
 	["syncInfo"] = {
-		{
-		}, -- [1]
 	},
 }
