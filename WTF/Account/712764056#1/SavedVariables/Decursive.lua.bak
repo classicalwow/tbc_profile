@@ -1,10 +1,7 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["路易斯桑拿 - 伊弗斯"] = "Default",
-		["康樂股長 - 伊弗斯"] = "Default",
-		["家駒 - 伊弗斯"] = "Default",
-		["巴非特 - 伊弗斯"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1683101383,
 	},
 	["class"] = {
 		["WARRIOR"] = {
@@ -41,8 +38,11 @@ DecursiveDB = {
 			},
 		},
 	},
-	["global"] = {
-		["LastVersionAnnounce"] = 1683101383,
+	["profileKeys"] = {
+		["路易斯桑拿 - 伊弗斯"] = "Default",
+		["康樂股長 - 伊弗斯"] = "Default",
+		["家駒 - 伊弗斯"] = "Default",
+		["巴非特 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
