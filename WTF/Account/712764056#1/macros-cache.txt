@@ -65,7 +65,9 @@ VER 3 000000000000002F "RE假" "INV_Misc_QuestionMark"
 /cast 多重射擊
 END
 VER 3 00000000000000AD "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact 先锋军黑鸦祭司
+/targetexact 克罗米
+/targetexact 伊萨里奥斯勋爵
+/targetexact 德米斯塔兹
 /cleartarget [dead]
 END
 VER 3 0000000000000030 "SS" "132101"

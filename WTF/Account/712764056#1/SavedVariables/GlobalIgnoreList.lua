@@ -14,9 +14,16 @@ GlobalIgnoreDB = {
 	},
 	["typeList"] = {
 	},
+	["syncInfo"] = {
+	},
 	["invertSpam"] = false,
-	["openWithFriends"] = true,
 	["skipPrivate"] = true,
+	["ignoreList"] = {
+	},
+	["trackChanges"] = true,
+	["autoCount"] = 3,
+	["notes"] = {
+	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -30,16 +37,47 @@ GlobalIgnoreDB = {
 		"[nonlatin]", -- [10]
 	},
 	["autoUpdate"] = true,
-	["autoCount"] = 3,
-	["sameserver"] = true,
-	["ignoreList"] = {
-	},
-	["autoTime"] = 600,
 	["autoIgnore"] = true,
 	["factionList"] = {
 	},
+	["skipGuild"] = true,
+	["sameserver"] = true,
+	["attachFriends"] = true,
+	["revision"] = 1,
+	["expList"] = {
+	},
+	["skipParty"] = false,
+	["chatmsg"] = true,
+	["filterTotal"] = 1,
 	["dateList"] = {
 	},
+	["filterDesc"] = {
+		"Filter \"Anal\" Spammers", -- [1]
+		"Filter Thunderfury linking", -- [2]
+		"Filter Gold Spam #1", -- [3]
+		"Filter Gold Spam #2", -- [4]
+		"Filter Gold Spam #3", -- [5]
+		"Filter Gold Spam #4", -- [6]
+		"Filter Guild Recruitment", -- [7]
+		"Filter Community Recruitment", -- [8]
+		"Filter WTS", -- [9]
+		"Filter Chinese/Korean/Japanese", -- [10]
+	},
+	["asknote"] = true,
+	["filterActive"] = {
+		true, -- [1]
+		true, -- [2]
+		true, -- [3]
+		true, -- [4]
+		true, -- [5]
+		true, -- [6]
+		false, -- [7]
+		false, -- [8]
+		false, -- [9]
+		false, -- [10]
+	},
+	["spamFilter"] = true,
+	["defexpire"] = 0,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -69,45 +107,7 @@ GlobalIgnoreDB = {
 		"焚魂-伊弗斯", -- [26]
 		"Beekìng-伊弗斯", -- [27]
 	},
-	["attachFriends"] = true,
-	["revision"] = 1,
-	["expList"] = {
-	},
-	["skipParty"] = false,
-	["chatmsg"] = true,
-	["filterTotal"] = 1,
-	["defexpire"] = 0,
-	["filterDesc"] = {
-		"Filter \"Anal\" Spammers", -- [1]
-		"Filter Thunderfury linking", -- [2]
-		"Filter Gold Spam #1", -- [3]
-		"Filter Gold Spam #2", -- [4]
-		"Filter Gold Spam #3", -- [5]
-		"Filter Gold Spam #4", -- [6]
-		"Filter Guild Recruitment", -- [7]
-		"Filter Community Recruitment", -- [8]
-		"Filter WTS", -- [9]
-		"Filter Chinese/Korean/Japanese", -- [10]
-	},
-	["spamFilter"] = true,
-	["filterActive"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
-		true, -- [4]
-		true, -- [5]
-		true, -- [6]
-		false, -- [7]
-		false, -- [8]
-		false, -- [9]
-		false, -- [10]
-	},
-	["asknote"] = true,
-	["skipGuild"] = true,
-	["notes"] = {
-	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
-	["syncInfo"] = {
-	},
+	["openWithFriends"] = true,
 }
