@@ -283,18 +283,18 @@ AutoBarDB2 = {
 			["buttonList"] = {
 			},
 		},
-		["巴非特 - 伊弗斯"] = {
+		["邁克爾假死 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 38323,
+					["arrangeOnUse"] = 45506,
 				},
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "选矿",
+					["arrangeOnUse"] = "工程学",
 				},
 				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 43135,
+					["arrangeOnUse"] = 40211,
 				},
 			},
 			["barList"] = {
@@ -363,18 +363,18 @@ AutoBarDB2 = {
 			["buttonList"] = {
 			},
 		},
-		["邁克爾假死 - 伊弗斯"] = {
+		["巴非特 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 45506,
+					["arrangeOnUse"] = 38323,
 				},
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "工程学",
+					["arrangeOnUse"] = "选矿",
 				},
 				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 40211,
+					["arrangeOnUse"] = 43135,
 				},
 			},
 			["barList"] = {
@@ -1079,7 +1079,7 @@ AutoBarDB2 = {
 	},
 	["performance_threshold"] = 100,
 	["settings"] = {
-		["hack_PetActionBarFrame"] = false,
+		["show_empty_buttons"] = false,
 		["fade_out"] = false,
 		["log_memory"] = false,
 		["show_tooltip"] = true,
@@ -1093,7 +1093,7 @@ AutoBarDB2 = {
 		["self_cast_right_click"] = true,
 		["clamp_bars_to_screen"] = true,
 		["performance_threshold"] = 100,
-		["show_empty_buttons"] = false,
+		["hack_PetActionBarFrame"] = false,
 		["show_tooltip_in_combat"] = true,
 	},
 	["whatsnew_version"] = "3.04.1.01",
@@ -1114,7 +1114,7 @@ AutoBarDB2 = {
 				["posX"] = 584.1615023466366,
 				["hide"] = false,
 				["enabled"] = true,
-				["buttonHeight"] = 36,
+				["columns"] = 16,
 				["posY"] = 101.5436780709988,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
@@ -1145,7 +1145,7 @@ AutoBarDB2 = {
 				["alpha"] = 1,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["columns"] = 16,
+				["buttonHeight"] = 36,
 			},
 			["AutoBarClassBarExtras"] = {
 				["popupDirection"] = "1",
@@ -1169,7 +1169,7 @@ AutoBarDB2 = {
 				["posX"] = 300,
 				["hide"] = true,
 				["enabled"] = true,
-				["columns"] = 9,
+				["alignButtons"] = "3",
 				["posY"] = 360,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
@@ -1178,7 +1178,7 @@ AutoBarDB2 = {
 				["alpha"] = 1,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["alignButtons"] = "3",
+				["columns"] = 9,
 			},
 		},
 		["buttonList"] = {
@@ -1201,14 +1201,14 @@ AutoBarDB2 = {
 				["defaultButtonIndex"] = 18,
 			},
 			["AutoBarButtonTrinket2"] = {
-				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 14,
 				["buttonKey"] = "AutoBarButtonTrinket2",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket2",
-				["barKey"] = "AutoBarClassBarBasic",
-				["equipped"] = 14,
 				["defaultButtonIndex"] = 27,
+				["buttonClass"] = "AutoBarButtonTrinket2",
+				["enabled"] = true,
+				["equipped"] = 14,
+				["square_popups"] = true,
 			},
 			["AutoBarButtonRaidTarget"] = {
 				["barKey"] = "AutoBarClassBarExtras",
@@ -1374,14 +1374,14 @@ AutoBarDB2 = {
 				["defaultButtonIndex"] = 1,
 			},
 			["AutoBarButtonFood"] = {
-				["enabled"] = true,
+				["disableConjure"] = false,
 				["include_combo_basic"] = true,
 				["buttonKey"] = "AutoBarButtonFood",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonFood",
-				["disableConjure"] = false,
-				["barKey"] = "AutoBarClassBarBasic",
 				["defaultButtonIndex"] = 15,
+				["buttonClass"] = "AutoBarButtonFood",
+				["enabled"] = true,
+				["square_popups"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 			},
 			["AutoBarButtonWaterBuff"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -1447,24 +1447,24 @@ AutoBarDB2 = {
 				["defaultButtonIndex"] = 17,
 			},
 			["AutoBarButtonMillHerbs"] = {
-				["barKey"] = "AutoBarClassBarExtras",
+				["enabled"] = true,
 				["targeted"] = "Milling",
 				["buttonKey"] = "AutoBarButtonMillHerbs",
-				["defaultButtonIndex"] = 11,
+				["square_popups"] = true,
 				["arrangeOnUse"] = true,
 				["buttonClass"] = "AutoBarButtonMillHerbs",
-				["enabled"] = true,
-				["square_popups"] = true,
+				["barKey"] = "AutoBarClassBarExtras",
+				["defaultButtonIndex"] = 11,
 			},
 			["AutoBarButtonTrinket1"] = {
-				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 13,
 				["buttonKey"] = "AutoBarButtonTrinket1",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket1",
-				["barKey"] = "AutoBarClassBarBasic",
-				["equipped"] = 13,
 				["defaultButtonIndex"] = 26,
+				["buttonClass"] = "AutoBarButtonTrinket1",
+				["enabled"] = true,
+				["equipped"] = 13,
+				["square_popups"] = true,
 			},
 			["AutoBarButtonDrums"] = {
 				["barKey"] = "AutoBarClassBarBasic",

@@ -48,10 +48,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK2"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -110,11 +110,11 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE"] = {
 			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 副手",
+			["ClassID"] = 4,
 			["PerCharacterOptions"] = {
 			},
 			["DoNotShow1HUpgrades"] = false,
-			["ClassID"] = 4,
+			["LocalizedName"] = "潜行者: 副手",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
@@ -193,10 +193,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK3"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -405,10 +405,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK1"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},

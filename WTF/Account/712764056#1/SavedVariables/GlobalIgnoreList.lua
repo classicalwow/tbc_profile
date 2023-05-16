@@ -29,12 +29,12 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoCount"] = 3,
 	["sameserver"] = true,
 	["ignoreList"] = {
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["autoIgnore"] = true,
 	["factionList"] = {
 	},
@@ -106,7 +106,7 @@ GlobalIgnoreDB = {
 	["skipGuild"] = true,
 	["notes"] = {
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["samefaction"] = true,
 	["syncInfo"] = {
 	},

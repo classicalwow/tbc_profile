@@ -1904,12 +1904,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [1]
 				{
 					["customBorderColor"] = {
@@ -1929,12 +1929,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [2]
 				{
 					["customBorderColor"] = {
@@ -1954,12 +1954,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [3]
 				{
 					["customBorderColor"] = {
@@ -1979,12 +1979,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [4]
 				{
 					["customBorderColor"] = {
@@ -2004,12 +2004,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [5]
 				{
 					["customBorderColor"] = {
@@ -2029,12 +2029,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [6]
 				{
 					["customBorderColor"] = {
@@ -2054,12 +2054,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [7]
 				{
 					["customBorderColor"] = {
@@ -2079,12 +2079,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [8]
 				{
 					["customBorderColor"] = {
@@ -2104,12 +2104,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [9]
 				{
 					["customBorderColor"] = {
@@ -2129,12 +2129,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [10]
 				{
 					["customBorderColor"] = {
@@ -2154,12 +2154,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [11]
 				{
 					["customBorderColor"] = {
@@ -2179,12 +2179,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [12]
 				{
 					["customBorderColor"] = {
@@ -2204,12 +2204,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [13]
 				{
 					["customBorderColor"] = {
@@ -2229,12 +2229,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [14]
 				{
 					["customBorderColor"] = {
@@ -2254,12 +2254,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [15]
 				{
 					["customBorderColor"] = {
@@ -2279,12 +2279,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [16]
 				{
 					["customBorderColor"] = {
@@ -2304,12 +2304,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [17]
 				{
 					["customBorderColor"] = {
@@ -2329,12 +2329,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [18]
 				{
 					["customBorderColor"] = {
@@ -2354,12 +2354,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [19]
 				{
 					["customBorderColor"] = {
@@ -2379,12 +2379,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [20]
 				{
 					["customBorderColor"] = {
@@ -2404,12 +2404,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [21]
 				{
 					["customBorderColor"] = {
@@ -2429,12 +2429,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [22]
 				{
 					["customBorderColor"] = {
@@ -2454,12 +2454,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [23]
 				{
 					["customBorderColor"] = {
@@ -2479,12 +2479,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [24]
 				{
 					["customBorderColor"] = {
@@ -2504,12 +2504,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [25]
 				{
 					["customBorderColor"] = {
@@ -2529,12 +2529,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [26]
 				{
 					["customBorderColor"] = {
@@ -2554,12 +2554,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [27]
 				{
 					["customBorderColor"] = {
@@ -2579,12 +2579,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [28]
 				{
 					["customBorderColor"] = {
@@ -2604,12 +2604,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [29]
 				{
 					["customBorderColor"] = {
@@ -2629,12 +2629,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [30]
 				{
 					["customBorderColor"] = {
@@ -2654,12 +2654,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [31]
 				{
 					["customBorderColor"] = {
@@ -2679,12 +2679,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [32]
 				{
 					["customBorderColor"] = {
@@ -2704,12 +2704,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [33]
 				{
 					["customBorderColor"] = {
@@ -2729,12 +2729,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [34]
 				{
 					["customBorderColor"] = {
@@ -2754,12 +2754,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [35]
 				{
 					["customBorderColor"] = {
@@ -2779,12 +2779,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [36]
 				{
 					["customBorderColor"] = {
@@ -2804,12 +2804,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [37]
 				{
 					["customBorderColor"] = {
@@ -2829,12 +2829,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [38]
 				{
 					["customBorderColor"] = {
@@ -2854,12 +2854,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [39]
 				{
 					["customBorderColor"] = {
@@ -2879,12 +2879,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [40]
 				{
 					["customBorderColor"] = {
@@ -2904,12 +2904,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [41]
 				{
 					["customBorderColor"] = {
@@ -2929,12 +2929,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [42]
 				{
 					["customBorderColor"] = {
@@ -2954,12 +2954,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [43]
 				{
 					["customBorderColor"] = {
@@ -2979,12 +2979,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [44]
 				{
 					["customBorderColor"] = {
@@ -3004,12 +3004,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [45]
 				{
 					["customBorderColor"] = {
@@ -3029,12 +3029,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [46]
 				{
 					["customBorderColor"] = {
@@ -3054,12 +3054,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [47]
 				{
 					["customBorderColor"] = {
@@ -3079,12 +3079,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [48]
 				{
 					["customBorderColor"] = {
@@ -3104,12 +3104,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [49]
 				{
 					["customBorderColor"] = {
@@ -3129,12 +3129,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [50]
 				{
 					["customBorderColor"] = {
@@ -3154,12 +3154,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [51]
 				{
 					["customBorderColor"] = {
@@ -3179,12 +3179,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [52]
 				{
 					["customBorderColor"] = {
@@ -3204,12 +3204,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [53]
 				{
 					["customBorderColor"] = {
@@ -3229,12 +3229,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [54]
 				{
 					["customBorderColor"] = {
@@ -3254,12 +3254,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [55]
 				{
 					["customBorderColor"] = {
@@ -3279,12 +3279,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [56]
 				{
 					["customBorderColor"] = {
@@ -3304,12 +3304,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [57]
 				{
 					["customBorderColor"] = {
@@ -3329,12 +3329,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [58]
 				{
 					["customBorderColor"] = {
@@ -3354,12 +3354,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [59]
 				{
 					["customBorderColor"] = {
@@ -3379,12 +3379,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [60]
 				{
 					["customBorderColor"] = {
@@ -3404,12 +3404,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [61]
 				{
 					["customBorderColor"] = {
@@ -3429,12 +3429,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [62]
 				{
 					["customBorderColor"] = {
@@ -3454,12 +3454,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [63]
 				{
 					["customBorderColor"] = {
@@ -3479,12 +3479,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [64]
 				{
 					["customBorderColor"] = {
@@ -3504,12 +3504,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [65]
 				{
 					["customBorderColor"] = {
@@ -3529,12 +3529,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [66]
 				{
 					["customBorderColor"] = {
@@ -3554,12 +3554,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [67]
 				{
 					["customBorderColor"] = {
@@ -3579,12 +3579,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [68]
 				{
 					["customBorderColor"] = {
@@ -3604,12 +3604,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [69]
 				{
 					["customBorderColor"] = {
@@ -3629,12 +3629,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [70]
 				{
 					["customBorderColor"] = {
@@ -3654,12 +3654,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [71]
 				{
 					["customBorderColor"] = {
@@ -3679,12 +3679,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [72]
 				{
 					["customBorderColor"] = {
@@ -3704,12 +3704,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [73]
 				{
 					["customBorderColor"] = {
@@ -3729,12 +3729,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [74]
 				{
 					["customBorderColor"] = {
@@ -3754,12 +3754,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [75]
 				{
 					["customBorderColor"] = {
@@ -3779,12 +3779,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [76]
 				{
 					["customBorderColor"] = {
@@ -3804,12 +3804,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [77]
 				{
 					["customBorderColor"] = {
@@ -3829,12 +3829,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [78]
 				{
 					["customBorderColor"] = {
@@ -3854,12 +3854,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [79]
 				{
 					["customBorderColor"] = {
@@ -3879,12 +3879,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [80]
 				{
 					["customBorderColor"] = {
@@ -3904,12 +3904,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
-					["iconSizeHeight"] = 45,
 					["iconGroups"] = {
 						true, -- [1]
 					},
-					["animationTimer"] = 10,
+					["iconSizeHeight"] = 45,
 				}, -- [81]
 			},
 			["DefaultSpellsLastSetImported"] = 4,
@@ -3995,9 +3995,9 @@ NameplateAurasAceDB = {
 						["party"] = true,
 						["scenario"] = true,
 						["pvp_bg_40ppl"] = true,
+						["raid"] = true,
 						["unknown"] = true,
 						["arena"] = true,
-						["raid"] = true,
 						["none"] = true,
 					},
 					["TimerTextSoonToExpireColor"] = {
@@ -4049,18 +4049,18 @@ NameplateAurasAceDB = {
 					["IconGroupName"] = "First Icon Group",
 					["IconAlphaTarget"] = 1,
 					["IconAlpha"] = 1,
-					["ShowDebuffBorders"] = true,
+					["IconSpacing"] = 1,
 					["ShowStacks"] = true,
-					["InterruptsIconSizeWidth"] = 45,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["InterruptsIconSizeWidth"] = 45,
 					["ShowAboveFriendlyUnits"] = true,
 					["IconYOffset"] = 50,
-					["IconSpacing"] = 1,
+					["ShowDebuffBorders"] = true,
 					["DispelIconSizeHeight"] = 45,
 					["TimerTextAnchorIcon"] = "CENTER",
 					["ShowCooldownAnimation"] = true,
@@ -6266,9 +6266,9 @@ NameplateAurasAceDB = {
 						["party"] = true,
 						["scenario"] = true,
 						["pvp_bg_40ppl"] = true,
+						["raid"] = true,
 						["unknown"] = true,
 						["arena"] = true,
-						["raid"] = true,
 						["pvp"] = true,
 					},
 					["TimerTextSoonToExpireColor"] = {
@@ -6309,19 +6309,19 @@ NameplateAurasAceDB = {
 					["AffixSpitefulSound"] = 5274,
 					["DispelIconSizeHeight"] = 45,
 					["Additions_DispellableSpells_GlowType"] = 4,
-					["InterruptsIconSizeWidth"] = 45,
-					["IconYOffset"] = 50,
-					["IconAlphaTarget"] = 1,
-					["IconAlpha"] = 1,
-					["ShowDebuffBorders"] = true,
-					["ShowStacks"] = true,
-					["IconSpacing"] = 1,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["IconYOffset"] = 50,
+					["IconAlphaTarget"] = 1,
+					["IconAlpha"] = 1,
+					["IconSpacing"] = 1,
+					["ShowStacks"] = true,
+					["ShowDebuffBorders"] = true,
+					["InterruptsIconSizeWidth"] = 45,
 					["ShowAboveFriendlyUnits"] = true,
 					["IconGroupName"] = "First Icon Group",
 					["DefaultIconSizeWidth"] = 45,
@@ -6363,9 +6363,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6388,9 +6388,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6413,9 +6413,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6438,9 +6438,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6463,9 +6463,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6488,9 +6488,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6513,9 +6513,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6538,9 +6538,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6563,9 +6563,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6588,9 +6588,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6613,9 +6613,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6638,9 +6638,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6663,9 +6663,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6688,9 +6688,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6713,9 +6713,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6738,9 +6738,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6763,9 +6763,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6788,9 +6788,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6813,9 +6813,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6838,9 +6838,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6863,9 +6863,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6888,9 +6888,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6913,9 +6913,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6938,9 +6938,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6963,9 +6963,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -6988,9 +6988,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7013,9 +7013,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7038,9 +7038,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7063,9 +7063,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7088,9 +7088,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7113,9 +7113,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7138,9 +7138,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7163,9 +7163,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7188,9 +7188,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7213,9 +7213,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7238,9 +7238,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7263,9 +7263,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7288,9 +7288,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7313,9 +7313,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7338,9 +7338,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7363,9 +7363,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7388,9 +7388,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7413,9 +7413,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7438,9 +7438,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7463,9 +7463,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7488,9 +7488,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7513,9 +7513,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7538,9 +7538,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7563,9 +7563,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7588,9 +7588,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7613,9 +7613,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7638,9 +7638,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7663,9 +7663,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7688,9 +7688,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7713,9 +7713,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7738,9 +7738,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7763,9 +7763,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7788,9 +7788,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7813,9 +7813,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7838,9 +7838,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7863,9 +7863,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7888,9 +7888,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7913,9 +7913,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7938,9 +7938,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7963,9 +7963,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -7988,9 +7988,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8013,9 +8013,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8038,9 +8038,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8063,9 +8063,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8088,9 +8088,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8113,9 +8113,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8138,9 +8138,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8163,9 +8163,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8188,9 +8188,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8213,9 +8213,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8238,9 +8238,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8263,9 +8263,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8288,9 +8288,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8313,9 +8313,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8338,9 +8338,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 3,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8363,9 +8363,9 @@ NameplateAurasAceDB = {
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
 					["auraType"] = 1,
+					["animationTimer"] = 10,
 					["customBorderType"] = 3,
 					["animationType"] = 2,
-					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
 					["showOnEnemies"] = true,
@@ -8456,9 +8456,9 @@ NameplateAurasAceDB = {
 						["party"] = true,
 						["scenario"] = true,
 						["pvp_bg_40ppl"] = true,
+						["arena"] = true,
 						["raid"] = true,
 						["unknown"] = true,
-						["arena"] = true,
 						["pvp"] = true,
 					},
 					["TimerTextSoonToExpireColor"] = {
@@ -8499,19 +8499,19 @@ NameplateAurasAceDB = {
 					["AffixSpitefulSound"] = 5274,
 					["DispelIconSizeHeight"] = 45,
 					["Additions_DispellableSpells_GlowType"] = 4,
-					["IconSpacing"] = 1,
+					["ShowDebuffBorders"] = true,
 					["IconYOffset"] = 50,
 					["IconAlphaTarget"] = 1,
 					["IconAlpha"] = 1,
-					["InterruptsIconSizeWidth"] = 45,
-					["ShowStacks"] = true,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["ShowDebuffBorders"] = true,
+					["ShowStacks"] = true,
+					["InterruptsIconSizeWidth"] = 45,
+					["IconSpacing"] = 1,
 					["ShowAboveFriendlyUnits"] = true,
 					["IconGroupName"] = "First Icon Group",
 					["DefaultIconSizeWidth"] = 45,
@@ -8555,10 +8555,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "盾墙",
 				}, -- [1]
@@ -8580,10 +8580,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "复仇者之盾",
 				}, -- [2]
@@ -8605,10 +8605,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "铜墙铁壁",
 				}, -- [3]
@@ -8630,10 +8630,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "寒冰屏障",
 				}, -- [4]
@@ -8655,10 +8655,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "痛苦压制",
 				}, -- [5]
@@ -8680,10 +8680,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "激活",
 				}, -- [6]
@@ -8705,10 +8705,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "变形术",
 				}, -- [7]
@@ -8730,10 +8730,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "战歌军旗",
 				}, -- [8]
@@ -8755,10 +8755,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "生存本能",
 				}, -- [9]
@@ -8780,10 +8780,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "忏悔",
 				}, -- [10]
@@ -8805,10 +8805,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "虚空风暴旗帜",
 				}, -- [11]
@@ -8830,10 +8830,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "肾击",
 				}, -- [12]
@@ -8855,10 +8855,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "致盲",
 				}, -- [13]
@@ -8880,10 +8880,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "牺牲咆哮",
 				}, -- [14]
@@ -8905,10 +8905,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "龙息术",
 				}, -- [15]
@@ -8930,10 +8930,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "猛击",
 				}, -- [16]
@@ -8955,10 +8955,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "反魔法护罩",
 				}, -- [17]
@@ -8980,10 +8980,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "挫志咆哮",
 				}, -- [18]
@@ -9005,10 +9005,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "树皮术",
 				}, -- [19]
@@ -9030,10 +9030,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "恐惧嚎叫",
 				}, -- [20]
@@ -9055,10 +9055,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冰冷血脉",
 				}, -- [21]
@@ -9080,10 +9080,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "闷棍",
 				}, -- [22]
@@ -9105,10 +9105,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "暗影之怒",
 				}, -- [23]
@@ -9130,10 +9130,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "光环掌握",
 				}, -- [24]
@@ -9155,10 +9155,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "法术反射",
 				}, -- [25]
@@ -9180,10 +9180,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "撕扯",
 				}, -- [26]
@@ -9205,10 +9205,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "死亡缠绕",
 				}, -- [27]
@@ -9230,10 +9230,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "偷袭",
 				}, -- [28]
@@ -9255,10 +9255,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "翼龙钉刺",
 				}, -- [29]
@@ -9280,10 +9280,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "消散",
 				}, -- [30]
@@ -9305,10 +9305,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "束缚亡灵",
 				}, -- [31]
@@ -9330,10 +9330,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "恐惧",
 				}, -- [32]
@@ -9355,10 +9355,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "妖术",
 				}, -- [33]
@@ -9380,10 +9380,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "闪避",
 				}, -- [34]
@@ -9405,10 +9405,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "跳跃",
 				}, -- [35]
@@ -9430,10 +9430,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "凿击",
 				}, -- [36]
@@ -9455,10 +9455,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "锁喉沉默",
 				}, -- [37]
@@ -9480,10 +9480,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "银翼军旗",
 				}, -- [38]
@@ -9505,10 +9505,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "威慑",
 				}, -- [39]
@@ -9530,10 +9530,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "主人的召唤",
 				}, -- [40]
@@ -9555,10 +9555,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "杀戮盛筵",
 				}, -- [41]
@@ -9580,10 +9580,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "能量灌注",
 				}, -- [42]
@@ -9605,10 +9605,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "大地之握",
 				}, -- [43]
@@ -9630,10 +9630,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "自由之手",
 				}, -- [44]
@@ -9655,10 +9655,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "破胆怒吼",
 				}, -- [45]
@@ -9680,10 +9680,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "掠食者的迅捷",
 				}, -- [46]
@@ -9705,10 +9705,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "急速射击",
 				}, -- [47]
@@ -9730,10 +9730,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冰冻陷阱效果",
 				}, -- [48]
@@ -9755,10 +9755,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "鲁莽",
 				}, -- [49]
@@ -9780,10 +9780,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "神启",
 				}, -- [50]
@@ -9805,10 +9805,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "心灵尖啸",
 				}, -- [51]
@@ -9830,10 +9830,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "痛苦无常",
 				}, -- [52]
@@ -9855,10 +9855,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "保护之手",
 				}, -- [53]
@@ -9880,10 +9880,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "纠缠根须",
 				}, -- [54]
@@ -9905,10 +9905,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "精神控制",
 				}, -- [55]
@@ -9930,10 +9930,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "诱惑",
 				}, -- [56]
@@ -9955,10 +9955,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "圣盾术",
 				}, -- [57]
@@ -9980,10 +9980,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "奥术强化",
 				}, -- [58]
@@ -10005,10 +10005,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "绞袭",
 				}, -- [59]
@@ -10030,10 +10030,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "炽热防御者",
 				}, -- [60]
@@ -10055,10 +10055,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "旋风",
 				}, -- [61]
@@ -10080,10 +10080,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "沉默",
 				}, -- [62]
@@ -10105,10 +10105,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "狂暴之怒",
 				}, -- [63]
@@ -10130,10 +10130,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "利刃风暴",
 				}, -- [64]
@@ -10155,10 +10155,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冲动",
 				}, -- [65]
@@ -10180,10 +10180,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "吸血鬼的拥抱",
 				}, -- [66]
@@ -10205,10 +10205,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "制裁之锤",
 				}, -- [67]
@@ -10230,10 +10230,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "暗影斗篷",
 				}, -- [68]
@@ -10255,10 +10255,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冰冻术",
 				}, -- [69]
@@ -10280,10 +10280,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冲锋击昏",
 				}, -- [70]
@@ -10305,10 +10305,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "根基图腾效果",
 				}, -- [71]
@@ -10330,10 +10330,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "驱散射击",
 				}, -- [72]
@@ -10355,10 +10355,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "元素掌握",
 				}, -- [73]
@@ -10380,10 +10380,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "割碎",
 				}, -- [74]
@@ -10405,10 +10405,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "放逐术",
 				}, -- [75]
@@ -10430,10 +10430,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "嗜血",
 				}, -- [76]
@@ -10455,10 +10455,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冰封之韧",
 				}, -- [77]
@@ -10480,10 +10480,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冰霜新星",
 				}, -- [78]
@@ -10505,10 +10505,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "守护之魂",
 				}, -- [79]
@@ -10530,10 +10530,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 3,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "牺牲之手",
 				}, -- [80]
@@ -10555,10 +10555,10 @@ NameplateAurasAceDB = {
 					["auraType"] = 1,
 					["showOnEnemies"] = true,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
-					["iconSizeWidth"] = 45,
 					["animationTimer"] = 10,
+					["iconSizeWidth"] = 45,
 					["animationType"] = 2,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "装死",
 				}, -- [81]
@@ -10646,9 +10646,9 @@ NameplateAurasAceDB = {
 						["party"] = true,
 						["scenario"] = true,
 						["pvp_bg_40ppl"] = true,
+						["unknown"] = true,
 						["arena"] = true,
 						["raid"] = true,
-						["unknown"] = true,
 						["none"] = true,
 					},
 					["TimerTextSoonToExpireColor"] = {
@@ -10700,18 +10700,18 @@ NameplateAurasAceDB = {
 					["IconGroupName"] = "First Icon Group",
 					["IconAlphaTarget"] = 1,
 					["IconAlpha"] = 1,
+					["InterruptsIconSizeWidth"] = 45,
+					["ShowStacks"] = true,
+					["IconSpacing"] = 1,
+					["ShowDebuffBorders"] = true,
+					["ShowAboveFriendlyUnits"] = true,
+					["IconYOffset"] = 50,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["ShowStacks"] = true,
-					["ShowDebuffBorders"] = true,
-					["IconSpacing"] = 1,
-					["ShowAboveFriendlyUnits"] = true,
-					["IconYOffset"] = 50,
-					["InterruptsIconSizeWidth"] = 45,
 					["DispelIconSizeHeight"] = 45,
 					["TimerTextAnchorIcon"] = "CENTER",
 					["ShowCooldownAnimation"] = true,
@@ -10749,11 +10749,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "致盲",
 				},
@@ -10772,11 +10772,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "狂暴之怒",
 				},
@@ -10795,11 +10795,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "冰霜新星",
 				},
@@ -10818,11 +10818,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "寒冰屏障",
 				},
@@ -10841,11 +10841,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "挫志咆哮",
 				},
@@ -10864,11 +10864,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "暗影之怒",
 				},
@@ -10887,11 +10887,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "沉默",
 				},
@@ -10910,11 +10910,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
 					["animationType"] = 2,
-					["customBorderType"] = 3,
 					["iconSizeWidth"] = 40,
 					["iconSizeHeight"] = 40,
-					["animationTimer"] = 10,
+					["customBorderType"] = 3,
 					["customBorderPath"] = "",
 					["spellName"] = "精神控制",
 				},
@@ -10944,11 +10944,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "盾牆",
 				}, -- [1]
@@ -10967,11 +10967,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "復仇之盾",
 				}, -- [2]
@@ -10990,11 +10990,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "寒冰屏障",
 				}, -- [3]
@@ -11013,11 +11013,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "痛苦鎮壓",
 				}, -- [4]
@@ -11036,11 +11036,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "啟動",
 				}, -- [5]
@@ -11059,11 +11059,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "變形術",
 				}, -- [6]
@@ -11082,11 +11082,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "戰歌旗幟",
 				}, -- [7]
@@ -11105,11 +11105,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "懺悔",
 				}, -- [8]
@@ -11128,11 +11128,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "虛空風暴旗幟",
 				}, -- [9]
@@ -11151,11 +11151,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "腎擊",
 				}, -- [10]
@@ -11174,11 +11174,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "致盲",
 				}, -- [11]
@@ -11197,11 +11197,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "龍之吐息",
 				}, -- [12]
@@ -11220,11 +11220,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "重擊",
 				}, -- [13]
@@ -11243,11 +11243,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "挫志咆哮",
 				}, -- [14]
@@ -11266,11 +11266,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "樹皮術",
 				}, -- [15]
@@ -11289,11 +11289,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "恐懼嚎叫",
 				}, -- [16]
@@ -11312,11 +11312,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "冰寒脈動",
 				}, -- [17]
@@ -11335,11 +11335,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "悶棍",
 				}, -- [18]
@@ -11358,11 +11358,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "暗影之怒",
 				}, -- [19]
@@ -11381,11 +11381,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "精通光環",
 				}, -- [20]
@@ -11404,11 +11404,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "法術反射",
 				}, -- [21]
@@ -11427,11 +11427,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "死亡纏繞",
 				}, -- [22]
@@ -11450,11 +11450,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "偷襲",
 				}, -- [23]
@@ -11473,11 +11473,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "翼龍釘刺",
 				}, -- [24]
@@ -11496,11 +11496,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "束縛不死生物",
 				}, -- [25]
@@ -11519,11 +11519,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "恐懼術",
 				}, -- [26]
@@ -11542,11 +11542,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "閃避",
 				}, -- [27]
@@ -11565,11 +11565,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "鑿擊",
 				}, -- [28]
@@ -11588,11 +11588,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "絞喉 - 沉默",
 				}, -- [29]
@@ -11611,11 +11611,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "銀翼旗幟",
 				}, -- [30]
@@ -11634,11 +11634,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "威懾",
 				}, -- [31]
@@ -11657,11 +11657,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "注入能量",
 				}, -- [32]
@@ -11680,11 +11680,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "自由祝福",
 				}, -- [33]
@@ -11703,11 +11703,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "破膽怒吼",
 				}, -- [34]
@@ -11726,11 +11726,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "急速射擊",
 				}, -- [35]
@@ -11749,11 +11749,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "冰凍陷阱效果",
 				}, -- [36]
@@ -11772,11 +11772,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "魯莽",
 				}, -- [37]
@@ -11795,11 +11795,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "神聖啟發",
 				}, -- [38]
@@ -11818,11 +11818,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "心靈尖嘯",
 				}, -- [39]
@@ -11841,11 +11841,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "痛苦動盪",
 				}, -- [40]
@@ -11864,11 +11864,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "保護祝福",
 				}, -- [41]
@@ -11887,11 +11887,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "糾纏根鬚",
 				}, -- [42]
@@ -11910,11 +11910,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "精神控制",
 				}, -- [43]
@@ -11933,11 +11933,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "誘惑",
 				}, -- [44]
@@ -11956,11 +11956,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "聖盾術",
 				}, -- [45]
@@ -11979,11 +11979,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "秘法強化",
 				}, -- [46]
@@ -12002,11 +12002,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "忠誠防衛者",
 				}, -- [47]
@@ -12025,11 +12025,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "颶風術",
 				}, -- [48]
@@ -12048,11 +12048,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "沉默",
 				}, -- [49]
@@ -12071,11 +12071,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "狂暴之怒",
 				}, -- [50]
@@ -12094,11 +12094,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "能量刺激",
 				}, -- [51]
@@ -12117,11 +12117,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "吸血鬼的擁抱",
 				}, -- [52]
@@ -12140,11 +12140,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "制裁之錘",
 				}, -- [53]
@@ -12163,11 +12163,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "暗影披風",
 				}, -- [54]
@@ -12186,11 +12186,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "冰凍術",
 				}, -- [55]
@@ -12209,11 +12209,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "衝鋒昏迷",
 				}, -- [56]
@@ -12232,11 +12232,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "根基圖騰效果",
 				}, -- [57]
@@ -12255,11 +12255,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "驅散射擊",
 				}, -- [58]
@@ -12278,11 +12278,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "精通元素",
 				}, -- [59]
@@ -12301,11 +12301,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "傷殘術",
 				}, -- [60]
@@ -12324,11 +12324,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "放逐術",
 				}, -- [61]
@@ -12347,11 +12347,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "嗜血術",
 				}, -- [62]
@@ -12370,11 +12370,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "冰霜新星",
 				}, -- [63]
@@ -12393,11 +12393,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "犧牲祝福",
 				}, -- [64]
@@ -12416,11 +12416,11 @@ NameplateAurasAceDB = {
 					["showOnFriends"] = true,
 					["playerNpcMode"] = 1,
 					["customBorderSize"] = 2,
+					["customBorderType"] = 3,
 					["animationTimer"] = 10,
-					["animationType"] = 2,
 					["iconSizeWidth"] = 45,
 					["iconSizeHeight"] = 45,
-					["customBorderType"] = 3,
+					["animationType"] = 2,
 					["customBorderPath"] = "",
 					["spellName"] = "死亡謊言",
 				}, -- [65]
