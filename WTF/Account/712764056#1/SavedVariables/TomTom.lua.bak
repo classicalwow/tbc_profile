@@ -62,6 +62,29 @@ TomTomWaypointsM = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			[117] = {
+				["117:793398533.00734:287775061.12469:卡特尔·迪芬斯"] = {
+					117, -- [1]
+					0.793398533007335, -- [2]
+					0.2877750611246944, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "卡特尔·迪芬斯",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 		["家駒 - 伊弗斯"] = {
 		},

@@ -211,3 +211,5 @@ DataStore_Currencies: disabled
 Leatrix_Maps: disabled
 ElvUI_ExtraDataTexts: disabled
 ElvUI_SecondsToBuff: disabled
+ElvUI_BuffHighlight: disabled
+WunderUI: disabled
