@@ -13,9 +13,13 @@ GlobalIgnoreDB = {
 		0, -- [10]
 	},
 	["typeList"] = {
+		"player", -- [1]
+		"player", -- [2]
+		"player", -- [3]
+		"player", -- [4]
 	},
-	["openWithFriends"] = true,
 	["invertSpam"] = false,
+	["openWithFriends"] = true,
 	["skipPrivate"] = true,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
@@ -29,8 +33,29 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoCount"] = 3,
+	["sameserver"] = true,
+	["ignoreList"] = {
+		"呆呆家的鼹鼠-伊弗斯", -- [1]
+		"一老牛-伊弗斯", -- [2]
+		"月魔夕-伊弗斯", -- [3]
+		"柚子桃桃-伊弗斯", -- [4]
+	},
+	["autoTime"] = 600,
+	["autoIgnore"] = true,
+	["factionList"] = {
+		"Horde", -- [1]
+		"Horde", -- [2]
+		"Horde", -- [3]
+		"Horde", -- [4]
+	},
+	["dateList"] = {
+		"21 May 2023", -- [1]
+		"21 May 2023", -- [2]
+		"21 May 2023", -- [3]
+		"21 May 2023", -- [4]
+	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -60,24 +85,18 @@ GlobalIgnoreDB = {
 		"焚魂-伊弗斯", -- [26]
 		"Beekìng-伊弗斯", -- [27]
 	},
-	["syncInfo"] = {
-	},
-	["trackChanges"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-	},
-	["defexpire"] = 0,
-	["sameserver"] = true,
 	["attachFriends"] = true,
-	["notes"] = {
-	},
+	["revision"] = 1,
 	["expList"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
 	},
-	["skipGuild"] = true,
+	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["dateList"] = {
-	},
+	["defexpire"] = 0,
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -104,10 +123,25 @@ GlobalIgnoreDB = {
 		false, -- [10]
 	},
 	["asknote"] = true,
-	["skipParty"] = false,
-	["revision"] = 1,
-	["autoUpdate"] = true,
+	["skipGuild"] = true,
+	["notes"] = {
+		"刷屏", -- [1]
+		"", -- [2]
+		"垃圾工会", -- [3]
+		"垃圾工会", -- [4]
+	},
+	["trackChanges"] = true,
 	["samefaction"] = true,
-	["ignoreList"] = {
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			"家駒-伊弗斯@1", -- [1]
+		}, -- [3]
+		{
+			"家駒-伊弗斯@1", -- [1]
+		}, -- [4]
 	},
 }

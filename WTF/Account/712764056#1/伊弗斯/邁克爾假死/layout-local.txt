@@ -6,3 +6,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -34
+Y: -49
+W: 1045
+H: 495

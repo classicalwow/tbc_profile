@@ -70,18 +70,20 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "卡特尔·迪芬斯",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "卡特尔·迪芬斯",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -91,31 +93,6 @@ TomTomWaypointsM = {
 		["巴非特 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			[120] = {
-				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
-					120, -- [1]
-					0.4369193154034231, -- [2]
-					0.2613691931540342, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Meeting Stone",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["頂級投資家 - 伊弗斯"] = {
 		},
@@ -138,9 +115,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,

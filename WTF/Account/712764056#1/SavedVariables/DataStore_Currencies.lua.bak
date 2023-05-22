@@ -13,16 +13,20 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1673269625,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684340529,
+				["Currencies"] = {
+					"0|PvP", -- [1]
+					"1|荣誉点数|4038|1901", -- [2]
+				},
+				["lastUpdate"] = 1684569910,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213842,
 			},
-			["Default.伊弗斯.巴非特"] = {
-				["lastUpdate"] = 1680407570,
-			},
 			["Default.伊弗斯.頂級投資家"] = {
 				["lastUpdate"] = 1672640196,
+			},
+			["Default.伊弗斯.巴非特"] = {
+				["lastUpdate"] = 1680407570,
 			},
 		},
 	},

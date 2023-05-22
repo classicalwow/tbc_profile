@@ -1906,10 +1906,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [1]
 				{
 					["customBorderColor"] = {
@@ -1931,10 +1931,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [2]
 				{
 					["customBorderColor"] = {
@@ -1956,10 +1956,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [3]
 				{
 					["customBorderColor"] = {
@@ -1981,10 +1981,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [4]
 				{
 					["customBorderColor"] = {
@@ -2006,10 +2006,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [5]
 				{
 					["customBorderColor"] = {
@@ -2031,10 +2031,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [6]
 				{
 					["customBorderColor"] = {
@@ -2056,10 +2056,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [7]
 				{
 					["customBorderColor"] = {
@@ -2081,10 +2081,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [8]
 				{
 					["customBorderColor"] = {
@@ -2106,10 +2106,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [9]
 				{
 					["customBorderColor"] = {
@@ -2131,10 +2131,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [10]
 				{
 					["customBorderColor"] = {
@@ -2156,10 +2156,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [11]
 				{
 					["customBorderColor"] = {
@@ -2181,10 +2181,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [12]
 				{
 					["customBorderColor"] = {
@@ -2206,10 +2206,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [13]
 				{
 					["customBorderColor"] = {
@@ -2231,10 +2231,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [14]
 				{
 					["customBorderColor"] = {
@@ -2256,10 +2256,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [15]
 				{
 					["customBorderColor"] = {
@@ -2281,10 +2281,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [16]
 				{
 					["customBorderColor"] = {
@@ -2306,10 +2306,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [17]
 				{
 					["customBorderColor"] = {
@@ -2331,10 +2331,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [18]
 				{
 					["customBorderColor"] = {
@@ -2356,10 +2356,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [19]
 				{
 					["customBorderColor"] = {
@@ -2381,10 +2381,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [20]
 				{
 					["customBorderColor"] = {
@@ -2406,10 +2406,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [21]
 				{
 					["customBorderColor"] = {
@@ -2431,10 +2431,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [22]
 				{
 					["customBorderColor"] = {
@@ -2456,10 +2456,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [23]
 				{
 					["customBorderColor"] = {
@@ -2481,10 +2481,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [24]
 				{
 					["customBorderColor"] = {
@@ -2506,10 +2506,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [25]
 				{
 					["customBorderColor"] = {
@@ -2531,10 +2531,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [26]
 				{
 					["customBorderColor"] = {
@@ -2556,10 +2556,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [27]
 				{
 					["customBorderColor"] = {
@@ -2581,10 +2581,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [28]
 				{
 					["customBorderColor"] = {
@@ -2606,10 +2606,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [29]
 				{
 					["customBorderColor"] = {
@@ -2631,10 +2631,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [30]
 				{
 					["customBorderColor"] = {
@@ -2656,10 +2656,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [31]
 				{
 					["customBorderColor"] = {
@@ -2681,10 +2681,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [32]
 				{
 					["customBorderColor"] = {
@@ -2706,10 +2706,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [33]
 				{
 					["customBorderColor"] = {
@@ -2731,10 +2731,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [34]
 				{
 					["customBorderColor"] = {
@@ -2756,10 +2756,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [35]
 				{
 					["customBorderColor"] = {
@@ -2781,10 +2781,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [36]
 				{
 					["customBorderColor"] = {
@@ -2806,10 +2806,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [37]
 				{
 					["customBorderColor"] = {
@@ -2831,10 +2831,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [38]
 				{
 					["customBorderColor"] = {
@@ -2856,10 +2856,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [39]
 				{
 					["customBorderColor"] = {
@@ -2881,10 +2881,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [40]
 				{
 					["customBorderColor"] = {
@@ -2906,10 +2906,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [41]
 				{
 					["customBorderColor"] = {
@@ -2931,10 +2931,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [42]
 				{
 					["customBorderColor"] = {
@@ -2956,10 +2956,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [43]
 				{
 					["customBorderColor"] = {
@@ -2981,10 +2981,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [44]
 				{
 					["customBorderColor"] = {
@@ -3006,10 +3006,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [45]
 				{
 					["customBorderColor"] = {
@@ -3031,10 +3031,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [46]
 				{
 					["customBorderColor"] = {
@@ -3056,10 +3056,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [47]
 				{
 					["customBorderColor"] = {
@@ -3081,10 +3081,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [48]
 				{
 					["customBorderColor"] = {
@@ -3106,10 +3106,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [49]
 				{
 					["customBorderColor"] = {
@@ -3131,10 +3131,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [50]
 				{
 					["customBorderColor"] = {
@@ -3156,10 +3156,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [51]
 				{
 					["customBorderColor"] = {
@@ -3181,10 +3181,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [52]
 				{
 					["customBorderColor"] = {
@@ -3206,10 +3206,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [53]
 				{
 					["customBorderColor"] = {
@@ -3231,10 +3231,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [54]
 				{
 					["customBorderColor"] = {
@@ -3256,10 +3256,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [55]
 				{
 					["customBorderColor"] = {
@@ -3281,10 +3281,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [56]
 				{
 					["customBorderColor"] = {
@@ -3306,10 +3306,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [57]
 				{
 					["customBorderColor"] = {
@@ -3331,10 +3331,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [58]
 				{
 					["customBorderColor"] = {
@@ -3356,10 +3356,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [59]
 				{
 					["customBorderColor"] = {
@@ -3381,10 +3381,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [60]
 				{
 					["customBorderColor"] = {
@@ -3406,10 +3406,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [61]
 				{
 					["customBorderColor"] = {
@@ -3431,10 +3431,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [62]
 				{
 					["customBorderColor"] = {
@@ -3456,10 +3456,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [63]
 				{
 					["customBorderColor"] = {
@@ -3481,10 +3481,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [64]
 				{
 					["customBorderColor"] = {
@@ -3506,10 +3506,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [65]
 				{
 					["customBorderColor"] = {
@@ -3531,10 +3531,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [66]
 				{
 					["customBorderColor"] = {
@@ -3556,10 +3556,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [67]
 				{
 					["customBorderColor"] = {
@@ -3581,10 +3581,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [68]
 				{
 					["customBorderColor"] = {
@@ -3606,10 +3606,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [69]
 				{
 					["customBorderColor"] = {
@@ -3631,10 +3631,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [70]
 				{
 					["customBorderColor"] = {
@@ -3656,10 +3656,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [71]
 				{
 					["customBorderColor"] = {
@@ -3681,10 +3681,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [72]
 				{
 					["customBorderColor"] = {
@@ -3706,10 +3706,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [73]
 				{
 					["customBorderColor"] = {
@@ -3731,10 +3731,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [74]
 				{
 					["customBorderColor"] = {
@@ -3756,10 +3756,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [75]
 				{
 					["customBorderColor"] = {
@@ -3781,10 +3781,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [76]
 				{
 					["customBorderColor"] = {
@@ -3806,10 +3806,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [77]
 				{
 					["customBorderColor"] = {
@@ -3831,10 +3831,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [78]
 				{
 					["customBorderColor"] = {
@@ -3856,10 +3856,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [79]
 				{
 					["customBorderColor"] = {
@@ -3881,10 +3881,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [80]
 				{
 					["customBorderColor"] = {
@@ -3906,10 +3906,10 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
-					["iconSizeHeight"] = 45,
-					["glowType"] = 3,
 					["customBorderType"] = 3,
+					["animationTimer"] = 10,
+					["glowType"] = 3,
+					["iconSizeHeight"] = 45,
 				}, -- [81]
 			},
 			["DefaultSpellsLastSetImported"] = 4,
@@ -4038,19 +4038,19 @@ NameplateAurasAceDB = {
 					["AffixSpitefulSound"] = 5274,
 					["DispelIconSizeHeight"] = 45,
 					["Additions_DispellableSpells_GlowType"] = 4,
-					["IconSpacing"] = 1,
+					["ShowDebuffBorders"] = true,
 					["IconYOffset"] = 50,
 					["IconAlphaTarget"] = 1,
 					["IconAlpha"] = 1,
-					["InterruptsIconSizeWidth"] = 45,
-					["ShowStacks"] = true,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["ShowDebuffBorders"] = true,
+					["ShowStacks"] = true,
+					["InterruptsIconSizeWidth"] = 45,
+					["IconSpacing"] = 1,
 					["ShowAboveFriendlyUnits"] = true,
 					["IconGroupName"] = "First Icon Group",
 					["DefaultIconSizeWidth"] = 45,
@@ -6320,18 +6320,18 @@ NameplateAurasAceDB = {
 					["IconGroupName"] = "First Icon Group",
 					["IconAlphaTarget"] = 1,
 					["IconAlpha"] = 1,
-					["IconSpacing"] = 1,
+					["ShowDebuffBorders"] = true,
 					["ShowStacks"] = true,
+					["InterruptsIconSizeWidth"] = 45,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["InterruptsIconSizeWidth"] = 45,
 					["ShowAboveFriendlyUnits"] = true,
 					["IconYOffset"] = 50,
-					["ShowDebuffBorders"] = true,
+					["IconSpacing"] = 1,
 					["DispelIconSizeHeight"] = 45,
 					["TimerTextAnchorIcon"] = "CENTER",
 					["ShowCooldownAnimation"] = true,
@@ -8510,18 +8510,18 @@ NameplateAurasAceDB = {
 					["IconGroupName"] = "First Icon Group",
 					["IconAlphaTarget"] = 1,
 					["IconAlpha"] = 1,
+					["InterruptsIconSizeWidth"] = 45,
+					["ShowStacks"] = true,
+					["IconSpacing"] = 1,
+					["ShowDebuffBorders"] = true,
+					["ShowAboveFriendlyUnits"] = true,
+					["IconYOffset"] = 50,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["ShowStacks"] = true,
-					["ShowDebuffBorders"] = true,
-					["IconSpacing"] = 1,
-					["ShowAboveFriendlyUnits"] = true,
-					["IconYOffset"] = 50,
-					["InterruptsIconSizeWidth"] = 45,
 					["DispelIconSizeHeight"] = 45,
 					["TimerTextAnchorIcon"] = "CENTER",
 					["ShowCooldownAnimation"] = true,
@@ -10689,19 +10689,19 @@ NameplateAurasAceDB = {
 					["AffixSpitefulSound"] = 5274,
 					["DispelIconSizeHeight"] = 45,
 					["Additions_DispellableSpells_GlowType"] = 4,
-					["InterruptsIconSizeWidth"] = 45,
-					["IconYOffset"] = 50,
-					["IconAlphaTarget"] = 1,
-					["IconAlpha"] = 1,
-					["ShowDebuffBorders"] = true,
-					["ShowStacks"] = true,
-					["IconSpacing"] = 1,
 					["DebuffBordersCurseColor"] = {
 						1, -- [1]
 						0.1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["IconYOffset"] = 50,
+					["IconAlphaTarget"] = 1,
+					["IconAlpha"] = 1,
+					["IconSpacing"] = 1,
+					["ShowStacks"] = true,
+					["ShowDebuffBorders"] = true,
+					["InterruptsIconSizeWidth"] = 45,
 					["ShowAboveFriendlyUnits"] = true,
 					["IconGroupName"] = "First Icon Group",
 					["DefaultIconSizeWidth"] = 45,

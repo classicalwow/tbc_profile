@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46151,
@@ -29,10 +31,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:46150::::::::80:::::::::|h[征服者的突围腿铠]|h|r",
 		},
 		[14] = {
-			["ID"] = 40256,
-			["Level"] = 213,
+			["ID"] = 46021,
+			["Level"] = 225,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:40256::::::::80:::::::::|h[死亡之钟]|h|r",
+			["Link"] = "|cffa335ee|Hitem:46021::::::::80:::::::::|h[莱恩国王的皇家徽记]|h|r",
 		},
 		[15] = {
 			["ID"] = 45138,
@@ -50,10 +52,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45516::::::::80:::::::::|h[沃德雷萨，黑暗湮灭之剑]|h|r",
 		},
 		[17] = {
-			["ID"] = 45110,
-			["Level"] = 238,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:45110::::::::80:::::::::|h[泰坦禁卫]|h|r",
+			["ID"] = 45877,
+			["Level"] = 245,
+			["Link"] = "|cffa335ee|Hitem:45877::::::::80:::::::::|h[北风卫士]|h|r",
 		},
 		[18] = {
 			["ID"] = 45296,
@@ -65,10 +66,10 @@ PawnOptions = {
 			["Level"] = 232,
 			["Link"] = "|cffa335ee|Hitem:46148::::::::80:::::::::|h[征服者的突围护手]|h|r",
 		},
-		[9] = {
-			["ID"] = 45888,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:45888::::::::80:::::::::|h[严寒臂甲]|h|r",
+		[5] = {
+			["ID"] = 45225,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[断钢者的拥抱]|h|r",
 		},
 		[11] = {
 			["ID"] = 46322,
@@ -87,14 +88,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:46322::39996::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
 		},
-		[5] = {
-			["ID"] = 45225,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[断钢者的拥抱]|h|r",
+		[9] = {
+			["ID"] = 45888,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:45888::::::::80:::::::::|h[严寒臂甲]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

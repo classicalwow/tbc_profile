@@ -19,7 +19,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1668964936,
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
-				["lastUpdate"] = 1675508554,
+				["lastUpdate"] = 1684608934,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["Professions"] = {
@@ -175,7 +175,6 @@ DataStore_CraftsDB = {
 				["Prof1"] = "工程学",
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684340529,
 				["Professions"] = {
 					["骑术"] = {
 						["isSecondary"] = true,
@@ -183,6 +182,7 @@ DataStore_CraftsDB = {
 						["Rank"] = 300,
 					},
 				},
+				["lastUpdate"] = 1684578558,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213842,

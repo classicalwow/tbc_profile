@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0716,
+	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "畜生犬隊長-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		[5] = {
 			["ID"] = 10036,
@@ -18,8 +20,6 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:10035::::::::34::::::::|h[禮服便褲]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "畜生犬隊長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

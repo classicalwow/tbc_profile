@@ -21,7 +21,7 @@ DataStore_TalentsDB = {
 				["Class"] = "WARLOCK",
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
-				["lastUpdate"] = 1675508554,
+				["lastUpdate"] = 1684608934,
 				["Class"] = "WARRIOR",
 				["PointsSpent"] = "0,0,0",
 			},
@@ -31,7 +31,7 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "0,0,0",
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684340529,
+				["lastUpdate"] = 1684578558,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
 					["恢复"] = {

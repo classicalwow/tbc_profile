@@ -19,13 +19,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1668964937,
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
-				["lastUpdate"] = 1675508560,
+				["lastUpdate"] = 1684608935,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1664462132,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684340559,
+				["lastUpdate"] = 1684578559,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213844,

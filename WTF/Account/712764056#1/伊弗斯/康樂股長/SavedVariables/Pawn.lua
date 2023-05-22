@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "康樂股長-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37986,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37982::::::::75:::::::::|h[微光齿环]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 35922,
-			["Level"] = 138,
+			["ID"] = 37982,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:35922::::::::71:::::::::|h[黑铁徽记之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:37982::::::::76:::::::::|h[微光齿环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 38081,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37547::::::::72:::::::::|h[火铸战锤]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "康樂股長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
