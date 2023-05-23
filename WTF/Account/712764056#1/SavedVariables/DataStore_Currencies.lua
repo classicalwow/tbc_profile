@@ -13,10 +13,10 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1673269625,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684578558,
+				["lastUpdate"] = 1684770740,
 				["Currencies"] = {
 					"0|PvP", -- [1]
-					"1|荣誉点数|4038|1901", -- [2]
+					"1|荣誉点数|16997|1901", -- [2]
 				},
 			},
 			["Default.伊弗斯.家駒"] = {

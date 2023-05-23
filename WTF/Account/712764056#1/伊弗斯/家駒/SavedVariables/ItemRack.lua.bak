@@ -90,6 +90,8 @@ ItemRackUser = {
 	["Buttons"] = {
 	},
 	["ItemsUsed"] = {
+		["46051"] = 5,
+		["45561"] = 30,
 	},
 	["Events"] = {
 		["Enabled"] = {

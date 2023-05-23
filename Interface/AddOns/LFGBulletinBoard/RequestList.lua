@@ -503,19 +503,19 @@ function GBB.GetDungeons(msg,name)
 	-- 	msg = ""
 	-- end
 
-	-- if not(findStrInTab({"25"},msg)) then
-	-- 	msg = ""
-	-- end
+	if not(findStrInTab({"25"},msg)) then
+		msg = ""
+	end
 
-	-- if not(strfind(msg:lower(), "h")) then
-	-- 	msg = ""
-	-- end
+	if not(strfind(msg:lower(), "h")) then
+		msg = ""
+	end
 
 	
 
-	-- if not(findStrInTab({"dd","dps","术","術"},msg)) then
-	-- 	msg = ""
-	-- end
+	if not(findStrInTab({"dd","dps","术","術"},msg)) then
+		msg = ""
+	end
 
 	-- if not(findStrInTab({"lr","猎","獵","dd","dps","术","術",'ss','zqs','增','增','sm','薩','萨'},msg)) then
 	-- 	msg = ""

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46151,
@@ -66,10 +64,10 @@ PawnOptions = {
 			["Level"] = 232,
 			["Link"] = "|cffa335ee|Hitem:46148::::::::80:::::::::|h[征服者的突围护手]|h|r",
 		},
-		[5] = {
-			["ID"] = 45225,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[断钢者的拥抱]|h|r",
+		[9] = {
+			["ID"] = 45888,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:45888::::::::80:::::::::|h[严寒臂甲]|h|r",
 		},
 		[11] = {
 			["ID"] = 46322,
@@ -88,12 +86,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:46322::39996::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
 		},
-		[9] = {
-			["ID"] = 45888,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:45888::::::::80:::::::::|h[严寒臂甲]|h|r",
+		[5] = {
+			["ID"] = 45225,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[断钢者的拥抱]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

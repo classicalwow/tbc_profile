@@ -18,9 +18,27 @@ GlobalIgnoreDB = {
 		"player", -- [3]
 		"player", -- [4]
 	},
-	["invertSpam"] = false,
+	["ignoreList"] = {
+		"呆呆家的鼹鼠-伊弗斯", -- [1]
+		"一老牛-伊弗斯", -- [2]
+		"月魔夕-伊弗斯", -- [3]
+		"柚子桃桃-伊弗斯", -- [4]
+	},
 	["openWithFriends"] = true,
 	["skipPrivate"] = true,
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["autoTime"] = 600,
+	["autoCount"] = 3,
+	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -33,16 +51,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
-	["autoCount"] = 3,
-	["sameserver"] = true,
-	["ignoreList"] = {
-		"呆呆家的鼹鼠-伊弗斯", -- [1]
-		"一老牛-伊弗斯", -- [2]
-		"月魔夕-伊弗斯", -- [3]
-		"柚子桃桃-伊弗斯", -- [4]
-	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -50,12 +59,7 @@ GlobalIgnoreDB = {
 		"Horde", -- [3]
 		"Horde", -- [4]
 	},
-	["dateList"] = {
-		"21 May 2023", -- [1]
-		"21 May 2023", -- [2]
-		"21 May 2023", -- [3]
-		"21 May 2023", -- [4]
-	},
+	["skipParty"] = false,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -86,14 +90,19 @@ GlobalIgnoreDB = {
 		"Beekìng-伊弗斯", -- [27]
 	},
 	["attachFriends"] = true,
-	["revision"] = 1,
+	["notes"] = {
+		"刷屏", -- [1]
+		"", -- [2]
+		"垃圾工会", -- [3]
+		"垃圾工会", -- [4]
+	},
 	["expList"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0, -- [4]
 	},
-	["skipParty"] = false,
+	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["defexpire"] = 0,
@@ -109,7 +118,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["spamFilter"] = true,
+	["asknote"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -122,26 +131,15 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["asknote"] = true,
-	["skipGuild"] = true,
-	["notes"] = {
-		"刷屏", -- [1]
-		"", -- [2]
-		"垃圾工会", -- [3]
-		"垃圾工会", -- [4]
+	["spamFilter"] = true,
+	["dateList"] = {
+		"21 May 2023", -- [1]
+		"21 May 2023", -- [2]
+		"21 May 2023", -- [3]
+		"21 May 2023", -- [4]
 	},
-	["trackChanges"] = true,
+	["sameserver"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			"家駒-伊弗斯@1", -- [1]
-		}, -- [3]
-		{
-			"家駒-伊弗斯@1", -- [1]
-		}, -- [4]
-	},
+	["invertSpam"] = false,
 }
