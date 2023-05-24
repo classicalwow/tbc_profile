@@ -5,7 +5,7 @@ Postal3DB = {
 			["alts"] = {
 				"家駒|伊弗斯|Horde|80|PALADIN", -- [1]
 				"巴非特|伊弗斯|Horde|80|SHAMAN", -- [2]
-				"康樂股長|伊弗斯|Horde|76|DRUID", -- [3]
+				"康樂股長|伊弗斯|Horde|77|DRUID", -- [3]
 				"暖男你馬四了|伊弗斯|Alliance|1|WARLOCK", -- [4]
 				"特斯拉大股東|伊弗斯|Horde|80|WARLOCK", -- [5]
 				"特變電工|伊弗斯|Horde|80|WARRIOR", -- [6]

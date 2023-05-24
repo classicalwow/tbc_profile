@@ -6698,6 +6698,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "轨道支援",
 		},
+		[54968] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "二丁目的拓野",
+		},
 		[52921] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -6707,14 +6714,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "洛肯",
-		},
-		[48827] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "三上丶悠亞",
 		},
 		[59126] = {
 			["school"] = 32,
@@ -9268,13 +9267,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "唤雷者布隆迪尔",
 		},
-		[64125] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[57984] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "强力火元素",
 		},
 		[47813] = {
 			["school"] = 32,
@@ -9286,13 +9284,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "滅溡无术",
 		},
-		[62078] = {
+		[64125] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "趴下会踩奶",
 		},
 		[64189] = {
 			["school"] = 1,
@@ -10567,12 +10565,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "黑暗符文助手",
 		},
-		[57984] = {
-			["school"] = 4,
+		[62078] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "强力火元素",
+			["source"] = "趴下会踩奶",
 		},
 		[30823] = {
 			["school"] = 1,
@@ -11757,12 +11756,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "科隆加恩",
 		},
-		[54968] = {
+		[48827] = {
 			["school"] = 2,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "二丁目的拓野",
+			["source"] = "三上丶悠亞",
 		},
 		[57993] = {
 			["school"] = 8,

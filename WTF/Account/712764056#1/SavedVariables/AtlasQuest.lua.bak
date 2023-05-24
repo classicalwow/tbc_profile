@@ -5,11 +5,11 @@ AtlasQuest_Options = {
 		["AtlasAutoShow"] = 1,
 	},
 	["Version"] = "4.13.04",
-	["特變電工"] = {
+	["康樂股長"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
-	["康樂股長"] = {
+	["特變電工"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},

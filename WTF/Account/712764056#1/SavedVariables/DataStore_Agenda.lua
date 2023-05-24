@@ -25,7 +25,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1664462132,
 			},
 			["Default.伊弗斯.康樂股長"] = {
-				["lastUpdate"] = 1684770740,
+				["lastUpdate"] = 1684861671,
 			},
 			["Default.伊弗斯.家駒"] = {
 				["lastUpdate"] = 1679213844,

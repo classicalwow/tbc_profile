@@ -22,8 +22,8 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["康樂股長 - 伊弗斯"] = {
-			["spec_index"] = 3,
 			["version"] = 6.1,
+			["spec_index"] = 3,
 			["data_source"] = "wh",
 			["phase_index"] = 3,
 		},
@@ -289,11 +289,6 @@ BisTooltipDB = {
 		["特斯拉大股東 - 伊弗斯"] = {
 			["class_index"] = 10,
 			["filter_class_names"] = false,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
 			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
@@ -348,9 +343,14 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
+			["phase_index"] = 3,
 			["minimapPos"] = 253.4463397527872,
 			["data_source"] = "wh",
-			["phase_index"] = 3,
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
+			},
 		},
 	},
 }
