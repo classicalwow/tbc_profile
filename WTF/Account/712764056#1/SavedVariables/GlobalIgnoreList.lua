@@ -36,7 +36,7 @@ GlobalIgnoreDB = {
 		"月魔夕-伊弗斯", -- [3]
 		"柚子桃桃-伊弗斯", -- [4]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
 	["autoCount"] = 3,
 	["notes"] = {
 		"刷屏", -- [1]
@@ -56,7 +56,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -139,7 +139,7 @@ GlobalIgnoreDB = {
 		"焚魂-伊弗斯", -- [26]
 		"Beekìng-伊弗斯", -- [27]
 	},
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }

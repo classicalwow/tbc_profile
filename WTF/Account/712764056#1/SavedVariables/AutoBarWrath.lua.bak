@@ -1114,6 +1114,15 @@ AutoBarDB2 = {
 				["posX"] = 584.1615023466366,
 				["hide"] = false,
 				["enabled"] = true,
+				["buttonHeight"] = 36,
+				["columns"] = 16,
+				["frameStrata"] = "LOW",
+				["buttonWidth"] = 36,
+				["posY"] = 101.5436780709988,
+				["allowed_class"] = "*",
+				["alpha"] = 1,
+				["padding"] = 0,
+				["dockShiftX"] = 0,
 				["buttonKeys"] = {
 					"AutoBarButtonHearth", -- [1]
 					"AutoBarButtonBandages", -- [2]
@@ -1137,15 +1146,6 @@ AutoBarDB2 = {
 					"AutoBarButtonTrinket1", -- [20]
 					"AutoBarButtonTrinket2", -- [21]
 				},
-				["posY"] = 101.5436780709988,
-				["frameStrata"] = "LOW",
-				["buttonWidth"] = 36,
-				["buttonHeight"] = 36,
-				["allowed_class"] = "*",
-				["alpha"] = 1,
-				["padding"] = 0,
-				["dockShiftX"] = 0,
-				["columns"] = 16,
 			},
 			["AutoBarClassBarExtras"] = {
 				["popupDirection"] = "1",
@@ -1169,16 +1169,16 @@ AutoBarDB2 = {
 				["posX"] = 300,
 				["hide"] = true,
 				["enabled"] = true,
-				["scale"] = 1,
 				["columns"] = 9,
+				["posY"] = 360,
 				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
-				["posY"] = 360,
+				["alignButtons"] = "3",
 				["allowed_class"] = "*",
 				["alpha"] = 1,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["alignButtons"] = "3",
+				["scale"] = 1,
 			},
 		},
 		["buttonList"] = {

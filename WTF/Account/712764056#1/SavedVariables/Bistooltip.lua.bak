@@ -22,8 +22,9 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["康樂股長 - 伊弗斯"] = {
+			["class_index"] = 2,
 			["version"] = 6.1,
-			["spec_index"] = 3,
+			["spec_index"] = 4,
 			["data_source"] = "wh",
 			["phase_index"] = 3,
 		},

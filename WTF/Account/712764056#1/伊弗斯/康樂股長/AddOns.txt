@@ -1,4 +1,4 @@
-RXPGuides: enabled
+RXPGuides: disabled
 ElvUI_AuraBarsMovers: disabled
 ElvUI_CastBarOverlay: disabled
 ElvUI_ChatTweaks: disabled
@@ -25,5 +25,16 @@ ExRT: disabled
 RaidLedger: disabled
 VuhDo: disabled
 VuhDoOptions: disabled
-DBM-Core: disabled
+DBM-Core: enabled
 ElvUI_Options: enabled
+Altoholic_Achievements: disabled
+Altoholic_Characters: disabled
+Altoholic_Grids: disabled
+Altoholic_Guild: disabled
+Altoholic_Agenda: disabled
+Altoholic_Search: disabled
+Altoholic_Summary: disabled
+BattleInfo: disabled
+BattlegroundSpiritReleaser: disabled
+DataStore: disabled
+AddOnSkins: disabled
