@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_5000000"] = 10000,
-	["_200000"] = 1000,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
-	["_500"] = 5,
-	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 5,
+	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
+	["_200000"] = 1000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -32,62 +32,62 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["家駒"] = {
 		["firstSeen"] = 1679213844,
-		["firstVersion"] = "2.5.5-1-g17bf777",
 		["guid"] = "Player-4487-004007DB",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 	["頂級投資家"] = {
 		["firstSeen"] = 1669891723,
-		["firstVersion"] = "2.5.5-1-g17bf777",
 		["guid"] = "Player-4487-001C0EC2",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 	["康樂股長"] = {
 		["firstSeen"] = 1683088183,
-		["firstVersion"] = "2.5.5-1-g17bf777",
 		["guid"] = "Player-4487-004F1004",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 	["畜生犬隊長"] = {
 		["firstSeen"] = 1623055961,
-		["guid"] = "Player-4487-000B0452",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-000B0452",
 	},
 	["邁克爾假死"] = {
 		["firstSeen"] = 1622958482,
-		["guid"] = "Player-4487-0008386D",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-0008386D",
 	},
 	["暖男你馬四了"] = {
 		["firstSeen"] = 1668964932,
-		["firstVersion"] = "2.5.5-1-g17bf777",
 		["guid"] = "Player-4487-0018BE27",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 	["特變電工"] = {
 		["firstSeen"] = 1626022682,
-		["guid"] = "Player-4487-0012ECFA",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-0012ECFA",
 	},
 	["特斯拉大股東"] = {
 		["firstSeen"] = 1672571874,
-		["guid"] = "Player-4487-00246B86",
 		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4487-00246B86",
 	},
 	["巴非特"] = {
 		["firstSeen"] = 1680407571,
-		["guid"] = "Player-4487-0043E57A",
 		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4487-0043E57A",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["克銀錠"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 10,
+		["numstacks"] = 0,
 	},
 	["魔鋼錠"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["魔化武器"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1
