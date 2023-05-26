@@ -207,7 +207,7 @@ Details_DataStorage: enabled
 Details_Vanguard: enabled
 LoonBestInSlot: enabled
 RXPGuides: disabled
-SpellReplay: disabled
+SpellReplay: enabled
 TradeShout: disabled
 VuhDoOptions: disabled
 EZQuest: disabled
