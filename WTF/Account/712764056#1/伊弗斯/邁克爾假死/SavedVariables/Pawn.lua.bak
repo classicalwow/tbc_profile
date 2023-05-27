@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46143,
@@ -36,9 +34,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45844::::::::80:::::::::|h[不倦斥候护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 45562,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:45562::39997:40023:::::80:::::::::|h[生命鳞片长靴]|h|r",
+			["ID"] = 45244,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:45244::::::::80:::::::::|h[迅捷复仇胫甲]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 45454,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45570::::::::80:::::::::|h[天铸之弩]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
