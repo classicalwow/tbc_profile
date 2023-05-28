@@ -144,10 +144,10 @@ HekiliDB = {
 			},
 			["specs"] = {
 				{
-					["package"] = "Protection Warrior (wowtbc.gg)",
+					["package"] = "Fury (IV)",
 					["cycle"] = true,
 					["settings"] = {
-						["protection"] = "Protection Warrior (wowtbc.gg)",
+						["rend_refresh_time"] = 0,
 						["execute_whirlwind_enabled"] = true,
 						["execute_bloodthirst_enabled"] = true,
 						["weave_cooldown_threshold"] = 1.5,
@@ -158,17 +158,17 @@ HekiliDB = {
 						["debuff_demoshout_enabled"] = false,
 						["queueing_threshold"] = 30,
 						["rend_rage_threshold"] = 100,
-						["predict_tfb"] = true,
+						["rend_cooldown_threshold"] = 1.5,
 						["fury"] = "Fury (IV)",
 						["optimize_overpower"] = false,
-						["rend_refresh_time"] = 0,
-						["shout_spell"] = "commanding_shout",
+						["protection"] = "Protection Warrior (wowtbc.gg)",
+						["predict_tfb"] = true,
 						["debuff_sunder_enabled"] = true,
 						["rend_health_threshold"] = 20,
 						["weaving_enabled"] = false,
 						["weave_health_threshold"] = 20,
 						["main_gcd_spell"] = "slam",
-						["rend_cooldown_threshold"] = 1.5,
+						["shout_spell"] = "commanding_shout",
 						["execute_queueing_enabled"] = true,
 					},
 					["autoPacks"] = {
@@ -226,9 +226,9 @@ HekiliDB = {
 						["min_weave_mana"] = 25,
 						["flowerweaving_mode"] = "any",
 						["max_ff_energy"] = 15,
-						["bearweaving_instancetype"] = "raid",
-						["min_bite_sr_remains"] = 4,
 						["feral_dps"] = "Feral DPS (IV)",
+						["min_bite_sr_remains"] = 4,
+						["bearweaving_instancetype"] = "raid",
 						["max_bite_energy"] = 25,
 						["flowerweaving_enabled"] = false,
 						["min_roar_offset"] = 24,
@@ -246,13 +246,13 @@ HekiliDB = {
 					["cycle"] = true,
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
-						["inferno_enabled"] = true,
-						["destruction"] = "Destruction",
-						["affliction"] = "Affliction",
-						["demonology"] = "Demonology (wowtbc.gg)",
-						["shadow_mastery"] = true,
 						["group_type"] = "party",
 						["group_curse"] = "curse_of_agony",
+						["inferno_enabled"] = true,
+						["demonology"] = "Demonology (wowtbc.gg)",
+						["shadow_mastery"] = true,
+						["affliction"] = "Affliction",
+						["destruction"] = "Destruction",
 					},
 					["autoPacks"] = {
 						["demonology"] = "Demonology (wowtbc.gg)",
@@ -1181,9 +1181,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["description"] = "APL v3.4.1-1.6.0 #",
 								["criteria"] = "! up & ! buff.gift_of_the_wild.up",
 								["action"] = "mark_of_the_wild",
-								["description"] = "APL v3.4.1-1.6.0 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1811,9 +1811,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "berserker_stance",
 								["description"] = "APL v3.4.1-1.7.0 #",
 								["criteria"] = "buff.stance.down",
-								["action"] = "berserker_stance",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2936,9 +2936,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.1-1.6.5 #",
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3407,9 +3407,9 @@ HekiliDB = {
 							}, -- [4]
 							{
 								["enabled"] = true,
+								["action"] = "thunderstorm",
 								["description"] = "actions.aoe+=/thunderstorm,if=mana.pct<90||target.distance<10&glyph.glyph_of_thunderstorm.enabled",
 								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
-								["action"] = "thunderstorm",
 							}, -- [5]
 						},
 						["default"] = {
@@ -3452,9 +3452,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
+								["action"] = "chain_lightning",
 								["description"] = "Need to create this specialization option.",
 								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
-								["action"] = "chain_lightning",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -3474,9 +3474,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["action"] = "call_of_the_elements",
 								["description"] = "Place your totems if they're not already up, don't want to use it if we've used a major CD totem.",
 								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
-								["action"] = "call_of_the_elements",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -3485,9 +3485,9 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
+								["action"] = "searing_totem",
 								["description"] = "Need to find a way to verify that the snapshot has taken place.",
 								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
-								["action"] = "searing_totem",
 							}, -- [4]
 						},
 					},
@@ -3693,9 +3693,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
 								["description"] = "APL v3.4.0-1.4.2 #",
-								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -4061,9 +4061,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -4595,9 +4595,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "windfury_weapon",
 								["description"] = "APL v3.4.1-1.2.0 #",
 								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
-								["action"] = "windfury_weapon",
 							}, -- [1]
 							{
 								["enabled"] = true,

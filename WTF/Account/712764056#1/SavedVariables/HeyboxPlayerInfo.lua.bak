@@ -1,6 +1,6 @@
 
 HEYBOX_SAVED_PLAYER_INFOS = {
-	["巴非特-伊弗斯"] = {
-		["class"] = "SHAMAN",
+	["康樂股長-伊弗斯"] = {
+		["class"] = "DRUID",
 	},
 }

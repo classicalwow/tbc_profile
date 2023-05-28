@@ -41,9 +41,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942959,
+							["aID"] = "4487-004F1004",
 							["friendlyfire"] = {
 							},
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -244,13 +244,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["tipo"] = 1,
-							["damage_taken"] = 15193.004989,
+							["damage_taken"] = 16606.004989,
 							["custom"] = 0,
 							["last_event"] = 1684942957,
 							["last_dps"] = 1276.095799414151,
 							["start_time"] = 1684942959,
 							["delay"] = 0,
-							["aID"] = "4487-004F1004",
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -281,9 +281,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942959,
+							["aID"] = "30627",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "梦魇虚体",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -328,7 +328,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942959,
 							["delay"] = 0,
-							["aID"] = "30627",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -361,18 +361,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1256,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.00147,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1256.00147,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942959,
-							["spec"] = 104,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.00147,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -413,7 +413,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942959,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 104,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -699,14 +699,14 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					13663.56070200007, -- [1]
-					1255.169841999999, -- [2]
+					13663.14105000008, -- [1]
+					1254.255826000001, -- [2]
 					{
-						-0.01875700000000347, -- [1]
-						[0] = 138.9249289999971,
+						-0.0712170000000274, -- [1]
+						[0] = 78.59872899999937,
 						["alternatepower"] = 0,
-						[6] = -0.0689479999999989,
-						[3] = 59.98764,
+						[6] = -0.2076729999999962,
+						[3] = 119.98764,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
@@ -856,8 +856,28 @@ _detalhes_database = {
 							-1, -- [10]
 						}, -- [11]
 						{
+							true, -- [1]
+							3, -- [2]
+							991, -- [3]
+							1685154635.646, -- [4]
+							13657, -- [5]
+							"环境伤害 (坠落)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
 						}, -- [12]
 						{
+							true, -- [1]
+							3, -- [2]
+							422, -- [3]
+							1685154691.067, -- [4]
+							13269, -- [5]
+							"环境伤害 (坠落)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
 						}, -- [13]
 						{
 						}, -- [14]
@@ -897,7 +917,7 @@ _detalhes_database = {
 						}, -- [31]
 						{
 						}, -- [32]
-						["n"] = 12,
+						["n"] = 14,
 					},
 				},
 				["frags_need_refresh"] = true,
@@ -948,6 +968,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 50112.907,
 				["combat_id"] = 1708,
+				["data_inicio"] = "23:42:30",
+				["overall_added"] = true,
+				["frags"] = {
+					["梦魇虚体"] = 1,
+				},
+				["contra"] = "梦魇虚体",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1864,
+				["start_time"] = 50103.001,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					12641, -- [1]
 					1256, -- [2]
@@ -969,18 +1001,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:42:30",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "梦魇虚体",
-				["combat_counter"] = 1864,
-				["frags"] = {
-					["梦魇虚体"] = 1,
-				},
-				["start_time"] = 50103.001,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [1]
 			{
 				{
@@ -1019,8 +1039,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942932,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1242,8 +1263,7 @@ _detalhes_database = {
 							["last_dps"] = 803.1584111875404,
 							["start_time"] = 1684942932,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1274,9 +1294,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942932,
+							["aID"] = "30627",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "梦魇虚体",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1321,7 +1341,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942932,
 							["delay"] = 0,
-							["aID"] = "30627",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -1352,9 +1372,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942932,
+							["aID"] = "30617",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "梦魇畸体",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1397,7 +1417,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942932,
 							["delay"] = 0,
-							["aID"] = "30617",
+							["monster"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -1430,18 +1450,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1882,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.005853,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1882.005853,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942932,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.005853,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -1482,7 +1502,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942932,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -1740,21 +1760,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 16,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942932,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 270,
+							["last_event"] = 1684942932,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1854,18 +1874,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 50085.752,
 				["combat_id"] = 1707,
-				["overall_added"] = true,
-				["combat_counter"] = 1863,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:41:38",
 				["frags"] = {
 					["梦魇虚体"] = 2,
 				},
 				["contra"] = "梦魇畸体",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:41:38",
-				["start_time"] = 50051.303,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1863,
 				["totals_grupo"] = {
 					27668, -- [1]
 					1882, -- [2]
@@ -1887,6 +1903,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 50051.303,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [2]
 			{
 				{
@@ -1922,8 +1942,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942798,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1970,8 +1991,7 @@ _detalhes_database = {
 							["last_dps"] = 162.0989603176237,
 							["start_time"] = 1684942798,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2001,9 +2021,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942798,
+							["aID"] = "31304",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "濒死的士兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2018,7 +2038,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942798,
 							["delay"] = 0,
-							["aID"] = "31304",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2231,6 +2251,21 @@ _detalhes_database = {
 				["data_inicio"] = "23:39:48",
 				["end_time"] = 49951.68300000001,
 				["combat_id"] = 1706,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["濒死的士兵"] = 2,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 49941.031,
+				["contra"] = "濒死的士兵",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2250,21 +2285,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["濒死的士兵"] = 2,
-				},
-				["start_time"] = 49941.031,
-				["contra"] = "濒死的士兵",
-				["overall_added"] = true,
 			}, -- [3]
 			{
 				{
@@ -2300,8 +2320,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942772,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2344,8 +2365,7 @@ _detalhes_database = {
 							["last_dps"] = 1909.60924466134,
 							["start_time"] = 1684942772,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2375,9 +2395,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942772,
+							["aID"] = "31304",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "濒死的士兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2392,7 +2412,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942772,
 							["delay"] = 0,
-							["aID"] = "31304",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2572,6 +2592,21 @@ _detalhes_database = {
 				["data_inicio"] = "23:39:26",
 				["end_time"] = 49925.403,
 				["combat_id"] = 1705,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["濒死的士兵"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 49919.53,
+				["contra"] = "濒死的士兵",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2591,21 +2626,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["濒死的士兵"] = 1,
-				},
-				["start_time"] = 49919.53,
-				["contra"] = "濒死的士兵",
-				["overall_added"] = true,
 			}, -- [4]
 			{
 				{
@@ -2641,8 +2661,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942761,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2685,8 +2706,7 @@ _detalhes_database = {
 							["last_dps"] = 2397.208418384298,
 							["start_time"] = 1684942761,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2716,9 +2736,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942761,
+							["aID"] = "31304",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "濒死的士兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2733,7 +2753,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942761,
 							["delay"] = 0,
-							["aID"] = "31304",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2961,6 +2981,21 @@ _detalhes_database = {
 				["data_inicio"] = "23:39:16",
 				["end_time"] = 49914.425,
 				["combat_id"] = 1704,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["濒死的士兵"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 49908.678,
+				["contra"] = "濒死的士兵",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2980,21 +3015,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["濒死的士兵"] = 1,
-				},
-				["start_time"] = 49908.678,
-				["contra"] = "濒死的士兵",
-				["overall_added"] = true,
 			}, -- [5]
 			{
 				{
@@ -3030,8 +3050,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942752,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3077,8 +3098,7 @@ _detalhes_database = {
 							["last_dps"] = 1956.545657674304,
 							["start_time"] = 1684942752,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3108,9 +3128,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942752,
+							["aID"] = "31304",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "濒死的士兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3125,7 +3145,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942752,
 							["delay"] = 0,
-							["aID"] = "31304",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3308,6 +3328,21 @@ _detalhes_database = {
 				["data_inicio"] = "23:39:05",
 				["end_time"] = 49905.567,
 				["combat_id"] = 1703,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["濒死的士兵"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 49898.607,
+				["contra"] = "濒死的士兵",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -3327,21 +3362,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["濒死的士兵"] = 1,
-				},
-				["start_time"] = 49898.607,
-				["contra"] = "濒死的士兵",
-				["overall_added"] = true,
 			}, -- [6]
 			{
 				{
@@ -3378,8 +3398,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942580,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3562,8 +3583,7 @@ _detalhes_database = {
 							["last_dps"] = 3101.392603581211,
 							["start_time"] = 1684942580,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3594,9 +3614,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942580,
+							["aID"] = "31258",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆天选战士",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3641,7 +3661,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942580,
 							["delay"] = 0,
-							["aID"] = "31258",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3674,8 +3694,7 @@ _detalhes_database = {
 							["last_hps"] = 0,
 							["targets"] = {
 							},
-							["healing_from"] = {
-							},
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.004894,
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 0.004894,
@@ -3683,7 +3702,8 @@ _detalhes_database = {
 							["aID"] = "4487-004F1004",
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942580,
-							["spec"] = 103,
+							["healing_from"] = {
+							},
 							["totaldenied"] = 0.004894,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -3725,7 +3745,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942580,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3751,8 +3771,8 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["alternatepower"] = 0.002567,
+							["flag_original"] = 1297,
 							["aID"] = "4487-004F1004",
-							["totalover"] = 0.002567,
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3785,7 +3805,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["total"] = 539.002567,
 							["serial"] = "Player-4487-004F1004",
-							["flag_original"] = 1297,
+							["totalover"] = 0.002567,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -4080,18 +4100,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49733.438,
 				["combat_id"] = 1702,
-				["overall_added"] = true,
-				["combat_counter"] = 1858,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:36:15",
 				["frags"] = {
 					["伊米海姆天选战士"] = 1,
 				},
 				["contra"] = "伊米海姆天选战士",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:36:15",
-				["start_time"] = 49728.191,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1858,
 				["totals_grupo"] = {
 					16273, -- [1]
 					0, -- [2]
@@ -4113,6 +4129,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49728.191,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [7]
 			{
 				{
@@ -4149,8 +4169,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942564,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4353,8 +4374,7 @@ _detalhes_database = {
 							["last_dps"] = 1401.040734893693,
 							["start_time"] = 1684942564,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4385,9 +4405,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942564,
+							["aID"] = "31258",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆天选战士",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4460,7 +4480,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942564,
 							["delay"] = 0,
-							["aID"] = "31258",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4493,18 +4513,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1256,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.007906,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1256.007906,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942564,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.007906,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -4545,7 +4565,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942564,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4792,21 +4812,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 21,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942564,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 89,
+							["last_event"] = 1684942564,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4820,14 +4840,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆天选战士",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31258-00006DDEC5",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -4928,18 +4948,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49718.015,
 				["combat_id"] = 1701,
-				["overall_added"] = true,
-				["combat_counter"] = 1857,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:35:55",
 				["frags"] = {
 					["伊米海姆天选战士"] = 1,
 				},
 				["contra"] = "伊米海姆天选战士",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:35:55",
-				["start_time"] = 49708.349,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1857,
 				["totals_grupo"] = {
 					13471, -- [1]
 					1256, -- [2]
@@ -4961,6 +4977,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49708.349,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [8]
 			{
 				{
@@ -4999,8 +5019,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942553,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5218,8 +5239,7 @@ _detalhes_database = {
 							["last_dps"] = 1347.764683619698,
 							["start_time"] = 1684942553,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -5250,9 +5270,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942553,
+							["aID"] = "",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "天灾驯鹰者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5296,7 +5316,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942553,
 							["delay"] = 0,
-							["aID"] = "",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -5327,9 +5347,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942553,
+							["aID"] = "31263",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "腐尸猎鹰",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5401,7 +5421,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942553,
 							["delay"] = 0,
-							["aID"] = "31263",
+							["monster"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5434,18 +5454,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1256,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.003873,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1256.003873,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942553,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.003873,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -5486,7 +5506,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942553,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -5742,21 +5762,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942553,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 147,
+							["last_event"] = 1684942553,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -5770,14 +5790,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "腐尸猎鹰",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31263-00006E13FB",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -5880,19 +5900,15 @@ _detalhes_database = {
 				},
 				["end_time"] = 49706.681,
 				["combat_id"] = 1700,
-				["overall_added"] = true,
-				["combat_counter"] = 1856,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:35:39",
 				["frags"] = {
 					["天灾驯鹰者"] = 1,
 					["腐尸猎鹰"] = 1,
 				},
 				["contra"] = "天灾驯鹰者",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:35:39",
-				["start_time"] = 49691.891,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1856,
 				["totals_grupo"] = {
 					17994, -- [1]
 					1256, -- [2]
@@ -5914,6 +5930,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49691.891,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [9]
 			{
 				{
@@ -5950,8 +5970,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942533,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6154,8 +6175,7 @@ _detalhes_database = {
 							["last_dps"] = 1550.965070204128,
 							["start_time"] = 1684942533,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6186,9 +6206,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942533,
+							["aID"] = "31258",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆天选战士",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6259,7 +6279,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942533,
 							["delay"] = 0,
-							["aID"] = "31258",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6292,18 +6312,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 628,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.006188,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 628.006188,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942533,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.006188,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -6344,7 +6364,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942533,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -6569,21 +6589,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942533,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 98,
+							["last_event"] = 1684942533,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6597,14 +6617,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆天选战士",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31258-00006E05FB",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -6705,18 +6725,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49686.5,
 				["combat_id"] = 1699,
-				["overall_added"] = true,
-				["combat_counter"] = 1855,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:35:23",
 				["frags"] = {
 					["伊米海姆天选战士"] = 1,
 				},
 				["contra"] = "伊米海姆天选战士",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:35:23",
-				["start_time"] = 49675.835,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1855,
 				["totals_grupo"] = {
 					15840, -- [1]
 					628, -- [2]
@@ -6738,6 +6754,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49675.835,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [10]
 			{
 				{
@@ -6773,9 +6793,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942516,
+							["aID"] = "",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "天灾驯鹰者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6819,7 +6839,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942516,
 							["delay"] = 0,
-							["aID"] = "",
+							["monster"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -6851,8 +6871,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942516,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7056,8 +7077,7 @@ _detalhes_database = {
 							["last_dps"] = 1495.438781754604,
 							["start_time"] = 1684942516,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7090,18 +7110,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 627,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.007993,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 627.007993,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942516,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.007993,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -7142,7 +7162,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942516,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7400,21 +7420,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 18,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942516,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 111,
+							["last_event"] = 1684942516,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7512,18 +7532,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49670.298,
 				["combat_id"] = 1698,
-				["overall_added"] = true,
-				["combat_counter"] = 1854,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:35:06",
 				["frags"] = {
 					["天灾驯鹰者"] = 1,
 				},
 				["contra"] = "天灾驯鹰者",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:35:06",
-				["start_time"] = 49658.972,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1854,
 				["totals_grupo"] = {
 					14917, -- [1]
 					627, -- [2]
@@ -7545,6 +7561,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49658.972,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [11]
 			{
 				{
@@ -7581,8 +7601,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942503,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7749,8 +7770,7 @@ _detalhes_database = {
 							["last_dps"] = 2373.151657696179,
 							["start_time"] = 1684942503,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -7781,9 +7801,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942503,
+							["aID"] = "31267",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米亚元素师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7881,7 +7901,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942503,
 							["delay"] = 0,
-							["aID"] = "31267",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7914,18 +7934,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1256,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.004558,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1256.004558,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942503,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.004558,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -7966,7 +7986,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942503,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -8211,21 +8231,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 15,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942503,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 66,
+							["last_event"] = 1684942503,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8239,14 +8259,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米亚元素师",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31267-00006E1446",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8349,6 +8369,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49656.541,
 				["combat_id"] = 1697,
+				["data_inicio"] = "23:34:56",
+				["overall_added"] = true,
+				["frags"] = {
+					["伊米亚元素师"] = 1,
+				},
+				["contra"] = "伊米亚元素师",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1853,
+				["start_time"] = 49649.321,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					15079, -- [1]
 					1256, -- [2]
@@ -8370,18 +8402,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:34:56",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "伊米亚元素师",
-				["combat_counter"] = 1853,
-				["frags"] = {
-					["伊米亚元素师"] = 1,
-				},
-				["start_time"] = 49649.321,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [12]
 			{
 				{
@@ -8418,8 +8438,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942486,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8639,8 +8660,7 @@ _detalhes_database = {
 							["last_dps"] = 784.4996900446835,
 							["start_time"] = 1684942486,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8671,9 +8691,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942486,
+							["aID"] = "",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "天灾驯鹰者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8745,7 +8765,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942486,
 							["delay"] = 0,
-							["aID"] = "",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8778,18 +8798,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 628,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.006256,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 628.006256,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942486,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.006256,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -8830,7 +8850,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942486,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -9055,21 +9075,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 30,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942486,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 154,
+							["last_event"] = 1684942486,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -9168,19 +9188,15 @@ _detalhes_database = {
 				},
 				["end_time"] = 49639.531,
 				["combat_id"] = 1696,
-				["overall_added"] = true,
-				["combat_counter"] = 1852,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:34:30",
 				["frags"] = {
 					["伊米亚元素师"] = 1,
 					["天灾驯鹰者"] = 1,
 				},
 				["contra"] = "天灾驯鹰者",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:34:30",
-				["start_time"] = 49623.248,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1852,
 				["totals_grupo"] = {
 					12774, -- [1]
 					628, -- [2]
@@ -9202,6 +9218,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49623.248,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [13]
 			{
 				{
@@ -9238,8 +9258,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942464,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9442,8 +9463,7 @@ _detalhes_database = {
 							["last_dps"] = 1266.994561296624,
 							["start_time"] = 1684942464,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -9477,9 +9497,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942464,
+							["aID"] = "31258",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆天选战士",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9553,7 +9573,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942464,
 							["delay"] = 0,
-							["aID"] = "31258",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -9586,18 +9606,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 627,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.008196,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 627.008196,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942464,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.008196,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -9638,7 +9658,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942464,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -9905,21 +9925,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 23,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942464,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 114,
+							["last_event"] = 1684942464,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -9933,14 +9953,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆天选战士",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31258-00006E1389",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -10039,6 +10059,19 @@ _detalhes_database = {
 				},
 				["end_time"] = 49617.637,
 				["combat_id"] = 1695,
+				["data_inicio"] = "23:34:14",
+				["overall_added"] = true,
+				["frags"] = {
+					["伊米亚元素师"] = 1,
+					["伊米海姆天选战士"] = 3,
+				},
+				["contra"] = "伊米海姆天选战士",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1851,
+				["start_time"] = 49607.457,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					12898, -- [1]
 					627, -- [2]
@@ -10060,19 +10093,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:34:14",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "伊米海姆天选战士",
-				["combat_counter"] = 1851,
-				["frags"] = {
-					["伊米亚元素师"] = 1,
-					["伊米海姆天选战士"] = 3,
-				},
-				["start_time"] = 49607.457,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [14]
 			{
 				{
@@ -10110,8 +10130,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942431,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10321,8 +10342,7 @@ _detalhes_database = {
 							["last_dps"] = 1038.783723223059,
 							["start_time"] = 1684942431,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -10429,9 +10449,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942431,
+							["aID"] = "31396",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "瓦格里工头",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10526,7 +10546,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942431,
 							["delay"] = 0,
-							["aID"] = "31396",
+							["monster"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -10559,18 +10579,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 5146,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002539,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 5146.002539,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942431,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002539,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -10636,7 +10656,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942431,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -10883,21 +10903,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 23,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942431,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 107,
+							["last_event"] = 1684942431,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -10911,14 +10931,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "瓦格里工头",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31396-00006E2E18",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -11021,6 +11041,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49584.35,
 				["combat_id"] = 1694,
+				["data_inicio"] = "23:33:39",
+				["overall_added"] = true,
+				["frags"] = {
+					["瓦格里工头"] = 1,
+				},
+				["contra"] = "瓦格里工头",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1850,
+				["start_time"] = 49571.69,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					13151, -- [1]
 					5146, -- [2]
@@ -11042,18 +11074,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:33:39",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "瓦格里工头",
-				["combat_counter"] = 1850,
-				["frags"] = {
-					["瓦格里工头"] = 1,
-				},
-				["start_time"] = 49571.69,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [15]
 			{
 				{
@@ -11090,8 +11110,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942414,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11295,8 +11316,7 @@ _detalhes_database = {
 							["last_dps"] = 1735.008886401095,
 							["start_time"] = 1684942414,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -11326,9 +11346,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942414,
+							["aID"] = "31396",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "瓦格里工头",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11424,7 +11444,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942414,
 							["delay"] = 0,
-							["aID"] = "31396",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -11534,18 +11554,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 628,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.006376,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 628.006376,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942414,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.006376,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -11586,7 +11606,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942414,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -11842,21 +11862,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 20,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942414,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 94,
+							["last_event"] = 1684942414,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -11870,14 +11890,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "瓦格里工头",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31396-00006E125F",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -11981,6 +12001,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49567.379,
 				["combat_id"] = 1693,
+				["data_inicio"] = "23:33:25",
+				["overall_added"] = true,
+				["frags"] = {
+					["瓦格里工头"] = 1,
+				},
+				["contra"] = "瓦格里工头",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1849,
+				["start_time"] = 49557.73,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					15884, -- [1]
 					628, -- [2]
@@ -12002,18 +12034,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:33:25",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "瓦格里工头",
-				["combat_counter"] = 1849,
-				["frags"] = {
-					["瓦格里工头"] = 1,
-				},
-				["start_time"] = 49557.73,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [16]
 			{
 				{
@@ -12051,8 +12071,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942385,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12254,8 +12275,7 @@ _detalhes_database = {
 							["last_dps"] = 1371.739497462409,
 							["start_time"] = 1684942385,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -12287,9 +12307,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942385,
+							["aID"] = "31397",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "萨隆邪铁矿洞奴隶",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12333,7 +12353,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942385,
 							["delay"] = 0,
-							["aID"] = "31397",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -12366,18 +12386,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1254,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.00756,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1254.00756,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942385,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.00756,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -12418,7 +12438,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942385,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -12666,21 +12686,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 20,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942385,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 98,
+							["last_event"] = 1684942385,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -12859,18 +12879,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49538.627,
 				["combat_id"] = 1692,
-				["overall_added"] = true,
-				["combat_counter"] = 1848,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:32:54",
 				["frags"] = {
 					["萨隆邪铁矿洞奴隶"] = 1,
 				},
 				["contra"] = "萨隆邪铁矿洞奴隶",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:32:54",
-				["start_time"] = 49527.396,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1848,
 				["totals_grupo"] = {
 					15406, -- [1]
 					1254, -- [2]
@@ -12892,6 +12908,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49527.396,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [17]
 			{
 				{
@@ -12929,8 +12949,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942369,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13097,8 +13118,7 @@ _detalhes_database = {
 							["last_dps"] = 2193.42832981436,
 							["start_time"] = 1684942369,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -13128,9 +13148,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942369,
+							["aID"] = "31396",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "瓦格里工头",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13197,7 +13217,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942369,
 							["delay"] = 0,
-							["aID"] = "31396",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -13306,18 +13326,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 627,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.007757,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 627.007757,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942369,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.007757,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -13358,7 +13378,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942369,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -13616,21 +13636,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 17,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942369,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 81,
+							["last_event"] = 1684942369,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -13644,14 +13664,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "瓦格里工头",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31396-00006E124A",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -13831,6 +13851,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49522.801,
 				["combat_id"] = 1691,
+				["data_inicio"] = "23:32:42",
+				["overall_added"] = true,
+				["frags"] = {
+					["瓦格里工头"] = 1,
+				},
+				["contra"] = "瓦格里工头",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1847,
+				["start_time"] = 49514.886,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					16420, -- [1]
 					627, -- [2]
@@ -13852,18 +13884,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:32:42",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "瓦格里工头",
-				["combat_counter"] = 1847,
-				["frags"] = {
-					["瓦格里工头"] = 1,
-				},
-				["start_time"] = 49514.886,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [18]
 			{
 				{
@@ -13900,9 +13920,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942359,
+							["aID"] = "4487-004F1004",
 							["friendlyfire"] = {
 							},
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14100,7 +14120,7 @@ _detalhes_database = {
 							["last_dps"] = 1858.775693285447,
 							["start_time"] = 1684942359,
 							["delay"] = 0,
-							["aID"] = "4487-004F1004",
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -14131,9 +14151,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942359,
+							["aID"] = "31397",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "萨隆邪铁矿洞奴隶",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14177,7 +14197,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942359,
 							["delay"] = 0,
-							["aID"] = "31397",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -14210,18 +14230,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 628,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.004627,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 628.004627,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942359,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.004627,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -14262,7 +14282,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942359,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -14518,21 +14538,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 14,
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["aID"] = "4487-004F1004",
-							["buff_uptime"] = 76,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
+							["nome"] = "康樂股長",
+							["tipo"] = 4,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["last_event"] = 1684942359,
+							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime_targets"] = {
 							},
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["tipo"] = 4,
-							["GetTargets"] = nil --[[ skipped inline function ]],
-							["nome"] = "康樂股長",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime"] = 76,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -14631,18 +14651,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49513.131,
 				["combat_id"] = 1690,
-				["overall_added"] = true,
-				["combat_counter"] = 1846,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:32:32",
 				["frags"] = {
 					["萨隆邪铁矿洞奴隶"] = 1,
 				},
 				["contra"] = "萨隆邪铁矿洞奴隶",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:32:32",
-				["start_time"] = 49504.804,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1846,
 				["totals_grupo"] = {
 					13175, -- [1]
 					628, -- [2]
@@ -14664,6 +14680,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49504.804,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [19]
 			{
 				{
@@ -14701,8 +14721,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942318,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15013,8 +15034,7 @@ _detalhes_database = {
 							["last_dps"] = 834.2146145826778,
 							["start_time"] = 1684942318,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15046,9 +15066,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942318,
+							["aID"] = "31399",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "工头沙尔德林",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15202,7 +15222,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942318,
 							["delay"] = 0,
-							["aID"] = "31399",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -15236,18 +15256,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 19317,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.005727,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 19317.005727,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942318,
-							["spec"] = 104,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.005727,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -15365,7 +15385,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942318,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 104,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -15800,14 +15820,14 @@ _detalhes_database = {
 							["nome"] = "工头沙尔德林",
 							["spec"] = 73,
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "WARRIOR",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "WARRIOR",
 							["serial"] = "Creature-0-4491-571-16149-31399-00006E2806",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -15998,18 +16018,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49471.452,
 				["combat_id"] = 1689,
-				["overall_added"] = true,
-				["combat_counter"] = 1845,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:30:58",
 				["frags"] = {
 					["工头沙尔德林"] = 1,
 				},
 				["contra"] = "工头沙尔德林",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:30:58",
-				["start_time"] = 49410.928,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1845,
 				["totals_grupo"] = {
 					50490, -- [1]
 					19317, -- [2]
@@ -16031,6 +16047,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 2,
 					}, -- [4]
 				},
+				["start_time"] = 49410.928,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [20]
 			{
 				{
@@ -16066,9 +16086,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942252,
+							["aID"] = "31396",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "瓦格里工头",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16111,7 +16131,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942252,
 							["delay"] = 0,
-							["aID"] = "31396",
+							["monster"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -16143,8 +16163,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942252,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16345,8 +16366,7 @@ _detalhes_database = {
 							["last_dps"] = 1750.832989462121,
 							["start_time"] = 1684942252,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [1]
@@ -16379,18 +16399,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 611,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.005753,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 611.005753,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942252,
-							["spec"] = 104,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.005753,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -16431,7 +16451,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942252,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 104,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -16697,21 +16717,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 13,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 104,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942252,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 72,
+							["last_event"] = 1684942252,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -16809,19 +16829,15 @@ _detalhes_database = {
 				},
 				["end_time"] = 49406.217,
 				["combat_id"] = 1688,
-				["overall_added"] = true,
-				["combat_counter"] = 1844,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:30:45",
 				["frags"] = {
 					["瓦格里工头"] = 1,
 					["萨隆邪铁矿洞奴隶"] = 1,
 				},
 				["contra"] = "瓦格里工头",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:30:45",
-				["start_time"] = 49398.128,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1844,
 				["totals_grupo"] = {
 					12627, -- [1]
 					611, -- [2]
@@ -16843,6 +16859,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49398.128,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [21]
 			{
 				{
@@ -16881,8 +16901,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942230,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17118,8 +17139,7 @@ _detalhes_database = {
 							["last_dps"] = 1187.194069024647,
 							["start_time"] = 1684942230,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -17150,9 +17170,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942230,
+							["aID"] = "31397",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "萨隆邪铁矿洞奴隶",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17196,7 +17216,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942230,
 							["delay"] = 0,
-							["aID"] = "31397",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -17227,9 +17247,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942230,
+							["aID"] = "31396",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "瓦格里工头",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17326,7 +17346,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942230,
 							["delay"] = 0,
-							["aID"] = "31396",
+							["monster"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -17359,18 +17379,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1222,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.008054,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1222.008054,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942230,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.008054,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -17411,7 +17431,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942230,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -17678,21 +17698,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 43,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942230,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 227,
+							["last_event"] = 1684942230,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -17706,14 +17726,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "瓦格里工头",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31396-00006E284A",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -17815,6 +17835,22 @@ _detalhes_database = {
 				["data_inicio"] = "23:30:09",
 				["end_time"] = 49383.964,
 				["combat_id"] = 1687,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["瓦格里工头"] = 1,
+					["萨隆邪铁矿洞奴隶"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 49361.76,
+				["contra"] = "萨隆邪铁矿洞奴隶",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -17835,22 +17871,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["瓦格里工头"] = 1,
-					["萨隆邪铁矿洞奴隶"] = 1,
-				},
-				["start_time"] = 49361.76,
-				["contra"] = "萨隆邪铁矿洞奴隶",
-				["overall_added"] = true,
 			}, -- [22]
 			{
 				{
@@ -17887,8 +17907,15 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942193,
+							["friendlyfire"] = {
+								["萨隆邪铁矿洞奴隶"] = {
+									["total"] = 22,
+									["spells"] = {
+										[26992] = 22,
+									},
+								},
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18095,14 +18122,7 @@ _detalhes_database = {
 							["last_dps"] = 1335.541507936647,
 							["start_time"] = 1684942193,
 							["delay"] = 0,
-							["friendlyfire"] = {
-								["萨隆邪铁矿洞奴隶"] = {
-									["total"] = 22,
-									["spells"] = {
-										[26992] = 22,
-									},
-								},
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68120,
@@ -18132,6 +18152,7 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942193,
+							["aID"] = "31397",
 							["friendlyfire"] = {
 								["康樂股長"] = {
 									["total"] = 778,
@@ -18140,7 +18161,6 @@ _detalhes_database = {
 									},
 								},
 							},
-							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "萨隆邪铁矿洞奴隶",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18184,7 +18204,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942193,
 							["delay"] = 0,
-							["aID"] = "31397",
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [1]
@@ -18217,18 +18237,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1222,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002709,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1222.002709,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942193,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002709,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -18269,7 +18289,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942193,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -18527,21 +18547,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 22,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942193,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 80,
+							["last_event"] = 1684942193,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -18786,6 +18806,7 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942181,
+							["aID"] = "31397",
 							["friendlyfire"] = {
 								["康樂股長"] = {
 									["total"] = 830,
@@ -18794,7 +18815,6 @@ _detalhes_database = {
 									},
 								},
 							},
-							["monster"] = true,
 							["nome"] = "萨隆邪铁矿洞奴隶",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18838,7 +18858,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942181,
 							["delay"] = 0,
-							["aID"] = "31397",
+							["monster"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -18870,8 +18890,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942181,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19077,8 +19098,7 @@ _detalhes_database = {
 							["last_dps"] = 1429.614458084125,
 							["start_time"] = 1684942181,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [1]
@@ -19111,18 +19131,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 611,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.00845,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 611.00845,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942181,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.00845,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -19163,7 +19183,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942181,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -19431,21 +19451,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 14,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942181,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 80,
+							["last_event"] = 1684942181,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -19624,18 +19644,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49334.96900000001,
 				["combat_id"] = 1685,
-				["overall_added"] = true,
-				["combat_counter"] = 1841,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:29:33",
 				["frags"] = {
 					["萨隆邪铁矿洞奴隶"] = 1,
 				},
 				["contra"] = "萨隆邪铁矿洞奴隶",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:29:33",
-				["start_time"] = 49325.791,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1841,
 				["totals_grupo"] = {
 					11750, -- [1]
 					611, -- [2]
@@ -19657,6 +19673,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49325.791,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [24]
 			{
 				{
@@ -19693,8 +19713,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942165,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19900,8 +19921,7 @@ _detalhes_database = {
 							["last_dps"] = 1076.54633896314,
 							["start_time"] = 1684942165,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -19932,9 +19952,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942165,
+							["aID"] = "31397",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "萨隆邪铁矿洞奴隶",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -19979,7 +19999,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942165,
 							["delay"] = 0,
-							["aID"] = "31397",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -20012,18 +20032,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 4715,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.00268,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 4715.00268,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942165,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.00268,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -20089,7 +20109,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942165,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -20336,21 +20356,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 24,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942165,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 99,
+							["last_event"] = 1684942165,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -20449,6 +20469,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49318.799,
 				["combat_id"] = 1684,
+				["data_inicio"] = "23:29:15",
+				["overall_added"] = true,
+				["frags"] = {
+					["萨隆邪铁矿洞奴隶"] = 1,
+				},
+				["contra"] = "萨隆邪铁矿洞奴隶",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1840,
+				["start_time"] = 49307.786,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					11856, -- [1]
 					4715, -- [2]
@@ -20470,18 +20502,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:29:15",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "萨隆邪铁矿洞奴隶",
-				["combat_counter"] = 1840,
-				["frags"] = {
-					["萨隆邪铁矿洞奴隶"] = 1,
-				},
-				["start_time"] = 49307.786,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [25]
 			{
 				{
@@ -20520,8 +20540,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942146,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -20719,8 +20740,7 @@ _detalhes_database = {
 							["last_dps"] = 1938.743599811111,
 							["start_time"] = 1684942146,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -20751,9 +20771,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942146,
+							["aID"] = "31396",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "瓦格里工头",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -20822,7 +20842,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942146,
 							["delay"] = 0,
-							["aID"] = "31396",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -20931,18 +20951,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1222,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002757,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1222.002757,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942146,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002757,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -20983,7 +21003,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942146,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -21250,21 +21270,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 20,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942146,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 74,
+							["last_event"] = 1684942146,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -21278,14 +21298,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "瓦格里工头",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31396-00006E284A",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -21467,18 +21487,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49299.706,
 				["combat_id"] = 1683,
-				["overall_added"] = true,
-				["combat_counter"] = 1839,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:28:59",
 				["frags"] = {
 					["瓦格里工头"] = 1,
 				},
 				["contra"] = "瓦格里工头",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:28:59",
-				["start_time"] = 49292.239,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1839,
 				["totals_grupo"] = {
 					14432, -- [1]
 					1222, -- [2]
@@ -21500,6 +21516,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49292.239,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [26]
 			{
 				{
@@ -21536,8 +21556,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942108,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21708,8 +21729,7 @@ _detalhes_database = {
 							["last_dps"] = 689.1274610671501,
 							["start_time"] = 1684942108,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -21743,9 +21763,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942108,
+							["aID"] = "31258",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆天选战士",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -21819,7 +21839,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942108,
 							["delay"] = 0,
-							["aID"] = "31258",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -22031,14 +22051,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆天选战士",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31258-00006E1CD8",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -22138,6 +22158,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49262.164,
 				["combat_id"] = 1682,
+				["data_inicio"] = "23:28:21",
+				["overall_added"] = true,
+				["frags"] = {
+					["伊米海姆天选战士"] = 1,
+				},
+				["contra"] = "伊米海姆天选战士",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1838,
+				["start_time"] = 49253.675,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					5850, -- [1]
 					0, -- [2]
@@ -22159,18 +22191,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:28:21",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "伊米海姆天选战士",
-				["combat_counter"] = 1838,
-				["frags"] = {
-					["伊米海姆天选战士"] = 1,
-				},
-				["start_time"] = 49253.675,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [27]
 			{
 				{
@@ -22206,8 +22226,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942089,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22334,8 +22355,7 @@ _detalhes_database = {
 							["last_dps"] = 1477.129517722137,
 							["start_time"] = 1684942089,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -22368,9 +22388,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942089,
+							["aID"] = "31746",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆防御者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -22441,7 +22461,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942089,
 							["delay"] = 0,
-							["aID"] = "31746",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -22474,18 +22494,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 611,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.003109,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 611.003109,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942089,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.003109,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -22526,7 +22546,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942089,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -22752,21 +22772,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 2,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942089,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 44,
+							["last_event"] = 1684942089,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -22780,14 +22800,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆防御者",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31746-00006E2CEB",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -22886,18 +22906,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49242.747,
 				["combat_id"] = 1681,
-				["overall_added"] = true,
-				["combat_counter"] = 1837,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:28:05",
 				["frags"] = {
 					["伊米海姆防御者"] = 1,
 				},
 				["contra"] = "伊米海姆防御者",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:28:05",
-				["start_time"] = 49238.146,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1837,
 				["totals_grupo"] = {
 					4876, -- [1]
 					611, -- [2]
@@ -22919,6 +22935,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49238.146,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [28]
 			{
 				{
@@ -22955,8 +22975,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942082,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23186,8 +23207,7 @@ _detalhes_database = {
 							["last_dps"] = 1445.257316676723,
 							["start_time"] = 1684942082,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -23222,9 +23242,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942082,
+							["aID"] = "31746",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆防御者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -23328,7 +23348,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942082,
 							["delay"] = 0,
-							["aID"] = "31746",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -23362,18 +23382,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1222,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.00168,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1222.00168,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942082,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.00168,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -23415,7 +23435,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942082,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -23682,21 +23702,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 52,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684942082,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 210,
+							["last_event"] = 1684942082,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -23710,14 +23730,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆防御者",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31746-00006E1B4C",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -23820,6 +23840,21 @@ _detalhes_database = {
 				["data_inicio"] = "23:27:40",
 				["end_time"] = 49236.268,
 				["combat_id"] = 1680,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["frags"] = {
+					["伊米海姆防御者"] = 4,
+				},
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 49213.434,
+				["contra"] = "伊米海姆防御者",
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -23840,21 +23875,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-				},
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["伊米海姆防御者"] = 4,
-				},
-				["start_time"] = 49213.434,
-				["contra"] = "伊米海姆防御者",
-				["overall_added"] = true,
 			}, -- [29]
 			{
 				{
@@ -23891,9 +23911,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684942024,
+							["aID"] = "4487-004F1004",
 							["friendlyfire"] = {
 							},
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24130,7 +24150,7 @@ _detalhes_database = {
 							["last_dps"] = 1237.946589651003,
 							["start_time"] = 1684942024,
 							["delay"] = 0,
-							["aID"] = "4487-004F1004",
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -24165,9 +24185,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684942024,
+							["aID"] = "31746",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆防御者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24267,7 +24287,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684942024,
 							["delay"] = 0,
-							["aID"] = "31746",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -24300,18 +24320,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1833,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.008921,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1833.008921,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684942024,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.008921,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -24352,7 +24372,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684942024,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -24619,21 +24639,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 46,
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["aID"] = "4487-004F1004",
-							["buff_uptime"] = 251,
 							["debuff_uptime_targets"] = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
+							["nome"] = "康樂股長",
+							["tipo"] = 4,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["last_event"] = 1684942024,
+							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime_targets"] = {
 							},
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["tipo"] = 4,
-							["GetTargets"] = nil --[[ skipped inline function ]],
-							["nome"] = "康樂股長",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime"] = 251,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -24647,14 +24667,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆防御者",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31746-00026E1AF5",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -24757,18 +24777,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 49177.588,
 				["combat_id"] = 1679,
-				["overall_added"] = true,
-				["combat_counter"] = 1835,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:26:39",
 				["frags"] = {
 					["伊米海姆防御者"] = 4,
 				},
 				["contra"] = "伊米海姆防御者",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:26:39",
-				["start_time"] = 49151.876,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1835,
 				["totals_grupo"] = {
 					30503, -- [1]
 					1833, -- [2]
@@ -24790,6 +24806,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 49151.876,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [30]
 			{
 				{
@@ -24826,8 +24846,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941985,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -24925,9 +24946,9 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 2,
 										["ChartData"] = {
-											[29] = 455,
 											[26] = 455,
 											[32] = 455,
+											[29] = 455,
 										},
 										["total"] = 909,
 										["c_max"] = 0,
@@ -25189,8 +25210,7 @@ _detalhes_database = {
 							["last_dps"] = 801.8178605089674,
 							["start_time"] = 1684941985,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -25225,9 +25245,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941985,
+							["aID"] = "31746",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "伊米海姆防御者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -25330,7 +25350,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941985,
 							["delay"] = 0,
-							["aID"] = "31746",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -25364,18 +25384,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 7018,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.007584,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 7018.007584,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941985,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.007584,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -25468,7 +25488,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941985,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -25633,69 +25653,6 @@ _detalhes_database = {
 							["dispell"] = 1.004562,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
-							["dispell_targets"] = {
-								["康樂股長"] = 1,
-							},
-							["debuff_uptime"] = 62,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 103,
-							["cc_done_targets"] = {
-								["伊米海姆防御者"] = 2,
-							},
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
-							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-							["serial"] = "Player-4487-004F1004",
-							["buff_uptime"] = 314,
-							["cc_done_spells"] = {
-								["_ActorTable"] = {
-									[45334] = {
-										["id"] = 45334,
-										["targets"] = {
-											["伊米海姆防御者"] = 1,
-										},
-										["counter"] = 1,
-									},
-									[8983] = {
-										["id"] = 8983,
-										["targets"] = {
-											["伊米海姆防御者"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["dispell_oque"] = {
-								[60988] = 1,
-							},
-							["dispell_spells"] = {
-								["_ActorTable"] = {
-									[2893] = {
-										["targets"] = {
-											["康樂股長"] = 1,
-										},
-										["id"] = 2893,
-										["dispell_oque"] = {
-											[60988] = 1,
-										},
-										["dispell"] = 1,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["fight_component"] = true,
-							["cc_done"] = 2.002321,
-							["nome"] = "康樂股長",
-							["grupo"] = true,
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941985,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["tipo"] = 4,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["aID"] = "4487-004F1004",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -25911,8 +25868,71 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
+							["debuff_uptime"] = 62,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["cc_done_targets"] = {
+								["伊米海姆防御者"] = 2,
+							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
+							["serial"] = "Player-4487-004F1004",
+							["buff_uptime"] = 314,
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[45334] = {
+										["id"] = 45334,
+										["targets"] = {
+											["伊米海姆防御者"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[8983] = {
+										["id"] = 8983,
+										["targets"] = {
+											["伊米海姆防御者"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["dispell_oque"] = {
+								[60988] = 1,
+							},
+							["dispell_spells"] = {
+								["_ActorTable"] = {
+									[2893] = {
+										["targets"] = {
+											["康樂股長"] = 1,
+										},
+										["id"] = 2893,
+										["dispell_oque"] = {
+											[60988] = 1,
+										},
+										["dispell"] = 1,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["GetSpellList"] = nil --[[ skipped inline function ]],
+							["GetPets"] = nil --[[ skipped inline function ]],
+							["cc_done"] = 2.002321,
+							["nome"] = "康樂股長",
+							["grupo"] = true,
+							["last_event"] = 1684941985,
+							["dispell_targets"] = {
+								["康樂股長"] = 1,
+							},
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["classe"] = "DRUID",
 							["debuff_uptime_targets"] = {
 							},
+							["fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -25926,14 +25946,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "伊米海姆防御者",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-31746-0001EE1AA4",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -26044,6 +26064,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 49138.691,
 				["combat_id"] = 1678,
+				["data_inicio"] = "23:25:50",
+				["overall_added"] = true,
+				["frags"] = {
+					["伊米海姆防御者"] = 4,
+				},
+				["contra"] = "伊米海姆防御者",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1834,
+				["start_time"] = 49103.592,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					28143, -- [1]
 					7018, -- [2]
@@ -26065,18 +26097,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:25:50",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "伊米海姆防御者",
-				["combat_counter"] = 1834,
-				["frags"] = {
-					["伊米海姆防御者"] = 4,
-				},
-				["start_time"] = 49103.592,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [31]
 			{
 				{
@@ -26113,8 +26133,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941407,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26386,8 +26407,7 @@ _detalhes_database = {
 							["last_dps"] = 1201.051664507902,
 							["start_time"] = 1684941407,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -26423,9 +26443,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941407,
+							["aID"] = "29851",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "莱斯班恩将军",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -26556,7 +26576,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941407,
 							["delay"] = 0,
-							["aID"] = "29851",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -26590,18 +26610,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 7026,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.005727,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 7026.005727,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941407,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.005727,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -26668,7 +26688,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941407,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -26947,21 +26967,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 120,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941407,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 408,
+							["last_event"] = 1684941407,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -26975,14 +26995,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "莱斯班恩将军",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-29851-00006E2A30",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -27192,6 +27212,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 48560.93,
 				["combat_id"] = 1677,
+				["data_inicio"] = "23:16:03",
+				["overall_added"] = true,
+				["frags"] = {
+					["莱斯班恩将军"] = 1,
+				},
+				["contra"] = "莱斯班恩将军",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1833,
+				["start_time"] = 48516.613,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					53227, -- [1]
 					7026, -- [2]
@@ -27213,18 +27245,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:16:03",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "莱斯班恩将军",
-				["combat_counter"] = 1833,
-				["frags"] = {
-					["莱斯班恩将军"] = 1,
-				},
-				["start_time"] = 48516.613,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [32]
 			{
 				{
@@ -27262,8 +27282,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941307,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -27482,8 +27503,7 @@ _detalhes_database = {
 							["last_dps"] = 1498.148034426303,
 							["start_time"] = 1684941307,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -27514,9 +27534,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941307,
+							["aID"] = "29840",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "跳跃者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -27612,7 +27632,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941307,
 							["delay"] = 0,
-							["aID"] = "29840",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -27645,18 +27665,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 598,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002346,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 598.002346,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941307,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002346,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -27697,7 +27717,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941307,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -27964,21 +27984,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 30,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941307,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 168,
+							["last_event"] = 1684941307,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -27992,14 +28012,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "跳跃者",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-29840-00006E2404",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -28103,6 +28123,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 48460.931,
 				["combat_id"] = 1676,
+				["data_inicio"] = "23:14:51",
+				["overall_added"] = true,
+				["frags"] = {
+					["跳跃者"] = 1,
+				},
+				["contra"] = "跳跃者",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1832,
+				["start_time"] = 48444.187,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					16580, -- [1]
 					598, -- [2]
@@ -28124,18 +28156,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:14:51",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "跳跃者",
-				["combat_counter"] = 1832,
-				["frags"] = {
-					["跳跃者"] = 1,
-				},
-				["start_time"] = 48444.187,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [33]
 			{
 				{
@@ -28173,8 +28193,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941260,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28394,8 +28415,7 @@ _detalhes_database = {
 							["last_dps"] = 680.8539400770256,
 							["start_time"] = 1684941260,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -28426,9 +28446,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941260,
+							["aID"] = "29770",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "奈丝伍德夫人",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -28498,7 +28518,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941260,
 							["delay"] = 0,
-							["aID"] = "29770",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -28531,18 +28551,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1197,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.00574,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1197.00574,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941260,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.00574,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -28583,7 +28603,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941260,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -28686,12 +28706,42 @@ _detalhes_database = {
 							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["GetSpellContainer"] = nil --[[ skipped inline function ]],
 							["dispell"] = 1.002486,
-							["buff_uptime"] = 139,
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["pets"] = {
 							},
-							["aID"] = "4487-004F1004",
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
+							["buff_uptime"] = 139,
+							["classe"] = "DRUID",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
+							["dispell_targets"] = {
+								["康樂股長"] = 1,
+							},
+							["dispell_spells"] = {
+								["_ActorTable"] = {
+									[2782] = {
+										["targets"] = {
+											["康樂股長"] = 1,
+										},
+										["id"] = 2782,
+										["dispell_oque"] = {
+											[5884] = 1,
+										},
+										["dispell"] = 1,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
+							["GetPets"] = nil --[[ skipped inline function ]],
+							["debuff_uptime"] = 26,
+							["aID"] = "4487-004F1004",
+							["dispell_oque"] = {
+								[5884] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[48420] = {
@@ -28829,44 +28879,14 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["dispell_spells"] = {
-								["_ActorTable"] = {
-									[2782] = {
-										["targets"] = {
-											["康樂股長"] = 1,
-										},
-										["id"] = 2782,
-										["dispell_oque"] = {
-											[5884] = 1,
-										},
-										["dispell"] = 1,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-							["fight_component"] = true,
-							["debuff_uptime"] = 26,
-							["classe"] = "DRUID",
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["debuff_uptime_targets"] = {
-							},
-							["spec"] = 103,
-							["grupo"] = true,
-							["dispell_targets"] = {
-								["康樂股長"] = 1,
-							},
-							["tipo"] = 4,
-							["nome"] = "康樂股長",
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["last_event"] = 1684941260,
+							["fight_component"] = true,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "康樂股長",
 							["serial"] = "Player-4487-004F1004",
-							["dispell_oque"] = {
-								[5884] = 1,
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
@@ -28881,14 +28901,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "奈丝伍德夫人",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-29770-00006E2458",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -28992,18 +29012,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 48413.497,
 				["combat_id"] = 1675,
-				["overall_added"] = true,
-				["combat_counter"] = 1831,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:14:04",
 				["frags"] = {
 					["奈丝伍德夫人"] = 1,
 				},
 				["contra"] = "奈丝伍德夫人",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:14:04",
-				["start_time"] = 48396.909,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1831,
 				["totals_grupo"] = {
 					11294, -- [1]
 					1197, -- [2]
@@ -29025,6 +29041,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 48396.909,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [34]
 			{
 				{
@@ -29062,8 +29082,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941231,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -29276,8 +29297,7 @@ _detalhes_database = {
 							["last_dps"] = 1100.876373452231,
 							["start_time"] = 1684941231,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -29308,9 +29328,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941231,
+							["aID"] = "29769",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "劣尸维尔",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -29354,7 +29374,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941231,
 							["delay"] = 0,
-							["aID"] = "29769",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -29387,18 +29407,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1196,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002212,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1196.002212,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941231,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002212,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -29439,7 +29459,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941231,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -29706,21 +29726,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 16,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941231,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 137,
+							["last_event"] = 1684941231,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -29821,18 +29841,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 48385.087,
 				["combat_id"] = 1674,
-				["overall_added"] = true,
-				["combat_counter"] = 1830,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:13:39",
 				["frags"] = {
 					["劣尸维尔"] = 1,
 				},
 				["contra"] = "劣尸维尔",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:13:39",
-				["start_time"] = 48371.843,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1830,
 				["totals_grupo"] = {
 					14580, -- [1]
 					1196, -- [2]
@@ -29854,6 +29870,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 48371.843,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [35]
 			{
 				{
@@ -29891,8 +29911,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941200,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30099,8 +30120,7 @@ _detalhes_database = {
 							["last_dps"] = 1299.297529265916,
 							["start_time"] = 1684941200,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -30131,9 +30151,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941200,
+							["aID"] = "29738",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "死亡骑士大师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -30207,7 +30227,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941200,
 							["delay"] = 0,
-							["aID"] = "29738",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -30240,18 +30260,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 1196,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.007546,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 1196.007546,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941200,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.007546,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -30292,7 +30312,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941200,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -30528,21 +30548,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941200,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 98,
+							["last_event"] = 1684941200,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -30556,14 +30576,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "死亡骑士大师",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-29738-00006E233E",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -30742,18 +30762,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 48353.609,
 				["combat_id"] = 1673,
-				["overall_added"] = true,
-				["combat_counter"] = 1829,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:13:09",
 				["frags"] = {
 					["死亡骑士大师"] = 1,
 				},
 				["contra"] = "死亡骑士大师",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:13:09",
-				["start_time"] = 48342.471,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1829,
 				["totals_grupo"] = {
 					13119, -- [1]
 					1196, -- [2]
@@ -30775,6 +30791,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 48342.471,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [36]
 			{
 				{
@@ -30811,8 +30831,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941184,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -31013,8 +31034,7 @@ _detalhes_database = {
 							["last_dps"] = 1952.374672707756,
 							["start_time"] = 1684941184,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -31045,9 +31065,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941184,
+							["aID"] = "29738",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "死亡骑士大师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -31118,7 +31138,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941184,
 							["delay"] = 0,
-							["aID"] = "29738",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -31151,18 +31171,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 599,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.003207,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 599.003207,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941184,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.003207,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -31203,7 +31223,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941184,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -31460,21 +31480,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 9,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941184,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 67,
+							["last_event"] = 1684941184,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -31488,14 +31508,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "死亡骑士大师",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-29738-00006E24E5",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -31675,6 +31695,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 48337.4,
 				["combat_id"] = 1672,
+				["data_inicio"] = "23:12:58",
+				["overall_added"] = true,
+				["frags"] = {
+					["死亡骑士大师"] = 1,
+				},
+				["contra"] = "死亡骑士大师",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1828,
+				["start_time"] = 48331.164,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					12175, -- [1]
 					599, -- [2]
@@ -31696,18 +31728,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:12:58",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "死亡骑士大师",
-				["combat_counter"] = 1828,
-				["frags"] = {
-					["死亡骑士大师"] = 1,
-				},
-				["start_time"] = 48331.164,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [37]
 			{
 				{
@@ -31744,8 +31764,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941171,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -31957,8 +31978,7 @@ _detalhes_database = {
 							["last_dps"] = 944.5753733959472,
 							["start_time"] = 1684941171,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -31989,9 +32009,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941171,
+							["aID"] = "29720",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "拱顶恶鬼",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -32064,7 +32084,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941171,
 							["delay"] = 0,
-							["aID"] = "29720",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -32097,18 +32117,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 599,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002054,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 599.002054,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941171,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002054,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -32149,7 +32169,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941171,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -32396,21 +32416,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 29,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941171,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 128,
+							["last_event"] = 1684941171,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -32508,6 +32528,18 @@ _detalhes_database = {
 				},
 				["end_time"] = 48324.432,
 				["combat_id"] = 1671,
+				["data_inicio"] = "23:12:38",
+				["overall_added"] = true,
+				["frags"] = {
+					["拱顶恶鬼"] = 1,
+				},
+				["contra"] = "拱顶恶鬼",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1827,
+				["start_time"] = 48311.261,
+				["TimeData"] = {
+				},
 				["totals_grupo"] = {
 					12441, -- [1]
 					599, -- [2]
@@ -32529,18 +32561,6 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_inicio"] = "23:12:38",
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "拱顶恶鬼",
-				["combat_counter"] = 1827,
-				["frags"] = {
-					["拱顶恶鬼"] = 1,
-				},
-				["start_time"] = 48311.261,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [38]
 			{
 				{
@@ -32577,8 +32597,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941154,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -32784,8 +32805,7 @@ _detalhes_database = {
 							["last_dps"] = 1181.572994513611,
 							["start_time"] = 1684941154,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -32816,9 +32836,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941154,
+							["aID"] = "29720",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "拱顶恶鬼",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -32889,7 +32909,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941154,
 							["delay"] = 0,
-							["aID"] = "29720",
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -32922,18 +32942,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 598,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.004887,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 598.004887,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941154,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.004887,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -32974,7 +32994,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941154,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -33232,21 +33252,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941154,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 107,
+							["last_event"] = 1684941154,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -33260,14 +33280,14 @@ _detalhes_database = {
 							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "拱顶恶鬼",
 							["GetSpellList"] = nil --[[ skipped inline function ]],
-							["GetPets"] = nil --[[ skipped inline function ]],
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["last_event"] = 0,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["tipo"] = 4,
 							["GetTargets"] = nil --[[ skipped inline function ]],
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4491-571-16149-29720-00006E2438",
-							["monster"] = true,
+							["GetPets"] = nil --[[ skipped inline function ]],
 						}, -- [2]
 					},
 				}, -- [4]
@@ -33446,18 +33466,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 48307.828,
 				["combat_id"] = 1670,
-				["overall_added"] = true,
-				["combat_counter"] = 1826,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:12:23",
 				["frags"] = {
 					["拱顶恶鬼"] = 1,
 				},
 				["contra"] = "拱顶恶鬼",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:12:23",
-				["start_time"] = 48296.345,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1826,
 				["totals_grupo"] = {
 					13568, -- [1]
 					598, -- [2]
@@ -33479,6 +33495,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 48296.345,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [39]
 			{
 				{
@@ -33516,8 +33536,9 @@ _detalhes_database = {
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["end_time"] = 1684941141,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-004F1004",
-							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33718,8 +33739,7 @@ _detalhes_database = {
 							["last_dps"] = 2354.315031005138,
 							["start_time"] = 1684941141,
 							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -33750,9 +33770,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941141,
+							["aID"] = "29720",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "拱顶恶鬼",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33796,7 +33816,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941141,
 							["delay"] = 0,
-							["aID"] = "29720",
+							["monster"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -33826,9 +33846,9 @@ _detalhes_database = {
 							["GetPets"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["end_time"] = 1684941141,
+							["aID"] = "29722",
 							["friendlyfire"] = {
 							},
-							["monster"] = true,
 							["nome"] = "狂乱食尸者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -33871,7 +33891,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1684941141,
 							["delay"] = 0,
-							["aID"] = "29722",
+							["monster"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -33904,18 +33924,18 @@ _detalhes_database = {
 							["targets"] = {
 								["康樂股長"] = 598,
 							},
-							["healing_from"] = {
-								["康樂股長"] = true,
-							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["GetSpellList"] = nil --[[ skipped inline function ]],
 							["totalover_without_pet"] = 0.002981,
 							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 							["healing_taken"] = 598.002981,
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 							["classe"] = "DRUID",
 							["fight_component"] = true,
 							["end_time"] = 1684941141,
-							["spec"] = 103,
+							["healing_from"] = {
+								["康樂股長"] = true,
+							},
 							["totaldenied"] = 0.002981,
 							["nome"] = "康樂股長",
 							["spells"] = {
@@ -33956,7 +33976,7 @@ _detalhes_database = {
 							["GetTargets"] = nil --[[ skipped inline function ]],
 							["start_time"] = 1684941141,
 							["delay"] = 0,
-							["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
@@ -34213,21 +34233,21 @@ _detalhes_database = {
 							["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 							["fight_component"] = true,
 							["debuff_uptime"] = 9,
-							["buff_uptime_targets"] = {
-							},
 							["debuff_uptime_targets"] = {
 							},
+							["GetPets"] = nil --[[ skipped inline function ]],
 							["nome"] = "康樂股長",
 							["spec"] = 103,
 							["grupo"] = true,
-							["aID"] = "4487-004F1004",
-							["tipo"] = 4,
-							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-							["last_event"] = 1684941141,
-							["GetTargets"] = nil --[[ skipped inline function ]],
 							["buff_uptime"] = 69,
+							["last_event"] = 1684941141,
+							["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
+							["tipo"] = 4,
+							["GetTargets"] = nil --[[ skipped inline function ]],
+							["aID"] = "4487-004F1004",
 							["serial"] = "Player-4487-004F1004",
-							["GetPets"] = nil --[[ skipped inline function ]],
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -34324,18 +34344,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 48294.391,
 				["combat_id"] = 1669,
-				["overall_added"] = true,
-				["combat_counter"] = 1825,
+				["spells_cast_timeline"] = {
+				},
+				["data_inicio"] = "23:12:14",
 				["frags"] = {
 					["拱顶恶鬼"] = 1,
 				},
 				["contra"] = "拱顶恶鬼",
-				["spells_cast_timeline"] = {
-				},
-				["data_inicio"] = "23:12:14",
-				["start_time"] = 48287.456,
-				["TimeData"] = {
-				},
+				["combat_counter"] = 1825,
 				["totals_grupo"] = {
 					12605, -- [1]
 					598, -- [2]
@@ -34357,6 +34373,10 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
+				["start_time"] = 48287.456,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [40]
 		},
 	},
@@ -34389,10 +34409,10 @@ _detalhes_database = {
 			["defensive-personal"] = false,
 		},
 		["width"] = 120,
-		["height"] = 18,
 		["framme_locked"] = false,
 		["cooldowns"] = {
 		},
+		["height"] = 18,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
@@ -34410,7 +34430,7 @@ _detalhes_database = {
 			["utility"] = false,
 		},
 	},
-	["combat_counter"] = 1869,
+	["combat_counter"] = 1877,
 	["player_stats"] = {
 	},
 	["force_font_outline"] = "",
@@ -34457,773 +34477,6 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["cached_talents"] = {
-		["Player-4487-0050C6A6"] = {
-			{
-				132090, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				135328, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [2]
-			{
-				132282, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [3]
-			{
-				133476, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [4]
-			{
-				132337, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132155, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136031, -- [1]
-				3, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				132316, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				132269, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [9]
-			{
-				135275, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				132397, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [11]
-			{
-				132306, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				132367, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				132355, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [14]
-			{
-				132400, -- [1]
-				2, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135881, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				135995, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				132312, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132344, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				132346, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				132175, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				132334, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				132355, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				236305, -- [1]
-				0, -- [2]
-				6, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236317, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				132349, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				236303, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				132364, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [28]
-			{
-				236276, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				132340, -- [1]
-				0, -- [2]
-				7, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				132335, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				136035, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [32]
-			{
-				136224, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [33]
-			{
-				132152, -- [1]
-				5, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [34]
-			{
-				132292, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [35]
-			{
-				136075, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				136097, -- [1]
-				5, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [37]
-			{
-				136147, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [38]
-			{
-				132366, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [39]
-			{
-				136146, -- [1]
-				1, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [40]
-			{
-				132338, -- [1]
-				3, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				136012, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				136218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				136009, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				135358, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132307, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				132147, -- [1]
-				5, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [47]
-			{
-				132369, -- [1]
-				2, -- [2]
-				7, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				132222, -- [1]
-				3, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				132275, -- [1]
-				5, -- [2]
-				8, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [50]
-			{
-				132352, -- [1]
-				1, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				132344, -- [1]
-				3, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				236308, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236306, -- [1]
-				3, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				236316, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236171, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236310, -- [1]
-				5, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [57]
-			{
-				135053, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [58]
-			{
-				136056, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [59]
-			{
-				135892, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [60]
-			{
-				132326, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [61]
-			{
-				132277, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				236309, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [63]
-			{
-				132363, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [64]
-			{
-				132353, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [65]
-			{
-				236318, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [66]
-			{
-				132357, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [67]
-			{
-				132362, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [68]
-			{
-				132343, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [69]
-			{
-				132325, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [70]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [71]
-			{
-				135321, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [72]
-			{
-				134952, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [73]
-			{
-				132341, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [74]
-			{
-				133123, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [75]
-			{
-				132360, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [76]
-			{
-				132345, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [77]
-			{
-				135291, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [78]
-			{
-				236311, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [79]
-			{
-				236315, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [80]
-			{
-				236312, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [81]
-			{
-				236307, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [82]
-			{
-				236319, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [83]
-			{
-				134976, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [84]
-			{
-				132361, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [85]
-		},
 		["Player-4487-004F1004"] = {
 			{
 				136006, -- [1]
@@ -36046,14 +35299,17 @@ _detalhes_database = {
 		["inverse_deathlog_raid"] = false,
 		["inverse_deathlog_mplus"] = false,
 	},
-	["on_death_menu"] = false,
+	["character_data"] = {
+		["logons"] = 92,
+	},
 	["mythic_plus_log"] = {
 	},
-	["announce_firsthit"] = {
+	["on_death_menu"] = false,
+	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["announce_damagerecord"] = {
+	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
@@ -36061,12 +35317,9 @@ _detalhes_database = {
 		["nextreset"] = 1685781171,
 		["last_version"] = 15,
 	},
-	["last_version"] = "3.4.1 11023",
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
+	["ignore_nicktag"] = false,
 	["last_realversion"] = 151,
-	["last_day"] = "25",
+	["last_day"] = "27",
 	["combat_id"] = 1708,
 	["savedStyles"] = {
 	},
@@ -36223,9 +35476,8 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["aID"] = "4488-005680AE",
-					["friendlyfire"] = {
-					},
 					["nome"] = "联盟防爆队-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -36352,7 +35604,8 @@ _detalhes_database = {
 					["damage_taken"] = 508.015198,
 					["start_time"] = 1684770580,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["friendlyfire"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 1352,
@@ -36373,9 +35626,9 @@ _detalhes_database = {
 					["pvp"] = true,
 					["damage_from"] = {
 						["水元素 <无情播种机>"] = true,
-						["瑜孫有唔"] = true,
 						["萧萧灬三号-烏蘇雷"] = true,
 						["联盟防爆队-烏蘇雷"] = true,
+						["瑜孫有唔"] = true,
 					},
 					["targets"] = {
 						["联盟防爆队-烏蘇雷"] = 508,
@@ -36389,9 +35642,8 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["aID"] = "5740-00596504",
-					["friendlyfire"] = {
-					},
 					["nome"] = "他的火热额-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -36622,7 +35874,8 @@ _detalhes_database = {
 					["damage_taken"] = 9057.005444,
 					["start_time"] = 1684770580,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["friendlyfire"] = {
+					},
 				}, -- [2]
 				{
 					["flag_original"] = 1300,
@@ -36777,9 +36030,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "4487-00259D79",
 					["nome"] = "瑜孫有唔",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -36934,7 +36187,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.004748,
 					["start_time"] = 1684770580,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "4487-00259D79",
 				}, -- [5]
 				{
 					["flag_original"] = 1300,
@@ -36966,9 +36219,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "4488-0054F122",
 					["nome"] = "萧萧灬三号-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37011,7 +36264,7 @@ _detalhes_database = {
 					["damage_taken"] = 222.00652,
 					["start_time"] = 1684770581,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "4488-0054F122",
 				}, -- [6]
 				{
 					["flag_original"] = 1320,
@@ -37043,9 +36296,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "5741-00594171",
 					["nome"] = "打客的啊的-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37116,7 +36369,7 @@ _detalhes_database = {
 					["damage_taken"] = 2714.005887,
 					["start_time"] = 1684770581,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "5741-00594171",
 				}, -- [7]
 				{
 					["flag_original"] = 1298,
@@ -37167,9 +36420,8 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["aID"] = "4487-004DAD88",
-					["friendlyfire"] = {
-					},
 					["nome"] = "萨斯给丶",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37598,7 +36850,8 @@ _detalhes_database = {
 					["damage_taken"] = 550.0050289999999,
 					["start_time"] = 1684770580,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["friendlyfire"] = {
+					},
 				}, -- [8]
 				{
 					["flag_original"] = 1320,
@@ -37629,9 +36882,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "4487-004CCE8D",
 					["nome"] = "飒萨",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37646,7 +36899,7 @@ _detalhes_database = {
 					["damage_taken"] = 2048.008445,
 					["start_time"] = 1684770582,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "4487-004CCE8D",
 				}, -- [9]
 				{
 					["flag_original"] = 1320,
@@ -37677,9 +36930,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "5740-0059845D",
 					["nome"] = "会通过都-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37722,7 +36975,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.004146,
 					["start_time"] = 1684770581,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "5740-0059845D",
 				}, -- [10]
 				{
 					["flag_original"] = 1300,
@@ -37754,9 +37007,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00574097",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Ginnes",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37852,7 +37105,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00574097",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [11]
 				{
 					["flag_original"] = 1352,
@@ -37883,9 +37136,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00534EA7",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "赵天嘞",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -37900,7 +37153,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00534EA7",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [12]
 				{
 					["flag_original"] = 4372,
@@ -37930,9 +37183,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-5580-566-30709-17252-0100121A6A",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "维纳什 <Ginnes>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38028,7 +37281,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-5580-566-30709-17252-0100121A6A",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [13]
 				{
 					["flag_original"] = 1352,
@@ -38066,9 +37319,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-001799AA",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Wulaifamily-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38479,7 +37732,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-001799AA",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [14]
 				{
 					["flag_original"] = 1352,
@@ -38517,9 +37770,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-00574820",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "一个人在飘-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -38899,7 +38152,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-00574820",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [15]
 				{
 					["flag_original"] = 1352,
@@ -38939,9 +38192,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0058E02C",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "团灭发动机-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -39025,7 +38278,7 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[1953] = {
+							[47816] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
@@ -39038,7 +38291,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 1953,
+								["id"] = 47816,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -39162,12 +38415,14 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[47816] = {
+							[42896] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["康樂股長"] = 0,
+									["方管"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -39175,7 +38430,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 47816,
+								["id"] = 42896,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -39322,14 +38577,12 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[42896] = {
+							[1953] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["康樂股長"] = 0,
-									["方管"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -39337,7 +38590,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 42896,
+								["id"] = 1953,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -39361,7 +38614,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0058E02C",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [16]
 				{
 					["flag_original"] = 1300,
@@ -39396,9 +38649,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-005941C7",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "烈酒和敬余生-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -39672,7 +38925,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-005941C7",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [17]
 				{
 					["flag_original"] = 1352,
@@ -39715,9 +38968,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-004BF2EF",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "史尔特尔-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -39891,6 +39144,39 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[59653] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["方管"] = 0,
+									["死不了活不好-阿拉希盆地"] = 0,
+									["烈酒和敬余生-阿拉希盆地"] = 0,
+									["血虫 <Nhuy>"] = 0,
+									["東離劍"] = 0,
+									["Nhuy"] = 0,
+									["血虫 <烈酒和敬余生-阿拉希盆地>"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 59653,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 							[2565] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -39905,34 +39191,6 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 2565,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[20253] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["康樂股長"] = 0,
-									["在桃公主"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 20253,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -40126,19 +39384,14 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[59653] = {
+							[20253] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["方管"] = 0,
-									["血虫 <烈酒和敬余生-阿拉希盆地>"] = 0,
-									["烈酒和敬余生-阿拉希盆地"] = 0,
-									["死不了活不好-阿拉希盆地"] = 0,
-									["東離劍"] = 0,
-									["Nhuy"] = 0,
-									["血虫 <Nhuy>"] = 0,
+									["康樂股長"] = 0,
+									["在桃公主"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -40146,7 +39399,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 59653,
+								["id"] = 20253,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -40223,7 +39476,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-004BF2EF",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [18]
 				{
 					["flag_original"] = 1352,
@@ -40258,9 +39511,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0042D50B",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "烨灬枫-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -40492,7 +39745,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0042D50B",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [19]
 				{
 					["flag_original"] = 1300,
@@ -40527,9 +39780,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0058D834",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "方管",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -40851,7 +40104,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0058D834",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [20]
 				{
 					["flag_original"] = 1300,
@@ -41447,12 +40700,12 @@ _detalhes_database = {
 						["暗影魔 <孙小萌-魚人>"] = 0,
 						["黑冰丶森林-魚人"] = 0,
 						["超導體-瑪拉頓"] = 0,
-						["情趣袈裟-魚人"] = 0,
 						["烨灬枫-魚人"] = 0,
+						["栀璃鸢年灬-阿拉希盆地"] = 0,
 						["小雨滴滴哒哒"] = 0,
 						["史尔特尔-魚人"] = 0,
 						["Loveshtias-魚人"] = 0,
-						["栀璃鸢年灬-阿拉希盆地"] = 0,
+						["情趣袈裟-魚人"] = 0,
 						["卡布奇洛-魚人"] = 0,
 						["可惜悦刻没-逐風者"] = 0,
 						["飞飞小学生-瑪拉頓"] = 0,
@@ -42446,9 +41699,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-4491-571-26880-2231-61001125D7",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "螃蟹",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -42607,7 +41860,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-4491-571-26880-2231-61001125D7",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [30]
 				{
 					["flag_original"] = 1298,
@@ -42642,9 +41895,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00591D3A",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Nhuy",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -42859,7 +42112,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00591D3A",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [31]
 				{
 					["flag_original"] = 1300,
@@ -43205,9 +42458,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "环境伤害 (坠落)",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -43309,7 +42562,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [35]
 				{
 					["flag_original"] = 1297,
@@ -43373,10 +42626,10 @@ _detalhes_database = {
 						["雷铸大法师"] = true,
 						["奈丝伍德夫人"] = true,
 						["筋疲力尽的维库人"] = true,
-						["档案员麦卡顿"] = true,
+						["风暴之子瓦杜兰"] = true,
 						["死亡使者哈洛夫"] = true,
 						["丑恶的药剂师"] = true,
-						["风暴之子瓦杜兰"] = true,
+						["野蛮岭拾荒者"] = true,
 						["腐尸噬体者"] = true,
 						["监督者希尔拉"] = true,
 						["瓦基里安候选者"] = true,
@@ -43425,7 +42678,7 @@ _detalhes_database = {
 						["达库鲁狂暴者"] = true,
 						["图书馆守卫者"] = true,
 						["遗忘深渊虫王"] = true,
-						["野蛮岭拾荒者"] = true,
+						["档案员麦卡顿"] = true,
 						["死亡骑士大师"] = true,
 						["跳跃者"] = true,
 						["伊米海姆防御者"] = true,
@@ -43448,8 +42701,8 @@ _detalhes_database = {
 						["梦魇虚体"] = 40284,
 						["蟑螂"] = 50,
 						["达库鲁饮血者"] = 46729,
-						["基加拉格"] = 37369,
 						["水晶蛛网编织者"] = 105297,
+						["火热的亡魂"] = 147810,
 						["洞穴座狼"] = 102352,
 						["追踪者图林"] = 13166,
 						["瓦古杀戮者"] = 102868,
@@ -43457,7 +42710,7 @@ _detalhes_database = {
 						["遗忘深渊杀戮者"] = 2522046,
 						["果丹皮灬-魚人"] = 0,
 						["天灾苦工"] = 187746,
-						["火热的亡魂"] = 147810,
+						["基加拉格"] = 37369,
 						["高阶祭司亚萨尔蒙"] = 68217,
 						["复活的上尉"] = 122559,
 						["希弗列尔达风暴之女"] = 60518,
@@ -43604,25 +42857,25 @@ _detalhes_database = {
 									["瓦古杀戮者"] = 26568,
 									["雷铸袭击者"] = 20697,
 									["腐烂憎恶"] = 13047,
-									["风暴之子瓦杜兰"] = 15481,
-									["伊米海姆天选战士"] = 14341,
 									["火热的亡魂"] = 35777,
+									["伊米海姆天选战士"] = 14341,
+									["雷铸大法师"] = 6808,
 									["监督者希尔拉"] = 3414,
 									["干瘪的巨魔"] = 34217,
 									["安格妮塔·泰斯多达尔"] = 2368,
 									["Iu-魚人"] = 0,
 									["奈丝伍德夫人"] = 4195,
 									["筋疲力尽的维库人"] = 3944,
-									["雷铸大法师"] = 6808,
+									["雷铸铁巨人"] = 39964,
 									["是来看我的吗-阿拉希盆地"] = 0,
 									["丑恶的药剂师"] = 19321,
-									["档案员麦卡顿"] = 1668,
+									["雷雨交加夜晚"] = 0,
 									["腐尸噬体者"] = 8396,
 									["加哈尔"] = 1946,
-									["死亡使者哈洛夫"] = 17652,
-									["恐尸"] = 13249,
-									["初学者收到-逐風者"] = 0,
+									["瓦基里安候选者"] = 77387,
 									["撕裂者萨兰纳克斯"] = 10906,
+									["恐尸"] = 13249,
+									["团灭发动机-魚人"] = 0,
 									["怒鬃"] = 2111,
 									["腐尸猎鹰"] = 1570,
 									["冰鬃雪人"] = 15291,
@@ -43665,18 +42918,18 @@ _detalhes_database = {
 									["达库鲁狂暴者"] = 7096,
 									["图书馆守卫者"] = 42175,
 									["遗忘深渊虫王"] = 9336,
-									["瓦基里安候选者"] = 77387,
-									["雷雨交加夜晚"] = 0,
-									["团灭发动机-魚人"] = 0,
+									["风暴之子瓦杜兰"] = 15481,
+									["死亡使者哈洛夫"] = 17652,
+									["档案员麦卡顿"] = 1668,
 									["伊米海姆防御者"] = 21063,
-									["雷铸铁巨人"] = 39964,
+									["初学者收到-逐風者"] = 0,
 									["跳跃者"] = 5013,
 									["遗忘深渊高阶祭司"] = 11760,
 								},
 								["n_total"] = 631372,
-								["g_dmg"] = 91436,
-								["n_min"] = 0,
 								["a_amt"] = 0,
+								["n_min"] = 0,
+								["MISS"] = 23,
 								["counter"] = 3902,
 								["DODGE"] = 29,
 								["total"] = 1339930,
@@ -43694,7 +42947,7 @@ _detalhes_database = {
 								["c_total"] = 617122,
 								["n_amt"] = 2385,
 								["spellschool"] = 1,
-								["MISS"] = 23,
+								["g_dmg"] = 91436,
 							}, -- [1]
 							[48563] = {
 								["c_amt"] = 4,
@@ -43704,16 +42957,16 @@ _detalhes_database = {
 								["targets"] = {
 									["黑冰丶森林-魚人"] = 0,
 									["诶嘿嘿黑嘿嘿-瑪拉頓"] = 0,
-									["给一刀-阿拉希盆地"] = 0,
+									["果丹皮灬-魚人"] = 0,
 									["工头沙尔德林"] = 9217,
 									["是来看我的吗-阿拉希盆地"] = 0,
-									["果丹皮灬-魚人"] = 0,
+									["Iu-魚人"] = 0,
 									["雷雨交加夜晚"] = 0,
 									["猫仙人-魚人"] = 0,
 									["初学者收到-逐風者"] = 0,
 									["天翼丶"] = 0,
 									["伊米海姆防御者"] = 5985,
-									["Iu-魚人"] = 0,
+									["给一刀-阿拉希盆地"] = 0,
 									["团灭发动机-魚人"] = 0,
 									["怒鬃"] = 801,
 								},
@@ -43778,11 +43031,11 @@ _detalhes_database = {
 									["丑恶的药剂师"] = 2584,
 									["档案员麦卡顿"] = 2660,
 									["腐尸噬体者"] = 5691,
-									["撕裂者萨兰纳克斯"] = 1296,
+									["冰霜大地狂怒者"] = 21296,
 									["死亡使者哈洛夫"] = 2571,
 									["团灭发动机-魚人"] = 0,
-									["冰霜大地狂怒者"] = 21296,
 									["恐尸"] = 4363,
+									["撕裂者萨兰纳克斯"] = 1296,
 									["监督者希尔拉"] = 909,
 									["莱斯班恩将军"] = 2361,
 									["冰鬃雪人"] = 4008,
@@ -44080,12 +43333,12 @@ _detalhes_database = {
 									["瓦古杀戮者"] = 18851,
 									["恐尸"] = 4270,
 									["死亡使者哈洛夫"] = 10287,
-									["瓦古唤亡者"] = 4444,
+									["冰霜大地狂怒者"] = 34969,
 									["冰鬃雪人"] = 8427,
 									["自由的树妖"] = 12588,
 									["腐尸猎鹰"] = 667,
 									["狂乱食尸者"] = 3173,
-									["冰霜大地狂怒者"] = 34969,
+									["瓦古唤亡者"] = 4444,
 									["遗忘深渊追随者"] = 3383,
 									["劣尸维尔"] = 2028,
 									["莱斯班恩将军"] = 15716,
@@ -44590,21 +43843,21 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 3573,
 								["targets"] = {
-									["死亡使者哈洛夫"] = 36983,
+									["雷铸技师"] = 29549,
 									["洞穴座狼"] = 54683,
 									["初生的瓦格里"] = 18840,
 									["梦魇虚体"] = 16228,
-									["复活的上尉"] = 76703,
+									["死亡使者哈洛夫"] = 36983,
 									["雷铸大法师"] = 5644,
 									["丑恶的药剂师"] = 79686,
 									["天灾苦工"] = 116312,
-									["雷铸技师"] = 29549,
+									["海德尼尔监督者"] = 8991,
 									["监督者希尔拉"] = 8125,
-									["瓦基里安候选者"] = 30972,
+									["复活的上尉"] = 76703,
 									["伊米海姆防御者"] = 20837,
 									["被感染的冰虫"] = 12247,
 									["雷铸勇士"] = 4286,
-									["海德尼尔监督者"] = 8991,
+									["瓦基里安候选者"] = 30972,
 								},
 								["n_total"] = 234962,
 								["a_amt"] = 0,
@@ -44797,9 +44050,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-00560A0B",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "星之风采-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -44980,7 +44233,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-00560A0B",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [37]
 				{
 					["flag_original"] = 1352,
@@ -45014,9 +44267,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-005A1905",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "更好的话-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -45047,12 +44300,13 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							}, -- [1]
-							[2687] = {
+							[23881] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["嘎子哦哦"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -45060,7 +44314,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 2687,
+								["id"] = 23881,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -45101,33 +44355,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[23881] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["嘎子哦哦"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 23881,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[18499] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -45154,6 +44381,32 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[2687] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 2687,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
 						["tipo"] = 2,
 					},
@@ -45165,7 +44418,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-005A1905",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [38]
 				{
 					["flag_original"] = 1320,
@@ -45196,9 +44449,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0056EB09",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "光道-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -45267,7 +44520,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0056EB09",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [39]
 				{
 					["flag_original"] = 1352,
@@ -45300,9 +44553,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-00596E45",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "芙蓉花啊我-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -45425,7 +44678,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-00596E45",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [40]
 				{
 					["flag_original"] = 8468,
@@ -45454,9 +44707,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <烈酒和敬余生-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -45498,7 +44751,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [41]
 				{
 					["flag_original"] = 66888,
@@ -45535,9 +44788,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-00569B59",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "黑冰丶森林-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -45888,7 +45141,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-00569B59",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [42]
 				{
 					["flag_original"] = 8466,
@@ -45918,9 +45171,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <Nhuy>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -45962,7 +45215,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [43]
 				{
 					["flag_original"] = 1300,
@@ -46001,9 +45254,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-005854B2",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷雨交加夜晚",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -46431,7 +45684,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-005854B2",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [44]
 				{
 					["flag_original"] = 1352,
@@ -47156,9 +46409,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00526539",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "復仇流浪者-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -47200,7 +46453,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00526539",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [47]
 				{
 					["flag_original"] = 1352,
@@ -47607,9 +46860,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <雷雨交加夜晚>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -47654,7 +46907,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [49]
 				{
 					["flag_original"] = 1352,
@@ -47735,9 +46988,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0056C531",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "风霜满面",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -47866,7 +47119,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0056C531",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [51]
 				{
 					["flag_original"] = 8520,
@@ -47898,9 +47151,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -47945,7 +47198,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [52]
 				{
 					["flag_original"] = 1352,
@@ -48234,6 +47487,7 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-005157E0",
 					["friendlyfire"] = {
 						["月影灬龙"] = {
 							["total"] = 0,
@@ -48242,7 +47496,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "月影灬龙",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -48673,7 +47926,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-005157E0",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [56]
 				{
 					["flag_original"] = 1300,
@@ -48708,9 +47961,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00509A29",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "雕塑爱妃",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -48925,7 +48178,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00509A29",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [57]
 				{
 					["flag_original"] = 1300,
@@ -48960,9 +48213,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-00528C45",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "哎哟好烦-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -49148,7 +48401,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-00528C45",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [58]
 				{
 					["flag_original"] = 1300,
@@ -49183,9 +48436,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0058C1E6",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "罗彬勋",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -49218,14 +48471,14 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							}, -- [1]
-							[49560] = {
+							[55258] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["雷雨交加夜晚"] = 0,
 									["把我辜负-阿拉希盆地"] = 0,
+									["给一刀-阿拉希盆地"] = 0,
 									["接入区黑黑-烏蘇雷"] = 0,
 								},
 								["n_total"] = 0,
@@ -49234,7 +48487,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 49560,
+								["id"] = 55258,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -49304,15 +48557,14 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[55258] = {
+							[49924] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["把我辜负-阿拉希盆地"] = 0,
-									["给一刀-阿拉希盆地"] = 0,
 									["接入区黑黑-烏蘇雷"] = 0,
+									["把我辜负-阿拉希盆地"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -49320,7 +48572,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 55258,
+								["id"] = 49924,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -49389,14 +48641,15 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[49924] = {
+							[49560] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["接入区黑黑-烏蘇雷"] = 0,
+									["雷雨交加夜晚"] = 0,
 									["把我辜负-阿拉希盆地"] = 0,
+									["接入区黑黑-烏蘇雷"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -49404,7 +48657,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 49924,
+								["id"] = 49560,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -49428,7 +48681,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0058C1E6",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [59]
 				{
 					["flag_original"] = 1352,
@@ -49460,9 +48713,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0053E7AE",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Hjdks",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -49557,7 +48810,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0053E7AE",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [60]
 				{
 					["flag_original"] = 1352,
@@ -49593,9 +48846,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-0058B383",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "给一刀-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -49966,7 +49219,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-0058B383",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [61]
 				{
 					["flag_original"] = 1352,
@@ -50002,9 +49255,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00551EB8",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "天翼丶",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -50391,7 +49644,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00551EB8",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [62]
 				{
 					["flag_original"] = 1352,
@@ -50426,9 +49679,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4488-00572AF0",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "接入区黑黑-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -50764,7 +50017,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4488-00572AF0",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [63]
 				{
 					["flag_original"] = 1300,
@@ -50798,9 +50051,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-005126FF",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "仙三公爵-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -50875,7 +50128,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-005126FF",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [64]
 				{
 					["flag_original"] = 1300,
@@ -50907,9 +50160,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0054CF25",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "嘎啦嘎啦丿丶",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -50952,7 +50205,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0054CF25",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [65]
 				{
 					["flag_original"] = 1300,
@@ -51552,9 +50805,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00552FE8",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "阿萨的空气",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -51650,7 +50903,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00552FE8",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [74]
 				{
 					["flag_original"] = 1300,
@@ -51728,9 +50981,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00595346",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "把我辜负-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -51745,7 +50998,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00595346",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [76]
 				{
 					["flag_original"] = 1352,
@@ -51853,9 +51106,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5742-004DE52C",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "江中小白龙-古雷曼格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -52129,7 +51382,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5742-004DE52C",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [78]
 				{
 					["flag_original"] = 1352,
@@ -52165,9 +51418,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-003F326F",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "啈富屬亍-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -52595,7 +51848,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-003F326F",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [79]
 				{
 					["flag_original"] = 1320,
@@ -52628,9 +51881,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-00596583",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "可惜悦刻没-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -53052,7 +52305,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-00596583",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [80]
 				{
 					["flag_original"] = 1320,
@@ -53085,9 +52338,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0059537D",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "小雨滴滴哒哒",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -53345,7 +52598,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0059537D",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [81]
 				{
 					["flag_original"] = 1300,
@@ -53471,9 +52724,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-0046EB71",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "农夫丨三拳-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -53623,7 +52876,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-0046EB71",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [84]
 				{
 					["flag_original"] = 4424,
@@ -53654,9 +52907,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-4491-566-12282-1961-0200108DDA",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "雪碧",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -53781,7 +53034,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-4491-566-12282-1961-0200108DDA",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [85]
 				{
 					["flag_original"] = 8520,
@@ -53811,9 +53064,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <啈富屬亍-瑪拉頓>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -53855,7 +53108,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [86]
 				{
 					["flag_original"] = 1320,
@@ -53889,9 +53142,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-003729FD",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "拾六-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -54277,7 +53530,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-003729FD",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [87]
 				{
 					["flag_original"] = 1300,
@@ -54309,9 +53562,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5742-004E3D99",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "泰蘭德之怒-古雷曼格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -54435,7 +53688,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5742-004E3D99",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [88]
 				{
 					["flag_original"] = 1320,
@@ -54471,9 +53724,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-0057FF8F",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "诶嘿嘿黑嘿嘿-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -54876,7 +54129,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-0057FF8F",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [89]
 				{
 					["flag_original"] = 1320,
@@ -54909,9 +54162,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-002F50EB",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "寒蟬丶-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -55121,7 +54374,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-002F50EB",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [90]
 				{
 					["flag_original"] = 1352,
@@ -55224,9 +54477,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "1964",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "树人 <无忌寻欢-古雷曼格>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -55268,7 +54521,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "1964",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [92]
 				{
 					["flag_original"] = 2632,
@@ -55301,9 +54554,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "[*] 暗言术：灭",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -55347,7 +54600,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "",
+					["monster"] = true,
 				}, -- [93]
 				{
 					["flag_original"] = 1352,
@@ -55381,9 +54634,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0056D7B8",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "乖乖隆滴隆-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -55750,7 +55003,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0056D7B8",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [94]
 				{
 					["flag_original"] = 1300,
@@ -55781,9 +55034,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5742-004ECFB9",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "取暖棒-古雷曼格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -55906,7 +55159,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5742-004ECFB9",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [95]
 				{
 					["flag_original"] = 1300,
@@ -55938,9 +55191,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-0052133C",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "何落雪-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -56090,7 +55343,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-0052133C",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [96]
 				{
 					["flag_original"] = 1300,
@@ -56166,9 +55419,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "510",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "水元素 <何落雪-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -56210,7 +55463,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "510",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [98]
 				{
 					["flag_original"] = 1320,
@@ -56243,9 +55496,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-004529CF",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "无敌小骑士-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -56342,7 +55595,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-004529CF",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [99]
 				{
 					["flag_original"] = 4424,
@@ -56372,9 +55625,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "19668",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "暗影魔 <拾六-瑪拉頓>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -56416,7 +55669,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "19668",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [100]
 				{
 					["flag_original"] = 1352,
@@ -56519,9 +55772,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "27893",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "符文武器 <江中小白龙-古雷曼格>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -56590,7 +55843,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "27893",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [102]
 				{
 					["flag_original"] = 1352,
@@ -56612,12 +55865,12 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Fishen"] = 0,
+						["有点潇洒"] = 0,
 						["東離劍"] = 0,
-						["萨斯给丶"] = 0,
+						["Fishen"] = 0,
 						["哇多久哦-魚人"] = 0,
 						["康樂股長"] = 0,
-						["有点潇洒"] = 0,
+						["萨斯给丶"] = 0,
 						["棒棒得"] = 0,
 						["但是呢"] = 0,
 					},
@@ -56630,9 +55883,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-003708B3",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "果丹皮灬-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -57156,7 +56409,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-003708B3",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [103]
 				{
 					["flag_original"] = 1352,
@@ -57192,9 +56445,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-004D7410",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "情趣袈裟-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -57507,7 +56760,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-004D7410",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [104]
 				{
 					["flag_original"] = 1300,
@@ -57541,9 +56794,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00391366",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "有点潇洒",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -57696,7 +56949,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00391366",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [105]
 				{
 					["flag_original"] = 1352,
@@ -57732,9 +56985,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4488-0040E5C7",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "算死草-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -58422,7 +57675,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4488-0040E5C7",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [106]
 				{
 					["flag_original"] = 1352,
@@ -58457,9 +57710,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5742-00319B0C",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "逐风醉剑-古雷曼格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -58574,33 +57827,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[30357] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["巴嘎巴嘎-阿拉希盆地"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 30357,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[2565] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -58654,6 +57880,33 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[30357] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["巴嘎巴嘎-阿拉希盆地"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 30357,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 							[47487] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -58692,7 +57945,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5742-00319B0C",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [107]
 				{
 					["flag_original"] = 1298,
@@ -58723,9 +57976,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0058E905",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "哇多久哦-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -58930,7 +58183,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0058E905",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [108]
 				{
 					["flag_original"] = 1352,
@@ -58966,9 +58219,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-002C3B03",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Loveshtias-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -59068,7 +58321,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-002C3B03",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [109]
 				{
 					["flag_original"] = 1300,
@@ -59105,9 +58358,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00594F0E",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "棒棒得",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -59436,7 +58689,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00594F0E",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [110]
 				{
 					["flag_original"] = 1300,
@@ -59469,9 +58722,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00589D7D",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Fishen",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -59544,7 +58797,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00589D7D",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [111]
 				{
 					["flag_original"] = 1300,
@@ -59580,9 +58833,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-0053F513",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "但是呢",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -59683,7 +58936,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0053F513",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [112]
 				{
 					["flag_original"] = 1300,
@@ -59714,9 +58967,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00504D17",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "巴嘎巴嘎-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -59812,7 +59065,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00504D17",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [113]
 				{
 					["flag_original"] = 1352,
@@ -60273,9 +59526,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-4490-566-31189-10806-040011A4A5",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "熊",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -60323,35 +59576,6 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 61685,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[63900] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Fishen"] = 0,
-									["東離劍"] = 0,
-									["但是呢"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 63900,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -60423,6 +59647,35 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[63900] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fishen"] = 0,
+									["東離劍"] = 0,
+									["但是呢"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 63900,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
 						["tipo"] = 2,
 					},
@@ -60434,7 +59687,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-4490-566-31189-10806-040011A4A5",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [116]
 				{
 					["flag_original"] = 4424,
@@ -60464,9 +59717,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-5580-566-26675-10806-010011A4A5",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "熊 <算死草-烏蘇雷>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -60588,7 +59841,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-5580-566-26675-10806-010011A4A5",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [117]
 				{
 					["flag_original"] = 8520,
@@ -60619,9 +59872,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "19833",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "剧毒蛇",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -60691,7 +59944,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "19833",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [118]
 				{
 					["flag_original"] = 8520,
@@ -60722,9 +59975,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "19921",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "毒蛇",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -60820,7 +60073,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "19921",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [119]
 				{
 					["flag_original"] = 1352,
@@ -60858,9 +60111,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-005466E0",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "孙小萌-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61179,7 +60432,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-005466E0",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [120]
 				{
 					["flag_original"] = 1352,
@@ -61212,9 +60465,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-00539F56",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "紫炎瞳-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61309,7 +60562,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-00539F56",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [121]
 				{
 					["flag_original"] = 4424,
@@ -61339,9 +60592,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "19668",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "暗影魔 <孙小萌-魚人>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61409,7 +60662,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "19668",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [122]
 				{
 					["flag_original"] = 1352,
@@ -61443,9 +60696,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0059ACA0",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "猫仙人-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61679,7 +60932,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0059ACA0",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [123]
 				{
 					["flag_original"] = 1352,
@@ -61710,9 +60963,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-0058EE39",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "临风酌酒-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61727,7 +60980,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-0058EE39",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [124]
 				{
 					["flag_original"] = 66888,
@@ -61758,9 +61011,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-004C974B",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "存在冷酷-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61775,7 +61028,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-004C974B",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [125]
 				{
 					["flag_original"] = 1352,
@@ -61907,9 +61160,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-0056700D",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Iu-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -61924,7 +61177,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-0056700D",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [127]
 				{
 					["flag_original"] = 2600,
@@ -61954,9 +61207,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "510",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "水元素",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -62025,7 +61278,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "510",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [128]
 				{
 					["flag_original"] = 4424,
@@ -62054,9 +61307,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-5580-566-25607-17252-010011FC7A",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "吉尔图恩",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -62071,7 +61324,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-5580-566-25607-17252-010011FC7A",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [129]
 				{
 					["flag_original"] = 8468,
@@ -62101,9 +61354,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <棒棒得>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -62145,7 +61398,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [130]
 				{
 					["flag_original"] = 1300,
@@ -62182,6 +61435,7 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-005981B7",
 					["friendlyfire"] = {
 						["格拉兹纳尔 <矮脚喵丶-阿拉希盆地>"] = {
 							["total"] = 0,
@@ -62190,7 +61444,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "矮脚喵丶-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -62323,7 +61576,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-005981B7",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [131]
 				{
 					["flag_original"] = 1352,
@@ -62361,9 +61614,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-0058BC32",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "初学者收到-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -62907,7 +62160,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-0058BC32",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [132]
 				{
 					["flag_original"] = 1300,
@@ -62944,9 +62197,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00518483",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "Kwjr-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -63138,7 +62391,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00518483",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [133]
 				{
 					["flag_original"] = 1352,
@@ -63176,9 +62429,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-005290E4",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "是来看我的吗-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -63644,7 +62897,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-005290E4",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [134]
 				{
 					["flag_original"] = 1300,
@@ -63678,9 +62931,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-0052EEAA",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "天堂之羽-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -63892,7 +63145,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-0052EEAA",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [135]
 				{
 					["flag_original"] = 66836,
@@ -64349,9 +63602,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-00544AF2",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "伽珞蒳-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -64527,7 +63780,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-00544AF2",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [138]
 				{
 					["flag_original"] = 1300,
@@ -64604,9 +63857,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00526C66",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "栀璃鸢年灬-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -64621,7 +63874,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00526C66",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [140]
 				{
 					["flag_original"] = 1352,
@@ -64657,9 +63910,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00594B9A",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "黑暗神屁-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -65055,7 +64308,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00594B9A",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [141]
 				{
 					["flag_original"] = 1300,
@@ -65091,39 +64344,12 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-004B78F5",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "小濮濮-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
-							[27079] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["伽珞蒳-逐風者"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 27079,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[38697] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -65183,6 +64409,33 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[27079] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["伽珞蒳-逐風者"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 27079,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
 						["tipo"] = 2,
 					},
@@ -65194,7 +64447,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-004B78F5",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [142]
 				{
 					["flag_original"] = 1300,
@@ -65227,9 +64480,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-00483024",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "莱泽鹊浠-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -65300,7 +64553,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-00483024",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [143]
 				{
 					["flag_original"] = 1352,
@@ -65335,9 +64588,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5743-00596708",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "低调的孩子啊-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -65652,7 +64905,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-00596708",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [144]
 				{
 					["flag_original"] = 1352,
@@ -65688,32 +64941,6 @@ _detalhes_database = {
 					["nome"] = "大蓝鲸吴彦祖-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
-							[49245] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 49245,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["c_total"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[56040] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -65754,6 +64981,32 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 2687,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["c_total"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[49245] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 49245,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
@@ -65908,9 +65161,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "37994",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "水元素 <小濮濮-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -65955,7 +65208,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "37994",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [147]
 				{
 					["flag_original"] = 4372,
@@ -65987,9 +65240,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-5580-571-108-417-0100119587",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "沙法姆 <Kwjr-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66062,7 +65315,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-5580-571-108-417-0100119587",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [148]
 				{
 					["flag_original"] = 4424,
@@ -66091,9 +65344,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-4490-566-31371-3099-0100118836",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "野猪 <是来看我的吗-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66134,7 +65387,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-4490-566-31371-3099-0100118836",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [149]
 				{
 					["flag_original"] = 1352,
@@ -66365,9 +65618,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <低调的孩子啊-逐風者>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66409,7 +65662,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [152]
 				{
 					["flag_original"] = 4424,
@@ -66438,9 +65691,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "Pet-0-5580-1-116-3099-0900118836",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "野猪",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66481,7 +65734,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "Pet-0-5580-1-116-3099-0900118836",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [153]
 				{
 					["flag_original"] = 1352,
@@ -66514,9 +65767,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-004D1F67",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "香凝-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66612,7 +65865,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-004D1F67",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [154]
 				{
 					["flag_original"] = 1352,
@@ -66645,9 +65898,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5741-00587B83",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "无人六-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66689,7 +65942,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-00587B83",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [155]
 				{
 					["flag_original"] = 1300,
@@ -66720,9 +65973,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4488-00594AF2",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "更让回家的-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -66953,7 +66206,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4488-00594AF2",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [156]
 				{
 					["flag_original"] = 1352,
@@ -66987,9 +66240,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4487-00595506",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "花事",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -67167,7 +66420,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00595506",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [157]
 				{
 					["flag_original"] = 1352,
@@ -67200,9 +66453,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-0058E095",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "丶萨瓦迪卡-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -67270,7 +66523,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-0058E095",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [158]
 				{
 					["flag_original"] = 1300,
@@ -67301,9 +66554,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "5740-00528E51",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "东东昂昂的-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -67372,7 +66625,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5740-00528E51",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [159]
 				{
 					["flag_original"] = 1300,
@@ -67633,9 +66886,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "28017",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "血虫 <无人六-魚人>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -67677,7 +66930,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "28017",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [165]
 				{
 					["flag_original"] = 1320,
@@ -67709,9 +66962,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-004EDE71",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "飞飞小学生-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -67996,7 +67249,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-004EDE71",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [166]
 				{
 					["flag_original"] = 1320,
@@ -68028,9 +67281,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-003D9E69",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "超導體-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68180,7 +67433,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-003D9E69",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [167]
 				{
 					["flag_original"] = 1320,
@@ -68212,9 +67465,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-0056EF6A",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "夏日小萨-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68256,7 +67509,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-0056EF6A",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [168]
 				{
 					["flag_original"] = 2600,
@@ -68286,9 +67539,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "15438",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "强力火元素",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68357,7 +67610,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "15438",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [169]
 				{
 					["flag_original"] = 1320,
@@ -68389,9 +67642,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
+					["aID"] = "4485-004CD898",
 					["friendlyfire"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 					["nome"] = "火舞旋风-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68460,7 +67713,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-004CD898",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [170]
 				{
 					["flag_original"] = 68168,
@@ -68491,8 +67744,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684851787,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29664",
 					["nome"] = "怒鬃",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68563,8 +67817,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684851784,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29664",
 				}, -- [171]
 				{
 					["flag_original"] = 68168,
@@ -68595,8 +67848,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684851856,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29697",
 					["nome"] = "达库鲁先知",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68693,8 +67947,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684851853,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29697",
 				}, -- [172]
 				{
 					["flag_original"] = 68168,
@@ -68730,8 +67983,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684851871,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29654",
 					["nome"] = "达库鲁饮血者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68806,8 +68060,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684851868,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29654",
 				}, -- [173]
 				{
 					["flag_original"] = 68168,
@@ -68843,8 +68096,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684851928,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29656",
 					["nome"] = "达库鲁狂暴者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -68919,8 +68173,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684851925,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29656",
 				}, -- [174]
 				{
 					["flag_original"] = 68168,
@@ -68951,8 +68204,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684852203,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29449",
 					["nome"] = "瓦古唤亡者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69023,8 +68277,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684852200,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29449",
 				}, -- [175]
 				{
 					["flag_original"] = 68168,
@@ -69057,8 +68310,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684852214,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29450",
 					["nome"] = "瓦古符文领主",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69155,8 +68409,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684852211,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29450",
 				}, -- [176]
 				{
 					["flag_original"] = 2632,
@@ -69187,8 +68440,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684852223,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "",
 					["nome"] = "[*] 毁灭符文",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69232,8 +68486,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684852220,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "",
 				}, -- [177]
 				{
 					["flag_original"] = 68168,
@@ -69266,8 +68519,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684852296,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29451",
 					["nome"] = "瓦古杀戮者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69344,8 +68598,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684852293,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29451",
 				}, -- [178]
 				{
 					["flag_original"] = 2632,
@@ -69380,8 +68633,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684852340,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29646",
 					["nome"] = "夺魂女妖",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69456,8 +68710,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684852337,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29646",
 				}, -- [179]
 				{
 					["flag_original"] = 68168,
@@ -69490,8 +68743,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684853015,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29436",
 					["nome"] = "冰霜大地狂怒者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69565,8 +68819,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684853012,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29436",
 				}, -- [180]
 				{
 					["flag_original"] = 68168,
@@ -69598,8 +68851,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684853336,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "28519",
 					["nome"] = "干瘪的巨魔",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69672,8 +68926,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684853333,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "28519",
 				}, -- [181]
 				{
 					["flag_original"] = 68168,
@@ -69704,9 +68957,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684853817,
+					["aID"] = "28564",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "腐烂憎恶",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69778,7 +69031,7 @@ _detalhes_database = {
 					["damage_taken"] = 56015.02776399999,
 					["start_time"] = 1684853814,
 					["delay"] = 0,
-					["aID"] = "28564",
+					["monster"] = true,
 				}, -- [182]
 				{
 					["flag_original"] = 2632,
@@ -69808,9 +69061,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854253,
+					["aID"] = "28599",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "天灾蟑螂",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69825,7 +69078,7 @@ _detalhes_database = {
 					["damage_taken"] = 25.009301,
 					["start_time"] = 1684854250,
 					["delay"] = 0,
-					["aID"] = "28599",
+					["monster"] = true,
 				}, -- [183]
 				{
 					["flag_original"] = 68168,
@@ -69855,9 +69108,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854451,
+					["aID"] = "30268",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "被网住的北伐军士兵",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -69872,7 +69125,7 @@ _detalhes_database = {
 					["damage_taken"] = 9104.091255,
 					["start_time"] = 1684854448,
 					["delay"] = 0,
-					["aID"] = "30268",
+					["monster"] = true,
 				}, -- [184]
 				{
 					["flag_original"] = 2632,
@@ -69909,9 +69162,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854451,
+					["aID"] = "",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "遗忘深渊伏击者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70014,7 +69267,7 @@ _detalhes_database = {
 					["damage_taken"] = 123729.056299,
 					["start_time"] = 1684854448,
 					["delay"] = 0,
-					["aID"] = "",
+					["monster"] = true,
 				}, -- [185]
 				{
 					["flag_original"] = 2632,
@@ -70050,9 +69303,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854472,
+					["aID"] = "30206",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "腐尸噬体者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70129,7 +69382,7 @@ _detalhes_database = {
 					["damage_taken"] = 117254.091415,
 					["start_time"] = 1684854469,
 					["delay"] = 0,
-					["aID"] = "30206",
+					["monster"] = true,
 				}, -- [186]
 				{
 					["flag_original"] = 2632,
@@ -70166,9 +69419,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854472,
+					["aID"] = "30205",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "遗忘深渊追随者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70275,7 +69528,7 @@ _detalhes_database = {
 					["damage_taken"] = 71442.068992,
 					["start_time"] = 1684854469,
 					["delay"] = 0,
-					["aID"] = "30205",
+					["monster"] = true,
 				}, -- [187]
 				{
 					["flag_original"] = 2632,
@@ -70312,9 +69565,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854513,
+					["aID"] = "30333",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "遗忘深渊杀戮者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70420,7 +69673,7 @@ _detalhes_database = {
 					["damage_taken"] = 2817206.307556999,
 					["start_time"] = 1684854510,
 					["delay"] = 0,
-					["aID"] = "30333",
+					["monster"] = true,
 				}, -- [188]
 				{
 					["flag_original"] = 4369,
@@ -70560,9 +69813,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684854925,
+					["aID"] = "30575",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "霜巢毁灭者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70692,7 +69945,7 @@ _detalhes_database = {
 					["damage_taken"] = 1169706.254643,
 					["start_time"] = 1684854922,
 					["delay"] = 0,
-					["aID"] = "30575",
+					["monster"] = true,
 				}, -- [190]
 				{
 					["flag_original"] = 2632,
@@ -70722,9 +69975,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684855193,
+					["aID"] = "29404",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "野蛮岭拾荒者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70767,7 +70020,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.008307,
 					["start_time"] = 1684855190,
 					["delay"] = 0,
-					["aID"] = "29404",
+					["monster"] = true,
 				}, -- [191]
 				{
 					["flag_original"] = 68168,
@@ -70798,9 +70051,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684855301,
+					["aID"] = "30003",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "瘤皮",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70872,7 +70125,7 @@ _detalhes_database = {
 					["damage_taken"] = 12136.00888,
 					["start_time"] = 1684855298,
 					["delay"] = 0,
-					["aID"] = "30003",
+					["monster"] = true,
 				}, -- [192]
 				{
 					["flag_original"] = 2632,
@@ -70902,9 +70155,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684855450,
+					["aID"] = "30868",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "自由的腐蚀者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -70973,7 +70226,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.007147,
 					["start_time"] = 1684855447,
 					["delay"] = 0,
-					["aID"] = "30868",
+					["monster"] = true,
 				}, -- [193]
 				{
 					["flag_original"] = 2632,
@@ -71003,9 +70256,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684855464,
+					["aID"] = "30864",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "杉达拉猎人之魂",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71048,7 +70301,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.016853,
 					["start_time"] = 1684855461,
 					["delay"] = 0,
-					["aID"] = "30864",
+					["monster"] = true,
 				}, -- [194]
 				{
 					["flag_original"] = 68168,
@@ -71079,9 +70332,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684855518,
+					["aID"] = "30860",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "自由的树妖",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71153,7 +70406,7 @@ _detalhes_database = {
 					["damage_taken"] = 85814.04333199999,
 					["start_time"] = 1684855515,
 					["delay"] = 0,
-					["aID"] = "30860",
+					["monster"] = true,
 				}, -- [195]
 				{
 					["flag_original"] = 68168,
@@ -71184,9 +70437,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684855562,
+					["aID"] = "30862",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "自由的树人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71287,7 +70540,7 @@ _detalhes_database = {
 					["damage_taken"] = 145028.073994,
 					["start_time"] = 1684855559,
 					["delay"] = 0,
-					["aID"] = "30862",
+					["monster"] = true,
 				}, -- [196]
 				{
 					["flag_original"] = 8465,
@@ -71393,9 +70646,8 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684856101,
+					["monster"] = true,
 					["aID"] = "29619",
-					["friendlyfire"] = {
-					},
 					["nome"] = "加姆入侵者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71410,7 +70662,8 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684856098,
 					["delay"] = 0,
-					["monster"] = true,
+					["friendlyfire"] = {
+					},
 				}, -- [198]
 				{
 					["flag_original"] = 2632,
@@ -71442,9 +70695,8 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684856101,
+					["monster"] = true,
 					["aID"] = "29618",
-					["friendlyfire"] = {
-					},
 					["nome"] = "雪盲追随者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71459,7 +70711,8 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684856098,
 					["delay"] = 0,
-					["monster"] = true,
+					["friendlyfire"] = {
+					},
 				}, -- [199]
 				{
 					["flag_original"] = 68168,
@@ -71494,9 +70747,8 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684856533,
+					["monster"] = true,
 					["aID"] = "29411",
-					["friendlyfire"] = {
-					},
 					["nome"] = "水晶蛛网编织者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71571,7 +70823,8 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684856530,
 					["delay"] = 0,
-					["monster"] = true,
+					["friendlyfire"] = {
+					},
 				}, -- [200]
 				{
 					["flag_original"] = 2632,
@@ -71605,9 +70858,8 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684856619,
+					["monster"] = true,
 					["aID"] = "29412",
-					["friendlyfire"] = {
-					},
 					["nome"] = "水晶蛛网喷毒者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71708,7 +70960,8 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684856616,
 					["delay"] = 0,
-					["monster"] = true,
+					["friendlyfire"] = {
+					},
 				}, -- [201]
 				{
 					["flag_original"] = 68168,
@@ -71739,9 +70992,8 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684856666,
+					["monster"] = true,
 					["aID"] = "29461",
-					["friendlyfire"] = {
-					},
 					["nome"] = "冰尖爬行者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71812,7 +71064,8 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684856663,
 					["delay"] = 0,
-					["monster"] = true,
+					["friendlyfire"] = {
+					},
 				}, -- [202]
 				{
 					["flag_original"] = 68168,
@@ -71848,9 +71101,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684856711,
+					["monster"] = true,
 					["friendlyfire"] = {
 					},
-					["aID"] = "29413",
 					["nome"] = "雪盲挖掘者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -71957,7 +71210,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684856708,
 					["delay"] = 0,
-					["monster"] = true,
+					["aID"] = "29413",
 				}, -- [203]
 				{
 					["flag_original"] = 68168,
@@ -71988,8 +71241,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684857290,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29407",
 					["nome"] = "雪盲信徒",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72060,8 +71314,7 @@ _detalhes_database = {
 					["damage_taken"] = 105728.050797,
 					["start_time"] = 1684857287,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29407",
 				}, -- [204]
 				{
 					["flag_original"] = 68168,
@@ -72092,8 +71345,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684857380,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29553",
 					["nome"] = "加姆观察者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72164,8 +71418,7 @@ _detalhes_database = {
 					["damage_taken"] = 73920.045092,
 					["start_time"] = 1684857377,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29553",
 				}, -- [205]
 				{
 					["flag_original"] = 68168,
@@ -72196,8 +71449,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684857486,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29626",
 					["nome"] = "塔尔玛·霜胆",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72269,8 +71523,7 @@ _detalhes_database = {
 					["damage_taken"] = 11883.011496,
 					["start_time"] = 1684857483,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29626",
 				}, -- [206]
 				{
 					["flag_original"] = 68168,
@@ -72301,8 +71554,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684857710,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29323",
 					["nome"] = "希弗列尔达风暴之女",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72401,8 +71655,7 @@ _detalhes_database = {
 					["damage_taken"] = 60518.029625,
 					["start_time"] = 1684857707,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29323",
 				}, -- [207]
 				{
 					["flag_original"] = 68168,
@@ -72434,9 +71687,8 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684857740,
+					["aID"] = "29331",
 					["monster"] = true,
-					["friendlyfire"] = {
-					},
 					["nome"] = "希弗列尔达符文师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72507,7 +71759,8 @@ _detalhes_database = {
 					["damage_taken"] = 10276.010334,
 					["start_time"] = 1684857737,
 					["delay"] = 0,
-					["aID"] = "29331",
+					["friendlyfire"] = {
+					},
 				}, -- [208]
 				{
 					["flag_original"] = 68168,
@@ -72538,8 +71791,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684858313,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29696",
 					["nome"] = "雷铸追击者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72583,8 +71837,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.018705,
 					["start_time"] = 1684858310,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29696",
 				}, -- [209]
 				{
 					["flag_original"] = 4369,
@@ -72690,8 +71943,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684858394,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29695",
 					["nome"] = "追踪者图林",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72734,8 +71988,7 @@ _detalhes_database = {
 					["damage_taken"] = 13166.007536,
 					["start_time"] = 1684858391,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29695",
 				}, -- [211]
 				{
 					["flag_original"] = 68168,
@@ -72770,8 +72023,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684858461,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "30164",
 					["nome"] = "洞穴座狼",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72819,8 +72073,7 @@ _detalhes_database = {
 					["damage_taken"] = 139599.052915,
 					["start_time"] = 1684858458,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "30164",
 				}, -- [212]
 				{
 					["flag_original"] = 2632,
@@ -72861,8 +72114,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684858461,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "30148",
 					["nome"] = "被感染的冰虫",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -72969,8 +72223,7 @@ _detalhes_database = {
 					["damage_taken"] = 126843.058166,
 					["start_time"] = 1684858458,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "30148",
 				}, -- [213]
 				{
 					["flag_original"] = 68168,
@@ -73001,8 +72254,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684858845,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "30167",
 					["nome"] = "基莫拉克",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73102,8 +72356,7 @@ _detalhes_database = {
 					["damage_taken"] = 13011.004838,
 					["start_time"] = 1684858842,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "30167",
 				}, -- [214]
 				{
 					["flag_original"] = 2632,
@@ -73136,8 +72389,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684859005,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29426",
 					["nome"] = "海德尼尔监督者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73211,8 +72465,7 @@ _detalhes_database = {
 					["damage_taken"] = 14127.017453,
 					["start_time"] = 1684859002,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29426",
 				}, -- [215]
 				{
 					["flag_original"] = 68168,
@@ -73243,8 +72496,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684859005,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29518",
 					["nome"] = "监督者希尔拉",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73368,8 +72622,7 @@ _detalhes_database = {
 					["damage_taken"] = 12617.003795,
 					["start_time"] = 1684859002,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29518",
 				}, -- [216]
 				{
 					["flag_original"] = 68136,
@@ -73399,9 +72652,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684859116,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "30146",
 					["nome"] = "筋疲力尽的维库人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73474,7 +72727,7 @@ _detalhes_database = {
 					["damage_taken"] = 12609.009839,
 					["start_time"] = 1684859113,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "30146",
 				}, -- [217]
 				{
 					["flag_original"] = 68136,
@@ -73504,9 +72757,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684859161,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "30147",
 					["nome"] = "加哈尔",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73578,7 +72831,7 @@ _detalhes_database = {
 					["damage_taken"] = 12384.007758,
 					["start_time"] = 1684859158,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "30147",
 				}, -- [218]
 				{
 					["flag_original"] = 68168,
@@ -73609,8 +72862,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684859254,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "30154",
 					["nome"] = "安格妮塔·泰斯多达尔",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73654,8 +72908,7 @@ _detalhes_database = {
 					["damage_taken"] = 12989.016905,
 					["start_time"] = 1684859251,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "30154",
 				}, -- [219]
 				{
 					["flag_original"] = 68168,
@@ -73693,8 +72946,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684859286,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "30012",
 					["nome"] = "获胜的挑战者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73800,8 +73054,7 @@ _detalhes_database = {
 					["damage_taken"] = 141145.05048,
 					["start_time"] = 1684859283,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "30012",
 				}, -- [220]
 				{
 					["flag_original"] = 68168,
@@ -73832,8 +73085,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684860094,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29875",
 					["nome"] = "冰鬃雪人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73905,8 +73159,7 @@ _detalhes_database = {
 					["damage_taken"] = 51646.029208,
 					["start_time"] = 1684860091,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29875",
 				}, -- [221]
 				{
 					["flag_original"] = 68168,
@@ -73943,8 +73196,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684860593,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29605",
 					["nome"] = "饥饿的冰虫",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -73992,8 +73246,7 @@ _detalhes_database = {
 					["damage_taken"] = 127528.051344,
 					["start_time"] = 1684860590,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29605",
 				}, -- [222]
 				{
 					["flag_original"] = 66834,
@@ -74200,9 +73453,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861047,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "29352",
 					["nome"] = "基加拉格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74248,7 +73501,7 @@ _detalhes_database = {
 					["damage_taken"] = 37369.01199599999,
 					["start_time"] = 1684861044,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "29352",
 				}, -- [225]
 				{
 					["flag_original"] = 2584,
@@ -74283,6 +73536,7 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861047,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 						["雌性战熊"] = {
 							["spells"] = {
@@ -74305,7 +73559,6 @@ _detalhes_database = {
 							["total"] = 978,
 						},
 					},
-					["aID"] = "",
 					["nome"] = "海德比武会战熊",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74437,7 +73690,7 @@ _detalhes_database = {
 					["damage_taken"] = 162134.028861,
 					["start_time"] = 1684861044,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "",
 				}, -- [226]
 				{
 					["flag_original"] = 68168,
@@ -74470,8 +73723,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861395,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29694",
 					["nome"] = "海德比武会龙骑士",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74545,8 +73799,7 @@ _detalhes_database = {
 					["damage_taken"] = 97774.04679800001,
 					["start_time"] = 1684861392,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29694",
 				}, -- [227]
 				{
 					["flag_original"] = 68168,
@@ -74577,8 +73830,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861622,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "30046",
 					["nome"] = "风暴语者伊尔达",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74676,8 +73930,7 @@ _detalhes_database = {
 					["damage_taken"] = 13221.010227,
 					["start_time"] = 1684861619,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "30046",
 				}, -- [228]
 				{
 					["flag_original"] = 2632,
@@ -74708,8 +73961,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861670,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29569",
 					["nome"] = "瓦基里安候选者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74780,8 +74034,7 @@ _detalhes_database = {
 					["damage_taken"] = 351498.144999,
 					["start_time"] = 1684861667,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29569",
 				}, -- [229]
 				{
 					["flag_original"] = 2632,
@@ -74812,8 +74065,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861670,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "29570",
 					["nome"] = "初生的瓦格里",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74913,8 +74167,7 @@ _detalhes_database = {
 					["damage_taken"] = 161615.057174,
 					["start_time"] = 1684861667,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "29570",
 				}, -- [230]
 				{
 					["flag_original"] = 2632,
@@ -74944,8 +74197,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684861670,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
-					["aID"] = "",
 					["nome"] = "[*] 瓦格雷之触",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -74989,8 +74243,7 @@ _detalhes_database = {
 					["damage_taken"] = 0.031863,
 					["start_time"] = 1684861667,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["aID"] = "",
 				}, -- [231]
 				{
 					["flag_original"] = 2600,
@@ -75020,9 +74273,9 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684862490,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["friendlyfire"] = {
 					},
-					["aID"] = "",
 					["nome"] = "蟑螂",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75065,7 +74318,7 @@ _detalhes_database = {
 					["damage_taken"] = 50.013389,
 					["start_time"] = 1684862487,
 					["delay"] = 0,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "",
 				}, -- [232]
 				{
 					["flag_original"] = 68168,
@@ -75096,9 +74349,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684934868,
+					["aID"] = "29624",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "风暴骑士",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75253,7 +74506,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684934865,
 					["delay"] = 0,
-					["aID"] = "29624",
+					["monster"] = true,
 				}, -- [233]
 				{
 					["flag_original"] = 68168,
@@ -75286,9 +74539,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684934967,
+					["aID"] = "29380",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸作战魔像",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75365,7 +74618,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684934964,
 					["delay"] = 0,
-					["aID"] = "29380",
+					["monster"] = true,
 				}, -- [234]
 				{
 					["flag_original"] = 68168,
@@ -75406,9 +74659,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684935199,
+					["aID"] = "29724",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "图书馆守卫者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75457,7 +74710,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684935196,
 					["delay"] = 0,
-					["aID"] = "29724",
+					["monster"] = true,
 				}, -- [235]
 				{
 					["flag_original"] = 68168,
@@ -75488,9 +74741,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684935647,
+					["aID"] = "29775",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "档案员麦卡顿",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75534,7 +74787,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684935644,
 					["delay"] = 0,
-					["aID"] = "29775",
+					["monster"] = true,
 				}, -- [236]
 				{
 					["flag_original"] = 68168,
@@ -75575,9 +74828,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684935877,
+					["aID"] = "29377",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸袭击者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75597,7 +74850,7 @@ _detalhes_database = {
 								["b_dmg"] = 2053,
 								["DODGE"] = 66,
 								["n_min"] = 0,
-								["g_dmg"] = 0,
+								["a_amt"] = 0,
 								["counter"] = 969,
 								["r_amt"] = 0,
 								["total"] = 81410,
@@ -75614,8 +74867,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["c_total"] = 9385,
 								["n_amt"] = 588,
+								["g_dmg"] = 0,
 								["MISS"] = 222,
-								["a_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
@@ -75628,7 +74881,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684935874,
 					["delay"] = 0,
-					["aID"] = "29377",
+					["monster"] = true,
 				}, -- [237]
 				{
 					["flag_original"] = 2632,
@@ -75668,9 +74921,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684936084,
+					["aID"] = "29382",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸掠夺者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75751,7 +75004,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684936081,
 					["delay"] = 0,
-					["aID"] = "29382",
+					["monster"] = true,
 				}, -- [238]
 				{
 					["flag_original"] = 68168,
@@ -75782,9 +75035,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684936667,
+					["aID"] = "29369",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸工头",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -75965,7 +75218,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684936664,
 					["delay"] = 0,
-					["aID"] = "29369",
+					["monster"] = true,
 				}, -- [239]
 				{
 					["flag_original"] = 68168,
@@ -75996,9 +75249,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684936890,
+					["aID"] = "29374",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸大法师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76095,7 +75348,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684936887,
 					["delay"] = 0,
-					["aID"] = "29374",
+					["monster"] = true,
 				}, -- [240]
 				{
 					["flag_original"] = 2632,
@@ -76126,9 +75379,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684936890,
+					["aID"] = "29370",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸勇士",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76227,7 +75480,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684936887,
 					["delay"] = 0,
-					["aID"] = "29370",
+					["monster"] = true,
 				}, -- [241]
 				{
 					["flag_original"] = 68168,
@@ -76262,9 +75515,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684937873,
+					["aID"] = "29368",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "风暴之子瓦杜兰",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76393,7 +75646,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684937870,
 					["delay"] = 0,
-					["aID"] = "29368",
+					["monster"] = true,
 				}, -- [242]
 				{
 					["flag_original"] = 68168,
@@ -76428,9 +75681,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684937979,
+					["aID"] = "29376",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸技师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76503,7 +75756,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684937976,
 					["delay"] = 0,
-					["aID"] = "29376",
+					["monster"] = true,
 				}, -- [243]
 				{
 					["flag_original"] = 2632,
@@ -76533,9 +75786,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684937979,
+					["aID"] = "",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "[*] 过载",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76578,7 +75831,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684937976,
 					["delay"] = 0,
-					["aID"] = "",
+					["monster"] = true,
 				}, -- [244]
 				{
 					["flag_original"] = 68168,
@@ -76609,9 +75862,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684938462,
+					["aID"] = "30300",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "钢铁巨像",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76683,7 +75936,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684938459,
 					["delay"] = 0,
-					["aID"] = "30300",
+					["monster"] = true,
 				}, -- [245]
 				{
 					["flag_original"] = 4369,
@@ -76821,9 +76074,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684938718,
+					["aID"] = "29504",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "火热的亡魂",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -76923,7 +76176,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684938715,
 					["delay"] = 0,
-					["aID"] = "29504",
+					["monster"] = true,
 				}, -- [247]
 				{
 					["flag_original"] = 68168,
@@ -76959,9 +76212,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684938770,
+					["aID"] = "29375",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "雷铸铁巨人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77040,7 +76293,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684938767,
 					["delay"] = 0,
-					["aID"] = "29375",
+					["monster"] = true,
 				}, -- [248]
 				{
 					["flag_original"] = 68168,
@@ -77073,9 +76326,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684939215,
+					["aID"] = "29503",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "弗约恩",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77151,7 +76404,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684939212,
 					["delay"] = 0,
-					["aID"] = "29503",
+					["monster"] = true,
 				}, -- [249]
 				{
 					["flag_original"] = 68168,
@@ -77182,9 +76435,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684939345,
+					["aID"] = "31798",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "亚申",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77228,7 +76481,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684939342,
 					["delay"] = 0,
-					["aID"] = "31798",
+					["monster"] = true,
 				}, -- [250]
 				{
 					["flag_original"] = 68168,
@@ -77260,9 +76513,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684939743,
+					["aID"] = "30543",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "遗忘深渊高阶祭司",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77360,7 +76613,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684939740,
 					["delay"] = 0,
-					["aID"] = "30543",
+					["monster"] = true,
 				}, -- [251]
 				{
 					["flag_original"] = 68168,
@@ -77393,9 +76646,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684939791,
+					["aID"] = "30202",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "复活的北伐军战士",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77522,7 +76775,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684939788,
 					["delay"] = 0,
-					["aID"] = "30202",
+					["monster"] = true,
 				}, -- [252]
 				{
 					["flag_original"] = 68168,
@@ -77553,9 +76806,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684939936,
+					["aID"] = "30541",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "遗忘深渊虫王",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77627,7 +76880,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684939933,
 					["delay"] = 0,
-					["aID"] = "30541",
+					["monster"] = true,
 				}, -- [253]
 				{
 					["flag_original"] = 68168,
@@ -77664,9 +76917,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940121,
+					["aID"] = "30829",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "撕裂者萨兰纳克斯",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -77828,7 +77081,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940118,
 					["delay"] = 0,
-					["aID"] = "30829",
+					["monster"] = true,
 				}, -- [254]
 				{
 					["flag_original"] = 1298,
@@ -78256,8 +77509,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940210,
+					["friendlyfire"] = {
+					},
 					["aID"] = "30831",
-					["monster"] = true,
 					["nome"] = "高阶祭司亚萨尔蒙",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -78411,8 +77665,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940207,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["monster"] = true,
 				}, -- [256]
 				{
 					["flag_original"] = 68168,
@@ -78447,9 +77700,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940253,
+					["aID"] = "30830",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "虫王塔洛诺克斯",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -78551,7 +77804,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940250,
 					["delay"] = 0,
-					["aID"] = "30830",
+					["monster"] = true,
 				}, -- [257]
 				{
 					["flag_original"] = 68168,
@@ -78588,9 +77841,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940347,
+					["aID"] = "30984",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "天灾苦工",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -78696,7 +77949,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940344,
 					["delay"] = 0,
-					["aID"] = "30984",
+					["monster"] = true,
 				}, -- [258]
 				{
 					["flag_original"] = 68168,
@@ -78734,9 +77987,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940384,
+					["aID"] = "30986",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "复活的上尉",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -78842,7 +78095,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940381,
 					["delay"] = 0,
-					["aID"] = "30986",
+					["monster"] = true,
 				}, -- [259]
 				{
 					["flag_original"] = 2632,
@@ -78880,9 +78133,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940468,
+					["aID"] = "30987",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "丑恶的药剂师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -78963,7 +78216,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940465,
 					["delay"] = 0,
-					["aID"] = "30987",
+					["monster"] = true,
 				}, -- [260]
 				{
 					["flag_original"] = 68168,
@@ -79001,8 +78254,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940595,
+					["friendlyfire"] = {
+					},
 					["aID"] = "30989",
-					["monster"] = true,
 					["nome"] = "死亡使者哈洛夫",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79216,8 +78470,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940592,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["monster"] = true,
 				}, -- [261]
 				{
 					["flag_original"] = 68168,
@@ -79248,9 +78501,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684940981,
+					["aID"] = "29747",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "魔眼",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79292,7 +78545,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684940978,
 					["delay"] = 0,
-					["aID"] = "29747",
+					["monster"] = true,
 				}, -- [262]
 				{
 					["flag_original"] = 68168,
@@ -79323,9 +78576,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941014,
+					["aID"] = "29719",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "恐尸",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79396,7 +78649,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941011,
 					["delay"] = 0,
-					["aID"] = "29719",
+					["monster"] = true,
 				}, -- [263]
 				{
 					["flag_original"] = 68168,
@@ -79427,9 +78680,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941031,
+					["aID"] = "29717",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "暗影教徒",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79500,7 +78753,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941028,
 					["delay"] = 0,
-					["aID"] = "29717",
+					["monster"] = true,
 				}, -- [264]
 				{
 					["flag_original"] = 68168,
@@ -79531,9 +78784,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941044,
+					["aID"] = "29738",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "死亡骑士大师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79607,7 +78860,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941041,
 					["delay"] = 0,
-					["aID"] = "29738",
+					["monster"] = true,
 				}, -- [265]
 				{
 					["flag_original"] = 68168,
@@ -79638,9 +78891,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941084,
+					["aID"] = "29720",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "拱顶恶鬼",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79713,7 +78966,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941081,
 					["delay"] = 0,
-					["aID"] = "29720",
+					["monster"] = true,
 				}, -- [266]
 				{
 					["flag_original"] = 68168,
@@ -79744,9 +78997,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941127,
+					["aID"] = "29722",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "狂乱食尸者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79819,7 +79072,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941124,
 					["delay"] = 0,
-					["aID"] = "29722",
+					["monster"] = true,
 				}, -- [267]
 				{
 					["flag_original"] = 68168,
@@ -79852,9 +79105,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941232,
+					["aID"] = "29769",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "劣尸维尔",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -79929,7 +79182,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941229,
 					["delay"] = 0,
-					["aID"] = "29769",
+					["monster"] = true,
 				}, -- [268]
 				{
 					["flag_original"] = 68168,
@@ -79962,9 +79215,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941260,
+					["aID"] = "29770",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "奈丝伍德夫人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80035,7 +79288,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941257,
 					["delay"] = 0,
-					["aID"] = "29770",
+					["monster"] = true,
 				}, -- [269]
 				{
 					["flag_original"] = 68168,
@@ -80067,9 +79320,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941308,
+					["aID"] = "29840",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "跳跃者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80167,7 +79420,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941305,
 					["delay"] = 0,
-					["aID"] = "29840",
+					["monster"] = true,
 				}, -- [270]
 				{
 					["flag_original"] = 68168,
@@ -80203,9 +79456,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941408,
+					["aID"] = "29851",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "莱斯班恩将军",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80336,7 +79589,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941405,
 					["delay"] = 0,
-					["aID"] = "29851",
+					["monster"] = true,
 				}, -- [271]
 				{
 					["flag_original"] = 2632,
@@ -80371,9 +79624,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684941986,
+					["aID"] = "31746",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "伊米海姆防御者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80479,7 +79732,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684941983,
 					["delay"] = 0,
-					["aID"] = "31746",
+					["monster"] = true,
 				}, -- [272]
 				{
 					["flag_original"] = 68168,
@@ -80516,9 +79769,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942109,
+					["aID"] = "31258",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "伊米海姆天选战士",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80621,7 +79874,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942106,
 					["delay"] = 0,
-					["aID"] = "31258",
+					["monster"] = true,
 				}, -- [273]
 				{
 					["flag_original"] = 68168,
@@ -80652,9 +79905,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942147,
+					["aID"] = "31396",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "瓦格里工头",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80752,7 +80005,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942144,
 					["delay"] = 0,
-					["aID"] = "31396",
+					["monster"] = true,
 				}, -- [274]
 				{
 					["flag_original"] = 68168,
@@ -80784,6 +80037,7 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942166,
+					["aID"] = "31397",
 					["friendlyfire"] = {
 						["康樂股長"] = {
 							["spells"] = {
@@ -80792,7 +80046,6 @@ _detalhes_database = {
 							["total"] = 0,
 						},
 					},
-					["monster"] = true,
 					["nome"] = "萨隆邪铁矿洞奴隶",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -80837,7 +80090,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942163,
 					["delay"] = 0,
-					["aID"] = "31397",
+					["monster"] = true,
 				}, -- [275]
 				{
 					["flag_original"] = 68168,
@@ -80869,8 +80122,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942318,
+					["friendlyfire"] = {
+					},
 					["aID"] = "31399",
-					["monster"] = true,
 					["nome"] = "工头沙尔德林",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81024,8 +80278,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942315,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["monster"] = true,
 				}, -- [276]
 				{
 					["flag_original"] = 2632,
@@ -81059,9 +80312,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942465,
+					["aID"] = "31267",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "伊米亚元素师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81163,7 +80416,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942462,
 					["delay"] = 0,
-					["aID"] = "31267",
+					["monster"] = true,
 				}, -- [277]
 				{
 					["flag_original"] = 68168,
@@ -81194,9 +80447,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942486,
+					["aID"] = "",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "天灾驯鹰者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81269,7 +80522,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942483,
 					["delay"] = 0,
-					["aID"] = "",
+					["monster"] = true,
 				}, -- [278]
 				{
 					["flag_original"] = 2632,
@@ -81300,9 +80553,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942554,
+					["aID"] = "31263",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "腐尸猎鹰",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81374,7 +80627,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942551,
 					["delay"] = 0,
-					["aID"] = "31263",
+					["monster"] = true,
 				}, -- [279]
 				{
 					["flag_original"] = 68168,
@@ -81404,9 +80657,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942752,
+					["aID"] = "31304",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "濒死的士兵",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81421,7 +80674,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942749,
 					["delay"] = 0,
-					["aID"] = "31304",
+					["monster"] = true,
 				}, -- [280]
 				{
 					["flag_original"] = 68168,
@@ -81452,9 +80705,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942933,
+					["aID"] = "30617",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "梦魇畸体",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81497,7 +80750,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942930,
 					["delay"] = 0,
-					["aID"] = "30617",
+					["monster"] = true,
 				}, -- [281]
 				{
 					["flag_original"] = 68168,
@@ -81528,9 +80781,9 @@ _detalhes_database = {
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["end_time"] = 1684942933,
+					["aID"] = "30627",
 					["friendlyfire"] = {
 					},
-					["monster"] = true,
 					["nome"] = "梦魇虚体",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -81575,7 +80828,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1684942930,
 					["delay"] = 0,
-					["aID"] = "30627",
+					["monster"] = true,
 				}, -- [282]
 			},
 		}, -- [1]
@@ -81610,13 +80863,15 @@ _detalhes_database = {
 					["targets"] = {
 						["在桃公主"] = 0,
 					},
-					["spec"] = 102,
+					["healing_from"] = {
+						["在桃公主"] = true,
+					},
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.010969,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 5064.010969,
 					["GetPets"] = nil --[[ skipped inline function ]],
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 102,
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
 					["classe"] = "DRUID",
@@ -81711,9 +80966,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.010969,
 					["delay"] = 0,
-					["healing_from"] = {
-						["在桃公主"] = true,
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [1]
 				{
 					["flag_original"] = 1300,
@@ -81742,12 +80995,13 @@ _detalhes_database = {
 					["last_hps"] = 0,
 					["targets"] = {
 					},
-					["spec"] = 266,
+					["healing_from"] = {
+					},
 					["totalover_without_pet"] = 0.005378,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.005378,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 266,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684770585,
 					["aID"] = "4487-00574097",
@@ -81842,8 +81096,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.005378,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [2]
 				{
 					["flag_original"] = 1352,
@@ -81868,7 +81121,9 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.01022,
 					["last_hps"] = 0,
-					["spec"] = 250,
+					["healing_from"] = {
+						["他的火热额-阿拉希盆地"] = true,
+					},
 					["targets"] = {
 						["他的火热额-阿拉希盆地"] = 0,
 					},
@@ -81878,7 +81133,7 @@ _detalhes_database = {
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 2133.01022,
 					["GetPets"] = nil --[[ skipped inline function ]],
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
 					["classe"] = "DEATHKNIGHT",
@@ -81947,9 +81202,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.01022,
 					["delay"] = 0,
-					["healing_from"] = {
-						["他的火热额-阿拉希盆地"] = true,
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [3]
 				{
 					["flag_original"] = 1300,
@@ -81977,13 +81230,15 @@ _detalhes_database = {
 					["targets"] = {
 						["联盟防爆队-烏蘇雷"] = 0,
 					},
-					["spec"] = 70,
+					["healing_from"] = {
+						["联盟防爆队-烏蘇雷"] = true,
+					},
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.003012,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 4067.003012,
 					["GetPets"] = nil --[[ skipped inline function ]],
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 70,
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
 					["classe"] = "PALADIN",
@@ -82052,9 +81307,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.003012,
 					["delay"] = 0,
-					["healing_from"] = {
-						["联盟防爆队-烏蘇雷"] = true,
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [4]
 				{
 					["flag_original"] = 1300,
@@ -82091,10 +81344,10 @@ _detalhes_database = {
 					["start_time"] = 1684770581,
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["healing_from"] = {
 						["萧萧灬三号-烏蘇雷"] = true,
 					},
+					["aID"] = "4488-0054F122",
 					["nome"] = "萧萧灬三号-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -82135,7 +81388,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.007618,
 					["delay"] = 0,
-					["aID"] = "4488-0054F122",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [5]
 				{
 					["flag_original"] = 1298,
@@ -82169,13 +81422,15 @@ _detalhes_database = {
 						["東離劍"] = 0,
 						["棒棒得"] = 0,
 					},
-					["spec"] = 66,
+					["healing_from"] = {
+						["萨斯给丶"] = true,
+					},
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.00788,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 791.0078799999999,
 					["GetPets"] = nil --[[ skipped inline function ]],
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 66,
 					["fight_component"] = true,
 					["end_time"] = 1684770585,
 					["classe"] = "PALADIN",
@@ -82300,9 +81555,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.00788,
 					["delay"] = 0,
-					["healing_from"] = {
-						["萨斯给丶"] = true,
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [6]
 				{
 					["flag_original"] = 1352,
@@ -82327,8 +81580,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.005065,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["方管"] = 0,
 					},
@@ -82337,11 +81589,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005065,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.005065,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARRIOR",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 71,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.005065,
 					["nome"] = "烨灬枫-魚人",
 					["spells"] = {
@@ -82381,7 +81634,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 71,
 				}, -- [7]
 				{
 					["flag_original"] = 1300,
@@ -82410,17 +81663,17 @@ _detalhes_database = {
 					["targets"] = {
 						["方管"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.002639,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002639,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002639,
 					["nome"] = "方管",
 					["spells"] = {
@@ -82509,7 +81762,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [8]
 				{
 					["flag_original"] = 1300,
@@ -82538,17 +81791,17 @@ _detalhes_database = {
 					["targets"] = {
 						["烈酒和敬余生-阿拉希盆地"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.003359,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003359,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003359,
 					["nome"] = "烈酒和敬余生-阿拉希盆地",
 					["spells"] = {
@@ -82637,7 +81890,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [9]
 				{
 					["flag_original"] = 1352,
@@ -82665,8 +81918,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.004119,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["烨灬枫-魚人"] = 0,
 						["一个人在飘-魚人"] = 0,
@@ -82677,11 +81929,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.004119,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.004119,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 70,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.004119,
 					["nome"] = "一个人在飘-魚人",
 					["spells"] = {
@@ -82801,7 +82054,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 70,
 				}, -- [10]
 				{
 					["flag_original"] = 1352,
@@ -82830,8 +82083,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.007941,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["烨灬枫-魚人"] = 0,
 						["换了风格-魚人"] = 0,
@@ -82844,11 +82096,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.007941,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.007941,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 70,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.007941,
 					["nome"] = "Wulaifamily-瑪拉頓",
 					["spells"] = {
@@ -82921,7 +82174,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 70,
 				}, -- [11]
 				{
 					["flag_original"] = 1352,
@@ -82946,8 +82199,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.003633,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 					},
 					["enemy"] = true,
@@ -82955,11 +82207,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.003633,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003633,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "HUNTER",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 253,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003633,
 					["nome"] = "换了风格-魚人",
 					["spells"] = {
@@ -82975,7 +82228,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 253,
 				}, -- [12]
 				{
 					["flag_original"] = 1352,
@@ -83006,8 +82259,7 @@ _detalhes_database = {
 						["死不了活不好-阿拉希盆地"] = 0,
 					},
 					["enemy"] = true,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.008438,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008438,
@@ -83015,7 +82267,8 @@ _detalhes_database = {
 					["aID"] = "5741-004BF2EF",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["spec"] = 73,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008438,
 					["nome"] = "史尔特尔-魚人",
 					["spells"] = {
@@ -83057,7 +82310,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 73,
 				}, -- [13]
 				{
 					["flag_original"] = 1298,
@@ -83087,25 +82340,26 @@ _detalhes_database = {
 					["targets"] = {
 						["Nhuy"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.007715,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.007715,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.007715,
 					["nome"] = "Nhuy",
 					["spells"] = {
 						["_ActorTable"] = {
-							[52284] = {
+							[50475] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Nhuy"] = 0,
 								},
 								["n_max"] = 0,
 								["targets"] = {
@@ -83117,9 +82371,8 @@ _detalhes_database = {
 								["overheal"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 52284,
+								["id"] = 50475,
 								["targets_absorbs"] = {
-									["Nhuy"] = 0,
 								},
 								["c_min"] = 0,
 								["c_total"] = 0,
@@ -83143,31 +82396,6 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 48982,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_total"] = 0,
-								["totaldenied"] = 0,
-								["n_amt"] = 0,
-								["absorbed"] = 0,
-							},
-							[50475] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Nhuy"] = 0,
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["Nhuy"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["counter"] = 0,
-								["overheal"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 50475,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
@@ -83201,6 +82429,31 @@ _detalhes_database = {
 								["n_amt"] = 0,
 								["absorbed"] = 0,
 							},
+							[52284] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Nhuy"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 52284,
+								["targets_absorbs"] = {
+									["Nhuy"] = 0,
+								},
+								["c_min"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
 						},
 						["tipo"] = 3,
 					},
@@ -83212,7 +82465,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [14]
 				{
 					["flag_original"] = 4424,
@@ -83246,8 +82499,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.007918,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "Pet-0-4491-571-26880-2231-61001125D7",
+					["healing_from"] = {
+					},
 					["nome"] = "螃蟹",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -83262,8 +82516,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [15]
 				{
 					["flag_original"] = 1298,
@@ -83292,46 +82545,21 @@ _detalhes_database = {
 					["targets"] = {
 						["東離劍"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.003166,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003166,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARRIOR",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 71,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003166,
 					["nome"] = "東離劍",
 					["spells"] = {
 						["_ActorTable"] = {
-							[29841] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["東離劍"] = 0,
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["東離劍"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["counter"] = 0,
-								["overheal"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 29841,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_total"] = 0,
-								["totaldenied"] = 0,
-								["n_amt"] = 0,
-								["absorbed"] = 0,
-							},
 							[20007] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
@@ -83348,31 +82576,6 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 20007,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_total"] = 0,
-								["totaldenied"] = 0,
-								["n_amt"] = 0,
-								["absorbed"] = 0,
-							},
-							[34299] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["東離劍"] = 0,
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["東離劍"] = 0,
-								},
-								["n_total"] = 0,
-								["n_min"] = 0,
-								["counter"] = 0,
-								["overheal"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 34299,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
@@ -83406,6 +82609,56 @@ _detalhes_database = {
 								["n_amt"] = 0,
 								["absorbed"] = 0,
 							},
+							[34299] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["東離劍"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["東離劍"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 34299,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[29841] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["東離劍"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["東離劍"] = 0,
+								},
+								["n_total"] = 0,
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 29841,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_total"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
 						},
 						["tipo"] = 3,
 					},
@@ -83417,7 +82670,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 71,
 				}, -- [16]
 				{
 					["flag_original"] = 1352,
@@ -83454,8 +82707,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.005875,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5743-00596E45",
+					["healing_from"] = {
+					},
 					["nome"] = "芙蓉花啊我-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -83494,8 +82748,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [17]
 				{
 					["flag_original"] = 1352,
@@ -83520,8 +82773,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.008376,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["更好的话-瑪拉頓"] = 0,
 					},
@@ -83530,11 +82782,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.008376,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008376,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARRIOR",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 72,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008376,
 					["nome"] = "更好的话-瑪拉頓",
 					["spells"] = {
@@ -83574,7 +82827,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 72,
 				}, -- [18]
 				{
 					["flag_original"] = 2600,
@@ -83609,8 +82862,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.002277,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <烈酒和敬余生-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -83649,8 +82903,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [19]
 				{
 					["flag_original"] = 66888,
@@ -83675,8 +82928,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.008117,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["黑冰丶森林-魚人"] = 0,
 					},
@@ -83685,11 +82937,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.008117,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008117,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 70,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008117,
 					["nome"] = "黑冰丶森林-魚人",
 					["spells"] = {
@@ -83753,7 +83006,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 70,
 				}, -- [20]
 				{
 					["flag_original"] = 1297,
@@ -83783,12 +83036,12 @@ _detalhes_database = {
 						["康樂股長"] = 0,
 						["天翼丶"] = 0,
 					},
-					["aID"] = "4487-004F1004",
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 1.909174,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 472925.909174,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["healing_from"] = {
 						["康樂股長"] = true,
 						["被解救的北伐军战士"] = true,
@@ -83796,9 +83049,7 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["targets_absorbs"] = {
-						["康樂股長"] = 0,
-					},
+					["aID"] = "4487-004F1004",
 					["totaldenied"] = 1.909174,
 					["nome"] = "康樂股長",
 					["spells"] = {
@@ -84017,7 +83268,9 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["targets_absorbs"] = {
+						["康樂股長"] = 0,
+					},
 				}, -- [21]
 				{
 					["flag_original"] = 1300,
@@ -84053,8 +83306,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.006149,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5740-005225CC",
+					["healing_from"] = {
+					},
 					["nome"] = "死不了活不好-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -84093,8 +83347,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [22]
 				{
 					["flag_original"] = 8466,
@@ -84129,8 +83382,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.001778,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <Nhuy>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -84169,8 +83423,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [23]
 				{
 					["flag_original"] = 1300,
@@ -84199,17 +83452,17 @@ _detalhes_database = {
 					["targets"] = {
 						["雷雨交加夜晚"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.002899,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002899,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002899,
 					["nome"] = "雷雨交加夜晚",
 					["spells"] = {
@@ -84347,7 +83600,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [24]
 				{
 					["flag_original"] = 1352,
@@ -84383,8 +83636,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.003415,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "UNGROUPPLAYER",
+					["aID"] = "5743-005354B6",
 					["nome"] = "小蛋子儿-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -84425,7 +83678,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-005354B6",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [25]
 				{
 					["flag_original"] = 2600,
@@ -84460,8 +83713,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.004545,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <雷雨交加夜晚>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -84500,8 +83754,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [26]
 				{
 					["flag_original"] = 1352,
@@ -84527,8 +83780,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.006473,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["风霜满面"] = 0,
 						["儿歌网人"] = 0,
@@ -84538,11 +83790,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.006473,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.006473,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.006473,
 					["nome"] = "儿歌网人",
 					["spells"] = {
@@ -84655,7 +83908,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [27]
 				{
 					["flag_original"] = 1300,
@@ -84684,17 +83937,17 @@ _detalhes_database = {
 					["targets"] = {
 						["风霜满面"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.004409,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.004409,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 251,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.004409,
 					["nome"] = "风霜满面",
 					["spells"] = {
@@ -84760,7 +84013,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 251,
 				}, -- [28]
 				{
 					["flag_original"] = 1352,
@@ -84786,8 +84039,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.001828,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["完妙音给"] = 0,
 					},
@@ -84796,11 +84048,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.001828,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.001828,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.001828,
 					["nome"] = "完妙音给",
 					["spells"] = {
@@ -84865,7 +84118,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [29]
 				{
 					["flag_original"] = 1352,
@@ -84900,8 +84153,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.006923,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "UNGROUPPLAYER",
+					["aID"] = "4487-0052BAF1",
 					["nome"] = "大叔上高速",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -84917,7 +84170,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-0052BAF1",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [30]
 				{
 					["flag_original"] = 1300,
@@ -84946,17 +84199,17 @@ _detalhes_database = {
 					["targets"] = {
 						["罗彬勋"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.007819,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.007819,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.007819,
 					["nome"] = "罗彬勋",
 					["spells"] = {
@@ -85070,7 +84323,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [31]
 				{
 					["flag_original"] = 1352,
@@ -85095,8 +84348,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.003466,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["接入区黑黑-烏蘇雷"] = 0,
 					},
@@ -85105,11 +84357,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.003466,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003466,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003466,
 					["nome"] = "接入区黑黑-烏蘇雷",
 					["spells"] = {
@@ -85173,7 +84426,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [32]
 				{
 					["flag_original"] = 1352,
@@ -85198,8 +84451,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.006954,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["给一刀-阿拉希盆地"] = 0,
 					},
@@ -85208,11 +84460,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.006954,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.006954,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.006954,
 					["nome"] = "给一刀-阿拉希盆地",
 					["spells"] = {
@@ -85252,7 +84505,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [33]
 				{
 					["flag_original"] = 1300,
@@ -85281,8 +84534,7 @@ _detalhes_database = {
 					["targets"] = {
 						["黑丶夜-逐風者"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.003353,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003353,
@@ -85290,7 +84542,8 @@ _detalhes_database = {
 					["aID"] = "5743-0044B9FE",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["spec"] = 266,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003353,
 					["nome"] = "黑丶夜-逐風者",
 					["spells"] = {
@@ -85331,7 +84584,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 266,
 				}, -- [34]
 				{
 					["flag_original"] = 1300,
@@ -85359,8 +84612,7 @@ _detalhes_database = {
 					["last_hps"] = 0,
 					["targets"] = {
 					},
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.008338,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008338,
@@ -85368,7 +84620,8 @@ _detalhes_database = {
 					["aID"] = "5743-00528C45",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["spec"] = 258,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008338,
 					["nome"] = "哎哟好烦-逐風者",
 					["spells"] = {
@@ -85434,7 +84687,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 258,
 				}, -- [35]
 				{
 					["flag_original"] = 1352,
@@ -85460,8 +84713,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.001859,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["天翼丶"] = 0,
 					},
@@ -85470,11 +84722,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.001859,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.001859,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PRIEST",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 258,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.001859,
 					["nome"] = "天翼丶",
 					["spells"] = {
@@ -85613,7 +84866,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 258,
 				}, -- [36]
 				{
 					["flag_original"] = 1300,
@@ -85649,8 +84902,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.005167,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
+					["aID"] = "5743-0059AE6E",
 					["nome"] = "深夜梦游-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -85715,7 +84968,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5743-0059AE6E",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [37]
 				{
 					["flag_original"] = 1298,
@@ -85743,17 +84996,17 @@ _detalhes_database = {
 					["targets"] = {
 						["月影灬龙"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.00771,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.00771,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "SHAMAN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 263,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.00771,
 					["nome"] = "月影灬龙",
 					["spells"] = {
@@ -85817,7 +85070,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 263,
 				}, -- [38]
 				{
 					["flag_original"] = 8520,
@@ -85856,8 +85109,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.022412,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -85901,8 +85155,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [39]
 				{
 					["flag_original"] = 1300,
@@ -85938,8 +85191,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.0033,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "4487-00509A29",
+					["healing_from"] = {
+					},
 					["nome"] = "雕塑爱妃",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -85978,8 +85232,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [40]
 				{
 					["flag_original"] = 1352,
@@ -86005,8 +85258,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.002859,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["啈富屬亍-瑪拉頓"] = 0,
 					},
@@ -86015,11 +85267,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.002859,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002859,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002859,
 					["nome"] = "啈富屬亍-瑪拉頓",
 					["spells"] = {
@@ -86132,7 +85385,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [41]
 				{
 					["flag_original"] = 2600,
@@ -86167,8 +85420,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.003553,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <啈富屬亍-瑪拉頓>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -86207,8 +85461,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [42]
 				{
 					["flag_original"] = 1300,
@@ -86238,17 +85491,17 @@ _detalhes_database = {
 					["targets"] = {
 						["江中小白龙-古雷曼格"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.008485,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008485,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008485,
 					["nome"] = "江中小白龙-古雷曼格",
 					["spells"] = {
@@ -86414,7 +85667,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [43]
 				{
 					["flag_original"] = 4424,
@@ -86452,8 +85705,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.004479,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "Pet-0-4491-566-12282-1961-0200108DDA",
+					["healing_from"] = {
+					},
 					["nome"] = "雪碧",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -86495,8 +85749,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [44]
 				{
 					["flag_original"] = 1352,
@@ -86532,8 +85785,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.005345,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "UNGROUPPLAYER",
+					["aID"] = "4485-0046EB71",
 					["nome"] = "农夫丨三拳-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -86573,7 +85826,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4485-0046EB71",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [45]
 				{
 					["flag_original"] = 1300,
@@ -86609,8 +85862,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.007249,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5742-0047B5A9",
+					["healing_from"] = {
+					},
 					["nome"] = "无忌寻欢-古雷曼格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -86649,8 +85903,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [46]
 				{
 					["flag_original"] = 1352,
@@ -86675,8 +85928,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.004596,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["可惜悦刻没-逐風者"] = 0,
 					},
@@ -86685,11 +85937,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.004596,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.004596,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.004596,
 					["nome"] = "可惜悦刻没-逐風者",
 					["spells"] = {
@@ -86777,7 +86030,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [47]
 				{
 					["flag_original"] = 1352,
@@ -86805,8 +86058,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.00369,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["拾六-瑪拉頓"] = 0,
 					},
@@ -86815,11 +86067,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.00369,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.00369,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PRIEST",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 258,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.00369,
 					["nome"] = "拾六-瑪拉頓",
 					["spells"] = {
@@ -86959,7 +86212,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 258,
 				}, -- [48]
 				{
 					["flag_original"] = 1352,
@@ -86984,8 +86237,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.005916,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["小雨滴滴哒哒"] = 0,
 					},
@@ -86994,11 +86246,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005916,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.005916,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.005916,
 					["nome"] = "小雨滴滴哒哒",
 					["spells"] = {
@@ -87062,7 +86315,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [49]
 				{
 					["flag_original"] = 66888,
@@ -87088,8 +86341,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.005182,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["诶嘿嘿黑嘿嘿-瑪拉頓"] = 0,
 					},
@@ -87098,11 +86350,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005182,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.005182,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 70,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.005182,
 					["nome"] = "诶嘿嘿黑嘿嘿-瑪拉頓",
 					["spells"] = {
@@ -87215,7 +86468,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 70,
 				}, -- [50]
 				{
 					["flag_original"] = 1352,
@@ -87252,8 +86505,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.00453,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5741-0056B53A",
+					["healing_from"] = {
+					},
 					["nome"] = "迷你小鹌鹑-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -87316,8 +86570,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [51]
 				{
 					["flag_original"] = 1300,
@@ -87346,17 +86599,17 @@ _detalhes_database = {
 					["targets"] = {
 						["何落雪-阿拉希盆地"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.002906,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002906,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "MAGE",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 64,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002906,
 					["nome"] = "何落雪-阿拉希盆地",
 					["spells"] = {
@@ -87397,7 +86650,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 64,
 				}, -- [52]
 				{
 					["flag_original"] = 1300,
@@ -87434,8 +86687,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.005147,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5742-004ECFB9",
+					["healing_from"] = {
+					},
 					["nome"] = "取暖棒-古雷曼格",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -87499,8 +86753,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [53]
 				{
 					["flag_original"] = 1352,
@@ -87525,8 +86778,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.007185,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["乖乖隆滴隆-魚人"] = 0,
 					},
@@ -87535,11 +86787,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.007185,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.007185,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 66,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.007185,
 					["nome"] = "乖乖隆滴隆-魚人",
 					["spells"] = {
@@ -87579,7 +86832,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 66,
 				}, -- [54]
 				{
 					["flag_original"] = 1300,
@@ -87614,8 +86867,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.007089,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARLOCK",
+					["aID"] = "4487-00508702",
 					["nome"] = "小糖宝儿",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -87656,7 +86909,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "4487-00508702",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [55]
 				{
 					["flag_original"] = 1352,
@@ -87682,8 +86935,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.002312,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["情趣袈裟-魚人"] = 0,
 					},
@@ -87692,11 +86944,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.002312,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002312,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "MAGE",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 63,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002312,
 					["nome"] = "情趣袈裟-魚人",
 					["spells"] = {
@@ -87737,7 +86990,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 63,
 				}, -- [56]
 				{
 					["flag_original"] = 1352,
@@ -87765,8 +87018,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.007234,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["康樂股長"] = 0,
 						["萨斯给丶"] = 0,
@@ -87778,11 +87030,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.007234,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.007234,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 66,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.007234,
 					["nome"] = "果丹皮灬-魚人",
 					["spells"] = {
@@ -87949,7 +87202,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 66,
 				}, -- [57]
 				{
 					["flag_original"] = 1352,
@@ -87974,8 +87227,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.008416,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["東離劍"] = 0,
 					},
@@ -87984,11 +87236,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.008416,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008416,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "HUNTER",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 255,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008416,
 					["nome"] = "算死草-烏蘇雷",
 					["spells"] = {
@@ -88028,7 +87281,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 255,
 				}, -- [58]
 				{
 					["flag_original"] = 1300,
@@ -88058,17 +87311,17 @@ _detalhes_database = {
 					["targets"] = {
 						["棒棒得"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.005142,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.005142,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.005142,
 					["nome"] = "棒棒得",
 					["spells"] = {
@@ -88206,7 +87459,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [59]
 				{
 					["flag_original"] = 1298,
@@ -88242,8 +87495,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.007749,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5741-0058E905",
+					["healing_from"] = {
+					},
 					["nome"] = "哇多久哦-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -88282,8 +87536,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [60]
 				{
 					["flag_original"] = 1300,
@@ -88312,17 +87565,17 @@ _detalhes_database = {
 					["targets"] = {
 						["有点潇洒"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.0058,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.0058,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "MAGE",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 62,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.0058,
 					["nome"] = "有点潇洒",
 					["spells"] = {
@@ -88363,7 +87616,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 62,
 				}, -- [61]
 				{
 					["flag_original"] = 1352,
@@ -88393,8 +87646,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.006624,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["孙小萌-魚人"] = 0,
 						["紫炎瞳-魚人"] = 0,
@@ -88405,11 +87657,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.006624,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.006624,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "PRIEST",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 258,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.006624,
 					["nome"] = "孙小萌-魚人",
 					["spells"] = {
@@ -88449,10 +87702,10 @@ _detalhes_database = {
 								},
 								["n_max"] = 0,
 								["targets"] = {
-									["孙小萌-魚人"] = 0,
 									["暗影魔 <孙小萌-魚人>"] = 0,
-									["紫炎瞳-魚人"] = 0,
 									["Loveshtias-魚人"] = 0,
+									["紫炎瞳-魚人"] = 0,
+									["孙小萌-魚人"] = 0,
 								},
 								["n_total"] = 0,
 								["n_min"] = 0,
@@ -88532,7 +87785,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 258,
 				}, -- [62]
 				{
 					["flag_original"] = 4424,
@@ -88566,8 +87819,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.00692,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "19668",
+					["healing_from"] = {
+					},
 					["nome"] = "暗影魔 <孙小萌-魚人>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -88582,8 +87836,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [63]
 				{
 					["flag_original"] = 1352,
@@ -88608,8 +87861,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.002116,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 					},
 					["enemy"] = true,
@@ -88617,11 +87869,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.002116,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002116,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DRUID",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 102,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002116,
 					["nome"] = "紫炎瞳-魚人",
 					["spells"] = {
@@ -88637,7 +87890,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 102,
 				}, -- [64]
 				{
 					["flag_original"] = 1352,
@@ -88675,8 +87928,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.002312,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "4485-0058EE39",
+					["healing_from"] = {
+					},
 					["nome"] = "临风酌酒-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -88716,8 +87970,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [65]
 				{
 					["flag_original"] = 1352,
@@ -88755,8 +88008,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.004395,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5741-0056700D",
+					["healing_from"] = {
+					},
 					["nome"] = "Iu-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -88796,8 +88050,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [66]
 				{
 					["flag_original"] = 1352,
@@ -88823,8 +88076,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.002873,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["猫仙人-魚人"] = 0,
 					},
@@ -88833,11 +88085,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.002873,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.002873,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DRUID",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 102,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.002873,
 					["nome"] = "猫仙人-魚人",
 					["spells"] = {
@@ -88878,7 +88131,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 102,
 				}, -- [67]
 				{
 					["flag_original"] = 8468,
@@ -88914,8 +88167,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.005256,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <棒棒得>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -88955,8 +88209,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [68]
 				{
 					["flag_original"] = 1352,
@@ -88993,8 +88246,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.006087,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "4485-003F6080",
+					["healing_from"] = {
+					},
 					["nome"] = "所囿亾-瑪拉頓",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -89033,8 +88287,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [69]
 				{
 					["flag_original"] = 1352,
@@ -89069,8 +88322,8 @@ _detalhes_database = {
 					["totaldenied"] = 0.006573,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "UNGROUPPLAYER",
+					["aID"] = "5741-002C3B03",
 					["nome"] = "Loveshtias-魚人",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -89086,7 +88339,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["aID"] = "5741-002C3B03",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [70]
 				{
 					["flag_original"] = 1352,
@@ -89112,8 +88365,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.003149,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["卡布奇洛-魚人"] = 0,
 					},
@@ -89122,11 +88374,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.003149,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003149,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "MAGE",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 64,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003149,
 					["nome"] = "卡布奇洛-魚人",
 					["spells"] = {
@@ -89167,7 +88420,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 64,
 				}, -- [71]
 				{
 					["flag_original"] = 1352,
@@ -89193,8 +88446,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.006447,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["初学者收到-逐風者"] = 0,
 					},
@@ -89203,11 +88455,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.006447,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.006447,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.006447,
 					["nome"] = "初学者收到-逐風者",
 					["spells"] = {
@@ -89320,7 +88573,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [72]
 				{
 					["flag_original"] = 1300,
@@ -89351,17 +88604,17 @@ _detalhes_database = {
 						["矮脚喵丶-阿拉希盆地"] = 0,
 						["格拉兹纳尔 <矮脚喵丶-阿拉希盆地>"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.004233,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.004233,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARLOCK",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 265,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.004233,
 					["nome"] = "矮脚喵丶-阿拉希盆地",
 					["spells"] = {
@@ -89452,7 +88705,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 265,
 				}, -- [73]
 				{
 					["flag_original"] = 4372,
@@ -89486,8 +88739,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.003981,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "Pet-0-4490-566-31371-1860-0100126FA4",
+					["healing_from"] = {
+					},
 					["nome"] = "格拉兹纳尔 <矮脚喵丶-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -89502,8 +88756,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [74]
 				{
 					["flag_original"] = 1300,
@@ -89533,17 +88786,17 @@ _detalhes_database = {
 						["Kwjr-阿拉希盆地"] = 0,
 						["沙法姆 <Kwjr-阿拉希盆地>"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.00769,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.00769,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARLOCK",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 265,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.00769,
 					["nome"] = "Kwjr-阿拉希盆地",
 					["spells"] = {
@@ -89633,7 +88886,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 265,
 				}, -- [75]
 				{
 					["flag_original"] = 1352,
@@ -89665,8 +88918,7 @@ _detalhes_database = {
 						["野猪"] = 0,
 					},
 					["enemy"] = true,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.003153,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.003153,
@@ -89674,7 +88926,8 @@ _detalhes_database = {
 					["aID"] = "5740-005290E4",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["spec"] = 253,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.003153,
 					["nome"] = "是来看我的吗-阿拉希盆地",
 					["spells"] = {
@@ -89738,7 +88991,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 253,
 				}, -- [76]
 				{
 					["flag_original"] = 1300,
@@ -89771,8 +89024,7 @@ _detalhes_database = {
 						["Kwjr-阿拉希盆地"] = 0,
 						["天堂之羽-逐風者"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.007093,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.007093,
@@ -89780,7 +89032,8 @@ _detalhes_database = {
 					["aID"] = "5743-0052EEAA",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["spec"] = 258,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.007093,
 					["nome"] = "天堂之羽-逐風者",
 					["spells"] = {
@@ -89948,7 +89201,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 258,
 				}, -- [77]
 				{
 					["flag_original"] = 1352,
@@ -89974,8 +89227,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.008714,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["黑暗神屁-阿拉希盆地"] = 0,
 					},
@@ -89984,11 +89236,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.008714,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.008714,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 250,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.008714,
 					["nome"] = "黑暗神屁-阿拉希盆地",
 					["spells"] = {
@@ -90101,7 +89354,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 250,
 				}, -- [78]
 				{
 					["flag_original"] = 1300,
@@ -90130,8 +89383,7 @@ _detalhes_database = {
 					["targets"] = {
 						["莱泽鹊浠-逐風者"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.001476,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.001476,
@@ -90139,7 +89391,8 @@ _detalhes_database = {
 					["aID"] = "5743-00483024",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["end_time"] = 1684850805,
-					["spec"] = 64,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.001476,
 					["nome"] = "莱泽鹊浠-逐風者",
 					["spells"] = {
@@ -90180,7 +89433,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 64,
 				}, -- [79]
 				{
 					["flag_original"] = 4424,
@@ -90218,8 +89471,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.004013,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "Pet-0-4490-566-31371-3099-0100118836",
+					["healing_from"] = {
+					},
 					["nome"] = "野猪 <是来看我的吗-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90261,8 +89515,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [80]
 				{
 					["flag_original"] = 1352,
@@ -90300,8 +89553,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.002293,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5743-00596708",
+					["healing_from"] = {
+					},
 					["nome"] = "低调的孩子啊-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90364,8 +89618,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [81]
 				{
 					["flag_original"] = 4424,
@@ -90401,8 +89654,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.002114,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "Pet-0-5580-1-116-3099-0900118836",
+					["healing_from"] = {
+					},
 					["nome"] = "野猪",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90442,8 +89696,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [82]
 				{
 					["flag_original"] = 1352,
@@ -90480,8 +89733,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.006699,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "5743-00544AF2",
+					["healing_from"] = {
+					},
 					["nome"] = "伽珞蒳-逐風者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90520,8 +89774,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [83]
 				{
 					["flag_original"] = 4372,
@@ -90557,8 +89810,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.002642,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "Pet-0-5580-571-108-417-0100119587",
+					["healing_from"] = {
+					},
 					["nome"] = "沙法姆 <Kwjr-阿拉希盆地>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90598,8 +89852,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [84]
 				{
 					["flag_original"] = 2600,
@@ -90634,8 +89887,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.003873,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <低调的孩子啊-逐風者>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90674,8 +89928,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [85]
 				{
 					["flag_original"] = 1300,
@@ -90712,8 +89965,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.001904,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "4488-00594AF2",
+					["healing_from"] = {
+					},
 					["nome"] = "更让回家的-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90801,8 +90055,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [86]
 				{
 					["flag_original"] = 1352,
@@ -90827,8 +90080,7 @@ _detalhes_database = {
 					["pvp"] = true,
 					["totalabsorb"] = 0.004661,
 					["last_hps"] = 0,
-					["healing_from"] = {
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["targets"] = {
 						["无人六-魚人"] = 0,
 					},
@@ -90837,11 +90089,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.004661,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 0.004661,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "DEATHKNIGHT",
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["spec"] = 251,
+					["healing_from"] = {
+					},
 					["totaldenied"] = 0.004661,
 					["nome"] = "无人六-魚人",
 					["spells"] = {
@@ -90857,7 +90110,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 251,
 				}, -- [87]
 				{
 					["flag_original"] = 2600,
@@ -90892,8 +90145,9 @@ _detalhes_database = {
 					["totaldenied"] = 0.006408,
 					["fight_component"] = true,
 					["end_time"] = 1684850805,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "28017",
+					["healing_from"] = {
+					},
 					["nome"] = "血虫 <无人六-魚人>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -90932,8 +90186,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684850802,
 					["delay"] = 0,
-					["healing_from"] = {
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [88]
 				{
 					["flag_original"] = 2600,
@@ -90968,9 +90221,9 @@ _detalhes_database = {
 					["start_time"] = 1684854448,
 					["fight_component"] = true,
 					["end_time"] = 1684854451,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["healing_from"] = {
 					},
+					["aID"] = "30274",
 					["nome"] = "被解救的北伐军战士",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -91011,7 +90264,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.03277,
 					["delay"] = 0,
-					["aID"] = "30274",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [89]
 				{
 					["flag_original"] = 1298,
@@ -91046,10 +90299,10 @@ _detalhes_database = {
 					["start_time"] = 1684860882,
 					["fight_component"] = true,
 					["end_time"] = 1684860885,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["healing_from"] = {
 						["老阴座小鸡"] = true,
 					},
+					["aID"] = "4487-005354E9",
 					["nome"] = "老阴座小鸡",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -91089,7 +90342,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["totaldenied"] = 0.00857,
 					["delay"] = 0,
-					["aID"] = "4487-005354E9",
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [90]
 				{
 					["flag_original"] = 1298,
@@ -91117,19 +90370,19 @@ _detalhes_database = {
 					["targets"] = {
 						["又帅又有钱"] = 14142,
 					},
-					["healing_from"] = {
-						["又帅又有钱"] = true,
-						["北伐军的神圣军旗"] = true,
-					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["totalover_without_pet"] = 0.06263,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["healing_taken"] = 26411.06263,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["classe"] = "WARRIOR",
 					["fight_component"] = true,
 					["end_time"] = 1684940121,
-					["spec"] = 72,
+					["healing_from"] = {
+						["又帅又有钱"] = true,
+						["北伐军的神圣军旗"] = true,
+					},
 					["totaldenied"] = 0.06263,
 					["nome"] = "又帅又有钱",
 					["spells"] = {
@@ -91197,7 +90450,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684940118,
 					["delay"] = 0,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
+					["spec"] = 72,
 				}, -- [91]
 				{
 					["flag_original"] = 2584,
@@ -91236,8 +90489,10 @@ _detalhes_database = {
 					["totaldenied"] = 0.069942,
 					["fight_component"] = true,
 					["end_time"] = 1684940347,
-					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["aID"] = "30891",
+					["healing_from"] = {
+						["北伐军的神圣军旗"] = true,
+					},
 					["nome"] = "北伐军的神圣军旗",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -91282,9 +90537,7 @@ _detalhes_database = {
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["start_time"] = 1684940344,
 					["delay"] = 0,
-					["healing_from"] = {
-						["北伐军的神圣军旗"] = true,
-					},
+					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 				}, -- [92]
 			},
 		}, -- [2]
@@ -91308,13 +90561,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["received"] = 344.015547,
 					["aID"] = "4488-005680AE",
-					["totalover"] = 0.008027,
-					["spec"] = 70,
+					["passiveover"] = 0.008027,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["classe"] = "PALADIN",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["total"] = 1114.015547,
-					["passiveover"] = 0.008027,
+					["totalover"] = 0.008027,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "联盟防爆队-烏蘇雷",
 					["spells"] = {
@@ -91345,9 +90598,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["alternatepower"] = 0.015547,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["alternatepower"] = 0.015547,
+					["spec"] = 70,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 3,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -91655,13 +90908,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["received"] = 3717.01076,
 					["aID"] = "4487-004DAD88",
-					["totalover"] = 0.004745,
-					["spec"] = 66,
+					["passiveover"] = 0.004745,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["classe"] = "PALADIN",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["total"] = 3717.01076,
-					["passiveover"] = 0.004745,
+					["totalover"] = 0.004745,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "萨斯给丶",
 					["spells"] = {
@@ -91725,9 +90978,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["alternatepower"] = 0.01076,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["alternatepower"] = 0.01076,
+					["spec"] = 66,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 3,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -91758,9 +91011,9 @@ _detalhes_database = {
 					["nome"] = "東離劍",
 					["spells"] = {
 						["_ActorTable"] = {
-							[29131] = {
+							[2687] = {
 								["total"] = 0,
-								["id"] = 29131,
+								["id"] = 2687,
 								["totalover"] = 0,
 								["targets"] = {
 									["東離劍"] = 0,
@@ -91776,18 +91029,18 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[2687] = {
+							[12964] = {
 								["total"] = 0,
-								["id"] = 2687,
+								["id"] = 12964,
 								["totalover"] = 0,
 								["targets"] = {
 									["東離劍"] = 0,
 								},
 								["counter"] = 0,
 							},
-							[12964] = {
+							[29131] = {
 								["total"] = 0,
-								["id"] = 12964,
+								["id"] = 29131,
 								["totalover"] = 0,
 								["targets"] = {
 									["東離劍"] = 0,
@@ -92001,13 +91254,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.008483,
-					["spec"] = 250,
+					["passiveover"] = 0.008483,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5740-005941C7",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.008483,
-					["passiveover"] = 0.008483,
+					["totalover"] = 0.008483,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "烈酒和敬余生-阿拉希盆地",
 					["spells"] = {
@@ -92088,9 +91341,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.008483,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.008483,
+					["spec"] = 250,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -92148,13 +91401,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.003382,
-					["spec"] = 250,
+					["passiveover"] = 0.003382,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-0058D834",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.003382,
-					["passiveover"] = 0.003382,
+					["totalover"] = 0.003382,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "方管",
 					["spells"] = {
@@ -92217,9 +91470,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.003382,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.003382,
+					["spec"] = 250,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -92297,9 +91550,9 @@ _detalhes_database = {
 					["nome"] = "Nhuy",
 					["spells"] = {
 						["_ActorTable"] = {
-							[45477] = {
+							[55233] = {
 								["total"] = 0,
-								["id"] = 45477,
+								["id"] = 55233,
 								["totalover"] = 0,
 								["targets"] = {
 									["Nhuy"] = 0,
@@ -92315,18 +91568,18 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[55233] = {
+							[45462] = {
 								["total"] = 0,
-								["id"] = 55233,
+								["id"] = 45462,
 								["totalover"] = 0,
 								["targets"] = {
 									["Nhuy"] = 0,
 								},
 								["counter"] = 0,
 							},
-							[45462] = {
+							[45477] = {
 								["total"] = 0,
-								["id"] = 45462,
+								["id"] = 45477,
 								["totalover"] = 0,
 								["targets"] = {
 									["Nhuy"] = 0,
@@ -92397,7 +91650,7 @@ _detalhes_database = {
 				}, -- [18]
 				{
 					["received"] = 165521.0883539999,
-					["resource"] = 3.890188000000008,
+					["resource"] = 5.374299999999997,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["GetSpellContainer"] = nil --[[ skipped inline function ]],
@@ -92492,13 +91745,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1298,
 					["classe"] = "DRUID",
-					["totalover"] = 0.006189,
-					["spec"] = 102,
+					["passiveover"] = 0.006189,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-0035B5DB",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.006189,
-					["passiveover"] = 0.006189,
+					["totalover"] = 0.006189,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "在桃公主",
 					["spells"] = {
@@ -92525,9 +91778,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.006189,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.006189,
+					["spec"] = 102,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -92766,13 +92019,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.007864,
-					["spec"] = 250,
+					["passiveover"] = 0.007864,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-005854B2",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.007864,
-					["passiveover"] = 0.007864,
+					["totalover"] = 0.007864,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷雨交加夜晚",
 					["spells"] = {
@@ -92826,9 +92079,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.007864,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.007864,
+					["spec"] = 250,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -93047,15 +92300,6 @@ _detalhes_database = {
 					["nome"] = "完妙音给",
 					["spells"] = {
 						["_ActorTable"] = {
-							[45477] = {
-								["total"] = 0,
-								["id"] = 45477,
-								["totalover"] = 0,
-								["targets"] = {
-									["完妙音给"] = 0,
-								},
-								["counter"] = 0,
-							},
 							[45462] = {
 								["total"] = 0,
 								["id"] = 45462,
@@ -93068,6 +92312,15 @@ _detalhes_database = {
 							[55233] = {
 								["total"] = 0,
 								["id"] = 55233,
+								["totalover"] = 0,
+								["targets"] = {
+									["完妙音给"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[45477] = {
+								["total"] = 0,
+								["id"] = 45477,
 								["totalover"] = 0,
 								["targets"] = {
 									["完妙音给"] = 0,
@@ -93101,13 +92354,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.004122,
-					["spec"] = 251,
+					["passiveover"] = 0.004122,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-0056C531",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.004122,
-					["passiveover"] = 0.004122,
+					["totalover"] = 0.004122,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "风霜满面",
 					["spells"] = {
@@ -93134,9 +92387,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.004122,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.004122,
+					["spec"] = 251,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -93157,13 +92410,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.008309,
-					["spec"] = 250,
+					["passiveover"] = 0.008309,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-0058C1E6",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.008309,
-					["passiveover"] = 0.008309,
+					["totalover"] = 0.008309,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "罗彬勋",
 					["spells"] = {
@@ -93226,9 +92479,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.008309,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.008309,
+					["spec"] = 250,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -93308,18 +92561,18 @@ _detalhes_database = {
 					["nome"] = "接入区黑黑-烏蘇雷",
 					["spells"] = {
 						["_ActorTable"] = {
-							[45529] = {
+							[50422] = {
 								["total"] = 0,
-								["id"] = 45529,
+								["id"] = 50422,
 								["totalover"] = 0,
 								["targets"] = {
 									["接入区黑黑-烏蘇雷"] = 0,
 								},
 								["counter"] = 0,
 							},
-							[50422] = {
+							[49903] = {
 								["total"] = 0,
-								["id"] = 50422,
+								["id"] = 49903,
 								["totalover"] = 0,
 								["targets"] = {
 									["接入区黑黑-烏蘇雷"] = 0,
@@ -93335,9 +92588,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[49903] = {
+							[45529] = {
 								["total"] = 0,
-								["id"] = 49903,
+								["id"] = 45529,
 								["totalover"] = 0,
 								["targets"] = {
 									["接入区黑黑-烏蘇雷"] = 0,
@@ -93483,13 +92736,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1298,
 					["classe"] = "SHAMAN",
-					["totalover"] = 0.00614,
-					["spec"] = 263,
+					["passiveover"] = 0.00614,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-005157E0",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.00614,
-					["passiveover"] = 0.00614,
+					["totalover"] = 0.00614,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "月影灬龙",
 					["spells"] = {
@@ -93525,9 +92778,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.00614,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.00614,
+					["spec"] = 263,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -93659,13 +92912,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "PRIEST",
-					["totalover"] = 0.003902,
-					["spec"] = 258,
+					["passiveover"] = 0.003902,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5743-00528C45",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.003902,
-					["passiveover"] = 0.003902,
+					["totalover"] = 0.003902,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "哎哟好烦-逐風者",
 					["spells"] = {
@@ -93683,9 +92936,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.003902,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.003902,
+					["spec"] = 258,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -93808,13 +93061,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.00127,
-					["spec"] = 250,
+					["passiveover"] = 0.00127,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5742-004DE52C",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.00127,
-					["passiveover"] = 0.00127,
+					["totalover"] = 0.00127,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "江中小白龙-古雷曼格",
 					["spells"] = {
@@ -93904,9 +93157,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.00127,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.00127,
+					["spec"] = 250,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -94171,13 +93424,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "MAGE",
-					["totalover"] = 0.005819,
-					["spec"] = 64,
+					["passiveover"] = 0.005819,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5740-0052133C",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.005819,
-					["passiveover"] = 0.005819,
+					["totalover"] = 0.005819,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "何落雪-阿拉希盆地",
 					["spells"] = {
@@ -94197,9 +93450,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.005819,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.005819,
+					["spec"] = 64,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -94664,13 +93917,13 @@ _detalhes_database = {
 					["powertype"] = 6,
 					["flag_original"] = 1300,
 					["classe"] = "DEATHKNIGHT",
-					["totalover"] = 0.008055,
-					["spec"] = 250,
+					["passiveover"] = 0.008055,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-00594F0E",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.008055,
-					["passiveover"] = 0.008055,
+					["totalover"] = 0.008055,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "棒棒得",
 					["spells"] = {
@@ -94733,9 +93986,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.008055,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.008055,
+					["spec"] = 250,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -94822,13 +94075,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "MAGE",
-					["totalover"] = 0.003458,
-					["spec"] = 62,
+					["passiveover"] = 0.003458,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "4487-00391366",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.003458,
-					["passiveover"] = 0.003458,
+					["totalover"] = 0.003458,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "有点潇洒",
 					["spells"] = {
@@ -94846,9 +94099,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.003458,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.003458,
+					["spec"] = 62,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -95489,13 +94742,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "WARLOCK",
-					["totalover"] = 0.005122,
-					["spec"] = 265,
+					["passiveover"] = 0.005122,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5740-005981B7",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.005122,
-					["passiveover"] = 0.005122,
+					["totalover"] = 0.005122,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "矮脚喵丶-阿拉希盆地",
 					["spells"] = {
@@ -95504,9 +94757,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.005122,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.005122,
+					["spec"] = 265,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -95533,13 +94786,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "PRIEST",
-					["totalover"] = 0.007287,
-					["spec"] = 258,
+					["passiveover"] = 0.007287,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5743-0052EEAA",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.007287,
-					["passiveover"] = 0.007287,
+					["totalover"] = 0.007287,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "天堂之羽-逐風者",
 					["spells"] = {
@@ -95572,9 +94825,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.007287,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.007287,
+					["spec"] = 258,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -95594,13 +94847,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "WARLOCK",
-					["totalover"] = 0.007306,
-					["spec"] = 265,
+					["passiveover"] = 0.007306,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5740-00518483",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.007306,
-					["passiveover"] = 0.007306,
+					["totalover"] = 0.007306,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "Kwjr-阿拉希盆地",
 					["spells"] = {
@@ -95609,9 +94862,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.007306,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.007306,
+					["spec"] = 265,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -95698,15 +94951,6 @@ _detalhes_database = {
 					["nome"] = "黑暗神屁-阿拉希盆地",
 					["spells"] = {
 						["_ActorTable"] = {
-							[49998] = {
-								["total"] = 0,
-								["id"] = 49998,
-								["totalover"] = 0,
-								["targets"] = {
-									["黑暗神屁-阿拉希盆地"] = 0,
-								},
-								["counter"] = 0,
-							},
 							[45477] = {
 								["total"] = 0,
 								["id"] = 45477,
@@ -95719,6 +94963,15 @@ _detalhes_database = {
 							[55233] = {
 								["total"] = 0,
 								["id"] = 55233,
+								["totalover"] = 0,
+								["targets"] = {
+									["黑暗神屁-阿拉希盆地"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[49998] = {
+								["total"] = 0,
+								["id"] = 49998,
 								["totalover"] = 0,
 								["targets"] = {
 									["黑暗神屁-阿拉希盆地"] = 0,
@@ -95815,13 +95068,13 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["flag_original"] = 1300,
 					["classe"] = "MAGE",
-					["totalover"] = 0.003611,
-					["spec"] = 64,
+					["passiveover"] = 0.003611,
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["fight_component"] = true,
 					["aID"] = "5743-00483024",
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["alternatepower"] = 0.003611,
-					["passiveover"] = 0.003611,
+					["totalover"] = 0.003611,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "莱泽鹊浠-逐風者",
 					["spells"] = {
@@ -95847,9 +95100,9 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["total"] = 0.003611,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["total"] = 0.003611,
+					["spec"] = 64,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
@@ -96431,15 +95684,6 @@ _detalhes_database = {
 					["nome"] = "又帅又有钱",
 					["spells"] = {
 						["_ActorTable"] = {
-							[12964] = {
-								["total"] = 56,
-								["id"] = 12964,
-								["totalover"] = 0,
-								["targets"] = {
-									["又帅又有钱"] = 56,
-								},
-								["counter"] = 62,
-							},
 							[29131] = {
 								["total"] = 62,
 								["id"] = 29131,
@@ -96457,6 +95701,15 @@ _detalhes_database = {
 									["又帅又有钱"] = 140,
 								},
 								["counter"] = 7,
+							},
+							[12964] = {
+								["total"] = 56,
+								["id"] = 12964,
+								["totalover"] = 0,
+								["targets"] = {
+									["又帅又有钱"] = 56,
+								},
+								["counter"] = 62,
 							},
 						},
 						["tipo"] = 7,
@@ -96669,14 +95922,18 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[54043] = {
-								["id"] = 54043,
+							[32223] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 32223,
+								["uptime"] = 33,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[498] = {
-								["id"] = 498,
+							[54043] = {
+								["id"] = 54043,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -96743,12 +96000,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[32223] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 32223,
-								["uptime"] = 33,
+							[498] = {
+								["id"] = 498,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -97297,8 +96550,8 @@ _detalhes_database = {
 				}, -- [8]
 				{
 					["flag_original"] = 1300,
-					["dispell_oque"] = {
-						[55095] = 1,
+					["dispell_targets"] = {
+						["联盟防爆队-烏蘇雷"] = 1,
 					},
 					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["GetSpellContainer"] = nil --[[ skipped inline function ]],
@@ -97308,6 +96561,29 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["classe"] = "PALADIN",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
+					["dispell_oque"] = {
+						[55095] = 1,
+					},
+					["dispell_spells"] = {
+						["_ActorTable"] = {
+							[4987] = {
+								["dispell"] = 1,
+								["id"] = 4987,
+								["dispell_oque"] = {
+									[55095] = 1,
+								},
+								["targets"] = {
+									["联盟防爆队-烏蘇雷"] = 1,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
+					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
+					["buff_uptime"] = 15,
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[22722] = {
@@ -97377,29 +96653,6 @@ _detalhes_database = {
 							},
 						},
 						["tipo"] = 9,
-					},
-					["dispell_spells"] = {
-						["_ActorTable"] = {
-							[4987] = {
-								["dispell"] = 1,
-								["id"] = 4987,
-								["dispell_oque"] = {
-									[55095] = 1,
-								},
-								["targets"] = {
-									["联盟防爆队-烏蘇雷"] = 1,
-								},
-								["counter"] = 0,
-							},
-						},
-						["tipo"] = 9,
-					},
-					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["buff_uptime"] = 15,
-					["dispell_targets"] = {
-						["联盟防爆队-烏蘇雷"] = 1,
 					},
 					["buff_uptime_targets"] = {
 					},
@@ -97522,12 +96775,13 @@ _detalhes_database = {
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[46089] = {
+							[34767] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
 								["appliedamt"] = 1,
-								["id"] = 46089,
-								["uptime"] = 6,
+								["activedamt"] = 1,
+								["uptime"] = 0,
+								["id"] = 34767,
+								["actived_at"] = 1684770566,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -97543,17 +96797,6 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[34767] = {
-								["refreshamt"] = 0,
-								["appliedamt"] = 1,
-								["activedamt"] = 1,
-								["uptime"] = 0,
-								["id"] = 34767,
-								["actived_at"] = 1684770566,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[20164] = {
 								["refreshamt"] = 0,
 								["appliedamt"] = 1,
@@ -97561,6 +96804,16 @@ _detalhes_database = {
 								["uptime"] = 0,
 								["id"] = 20164,
 								["actived_at"] = 1684770552,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[46089] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 46089,
+								["uptime"] = 6,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -97799,25 +97052,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["cooldowns_defensive_spells"] = {
-						["_ActorTable"] = {
-							[22812] = {
-								["id"] = 22812,
-								["targets"] = {
-									["康樂股長"] = 2,
-								},
-								["counter"] = 2,
-							},
-							[61336] = {
-								["id"] = 61336,
-								["targets"] = {
-									["康樂股長"] = 2,
-								},
-								["counter"] = 2,
-							},
-						},
-						["tipo"] = 9,
-					},
+					["classe"] = "DRUID",
 					["buff_uptime"] = 42579,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["cc_done_spells"] = {
@@ -97839,13 +97074,13 @@ _detalhes_database = {
 							[8983] = {
 								["id"] = 8983,
 								["targets"] = {
+									["团灭发动机-魚人"] = 0,
 									["初生的瓦格里"] = 1,
-									["诶嘿嘿黑嘿嘿-瑪拉頓"] = 0,
 									["被感染的冰虫"] = 1,
 									["天翼丶"] = 0,
 									["伊米海姆防御者"] = 1,
 									["工头沙尔德林"] = 1,
-									["团灭发动机-魚人"] = 0,
+									["诶嘿嘿黑嘿嘿-瑪拉頓"] = 0,
 									["果丹皮灬-魚人"] = 0,
 								},
 								["counter"] = 4,
@@ -97890,7 +97125,6 @@ _detalhes_database = {
 					},
 					["interrupt"] = 1.008129,
 					["fight_component"] = true,
-					["classe"] = "DRUID",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[26982] = {
@@ -98235,6 +97469,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
+					["debuff_uptime_targets"] = {
+					},
 					["cc_done"] = 5.019542,
 					["nome"] = "康樂股長",
 					["grupo"] = true,
@@ -98247,11 +97483,28 @@ _detalhes_database = {
 					["cc_break_targets"] = {
 						["天翼丶"] = 0,
 					},
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[22812] = {
+								["id"] = 22812,
+								["targets"] = {
+									["康樂股長"] = 2,
+								},
+								["counter"] = 2,
+							},
+							[61336] = {
+								["id"] = 61336,
+								["targets"] = {
+									["康樂股長"] = 2,
+								},
+								["counter"] = 2,
+							},
+						},
+						["tipo"] = 9,
+					},
 					["interrupt_targets"] = {
 						["团灭发动机-魚人"] = 0,
 						["撕裂者萨兰纳克斯"] = 1,
-					},
-					["debuff_uptime_targets"] = {
 					},
 				}, -- [12]
 				{
@@ -98335,9 +97588,9 @@ _detalhes_database = {
 					},
 					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["GetSpellContainer"] = nil --[[ skipped inline function ]],
-					["buff_uptime"] = 59,
 					["pets"] = {
 					},
+					["buff_uptime"] = 59,
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
 							[5246] = {
@@ -98522,11 +97775,11 @@ _detalhes_database = {
 					["buff_uptime_targets"] = {
 					},
 					["cc_done"] = 0,
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "東離劍",
 					["spec"] = 71,
 					["grupo"] = true,
-					["nome"] = "東離劍",
+					["debuff_uptime_targets"] = {
+					},
 					["cc_done_targets"] = {
 						["情趣袈裟-魚人"] = 0,
 						["暗影魔"] = 0,
@@ -102474,7 +101727,7 @@ _detalhes_database = {
 					["cc_done"] = 0,
 					["nome"] = "哎哟好烦-逐風者",
 					["grupo"] = true,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["tipo"] = 4,
 					["cc_break_oque"] = {
 					},
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
@@ -102484,7 +101737,7 @@ _detalhes_database = {
 						["雷雨交加夜晚"] = 0,
 						["给一刀-阿拉希盆地"] = 0,
 					},
-					["tipo"] = 4,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["aID"] = "5743-00528C45",
 				}, -- [96]
 				{
@@ -102640,12 +101893,6 @@ _detalhes_database = {
 					["classe"] = "ROGUE",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[1784] = {
-								["id"] = 1784,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[35025] = {
 								["id"] = 35025,
 								["targets"] = {
@@ -102654,6 +101901,12 @@ _detalhes_database = {
 							},
 							[11305] = {
 								["id"] = 11305,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1784] = {
+								["id"] = 1784,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -103025,19 +102278,19 @@ _detalhes_database = {
 						["雕塑爱妃"] = 0,
 					},
 					["fight_component"] = true,
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["nome"] = "雕塑爱妃",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["cc_done"] = 0,
-					["nome"] = "雕塑爱妃",
-					["grupo"] = true,
 					["interrupt"] = 0,
+					["grupo"] = true,
+					["aID"] = "4487-00509A29",
 					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["aID"] = "4487-00509A29",
 					["debuff_uptime_targets"] = {
 					},
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[31224] = {
@@ -104147,12 +103400,6 @@ _detalhes_database = {
 					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[47982] = {
-								["id"] = 47982,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[47793] = {
 								["id"] = 47793,
 								["targets"] = {
@@ -104161,6 +103408,12 @@ _detalhes_database = {
 							},
 							[47856] = {
 								["id"] = 47856,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[47982] = {
+								["id"] = 47982,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -107177,19 +106430,19 @@ _detalhes_database = {
 					["debuff_uptime"] = 0,
 					["classe"] = "WARLOCK",
 					["cc_done"] = 0,
-					["nome"] = "矮脚喵丶-阿拉希盆地",
+					["debuff_uptime_targets"] = {
+					},
 					["spec"] = 265,
 					["grupo"] = true,
 					["GetPets"] = nil --[[ skipped inline function ]],
 					["cc_done_targets"] = {
 						["低调的孩子啊-逐風者"] = 0,
 					},
-					["buff_uptime_targets"] = {
-					},
+					["nome"] = "矮脚喵丶-阿拉希盆地",
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-5740-005981B7",
 					["pvp"] = true,
@@ -107338,14 +106591,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[47813] = {
-								["id"] = 47813,
+							[6215] = {
+								["id"] = 6215,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[6215] = {
-								["id"] = 6215,
+							[47841] = {
+								["id"] = 47841,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -107374,8 +106627,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[47841] = {
-								["id"] = 47841,
+							[47813] = {
+								["id"] = 47813,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -107476,17 +106729,17 @@ _detalhes_database = {
 					["cc_done"] = 0,
 					["nome"] = "Kwjr-阿拉希盆地",
 					["grupo"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 					["dispell_targets"] = {
 						["低调的孩子啊-逐風者"] = 0,
 					},
-					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
+					["tipo"] = 4,
 					["classe"] = "WARLOCK",
 					["debuff_uptime_targets"] = {
 					},
-					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [197]
 				{
 					["flag_original"] = 1300,
@@ -107533,12 +106786,6 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[33405] = {
-								["id"] = 33405,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[27124] = {
 								["id"] = 27124,
 								["targets"] = {
@@ -107547,6 +106794,12 @@ _detalhes_database = {
 							},
 							[74396] = {
 								["id"] = 74396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[33405] = {
+								["id"] = 33405,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -109027,14 +108280,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "怒鬃",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29664-00006CC80F",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [235]
 				{
 					["flag_original"] = 68168,
@@ -109048,14 +108301,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "达库鲁先知",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29697-00006CCC7E",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [236]
 				{
 					["flag_original"] = 68168,
@@ -109069,14 +108322,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "达库鲁饮血者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29654-0000ECCBE8",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [237]
 				{
 					["flag_original"] = 68168,
@@ -109090,14 +108343,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "达库鲁狂暴者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29656-00006CA77D",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [238]
 				{
 					["flag_original"] = 68168,
@@ -109111,14 +108364,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "瓦古唤亡者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29449-00006CCDBD",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [239]
 				{
 					["flag_original"] = 68168,
@@ -109132,14 +108385,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "瓦古符文领主",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29450-00006CCDBD",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [240]
 				{
 					["flag_original"] = 2632,
@@ -109153,14 +108406,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "夺魂女妖",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29646-00006CCBD6",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [241]
 				{
 					["flag_original"] = 68168,
@@ -109174,14 +108427,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "冰霜大地狂怒者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["aID"] = "29436",
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-4490-571-16755-29436-00006CD0AB",
-					["aID"] = "29436",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [242]
 				{
 					["flag_original"] = 68168,
@@ -109195,14 +108448,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "干瘪的巨魔",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16755-28519-00006CD0DF",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [243]
 				{
 					["flag_original"] = 68168,
@@ -109216,14 +108469,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "腐烂憎恶",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16755-28564-00006CD28C",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [244]
 				{
 					["flag_original"] = 2632,
@@ -109237,14 +108490,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "遗忘深渊伏击者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Vehicle-0-5580-571-19575-30204-00006CD3A1",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [245]
 				{
 					["flag_original"] = 2600,
@@ -109258,13 +108511,13 @@ _detalhes_database = {
 					["nome"] = "被解救的北伐军战士",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["aID"] = "30274",
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["serial"] = "Creature-0-5580-571-19575-30274-00006CD6A6",
-					["aID"] = "30274",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [246]
 				{
 					["flag_original"] = 2632,
@@ -109278,14 +108531,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "遗忘深渊追随者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["aID"] = "30205",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-5580-571-19575-30205-00006CD694",
-					["aID"] = "30205",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [247]
 				{
 					["flag_original"] = 2632,
@@ -109299,14 +108552,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "腐尸噬体者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["aID"] = "30206",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-5580-571-19575-30206-0000ECD6BF",
-					["aID"] = "30206",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [248]
 				{
 					["flag_original"] = 2632,
@@ -109320,14 +108573,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "遗忘深渊杀戮者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["aID"] = "30333",
+					["fight_component"] = true,
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["aID"] = "30333",
 					["serial"] = "Creature-0-5580-571-19575-30333-00006CD6E6",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [249]
 				{
 					["flag_original"] = 4369,
@@ -109361,14 +108614,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "霜巢毁灭者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-5580-571-19575-30575-00006CD895",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [251]
 				{
 					["flag_original"] = 2632,
@@ -109382,14 +108635,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "野蛮岭拾荒者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29404-00006CD1A4",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [252]
 				{
 					["flag_original"] = 68168,
@@ -109403,14 +108656,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "瘤皮",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-30003-00006CD7EB",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [253]
 				{
 					["flag_original"] = 68168,
@@ -109424,14 +108677,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "自由的腐蚀者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16753-30868-00006CCF46",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [254]
 				{
 					["flag_original"] = 2632,
@@ -109445,14 +108698,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "杉达拉猎人之魂",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16753-30864-00006CB0CD",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [255]
 				{
 					["flag_original"] = 68168,
@@ -109466,14 +108719,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "自由的树妖",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16753-30860-00006C8068",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [256]
 				{
 					["flag_original"] = 68168,
@@ -109487,14 +108740,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "自由的树人",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["aID"] = "30862",
+					["fight_component"] = true,
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["aID"] = "30862",
 					["serial"] = "Creature-0-4490-571-16753-30862-00006CB20D",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [257]
 				{
 					["flag_original"] = 8465,
@@ -109528,14 +108781,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "水晶蛛网喷毒者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16756-29412-00006CDEF6",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [259]
 				{
 					["flag_original"] = 68168,
@@ -109549,14 +108802,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "冰尖爬行者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16756-29461-00006CDECC",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [260]
 				{
 					["flag_original"] = 68168,
@@ -109571,14 +108824,14 @@ _detalhes_database = {
 					["nome"] = "雪盲挖掘者",
 					["spec"] = 73,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["aID"] = "29413",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4490-571-16756-29413-00006CDF57",
-					["aID"] = "29413",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [261]
 				{
 					["flag_original"] = 68168,
@@ -109592,14 +108845,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雪盲信徒",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29554-00006CE114",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [262]
 				{
 					["flag_original"] = 68168,
@@ -109613,14 +108866,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "塔尔玛·霜胆",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29626-00006CE278",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [263]
 				{
 					["flag_original"] = 68168,
@@ -109634,14 +108887,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "加姆观察者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29553-00006CE205",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [264]
 				{
 					["flag_original"] = 68168,
@@ -109655,14 +108908,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "希弗列尔达风暴之女",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29323-0000ECE178",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [265]
 				{
 					["flag_original"] = 68168,
@@ -109677,14 +108930,14 @@ _detalhes_database = {
 					["nome"] = "希弗列尔达符文师",
 					["spec"] = 64,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["aID"] = "29331",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29331-00006CE0D9",
-					["aID"] = "29331",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [266]
 				{
 					["flag_original"] = 2632,
@@ -109698,14 +108951,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "被感染的冰虫",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["aID"] = "30148",
+					["fight_component"] = true,
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["aID"] = "30148",
 					["serial"] = "Creature-0-4490-571-16756-30148-00006CE62D",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [267]
 				{
 					["flag_original"] = 68168,
@@ -109719,14 +108972,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "基莫拉克",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-30167-00006CE72D",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [268]
 				{
 					["flag_original"] = 68168,
@@ -109740,14 +108993,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "监督者希尔拉",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29518-00006CE40C",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [269]
 				{
 					["flag_original"] = 2632,
@@ -109761,14 +109014,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "海德尼尔监督者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29426-00006CDF38",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [270]
 				{
 					["flag_original"] = 68136,
@@ -109782,13 +109035,13 @@ _detalhes_database = {
 					["nome"] = "筋疲力尽的维库人",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["classe"] = "UNKNOW",
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["serial"] = "Creature-0-4490-571-16756-30146-00006CE49F",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [271]
 				{
 					["flag_original"] = 68136,
@@ -109802,13 +109055,13 @@ _detalhes_database = {
 					["nome"] = "加哈尔",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["classe"] = "UNKNOW",
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["serial"] = "Creature-0-4490-571-16756-30147-00006CE527",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [272]
 				{
 					["flag_original"] = 68168,
@@ -109823,14 +109076,14 @@ _detalhes_database = {
 					["nome"] = "获胜的挑战者",
 					["spec"] = 73,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["classe"] = "WARRIOR",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-4490-571-16756-30012-00006CE7AA",
-					["classe"] = "WARRIOR",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [273]
 				{
 					["flag_original"] = 68168,
@@ -109844,14 +109097,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "冰鬃雪人",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29875-00006CEB46",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [274]
 				{
 					["flag_original"] = 1047,
@@ -110013,13 +109266,13 @@ _detalhes_database = {
 					["nome"] = "海德比武会战熊",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
+					["classe"] = "UNKNOW",
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["serial"] = "Vehicle-0-4490-571-16756-30174-00006CF040",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [276]
 				{
 					["flag_original"] = 68168,
@@ -110033,14 +109286,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "海德比武会龙骑士",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-29694-00006CD84C",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [277]
 				{
 					["flag_original"] = 68168,
@@ -110054,14 +109307,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "风暴语者伊尔达",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4490-571-16756-30046-00006CE1E5",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [278]
 				{
 					["flag_original"] = 2632,
@@ -110075,14 +109328,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "瓦基里安候选者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-4490-571-16756-29569-00006CEAE1",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [279]
 				{
 					["flag_original"] = 2632,
@@ -110096,14 +109349,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "初生的瓦格里",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["aID"] = "29570",
+					["fight_component"] = true,
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["aID"] = "29570",
 					["serial"] = "Creature-0-4490-571-16756-29570-00006CE67B",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [280]
 				{
 					["flag_original"] = 68168,
@@ -110117,14 +109370,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "风暴骑士",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["aID"] = "29624",
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29624-00006DFCF2",
-					["aID"] = "29624",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [281]
 				{
 					["flag_original"] = 2632,
@@ -110138,14 +109391,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸掠夺者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["aID"] = "29382",
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29382-00006E1550",
-					["aID"] = "29382",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [282]
 				{
 					["flag_original"] = 68168,
@@ -110159,14 +109412,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸工头",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29369-00006E16C1",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [283]
 				{
 					["flag_original"] = 2632,
@@ -110180,14 +109433,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸大法师",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29374-00006E185D",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [284]
 				{
 					["flag_original"] = 2632,
@@ -110201,14 +109454,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸勇士",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29370-00006E1881",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [285]
 				{
 					["flag_original"] = 68168,
@@ -110222,14 +109475,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸作战魔像",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29380-00006E186D",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [286]
 				{
 					["flag_original"] = 68168,
@@ -110243,14 +109496,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "风暴之子瓦杜兰",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29368-00006E1A93",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [287]
 				{
 					["flag_original"] = 68168,
@@ -110264,14 +109517,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸技师",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29376-00006E1CB9",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [288]
 				{
 					["flag_original"] = 4369,
@@ -110305,14 +109558,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "钢铁巨像",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-30300-00006E090D",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [290]
 				{
 					["flag_original"] = 68168,
@@ -110326,14 +109579,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "火热的亡魂",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["aID"] = "29504",
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29504-00006E1F4D",
-					["aID"] = "29504",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [291]
 				{
 					["flag_original"] = 68168,
@@ -110347,14 +109600,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "雷铸铁巨人",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29375-00006E1FC7",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [292]
 				{
 					["flag_original"] = 68168,
@@ -110368,14 +109621,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "弗约恩",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16150-29503-00006E21B5",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [293]
 				{
 					["flag_original"] = 68168,
@@ -110389,14 +109642,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "遗忘深渊高阶祭司",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30543-00006E2242",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [294]
 				{
 					["flag_original"] = 68168,
@@ -110411,14 +109664,14 @@ _detalhes_database = {
 					["nome"] = "复活的北伐军战士",
 					["spec"] = 66,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["classe"] = "PALADIN",
+					["fight_component"] = true,
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["classe"] = "PALADIN",
 					["serial"] = "Creature-0-4491-571-16149-30202-00006E2387",
-					["fight_component"] = true,
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [295]
 				{
 					["flag_original"] = 68168,
@@ -110432,14 +109685,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "遗忘深渊虫王",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30541-00006E21CA",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [296]
 				{
 					["flag_original"] = 1298,
@@ -110470,12 +109723,11 @@ _detalhes_database = {
 					},
 					["BuildSpellTargetFromSpellTable"] = nil --[[ skipped inline function ]],
 					["GetSpellContainer"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
-					["pets"] = {
-					},
+					["nome"] = "又帅又有钱",
+					["buff_uptime"] = 600,
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["classe"] = "WARRIOR",
+					["aID"] = "4487-0050C6A6",
 					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[6552] = {
@@ -110607,7 +109859,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 600,
+					["pets"] = {
+					},
 					["interrompeu_oque"] = {
 						[15242] = 3,
 					},
@@ -110615,22 +109868,22 @@ _detalhes_database = {
 					["debuff_uptime"] = 82,
 					["BuildSpellTargetFromBreakdownSpellData"] = nil --[[ skipped inline function ]],
 					["GetPets"] = nil --[[ skipped inline function ]],
-					["buff_uptime_targets"] = {
-					},
-					["interrupt_targets"] = {
-						["撕裂者萨兰纳克斯"] = 3,
-					},
-					["grupo"] = true,
-					["aID"] = "4487-0050C6A6",
+					["interrupt"] = 3.006617,
 					["spec"] = 72,
+					["grupo"] = true,
+					["classe"] = "WARRIOR",
+					["last_event"] = 0,
 					["debuff_uptime_targets"] = {
 					},
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["nome"] = "又帅又有钱",
+					["buff_uptime_targets"] = {
+					},
 					["serial"] = "Player-4487-0050C6A6",
-					["interrupt"] = 3.006617,
+					["interrupt_targets"] = {
+						["撕裂者萨兰纳克斯"] = 3,
+					},
 				}, -- [297]
 				{
 					["flag_original"] = 68168,
@@ -110646,14 +109899,14 @@ _detalhes_database = {
 					["spec"] = 62,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
 					["need_refresh"] = true,
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "MAGE",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30829-00006E1F19",
-					["classe"] = "MAGE",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [298]
 				{
 					["flag_original"] = 68168,
@@ -110668,14 +109921,14 @@ _detalhes_database = {
 					["nome"] = "高阶祭司亚萨尔蒙",
 					["spec"] = 258,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["aID"] = "30831",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30831-00006E1FDA",
-					["aID"] = "30831",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [299]
 				{
 					["flag_original"] = 68168,
@@ -110689,14 +109942,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "虫王塔洛诺克斯",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30830-00006E20B0",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [300]
 				{
 					["flag_original"] = 2632,
@@ -110710,14 +109963,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "天灾苦工",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30984-00016E262A",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [301]
 				{
 					["flag_original"] = 68168,
@@ -110731,14 +109984,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "复活的上尉",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30986-00006E264A",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [302]
 				{
 					["flag_original"] = 68168,
@@ -110752,14 +110005,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "丑恶的药剂师",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30987-0000EE26A3",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [303]
 				{
 					["flag_original"] = 68168,
@@ -110774,14 +110027,14 @@ _detalhes_database = {
 					["nome"] = "死亡使者哈洛夫",
 					["spec"] = 250,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["aID"] = "30989",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-30989-00006E271A",
-					["aID"] = "30989",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [304]
 				{
 					["flag_original"] = 68168,
@@ -110795,14 +110048,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "魔眼",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29747-00006E21A1",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [305]
 				{
 					["flag_original"] = 68168,
@@ -110816,14 +110069,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "暗影教徒",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29717-00006E22FF",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [306]
 				{
 					["flag_original"] = 68168,
@@ -110837,14 +110090,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "死亡骑士大师",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29738-00006E23DA",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [307]
 				{
 					["flag_original"] = 68168,
@@ -110858,14 +110111,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "恐尸",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29719-00006E2333",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [308]
 				{
 					["flag_original"] = 68168,
@@ -110879,14 +110132,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "拱顶恶鬼",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29720-00006E247D",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [309]
 				{
 					["flag_original"] = 68168,
@@ -110900,14 +110153,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "狂乱食尸者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29722-00006E2452",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [310]
 				{
 					["flag_original"] = 68168,
@@ -110921,14 +110174,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "奈丝伍德夫人",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29770-00006E2458",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [311]
 				{
 					["flag_original"] = 68168,
@@ -110942,14 +110195,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "跳跃者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29840-00006E2404",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [312]
 				{
 					["flag_original"] = 68168,
@@ -110963,14 +110216,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "莱斯班恩将军",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-29851-00006E2A30",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [313]
 				{
 					["flag_original"] = 2632,
@@ -110984,14 +110237,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "伊米海姆防御者",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-31746-0001EE1AA4",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [314]
 				{
 					["flag_original"] = 68168,
@@ -111005,14 +110258,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "伊米海姆天选战士",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-31258-00006E1CD8",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [315]
 				{
 					["flag_original"] = 2632,
@@ -111026,14 +110279,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "瓦格里工头",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["fight_component"] = true,
+					["aID"] = "31396",
+					["tipo"] = 4,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["last_event"] = 0,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["tipo"] = 4,
+					["fight_component"] = true,
 					["serial"] = "Creature-0-4491-571-16149-31396-00006E284A",
-					["aID"] = "31396",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [316]
 				{
 					["flag_original"] = 68168,
@@ -111048,14 +110301,14 @@ _detalhes_database = {
 					["nome"] = "工头沙尔德林",
 					["spec"] = 73,
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["aID"] = "31399",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-31399-00006E2806",
-					["aID"] = "31399",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [317]
 				{
 					["flag_original"] = 2632,
@@ -111069,14 +110322,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "伊米亚元素师",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-31267-00006E11BD",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [318]
 				{
 					["flag_original"] = 68168,
@@ -111090,14 +110343,14 @@ _detalhes_database = {
 					["GetSpellTableFromContainer"] = nil --[[ skipped inline function ]],
 					["nome"] = "腐尸猎鹰",
 					["GetSpellList"] = nil --[[ skipped inline function ]],
-					["GetPets"] = nil --[[ skipped inline function ]],
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["GetSpellContainerNames"] = nil --[[ skipped inline function ]],
 					["tipo"] = 4,
 					["GetTargets"] = nil --[[ skipped inline function ]],
-					["last_event"] = 0,
+					["monster"] = true,
 					["serial"] = "Creature-0-4491-571-16149-31263-00006E13FB",
-					["classe"] = "UNKNOW",
+					["GetPets"] = nil --[[ skipped inline function ]],
 				}, -- [319]
 			},
 		}, -- [4]
@@ -111190,426 +110443,9 @@ _detalhes_database = {
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["spells_cast_timeline"] = {
-		},
-		["hasSaved"] = true,
 		["frags"] = {
 		},
-		["data_fim"] = "23:42:40",
-		["overall_enemy_name"] = "-- x -- x --",
-		["amountCasts"] = {
-			["自由的树人"] = {
-				["荆棘术"] = 1,
-				["腐蚀新生"] = 10,
-			},
-			["工头沙尔德林"] = {
-				["冰霜震击"] = 2,
-				["打击"] = 1,
-				["顺劈斩"] = 6,
-				["撕裂"] = 2,
-			},
-			["改进型地雷 <康樂股長>"] = {
-				["引爆"] = 10,
-			},
-			["风暴语者伊尔达"] = {
-				["召唤闪电"] = 1,
-				["台风"] = 1,
-			},
-			["钢铁巨像"] = {
-				["砸击地面"] = 3,
-			},
-			["被解救的北伐军战士"] = {
-				["智慧祝福"] = 8,
-				["圣光术"] = 5,
-			},
-			["初生的瓦格里"] = {
-				["鞭笞"] = 9,
-				["瓦格雷之触"] = 7,
-			},
-			["雷铸工头"] = {
-				["闪电充能"] = 2,
-				["风暴打击"] = 3,
-			},
-			["弗约恩"] = {
-				["烈焰吐息"] = 2,
-			},
-			["火热的亡魂"] = {
-				["沸腾烈焰"] = 8,
-			},
-			["瑜孫有唔"] = {
-				["暗影打击"] = 1,
-				["冰冷触摸"] = 1,
-				["阿彻鲁斯死亡战马"] = 1,
-			},
-			["自由的腐蚀者"] = {
-				["奥术箭"] = 4,
-				["能量转移"] = 1,
-			},
-			["冰尖爬行者"] = {
-				["冰尖之毒"] = 1,
-			},
-			["遗失娃娃"] = {
-				["杀戮命令"] = 1,
-			},
-			["雷铸作战魔像"] = {
-				["风暴冲击"] = 4,
-			},
-			["被驯服的冰虫 <康樂股長>"] = {
-				["酸性吐息"] = 1,
-			},
-			["无情播种机"] = {
-				["寒冰箭"] = 1,
-				["闪现术"] = 1,
-			},
-			["遗忘深渊杀戮者"] = {
-				["利爪猛击"] = 45,
-				["蛛网之绳"] = 1,
-			},
-			["天灾苦工"] = {
-				["血肉腐烂"] = 3,
-				["顺劈斩"] = 2,
-			},
-			["高阶祭司亚萨尔蒙"] = {
-				["心灵尖啸"] = 1,
-				["精神鞭笞"] = 4,
-				["覆体之网"] = 2,
-				["毒性撕咬"] = 2,
-			},
-			["复活的上尉"] = {
-				["复仇者之盾"] = 7,
-				["不公之锤"] = 1,
-			},
-			["希弗列尔达风暴之女"] = {
-				["风暴雷云"] = 3,
-			},
-			["风暴骑士"] = {
-				["叉状闪电"] = 5,
-				["风暴打击"] = 6,
-			},
-			["伊米亚元素师"] = {
-				["撕裂大地"] = 2,
-				["雪崩"] = 2,
-			},
-			["魔眼"] = {
-				["致命凝视"] = 9,
-			},
-			["又帅又有钱"] = {
-				["英勇打击"] = 8,
-				["冲锋"] = 1,
-				["狂暴之怒"] = 4,
-				["拳击"] = 3,
-				["猛击！"] = 12,
-				["命令怒吼"] = 1,
-				["顺劈斩"] = 3,
-				["乘胜追击"] = 3,
-				["旋风斩"] = 11,
-				["狂暴姿态"] = 1,
-				["嗜血"] = 33,
-				["战斗姿态"] = 1,
-				["血性狂暴"] = 7,
-			},
-			["迷失娃娃"] = {
-				["急奔"] = 1,
-			},
-			["腐烂憎恶"] = {
-				["邪恶呕吐"] = 3,
-			},
-			["老阴座小鸡"] = {
-				["心灵震爆"] = 1,
-				["精神鞭笞"] = 1,
-			},
-			["萧萧灬三号-烏蘇雷"] = {
-				["愤怒之锤"] = 1,
-				["清洁术"] = 1,
-			},
-			["夺魂女妖"] = {
-				["女妖哀嚎"] = 7,
-			},
-			["干瘪的巨魔"] = {
-				["枯萎打击"] = 11,
-			},
-			["冰霜大地狂怒者"] = {
-				["雪崩"] = 12,
-			},
-			["海德尼尔监督者"] = {
-				["猛踢"] = 2,
-				["战斗怒吼"] = 1,
-			},
-			["奈丝伍德夫人"] = {
-				["女妖诅咒"] = 2,
-			},
-			["筋疲力尽的维库人"] = {
-				["绝望打击"] = 1,
-			},
-			["雷铸大法师"] = {
-				["落雷之云"] = 1,
-				["闪电之盾"] = 2,
-			},
-			["跳跃者"] = {
-				["影袭"] = 1,
-				["血之饥渴"] = 1,
-			},
-			["丑恶的药剂师"] = {
-				["圆弧斩"] = 6,
-			},
-			["野蛮岭拾荒者"] = {
-				["掷骨"] = 1,
-			},
-			["腐尸噬体者"] = {
-				["麻痹毒药"] = 10,
-			},
-			["联盟防爆队-烏蘇雷"] = {
-				["召唤军马"] = 1,
-				["神圣风暴"] = 1,
-				["圣光术"] = 1,
-			},
-			["雷铸铁巨人"] = {
-				["震荡波"] = 5,
-			},
-			["莱斯班恩将军"] = {
-				["暗影打击"] = 2,
-				["顺劈斩"] = 2,
-				["枯萎凋零"] = 2,
-			},
-			["霜巢毁灭者"] = {
-				["飞翼打击"] = 2,
-				["冰冻吐息"] = 1,
-			},
-			["恐尸"] = {
-				["顺劈斩"] = 2,
-			},
-			["怒鬃"] = {
-				["鳍肢重击"] = 2,
-			},
-			["迷失娃娃 <遗失娃娃>"] = {
-				["狂怒之嚎"] = 1,
-			},
-			["冰鬃雪人"] = {
-				["猛烈撞击"] = 3,
-			},
-			["霜齿"] = {
-				["地面速冻"] = 1,
-			},
-			["腐尸猎鹰"] = {
-				["爪击"] = 1,
-			},
-			["狂乱食尸者"] = {
-				["血肉撕咬"] = 1,
-			},
-			["塔尔玛·霜胆"] = {
-				["獠牙打击"] = 1,
-			},
-			["東離劍"] = {
-				["冲锋"] = 1,
-				["横扫攻击"] = 1,
-				["旋风斩"] = 7,
-				["狂暴姿态"] = 1,
-				["利刃风暴"] = 1,
-			},
-			["杉达拉猎人之魂"] = {
-				["射击"] = 1,
-			},
-			["瓦古唤亡者"] = {
-				["天灾箭"] = 3,
-			},
-			["雷铸勇士"] = {
-				["闪电充能"] = 4,
-			},
-			["雪盲挖掘者"] = {
-				["破甲攻击"] = 7,
-				["穿刺之伤"] = 9,
-			},
-			["瘤皮"] = {
-				["灼烧"] = 1,
-			},
-			["瓦格里工头"] = {
-				["反手一击"] = 15,
-				["瓦格雷之触"] = 4,
-			},
-			["银色火炮 <康樂股長>"] = {
-				["清算炸弹"] = 2,
-				["银色火炮"] = 41,
-			},
-			["水晶蛛网喷毒者"] = {
-				["水晶之刺"] = 2,
-				["蛛网"] = 2,
-			},
-			["获胜的挑战者"] = {
-				["破甲攻击"] = 6,
-				["Victorious Challenger Dummy"] = 4,
-				["撕裂"] = 5,
-			},
-			["拱顶恶鬼"] = {
-				["割裂"] = 2,
-			},
-			["雷铸掠夺者"] = {
-				["雷霆风暴"] = 38,
-			},
-			["水元素"] = {
-				["水箭"] = 1,
-			},
-			["死亡使者哈洛夫"] = {
-				["湮没"] = 1,
-				["冰冷触摸"] = 2,
-				["血液沸腾"] = 1,
-				["凋零缠绕"] = 1,
-			},
-			["康樂股長"] = {
-				["野性冲锋 - 熊"] = 1,
-				["狂暴回复"] = 3,
-				["巨熊形态"] = 5,
-				["野蛮咆哮"] = 295,
-				["改进型地雷"] = 5,
-				["生存本能"] = 2,
-				["精灵之火（野性）"] = 474,
-				["挫志咆哮"] = 2,
-				["水栖形态"] = 1,
-				["驱毒术"] = 1,
-				["治疗之触"] = 24,
-				["裂伤（熊）"] = 12,
-				["旅行形态"] = 2,
-				["月火术"] = 4,
-				["荆棘术"] = 1,
-				["树皮术"] = 2,
-				["猛虎之怒"] = 181,
-				["土质药膏"] = 2,
-				["横扫（熊）"] = 9,
-				["泼洒圣水"] = 2,
-				["狂暴"] = 11,
-				["裂伤（豹）"] = 194,
-				["重殴"] = 21,
-				["解除诅咒"] = 1,
-				["统治魔棒"] = 3,
-				["横扫（豹）"] = 115,
-				["激怒"] = 3,
-				["猎豹形态"] = 36,
-				["凶猛撕咬"] = 414,
-				["爪击"] = 1099,
-				["割伤"] = 4,
-				["斜掠"] = 415,
-				["猛击"] = 5,
-				["野性印记"] = 1,
-				["急奔"] = 2,
-				["迅捷飞行形态"] = 1,
-				["治疗药水"] = 1,
-				["割碎"] = 2,
-			},
-			["风暴之子瓦杜兰"] = {
-				["闪电箭"] = 7,
-				["球状闪电"] = 1,
-				["火花狂乱"] = 2,
-			},
-			["瓦基里安候选者"] = {
-				["混乱"] = 20,
-			},
-			["虫王塔洛诺克斯"] = {
-				["致盲虫群"] = 1,
-			},
-			["海德比武会龙骑士"] = {
-				["致死打击"] = 8,
-			},
-			["基莫拉克"] = {
-				["角刺"] = 1,
-			},
-			["被驯服的冰虫"] = {
-				["酸性吐息"] = 12,
-				["冰虫打击"] = 21,
-				["突现"] = 3,
-				["下潜"] = 3,
-			},
-			["雷铸技师"] = {
-				["闪电灌注"] = 12,
-			},
-			["遗忘深渊伏击者"] = {
-				["雪地突现"] = 10,
-				["顺劈斩"] = 7,
-			},
-			["被感染的冰虫"] = {
-				["冰虫撕咬"] = 6,
-				["强力撕咬"] = 13,
-			},
-			["加姆观察者"] = {
-				["猛犸人冲锋"] = 1,
-			},
-			["撕裂者萨兰纳克斯"] = {
-				["火球术"] = 1,
-				["法术反制"] = 2,
-				["冰锥术"] = 3,
-			},
-			["水元素 <无情播种机>"] = {
-				["冰冻术"] = 1,
-			},
-			["雪盲信徒"] = {
-				["盲者信念"] = 7,
-			},
-			["暗影教徒"] = {
-				["精神灼烧"] = 1,
-			},
-			["他的火热额-阿拉希盆地"] = {
-				["活力分流"] = 1,
-				["寒冰锁链"] = 1,
-				["符文分流"] = 1,
-				["吸血鬼之血"] = 1,
-				["冰封之韧"] = 1,
-			},
-			["达库鲁先知"] = {
-				["天灾之云"] = 1,
-			},
-			["加哈尔"] = {
-				["猛踢"] = 2,
-			},
-			["达库鲁狂暴者"] = {
-				["践踏"] = 3,
-			},
-			["希弗列尔达符文师"] = {
-				["寒冰箭"] = 1,
-			},
-			["遗忘深渊虫王"] = {
-				["颚骨碎裂"] = 1,
-			},
-			["自由的树妖"] = {
-				["打击"] = 4,
-			},
-			["海德比武会战熊"] = {
-				["挫志咆哮"] = 20,
-				["冲锋"] = 2,
-				["冲撞"] = 33,
-			},
-			["监督者希尔拉"] = {
-				["反手一击"] = 1,
-				["旋风斩"] = 3,
-			},
-			["伊米海姆防御者"] = {
-				["淬毒长矛"] = 7,
-				["投掷鱼叉"] = 78,
-			},
-			["萨斯给丶"] = {
-				["正义之锤"] = 3,
-				["超级坚韧"] = 1,
-				["圣光审判"] = 2,
-				["自由之手"] = 1,
-				["奥术洪流"] = 1,
-				["清洁术"] = 1,
-				["神圣恳求"] = 1,
-				["正义盾击"] = 2,
-				["复仇之怒"] = 1,
-				["复仇者之盾"] = 1,
-				["奉献"] = 1,
-			},
-			["死亡骑士大师"] = {
-				["暗影打击"] = 3,
-			},
-			["遗忘深渊高阶祭司"] = {
-				["覆体之网"] = 2,
-				["精神灼烧"] = 5,
-			},
-		},
-		["combat_counter"] = 1361,
-		["start_time"] = 44997.89300000006,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
+		["hasSaved"] = true,
 		["segments_added"] = {
 			{
 				["elapsed"] = 9.905999999995402,
@@ -111852,12 +110688,429 @@ _detalhes_database = {
 				["clock"] = "23:12:14",
 			}, -- [40]
 		},
+		["data_fim"] = "23:42:40",
+		["overall_enemy_name"] = "-- x -- x --",
+		["amountCasts"] = {
+			["自由的树人"] = {
+				["荆棘术"] = 1,
+				["腐蚀新生"] = 10,
+			},
+			["工头沙尔德林"] = {
+				["冰霜震击"] = 2,
+				["打击"] = 1,
+				["顺劈斩"] = 6,
+				["撕裂"] = 2,
+			},
+			["改进型地雷 <康樂股長>"] = {
+				["引爆"] = 10,
+			},
+			["风暴语者伊尔达"] = {
+				["召唤闪电"] = 1,
+				["台风"] = 1,
+			},
+			["钢铁巨像"] = {
+				["砸击地面"] = 3,
+			},
+			["被解救的北伐军战士"] = {
+				["智慧祝福"] = 8,
+				["圣光术"] = 5,
+			},
+			["初生的瓦格里"] = {
+				["鞭笞"] = 9,
+				["瓦格雷之触"] = 7,
+			},
+			["雷铸工头"] = {
+				["闪电充能"] = 2,
+				["风暴打击"] = 3,
+			},
+			["弗约恩"] = {
+				["烈焰吐息"] = 2,
+			},
+			["火热的亡魂"] = {
+				["沸腾烈焰"] = 8,
+			},
+			["瑜孫有唔"] = {
+				["暗影打击"] = 1,
+				["冰冷触摸"] = 1,
+				["阿彻鲁斯死亡战马"] = 1,
+			},
+			["自由的腐蚀者"] = {
+				["奥术箭"] = 4,
+				["能量转移"] = 1,
+			},
+			["冰尖爬行者"] = {
+				["冰尖之毒"] = 1,
+			},
+			["遗失娃娃"] = {
+				["杀戮命令"] = 1,
+			},
+			["雷铸作战魔像"] = {
+				["风暴冲击"] = 4,
+			},
+			["被驯服的冰虫 <康樂股長>"] = {
+				["酸性吐息"] = 1,
+			},
+			["无情播种机"] = {
+				["寒冰箭"] = 1,
+				["闪现术"] = 1,
+			},
+			["遗忘深渊杀戮者"] = {
+				["利爪猛击"] = 45,
+				["蛛网之绳"] = 1,
+			},
+			["天灾苦工"] = {
+				["血肉腐烂"] = 3,
+				["顺劈斩"] = 2,
+			},
+			["高阶祭司亚萨尔蒙"] = {
+				["心灵尖啸"] = 1,
+				["精神鞭笞"] = 4,
+				["覆体之网"] = 2,
+				["毒性撕咬"] = 2,
+			},
+			["复活的上尉"] = {
+				["复仇者之盾"] = 7,
+				["不公之锤"] = 1,
+			},
+			["希弗列尔达风暴之女"] = {
+				["风暴雷云"] = 3,
+			},
+			["风暴骑士"] = {
+				["叉状闪电"] = 5,
+				["风暴打击"] = 6,
+			},
+			["伊米亚元素师"] = {
+				["撕裂大地"] = 2,
+				["雪崩"] = 2,
+			},
+			["魔眼"] = {
+				["致命凝视"] = 9,
+			},
+			["又帅又有钱"] = {
+				["英勇打击"] = 8,
+				["冲锋"] = 1,
+				["狂暴之怒"] = 4,
+				["拳击"] = 3,
+				["猛击！"] = 12,
+				["命令怒吼"] = 1,
+				["顺劈斩"] = 3,
+				["乘胜追击"] = 3,
+				["旋风斩"] = 11,
+				["狂暴姿态"] = 1,
+				["嗜血"] = 33,
+				["战斗姿态"] = 1,
+				["血性狂暴"] = 7,
+			},
+			["迷失娃娃"] = {
+				["急奔"] = 1,
+			},
+			["腐烂憎恶"] = {
+				["邪恶呕吐"] = 3,
+			},
+			["老阴座小鸡"] = {
+				["心灵震爆"] = 1,
+				["精神鞭笞"] = 1,
+			},
+			["萧萧灬三号-烏蘇雷"] = {
+				["愤怒之锤"] = 1,
+				["清洁术"] = 1,
+			},
+			["夺魂女妖"] = {
+				["女妖哀嚎"] = 7,
+			},
+			["干瘪的巨魔"] = {
+				["枯萎打击"] = 11,
+			},
+			["冰霜大地狂怒者"] = {
+				["雪崩"] = 12,
+			},
+			["海德尼尔监督者"] = {
+				["猛踢"] = 2,
+				["战斗怒吼"] = 1,
+			},
+			["奈丝伍德夫人"] = {
+				["女妖诅咒"] = 2,
+			},
+			["筋疲力尽的维库人"] = {
+				["绝望打击"] = 1,
+			},
+			["雷铸大法师"] = {
+				["落雷之云"] = 1,
+				["闪电之盾"] = 2,
+			},
+			["跳跃者"] = {
+				["影袭"] = 1,
+				["血之饥渴"] = 1,
+			},
+			["丑恶的药剂师"] = {
+				["圆弧斩"] = 6,
+			},
+			["野蛮岭拾荒者"] = {
+				["掷骨"] = 1,
+			},
+			["腐尸噬体者"] = {
+				["麻痹毒药"] = 10,
+			},
+			["腐尸猎鹰"] = {
+				["爪击"] = 1,
+			},
+			["雷铸铁巨人"] = {
+				["震荡波"] = 5,
+			},
+			["联盟防爆队-烏蘇雷"] = {
+				["召唤军马"] = 1,
+				["神圣风暴"] = 1,
+				["圣光术"] = 1,
+			},
+			["霜巢毁灭者"] = {
+				["飞翼打击"] = 2,
+				["冰冻吐息"] = 1,
+			},
+			["恐尸"] = {
+				["顺劈斩"] = 2,
+			},
+			["怒鬃"] = {
+				["鳍肢重击"] = 2,
+			},
+			["莱斯班恩将军"] = {
+				["暗影打击"] = 2,
+				["顺劈斩"] = 2,
+				["枯萎凋零"] = 2,
+			},
+			["冰鬃雪人"] = {
+				["猛烈撞击"] = 3,
+			},
+			["霜齿"] = {
+				["地面速冻"] = 1,
+			},
+			["希弗列尔达符文师"] = {
+				["寒冰箭"] = 1,
+			},
+			["狂乱食尸者"] = {
+				["血肉撕咬"] = 1,
+			},
+			["塔尔玛·霜胆"] = {
+				["獠牙打击"] = 1,
+			},
+			["東離劍"] = {
+				["冲锋"] = 1,
+				["横扫攻击"] = 1,
+				["旋风斩"] = 7,
+				["狂暴姿态"] = 1,
+				["利刃风暴"] = 1,
+			},
+			["杉达拉猎人之魂"] = {
+				["射击"] = 1,
+			},
+			["瓦古唤亡者"] = {
+				["天灾箭"] = 3,
+			},
+			["雷铸勇士"] = {
+				["闪电充能"] = 4,
+			},
+			["雪盲挖掘者"] = {
+				["破甲攻击"] = 7,
+				["穿刺之伤"] = 9,
+			},
+			["瘤皮"] = {
+				["灼烧"] = 1,
+			},
+			["瓦格里工头"] = {
+				["反手一击"] = 15,
+				["瓦格雷之触"] = 4,
+			},
+			["银色火炮 <康樂股長>"] = {
+				["清算炸弹"] = 2,
+				["银色火炮"] = 41,
+			},
+			["水晶蛛网喷毒者"] = {
+				["水晶之刺"] = 2,
+				["蛛网"] = 2,
+			},
+			["获胜的挑战者"] = {
+				["破甲攻击"] = 6,
+				["Victorious Challenger Dummy"] = 4,
+				["撕裂"] = 5,
+			},
+			["拱顶恶鬼"] = {
+				["割裂"] = 2,
+			},
+			["雷铸掠夺者"] = {
+				["雷霆风暴"] = 38,
+			},
+			["水元素"] = {
+				["水箭"] = 1,
+			},
+			["死亡使者哈洛夫"] = {
+				["湮没"] = 1,
+				["冰冷触摸"] = 2,
+				["血液沸腾"] = 1,
+				["凋零缠绕"] = 1,
+			},
+			["康樂股長"] = {
+				["野性冲锋 - 熊"] = 1,
+				["狂暴回复"] = 3,
+				["巨熊形态"] = 5,
+				["野蛮咆哮"] = 295,
+				["改进型地雷"] = 5,
+				["生存本能"] = 2,
+				["精灵之火（野性）"] = 474,
+				["挫志咆哮"] = 2,
+				["水栖形态"] = 1,
+				["驱毒术"] = 1,
+				["治疗之触"] = 24,
+				["裂伤（熊）"] = 12,
+				["旅行形态"] = 2,
+				["月火术"] = 4,
+				["荆棘术"] = 1,
+				["树皮术"] = 2,
+				["猛虎之怒"] = 181,
+				["土质药膏"] = 2,
+				["横扫（熊）"] = 9,
+				["泼洒圣水"] = 2,
+				["狂暴"] = 11,
+				["裂伤（豹）"] = 194,
+				["重殴"] = 21,
+				["解除诅咒"] = 1,
+				["统治魔棒"] = 3,
+				["横扫（豹）"] = 115,
+				["激怒"] = 3,
+				["猎豹形态"] = 36,
+				["凶猛撕咬"] = 414,
+				["爪击"] = 1099,
+				["割伤"] = 4,
+				["斜掠"] = 415,
+				["猛击"] = 5,
+				["野性印记"] = 1,
+				["急奔"] = 2,
+				["迅捷飞行形态"] = 1,
+				["治疗药水"] = 1,
+				["割碎"] = 2,
+			},
+			["风暴之子瓦杜兰"] = {
+				["闪电箭"] = 7,
+				["球状闪电"] = 1,
+				["火花狂乱"] = 2,
+			},
+			["瓦基里安候选者"] = {
+				["混乱"] = 20,
+			},
+			["虫王塔洛诺克斯"] = {
+				["致盲虫群"] = 1,
+			},
+			["海德比武会龙骑士"] = {
+				["致死打击"] = 8,
+			},
+			["基莫拉克"] = {
+				["角刺"] = 1,
+			},
+			["被驯服的冰虫"] = {
+				["酸性吐息"] = 12,
+				["冰虫打击"] = 21,
+				["突现"] = 3,
+				["下潜"] = 3,
+			},
+			["雷铸技师"] = {
+				["闪电灌注"] = 12,
+			},
+			["遗忘深渊伏击者"] = {
+				["雪地突现"] = 10,
+				["顺劈斩"] = 7,
+			},
+			["被感染的冰虫"] = {
+				["冰虫撕咬"] = 6,
+				["强力撕咬"] = 13,
+			},
+			["加姆观察者"] = {
+				["猛犸人冲锋"] = 1,
+			},
+			["撕裂者萨兰纳克斯"] = {
+				["火球术"] = 1,
+				["法术反制"] = 2,
+				["冰锥术"] = 3,
+			},
+			["水元素 <无情播种机>"] = {
+				["冰冻术"] = 1,
+			},
+			["雪盲信徒"] = {
+				["盲者信念"] = 7,
+			},
+			["暗影教徒"] = {
+				["精神灼烧"] = 1,
+			},
+			["他的火热额-阿拉希盆地"] = {
+				["活力分流"] = 1,
+				["寒冰锁链"] = 1,
+				["符文分流"] = 1,
+				["吸血鬼之血"] = 1,
+				["冰封之韧"] = 1,
+			},
+			["达库鲁先知"] = {
+				["天灾之云"] = 1,
+			},
+			["加哈尔"] = {
+				["猛踢"] = 2,
+			},
+			["达库鲁狂暴者"] = {
+				["践踏"] = 3,
+			},
+			["迷失娃娃 <遗失娃娃>"] = {
+				["狂怒之嚎"] = 1,
+			},
+			["遗忘深渊虫王"] = {
+				["颚骨碎裂"] = 1,
+			},
+			["自由的树妖"] = {
+				["打击"] = 4,
+			},
+			["海德比武会战熊"] = {
+				["挫志咆哮"] = 20,
+				["冲锋"] = 2,
+				["冲撞"] = 33,
+			},
+			["监督者希尔拉"] = {
+				["反手一击"] = 1,
+				["旋风斩"] = 3,
+			},
+			["伊米海姆防御者"] = {
+				["淬毒长矛"] = 7,
+				["投掷鱼叉"] = 78,
+			},
+			["萨斯给丶"] = {
+				["正义之锤"] = 3,
+				["超级坚韧"] = 1,
+				["圣光审判"] = 2,
+				["自由之手"] = 1,
+				["奥术洪流"] = 1,
+				["清洁术"] = 1,
+				["神圣恳求"] = 1,
+				["正义盾击"] = 2,
+				["复仇之怒"] = 1,
+				["复仇者之盾"] = 1,
+				["奉献"] = 1,
+			},
+			["死亡骑士大师"] = {
+				["暗影打击"] = 3,
+			},
+			["遗忘深渊高阶祭司"] = {
+				["覆体之网"] = 2,
+				["精神灼烧"] = 5,
+			},
+		},
+		["combat_counter"] = 1361,
+		["start_time"] = 44997.89300000006,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["spells_cast_timeline"] = {
+		},
 	},
 	["last_instance_time"] = 0,
-	["character_data"] = {
-		["logons"] = 84,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
-	["ignore_nicktag"] = false,
+	["last_version"] = "3.4.1 11023",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -111908,6 +111161,5 @@ _detalhes_database = {
 		["Player-4487-005157E0"] = "DAMAGER",
 	},
 	["cached_specs"] = {
-		["Player-4487-001E59BA"] = 105,
 	},
 }
