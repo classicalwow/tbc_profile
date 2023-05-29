@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
-	["LastPlayerFullName"] = "康樂股長-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 42872,
@@ -92,6 +90,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:42868::::::::77:::::::::|h[海德尼尔敲头槌]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "康樂股長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -18,35 +18,9 @@ GlobalIgnoreDB = {
 		"player", -- [3]
 		"player", -- [4]
 	},
-	["ignoreList"] = {
-		"呆呆家的鼹鼠-伊弗斯", -- [1]
-		"一老牛-伊弗斯", -- [2]
-		"月魔夕-伊弗斯", -- [3]
-		"柚子桃桃-伊弗斯", -- [4]
-	},
 	["openWithFriends"] = true,
+	["invertSpam"] = false,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-		{
-			"康樂股長-伊弗斯@2", -- [1]
-			"特斯拉大股東-伊弗斯@1", -- [2]
-		}, -- [1]
-		{
-			"康樂股長-伊弗斯@2", -- [1]
-			"特斯拉大股東-伊弗斯@1", -- [2]
-		}, -- [2]
-		{
-			"康樂股長-伊弗斯@2", -- [1]
-			"特斯拉大股東-伊弗斯@1", -- [2]
-		}, -- [3]
-		{
-			"康樂股長-伊弗斯@2", -- [1]
-			"特斯拉大股東-伊弗斯@1", -- [2]
-		}, -- [4]
-	},
-	["autoTime"] = 600,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -60,14 +34,7 @@ GlobalIgnoreDB = {
 		"[nonlatin]", -- [10]
 	},
 	["trackChanges"] = true,
-	["autoIgnore"] = true,
-	["factionList"] = {
-		"Horde", -- [1]
-		"Horde", -- [2]
-		"Horde", -- [3]
-		"Horde", -- [4]
-	},
-	["skipParty"] = false,
+	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -97,6 +64,26 @@ GlobalIgnoreDB = {
 		"焚魂-伊弗斯", -- [26]
 		"Beekìng-伊弗斯", -- [27]
 	},
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["autoUpdate"] = true,
+	["autoIgnore"] = true,
+	["factionList"] = {
+		"Horde", -- [1]
+		"Horde", -- [2]
+		"Horde", -- [3]
+		"Horde", -- [4]
+	},
+	["defexpire"] = 0,
+	["sameserver"] = true,
 	["attachFriends"] = true,
 	["notes"] = {
 		"刷屏", -- [1]
@@ -113,7 +100,12 @@ GlobalIgnoreDB = {
 	["skipGuild"] = true,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
-	["defexpire"] = 0,
+	["dateList"] = {
+		"21 May 2023", -- [1]
+		"21 May 2023", -- [2]
+		"21 May 2023", -- [3]
+		"21 May 2023", -- [4]
+	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
 		"Filter Thunderfury linking", -- [2]
@@ -126,7 +118,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -139,15 +131,15 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
-		"21 May 2023", -- [1]
-		"21 May 2023", -- [2]
-		"21 May 2023", -- [3]
-		"21 May 2023", -- [4]
-	},
-	["sameserver"] = true,
-	["autoUpdate"] = true,
+	["asknote"] = true,
+	["skipParty"] = false,
+	["revision"] = 1,
+	["autoTime"] = 600,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["ignoreList"] = {
+		"呆呆家的鼹鼠-伊弗斯", -- [1]
+		"一老牛-伊弗斯", -- [2]
+		"月魔夕-伊弗斯", -- [3]
+		"柚子桃桃-伊弗斯", -- [4]
+	},
 }
