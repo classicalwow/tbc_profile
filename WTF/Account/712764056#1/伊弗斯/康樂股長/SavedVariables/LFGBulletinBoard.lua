@@ -35,8 +35,8 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonWG"] = false,
 	["FilterDungeonAQ40"] = false,
 	["FilterDungeonSMC"] = false,
-	["FilterDungeonMC"] = false,
 	["FilterDungeonRFD"] = false,
+	["FilterDungeonMC"] = false,
 	["FilterDungeonDMW"] = false,
 	["FilterDungeonDEBUG"] = true,
 	["FilterDungeonZG"] = false,
@@ -50,9 +50,93 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonEOE"] = false,
 	["FilterDungeonBAD"] = true,
 	["GroupList"] = {
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "呆萌小枭嘚",
+			["lastSeen"] = 1685378334,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00263F6B",
+		}, -- [1]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "萨内蒂",
+			["lastSeen"] = 1685386435,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0042B2D6",
+		}, -- [2]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "圣光忽悠着我",
+			["lastSeen"] = 1685386435,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-00474DA4",
+		}, -- [3]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "大蟒鞋",
+			["lastSeen"] = 1685386435,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00218960",
+		}, -- [4]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "小骡迷你",
+			["lastSeen"] = 1685386435,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-003D41CF",
+		}, -- [5]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "小瓜皮",
+			["lastSeen"] = 1685386435,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-003EA6A1",
+		}, -- [6]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "呆萌小鉥仕",
+			["lastSeen"] = 1685386435,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0025A84D",
+		}, -- [7]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "速渡灭",
+			["lastSeen"] = 1685386435,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-005192AC",
+		}, -- [8]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "白陆爺",
+			["lastSeen"] = 1685386435,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-003A8351",
+		}, -- [9]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "飯飯特稀",
+			["lastSeen"] = 1685386435,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000FD3A4",
+		}, -- [10]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "恶霸",
+			["lastSeen"] = 1685386435,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-003ADCBD",
+		}, -- [11]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "寡婦村大村長",
+			["lastSeen"] = 1685386435,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-00422582",
+		}, -- [12]
 	},
 	["FilterDungeonSV"] = false,
-	["FilterDungeonMAG"] = false,
+	["FilterDungeonVOA"] = false,
 	["FilterDungeonLBRS"] = false,
 	["FilterDungeonDM"] = false,
 	["FilterDungeonAB"] = false,
@@ -61,15 +145,15 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonBFD"] = false,
 	["FilterDungeonSOTA"] = false,
 	["FilterDungeonSFK"] = true,
-	["FilterDungeonSML"] = false,
-	["FilterDungeonSMG"] = false,
 	["FilterDungeonSM2"] = false,
-	["FilterDungeonAQ20"] = false,
+	["FilterDungeonSMG"] = false,
+	["FilterDungeonSML"] = false,
 	["FilterDungeonBWL"] = false,
+	["FilterDungeonAQ20"] = false,
 	["FilterDungeonRFC"] = false,
-	["FilterDungeonUB"] = false,
-	["FilterDungeonUK"] = false,
+	["FilterDungeonNAXX"] = false,
 	["FilterDungeonNAX"] = false,
+	["FilterDungeonUK"] = false,
 	["FilterDungeonBREW"] = false,
 	["FilterDungeonEYE"] = false,
 	["FilterDungeonMISC"] = false,
@@ -84,7 +168,7 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonEOTS"] = true,
 	["FilterDungeonBM"] = false,
 	["FilterDungeonDTK"] = false,
-	["FilterDungeonNAXX"] = false,
+	["FilterDungeonUB"] = false,
 	["FilterLevel"] = false,
 	["FilterDungeonSWP"] = false,
 	["FilterDungeonTRADE"] = false,
@@ -93,11 +177,10 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonBT"] = false,
 	["FilterDungeonOCC"] = false,
 	["FilterDungeonFOS"] = false,
-	["FilterDungeonVOA"] = false,
+	["FilterDungeonMAG"] = false,
 	["FilterDungeonMGT"] = false,
 	["FilterDungeonBRD"] = false,
 	["FilterDungeonMECH"] = false,
-	["HeroicOnly"] = false,
 	["channel"] = {
 		true, -- [1]
 		true, -- [2]
@@ -120,6 +203,7 @@ GroupBulletinBoardDBChar = {
 		true, -- [19]
 		true, -- [20]
 	},
+	["HeroicOnly"] = false,
 	["FilterDungeonOHB"] = false,
 	["FilterDungeonSH"] = false,
 	["NormalOnly"] = false,

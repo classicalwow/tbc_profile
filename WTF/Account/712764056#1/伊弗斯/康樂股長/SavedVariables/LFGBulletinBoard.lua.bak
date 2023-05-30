@@ -36,9 +36,7 @@ GroupBulletinBoardDBChar = {
 	["NormalOnly"] = false,
 	["FilterDungeonSH"] = false,
 	["FilterDungeonOHB"] = false,
-	["FilterDungeonRFD"] = false,
-	["HeroicOnly"] = false,
-	["FilterDungeonDEBUG"] = true,
+	["FilterDungeonMC"] = false,
 	["channel"] = {
 		true, -- [1]
 		true, -- [2]
@@ -61,6 +59,8 @@ GroupBulletinBoardDBChar = {
 		true, -- [19]
 		true, -- [20]
 	},
+	["FilterDungeonDEBUG"] = true,
+	["HeroicOnly"] = false,
 	["FilterDungeonHOLLOW"] = false,
 	["FilterDungeonST"] = false,
 	["FilterDungeonMECH"] = false,
@@ -70,9 +70,9 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonZF"] = false,
 	["FilterDungeonEOE"] = false,
 	["FilterDungeonBAD"] = true,
-	["FilterDungeonMAG"] = false,
-	["FilterDungeonSV"] = false,
 	["FilterDungeonVOA"] = false,
+	["FilterDungeonSV"] = false,
+	["FilterDungeonMAG"] = false,
 	["FilterDungeonFOS"] = false,
 	["FilterDungeonOCC"] = false,
 	["FilterDungeonSSC"] = false,
@@ -83,13 +83,13 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonTRADE"] = false,
 	["FilterDungeonSWP"] = false,
 	["FilterDungeonSMG"] = false,
-	["FilterDungeonSM2"] = false,
+	["FilterDungeonSML"] = false,
 	["FilterLevel"] = false,
-	["FilterDungeonBWL"] = false,
-	["FilterDungeonUB"] = false,
+	["FilterDungeonAQ20"] = false,
 	["FilterDungeonNAXX"] = false,
+	["FilterDungeonUB"] = false,
 	["FilterDungeonDTK"] = false,
-	["FilterDungeonNAX"] = false,
+	["FilterDungeonUK"] = false,
 	["FilterDungeonBM"] = false,
 	["FilterDungeonMISC"] = false,
 	["FilterDungeonEYE"] = false,
@@ -103,10 +103,10 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonGD"] = false,
 	["FilterDungeonEOTS"] = true,
 	["FilterDungeonBREW"] = false,
-	["FilterDungeonUK"] = false,
+	["FilterDungeonNAX"] = false,
 	["FilterDungeonRFC"] = false,
-	["FilterDungeonAQ20"] = false,
-	["FilterDungeonSML"] = false,
+	["FilterDungeonBWL"] = false,
+	["FilterDungeonSM2"] = false,
 	["FilterDungeonSFK"] = true,
 	["FilterDungeonBFD"] = false,
 	["FilterDungeonUBRS"] = false,
@@ -114,13 +114,83 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonDM"] = false,
 	["FilterDungeonLBRS"] = false,
 	["GroupList"] = {
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "飯飯特稀",
+			["lastSeen"] = 1685377969,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000FD3A4",
+		}, -- [1]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "小骡迷你",
+			["lastSeen"] = 1685377969,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-003D41CF",
+		}, -- [2]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "小瓜皮",
+			["lastSeen"] = 1685377969,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-003EA6A1",
+		}, -- [3]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "大蟒鞋",
+			["lastSeen"] = 1685377969,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00218960",
+		}, -- [4]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "萨内蒂",
+			["lastSeen"] = 1685377969,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0042B2D6",
+		}, -- [5]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "白陆爺",
+			["lastSeen"] = 1685377969,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-003A8351",
+		}, -- [6]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "恶霸",
+			["lastSeen"] = 1685377969,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-003ADCBD",
+		}, -- [7]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "速渡灭",
+			["lastSeen"] = 1685377969,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-005192AC",
+		}, -- [8]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "圣光忽悠着我",
+			["lastSeen"] = 1685377969,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-00474DA4",
+		}, -- [9]
+		{
+			["dungeon"] = "奥杜尔",
+			["name"] = "呆萌小枭嘚",
+			["lastSeen"] = 1685377969,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00263F6B",
+		}, -- [10]
 	},
 	["FilterDungeonHOL"] = false,
 	["FilterDungeonDME"] = false,
 	["FilterDungeonDMN"] = false,
 	["FilterDungeonZG"] = false,
 	["FilterDungeonDMW"] = false,
-	["FilterDungeonMC"] = false,
+	["FilterDungeonRFD"] = false,
 	["FilterDungeonSMC"] = false,
 	["FilterDungeonAQ40"] = false,
 }
