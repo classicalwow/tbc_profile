@@ -1,4 +1,11 @@
 Version: 1
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 208
+Y: -100
+W: 1170
+H: 549
 Frame: ReplayFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,13 +27,6 @@ X: -28
 Y: 19
 W: 768
 H: 447
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 208
-Y: -100
-W: 1170
-H: 549
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
