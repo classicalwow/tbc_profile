@@ -95,12 +95,9 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["巴非特 - 伊弗斯"] = {
-			["class_index"] = 8,
-			["version"] = 6.1,
-			["spec_index"] = 2,
-			["phase_index"] = 3,
 			["minimapPos"] = 289.1762105018657,
-			["data_source"] = "wh",
+			["spec_index"] = 2,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -154,6 +151,9 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["class_index"] = 8,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["家駒 - 伊弗斯"] = {
 			["class_index"] = 5,
