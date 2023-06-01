@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 2220,
 	["lastSanitation"] = 3,
-	["session"] = 2219,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -177,14 +177,14 @@ BugGrabberDB = {
 		}, -- [22]
 		{
 			["message"] = "Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["time"] = "2023/03/26 20:12:39",
 			["session"] = 1639,
+			["time"] = "2023/03/26 20:12:39",
 			["counter"] = 1,
 		}, -- [23]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["time"] = "2023/03/26 20:12:39",
 			["session"] = 1639,
+			["time"] = "2023/03/26 20:12:39",
 			["counter"] = 1,
 		}, -- [24]
 		{
@@ -781,21 +781,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [101]
 		{
-			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2023/02/25 11:45:05",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 2219,
-			["counter"] = 773,
-		}, -- [102]
-		{
 			["message"] = "...t/712764056#1/伊弗斯/康樂股長/SavedVariables/GlobalIgnoreList.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:47",
 			["locals"] = "",
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [103]
+		}, -- [102]
 		{
 			["message"] = "...t/712764056#1/伊弗斯/康樂股長/SavedVariables/HeyboxPlayerInfo.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:50",
@@ -803,7 +795,7 @@ BugGrabberDB = {
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [104]
+		}, -- [103]
 		{
 			["message"] = "...t/712764056#1/伊弗斯/康樂股長/SavedVariables/LFGBulletinBoard.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:50",
@@ -811,7 +803,7 @@ BugGrabberDB = {
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [105]
+		}, -- [104]
 		{
 			["message"] = "...unt/712764056#1/伊弗斯/康樂股長/SavedVariables/LoonBestInSlot.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:50",
@@ -819,7 +811,7 @@ BugGrabberDB = {
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [106]
+		}, -- [105]
 		{
 			["message"] = "...ccount/712764056#1/伊弗斯/康樂股長/SavedVariables/LoseControl.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:50",
@@ -827,7 +819,7 @@ BugGrabberDB = {
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [107]
+		}, -- [106]
 		{
 			["message"] = "WTF/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/Myslot.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:51",
@@ -835,7 +827,7 @@ BugGrabberDB = {
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [108]
+		}, -- [107]
 		{
 			["message"] = "WTF/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/Pawn.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:51",
@@ -843,7 +835,7 @@ BugGrabberDB = {
 			["stack"] = "",
 			["session"] = 2219,
 			["counter"] = 1,
-		}, -- [109]
+		}, -- [108]
 		{
 			["message"] = "...2764056#1/伊弗斯/康樂股長/SavedVariables/Blizzard_TimeManager.lua:1: unexpected symbol",
 			["time"] = "2023/05/31 23:13:57",
@@ -851,59 +843,67 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:385: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:476: in function `TimeManager_LoadUI'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:787: in function <Interface_Wrath/FrameXML/UIParent.lua:756>",
 			["session"] = 2219,
 			["counter"] = 1,
+		}, -- [109]
+		{
+			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...64056#1/伊弗斯/康樂股長/SavedVariables/!!!EaseAddonController.lua:1: unexpected symbol",
+			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
+			["counter"] = 1,
 		}, -- [110]
+		{
+			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...F/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/ItemRack.lua:1: unexpected symbol",
+			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
+			["counter"] = 1,
+		}, -- [111]
+		{
+			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...ccount/712764056#1/伊弗斯/康樂股長/SavedVariables/Auctionator.lua:1: unexpected symbol",
+			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
+			["counter"] = 1,
+		}, -- [112]
+		{
+			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/GlobalIgnoreList.lua:1: unexpected symbol",
+			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
+			["counter"] = 1,
+		}, -- [113]
+		{
+			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/HeyboxPlayerInfo.lua:1: unexpected symbol",
+			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
+			["counter"] = 1,
+		}, -- [114]
+		{
+			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2023/02/25 11:45:05",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
+			["session"] = 2220,
+			["counter"] = 774,
+		}, -- [115]
 		{
 			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["time"] = "2023/02/26 20:58:58",
 			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 2219,
-			["counter"] = 498,
-		}, -- [111]
+			["session"] = 2220,
+			["counter"] = 499,
+		}, -- [116]
 		{
 			["message"] = "Interface/AddOns/ElvUI/Core/General/Core.lua:385: attempt to call local 'func' (a boolean value)",
 			["time"] = "2023/05/03 12:45:03",
 			["stack"] = "[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:385: in function `ValueFuncCall'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:337: in function `UpdateMedia'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:265: in function <Interface/AddOns/ElvUI/Core/init.lua:264>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
-			["session"] = 2219,
-			["counter"] = 456,
-		}, -- [112]
+			["session"] = 2220,
+			["counter"] = 458,
+		}, -- [117]
 		{
 			["message"] = "Interface/AddOns/Auctionator/AuctionatorConfig.lua:105: bad argument #1 to 'SetSpacing' (Usage: self:SetSpacing(textType, spacing))",
 			["time"] = "2023/05/03 12:29:49",
 			["locals"] = "(*temporary) = AuctionatorDescriptionHTML {\n 0 = <userdata>\n}\n(*temporary) = 3\n",
 			["stack"] = "[string \"=[C]\"]: in function `SetSpacing'\n[string \"@Interface/AddOns/Auctionator/AuctionatorConfig.lua\"]:105: in function `Atr_SetupOptionsFrame'\n[string \"@Interface/AddOns/Auctionator/AuctionatorConfig.lua\"]:75: in function `Atr_InitOptionsPanels'\n[string \"@Interface/AddOns/Auctionator/Auctionator.lua\"]:938: in function `Atr_OnPlayerEnteringWorld'\n[string \"@Interface/AddOns/Auctionator/Auctionator.lua\"]:180: in function `Atr_EventHandler'\n[string \"*Auctionator.xml:23_OnEvent\"]:1: in function <[string \"*Auctionator.xml:23_OnEvent\"]:1>",
-			["session"] = 2219,
-			["counter"] = 111,
-		}, -- [113]
-		{
-			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...64056#1/伊弗斯/康樂股長/SavedVariables/!!!EaseAddonController.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
-			["session"] = 2219,
-			["counter"] = 1,
-		}, -- [114]
-		{
-			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...F/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/ItemRack.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
-			["session"] = 2219,
-			["counter"] = 1,
-		}, -- [115]
-		{
-			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...ccount/712764056#1/伊弗斯/康樂股長/SavedVariables/Auctionator.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
-			["session"] = 2219,
-			["counter"] = 1,
-		}, -- [116]
-		{
-			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/GlobalIgnoreList.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
-			["session"] = 2219,
-			["counter"] = 1,
-		}, -- [117]
-		{
-			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/HeyboxPlayerInfo.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
-			["session"] = 2219,
-			["counter"] = 1,
+			["session"] = 2220,
+			["counter"] = 112,
 		}, -- [118]
 	},
 }

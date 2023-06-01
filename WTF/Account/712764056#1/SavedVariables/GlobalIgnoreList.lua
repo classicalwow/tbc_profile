@@ -21,36 +21,9 @@ GlobalIgnoreDB = {
 		"player", -- [6]
 		"player", -- [7]
 	},
-	["ignoreList"] = {
-		"长野的天-伊弗斯", -- [1]
-		"微笑的脸-伊弗斯", -- [2]
-		"夢憨憨-伊弗斯", -- [3]
-		"英灵殿-伊弗斯", -- [4]
-		"夏天哦啊-伊弗斯", -- [5]
-		"騒姑娘-伊弗斯", -- [6]
-		"自由之手-伊弗斯", -- [7]
-	},
+	["invertSpam"] = false,
 	["openWithFriends"] = true,
 	["skipPrivate"] = true,
-	["syncInfo"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-		{
-		}, -- [5]
-		{
-		}, -- [6]
-		{
-		}, -- [7]
-	},
-	["trackChanges"] = true,
-	["autoCount"] = 3,
-	["revision"] = 1,
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
 		"[item=19019]", -- [2]
@@ -63,7 +36,19 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
+	["autoCount"] = 3,
+	["sameserver"] = true,
+	["ignoreList"] = {
+		"长野的天-伊弗斯", -- [1]
+		"微笑的脸-伊弗斯", -- [2]
+		"夢憨憨-伊弗斯", -- [3]
+		"英灵殿-伊弗斯", -- [4]
+		"夏天哦啊-伊弗斯", -- [5]
+		"騒姑娘-伊弗斯", -- [6]
+		"自由之手-伊弗斯", -- [7]
+	},
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -74,7 +59,15 @@ GlobalIgnoreDB = {
 		"Horde", -- [6]
 		"Horde", -- [7]
 	},
-	["skipParty"] = false,
+	["dateList"] = {
+		"29 May 2023", -- [1]
+		"29 May 2023", -- [2]
+		"29 May 2023", -- [3]
+		"29 May 2023", -- [4]
+		"29 May 2023", -- [5]
+		"29 May 2023", -- [6]
+		"29 May 2023", -- [7]
+	},
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
 		"殇灬-伊弗斯", -- [2]
@@ -109,15 +102,7 @@ GlobalIgnoreDB = {
 		"柚子桃桃-伊弗斯", -- [31]
 	},
 	["attachFriends"] = true,
-	["notes"] = {
-		"骗子", -- [1]
-		"骗子", -- [2]
-		"随便踢人", -- [3]
-		"骗子", -- [4]
-		"骗子", -- [5]
-		"骗子", -- [6]
-		"骗子", -- [7]
-	},
+	["revision"] = 1,
 	["expList"] = {
 		0, -- [1]
 		0, -- [2]
@@ -127,7 +112,7 @@ GlobalIgnoreDB = {
 		0, -- [6]
 		0, -- [7]
 	},
-	["skipGuild"] = true,
+	["skipParty"] = false,
 	["chatmsg"] = true,
 	["filterTotal"] = 1,
 	["defexpire"] = 0,
@@ -143,7 +128,7 @@ GlobalIgnoreDB = {
 		"Filter WTS", -- [9]
 		"Filter Chinese/Korean/Japanese", -- [10]
 	},
-	["asknote"] = true,
+	["spamFilter"] = true,
 	["filterActive"] = {
 		true, -- [1]
 		true, -- [2]
@@ -156,18 +141,33 @@ GlobalIgnoreDB = {
 		false, -- [9]
 		false, -- [10]
 	},
-	["spamFilter"] = true,
-	["dateList"] = {
-		"29 May 2023", -- [1]
-		"29 May 2023", -- [2]
-		"29 May 2023", -- [3]
-		"29 May 2023", -- [4]
-		"29 May 2023", -- [5]
-		"29 May 2023", -- [6]
-		"29 May 2023", -- [7]
+	["asknote"] = true,
+	["skipGuild"] = true,
+	["notes"] = {
+		"骗子", -- [1]
+		"骗子", -- [2]
+		"随便踢人", -- [3]
+		"骗子", -- [4]
+		"骗子", -- [5]
+		"骗子", -- [6]
+		"骗子", -- [7]
 	},
-	["sameserver"] = true,
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
-	["invertSpam"] = false,
+	["syncInfo"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+		{
+		}, -- [5]
+		{
+		}, -- [6]
+		{
+		}, -- [7]
+	},
 }
