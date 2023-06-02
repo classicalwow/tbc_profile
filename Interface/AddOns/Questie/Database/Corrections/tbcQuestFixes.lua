@@ -140,6 +140,9 @@ function QuestieTBCQuestFixes:Load()
         [968] = {
             [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
         },
+        [990] = {
+            [questKeys.exclusiveTo] = {}, -- starting with tbc only, exclusivity is present in classic
+        },
         [1001] = {
             [questKeys.requiredLevel] = 7,
             [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
@@ -392,8 +395,19 @@ function QuestieTBCQuestFixes:Load()
         [5168] = {
             [questKeys.preQuestSingle] = {5210},
         },
+        [5401] = {
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.exclusiveTo] = {5405,5503},
+        },
+        [5405] = {
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.exclusiveTo] = {5401,5503},
+        },
         [5502] = {
             [questKeys.questLevel] = -1,
+        },
+        [5503] = {
+            [questKeys.exclusiveTo] = {5401,5405},
         },
         [5649] = {
             [questKeys.requiredLevel] = 5,

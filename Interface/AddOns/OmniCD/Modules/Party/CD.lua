@@ -162,15 +162,20 @@ local function ResetCdByCast(info, reset, spellID)
 					end
 				end
 			else
-				if resetID == 6143 and info.active[resetID] and resetID == info.active[resetID].castedLink then
-					local linkedIcon = info.spellIcons[543]
-					if linkedIcon and linkedIcon.active then
-						P:ResetCooldown(linkedIcon)
-					end
-				end
 				local icon = info.spellIcons[resetID]
 				if icon and icon.active then
-					P:ResetCooldown(icon)
+
+					if resetID == 6143 then
+						if info.active[resetID] and resetID == info.active[resetID].castedLink then
+							local linkedIcon = info.spellIcons[543]
+							if linkedIcon and linkedIcon.active then
+								P:ResetCooldown(linkedIcon)
+							end
+							P:ResetCooldown(icon)
+						end
+					else
+						P:ResetCooldown(icon)
+					end
 				end
 			end
 		elseif resetID and not P:IsTalentForPvpStatus(resetID, info) then
@@ -1470,6 +1475,26 @@ registeredEvents['SPELL_AURA_APPLIED'][360952] = function(info)
 end
 
 
+registeredEvents['SPELL_AURA_APPLIED'][194594] = function(info)
+	info.auras.isLockAndLoad = true
+end
+local RemoveLockAndLoad_OnDelayEnd = function(srcGUID)
+	local info = groupInfo[srcGUID]
+	if info then
+		info.auras.isLockAndLoad = nil
+	end
+end
+registeredEvents['SPELL_AURA_REMOVED'][194594] = function(info, srcGUID)
+	E.TimerAfter(0.05, RemoveLockAndLoad_OnDelayEnd, srcGUID)
+end
+registeredEvents['SPELL_AURA_APPLIED'][288613] = function(info)
+	info.auras.isTrueshot = true
+end
+registeredEvents['SPELL_AURA_REMOVED'][288613] = function(info, srcGUID, spellID, destGUID)
+	info.auras.isTrueshot = nil
+	RemoveHighlightByCLEU(info, srcGUID, spellID, destGUID)
+end
+
 local focusSpenders = {
 	[34026] = 30,
 	[320976] = 10,
@@ -1486,6 +1511,7 @@ local focusSpenders = {
 	[259387] = 30,
 	[187708] = 35,
 	[212436] = 30,
+	[185358] = 40,
 	[342049] = 40,
 	[186387] = 10,
 	[392060] = 15,
@@ -1494,16 +1520,15 @@ local focusSpenders = {
 	[208652] = 30,
 	[205691] = 60,
 	[982] = { [255]=10,["d"]=35 },
-	[185358] = { [254]=20,["d"]=40 },
 	[120360] = { [254]=30,["d"]=60 },
 }
 
 local function ReduceNaturalMendingCD(info, _, spellID)
-	local naturalMendingIcon = info.spellIcons[109304]
+	local exhilarationIcon = info.spellIcons[109304]
+	local naturalMendingRank = exhilarationIcon and exhilarationIcon.active and info.talentData[270581]
 	local trueShotIcon = info.spellIcons[288613]
-	local naturalMendingRank = naturalMendingIcon and naturalMendingIcon.active and info.talentData[270581]
-	local isTrueShotActive	= info.talentData[260404] and trueShotIcon and trueShotIcon.active
-	if naturalMendingRank or isTrueShotActive then
+	local isTrueshotOnCD = info.talentData[260404] and trueShotIcon and trueShotIcon.active
+	if naturalMendingRank or isTrueshotOnCD then
 		local rCD = focusSpenders[spellID]
 		if type(rCD) == "table" then
 			rCD = rCD[info.spec] or rCD.d
@@ -1522,27 +1547,31 @@ local function ReduceNaturalMendingCD(info, _, spellID)
 				end
 			end
 		elseif info.spec == 254 then
-			local isArcaneChimaera = spellID == 185358 or spellID == 342049
-			if isArcaneChimaera or spellID == 257620 or spellID == 19434 then
-				if isArcaneChimaera then
-					if info.talentData[321293] then
-						rCD = rCD - 20
-					end
+
+			if info.auras.isLockAndLoad and spellID == 19434 then
+				return
+			end
+
+			if spellID == 185358 or spellID == 342049 then
+				if info.talentData[321293] then
+					rCD = rCD - 20
 				end
-				local mult = info.talentData[389449]
-				mult = mult and (mult == 2 and .75 or .88)
+			end
+
+			if spellID == 185358 or spellID == 342049 or spellID == 257620 or spellID == 19434 then
+				local mult = info.auras.isTrueshot and info.talentData[389449]
 				if mult then
+					mult = mult == 2 and .75 or .88
 					rCD = rCD * mult
 				end
 			end
-			if  isTrueShotActive then
-				rCD = rCD * 0.05
-				P:UpdateCooldown(trueShotIcon, rCD)
+			if isTrueshotOnCD then
+				P:UpdateCooldown(trueShotIcon, rCD * 0.05)
 			end
 		end
 		if naturalMendingRank then
 			rCD = naturalMendingRank == 2 and rCD/12 or rCD/25
-			P:UpdateCooldown(naturalMendingIcon, rCD)
+			P:UpdateCooldown(exhilarationIcon, rCD)
 		end
 	end
 end
@@ -2636,7 +2665,22 @@ end
 
 local FORBEARANCE_DURATION = E.preCata and (E.isWOTLKC and 120 or 60) or 30
 
-local forbearanceIDs = {
+local forbearanceIDs = E.isBCC and {
+	[1022] = 0,
+	[5599] = 0,
+	[10278] = 0,
+	[498] = 60,
+	[5573] = 60,
+	[642] = 60,
+	[1020] = 60,
+	[31884] = 60,
+} or (E.isWOTLKC and {
+	[1022] = 0,
+	[633] = 0,
+	[498] = 120,
+	[642] = 120,
+	[31884] = 30,
+}) or {
 	[1022] = 0,
 	[204018] = 0,
 	[642] = 30,

@@ -17,7 +17,7 @@ local unitFrameData = {
 	},
 	{
 		[1] = "Grid2",
-		[2] = "Grid2LayoutHeader%dUnitButton",
+		[2] = "Grid2LayoutHeader%dUnitButton", -- not group#
 		[3] = "unit",
 		[4] = 1,
 		[5] = 5,

@@ -726,8 +726,6 @@ E.spell_dispel_cdstart = {
 	[6262] = true,
 }
 
-E.spell_auraapplied_disablespell = E.BLANK
-
 E.selfLimitedMinMaxReducer = {
 	[387184] = true,
 	[192058] = true,

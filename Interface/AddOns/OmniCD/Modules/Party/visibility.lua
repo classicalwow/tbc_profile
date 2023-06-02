@@ -110,7 +110,7 @@ end
 
 local function AnchorFix()
 	P:UpdatePosition()
-	P.callbackTimers.anchorDelay = nil
+	P.callbackTimers.anchorBackup = nil
 end
 
 local function SendRequestSync()
@@ -118,7 +118,7 @@ local function SendRequestSync()
 	if success then
 		CM:RequestSync()
 		P.joinedNewGroup = false
-		P.callbackTimers.syncTimer = nil
+		P.callbackTimers.syncDelay = nil
 	else
 		C_Timer.After(2, SendRequestSync)
 	end
@@ -306,16 +306,16 @@ local function UpdateRosterInfo(force)
 	CM:EnqueueInspect()
 
 	if P.joinedNewGroup or force then
-		if P.callbackTimers.syncTimer then
-			P.callbackTimers.syncTimer:Cancel()
+		if P.callbackTimers.syncDelay then
+			P.callbackTimers.syncDelay:Cancel()
 		end
-		P.callbackTimers.syncTimer = C_Timer.NewTicker(size == 1 and 0 or MSG_INFO_REQUEST_DELAY, SendRequestSync, 1)
+		P.callbackTimers.syncDelay = C_Timer.NewTicker(size == 1 and 0 or MSG_INFO_REQUEST_DELAY, SendRequestSync, 1)
 	end
 
-	if P.callbackTimers.anchorDelay then
-		P.callbackTimers.anchorDelay:Cancel()
+	if P.callbackTimers.anchorBackup then
+		P.callbackTimers.anchorBackup:Cancel()
 	end
-	P.callbackTimers.anchorDelay = C_Timer.NewTicker(6, AnchorFix, (E.customUF.active == "VuhDo" or E.customUF.active == "HealBot") and 2 or 1)
+	P.callbackTimers.anchorBackup = C_Timer.NewTicker(6, AnchorFix, (E.customUF.active == "VuhDo" or E.customUF.active == "HealBot") and 2 or 1)
 
 	CM:ToggleCooldownSync()
 end
@@ -365,7 +365,7 @@ local function IsAnyExBarEnabled()
 end
 
 
-function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
+function P:UpdateAll(isInitialLogin, isReloadingUi, isRefresh, isScheduledTimer)
 	local _, instanceType = IsInInstance()
 	self.zone = instanceType
 	self.isInDungeon = instanceType == "party"
@@ -423,7 +423,23 @@ function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
 		end
 	end
 
+
 	self:GROUP_ROSTER_UPDATE(true, isRefresh)
+
+	if isScheduledTimer then
+		self.callbackTimers.zoneChangeBackup = nil
+	end
+end
+
+
+function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
+	self:UpdateAll(isInitialLogin, isReloadingUi, isRefresh)
+	if not isRefresh then
+		if self.callbackTimers.zoneChangeBackup then
+			self.callbackTimers.zoneChangeBackup:Cancel()
+		end
+		self.callbackTimers.zoneChangeBackup = E.TimerAfter(10, self.UpdateAll, self, false, false, true, true)
+	end
 end
 
 function P:CHAT_MSG_BG_SYSTEM_NEUTRAL(arg1)

@@ -7,11 +7,11 @@ PawnCommon = {
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = true,
-	["ShownGettingStarted"] = true,
+	["Digits"] = 1,
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["ShowSpecIcons"] = true,
+	["LastVersion"] = 2.0801,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
@@ -50,10 +50,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK2"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -96,31 +96,36 @@ PawnCommon = {
 			["UnenchantedColor"] = "2f94af",
 			["SpecID"] = 2,
 		},
-		["\"Classic\":DEATHKNIGHT2"] = {
+		["\"Classic\":PRIEST2"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 冰霜 坦克",
-			["ClassID"] = 6,
+			["Color"] = "ffffff",
+			["LocalizedName"] = "牧师: 神圣",
+			["ClassID"] = 5,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bfbfbf",
+			["SpecID"] = 2,
+		},
+		["\"Classic\":SHAMAN1"] = {
+			["PerCharacterOptions"] = {
+				["巴非特-伊弗斯"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "0070dd",
+			["LocalizedName"] = "萨满祭司: 元素",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
-			["SpecID"] = 2,
-		},
-		["\"Classic\":ROGUE"] = {
-			["Color"] = "fff468",
-			["ClassID"] = 4,
-			["PerCharacterOptions"] = {
-			},
-			["DoNotShow1HUpgrades"] = false,
-			["LocalizedName"] = "潜行者: 副手",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
+			["UnenchantedColor"] = "0054a5",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
@@ -195,10 +200,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK3"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -213,7 +218,7 @@ PawnCommon = {
 			["UnenchantedColor"] = "6565b1",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":PALADIN1"] = {
+		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
 				["家駒-伊弗斯"] = {
 					["Visible"] = true,
@@ -223,32 +228,29 @@ PawnCommon = {
 				},
 			},
 			["Color"] = "f48cba",
-			["LocalizedName"] = "圣骑士: 神圣",
+			["LocalizedName"] = "圣骑士: 惩戒",
 			["ClassID"] = 2,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 1,
-		},
-		["\"Classic\":SHAMAN1"] = {
-			["PerCharacterOptions"] = {
-				["巴非特-伊弗斯"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "0070dd",
-			["LocalizedName"] = "萨满祭司: 元素",
-			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
+		},
+		["\"Classic\":PRIEST3"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "ffffff",
+			["LocalizedName"] = "牧师: 暗影",
+			["ClassID"] = 5,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bfbfbf",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":SHAMAN2"] = {
 			["PerCharacterOptions"] = {
@@ -321,19 +323,22 @@ PawnCommon = {
 			["UnenchantedColor"] = "947451",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":ROGUE1"] = {
+		["\"Classic\":DRUID3"] = {
 			["PerCharacterOptions"] = {
+				["康樂股長-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 奇袭",
-			["ClassID"] = 4,
+			["Color"] = "ff7c0a",
+			["LocalizedName"] = "德鲁伊: 野性 (坦克)",
+			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
+			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf5d07",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":SHAMAN3"] = {
 			["PerCharacterOptions"] = {
@@ -352,19 +357,22 @@ PawnCommon = {
 			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":DEATHKNIGHT1"] = {
+		["\"Classic\":DRUID2"] = {
 			["PerCharacterOptions"] = {
+				["康樂股長-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 鲜血 伤害输出",
-			["ClassID"] = 6,
+			["Color"] = "ff7c0a",
+			["LocalizedName"] = "德鲁伊: 野性 (伤害输出)",
+			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
+			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf5d07",
+			["SpecID"] = 2,
 		},
 		["\"Classic\":DEATHKNIGHT3"] = {
 			["PerCharacterOptions"] = {
@@ -379,54 +387,6 @@ PawnCommon = {
 			["Provider"] = "Classic",
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 3,
-		},
-		["\"Classic\":ROGUE3"] = {
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 敏锐",
-			["ClassID"] = 4,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
-			["SpecID"] = 3,
-		},
-		["\"Classic\":ROGUE2"] = {
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 战斗",
-			["ClassID"] = 4,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
-			["SpecID"] = 2,
-		},
-		["\"Classic\":WARLOCK1"] = {
-			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
-					["Visible"] = true,
-				},
-				["特斯拉大股東-伊弗斯"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "8787ed",
-			["LocalizedName"] = "术士: 痛苦",
-			["ClassID"] = 9,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "6565b1",
-			["SpecID"] = 1,
 		},
 		["\"Classic\":DRUID4"] = {
 			["PerCharacterOptions"] = {
@@ -445,39 +405,81 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 4,
 		},
-		["\"Classic\":DRUID2"] = {
+		["\"Classic\":ROGUE2"] = {
 			["PerCharacterOptions"] = {
-				["康樂股長-伊弗斯"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "ff7c0a",
-			["LocalizedName"] = "德鲁伊: 野性 (伤害输出)",
-			["ClassID"] = 11,
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 战斗",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
+			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 2,
 		},
-		["\"Classic\":DRUID3"] = {
+		["\"Classic\":WARLOCK1"] = {
 			["PerCharacterOptions"] = {
-				["康樂股長-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
+					["Visible"] = true,
+				},
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "ff7c0a",
-			["LocalizedName"] = "德鲁伊: 野性 (坦克)",
-			["ClassID"] = 11,
+			["Color"] = "8787ed",
+			["LocalizedName"] = "术士: 痛苦",
+			["ClassID"] = 9,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "6565b1",
+			["SpecID"] = 1,
+		},
+		["\"Classic\":ROGUE3"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 敏锐",
+			["ClassID"] = 4,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bfb74e",
+			["SpecID"] = 3,
+		},
+		["\"Classic\":DEATHKNIGHT1"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "死亡骑士: 鲜血 伤害输出",
+			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "bf3950",
+			["SpecID"] = 1,
+		},
+		["\"Classic\":ROGUE1"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 奇袭",
+			["ClassID"] = 4,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bfb74e",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":DRUID1"] = {
 			["PerCharacterOptions"] = {
@@ -496,7 +498,7 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":PALADIN3"] = {
+		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
 				["家駒-伊弗斯"] = {
 					["Visible"] = true,
@@ -506,42 +508,40 @@ PawnCommon = {
 				},
 			},
 			["Color"] = "f48cba",
-			["LocalizedName"] = "圣骑士: 惩戒",
+			["LocalizedName"] = "圣骑士: 神圣",
 			["ClassID"] = 2,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 3,
-		},
-		["\"Classic\":PRIEST3"] = {
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "ffffff",
-			["LocalizedName"] = "牧师: 暗影",
-			["ClassID"] = 5,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
-			["SpecID"] = 3,
-		},
-		["\"Classic\":PRIEST2"] = {
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "ffffff",
-			["LocalizedName"] = "牧师: 神圣",
-			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 1,
+		},
+		["\"Classic\":ROGUE"] = {
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 副手",
+			["PerCharacterOptions"] = {
+			},
+			["DoNotShow1HUpgrades"] = false,
+			["ClassID"] = 4,
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bfb74e",
+		},
+		["\"Classic\":DEATHKNIGHT2"] = {
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "死亡骑士: 冰霜 坦克",
+			["ClassID"] = 6,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 2,
 		},
 	},
@@ -549,6 +549,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0801,
-	["Digits"] = 1,
+	["ShowSpecIcons"] = true,
+	["ShownGettingStarted"] = true,
 }

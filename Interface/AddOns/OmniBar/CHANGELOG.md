@@ -1,1 +1,1 @@
-- Spell updates
+- Update for latest patch

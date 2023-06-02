@@ -90,7 +90,7 @@ function P:Refresh(full)
 	if full then
 		self:UpdateTextures()
 		self:UpateTimerFormat()
-		self:PLAYER_ENTERING_WORLD(nil, nil, true)
+		self:UpdateAll(nil, nil, true)
 	else
 		E:SetActiveUnitFrameData()
 		self:UpdatePositionValues()
