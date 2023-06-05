@@ -34,6 +34,13 @@ X: 1
 Y: 173
 W: 768
 H: 447
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -217
+Y: 2
+W: 1135
+H: 556
 Frame: MRTNote
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -55,10 +62,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -217
-Y: 2
-W: 1135
-H: 556

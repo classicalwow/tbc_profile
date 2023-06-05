@@ -507,9 +507,9 @@ function GBB.GetDungeons(msg,name)
 	-- 	msg = ""
 	-- end
 
-	-- if not(strfind(msg:lower(), "h")) then
-	-- 	msg = ""
-	-- end
+	if not(strfind(msg:lower(), "pt")) then
+		msg = ""
+	end
 
 	
 

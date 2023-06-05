@@ -87,7 +87,7 @@ VER 3 000000000000009E "target" "132090"
 /script SetRaidTarget("target",8)
 END
 VER 3 000000000000003D "VuhDoDCShieldNames" "Ability_Repair"
-N漫遊者死極香蜜蜜完美小魚閃閃[x]楓豫我現在艾丙兒鲨鳗[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x]狼[x][x][x]匹恩奈[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]家駒[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 000000000000003C "VuhDoDCShieldNames" "132281"
 N[x]斷風五初夏的Nat給本仙屁縫子韓森蓋魅惑夜民主的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
@@ -122,20 +122,6 @@ END
 VER 3 000000000000003F "VuhDoDCShieldNames" "132281"
 N快刀[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
-VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/PetPassiveMode
-/petpassive
-/castsequence reset=10 假死,冰凍陷阱
-END
-VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/petfollow
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,冰凍陷阱
-END
 VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /petpassive
@@ -150,6 +136,20 @@ VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
 /stopcasting
 /cleartarget
 /castsequence reset=10 假死,獻祭陷阱
+END
+VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/PetPassiveMode
+/petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
+VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/petfollow
+/stopcasting
+/cleartarget
+/castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
 #showtooltip

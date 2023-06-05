@@ -1,3 +1,7 @@
+VER 3 0000000001000005 "1" "134296"
+/startattack
+/施放 横扫（豹）(等级 1)
+END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
@@ -7,5 +11,9 @@ VER 3 0000000001000002 "坐騎" "134400"
 END
 VER 3 0000000001000003 "爆发" "134400"
 /use 菲斯克的怀表
+/use 快速反应手套
 /施放 狂暴
+END
+VER 3 0000000001000004 "自动攻击" "132278"
+/startattack
 END

@@ -48,7 +48,7 @@ GlobalIgnoreDB = {
 		{
 		}, -- [7]
 	},
-	["autoUpdate"] = true,
+	["autoTime"] = 600,
 	["autoCount"] = 3,
 	["revision"] = 1,
 	["filterList"] = {
@@ -63,7 +63,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["trackChanges"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -167,7 +167,7 @@ GlobalIgnoreDB = {
 		"29 May 2023", -- [7]
 	},
 	["sameserver"] = true,
-	["trackChanges"] = true,
+	["autoUpdate"] = true,
 	["samefaction"] = true,
 	["invertSpam"] = false,
 }
