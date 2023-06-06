@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 45610,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45263::::::::80:::::::::|h[天谴之石]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 40250,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40250::::::::80:::::::::|h[极冬披风]|h|r",
+			["ID"] = 46042,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:46042::40058::::::80:::::::::|h[信使斗篷]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 45132,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45315:3830:::::::80:::::::::|h[碎石者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

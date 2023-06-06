@@ -16,8 +16,8 @@ H: 240
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
 Anchor: CENTER
-X: 121
-Y: -52
+X: -138
+Y: -11
 W: 920
 H: 600
 Frame: aux_frame
@@ -27,13 +27,6 @@ X: -28
 Y: 19
 W: 768
 H: 447
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: BOTTOM
-X: 0
-Y: 139
-W: 1170
-H: 549
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
@@ -41,3 +34,10 @@ X: -245
 Y: -178
 W: 200
 H: 50
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -245
+Y: -86
+W: 1170
+H: 618
