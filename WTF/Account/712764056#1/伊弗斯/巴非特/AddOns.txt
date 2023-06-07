@@ -140,7 +140,7 @@ xanSoundAlerts: enabled
 TradeSkillMaster: enabled
 Accountant_Classic: disabled
 EZQuest: disabled
-AddOnSkins: enabled
+AddOnSkins: disabled
 ElvUI_PVPDT: enabled
 ElvUI_Libraries: enabled
 ElvUI_OptionsUI: enabled

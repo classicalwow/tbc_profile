@@ -10,7 +10,7 @@ Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: CENTER
 X: 171
-Y: -4
+Y: 24
 W: 128
 H: 64
 Frame: ColorPickerFrame
@@ -23,8 +23,8 @@ H: 240
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
 Anchor: LEFT
-X: 62
-Y: -5
+X: 317
+Y: -104
 W: 920
 H: 600
 Frame: aux_frame

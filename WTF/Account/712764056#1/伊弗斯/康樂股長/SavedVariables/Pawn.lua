@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 40473,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40473::41398:39909:::::80:::::::::|h[勇猛的梦游者头盔]|h|r",
+			["ID"] = 46161,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46161::::::::80:::::::::|h[征服者的夜歌头盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 40065,
