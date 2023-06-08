@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 2254,
 	["lastSanitation"] = 3,
+	["session"] = 2257,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -177,14 +177,14 @@ BugGrabberDB = {
 		}, -- [22]
 		{
 			["message"] = "Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["session"] = 1639,
 			["time"] = "2023/03/26 20:12:39",
+			["session"] = 1639,
 			["counter"] = 1,
 		}, -- [23]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["session"] = 1639,
 			["time"] = "2023/03/26 20:12:39",
+			["session"] = 1639,
 			["counter"] = 1,
 		}, -- [24]
 		{
@@ -758,32 +758,32 @@ BugGrabberDB = {
 		}, -- [98]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...64056#1/伊弗斯/康樂股長/SavedVariables/!!!EaseAddonController.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [99]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...F/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/ItemRack.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [100]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...ccount/712764056#1/伊弗斯/康樂股長/SavedVariables/Auctionator.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [101]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/GlobalIgnoreList.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [102]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/HeyboxPlayerInfo.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [103]
 		{
@@ -859,36 +859,12 @@ BugGrabberDB = {
 			["counter"] = 7,
 		}, -- [112]
 		{
-			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
-			["time"] = "2023/02/26 20:58:54",
-			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
-			["session"] = 2253,
-			["counter"] = 1850,
-		}, -- [113]
-		{
-			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2023/02/25 11:45:05",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 2254,
-			["counter"] = 808,
-		}, -- [114]
-		{
-			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
-			["time"] = "2023/02/26 20:58:58",
-			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 2254,
-			["counter"] = 532,
-		}, -- [115]
-		{
 			["message"] = "Interface/AddOns/ElvUI/Core/General/Core.lua:385: attempt to call local 'func' (a boolean value)",
 			["time"] = "2023/05/03 12:45:03",
 			["stack"] = "[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:385: in function `ValueFuncCall'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:337: in function `UpdateMedia'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:265: in function <Interface/AddOns/ElvUI/Core/init.lua:264>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/!!!EaseAddonController/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...seAddonController/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
 			["session"] = 2254,
 			["counter"] = 512,
-		}, -- [116]
+		}, -- [113]
 		{
 			["message"] = "Interface/AddOns/Auctionator/AuctionatorConfig.lua:105: bad argument #1 to 'SetSpacing' (Usage: self:SetSpacing(textType, spacing))",
 			["time"] = "2023/05/03 12:29:49",
@@ -896,7 +872,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `SetSpacing'\n[string \"@Interface/AddOns/Auctionator/AuctionatorConfig.lua\"]:105: in function `Atr_SetupOptionsFrame'\n[string \"@Interface/AddOns/Auctionator/AuctionatorConfig.lua\"]:75: in function `Atr_InitOptionsPanels'\n[string \"@Interface/AddOns/Auctionator/Auctionator.lua\"]:938: in function `Atr_OnPlayerEnteringWorld'\n[string \"@Interface/AddOns/Auctionator/Auctionator.lua\"]:180: in function `Atr_EventHandler'\n[string \"*Auctionator.xml:23_OnEvent\"]:1: in function <[string \"*Auctionator.xml:23_OnEvent\"]:1>",
 			["session"] = 2254,
 			["counter"] = 126,
-		}, -- [117]
+		}, -- [114]
 		{
 			["message"] = "Interface/AddOns/Auctionator/AuctionatorHints.lua:500: attempt to call global 'GetContainerItemInfo' (a nil value)",
 			["time"] = "2023/05/03 12:46:15",
@@ -904,6 +880,30 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Auctionator/AuctionatorHints.lua\"]:500: in function <Interface/AddOns/Auctionator/AuctionatorHints.lua:499>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:106: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:104>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:408: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:402>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetBagItem'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventoryTooltip.lua\"]:308: in function <...ace/AddOns/ArkInventory/Core/ArkInventoryTooltip.lua:300>\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventoryTooltip.lua\"]:457: in function `TooltipSet'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:8857: in function `Frame_Item_OnEnter'\n[string \"*ArkInventory.xml:484_OnEnter\"]:1: in function <[string \"*ArkInventory.xml:484_OnEnter\"]:1>",
 			["session"] = 2254,
 			["counter"] = 6256,
+		}, -- [115]
+		{
+			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2023/02/25 11:45:05",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
+			["session"] = 2257,
+			["counter"] = 811,
+		}, -- [116]
+		{
+			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
+			["time"] = "2023/02/26 20:58:54",
+			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
+			["session"] = 2257,
+			["counter"] = 1865,
+		}, -- [117]
+		{
+			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
+			["time"] = "2023/02/26 20:58:58",
+			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
+			["session"] = 2257,
+			["counter"] = 535,
 		}, -- [118]
 	},
 }
