@@ -342,7 +342,7 @@ do
 
 			if E.isWOTLKC341 then
 				hooksecurefunc("RaidOptionsFrame_UpdatePartyFrames", function()
-					P.useRaidStylePartyFrames = GetDisplayedAllyFrames() == "raid"
+					P.useRaidStylePartyFrames = C_CVar and C_CVar.GetCVarBool("useCompactPartyFrames") or GetCVarBool("useCompactPartyFrames")
 					P:HookFunc()
 				end)
 			end

@@ -42,12 +42,12 @@ local PARTY_UNIT = {
 
 local INSTANCETYPE_EVENTS = E.preCata and {
 	arena = {
-		'PLAYER_REGEN_DISABLED',
+
 		'UPDATE_UI_WIDGET',
 	},
 	pvp = {
 		'CHAT_MSG_BG_SYSTEM_NEUTRAL',
-		'PLAYER_REGEN_DISABLED',
+
 		'UPDATE_UI_WIDGET',
 	}
 } or {
@@ -61,13 +61,13 @@ local INSTANCETYPE_EVENTS = E.preCata and {
 		'PLAYER_FLAGS_CHANGED',
 	},
 	arena = {
-		'PLAYER_REGEN_DISABLED',
+
 		'UPDATE_UI_WIDGET',
 	},
 	pvp = {
 		'CHAT_MSG_BG_SYSTEM_NEUTRAL',
 		'UPDATE_UI_WIDGET',
-		'PLAYER_REGEN_DISABLED',
+
 	}
 }
 if E.isWOTLKC then
@@ -351,7 +351,7 @@ function P:GROUP_JOINED()
 	if self.isInArena and C_PvP_IsRatedSoloShuffle() then
 		self:ResetAllIcons("joinedPvP")
 		if not self.callbackTimers.arenaTicker then
-			self:RegisterEvent('PLAYER_REGEN_DISABLED')
+
 			self.callbackTimers.arenaTicker = C_Timer.NewTicker(6, inspectAllGroupMembers, 5)
 		end
 	end
@@ -365,7 +365,7 @@ local function IsAnyExBarEnabled()
 end
 
 
-function P:UpdateAll(isInitialLogin, isReloadingUi, isRefresh, isScheduledTimer)
+function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
 	local _, instanceType = IsInInstance()
 	self.zone = instanceType
 	self.isInDungeon = instanceType == "party"
@@ -425,21 +425,6 @@ function P:UpdateAll(isInitialLogin, isReloadingUi, isRefresh, isScheduledTimer)
 
 
 	self:GROUP_ROSTER_UPDATE(true, isRefresh)
-
-	if isScheduledTimer then
-		self.callbackTimers.zoneChangeBackup = nil
-	end
-end
-
-
-function P:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi, isRefresh)
-	self:UpdateAll(isInitialLogin, isReloadingUi, isRefresh)
-	if not isRefresh then
-		if self.callbackTimers.zoneChangeBackup then
-			self.callbackTimers.zoneChangeBackup:Cancel()
-		end
-		self.callbackTimers.zoneChangeBackup = E.TimerAfter(10, self.UpdateAll, self, false, false, true, true)
-	end
 end
 
 function P:CHAT_MSG_BG_SYSTEM_NEUTRAL(arg1)
@@ -460,16 +445,22 @@ function P:UPDATE_UI_WIDGET(widgetInfo)
 	end
 end
 
+function P:PLAYER_REGEN_ENABLED()
+	self.inLockdown = false
+	self:UpdatePassThroughButtons()
+end
+
 function P:PLAYER_REGEN_DISABLED()
+	self.inLockdown = true
 	if self.callbackTimers.arenaTicker then
 		self.callbackTimers.arenaTicker:Cancel()
 		self.callbackTimers.arenaTicker = nil
 	end
-	self:UnregisterEvent('PLAYER_REGEN_DISABLED')
+
 end
 
 function P:PLAYER_FLAGS_CHANGED(unitTarget)
-	if unitTarget ~= "player" or InCombatLockdown() then return end
+	if unitTarget ~= "player" or self.inLockdown then return end
 	local oldpvp = self.isPvP
 	self.isPvP = C_PvP.IsWarModeDesired()
 	if oldpvp ~= self.isPvP then

@@ -1,6 +1,23 @@
 ------------------------------------------------------------------------------
 -- Dragonflight
 --
+v10.1.0.2755
+	CDR fix/updates
+		Forbearance will no longer be affected by other CDR (e.g. Resolute Defender on Divine Shield)
+		Fixed Uther's Councel CDR for 10.1 (rank1 20% to rank2 15%/30%)
+		Fixed Inmost Light CDR for 10.1 (15% to 25%)
+		Fixed Chi Surge CDR (was incorrectly capped at 16 sec instead of 20 sec)
+		Updated Keg Smash CDR (was reducing Fortifying Brew by 5 sec instead of 3 sec. Bug fixed in 10.1)
+		Updated Tiger Palm CDR (was reducing to all Brew CD by 0.5 sec instead of 1 sec. Bug fixed in 10.1)
+	CD sync revamped
+		Fixed an issue that caused certain cooldowns to sync improperly. Recipients now check remaining time over starting time
+		Periodic sync has been removed and will now sync the followings directly like others
+			% chance to incur no cooldown
+			% chance to have its cooldown instantly reset when used
+		Messages are now compressed and will no longer communicates with older versions
+	10.1.5 compatibility updates
+		Frames created while in combat will have tooltips disabled until you leave combat
+
 v10.1.0.2753
 	Bar position will correctly update in combat when using non-Group sorting in Arena
 	Fixed Exhilaration and Trueshot CDR
@@ -704,6 +721,11 @@ v2.5.0
 ------------------------------------------------------------------------------
 -- WOTLKC
 --
+v3.4.1.2755
+	Fixed an issue that prevented CD bars from attaching to the party frames
+	Readiness will no longer reset Roar of Sacrifice
+	Added arena season 7, 8 equip bonus items
+
 v3.4.1.2754
 	Fixed a critical error that caused all CD modifiers to be ignored. Incompatible table format after merging with retail wow
 	Fixed spells affected by Forbearance

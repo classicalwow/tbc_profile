@@ -148,6 +148,16 @@ local function UpdateCdBySpender(info, guid, t, isTrueBearing)
 	end
 end
 
+local wotlkcReadinessExcluded = {
+	[23989] = true,
+	[19574] = true,
+	[53480] = true,
+	[54044] = true,
+	[53490] = true,
+	[53517] = true,
+	[26090] = true,
+}
+
 local function ResetCdByCast(info, reset, spellID)
 	for i = 1, #reset do
 		local resetID = reset[i]
@@ -156,8 +166,7 @@ local function ResetCdByCast(info, reset, spellID)
 				ResetCdByCast(info, resetID, spellID)
 			elseif resetID == "*" then
 				for id, icon in pairs(info.spellIcons) do
-					if icon.active and BOOKTYPE_CATEGORY[icon.category]
-						and id ~= spellID and id ~= 19574 then
+					if icon.active and BOOKTYPE_CATEGORY[icon.category] and not wotlkcReadinessExcluded[id] then
 						P:ResetCooldown(icon)
 					end
 				end
@@ -456,12 +465,33 @@ for k, v in pairs(E.spell_aura_freespender) do
 end
 
 
+
+
+
+
+
+
+
+
+local function ForceUpdatePeriodicSync(id)
+	local cooldownInfo = CM.cooldownSyncIDs[id]
+	if cooldownInfo then
+		if cooldownInfo[1] == 0 then
+			cooldownInfo[1] = 1
+		end
+		cooldownInfo[2] = -0.1
+		CM:ForceSyncCooldowns()
+	end
+end
+
 for id in pairs(E.sync_periodic) do
 	registeredEvents['SPELL_CAST_SUCCESS'][id] = function(_, srcGUID)
-		if srcGUID == userGUID and CM.cooldownSyncIDs[id] then CM:ForceSyncCooldowns() end
+		if srcGUID == userGUID then
+			ForceUpdatePeriodicSync(id)
+		end
 	end
 	registeredUserEvents['SPELL_CAST_SUCCESS'][id] = function()
-		if CM.cooldownSyncIDs[id] then CM:ForceSyncCooldowns() end
+		ForceUpdatePeriodicSync(id)
 	end
 end
 
@@ -476,7 +506,7 @@ local function AppendInterruptExtras(info, _, spellID, _,_,_, extraSpellId, extr
 			if extraSpellTexture then
 				icon.icon:SetTexture(extraSpellTexture)
 				icon.tooltipID = extraSpellId
-				if not E.db.icons.showTooltip then
+				if not E.db.icons.showTooltip and icon.isPassThrough then
 					icon:EnableMouse(true)
 				end
 			end
@@ -1151,8 +1181,8 @@ local function ReduceGuardianIncarnationCD(info, srcGUID, spellID)
 			P:UpdateCooldown(icon, rCD)
 		end
 	end
-	if spellID == 22842 and srcGUID == userGUID and CM.cooldownSyncIDs[spellID] then
-		CM:ForceSyncCooldowns()
+	if spellID == 22842 and srcGUID == userGUID then
+		ForceUpdatePeriodicSync(spellID)
 	end
 end
 
@@ -2199,7 +2229,7 @@ registeredEvents['SPELL_AURA_APPLIED'][393786] = function(info)
 		if active.numHits <= 4 then
 			local icon = info.spellIcons[387184]
 			if icon and icon.active then
-				P:UpdateCooldown(icon, 4)
+				P:UpdateCooldown(icon, 5)
 			end
 		end
 	end
@@ -2724,6 +2754,12 @@ local ApplyForbearance_OnDelayEnd = function(destGUID)
 				elseif remainingTime < fcd then
 					P:UpdateCooldown(icon, remainingTime - fcd)
 				end
+
+
+				if id == 642 and E.isDF then
+					local overtime = remainingTime and remainingTime - fcd
+					destInfo.active[id].forbearanceOvertime = overtime and overtime > 0 and overtime or 0
+				end
 			else
 				local charges = active and active.charges
 				if not active or ( icon.maxcharges and charges and charges > 0 or remainingTime < FORBEARANCE_DURATION ) then
@@ -2919,7 +2955,25 @@ for id, t in pairs(holyPowerSpenders) do
 							for _, spellID in pairs(target) do
 								local icon = info.spellIcons[spellID]
 								if icon and icon.active then
-									P:UpdateCooldown(icon, rCD)
+									if spellID == 642 then
+										if info.active[spellID] then
+											if not info.active[spellID].forbearanceOvertime then
+												P:UpdateCooldown(icon, rCD)
+											elseif info.active[spellID].forbearanceOvertime ~= 0 then
+												local rt = info.active[spellID].forbearanceOvertime - rCD
+												if rt <= 0 then
+													rt = rCD + rt
+													info.active[spellID].forbearanceOvertime = 0
+													P:UpdateCooldown(icon, rt)
+												else
+													info.active[spellID].forbearanceOvertime = info.active[spellID].forbearanceOvertime - rCD
+													P:UpdateCooldown(icon, rCD)
+												end
+											end
+										end
+									else
+										P:UpdateCooldown(icon, rCD)
+									end
 								end
 							end
 						else

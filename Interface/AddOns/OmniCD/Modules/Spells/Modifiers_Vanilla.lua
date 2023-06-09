@@ -468,7 +468,10 @@ E.spellcast_shared_cdstart = E.BLANK
 E.spellcast_cdreset = {
 	[23989] = {
 		nil,
-		"*",
+
+		19263,
+		5384,
+		1499, 13813, 13795, 13809,
 	},
 	[12472] = {
 		nil,
