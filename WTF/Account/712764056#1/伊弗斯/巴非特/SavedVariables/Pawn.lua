@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "巴非特-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 45610,
@@ -61,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:46322::::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 45522,
-			["Level"] = 232,
+			["ID"] = 46038,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:45522::::::::80:::::::::|h[古神之血]|h|r",
+			["Link"] = "|cffa335ee|Hitem:46038::::::::80:::::::::|h[黑暗物质]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 45263,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45315:3830:::::::80:::::::::|h[碎石者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "巴非特-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -15,6 +15,15 @@ v3.4.1.2755
 	Added arena season 7, 8 equip bonus items
 ]=]
 else E.changelog = [=[
+v10.1.0.2756
+	JUNE 5, 2023 hotfixes
+		Amplify Curse CD 30>60s
+		Teachings of the Satyr CDR 10>15s
+		Thunderlord CDR 1>1.5s
+	MAY 15, 2023 hotfixes
+		BM HUnter, Aberrus (4) Set bonus CDR 1>2s
+		Sharpen Blade CD 25>30s
+
 v10.1.0.2755
 	TL;DR
 		Fixed incorrect CDRs for Prot Paladin and Brewmaster Monk

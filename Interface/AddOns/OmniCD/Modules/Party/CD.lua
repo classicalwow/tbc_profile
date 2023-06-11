@@ -1713,6 +1713,7 @@ local mageLossOfControlAbilities = {
 	[113724] = true,
 	[31661] = true,
 	[383121] = true,
+	[389794] = true,
 
 }
 
@@ -4381,7 +4382,7 @@ registeredEvents['SPELL_DAMAGE'][6343] = function(info)
 			if active.numHits <= 3 then
 				local icon = info.spellIcons[1160]
 				if icon and icon.active then
-					P:UpdateCooldown(icon, 1)
+					P:UpdateCooldown(icon, 1.5)
 				end
 			end
 		end

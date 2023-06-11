@@ -78,9 +78,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -91,31 +91,6 @@ TomTomWaypointsM = {
 		["家駒 - 伊弗斯"] = {
 		},
 		["巴非特 - 伊弗斯"] = {
-			[120] = {
-				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
-					120, -- [1]
-					0.4369193154034231, -- [2]
-					0.2613691931540342, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Meeting Stone",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["特變電工 - 伊弗斯"] = {
 			[120] = {
@@ -173,9 +148,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,

@@ -1,7 +1,6 @@
 SET autoQuestPopUps "v"
-SET cameraSavedPitch "19.910297"
+SET cameraSavedPitch "17.202976"
 SET nameplateShowFriendlyTotems "1"
-SET nameplateShowEnemies "1"
 SET nameplateSelectedScale "1.15"
 SET nameplateShowFriendlyPets "0"
 SET ShowClassColorInNameplate "1"

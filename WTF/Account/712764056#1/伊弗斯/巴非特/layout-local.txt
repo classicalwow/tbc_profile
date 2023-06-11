@@ -37,8 +37,8 @@ H: 447
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 18
-Y: -4
+X: -22
+Y: 140
 W: 1045
 H: 521
 Frame: scanner_button
