@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "康樂股長-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46161,
@@ -8,14 +10,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:46161::::::::80:::::::::|h[征服者的夜歌头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 40065,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r",
+			["ID"] = 45820,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45820::::::::80:::::::::|h[哀嚎长夜胸针]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 40494,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40494::::::::80:::::::::|h[勇猛的梦游者肩垫]|h|r",
+			["ID"] = 45677,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:45677::::::::80:::::::::|h[叛逆肩垫]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -44,21 +46,21 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40738:1600:::::::80:::::::::|h[割喉护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 40362,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40362:3604:40033::::::80:::::::::|h[快速反应手套]|h|r",
+			["ID"] = 46043,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:46043::::::::80:::::::::|h[无尽黑暗手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 40075,
-			["Level"] = 213,
+			["ID"] = 46322,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:40075::::::::80:::::::::|h[冷酷]|h|r",
+			["Link"] = "|cffa335ee|Hitem:46322::::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 40074,
-			["Level"] = 213,
+			["ID"] = 46322,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:40074::::::::80:::::::::|h[强力指环]|h|r",
+			["Link"] = "|cffa335ee|Hitem:46322::42702::::::80:::::::::|h[布莱恩的焊接戒指]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 40256,
@@ -83,8 +85,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45256::::::::80:::::::::|h[扭曲的面容]|h|r",
 		}, -- [16]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "康樂股長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
