@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0801,
-	["LastPlayerFullName"] = "康樂股長-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46161,
@@ -21,9 +19,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 40471,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40471:3252:39909:39909:::::80:::::::::|h[勇猛的梦游者外套]|h|r",
+			["ID"] = 45453,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45453::::::::80:::::::::|h[严冬之拥]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 45555,
@@ -41,9 +39,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45564:3606:42153:42153:::::80:::::::::|h[沉寂足垫]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 40738,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40738:1600:::::::80:::::::::|h[割喉护腕]|h|r",
+			["ID"] = 45108,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45108::::::::80:::::::::|h[机械师的护腕]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 46043,
@@ -85,6 +83,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45256::::::::80:::::::::|h[扭曲的面容]|h|r",
 		}, -- [16]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "康樂股長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
