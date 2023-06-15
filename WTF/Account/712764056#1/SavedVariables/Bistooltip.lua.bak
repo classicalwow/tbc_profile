@@ -292,11 +292,6 @@ BisTooltipDB = {
 		["特斯拉大股東 - 伊弗斯"] = {
 			["class_index"] = 10,
 			["filter_class_names"] = false,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
 			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
@@ -350,6 +345,11 @@ BisTooltipDB = {
 					["Shadow"] = true,
 					["Holy"] = true,
 				},
+			},
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
 			},
 			["minimapPos"] = 253.4463397527872,
 			["data_source"] = "wh",

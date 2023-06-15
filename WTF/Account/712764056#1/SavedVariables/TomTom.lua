@@ -58,18 +58,18 @@ TomTomWaypointsM = {
 		["碼農巴菲特 - 伊弗斯"] = {
 		},
 		["康樂股長 - 伊弗斯"] = {
-			[120] = {
-				["120:436919315.40342:261369193.15403:Meeting Stone"] = {
-					120, -- [1]
-					0.4369193154034231, -- [2]
-					0.2613691931540342, -- [3]
+			[125] = {
+				["125:491198044.00978:251100244.49878:Mailbox"] = {
+					125, -- [1]
+					0.49119804400978, -- [2]
+					0.2511002444987776, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Meeting Stone",
+					["desc"] = "Mailbox",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
+					["title"] = "Mailbox",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {

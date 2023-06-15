@@ -5,6 +5,6 @@ U1DB = {
 	},
 	["configs"] = {
 	},
-	["last_logout_time"] = 1686676258,
+	["last_logout_time"] = 1686753568,
 	["enteredWorld"] = true,
 }
