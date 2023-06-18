@@ -122,6 +122,20 @@ END
 VER 3 000000000000003F "VuhDoDCShieldNames" "132281"
 N快刀[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
+VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/petfollow
+/stopcasting
+/cleartarget
+/castsequence reset=10 假死,獻祭陷阱
+END
+VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/PetPassiveMode
+/petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
 VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /petpassive
@@ -135,20 +149,6 @@ VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
 /petpassive
 /stopcasting
 /cleartarget
-/castsequence reset=10 假死,冰凍陷阱
-END
-VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/petfollow
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,獻祭陷阱
-END
-VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/PetPassiveMode
-/petpassive
 /castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
