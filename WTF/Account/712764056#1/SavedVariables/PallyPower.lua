@@ -19,28 +19,28 @@ PallyPowerDB = {
 				["b"] = 0.5,
 			},
 			["freeassign"] = true,
-			["cBuffNeedAll"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
-			},
+			["enable"] = true,
 			["WrathTransition"] = true,
-			["display"] = {
-				["frameLocked"] = true,
-			},
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
 			["cBuffGood"] = {
 				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["b"] = 0.2,
 			},
-			["enable"] = true,
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["display"] = {
+				["frameLocked"] = true,
+			},
+			["cBuffNeedAll"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
 		},
 		["Other"] = {
 			["cBuffNeedAll"] = {
@@ -228,12 +228,14 @@ PallyPower_SavedPresets = {
 }
 PallyPower_ChanNames = {
 	"寻求组队", -- [1]
-	"综合", -- [2]
+	"大脚世界频道", -- [2]
 	"交易", -- [3]
-	"本地防务", -- [4]
-	"大脚世界频道", -- [5]
-	"鏡花水月", -- [6]
-	"PIG", -- [7]
+	"综合", -- [4]
+	"大陸老鄉會", -- [5]
+	"胖丁愛唱歌", -- [6]
+	"zzm", -- [7]
+	"PIG", -- [8]
+	"鏡花水月", -- [9]
 	[0] = "None",
 }
 LCD_Data = nil

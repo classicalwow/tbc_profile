@@ -60,7 +60,7 @@ GlobalIgnoreDB = {
 		"猪猪炮-伊弗斯", -- [9]
 		"三岁就很猛-伊弗斯", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["notes"] = {
 		"骗子", -- [1]
@@ -86,7 +86,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -191,7 +191,7 @@ GlobalIgnoreDB = {
 		"月魔夕-伊弗斯", -- [30]
 		"柚子桃桃-伊弗斯", -- [31]
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }

@@ -150,7 +150,7 @@ HekiliDB = {
 					["package"] = "Fury (IV)",
 					["cycle"] = true,
 					["settings"] = {
-						["protection"] = "Protection Warrior (wowtbc.gg)",
+						["rend_refresh_time"] = 0,
 						["execute_whirlwind_enabled"] = true,
 						["execute_bloodthirst_enabled"] = true,
 						["weave_cooldown_threshold"] = 1.5,
@@ -162,16 +162,16 @@ HekiliDB = {
 						["queueing_threshold"] = 30,
 						["rend_rage_threshold"] = 100,
 						["rend_cooldown_threshold"] = 1.5,
-						["shout_spell"] = "commanding_shout",
-						["optimize_overpower"] = false,
-						["rend_refresh_time"] = 0,
 						["fury"] = "Fury (IV)",
+						["optimize_overpower"] = false,
+						["protection"] = "Protection Warrior (wowtbc.gg)",
+						["predict_tfb"] = true,
 						["debuff_sunder_enabled"] = true,
 						["rend_health_threshold"] = 20,
 						["weaving_enabled"] = false,
 						["weave_health_threshold"] = 20,
 						["main_gcd_spell"] = "slam",
-						["predict_tfb"] = true,
+						["shout_spell"] = "commanding_shout",
 						["execute_queueing_enabled"] = true,
 					},
 					["autoPacks"] = {
@@ -220,21 +220,21 @@ HekiliDB = {
 				[11] = {
 					["settings"] = {
 						["bearweaving_enabled"] = true,
-						["flowerweaving_mode"] = "any",
+						["min_bite_rip_remains"] = 4,
 						["lunar_cooldown_leeway"] = 14,
-						["balance"] = "Balance (IV)",
+						["flowerweaving_enabled"] = false,
 						["optimize_rake"] = false,
 						["feral_tank"] = "Feral Tank (IV)",
 						["ferociousbite_enabled"] = true,
 						["min_weave_mana"] = 25,
-						["min_bite_rip_remains"] = 4,
-						["feral_dps"] = "Feral DPS (IV)",
-						["flowerweaving_enabled"] = false,
+						["flowerweaving_mode"] = "any",
+						["max_ff_energy"] = 15,
+						["balance"] = "Balance (IV)",
 						["min_bite_sr_remains"] = 4,
 						["bearweaving_instancetype"] = "raid",
 						["max_bite_energy"] = 25,
+						["feral_dps"] = "Feral DPS (IV)",
 						["min_roar_offset"] = 24,
-						["max_ff_energy"] = 15,
 						["bearweaving_bossonly"] = true,
 						["flowerweaving_mingroupsize"] = 10,
 						["rip_leeway"] = 3,
@@ -1184,9 +1184,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["action"] = "mark_of_the_wild",
 								["description"] = "APL v3.4.1-1.6.0 #",
 								["criteria"] = "! up & ! buff.gift_of_the_wild.up",
-								["action"] = "mark_of_the_wild",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -1814,9 +1814,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.stance.down",
 								["action"] = "berserker_stance",
 								["description"] = "APL v3.4.1-1.7.0 #",
-								["criteria"] = "buff.stance.down",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -2939,9 +2939,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["description"] = "APL v3.4.1-1.6.5 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
-								["description"] = "APL v3.4.1-1.6.5 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -3410,9 +3410,9 @@ HekiliDB = {
 							}, -- [4]
 							{
 								["enabled"] = true,
+								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
 								["action"] = "thunderstorm",
 								["description"] = "actions.aoe+=/thunderstorm,if=mana.pct<90||target.distance<10&glyph.glyph_of_thunderstorm.enabled",
-								["criteria"] = "target.distance <= 10 & mana.pct < 90 || mana.pct < settings.st_cl_mana_threshold",
 							}, -- [5]
 						},
 						["default"] = {
@@ -3455,9 +3455,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
+								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
 								["action"] = "chain_lightning",
 								["description"] = "Need to create this specialization option.",
-								["criteria"] = "mana.pct > settings.st_cl_mana_threshold",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -3477,9 +3477,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
 								["action"] = "call_of_the_elements",
 								["description"] = "Place your totems if they're not already up, don't want to use it if we've used a major CD totem.",
-								["criteria"] = "buff.earth_totem.down & buff.fire_totem.down & buff.water_totem.down & buff.air_totem.down",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -3488,9 +3488,9 @@ HekiliDB = {
 							}, -- [3]
 							{
 								["enabled"] = true,
+								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
 								["action"] = "searing_totem",
 								["description"] = "Need to find a way to verify that the snapshot has taken place.",
-								["criteria"] = "buff.totem_of_wrath.up & buff.demonic_pact.up",
 							}, -- [4]
 						},
 					},
@@ -3696,9 +3696,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["description"] = "APL v3.4.0-1.4.2 #",
 								["criteria"] = "buff.armor.down || buff.armor.remains < 180",
 								["action"] = "fel_armor",
-								["description"] = "APL v3.4.0-1.4.2 #",
 							}, -- [1]
 							{
 								["enabled"] = true,
@@ -4064,9 +4064,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
-								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -4598,9 +4598,9 @@ HekiliDB = {
 						["precombat"] = {
 							{
 								["enabled"] = true,
+								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
 								["action"] = "windfury_weapon",
 								["description"] = "APL v3.4.1-1.2.0 #",
-								["criteria"] = "! mainhand_imbued & ! mainhand_has_spellpower",
 							}, -- [1]
 							{
 								["enabled"] = true,
