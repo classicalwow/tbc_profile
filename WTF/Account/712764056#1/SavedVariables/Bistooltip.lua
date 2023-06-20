@@ -224,13 +224,10 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimapPos"] = 248.3304143632559,
+			["class_index"] = 9,
 			["filter_class_names"] = false,
 			["spec_index"] = 2,
 			["version"] = 6.1,
-			["phase_index"] = 3,
-			["class_index"] = 9,
-			["data_source"] = "wh",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -285,6 +282,9 @@ BisTooltipDB = {
 					["Destruction"] = true,
 				},
 			},
+			["minimapPos"] = 248.3304143632559,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,

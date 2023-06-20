@@ -34,6 +34,13 @@ X: -245
 Y: -178
 W: 200
 H: 50
+Frame: WIM3_msgFrame1
+FrameLevel: 2
+Anchor: TOPLEFT
+X: 92
+Y: -197
+W: 333
+H: 220
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
 Anchor: CENTER
