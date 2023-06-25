@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0801,
+	["LastVersion"] = 2.0802,
 	["LastPlayerFullName"] = "家駒-伊弗斯",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 45867,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:45867::::::::80:::::::::|h[塑石者的胸铠]|h|r",
+			["ID"] = 45445,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:45445::::::::80:::::::::|h[虔诚者胸铠]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 45616,

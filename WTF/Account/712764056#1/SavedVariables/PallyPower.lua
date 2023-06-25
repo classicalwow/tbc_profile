@@ -12,16 +12,19 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["enable"] = true,
+			["display"] = {
+				["frameLocked"] = true,
+			},
 			["freeassign"] = true,
+			["enable"] = true,
+			["WrathTransition"] = true,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
+			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
@@ -32,15 +35,12 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffNeedSome"] = {
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["display"] = {
-				["frameLocked"] = true,
-			},
-			["WrathTransition"] = true,
 		},
 		["Other"] = {
 			["cBuffNeedAll"] = {
@@ -55,19 +55,19 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["enable"] = true,
-			["WrathTransition"] = true,
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
+			["WrathTransition"] = true,
 		},
 	},
 }

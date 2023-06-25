@@ -23,6 +23,7 @@ GlobalIgnoreDB = {
 		"player", -- [8]
 		"player", -- [9]
 		"player", -- [10]
+		"player", -- [11]
 	},
 	["openWithFriends"] = true,
 	["invertSpam"] = false,
@@ -39,7 +40,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["delList"] = {
 		"Wandteil-伊弗斯", -- [1]
@@ -76,27 +77,41 @@ GlobalIgnoreDB = {
 	},
 	["syncInfo"] = {
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [1]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [2]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [3]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [4]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [5]
 		{
+			"家駒-伊弗斯@1", -- [1]
+			"邁克爾假死-伊弗斯@2", -- [2]
 		}, -- [6]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [7]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [8]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [9]
 		{
+			"邁克爾假死-伊弗斯@1", -- [1]
 		}, -- [10]
+		{
+			"邁克爾假死-伊弗斯@1", -- [1]
+		}, -- [11]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -109,6 +124,7 @@ GlobalIgnoreDB = {
 		"Horde", -- [8]
 		"Horde", -- [9]
 		"Horde", -- [10]
+		"Horde", -- [11]
 	},
 	["defexpire"] = 0,
 	["sameserver"] = true,
@@ -124,6 +140,7 @@ GlobalIgnoreDB = {
 		"菜鸡防骑", -- [8]
 		"菜鸡盗贼", -- [9]
 		"菜鸡萨满", -- [10]
+		"", -- [11]
 	},
 	["expList"] = {
 		0, -- [1]
@@ -136,6 +153,7 @@ GlobalIgnoreDB = {
 		0, -- [8]
 		0, -- [9]
 		0, -- [10]
+		0, -- [11]
 	},
 	["skipGuild"] = true,
 	["chatmsg"] = true,
@@ -151,6 +169,7 @@ GlobalIgnoreDB = {
 		"11 Jun 2023", -- [8]
 		"11 Jun 2023", -- [9]
 		"11 Jun 2023", -- [10]
+		"25 Jun 2023", -- [11]
 	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
@@ -180,7 +199,7 @@ GlobalIgnoreDB = {
 	["asknote"] = true,
 	["skipParty"] = false,
 	["revision"] = 1,
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["ignoreList"] = {
 		"长野的天-伊弗斯", -- [1]
@@ -193,5 +212,6 @@ GlobalIgnoreDB = {
 		"奶聖丶-伊弗斯", -- [8]
 		"猪猪炮-伊弗斯", -- [9]
 		"三岁就很猛-伊弗斯", -- [10]
+		"Jojopala-伊弗斯", -- [11]
 	},
 }
