@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 2312,
 	["lastSanitation"] = 3,
+	["session"] = 2313,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -177,14 +177,14 @@ BugGrabberDB = {
 		}, -- [22]
 		{
 			["message"] = "Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["session"] = 1639,
 			["time"] = "2023/03/26 20:12:39",
+			["session"] = 1639,
 			["counter"] = 1,
 		}, -- [23]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["session"] = 1639,
 			["time"] = "2023/03/26 20:12:39",
+			["session"] = 1639,
 			["counter"] = 1,
 		}, -- [24]
 		{
@@ -742,32 +742,32 @@ BugGrabberDB = {
 		}, -- [96]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...64056#1/伊弗斯/康樂股長/SavedVariables/!!!EaseAddonController.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [97]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...F/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/ItemRack.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [98]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...ccount/712764056#1/伊弗斯/康樂股長/SavedVariables/Auctionator.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [99]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/GlobalIgnoreList.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [100]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/HeyboxPlayerInfo.lua:1: unexpected symbol",
-			["session"] = 2219,
 			["time"] = "2023/05/31 23:14:04",
+			["session"] = 2219,
 			["counter"] = 1,
 		}, -- [101]
 		{
@@ -930,16 +930,48 @@ BugGrabberDB = {
 			["time"] = "2023/02/25 11:45:05",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 2312,
-			["counter"] = 866,
+			["session"] = 2313,
+			["counter"] = 867,
 		}, -- [122]
+		{
+			["message"] = "...erface/AddOns/ElvUI/Core/Modules/Tooltip/Tooltip.lua:1034: Usage: SecureHook([object], method, [handler]): Attempting to hook a non existing target",
+			["time"] = "2023/06/24 16:16:14",
+			["locals"] = "(*temporary) = \"Usage: SecureHook([object], method, [handler]): Attempting to hook a non existing target\"\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceHook/AceHook-3.0-9.lua\"]:210: in function <.../ArkInventory/Externals/Ace3/AceHook/AceHook-3.0.lua:118>\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceHook/AceHook-3.0-9.lua\"]:340: in function `SecureHook'\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Tooltip/Tooltip.lua\"]:1034: in function <...erface/AddOns/ElvUI/Core/Modules/Tooltip/Tooltip.lua:998>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1819: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1834: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1860: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1970: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:265: in function <Interface/AddOns/ElvUI/Core/init.lua:264>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:66: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:61>\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:523: in function `EnableAddon'\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:626: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:611>\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:11532: in function `LoadAddOn'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:11562: in function `BlizzardAPIHook'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:3169: in function <Interface/AddOns/ArkInventory/Core/ArkInventory.lua:3135>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:66: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:61>\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:523: in function `EnableAddon'\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:626: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:611>",
+			["session"] = 2313,
+			["counter"] = 1,
+		}, -- [123]
+		{
+			["message"] = "...AddOns/ElvUI/Wrath/Modules/Skins/BlizzardOptions.lua:293: attempt to index field 'EnableTwitter' (a nil value)",
+			["time"] = "2023/06/24 16:16:14",
+			["locals"] = "self = nil\nChatConfigFrame = ChatConfigFrame {\n BottomLeftCorner = Texture {\n }\n SetScript = <function> defined =[C]:-1\n SetHeight = <function> defined =[C]:-1\n OnBackdropLoaded = <function> defined @Interface/SharedXML/Backdrop.lua:152\n ChatTabManager = ChatConfigFrameChatTabManager {\n }\n TopLeftCorner = Texture {\n }\n RightEdge = Texture {\n }\n template = \"Transparent\"\n ToggleChatButton = Button {\n }\n ApplyBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:282\n GetBackdropBorderColor = <function> defined @Interface/SharedXML/Backdrop.lua:409\n GetBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:347\n SetBorderBlendMode = <function> defined @Interface/SharedXML/Backdrop.lua:266\n RedockButton = ChatConfigFrameRedockButton {\n }\n DefaultButton = ChatConfigFrameDefaultButton {\n }\n SetupTextureCoordinates = <function> defined @Interface/SharedXML/Backdrop.lua:214\n OnBackdropSizeChanged = <function> defined @Interface/SharedXML/Backdrop.lua:182\n TopRightCorner = Texture {\n }\n SetPoint = <function> defined =[C]:-1\n SetWidth = <function> defined =[C]:-1\n GetEdgeSize = <function> defined @Interface/SharedXML/Backdrop.lua:188\n backdropInfo = <table> {\n }\n TopEdge = Texture {\n }\n 0 = <userdata>\n Center = Texture {\n }\n BottomEdge = Texture {\n }\n GetBackdropColor = <function> defined @Interface/SharedXML/Backdrop.lua:390\n HasBackdropInfo = <function> defined @Interface/SharedXML/Backdrop.lua:278\n SetBackdropBorderColor = <function> defined @Interface/SharedXML/Backdrop.lua:422\n SetupPieceVisuals = <function> defined @Interface/SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n BottomRightCorner = Texture {\n }\n}\nChatFrames = <table> {\n 1 = ChatConfigFrame {\n }\n 2 = ChatConfigCategoryFrame {\n }\n 3 = ChatConfigBackgroundFrame {\n }\n 4 = ChatConfigCombatSettingsFilters {\n }\n 5 = ChatConfigCombatSettingsFiltersScrollFrame {\n }\n 6 = CombatConfigColorsHighlighting {\n }\n 7 = CombatConfigColorsColorizeUnitName {\n }\n 8 = CombatConfigColorsColorizeSpellNames {\n }\n 9 = CombatConfigColorsColorizeDamageNumber {\n }\n 10 = CombatConfigColorsColorizeDamageSchool {\n }\n 11 = CombatConfigColorsColorizeEntireLine {\n }\n 12 = ChatConfigChatSettingsLeft {\n }\n 13 = ChatConfigOtherSettingsCombat {\n }\n 14 = ChatConfigOtherSettingsPVP {\n }\n 15 = ChatConfigOtherSettingsSystem {\n }\n 16 = ChatConfigOtherSettingsCreature {\n }\n 17 = ChatConfigChannelSettingsAvailable {\n }\n 19 = ChatConfigChannelSettingsLeft {\n }\n 20 = CombatConfigMessageSourcesDoneBy {\n }\n 21 = CombatConfigColorsUnitColors {\n }\n 22 = CombatConfigMessageSourcesDoneTo {\n }\n}\nChatButtons = <table> {\n 1 = ChatConfigFrameDefaultButton {\n }\n 2 = ChatConfigFrameRedockButton {\n }\n 3 = ChatConfigFrameOkayButton {\n }\n 4 = Button {\n }\n 5 = ChatConfigCombatSettingsFiltersDeleteButton {\n }\n 6 = ChatConfigCombatSettingsFiltersAddFilterButton {\n }\n 7 = ChatConfigCombatSettingsFiltersCopyFilterButton {\n }\n 8 = CombatConfigSettingsSaveButton {\n }\n 9 = CombatLogDefaultButton {\n }\n}\nChatCheckBoxs = <table> {\n 1 = CombatConfigColorsHighlightingLine {\n }\n 2 = CombatConfigColorsHighlightingAbility {\n }\n 3 = CombatConfigColorsHighlightingDamage {\n }\n 4 = CombatConfigColorsHighlightingSchool {\n }\n 5 = CombatConfigColorsColorizeUnitNameCheck {\n }\n 6 = CombatConfigColorsColorizeSpellNamesCheck {\n }\n 7 = CombatConfigColorsColorizeSpellNamesSchoolColoring {\n }\n 8 = CombatConfigColorsColorizeDamageNumberCheck {\n }\n 9 = CombatConfigColorsColorizeDamageNumberSchoolColoring {\n }\n 10 = CombatConfigColorsColorizeDamageSchoolCheck {\n }\n 11 = CombatConfigColorsColorizeEntireLineCheck {\n }\n 12 = CombatConfigFormattingShowTimeStamp {\n }\n 13 = CombatConfigFormattingShowBraces {\n }\n 14 = CombatConfigFormattingUnitNames {\n }\n 15 = CombatConfigFormattingSpellNames {\n }\n 16 = CombatConfigFormattingItemNames {\n }\n 17 = CombatConfigFormattingFullText {\n }\n 18 = CombatConfigSettingsShowQuickButton {\n",
+			["stack"] = "[string \"@Interface/AddOns/ElvUI/Wrath/Modules/Skins/BlizzardOptions.lua\"]:293: in function <...AddOns/ElvUI/Wrath/Modules/Skins/BlizzardOptions.lua:43>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:1873: in function <Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:1868>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1819: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1834: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1860: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1970: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:265: in function <Interface/AddOns/ElvUI/Core/init.lua:264>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:66: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:61>\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:523: in function `EnableAddon'\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:626: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:611>\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:11532: in function `LoadAddOn'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:11562: in function `BlizzardAPIHook'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:3169: in function <Interface/AddOns/ArkInventory/Core/ArkInventory.lua:3135>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:66: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:61>\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:523: in function `EnableAddon'\n[string \"@Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0-13.lua\"]:626: in function <...rkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:611>",
+			["session"] = 2313,
+			["counter"] = 1,
+		}, -- [124]
 		{
 			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["time"] = "2023/02/26 20:58:58",
 			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 2312,
-			["counter"] = 589,
-		}, -- [123]
+			["session"] = 2313,
+			["counter"] = 590,
+		}, -- [125]
+		{
+			["message"] = "...nterface/AddOns/tullaRange_Config/widgets/slider.lua:13: CreateFrame(): Couldn't find inherited node \"UISliderTemplateWithLabels\"",
+			["time"] = "2023/06/24 16:16:44",
+			["locals"] = "(*temporary) = \"Slider\"\n(*temporary) = \"tullaRange_ColorOptionsEditor_oor_红\"\n(*temporary) = tullaRange_ColorOptionsEditor_oor {\n 0 = <userdata>\n text = FontString {\n }\n preview = Texture {\n }\n PixelSnapDisabled = true\n}\n(*temporary) = \"UISliderTemplateWithLabels\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `CreateFrame'\n[string \"@Interface/AddOns/tullaRange_Config/widgets/slider.lua\"]:13: in function `New'\n[string \"@Interface/AddOns/tullaRange_Config/widgets/colorSelector.lua\"]:31: in function `New'\n[string \"@Interface/AddOns/tullaRange_Config/colorOptions.lua\"]:96: in function `CreateColorSelector'\n[string \"@Interface/AddOns/tullaRange_Config/colorOptions.lua\"]:54: in function `AddWidgets'\n[string \"@Interface/AddOns/tullaRange_Config/colorOptions.lua\"]:32: in function `Load'\n[string \"@Interface/AddOns/tullaRange_Config/colorOptions.lua\"]:111: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/tullaRange/tullaRange.lua\"]:169: in function <Interface/AddOns/tullaRange/tullaRange.lua:168>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2236: in function `SetUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2042: in function `ShowUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1949: in function <Interface_Wrath/FrameXML/UIParent.lua:1945>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2755: in function <Interface_Wrath/FrameXML/UIParent.lua:2734>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface/SharedXML/Settings/Blizzard_SettingsPanel.lua\"]:348: in function `Open'\n[string \"*GameMenuFrame.xml:77_OnClick\"]:2: in function <[string \"*GameMenuFrame.xml:77_OnClick\"]:1>",
+			["session"] = 2313,
+			["counter"] = 1,
+		}, -- [126]
+		{
+			["message"] = "Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:3316: attempt to index local 'color' (a nil value)",
+			["time"] = "2023/06/24 16:17:43",
+			["locals"] = "self = <table> {\n OnHyperlinkLeave = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1558\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface/AddOns/ArkInventory/Externals/Ace3/AceTimer/AceTimer-3.0.lua:147\n UpdateEditboxFont = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:738\n SecureHook = <function> defined @Interface/AddOns/ArkInventory/Externals/Ace3/AceHook/AceHook-3.0.lua:335\n TabOnLeave = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1036\n BNGetFriendInfo = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:212\n IsUndocked = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1269\n ChatEdit_PleaseRetaint = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:672\n SocialQueueIsLeader = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2776\n ToggleChatButton = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1250\n ScrollToBottom = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1412\n OnHyperlinkEnter = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1547\n CHAT_MSG_YELL = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2452\n AddPluginMessageFilter = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1661\n ResnapDock = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1305\n IsEnabled = <function> defined @Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:447\n HandleShortChannels = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1596\n BNGetGameAccountInfo = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:225\n StyleOverflowButton = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2332\n HookSecured = true\n CreateChatVoicePanel = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:3118\n CheckLFGRoles = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2752\n RegisterMessage = <function> defined @Interface/AddOns/ItemRack/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:80\n UnregisterMessage = <function> defined @Interface/AddOns/ItemRack/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:143\n CopyButtonOnEnter = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:579\n GuidCache = <table> {\n }\n UpdateChatTabs = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1244\n db = <table> {\n }\n ChatFrame_ReplaceIconAndGroupExpressions = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1697\n ChatEdit_DeactivateChat = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1109\n SetEnabledState = <function> defined @Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:420\n Hook = <function> defined @Interface/AddOns/ArkInventory/Externals/Ace3/AceHook/AceHook-3.0.lua:273\n PostChatClose = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2617\n SnappingChanged = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1293\n GetPluginIcon = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1652\n ResetVoicePanelAlpha = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:3112\n VoiceOverlay = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:3391\n ThrottleSound = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:2460\n NewModule = <function> defined @Interface/AddOns/ArkInventory/Externals/Ace3/AceAddon/AceAddon-3.0.lua:231\n ClearSnapping = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1286\n ChatEdit_PleaseUntaint = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:679\n GetLines = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:968\n Initialized = true\n FindURL = <function> defined @Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:1427\n BuildCopyChatFrame = <function> defined @",
+			["stack"] = "[string \"@Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua\"]:3316: in function <Interface/AddOns/ElvUI/Core/Modules/Chat/Chat.lua:3284>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `FCFTab_UpdateColors'\n[string \"@Interface/FrameXML/FloatingChatFrame.lua\"]:2114: in function `FCFDock_UpdateTabs'\n[string \"@Interface/FrameXML/FloatingChatFrame.lua\"]:1498: in function <Interface/FrameXML/FloatingChatFrame.lua:1497>\n[string \"@Interface_Wrath/AddOns/Blizzard_CombatLog/Blizzard_CombatLog.lua\"]:3402: in function `FCF_DockUpdate'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2702: in function `UIParentManageFramePositions'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1958: in function <Interface_Wrath/FrameXML/UIParent.lua:1945>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2709: in function <Interface_Wrath/FrameXML/UIParent.lua:2707>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UIParent_ManageFramePositions'\n[string \"@Interface/FrameXML/BuffFrame.lua\"]:379: in function `BuffFrame_UpdateAllBuffAnchors'\n[string \"@Interface/FrameXML/BuffFrame.lua\"]:120: in function `BuffFrame_Update'\n[string \"@Interface/FrameXML/SettingDefinitions/InterfaceOverrides.lua\"]:75: in function <...e/FrameXML/SettingDefinitions/InterfaceOverrides.lua:74>\n[string \"=[C]\"]: ?\n[string \"@Interface/SharedXML/CallbackRegistry.lua\"]:178: in function <Interface/SharedXML/CallbackRegistry.lua:177>\n[string \"=[C]\"]: ?\n[string \"@Interface/SharedXML/CallbackRegistry.lua\"]:181: in function `TriggerEvent'\n[string \"@Interface/SharedXML/CvarUtil.lua\"]:114: in function <Interface/SharedXML/CvarUtil.lua:106>",
+			["session"] = 2313,
+			["counter"] = 1,
+		}, -- [127]
 	},
 }

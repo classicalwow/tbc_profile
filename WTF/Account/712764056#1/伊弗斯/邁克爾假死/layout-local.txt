@@ -1,4 +1,11 @@
 Version: 1
+Frame: MovePadFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: 0
+Y: 211
+W: 126
+H: 124
 Frame: ReplayFrame
 FrameLevel: 1
 Anchor: CENTER

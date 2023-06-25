@@ -1,42 +1,38 @@
 # Hekili
 
-## [v3.4.1-1.8.7](https://github.com/Hekili/hekili/tree/v3.4.1-1.8.7) (2023-05-04)
-[Full Changelog](https://github.com/Hekili/hekili/compare/v3.4.1-1.8.5...v3.4.1-1.8.7) [Previous Releases](https://github.com/Hekili/hekili/releases)
+## [v3.4.1-1.8.8](https://github.com/Hekili/hekili/tree/v3.4.1-1.8.8) (2023-06-16)
+[Full Changelog](https://github.com/Hekili/hekili/compare/v3.4.1-1.8.7...v3.4.1-1.8.8) [Previous Releases](https://github.com/Hekili/hekili/releases)
 
-- Merge pull request #2570 from stephenjang/wrath  
-    (Wrath) Rogue: Fix maintain expose armor setting toggle  
-- Rogue: Fix maintain expose armor setting toggle  
-- Merge pull request #2559 from stephenjang/wrath  
-    (Wrath) Fix missing default values.  
-- Fix missing default values.  
-- Merge pull request #2554 from zmsl/wrath  
+- Merge pull request #2678 from zmsl/wrath  
     (Wrath) Druid fixes  
 - Merge branch 'Hekili:wrath' into wrath  
 - Druid fixes  
-    - Added support for Idol of the Corruptor in AOE situations  
-    - Removed AOE options  
-    - AOE APL updated to automatically select the most optimal CP builder  
+    - Removed use of APL variable in an effort to improve raid performance  
+    - Removed duplicate tracking of APL for ToC PTR in favor of tracking game version for just FFF recommendations  
+- Merge pull request #2582 from zmsl/wrath  
+    (Wrath) Druid fixes  
+- Merge branch 'Hekili:wrath' into wrath  
+- (Druid) Added FFF handling to Bear tank  
+- (Druid) Fixed missing mangle clearcasting handler  
+- Merge pull request #2578 from zmsl/wrath  
+    (Wrath) Druid & Rogue updates, PTR support  
+- Updated PTR pack swap logic for Feral DPS  
+- Fixed issue with flexible GetAddOnMetadata reference  
+- Changed cold\_blood usable to use nobuff attribute  
+- Added PTR switch for Feral pack  
+- Updated Druid APL for Omen of Clarity  
+- Merge branch 'wrath' into wrath\_ptr  
+- Updated Druid feral DPS pack  
+- Reverted POC clipping metatable reference  
+- Merge branch 'Hekili:wrath' into wrath  
+- Merge branch 'wrath' into wrath\_ptr  
+- Added flexible reference to GetAddOnMetadata API call  
+- Fixed GetAddOnMetadata reference for TOC patch  
+- Added support for Glyph of Omen of Clarity  
+- Fixed GetAddOnMetadata reference for TOC patch  
+- Merge branch 'Hekili:wrath' into wrath  
+- Merge branch 'wrath' of https://github.com/zmsl/hekili into wrath  
 - Druid fixes  
-    - Adjusted default AOE CP builder based on latest sim results  
-    - Fixed AOE support for flowershifting  
-    - Updated TTD timing for AOE recommendations  
-- Merge pull request #2541 from zmsl/wrath  
-    (Wrath) Druid and Warrior updates  
-- Merge pull request #2552 from stephenjang/wrath  
-    (Wrath) Fix missing color args in notifications  
-- Fix missing color args in notifications  
-- (Druid) Added end of fight condition to prevent FFF when there is not enough time to spend  
-- Refreshed Druid and Warrior APL to current  
-- (Druid) Prevented roar clipping if current roar will expire after fight end  
-- (Druid) Implemented better AOE options  
-    - Players can now enable/disable the use of Rake for more than just a combo builder when wearing T8 2pc  
-    - Players can now choose Rake or Mangle for their combo builder. Mangle is useful when the player is wearing the mangle idol  
-- (Druid) Updated flowerweave window timing to adjust for 1s spend GCD before FFF  
-- Merge branch 'Hekili:wrath' into wrath  
-- (Druid) Updated Druid APL to support flowerweaving  
-- (Druid) Implemented experimental flowerweaving  
-- Blood: Add Heart Strike to priority (but you probably shouldn't talent for it).  
-- Updated Fury APL to support Overpower weaving  
-- Merge branch 'Hekili:wrath' into wrath  
-- Implemented new Fury overpower tech  
-    Theorycrafters have shown that by taking 1 point of TfB, Warriors at certain gear levels can gain ~100dps by allowing swaps to battle stance for Overpower  
+    - Implemented better mangle clipping logic  
+    - Implemented end of fight mangle logic  
+    - Added guards against dumping energy based on mangle refresh needs  

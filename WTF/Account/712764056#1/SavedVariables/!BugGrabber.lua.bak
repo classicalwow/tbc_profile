@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 2312,
 	["lastSanitation"] = 3,
-	["session"] = 2311,
 	["errors"] = {
 		{
 			["message"] = "...face/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:476: hooksecurefunc(): UseContainerItem is not a function",
@@ -177,14 +177,14 @@ BugGrabberDB = {
 		}, -- [22]
 		{
 			["message"] = "Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["time"] = "2023/03/26 20:12:39",
 			["session"] = 1639,
+			["time"] = "2023/03/26 20:12:39",
 			["counter"] = 1,
 		}, -- [23]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:1 Interface/AddOns/LFGBulletinBoard/RequestList.lua:520: '}' expected near ')'",
-			["time"] = "2023/03/26 20:12:39",
 			["session"] = 1639,
+			["time"] = "2023/03/26 20:12:39",
 			["counter"] = 1,
 		}, -- [24]
 		{
@@ -742,32 +742,32 @@ BugGrabberDB = {
 		}, -- [96]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...64056#1/伊弗斯/康樂股長/SavedVariables/!!!EaseAddonController.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
 			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
 			["counter"] = 1,
 		}, -- [97]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...F/Account/712764056#1/伊弗斯/康樂股長/SavedVariables/ItemRack.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
 			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
 			["counter"] = 1,
 		}, -- [98]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...ccount/712764056#1/伊弗斯/康樂股長/SavedVariables/Auctionator.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
 			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
 			["counter"] = 1,
 		}, -- [99]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/GlobalIgnoreList.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
 			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
 			["counter"] = 1,
 		}, -- [100]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 ...t/712764056#1/伊弗斯/康樂股長/SavedVariables/HeyboxPlayerInfo.lua:1: unexpected symbol",
-			["time"] = "2023/05/31 23:14:04",
 			["session"] = 2219,
+			["time"] = "2023/05/31 23:14:04",
 			["counter"] = 1,
 		}, -- [101]
 		{
@@ -930,16 +930,16 @@ BugGrabberDB = {
 			["time"] = "2023/02/25 11:45:05",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:67: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:53>",
-			["session"] = 2311,
-			["counter"] = 865,
+			["session"] = 2312,
+			["counter"] = 866,
 		}, -- [122]
 		{
 			["message"] = "bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))",
 			["time"] = "2023/02/26 20:58:58",
 			["locals"] = "(*temporary) = \"bad argument #2 to '?' (Usage: local line = self:CreateFontString([name, drawLayer, templateName]))\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `CreateFontString'\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:263: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:254>\n[string \"@Interface/AddOns/SpellReplay/SpellReplay.lua\"]:1705: in function <Interface/AddOns/SpellReplay/SpellReplay.lua:1499>",
-			["session"] = 2311,
-			["counter"] = 588,
+			["session"] = 2312,
+			["counter"] = 589,
 		}, -- [123]
 	},
 }
