@@ -6,6 +6,11 @@ END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
+VER 3 0000000001000007 "取消耐力" "135833"
+/cancelaura 坚韧祷言
+/cancelaura 命令怒吼
+/cast 通用热力工程炸药
+END
 VER 3 0000000001000004 "圣光震击" "134400"
 /施放 !
 /施放 圣光术

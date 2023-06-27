@@ -4,7 +4,7 @@ VER 3 0000000001000006 "1" "134400"
 /cast 神圣牺牲
 END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-R5PM1PM1EM1IR[x]2PM2IR3MR3IR3HR3DR4MR4SR4IR4LR5DR5RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2PM[x][x]0__[x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1PM1PM1WM1EM1EM[x]2IR2SR3WM3PM3DR3RM3SR4HR4MR4MR4IR4DR5LR5LR5LR5LR5IR8HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2PM[x][x][x][x]0__[x][x][x][x][x][x][x][x]0__[x][x][x][x]0__[x]0__[x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000004 "圣光震击" "134400"
 /施放 !

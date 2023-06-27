@@ -55,10 +55,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK2"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -202,10 +202,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK3"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},
@@ -426,10 +426,10 @@ PawnCommon = {
 		},
 		["\"Classic\":WARLOCK1"] = {
 			["PerCharacterOptions"] = {
-				["暖男你馬四了-伊弗斯"] = {
+				["特斯拉大股東-伊弗斯"] = {
 					["Visible"] = true,
 				},
-				["特斯拉大股東-伊弗斯"] = {
+				["暖男你馬四了-伊弗斯"] = {
 					["Visible"] = true,
 				},
 			},

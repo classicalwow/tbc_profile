@@ -23,7 +23,6 @@ GlobalIgnoreDB = {
 		"player", -- [8]
 		"player", -- [9]
 		"player", -- [10]
-		"player", -- [11]
 	},
 	["syncInfo"] = {
 		{
@@ -37,8 +36,6 @@ GlobalIgnoreDB = {
 		{
 		}, -- [5]
 		{
-			"家駒-伊弗斯@1", -- [1]
-			"邁克爾假死-伊弗斯@1", -- [2]
 		}, -- [6]
 		{
 		}, -- [7]
@@ -48,8 +45,6 @@ GlobalIgnoreDB = {
 		}, -- [9]
 		{
 		}, -- [10]
-		{
-		}, -- [11]
 	},
 	["invertSpam"] = false,
 	["skipPrivate"] = true,
@@ -59,14 +54,13 @@ GlobalIgnoreDB = {
 		"夢憨憨-伊弗斯", -- [3]
 		"英灵殿-伊弗斯", -- [4]
 		"夏天哦啊-伊弗斯", -- [5]
-		"騒姑娘-伊弗斯", -- [6]
-		"自由之手-伊弗斯", -- [7]
-		"奶聖丶-伊弗斯", -- [8]
-		"猪猪炮-伊弗斯", -- [9]
-		"三岁就很猛-伊弗斯", -- [10]
-		"Jojopala-伊弗斯", -- [11]
+		"自由之手-伊弗斯", -- [6]
+		"奶聖丶-伊弗斯", -- [7]
+		"猪猪炮-伊弗斯", -- [8]
+		"三岁就很猛-伊弗斯", -- [9]
+		"Jojopala-伊弗斯", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["notes"] = {
 		"骗子", -- [1]
@@ -75,11 +69,10 @@ GlobalIgnoreDB = {
 		"骗子", -- [4]
 		"骗子", -- [5]
 		"骗子", -- [6]
-		"骗子", -- [7]
-		"菜鸡防骑", -- [8]
-		"菜鸡盗贼", -- [9]
-		"菜鸡萨满", -- [10]
-		"", -- [11]
+		"菜鸡防骑", -- [7]
+		"菜鸡盗贼", -- [8]
+		"菜鸡萨满", -- [9]
+		"", -- [10]
 	},
 	["filterList"] = {
 		"([word=anal] or [contains=analan]) and ([link] or [words=2])", -- [1]
@@ -93,7 +86,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -106,7 +99,6 @@ GlobalIgnoreDB = {
 		"Horde", -- [8]
 		"Horde", -- [9]
 		"Horde", -- [10]
-		"Horde", -- [11]
 	},
 	["skipGuild"] = true,
 	["sameserver"] = true,
@@ -123,7 +115,6 @@ GlobalIgnoreDB = {
 		0, -- [8]
 		0, -- [9]
 		0, -- [10]
-		0, -- [11]
 	},
 	["skipParty"] = false,
 	["chatmsg"] = true,
@@ -135,11 +126,10 @@ GlobalIgnoreDB = {
 		"29 May 2023", -- [4]
 		"29 May 2023", -- [5]
 		"29 May 2023", -- [6]
-		"29 May 2023", -- [7]
+		"11 Jun 2023", -- [7]
 		"11 Jun 2023", -- [8]
 		"11 Jun 2023", -- [9]
-		"11 Jun 2023", -- [10]
-		"25 Jun 2023", -- [11]
+		"25 Jun 2023", -- [10]
 	},
 	["filterDesc"] = {
 		"Filter \"Anal\" Spammers", -- [1]
@@ -200,8 +190,9 @@ GlobalIgnoreDB = {
 		"一老牛-伊弗斯", -- [29]
 		"月魔夕-伊弗斯", -- [30]
 		"柚子桃桃-伊弗斯", -- [31]
+		"騒姑娘-伊弗斯", -- [32]
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["openWithFriends"] = true,
 }
