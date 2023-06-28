@@ -74,9 +74,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -103,9 +103,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -124,31 +124,6 @@ TomTomWaypointsM = {
 		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			[120] = {
-				["120:444743276.28362:281662591.68704:古怪的沙瓦留斯"] = {
-					120, -- [1]
-					0.4447432762836187, -- [2]
-					0.2816625916870416, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "古怪的沙瓦留斯",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "古怪的沙瓦留斯",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 	},
 }
