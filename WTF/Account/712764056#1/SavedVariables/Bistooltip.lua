@@ -33,12 +33,9 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["class_index"] = 3,
-			["version"] = 6.1,
-			["spec_index"] = 3,
-			["phase_index"] = 3,
 			["minimapPos"] = 281.1238099041077,
-			["data_source"] = "wh",
+			["spec_index"] = 3,
+			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -93,6 +90,9 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
+			["class_index"] = 3,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["巴非特 - 伊弗斯"] = {
 			["minimapPos"] = 289.1762105018657,
@@ -290,14 +290,10 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["class_index"] = 10,
+			["minimapPos"] = 253.4463397527872,
 			["filter_class_names"] = false,
-			["highlight_spec"] = {
-				["spec_name"] = "Affliction",
-				["key"] = "10:1",
-				["class_name"] = "Warlock",
-			},
 			["version"] = 6.1,
+			["phase_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -351,9 +347,13 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["minimapPos"] = 253.4463397527872,
+			["class_index"] = 10,
 			["data_source"] = "wh",
-			["phase_index"] = 3,
+			["highlight_spec"] = {
+				["spec_name"] = "Affliction",
+				["key"] = "10:1",
+				["class_name"] = "Warlock",
+			},
 		},
 	},
 }

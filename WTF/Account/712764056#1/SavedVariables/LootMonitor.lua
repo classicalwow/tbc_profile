@@ -10,7 +10,7 @@ LootMonitorDB = {
 			"RIGHT", -- [1]
 			nil, -- [2]
 			"RIGHT", -- [3]
-			-20.00002861022949, -- [4]
+			-20.00002670288086, -- [4]
 			0, -- [5]
 		},
 		["OutputToRaidWarning"] = false,
