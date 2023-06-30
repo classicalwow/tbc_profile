@@ -23,10 +23,10 @@ BisTooltipDB = {
 		},
 		["康樂股長 - 伊弗斯"] = {
 			["class_index"] = 2,
-			["version"] = 6.1,
 			["spec_index"] = 3,
-			["data_source"] = "wh",
 			["phase_index"] = 3,
+			["data_source"] = "wh",
+			["version"] = 6.1,
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 			["version"] = 6.1,
@@ -34,8 +34,8 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimapPos"] = 281.1238099041077,
-			["spec_index"] = 3,
 			["version"] = 6.1,
+			["spec_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,

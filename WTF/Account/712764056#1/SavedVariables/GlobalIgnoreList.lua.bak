@@ -39,7 +39,7 @@ GlobalIgnoreDB = {
 		"[contains=WTS] or [contains=WTB]", -- [9]
 		"[nonlatin]", -- [10]
 	},
-	["autoUpdate"] = true,
+	["trackChanges"] = true,
 	["autoCount"] = 3,
 	["sameserver"] = true,
 	["ignoreList"] = {
@@ -54,7 +54,7 @@ GlobalIgnoreDB = {
 		"三岁就很猛-伊弗斯", -- [9]
 		"Jojopala-伊弗斯", -- [10]
 	},
-	["autoTime"] = 600,
+	["autoUpdate"] = true,
 	["autoIgnore"] = true,
 	["factionList"] = {
 		"Horde", -- [1]
@@ -171,7 +171,7 @@ GlobalIgnoreDB = {
 		"菜鸡萨满", -- [9]
 		"", -- [10]
 	},
-	["trackChanges"] = true,
+	["autoTime"] = 600,
 	["samefaction"] = true,
 	["syncInfo"] = {
 		{

@@ -13,7 +13,7 @@ LS_TOASTS_GLOBAL_CONFIG = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["version"] = 3040101,
+			["version"] = 3040201,
 			["anchors"] = {
 				{
 					["growth_direction"] = "UP",
@@ -64,8 +64,8 @@ LS_TOASTS_GLOBAL_CONFIG = {
 						[42] = 0,
 						[1900] = 0,
 						[101] = 0,
-						[1901] = 0,
 						[102] = 0,
+						[1901] = 0,
 						[121] = 0,
 						[125] = 0,
 						[161] = 0,

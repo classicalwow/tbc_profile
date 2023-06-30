@@ -235,19 +235,19 @@ AtlasLootClassicDB = {
 			[33731] = "honor:8550",
 			[41084] = "EmblemOfHeroism:45",
 			[30487] = "honor:5320",
-			[33737] = "honor:8550",
+			[42944] = "EmblemOfHeroism:40",
 			[41569] = "honor:1250",
 			[42485] = "arena:4500",
 			[40610] = "EmblemOfHeroism:80",
-			[24557] = "honor:9500",
+			[40898] = "EmblemOfHeroism:45",
 			[33513] = "BoJ:35",
 			[40706] = "EmblemOfHeroism:15",
 			[33577] = "BoJ:60",
-			[40898] = "EmblemOfHeroism:45",
+			[24557] = "honor:9500",
 			[40802] = "EmblemOfValor:30",
 			[45949] = "arena:4500",
 			[33705] = "honor:8550",
-			[42944] = "EmblemOfHeroism:40",
+			[33737] = "honor:8550",
 			[40930] = "EmblemOfHeroism:45",
 			[40962] = "EmblemOfConquest:46",
 			[40701] = "EmblemOfHeroism:35",
@@ -266,14 +266,14 @@ AtlasLootClassicDB = {
 			[42582] = "honor:4480:arena:350",
 			[28921] = "honor:3800",
 			[28937] = "honor:3800",
-			[18835] = "honor:5000",
+			[40707] = "EmblemOfHeroism:15",
 			[30769] = "BoJ:30",
 			[42593] = "honor:4480:arena:175",
-			[40707] = "EmblemOfHeroism:15",
+			[45822] = "EmblemOfConquest:19",
 			[32086] = "BoJ:50",
 			[41666] = "EmblemOfConquest:58",
 			[33514] = "BoJ:60",
-			[45822] = "EmblemOfConquest:19",
+			[18835] = "honor:5000",
 			[33578] = "BoJ:35",
 			[28294] = "honor:9500",
 			[44895] = "cpvpWintergrasp:15",
@@ -427,23 +427,23 @@ AtlasLootClassicDB = {
 			[31855] = "honor:50",
 			[42502] = "arena:1200",
 			[30490] = "honor:5320",
-			[41032] = "EmblemOfConquest:58",
+			[42055] = "honor:16590",
 			[41575] = "honor:1250",
 			[45955] = "arena:4500",
-			[40904] = "EmblemOfValor:45",
+			[33743] = "honor:12825",
 			[30768] = "BoJ:20",
 			[33519] = "BoJ:60",
 			[40712] = "EmblemOfHeroism:15",
 			[33583] = "BoJ:60",
 			[42023] = "honor:16590",
-			[42055] = "honor:16590",
+			[30762] = "BoJ:30",
 			[40840] = "EmblemOfValor:45",
 			[24544] = "honor:4750",
-			[42950] = "EmblemOfHeroism:40",
+			[40904] = "EmblemOfValor:45",
 			[40936] = "EmblemOfHeroism:45",
 			[41991] = "EmblemOfValor:45",
 			[41000] = "EmblemOfConquest:46",
-			[30762] = "BoJ:30",
+			[41032] = "EmblemOfConquest:58",
 			[30778] = "BoJ:30",
 			[42275] = "arena:3150",
 			[18428] = "honor:200",
@@ -501,7 +501,7 @@ AtlasLootClassicDB = {
 			[33585] = "BoJ:75",
 			[40778] = "EmblemOfHeroism:45",
 			[44902] = "cpvpWintergrasp:40",
-			[45957] = "arena:3150",
+			[33681] = "honor:4275",
 			[24545] = "honor:4750",
 			[42952] = "EmblemOfHeroism:40",
 			[40938] = "EmblemOfConquest:58",
@@ -621,11 +621,11 @@ AtlasLootClassicDB = {
 			[33333] = "BoJ:60",
 			[41037] = "EmblemOfConquest:46",
 			[35103] = "honor:19000",
-			[33557] = "BoJ:35",
 			[45833] = "EmblemOfConquest:28",
+			[40718] = "EmblemOfValor:25",
 			[41677] = "EmblemOfConquest:58",
 			[42352] = "arena:3150",
-			[40718] = "EmblemOfValor:25",
+			[33557] = "BoJ:35",
 			[40750] = "EmblemOfValor:40",
 			[40782] = "EmblemOfValor:45",
 			[40846] = "EmblemOfConquest:58",
@@ -656,28 +656,28 @@ AtlasLootClassicDB = {
 			[38545] = "arena:400",
 			[42029] = "honor:33180",
 			[34580] = "honor:3990",
+			[18841] = "honor:1",
 			[40719] = "EmblemOfValor:25",
-			[45834] = "EmblemOfConquest:28",
 			[40751] = "EmblemOfValor:40",
 			[40783] = "EmblemOfValor:45",
-			[18826] = "honor:2500",
+			[40689] = "EmblemOfHeroism:40",
 			[45962] = "arena:1350",
 			[40879] = "honor:43400",
 			[45964] = "arena:1350",
-			[34997] = "honor:19000",
+			[33974] = "BoJ:60",
 			[40785] = "EmblemOfConquest:58",
 			[42030] = "honor:33180",
 			[42062] = "honor:33180",
 			[33910] = "honor:5130",
-			[33528] = "BoJ:60",
-			[41135] = "EmblemOfValor:30",
+			[18826] = "honor:2500",
+			[34997] = "honor:19000",
 			[32983] = "honor:4750",
 			[45836] = "EmblemOfConquest:28",
 			[35093] = "honor:9500",
 			[28320] = "honor:2850",
 			[15199] = "honor:10000",
 			[29375] = "BoJ:25",
-			[40689] = "EmblemOfHeroism:40",
+			[33528] = "BoJ:60",
 			[33207] = "BoJ:60",
 			[32028] = "honor:6650",
 			[35317] = "honor:5130",
@@ -722,12 +722,12 @@ AtlasLootClassicDB = {
 			[40739] = "EmblemOfValor:60",
 			[41712] = "EmblemOfHeroism:30",
 			[40721] = "EmblemOfValor:25",
-			[33974] = "BoJ:60",
+			[41135] = "EmblemOfValor:30",
 			[18874] = "honor:5000",
 			[33727] = "honor:17100",
 			[33688] = "honor:17100",
 			[30183] = "BoJ:15",
-			[18841] = "honor:1",
+			[45834] = "EmblemOfConquest:28",
 			[42991] = "EmblemOfHeroism:50",
 			[32793] = "honor:5320",
 			[42032] = "honor:33180",
@@ -796,9 +796,9 @@ AtlasLootClassicDB = {
 			[42002] = "EmblemOfHeroism:45",
 			[41011] = "EmblemOfValor:45",
 			[41043] = "EmblemOfConquest:46",
-			[33681] = "honor:4275",
-			[42130] = "honor:43400",
 			[40842] = "EmblemOfValor:45",
+			[42130] = "honor:43400",
+			[45957] = "arena:3150",
 			[33325] = "BoJ:35",
 			[41203] = "EmblemOfValor:45",
 			[40699] = "EmblemOfHeroism:25",
@@ -828,7 +828,7 @@ AtlasLootClassicDB = {
 			[42003] = "EmblemOfValor:45",
 			[41012] = "EmblemOfConquest:58",
 			[42067] = "honor:33180",
-			[33743] = "honor:12825",
+			[42950] = "EmblemOfHeroism:40",
 			[42131] = "honor:43400",
 			[41140] = "EmblemOfHeroism:30",
 			[32988] = "honor:5320",
@@ -955,6 +955,9 @@ AtlasLootClassicDB = {
 		["碼農巴菲特 - 伊弗斯"] = {
 		},
 		["康樂股長 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 292.1207094296029,
+			},
 			["GUI"] = {
 				["point"] = {
 					"LEFT", -- [1]
@@ -964,15 +967,12 @@ AtlasLootClassicDB = {
 					44.99999237060547, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingWrath", -- [2]
-					8, -- [3]
-					1, -- [4]
+					nil, -- [1]
+					"Ulduar", -- [2]
+					14, -- [3]
+					10, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 292.1207094296029,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
@@ -1062,24 +1062,24 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 305.257928873555,
-			},
 			["GUI"] = {
 				["point"] = {
-					"BOTTOM", -- [1]
+					"BOTTOMRIGHT", -- [1]
 					nil, -- [2]
-					"BOTTOM", -- [3]
-					-10.44986438751221, -- [4]
-					121.0616836547852, -- [5]
+					"BOTTOMRIGHT", -- [3]
+					-165.5203552246094, -- [4]
+					148.3954620361328, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
 					"TrialoftheCrusader", -- [2]
-					nil, -- [3]
-					7, -- [4]
+					6, -- [3]
+					10, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 305.257928873555,
 			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {

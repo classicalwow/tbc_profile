@@ -1,7 +1,7 @@
-VER 3 0000000001000024 "1" "135421"
-END
 VER 3 0000000001000022 "1" "134072"
 /castsequence 蝰蛇守护,龙鹰守护
+END
+VER 3 0000000001000024 "1" "135421"
 END
 VER 3 000000000100001F "target" "135769"
 /target 乌
@@ -56,4 +56,9 @@ END
 VER 3 0000000001000020 "误导宠物" "INV_MISC_QUESTIONMARK"
 #showtooltips 误导
 /cast [target=focus,exists][target=pet][] 误导
+END
+VER 3 0000000001000027 "點掉耐力" "135833"
+/cancelaura 命令怒吼
+/cancelaura 坚韧祷言
+/cancelaura 真言术：韧
 END
