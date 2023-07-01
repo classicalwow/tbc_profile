@@ -182,4 +182,5 @@ DBM-BWL: enabled
 HeyboxPlayerInfo: disabled
 ElvUI_ChatTweaks: disabled
 ElvUI_BuffHighlight: disabled
+Blizzard_CompactRaidFrames: enabled
 WunderUI: disabled

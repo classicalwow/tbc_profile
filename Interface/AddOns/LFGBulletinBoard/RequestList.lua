@@ -503,7 +503,11 @@ function GBB.GetDungeons(msg,name)
 	-- 	msg = ""
 	-- end
 
-	-- if not(findStrInTab({"25"},msg)) then
+	if not(findStrInTab({"25"},msg)) then
+		msg = ""
+	end
+
+	-- if not(findStrInTab({"箱","箱"},msg)) then
 	-- 	msg = ""
 	-- end
 

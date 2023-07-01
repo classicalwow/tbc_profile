@@ -4,7 +4,12 @@ VER 3 0000000001000006 "1" "134400"
 /cast 神圣牺牲
 END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-R1PM1PM1WM1EM1EM[x]2IR2SR3WM3PM3DR3RM3SR4HR4MR4MR4IR4DR5LR5LR5LR5LR5IR8HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2PM[x][x][x][x]0__[x][x][x][x][x][x][x][x]0__[x][x][x][x]0__[x]0__[x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000007 "取消耐力" "135833"
+/cancelaura 坚韧祷言
+/cancelaura 命令怒吼
+/cast 通用热力工程炸药
 END
 VER 3 0000000001000004 "圣光震击" "134400"
 /施放 !
