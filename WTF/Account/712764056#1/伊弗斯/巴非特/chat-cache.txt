@@ -8,6 +8,7 @@ CHANNELS
 22 0 4 1
 大脚世界频道 1 5 3
 鏡花水月 1 6 3
+zzm 1 7 3
 END
 
 ZONECHANNELS 0
@@ -163,6 +164,7 @@ END
 
 CHANNELS
 鏡花水月
+zzm
 END
 
 ZONECHANNELS 2097153

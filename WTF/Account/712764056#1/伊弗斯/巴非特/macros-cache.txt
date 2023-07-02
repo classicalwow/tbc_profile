@@ -1,6 +1,11 @@
 VER 3 0000000001000003 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
+VER 3 0000000001000008 "取消耐力" "136075"
+#showtooltips
+/cancelaura 命令怒吼
+/cancelaura 坚韧祷言
+END
 VER 3 0000000001000001 "坐骑" "134400"
 /施放 迅捷红色驭风者
 /施放 迅捷棕狼

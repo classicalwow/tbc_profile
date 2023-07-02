@@ -182,3 +182,4 @@ GlobalIgnoreList: enabled
 ElvUI_ChatTweaks: disabled
 ElvUI_BuffHighlight: disabled
 WunderUI: disabled
+Blizzard_CompactRaidFrames: enabled
