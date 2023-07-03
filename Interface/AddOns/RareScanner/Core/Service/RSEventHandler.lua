@@ -203,7 +203,7 @@ local function OnLootOpened()
 				local npcID = id and tonumber(id) or nil
 				
 				-- If its a supported NPC
-				if (RSGeneralDB.GetAlreadyFoundEntity(npcID)) then
+				if (RSGeneralDB.GetAlreadyFoundEntity(npcID) or RSNpcDB.GetInternalNpcInfo(npcID)) then
 					local itemLink = GetLootSlotLink(i)
 					if (itemLink) then
 						local _, _, _, lootType, id, _, _, _, _, _, _, _, _, _, name = string.find(itemLink, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")

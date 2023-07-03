@@ -10,8 +10,8 @@ MBB_Options = {
 	["CollapseTimeout"] = 0.7598629593849182,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
-	["DetachedButtonPos"] = "TOPLEFT",
 	["MaxButtonsPerLine"] = 5,
+	["DetachedButtonPos"] = "TOPLEFT",
 	["ButtonPos"] = {
 		-27.99327659606934, -- [1]
 		-53.95622634887695, -- [2]

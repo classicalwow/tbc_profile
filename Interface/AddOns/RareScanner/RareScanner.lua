@@ -346,6 +346,7 @@ function scanner_button:SimulateRareFound(npcID, objectGUID, name, x, y, atlasNa
 	vignetteInfo.objectGUID = objectGUID or string.format("a-a-a-a-a-%s-a", npcID)
 	vignetteInfo.x = x
 	vignetteInfo.y = y
+	vignetteInfo.simulated = true
 	self:DetectedNewVignette(self, vignetteInfo)
 end
 

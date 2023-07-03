@@ -143,8 +143,16 @@ local function ShowAlert(button, vignetteInfo, isNavigating)
 			UpdateRareFound(entityID, vignetteInfo, vignettePosition)
 		else
 			vignettePosition = UpdateRareFound(entityID, vignetteInfo)
+			
+			-- If the entity doesn't have coordinates (for example a custom NPC) set a random coordinate set so at least it shows the notification
 			if (not vignettePosition) then
-				return
+				if (RSConstants.IsNpcAtlas(vignetteInfo.atlasName)) then
+					vignettePosition = {}
+					vignettePosition.x = -1
+					vignettePosition.y = -1
+				else
+					return
+				end
 			end
 		end
 	else

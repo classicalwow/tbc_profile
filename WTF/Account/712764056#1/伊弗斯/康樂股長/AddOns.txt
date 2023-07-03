@@ -37,4 +37,4 @@ Altoholic_Summary: disabled
 BattleInfo: disabled
 BattlegroundSpiritReleaser: disabled
 DataStore: disabled
-AddOnSkins: disabled
+Blizzard_CompactRaidFrames: enabled
