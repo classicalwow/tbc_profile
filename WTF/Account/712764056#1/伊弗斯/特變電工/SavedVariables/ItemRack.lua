@@ -7,7 +7,8 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["CurrentSet"] = "狂暴戰",
+	["Queues"] = {
+	},
 	["Sets"] = {
 		["裸體"] = {
 			["equip"] = {
@@ -138,8 +139,7 @@ ItemRackUser = {
 	},
 	["EnableQueues"] = "ON",
 	["EnablePerSetQueues"] = "OFF",
-	["Buttons"] = {
-	},
+	["EnableEvents"] = "OFF",
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
@@ -148,12 +148,12 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
-	["Alpha"] = 1,
 	["Hidden"] = {
 		"32757::::::::70:::::::::", -- [1]
 	},
-	["EnableEvents"] = "OFF",
-	["MenuScale"] = 0.85,
-	["Queues"] = {
+	["Alpha"] = 1,
+	["Buttons"] = {
 	},
+	["MenuScale"] = 0.85,
+	["CurrentSet"] = "狂暴戰",
 }

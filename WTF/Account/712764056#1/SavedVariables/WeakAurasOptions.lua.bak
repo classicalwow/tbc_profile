@@ -7,6 +7,14 @@ WeakAurasOptionsSaved = {
 	["locale"] = "zhCN",
 	["needsRebuild"] = false,
 	["version"] = "5.5.6",
+	["spellCacheAchivements"] = true,
+	["frame"] = {
+		["xOffset"] = 1661.212036132813,
+		["width"] = 830.000244140625,
+		["height"] = 665.0001220703125,
+		["yOffset"] = 894.0726928710938,
+	},
+	["spellCacheStrings"] = true,
 	["spellCache"] = {
 		["胶质防盾"] = {
 			["spells"] = "38026=135864",
@@ -51537,13 +51545,5 @@ WeakAurasOptionsSaved = {
 			["spells"] = "53756=136183",
 		},
 	},
-	["spellCacheStrings"] = true,
-	["frame"] = {
-		["xOffset"] = 1661.212036132813,
-		["yOffset"] = 894.0726928710938,
-		["height"] = 665.0001220703125,
-		["width"] = 830.000244140625,
-	},
-	["spellCacheAchivements"] = true,
 	["build"] = "50250",
 }
