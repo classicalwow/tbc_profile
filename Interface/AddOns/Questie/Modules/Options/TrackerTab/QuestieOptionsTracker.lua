@@ -125,6 +125,9 @@ function QuestieOptions.tabs.tracker:Initialize()
                 get = function() return Questie.db.global.hideBlizzardCompletionText end,
                 set = function(_, value)
                     Questie.db.global.hideBlizzardCompletionText = value
+                    if Questie.db.global.hideBlizzardCompletionText == false then
+                        Questie.db.char.collapsedQuests = {}
+                    end
                     QuestieTracker:Update()
                 end
             },
@@ -639,7 +642,7 @@ function QuestieOptions.tabs.tracker:Initialize()
                 desc = function() return l10n("The font size used for the Active Quests Header.") end,
                 width = "double",
                 min = 8,
-                max = 18,
+                max = 26,
                 step = 1,
                 disabled = function() return not Questie.db.char.trackerEnabled or not Questie.db.global.trackerHeaderEnabled end,
                 get = function() return Questie.db.global.trackerFontSizeHeader end,
@@ -670,7 +673,7 @@ function QuestieOptions.tabs.tracker:Initialize()
                 desc = function() return l10n('The font size used for zone names.') end,
                 width = "double",
                 min = 8,
-                max = 18,
+                max = 26,
                 step = 1,
                 disabled = function() return not Questie.db.char.trackerEnabled end,
                 get = function() return Questie.db.global.trackerFontSizeZone end,
@@ -701,7 +704,7 @@ function QuestieOptions.tabs.tracker:Initialize()
                 desc = function() return l10n("The font size used for Quest Titles.\n\nNOTE: Objective font size will auto adjust to less than or equal to Quest font size. This is necessary to avoid any text collisions and formatting abnormalities.") end,
                 width = "double",
                 min = 8,
-                max = 18,
+                max = 26,
                 step = 1,
                 disabled = function() return not Questie.db.char.trackerEnabled end,
                 get = function() return Questie.db.global.trackerFontSizeQuest end,
@@ -735,7 +738,7 @@ function QuestieOptions.tabs.tracker:Initialize()
                 desc = function() return l10n("The font size used for Objectives.\n\nNOTE: Objective font size will auto adjust to less than or equal to Quest font size. This is necessary to avoid any text collisions and formatting abnormalities.") end,
                 width = "double",
                 min = 8,
-                max = 18,
+                max = 26,
                 step = 1,
                 disabled = function() return not Questie.db.char.trackerEnabled end,
                 get = function() return Questie.db.global.trackerFontSizeObjective end,

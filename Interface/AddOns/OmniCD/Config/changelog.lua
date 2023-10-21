@@ -1,6 +1,15 @@
 local E, L, C = select(2, ...):unpack()
 
 if E.isClassic then E.changelog = [=[
+v1.14.4.2771
+	Extra Bars can now be used as additional CD bars that attach to each unit's raid frame.
+
+v1.14.4.2768
+	bump toc
+
+v1.14.3.2762
+	1.14.4 PTR compatibility updates
+
 v1.14.3.2755
 	Readiness will reset Deterrence, Feign Death and Trap abilities, instead of all Hunter abilities
 ]=]
@@ -9,28 +18,38 @@ v2.5.4.2722
 	Fixed sync for cross realm group members
 ]=]
 elseif E.isWOTLKC then E.changelog = [=[
+v3.4.3.2771
+	Extra Bars can now be used as additional CD bars that attach to each unit's raid frame.
+	bump toc
+
+v3.4.2.2768
+	Cooldowns will correctly update when non-synced units change specialization
+
+v3.4.2.2762
+	bump toc
+
 v3.4.1.2755
 	Fixed an issue that prevented CD bars from attaching to the party frames
 	Readiness will no longer reset Roar of Sacrifice
 	Added arena season 7, 8 equip bonus items
 ]=]
 else E.changelog = [=[
-v10.1.0.2756
-	JUNE 5, 2023 hotfixes
-		Amplify Curse CD 30>60s
-		Teachings of the Satyr CDR 10>15s
-		Thunderlord CDR 1>1.5s
-	MAY 15, 2023 hotfixes
-		BM HUnter, Aberrus (4) Set bonus CDR 1>2s
-		Sharpen Blade CD 25>30s
+v10.1.7.2771
+	Extra Bars can now be used as additional CD bars that attach to each unit's raid frame.
 
-v10.1.0.2755
-	TL;DR
-		Fixed incorrect CDRs for Prot Paladin and Brewmaster Monk
-		CD sync revamped - |cffff2020no longer communicates with older versions!|r
-		10.1.5 compatibility updates
+v10.1.7.2770
+	Shield Charge will correctly go on CD when used out of melee range.
+	Heavy Wingbests/Cloberring Sweep will correctly reduce the CD of Wing Buffet/Tail Swipe.
+	Accretion will correctly reduce Upheaval's remaining CD whenever you cast Eruption.
 
-# Released a new addon to track auras. Link in the AddOns tab
+v10.1.7.2769
+	Ultimate Sacrifice will correctly go on cooldown when used.
+	Ultimate Sacrifice CD fixed to 2min and benefits from Sacrifice of the Just.
+
+v10.1.7.2768
+	Patch 10.1.7 spell updates
+	PRIEST Angel's Mercy has been redesigned – Now reduces the cooldown of Desperate Prayer by 20 seconds.
+	AUGUST 21, 2023 Hotfixes - Dead of Winter now increases the cooldown of Remorseless Winter by 10 seconds (was 25 seconds).
 ]=]
 end
 

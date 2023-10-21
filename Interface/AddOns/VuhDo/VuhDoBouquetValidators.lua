@@ -7,6 +7,7 @@ VUHDO_BOUQUET_CUSTOM_TYPE_HOLY_POWER = 6;
 VUHDO_BOUQUET_CUSTOM_TYPE_SECONDS = 7;
 VUHDO_BOUQUET_CUSTOM_TYPE_STACKS = 8;
 VUHDO_BOUQUET_CUSTOM_TYPE_CUSTOM_FLAG = 9;
+VUHDO_BOUQUET_CUSTOM_TYPE_SPELL_TRACE = 10;
 
 VUHDO_FORCE_RESET = false;
 
@@ -26,9 +27,7 @@ local VUHDO_getChosenDebuffInfo;
 local VUHDO_getCurrentPlayerTarget;
 local VUHDO_getCurrentPlayerFocus;
 local VUHDO_getCurrentMouseOver;
-local VUHDO_getDistanceBetween;
 local VUHDO_isUnitSwiftmendable;
-local VUHDO_getNumInUnitCluster;
 local VUHDO_getIsInHiglightCluster;
 local VUHDO_getDebuffColor;
 local VUHDO_getIsCurrentBouquetActive;
@@ -41,11 +40,6 @@ local VUHDO_getSpellTraceTrailOfLightForUnit;
 local VUHDO_getAoeAdviceForUnit;
 local VUHDO_getCurrentBouquetTimer;
 local VUHDO_getRaidTargetIconTexture;
-local VUHDO_shouldDisplayArrow;
-local VUHDO_getUnitDirection;
-local VUHDO_getCellForDirection;
-local VUHDO_getRedGreenForDistance;
-local VUHDO_getTexCoordsForCell;
 local VUHDO_getUnitGroupPrivileges;
 local VUHDO_getLatestCustomDebuff;
 local VUHDO_getUnitOverallShieldRemain;
@@ -68,9 +62,7 @@ function VUHDO_bouquetValidatorsInitLocalOverrides()
 	VUHDO_getCurrentPlayerTarget = _G["VUHDO_getCurrentPlayerTarget"];
 	VUHDO_getCurrentPlayerFocus = _G["VUHDO_getCurrentPlayerFocus"];
 	VUHDO_getCurrentMouseOver = _G["VUHDO_getCurrentMouseOver"];
-	VUHDO_getDistanceBetween = _G["VUHDO_getDistanceBetween"];
 	VUHDO_isUnitSwiftmendable = _G["VUHDO_isUnitSwiftmendable"];
-	VUHDO_getNumInUnitCluster = _G["VUHDO_getNumInUnitCluster"];
 	VUHDO_getIsInHiglightCluster = _G["VUHDO_getIsInHiglightCluster"];
 	VUHDO_getDebuffColor = _G["VUHDO_getDebuffColor"];
 	VUHDO_getCurrentBouquetColor = _G["VUHDO_getCurrentBouquetColor"];
@@ -83,11 +75,6 @@ function VUHDO_bouquetValidatorsInitLocalOverrides()
 	VUHDO_getAoeAdviceForUnit = _G["VUHDO_getAoeAdviceForUnit"];
 	VUHDO_getCurrentBouquetTimer = _G["VUHDO_getCurrentBouquetTimer"];
 	VUHDO_getRaidTargetIconTexture = _G["VUHDO_getRaidTargetIconTexture"];
-	VUHDO_shouldDisplayArrow = _G["VUHDO_shouldDisplayArrow"];
-	VUHDO_getUnitDirection = _G["VUHDO_getUnitDirection"];
-	VUHDO_getCellForDirection = _G["VUHDO_getCellForDirection"];
-	VUHDO_getRedGreenForDistance = _G["VUHDO_getRedGreenForDistance"];
-	VUHDO_getTexCoordsForCell = _G["VUHDO_getTexCoordsForCell"];
 	VUHDO_getUnitGroupPrivileges = _G["VUHDO_getUnitGroupPrivileges"];
 	VUHDO_getLatestCustomDebuff = _G["VUHDO_getLatestCustomDebuff"];
 	VUHDO_getUnitOverallShieldRemain = _G["VUHDO_getUnitOverallShieldRemain"];
@@ -120,6 +107,7 @@ local VUHDO_CHARGE_COLORS = {
 --
 local tInfo;
 local function VUHDO_spellTraceValidator(anInfo, _)
+
 	tInfo = VUHDO_getSpellTraceForUnit(anInfo["unit"]);
 
 	if tInfo then
@@ -127,6 +115,57 @@ local function VUHDO_spellTraceValidator(anInfo, _)
 	else
 		return false, nil, -1, -1, -1;
 	end
+
+end
+
+
+
+--
+local tInfo;
+local function VUHDO_spellTraceIncomingValidator(anInfo, _)
+
+	tInfo = VUHDO_getSpellTraceIncomingForUnit(anInfo["unit"]);
+
+	if tInfo then
+		return true, tInfo["icon"], -1, -1, -1;
+	else
+		return false, nil, -1, -1, -1;
+	end
+
+end
+
+
+
+--
+local tInfo;
+local function VUHDO_spellTraceHealValidator(anInfo, _)
+
+	tInfo = VUHDO_getSpellTraceHealForUnit(anInfo["unit"]);
+
+	if tInfo then
+		return true, tInfo["icon"], -1, -1, -1;
+	else
+		return false, nil, -1, -1, -1;
+	end
+
+end
+
+
+
+--
+local tInfo;
+local function VUHDO_spellTraceSingleValidator(anInfo, aCustom)
+
+	if aCustom and aCustom["custom"] and aCustom["custom"]["spellTrace"] and aCustom["custom"]["spellTrace"] ~= "" then
+		tInfo = VUHDO_getSpellTraceForUnit(anInfo["unit"], aCustom["custom"]["spellTrace"]);
+
+		if tInfo then
+			return true, tInfo["icon"], -1, -1, -1;
+		end
+	end
+
+	return false, nil, -1, -1, -1;
+
 end
 
 
@@ -134,6 +173,7 @@ end
 --
 local tInfo;
 local function VUHDO_trailOfLightValidator(anInfo, _)
+
 	tInfo = VUHDO_getSpellTraceTrailOfLightForUnit(anInfo["unit"]);
 
 	if tInfo then
@@ -141,6 +181,7 @@ local function VUHDO_trailOfLightValidator(anInfo, _)
 	else
 		return false, nil, -1, -1, -1;
 	end
+
 end
 
 
@@ -1939,6 +1980,25 @@ VUHDO_BOUQUET_BUFFS_SPECIAL = {
 	["SPELL_TRACE"] = {
 		["displayName"] = VUHDO_I18N_SPELL_TRACE,
 		["validator"] = VUHDO_spellTraceValidator,
+		["interests"] = { VUHDO_UPDATE_SPELL_TRACE },
+	},
+
+	["SPELL_TRACE_INCOMING"] = {
+		["displayName"] = VUHDO_I18N_SPELL_TRACE_INCOMING,
+		["validator"] = VUHDO_spellTraceIncomingValidator,
+		["interests"] = { VUHDO_UPDATE_SPELL_TRACE },
+	},
+
+	["SPELL_TRACE_HEAL"] = {
+		["displayName"] = VUHDO_I18N_SPELL_TRACE_HEAL,
+		["validator"] = VUHDO_spellTraceHealValidator,
+		["interests"] = { VUHDO_UPDATE_SPELL_TRACE },
+	},
+
+	["SPELL_TRACE_SINGLE"] = {
+		["displayName"] = VUHDO_I18N_SPELL_TRACE_SINGLE,
+		["validator"] = VUHDO_spellTraceSingleValidator,
+		["custom_type"] = VUHDO_BOUQUET_CUSTOM_TYPE_SPELL_TRACE,
 		["interests"] = { VUHDO_UPDATE_SPELL_TRACE },
 	},
 

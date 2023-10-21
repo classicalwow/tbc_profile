@@ -126,6 +126,8 @@ L["options:general:import-profile"] = "Import profile"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 --[[Translation missing --]]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
+--[[Translation missing --]]
 L["options:general:npc-blacklist"] = "NPC blacklist"
 --[[Translation missing --]]
 L["options:general:npc-blacklist-add-button"] = "Add NPC"
@@ -226,6 +228,12 @@ L["options:spells:animation-type"] = "Animation type"
 --[[Translation missing --]]
 L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
 --[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
+--[[Translation missing --]]
 L["options:spells:disable-all-spells"] = "Disable all spells"
 --[[Translation missing --]]
 L["options:spells:enable-all-spells"] = "Enable all spells"
@@ -259,6 +267,8 @@ L["options:spells:icon-glow-threshold"] = "Show glow if aura's remaining time is
 L["options:spells:icon-height"] = "Altura del icono"
 L["options:spells:icon-width"] = "Anchura del icono"
 L["options:spells:please-push-once-more"] = "Por favor pulsa otra vez"
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = "Atención: Esta aura no se mostrará en las placas de nombre amistosas hasta que se active la siguiente opción: <General> --> <Mostrar auras en las placas de nombre de las unidades amistosas>"
 --[[Translation missing --]]
 L["options:spells:spell-tooltip"] = [=[Spell tooltip

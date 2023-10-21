@@ -87,21 +87,20 @@ L["options:borders:border-type"] = "테두리 유형"
 L["options:category:alpha"] = "투명도"
 L["options:category:apps"] = "앱"
 L["options:category:dispel"] = "정화/훔치기"
---[[Translation missing --]]
-L["options:category:icon-groups"] = "Icon groups"
+L["options:category:icon-groups"] = "아이콘 그룹"
 L["options:category:interrupts"] = "방해"
 L["options:category:size-and-position"] = "크기 및 위치"
 L["options:general:always-show-my-auras:tooltip"] = "이것은 최우선 필터입니다. 이 기능을 사용하면 다른 필터와 상관없이 효과가 표시됩니다."
 L["options:general:always-show-my-auras-blacklist:button"] = "-> 차단목록"
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "주의! 주문이 '주문' 목록 및 이 차단목록에 추가되면 이름표에 표시됩니다."
---[[Translation missing --]]
-L["options:general:current-icon-group"] = "Current icon group"
+L["options:general:current-icon-group"] = "현재 아이콘 그룹"
 L["options:general:export-profile"] = "프로필 내보내기"
 L["options:general:hide-blizz-frames"] = "Blizzard 효과 창 숨기기 (플레이어 제외)"
 L["options:general:hide-player-blizz-frame"] = "플레이어의 Blizzard 효과 창 숨기기"
 L["options:general:icon-grow-direction"] = "아이콘 성장 방향"
 L["options:general:import-profile"] = "프로필 가져오기"
 L["options:general:instance-types"] = "다른 위치에서 재사용 대기시간의 표시 여부를 설정"
+L["options:general:masque-experimental"] = "Masque 지원 사용 (실험 중)"
 L["options:general:npc-blacklist"] = "NPC 차단목록"
 L["options:general:npc-blacklist-add-button"] = "NPC 추가"
 L["options:general:npc-blacklist-editbox-add"] = "여기에 NPC 이름을 입력하세요."
@@ -119,17 +118,10 @@ L["options:glow-type:GLOW_TYPE_ACTIONBUTTON_DIM"] = "행동 단축 버튼 (희�
 L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "자동 사용 버튼"
 L["options:glow-type:GLOW_TYPE_NONE"] = "없음"
 L["options:glow-type:GLOW_TYPE_PIXEL"] = "픽셀"
---[[Translation missing --]]
-L["options:icon-groups:description"] = [=[
-An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
-The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
-Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
---[[Translation missing --]]
-L["options:icon-groups:dropdown-list"] = "Icon groups"
---[[Translation missing --]]
-L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
---[[Translation missing --]]
-L["options:icon-groups:remove"] = "Delete"
+L["options:icon-groups:description"] = "아이콘 그룹은 독립 설정이 있는 아이콘 집합입니다. 예를 들어 약화 효과 아이콘 그룹, 방해 아이콘 그룹, 중요한 우두머리 강화 효과 아이콘 그룹을 따로 만들 수 있습니다. 그런 다음 이러한 아이콘 그룹을 이름표 주위에 독립 배치할 수 있습니다. 참고로 애드온은 강화 효과와 약화 효과를 구분할 수 없으므로 주문으로 그룹을 채우는 것은 안타깝게도 여러분의 책임입니다. :) 이 창의 왼쪽 상단 모서리에 있는 드롭다운 메뉴에는 현재 편집 중인 아이콘 그룹이 표시됩니다. 주의: 주문은 아이콘 그룹 간에 공유되지만, 이름은 같지만 옵션이 다른 주문을 여러 개 생성한 다음 다른 아이콘 그룹으로 연결되는 링크를 설정할 수 있습니다."
+L["options:icon-groups:dropdown-list"] = "아이콘 그룹"
+L["options:icon-groups:editbox-add-text"] = "이름을 입력하고 Enter 키를 눌러 새 아이콘 그룹을 추가합니다."
+L["options:icon-groups:remove"] = "삭제"
 L["options:interrupts:enable-interrupts"] = "방해 추적 사용"
 L["options:interrupts:enable-only-during-pvp-battles"] = "PVP 전투에서만 사용"
 L["options:interrupts:use-shared-icon-texture"] = "모든 방해 주문에 동일한 텍스처 사용"
@@ -174,6 +166,12 @@ L["options:spells:animation-relative:tooltip"] = [=[이 옵션은 왼쪽 슬라�
 이 옵션을 끄면 남은 효과 지속 시간이 슬라이더의 절댓값(초)보다 작을 때 애니메이션이 시작됩니다.]=]
 L["options:spells:animation-type"] = "애니메이션 유형"
 L["options:spells:appropriate-spell-ids"] = "알맞은 주문 ID:"
+--[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
 L["options:spells:disable-all-spells"] = "모든 주문 사용 안 함"
 L["options:spells:enable-all-spells"] = "모든 주문 사용"
 L["options:spells:export-spell"] = "효과 내보내기"
@@ -195,6 +193,8 @@ L["options:spells:icon-glow-threshold"] = "효과의 남은 시간이 다음보�
 L["options:spells:icon-height"] = "아이콘 높이"
 L["options:spells:icon-width"] = "아이콘 너비"
 L["options:spells:please-push-once-more"] = "한번 더 누르세요."
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = "주의: 이 옵션을 켤 때까지 아군 이름표에서는 이 효과를 볼 수 없습니다: <일반> --> <아군 유닛 이름표에 효과 표시>"
 L["options:spells:spell-tooltip"] = "주문 툴팁은 문자가 포함되어야 합니다."
 L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "1/10초를 표시하는 최소 지속 시간"

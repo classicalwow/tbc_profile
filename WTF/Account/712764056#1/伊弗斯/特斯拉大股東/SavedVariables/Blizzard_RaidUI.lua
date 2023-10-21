@@ -2,4 +2,13 @@
 RAID_PULLOUT_POSITIONS = {
 }
 RAID_SINGLE_POSITIONS = {
+	{
+		["y"] = 584.0438232421875,
+		["x"] = 485.731689453125,
+		["point"] = "TOP",
+		["relativePoint"] = "BOTTOMLEFT",
+		["settings"] = {
+		},
+		["name"] = "羊肉汤面",
+	}, -- [1]
 }

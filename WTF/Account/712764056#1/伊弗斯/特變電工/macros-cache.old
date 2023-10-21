@@ -6,9 +6,10 @@ VER 3 0000000001000019 "AOe" "INV_MISC_QUESTIONMARK"
 /cast [stance:2,equipped:盾牌] 盾牌格挡
 /startattack
 END
-VER 3 0000000001000001 "target" "132090"
-/target 卡莱恩
-/script SetRaidTarget("target",8)
+VER 3 0000000001000001 "取消耐力" "135833"
+/cancelaura 命令怒吼
+/cancelaura 坚韧祷言
+/cancelaura 真言术：韧
 END
 VER 3 0000000001000002 "吐口水" "132100"
 /耳光
@@ -60,7 +61,7 @@ END
 VER 3 0000000001000017 "爆發" "INV_MISC_QUESTIONMARK"
 /施放 死亡之愿
 /施放 血性狂怒(种族特长)
-/use 征服者的突围护手
+/use 雪恨手甲
 END
 VER 3 000000000100000B "盾墙" "132361"
 #showtooltip 盾墙

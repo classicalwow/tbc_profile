@@ -4,7 +4,7 @@ VER 3 0000000001000006 "1" "134400"
 /cast 神圣牺牲
 END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-R1PM1PM1EM1SR1PM2WM2RM2RM2EM3MR3MR3IT3HR3DR4LR4LR4LR4DR4SH[x]5IR5PM5IR5IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]5PM[x][x][x][x][x][x][x][x]0__[x][x][x]0__[x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000007 "取消耐力" "135833"
 /cancelaura 坚韧祷言
@@ -26,5 +26,6 @@ VER 3 0000000001000003 "正义之怒" "134400"
 END
 VER 3 0000000001000005 "爆发" "134400"
 /use 陨星水晶
-/use 征服者的庇护手套
+/use 莉亚德琳的凯旋手套
+/use 束缚之石
 END

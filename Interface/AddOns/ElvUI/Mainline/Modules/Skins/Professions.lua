@@ -24,24 +24,27 @@ local function ReskinQualityContainer(container)
 end
 
 local function ReskinSlotButton(button)
-	if button and not button.isSkinned then
-		local texture = button.Icon:GetTexture()
-		button:StripTextures()
-		button:SetNormalTexture(E.ClearTexture)
-		button:SetPushedTexture(E.ClearTexture)
+	local icon = button and button.Icon
+	if not icon then return end
 
-		S:HandleIcon(button.Icon, true)
-		S:HandleIconBorder(button.IconBorder, button.Icon.backdrop)
-		button.Icon:SetOutside(button)
-		button.Icon:SetTexture(texture)
+	if button.CropFrame then button.CropFrame:SetAlpha(0) end
+	if button.NormalTexture then button.NormalTexture:SetAlpha(0) end
+	if button.SlotBackground then button.SlotBackground:SetAlpha(0) end
+	if button.HighlightTexture then button.HighlightTexture:SetAlpha(0) end
 
-		local hl = button:GetHighlightTexture()
-		hl:SetColorTexture(1, 1, 1, .25)
-		hl:SetOutside(button)
+	local hl = button:GetHighlightTexture()
+	hl:SetColorTexture(1, 1, 1, .25)
+	hl:SetOutside(button)
 
-		if button.SlotBackground then
-			button.SlotBackground:Hide()
-		end
+	local ps = button:GetPushedTexture()
+	ps:SetColorTexture(0.9, 0.8, 0.1, 0.3)
+	ps:SetBlendMode('ADD')
+	ps:SetOutside(button)
+
+	if not button.isSkinned then
+		S:HandleIcon(icon, true)
+		S:HandleIconBorder(button.IconBorder, icon.backdrop)
+		icon:SetOutside(button)
 
 		button.isSkinned = true
 	end
@@ -62,6 +65,7 @@ local function HandleOutputButtons(frame)
 				S:HandleIconBorder(item.IconBorder, icon.backdrop)
 
 				itemContainer.CritFrame:SetAlpha(0)
+				itemContainer.NameFrame:Hide()
 				itemContainer.BorderFrame:Hide()
 				itemContainer.HighlightNameFrame:SetAlpha(0)
 				itemContainer.PushedNameFrame:SetAlpha(0)
@@ -98,9 +102,10 @@ end
 local function ReskinOutputLog(outputlog)
 	outputlog:StripTextures()
 	outputlog:SetTemplate('Transparent')
+	outputlog.Bg:SetAlpha(0)
 
 	S:HandleCloseButton(outputlog.ClosePanelButton)
-	S:HandleTrimScrollBar(outputlog.ScrollBar, true)
+	S:HandleTrimScrollBar(outputlog.ScrollBar)
 
 	hooksecurefunc(outputlog.ScrollBox, 'Update', HandleOutputButtons)
 end
@@ -165,14 +170,10 @@ function S:Blizzard_Professions()
 
 	local CraftList = CraftingPage.RecipeList
 	CraftList:StripTextures()
-	S:HandleTrimScrollBar(CraftList.ScrollBar, true)
+	S:HandleTrimScrollBar(CraftList.ScrollBar)
 
 	if CraftList.BackgroundNineSlice then
-		if E.private.skins.parchmentRemoverEnable then
-			CraftList.BackgroundNineSlice:Hide()
-		else
-			CraftList.BackgroundNineSlice:SetAlpha(.25)
-		end
+		CraftList.BackgroundNineSlice:Hide()
 	end
 
 	CraftList:CreateBackdrop('Transparent')
@@ -188,11 +189,14 @@ function S:Blizzard_Professions()
 		SchematicForm.Background:SetAlpha(0)
 		SchematicForm.MinimalBackground:SetAlpha(0)
 	else
-		SchematicForm.Background:SetAlpha(.25)
-		SchematicForm.MinimalBackground:SetAlpha(.25)
+		SchematicForm.Background:SetTexCoord(0.02, 0.98, 0.02, 0.98)
+		SchematicForm.Background:SetAlpha(0.6)
+		SchematicForm.MinimalBackground:SetAlpha(0.6)
 	end
+
 	SchematicForm:CreateBackdrop('Transparent')
 	SchematicForm.backdrop:SetInside()
+	SchematicForm.Background:SetInside(SchematicForm.backdrop)
 
 	hooksecurefunc(SchematicForm, 'Init', function(frame)
 		for slot in frame.reagentSlotPool:EnumerateActive() do
@@ -213,19 +217,24 @@ function S:Blizzard_Professions()
 	local TrackRecipeCheckBox = SchematicForm.TrackRecipeCheckBox
 	if TrackRecipeCheckBox then
 		S:HandleCheckBox(TrackRecipeCheckBox)
-		TrackRecipeCheckBox:SetSize(24, 24)
+		TrackRecipeCheckBox:Size(24)
 	end
 
 	local QualityCheckBox = SchematicForm.AllocateBestQualityCheckBox
 	if QualityCheckBox then
 		S:HandleCheckBox(QualityCheckBox)
-		QualityCheckBox:SetSize(24, 24)
+		QualityCheckBox:Size(24)
 	end
 
 	local QualityDialog = SchematicForm.QualityDialog
 	if QualityDialog then
 		QualityDialog:StripTextures()
 		QualityDialog:CreateBackdrop('Transparent')
+
+		if QualityDialog.Bg then
+			QualityDialog.Bg:SetAlpha(0)
+		end
+
 		S:HandleCloseButton(QualityDialog.ClosePanelButton)
 		S:HandleButton(QualityDialog.AcceptButton)
 		S:HandleButton(QualityDialog.CancelButton)
@@ -250,11 +259,22 @@ function S:Blizzard_Professions()
 	S:HandleButton(SpecPage.ViewPreviewButton)
 	S:HandleButton(SpecPage.BackToFullTreeButton)
 	S:HandleButton(SpecPage.BackToPreviewButton)
-	SpecPage.TreeView:StripTextures()
-	SpecPage.TreeView.Background:Hide()
-	SpecPage.TreeView:CreateBackdrop('Transparent')
-	SpecPage.TreeView.backdrop:SetInside()
+
 	SpecPage.PanelFooter:StripTextures()
+	SpecPage.TreeView:StripTextures()
+	SpecPage.TreeView:CreateBackdrop('Transparent')
+	SpecPage.TreeView.Background:SetInside(SpecPage.TreeView.backdrop)
+	SpecPage.TreeView.Background:SetTexCoord(0.02, 0.98, 0.02, 0.98)
+
+	SpecPage.TreeView.backdrop:ClearAllPoints()
+	SpecPage.TreeView.backdrop:Point('TOPLEFT', -1, -1)
+	SpecPage.TreeView.backdrop:Point('BOTTOMRIGHT', -41, 1)
+
+	if E.private.skins.parchmentRemoverEnable then
+		SpecPage.TreeView.Background:SetAlpha(0)
+	else
+		SpecPage.TreeView.Background:SetAlpha(0.6)
+	end
 
 	hooksecurefunc(SpecPage, 'UpdateTabs', function(frame)
 		for tab in frame.tabsPool:EnumerateActive() do
@@ -268,10 +288,13 @@ function S:Blizzard_Professions()
 	local DetailedView = SpecPage.DetailedView
 	DetailedView:StripTextures()
 	DetailedView:CreateBackdrop('Transparent')
-	DetailedView.backdrop:SetInside()
 	S:HandleButton(DetailedView.UnlockPathButton)
 	S:HandleButton(DetailedView.SpendPointsButton)
 	S:HandleIcon(DetailedView.UnspentPoints.Icon)
+
+	DetailedView.backdrop:ClearAllPoints()
+	DetailedView.backdrop:Point('TOPLEFT', -1, -1)
+	DetailedView.backdrop:Point('BOTTOMRIGHT', -1, 1)
 
 	ReskinOutputLog(CraftingPage.CraftingOutputLog)
 
@@ -285,19 +308,24 @@ function S:Blizzard_Professions()
 	BrowseFrame.OrdersRemainingDisplay:CreateBackdrop('Transparent')
 	S:HandleButton(BrowseFrame.SearchButton)
 	S:HandleButton(BrowseFrame.FavoritesSearchButton)
-	S:HandleButton(BrowseFrame.BackButton)
 	BrowseFrame.FavoritesSearchButton:Size(22)
+
+	do
+		S:HandleNextPrevButton(BrowseFrame.BackButton, 'left', nil, true)
+		S:HandleBlizzardRegions(BrowseFrame.BackButton)
+		BrowseFrame.BackButton:SetTemplate()
+	end
 
 	local BrowseList = Orders.BrowseFrame.RecipeList
 	BrowseList:StripTextures()
-	S:HandleTrimScrollBar(BrowseList.ScrollBar, true)
+	S:HandleTrimScrollBar(BrowseList.ScrollBar)
 	S:HandleEditBox(BrowseList.SearchBox)
 	S:HandleButton(BrowseList.FilterButton)
 	BrowseList.BackgroundNineSlice:SetTemplate('Transparent')
 
 	local OrderList = Orders.BrowseFrame.OrderList
 	OrderList:StripTextures()
-	S:HandleTrimScrollBar(OrderList.ScrollBar, true)
+	S:HandleTrimScrollBar(OrderList.ScrollBar)
 
 	local OrderView = Orders.OrderView
 
@@ -329,6 +357,7 @@ function S:Blizzard_Professions()
 	S:HandleButton(OrderInfo.StartOrderButton)
 	S:HandleButton(OrderInfo.DeclineOrderButton)
 	S:HandleButton(OrderInfo.ReleaseOrderButton)
+	S:HandleNextPrevButton(OrderInfo.SocialDropdownButton)
 	S:HandleEditBox(OrderInfo.NoteBox)
 	if OrderInfo.NoteBox.backdrop then
 		OrderInfo.NoteBox.backdrop:SetTemplate('Transparent')

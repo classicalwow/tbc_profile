@@ -103,6 +103,8 @@ L["options:general:hide-player-blizz-frame"] = "隐藏暴雪的光环框架（�
 L["options:general:icon-grow-direction"] = "图标增长方向"
 L["options:general:import-profile"] = "导入配置"
 L["options:general:instance-types"] = "设置光环在不同区域的可见性"
+--[[Translation missing --]]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
 L["options:general:npc-blacklist"] = "NPC黑名单"
 L["options:general:npc-blacklist-add-button"] = "添加NPC"
 L["options:general:npc-blacklist-editbox-add"] = "请在此处输入NPC名称"
@@ -169,6 +171,12 @@ L["options:spells:add-new-spell"] = "法术名称/链接/id 或导入字符串..
 L["options:spells:animation-relative:tooltip"] = "这个选项改变了左边滑块的含义。如果勾选了这个选项，当光环的剩余时间小于其最大持续时间的选择百分比时，开始动画。这很有用，例如，如果你想知道什么时候可以安全地刷新你的DoT法术而不损失时间。如果不勾选这个选项，当光环的剩余时间小于滑块的绝对值（秒）时，开始动画。"
 L["options:spells:animation-type"] = "动画类型"
 L["options:spells:appropriate-spell-ids"] = "适合的法术ID:"
+--[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
 L["options:spells:disable-all-spells"] = "禁用所有法术"
 L["options:spells:enable-all-spells"] = "启用所有法术"
 L["options:spells:export-spell"] = "导出光环"
@@ -186,6 +194,8 @@ L["options:spells:icon-glow-threshold"] = "如果光环的剩余时间小于...�
 L["options:spells:icon-height"] = "图标高度"
 L["options:spells:icon-width"] = "图标宽度"
 L["options:spells:please-push-once-more"] = "请再点击一次"
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = [=[请注意：除非你打开这个选项，否则你将不会在友方姓名板上看到这个光环：
 <综合> --> <在友方姓名板上显示光环>]=]
 --[[Translation missing --]]

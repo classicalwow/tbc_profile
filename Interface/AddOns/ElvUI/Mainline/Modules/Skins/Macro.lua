@@ -16,8 +16,8 @@ function S:Blizzard_MacroUI()
 	_G.MacroFrame.MacroSelector.ScrollBox:SetTemplate('Transparent')
 	_G.MacroFrameTextBackground.NineSlice:SetTemplate('Transparent')
 
-	S:HandleTrimScrollBar(_G.MacroFrame.MacroSelector.ScrollBar, true)
-	S:HandleTrimScrollBar(_G.MacroFrameScrollFrame.ScrollBar, true)
+	S:HandleTrimScrollBar(_G.MacroFrame.MacroSelector.ScrollBar)
+	S:HandleTrimScrollBar(_G.MacroFrameScrollFrame.ScrollBar)
 
 	for _, button in next, {
 		_G.MacroSaveButton,
@@ -70,9 +70,9 @@ function S:Blizzard_MacroUI()
 
 	-- New icon selection
 	_G.MacroPopupFrame:HookScript('OnShow', function(frame)
-		if not frame.isSkinned then
-			S:HandleIconSelectionFrame(frame, nil, nil, 'MacroPopup')
-		end
+		if frame.isSkinned then return end -- set by HandleIconSelectionFrame
+
+		S:HandleIconSelectionFrame(frame, nil, nil, 'MacroPopup')
 	end)
 end
 

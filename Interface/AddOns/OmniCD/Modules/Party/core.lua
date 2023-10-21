@@ -11,7 +11,7 @@ function P:Enable()
 		return
 	end
 
-	if not E.isDF and not E.isWOTLKC341 then
+	if not E.isDF then
 		self:RegisterEvent('CVAR_UPDATE')
 	end
 	self:RegisterEvent('UI_SCALE_CHANGED')
@@ -160,6 +160,8 @@ function P:UpdatePositionValues()
 	local pixel = (E.db.general.showRange and not db.detached and self.effectivePixelMult or E.PixelMult) / E.db.icons.scale
 	local growLeft = strfind(db.anchor, "RIGHT")
 	local growX = growLeft and -1 or 1
+	local growRowsUpward = db.growUpward
+	local growY = growRowsUpward and 1 or -1
 
 
 	self.point = db.anchor
@@ -178,34 +180,30 @@ function P:UpdatePositionValues()
 	self.displayInactive = db.displayInactive
 	self.maxNumIcons = db.maxNumIcons == 0 and 100 or db.maxNumIcons
 
-	local growRowsUpward = db.growUpward
-	local growY = growRowsUpward and 1 or -1
 	if db.layout == "horizontal" or db.layout == "doubleRow" or db.layout == "tripleRow" then
 		self.ofsX = 0
 		self.ofsY = growY * (E.baseIconHeight + db.paddingY * pixel)
+		self.ofsY2 = 0
 		if growLeft then
 			self.point2 = "TOPRIGHT"
 			self.relativePoint2 = "TOPLEFT"
 			self.ofsX2 = -(db.paddingX * pixel)
-			self.ofsY2 = 0
 		else
 			self.point2 = "TOPLEFT"
 			self.relativePoint2 = "TOPRIGHT"
 			self.ofsX2 = db.paddingX * pixel
-			self.ofsY2 = 0
 		end
 	else
 		self.ofsX = growX * (E.baseIconHeight + db.paddingX  * pixel)
 		self.ofsY = 0
+		self.ofsX2 = 0
 		if growRowsUpward then
 			self.point2 = "BOTTOMRIGHT"
 			self.relativePoint2 = "TOPRIGHT"
-			self.ofsX2 = 0
 			self.ofsY2 = db.paddingY * pixel
 		else
 			self.point2 = "TOPRIGHT"
 			self.relativePoint2 = "BOTTOMRIGHT"
-			self.ofsX2 = 0
 			self.ofsY2 = -(db.paddingY * pixel)
 		end
 	end
@@ -215,7 +213,7 @@ end
 
 
 P.GetBuffDuration = E.isClassic and function(P, unit, spellID)
-	for i = 1, 40 do
+	for i = 1, 50 do
 		local _,_,_,_,_,_,_,_,_, id = UnitBuff(unit, i)
 		if not id then return end
 		id = E.spell_merged[id] or id
@@ -225,17 +223,17 @@ P.GetBuffDuration = E.isClassic and function(P, unit, spellID)
 	end
 
 end or function(P, unit, spellID)
-	for i = 1, 40 do
-		local _,_,_,_, duration, expTime,_,_,_, id = UnitBuff(unit, i)
+	for i = 1, 50 do
+		local _,_,_,_, duration, expTime, source, _,_, id = UnitBuff(unit, i)
 		if not id then return end
 		if id == spellID then
-			return duration > 0 and expTime - GetTime()
+			return duration > 0 and expTime - GetTime(), source
 		end
 	end
 end
 
 function P:IsDebuffActive(unit, spellID)
-	for i = 1, 40 do
+	for i = 1, 50 do
 		local _,_,_,_,_,_,_,_,_, id = UnitDebuff(unit, i)
 		if not id then return end
 		if id == spellID then
@@ -245,7 +243,7 @@ function P:IsDebuffActive(unit, spellID)
 end
 
 function P:GetDebuffDuration(unit, spellID)
-	for i = 1, 40 do
+	for i = 1, 50 do
 		local _,_,_,_, duration, expTime,_,_,_, id = UnitDebuff(unit, i)
 		if not id then return end
 		if id == spellID then
@@ -340,15 +338,11 @@ function P:IsSpecOrTalentForPvpStatus(talentID, info, isLearnedLevel)
 	end
 end
 
-function P:IsEquipped(item, guid, item2)
+function P:IsEquipped(info, item, item2)
 	if not item then
 		return true
 	end
-	local itemData = self.groupInfo[guid].itemData
-	if itemData[item] then
-		return true
-	end
-	return itemData[item2]
+	return info.itemData[item] or info.itemData[item2]
 end
 
 function P:UI_SCALE_CHANGED()

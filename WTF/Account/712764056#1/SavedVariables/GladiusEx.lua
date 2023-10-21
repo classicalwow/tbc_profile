@@ -28,12 +28,11 @@ GladiusExDB = {
 		["arena"] = {
 			["profiles"] = {
 				["特變電工 - 伊弗斯"] = {
+					["oorAlpha"] = 0.6000000000000001,
 					["modules"] = {
 						["Alerts"] = true,
 					},
 					["barsHeight"] = 55,
-					["margin"] = 0,
-					["oorAlpha"] = 0.6000000000000001,
 					["y"] = {
 						["arena2"] = 313.6321232678674,
 						["arena1"] = 371.1429454607751,
@@ -52,6 +51,7 @@ GladiusExDB = {
 					},
 					["backgroundPadding"] = 0,
 					["frameScale"] = 0.91,
+					["margin"] = 0,
 					["barWidth"] = 216,
 				},
 			},
@@ -63,8 +63,6 @@ GladiusExDB = {
 		["party"] = {
 			["profiles"] = {
 				["特變電工 - 伊弗斯"] = {
-					["modMargin"] = 2,
-					["borderSize"] = 1,
 					["y"] = {
 						["player"] = 314.9606838898872,
 						["party4"] = 213.0927868147155,
@@ -73,6 +71,7 @@ GladiusExDB = {
 						["party3"] = 277.5088018691458,
 						["party2"] = 341.9247960739667,
 					},
+					["barsHeight"] = 41,
 					["x"] = {
 						["player"] = 31.14893055500102,
 						["party4"] = 142.5149303141388,
@@ -81,8 +80,9 @@ GladiusExDB = {
 						["party3"] = 142.5149303141388,
 						["party2"] = 142.5149303141388,
 					},
-					["barsHeight"] = 41,
+					["modMargin"] = 2,
 					["frameScale"] = 1.12,
+					["borderSize"] = 1,
 					["barWidth"] = 172,
 				},
 			},
@@ -107,7 +107,7 @@ GladiusExDB = {
 		},
 		["party_Auras"] = {
 		},
-		["party_Interrupts"] = {
+		["Announcements"] = {
 		},
 		["party_Tags"] = {
 		},
@@ -115,7 +115,7 @@ GladiusExDB = {
 		},
 		["Alerts"] = {
 		},
-		["Announcements"] = {
+		["party_Interrupts"] = {
 		},
 		["PetBar"] = {
 		},
@@ -130,14 +130,14 @@ GladiusExDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			["globalFont"] = "預設",
-			["globalFontSize"] = 12,
 			["locked"] = true,
 			["advancedOptions"] = true,
+			["globalFontSize"] = 12,
+			["globalFont"] = "預設",
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["locked"] = true,
 			["showParty"] = false,
+			["locked"] = true,
 		},
 	},
 }

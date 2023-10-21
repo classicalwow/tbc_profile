@@ -1,8 +1,8 @@
-## Interface: 30402
+## Interface: 30403
 
 ## Title: VuhDo ['vu:du:] - Options
 ## Author: Iza@Gilneas, humfras, Ivaria@Hyjal
-## Version: 3.150-wotlkc
+## Version: 3.154-wotlkc
 ## Notes: VuhDo Options
 ## IconTexture: Interface\AddOns\VuhDo\Images\TemporaryPortrait-Female-BloodElf-VuhDo
 

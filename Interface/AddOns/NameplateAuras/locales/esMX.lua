@@ -201,6 +201,8 @@ L["options:general:import-profile"] = "Import profile"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 --[[Translation missing --]]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
+--[[Translation missing --]]
 L["options:general:npc-blacklist"] = "NPC blacklist"
 --[[Translation missing --]]
 L["options:general:npc-blacklist-add-button"] = "Add NPC"
@@ -315,6 +317,12 @@ L["options:spells:animation-type"] = "Animation type"
 --[[Translation missing --]]
 L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
 --[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
+--[[Translation missing --]]
 L["options:spells:disable-all-spells"] = "Disable all spells"
 --[[Translation missing --]]
 L["options:spells:enable-all-spells"] = "Enable all spells"
@@ -352,6 +360,8 @@ L["options:spells:icon-height"] = "Icon height"
 L["options:spells:icon-width"] = "Icon width"
 --[[Translation missing --]]
 L["options:spells:please-push-once-more"] = "Please push once more"
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 --[[Translation missing --]]
 L["options:spells:show-on-friends:warning0"] = [=[Please pay attention:
 You will not see this aura on friendly nameplates until you enable this option: <General> --> <Display auras on nameplates of friendly units>]=]

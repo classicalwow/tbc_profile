@@ -3,12 +3,10 @@ local M = E:GetModule('Minimap')
 local LSM = E.Libs.LSM
 
 local _G = _G
-local mod = mod
 local next = next
 local sort = sort
-local floor = floor
-local tinsert = tinsert
 local unpack = unpack
+local tinsert = tinsert
 local hooksecurefunc = hooksecurefunc
 local utf8sub = string.utf8sub
 
@@ -16,7 +14,6 @@ local CloseAllWindows = CloseAllWindows
 local CloseMenus = CloseMenus
 local CreateFrame = CreateFrame
 local GetMinimapZoneText = GetMinimapZoneText
-local GetTime = GetTime
 local GetZonePVPInfo = GetZonePVPInfo
 local HideUIPanel = HideUIPanel
 local InCombatLockdown = InCombatLockdown
@@ -25,10 +22,12 @@ local IsShiftKeyDown = IsShiftKeyDown
 local PlaySound = PlaySound
 local ShowUIPanel = ShowUIPanel
 local ToggleFrame = ToggleFrame
+local UIParent = UIParent
 local UIParentLoadAddOn = UIParentLoadAddOn
 
 local MainMenuMicroButton = MainMenuMicroButton
 local MainMenuMicroButton_SetNormal = MainMenuMicroButton_SetNormal
+local UIDropDownMenu_RefreshAll = UIDropDownMenu_RefreshAll
 
 local WorldMapFrame = _G.WorldMapFrame
 local MinimapCluster = _G.MinimapCluster
@@ -50,29 +49,22 @@ local menuList = {
 	{ text = _G.GUILD, func = function() if E.Retail then _G.ToggleGuildFrame() else _G.ToggleFriendsFrame(3) end end },
 }
 
-if E.Retail then
-	tinsert(menuList, { text = _G.LFG_TITLE, func = _G.ToggleLFDParentFrame })
-elseif E.Wrath then
-	tinsert(menuList, { text = _G.LFG_TITLE, func = function() if not IsAddOnLoaded('Blizzard_LookingForGroupUI') then UIParentLoadAddOn('Blizzard_LookingForGroupUI') end _G.ToggleLFGParentFrame() end })
-end
-
-if E.Retail then
-	tinsert(menuList, { text = _G.COLLECTIONS, func = _G.ToggleCollectionsJournal })
-	tinsert(menuList, { text = _G.BLIZZARD_STORE, func = function() _G.StoreMicroButton:Click() end })
-	tinsert(menuList, { text = _G.GARRISON_TYPE_8_0_LANDING_PAGE_TITLE, func = function() _G.ExpansionLandingPageMinimapButton:ToggleLandingPage() end})
-	tinsert(menuList, { text = _G.ENCOUNTER_JOURNAL, func = function() if not IsAddOnLoaded('Blizzard_EncounterJournal') then UIParentLoadAddOn('Blizzard_EncounterJournal') end ToggleFrame(_G.EncounterJournal) end })
-end
-
 if E.Wrath and E.mylevel >= _G.SHOW_PVP_LEVEL then
 	tinsert(menuList, { text = _G.PLAYER_V_PLAYER, func = _G.TogglePVPFrame })
 end
 
 if E.Retail or E.Wrath then
+	tinsert(menuList, { text = _G.COLLECTIONS, func = _G.ToggleCollectionsJournal })
 	tinsert(menuList, { text = _G.ACHIEVEMENT_BUTTON, func = _G.ToggleAchievementFrame })
+	tinsert(menuList, { text = _G.LFG_TITLE, func = E.Retail and _G.ToggleLFDParentFrame or _G.PVEFrame_ToggleFrame })
 	tinsert(menuList, { text = L["Calendar"], func = function() _G.GameTimeFrame:Click() end })
 end
 
-if not E.Retail then
+if E.Retail then
+	tinsert(menuList, { text = _G.BLIZZARD_STORE, func = function() _G.StoreMicroButton:Click() end })
+	tinsert(menuList, { text = _G.GARRISON_TYPE_8_0_LANDING_PAGE_TITLE, func = function() _G.ExpansionLandingPageMinimapButton:ToggleLandingPage() end})
+	tinsert(menuList, { text = _G.ENCOUNTER_JOURNAL, func = function() if not IsAddOnLoaded('Blizzard_EncounterJournal') then UIParentLoadAddOn('Blizzard_EncounterJournal') end ToggleFrame(_G.EncounterJournal) end })
+else
 	tinsert(menuList, { text = _G.QUEST_LOG, func = function() ToggleFrame(_G.QuestLogFrame) end})
 end
 
@@ -139,33 +131,6 @@ function M:HandleExpansionButton()
 	end
 end
 
-function M:HandleQueueButton()
-	local queueDisplay = M.QueueStatusDisplay
-	if queueDisplay then
-		local db = E.db.general.minimap.icons.queueStatus
-		local _, position, xOffset, yOffset = M:GetIconSettings('queueStatus')
-		queueDisplay.text:ClearAllPoints()
-		queueDisplay.text:Point(position, Minimap, xOffset, yOffset)
-		queueDisplay.text:FontTemplate(LSM:Fetch('font', db.font), db.fontSize, db.fontOutline)
-
-		if not db.enable and queueDisplay.title then
-			M:ClearQueueStatus()
-		end
-	end
-
-	local queueButton = M:GetQueueStatusButton()
-	if queueButton then
-		queueButton:SetParent(Minimap)
-		queueButton:SetFrameLevel(_G.MinimapBackdrop:GetFrameLevel() + 2)
-
-		local scale, position, xOffset, yOffset = M:GetIconSettings('lfgEye')
-		queueButton:ClearAllPoints()
-		queueButton:Point(position, Minimap, xOffset, yOffset)
-
-		M:SetScale(queueButton, scale)
-	end
-end
-
 function M:HandleTrackingButton()
 	local tracking = MinimapCluster.Tracking and MinimapCluster.Tracking.Button or _G.MiniMapTrackingFrame or _G.MiniMapTracking
 	if not tracking then return end
@@ -178,6 +143,10 @@ function M:HandleTrackingButton()
 		tracking:ClearAllPoints()
 		tracking:Point(position, Minimap, xOffset, yOffset)
 		M:SetScale(tracking, scale)
+
+		if E.Retail and (tracking:GetScript('OnMouseDown') ~= M.TrackingButton_OnMouseDown) then
+			tracking:SetScript('OnMouseDown', M.TrackingButton_OnMouseDown)
+		end
 
 		if _G.MiniMapTrackingButtonBorder then
 			_G.MiniMapTrackingButtonBorder:Hide()
@@ -227,7 +196,7 @@ function M:ADDON_LOADED(_, addon)
 end
 
 function M:CreateMinimapTrackingDropdown()
-	local dropdown = CreateFrame('Frame', 'ElvUIMiniMapTrackingDropDown', _G.UIParent, 'UIDropDownMenuTemplate')
+	local dropdown = CreateFrame('Frame', 'ElvUIMiniMapTrackingDropDown', UIParent, 'UIDropDownMenuTemplate')
 	dropdown:SetID(1)
 	dropdown:SetClampedToScreen(true)
 	dropdown:Hide()
@@ -238,6 +207,12 @@ function M:CreateMinimapTrackingDropdown()
 	return dropdown
 end
 
+function M:MinimapTracking_UpdateTracking()
+	if _G.UIDROPDOWNMENU_OPEN_MENU == M.TrackingDropdown then
+		UIDropDownMenu_RefreshAll(M.TrackingDropdown)
+	end
+end
+
 function M:Minimap_OnMouseDown(btn)
 	menuFrame:Hide()
 
@@ -245,13 +220,10 @@ function M:Minimap_OnMouseDown(btn)
 		_G.HideDropDownMenu(1, nil, M.TrackingDropdown)
 	end
 
-	local position = self:GetPoint()
+	local position = M.MapHolder.mover:GetPoint()
 	if btn == 'MiddleButton' or (btn == 'RightButton' and IsShiftKeyDown()) then
-		if InCombatLockdown() then _G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT) return end
-		if position:match('LEFT') then
-			E:DropDown(menuList, menuFrame)
-		else
-			E:DropDown(menuList, menuFrame, -160, 0)
+		if not E:AlertCombat() then
+			E:DropDown(menuList, menuFrame, 155, nil, nil, position:match('LEFT') and 0 or -160, 0)
 		end
 	elseif btn == 'RightButton' and M.TrackingDropdown then
 		_G.ToggleDropDownMenu(1, nil, M.TrackingDropdown, 'cursor')
@@ -269,15 +241,18 @@ function M:MapCanvas_OnMouseDown(btn)
 		_G.HideDropDownMenu(1, nil, M.TrackingDropdown)
 	end
 
-	local position = self:GetPoint()
+	local position = M.MapHolder.mover:GetPoint()
 	if btn == 'MiddleButton' or (btn == 'RightButton' and IsShiftKeyDown()) then
-		if InCombatLockdown() then _G.UIErrorsFrame:AddMessage(E.InfoColor.._G.ERR_NOT_IN_COMBAT) return end
-		if position:match('LEFT') then
-			E:DropDown(menuList, menuFrame)
-		else
-			E:DropDown(menuList, menuFrame, -160, 0)
+		if not E:AlertCombat() then
+			E:DropDown(menuList, menuFrame, 155, nil, nil, position:match('LEFT') and 0 or -160, 0)
 		end
 	elseif btn == 'RightButton' and M.TrackingDropdown then
+		_G.ToggleDropDownMenu(1, nil, M.TrackingDropdown, 'cursor')
+	end
+end
+
+function M:TrackingButton_OnMouseDown()
+	if M.TrackingDropdown then
 		_G.ToggleDropDownMenu(1, nil, M.TrackingDropdown, 'cursor')
 	end
 end
@@ -351,15 +326,7 @@ function M:GetIconSettings(button)
 	return profile.scale or defaults.scale, profile.position or defaults.position, profile.xOffset or defaults.xOffset, profile.yOffset or defaults.yOffset
 end
 
-function M:GetQueueStatusButton()
-	return _G.QueueStatusButton or _G.MiniMapLFGFrame
-end
-
 function M:UpdateSettings()
-	if M.Initialized or E.private.actionbar.enable then
-		M:HandleQueueButton()
-	end
-
 	if not M.Initialized then return end
 
 	local noCluster = not E.Retail or E.db.general.minimap.clusterDisable
@@ -429,7 +396,6 @@ function M:UpdateSettings()
 		M.ClusterBackdrop:SetSize(width, height)
 		M.ClusterBackdrop:SetShown(E.db.general.minimap.clusterBackdrop and not noCluster)
 
-		-- elements
 		_G.MinimapZoneText:FontTemplate(locationFont, locaitonSize, locationOutline)
 		_G.TimeManagerClockTicker:FontTemplate(LSM:Fetch('font', E.db.general.minimap.timeFont), E.db.general.minimap.timeFontSize, E.db.general.minimap.timeFontOutline)
 
@@ -554,89 +520,16 @@ function M:SetGetMinimapShape()
 	Minimap:Size(E.db.general.minimap.size)
 end
 
-function M:QueueStatusTimeFormat(seconds)
-	local hours = floor(mod(seconds,86400)/3600)
-	if hours > 0 then return M.QueueStatusDisplay.text:SetFormattedText('%dh', hours) end
-
-	local mins = floor(mod(seconds,3600)/60)
-	if mins > 0 then return M.QueueStatusDisplay.text:SetFormattedText('%dm', mins) end
-
-	local secs = mod(seconds,60)
-	if secs > 0 then return M.QueueStatusDisplay.text:SetFormattedText('%ds', secs) end
-end
-
-function M:QueueStatusSetTime(seconds)
-	local timeInQueue = GetTime() - seconds
-	M:QueueStatusTimeFormat(timeInQueue)
-
-	local wait = M.QueueStatusDisplay.averageWait
-	local waitTime = wait and wait > 0 and (timeInQueue / wait)
-	if not waitTime or waitTime >= 1 then
-		M.QueueStatusDisplay.text:SetTextColor(1, 1, 1)
-	else
-		M.QueueStatusDisplay.text:SetTextColor(E:ColorGradient(waitTime, 1,.1,.1, 1,1,.1, .1,1,.1))
+function M:ClusterSize(width, height)
+	local holder = M.ClusterHolder
+	if holder and (width ~= holder.savedWidth or height ~= holder.savedHeight) then
+		self:SetSize(holder.savedWidth, holder.savedHeight)
 	end
-end
-
-function M:QueueStatusOnUpdate(elapsed)
-	-- Replicate QueueStatusEntry_OnUpdate throttle
-	self.updateThrottle = self.updateThrottle - elapsed
-	if self.updateThrottle <= 0 then
-		M:QueueStatusSetTime(self.queuedTime)
-		self.updateThrottle = 0.1
-	end
-end
-
-function M:SetFullQueueStatus(title, queuedTime, averageWait)
-	local db = E.db.general.minimap.icons.queueStatus
-	if not db or not db.enable then return end
-
-	local display = M.QueueStatusDisplay
-	if not display.title or display.title == title then
-		if queuedTime then
-			display.title = title
-			display.updateThrottle = 0
-			display.queuedTime = queuedTime
-			display.averageWait = averageWait
-			display:SetScript('OnUpdate', M.QueueStatusOnUpdate)
-		else
-			M:ClearQueueStatus()
-		end
-	end
-end
-
-function M:SetMinimalQueueStatus(title)
-	if M.QueueStatusDisplay.title == title then
-		M:ClearQueueStatus()
-	end
-end
-
-function M:ClearQueueStatus()
-	local display = M.QueueStatusDisplay
-	display.text:SetText('')
-	display.title = nil
-	display.queuedTime = nil
-	display.averageWait = nil
-	display:SetScript('OnUpdate', nil)
-end
-
-function M:CreateQueueStatusText()
-	local display = CreateFrame('Frame', 'ElvUIQueueStatusDisplay', _G.QueueStatusButton)
-	display:SetIgnoreParentScale(true)
-	display:SetScale(E.uiscale)
-	display.text = display:CreateFontString(nil, 'OVERLAY')
-	display.text:FontTemplate()
-
-	M.QueueStatusDisplay = display
-
-	_G.QueueStatusButton:HookScript('OnHide', M.ClearQueueStatus)
-	hooksecurefunc('QueueStatusEntry_SetMinimalDisplay', M.SetMinimalQueueStatus)
-	hooksecurefunc('QueueStatusEntry_SetFullDisplay', M.SetFullQueueStatus)
 end
 
 function M:ClusterPoint(_, anchor)
 	local noCluster = not E.Retail or E.db.general.minimap.clusterDisable
-	local frame = (noCluster and _G.UIParent) or M.ClusterHolder
+	local frame = (noCluster and UIParent) or M.ClusterHolder
 
 	if anchor ~= frame then
 		MinimapCluster:ClearAllPoints()
@@ -649,10 +542,6 @@ function M:Initialize()
 		Minimap:SetMaskTexture(E.Retail and 130937 or [[interface\chatframe\chatframebackground]])
 	else
 		Minimap:SetMaskTexture(E.Retail and 186178 or [[textures\minimapmask]])
-
-		if E.private.actionbar.enable then
-			M:HandleQueueButton()
-		end
 
 		return
 	end
@@ -672,8 +561,10 @@ function M:Initialize()
 		MinimapCluster:KillEditMode()
 
 		local clusterHolder = CreateFrame('Frame', 'ElvUI_MinimapClusterHolder', MinimapCluster)
+		clusterHolder.savedWidth, clusterHolder.savedHeight = MinimapCluster:GetSize()
 		clusterHolder:Point('TOPRIGHT', E.UIParent, -3, -3)
-		clusterHolder:Size(MinimapCluster:GetSize())
+		clusterHolder:SetSize(clusterHolder.savedWidth, clusterHolder.savedHeight)
+		clusterHolder:SetFrameLevel(10) -- over minimap mover
 		E:CreateMover(clusterHolder, 'MinimapClusterMover', L["Minimap Cluster"], nil, nil, nil, nil, nil, 'maps,minimap')
 		M.ClusterHolder = clusterHolder
 
@@ -688,14 +579,13 @@ function M:Initialize()
 		Minimap:SetArchBlobRingScalar(0)
 		Minimap:SetQuestBlobRingAlpha(0)
 		Minimap:SetQuestBlobRingScalar(0)
-
-		_G.QueueStatusFrame:SetClampedToScreen(true)
 	end
 
 	M:ClusterPoint()
 	MinimapCluster:EnableMouse(false)
 	MinimapCluster:SetFrameLevel(20) -- set before minimap itself
 	hooksecurefunc(MinimapCluster, 'SetPoint', M.ClusterPoint)
+	hooksecurefunc(MinimapCluster, 'SetSize', M.ClusterSize)
 
 	Minimap:EnableMouseWheel(true)
 	Minimap:SetFrameLevel(10)
@@ -730,22 +620,24 @@ function M:Initialize()
 	local killFrames = {
 		_G.MinimapBorder,
 		_G.MinimapBorderTop,
+		_G.MinimapCompassTexture,
+		_G.MiniMapMailBorder,
+		_G.MinimapNorthTag,
+		_G.MiniMapWorldMapButton,
+		_G.MinimapZoneTextButton,
 		_G.MinimapZoomIn,
 		_G.MinimapZoomOut,
-		_G.MinimapNorthTag,
-		_G.MinimapZoneTextButton,
-		_G.MiniMapWorldMapButton,
-		_G.MiniMapMailBorder,
 		E.Retail and _G.MiniMapTracking or _G.MinimapToggleButton
 	}
 
 	if E.Retail then
 		tinsert(killFrames, Minimap.ZoomIn)
 		tinsert(killFrames, Minimap.ZoomOut)
-		tinsert(killFrames, _G.MinimapCompassTexture)
 
 		MinimapCluster.BorderTop:StripTextures()
 		MinimapCluster.Tracking.Background:StripTextures()
+
+		M:RegisterEvent('MINIMAP_UPDATE_TRACKING', M.MinimapTracking_UpdateTracking)
 
 		if _G.GarrisonLandingPageMinimapButton_UpdateIcon then
 			hooksecurefunc('GarrisonLandingPageMinimapButton_UpdateIcon', M.HandleExpansionButton)
@@ -778,9 +670,7 @@ function M:Initialize()
 		M:SetupHybridMinimap()
 	end
 
-	if _G.QueueStatusButton then
-		M:CreateQueueStatusText()
-	elseif _G.MiniMapLFGFrame then
+	if _G.MiniMapLFGFrame then
 		(E.Wrath and _G.MiniMapLFGFrameBorder or _G.MiniMapLFGBorder):Hide()
 	end
 

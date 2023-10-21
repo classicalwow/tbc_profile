@@ -475,16 +475,6 @@ function GBB.UpdateList()
 	GroupBulletinBoardFrameStatusText:SetText(string.format(GBB.L["msgNbRequest"], count))
 end
 
-function findStrInTab (tab, val)
-    for index, value in ipairs(tab) do
-        if strfind(val:lower(),value:lower()) then
-            return true
-        end
-    end
-
-    return false
-end
-
 function GBB.GetDungeons(msg,name)
 	if msg==nil then return {} end
 	local dungeons={}
@@ -498,42 +488,6 @@ function GBB.GetDungeons(msg,name)
 	local runDungeon=""
 
 	local wordcount=0
-
-	-- if (findStrInTab({"消费","打工"},msg)) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(findStrInTab({"25"},msg)) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(findStrInTab({"箱","箱"},msg)) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(strfind(msg:lower(), "h")) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(findStrInTab({"披风"},msg)) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(findStrInTab({"dd","dps","术","術"},msg)) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(findStrInTab({"lr","猎","獵","dd","dps","术","術",'ss','zqs','增','增','sm','薩','萨'},msg)) then
-	-- 	msg = ""
-	-- end
-	-- if not(findStrInTab({"骑","騎","治","補","zqs","萨","薩","dps","dd"},msg)) then
-	-- 	msg = ""
-	-- end
-
-	-- if not(findStrInTab({"nq","奶","補"},msg)) then
-	-- 	msg = ""
-	-- end
-	
 
 	if GBB.DB.TagsZhcn then
 		for key, v in pairs(GBB.tagList) do

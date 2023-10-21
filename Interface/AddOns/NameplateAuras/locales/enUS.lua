@@ -106,6 +106,7 @@ L["options:general:icon-grow-direction"] = "Icon growing direction"
 L["options:general:import-profile"] = "Import profile"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
 L["options:general:npc-blacklist"] = "NPC blacklist"
 L["options:general:npc-blacklist-add-button"] = "Add NPC"
 L["options:general:npc-blacklist-editbox-add"] = "Please enter NPC name here"
@@ -175,6 +176,9 @@ If this option is checked, animation will start when aura's remaining duration i
 If this option is unchecked, animation will start when aura's remaining duration is less than absolute value of slider (in seconds)]=]
 L["options:spells:animation-type"] = "Animation type"
 L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
+L["options:spells:batch-actions"] = "Batch actions"
+L["options:spells:consolidate"] = "Consolidate aura instances"
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
 L["options:spells:disable-all-spells"] = "Disable all spells"
 L["options:spells:enable-all-spells"] = "Enable all spells"
 L["options:spells:export-spell"] = "Export aura"
@@ -196,6 +200,7 @@ L["options:spells:icon-glow-threshold"] = "Show glow if aura's remaining time is
 L["options:spells:icon-height"] = "Icon height"
 L["options:spells:icon-width"] = "Icon width"
 L["options:spells:please-push-once-more"] = "Please push once more"
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = [=[Please pay attention:
 You will not see this aura on friendly nameplates until you enable this option: <General> --> <Display auras on nameplates of friendly units>]=]
 L["options:spells:spell-tooltip"] = [=[Spell tooltip
@@ -448,20 +453,19 @@ L["options:timer-text:relative-color:tooltip"] = [=[Timer text's color will be c
 based on aura's duration and remaining time.]=]
 L["options:spells:spell-tooltip"] = [=[Spell tooltip
 must contain text]=]
-
 L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
 L["options:icon-groups:dropdown-list"] = "Icon groups"
 L["options:category:icon-groups"] = "Icon groups"
 L["options:icon-groups:remove"] = "Delete"
 L["options:general:current-icon-group"] = "Current icon group"
-L["options:icon-groups:description"] =
-[=[Icon group is a set of icons with independent settings.
-For example, you can create separate icon group for debuffs,
-separate icon group for interrupts, and separate icon group for
-important boss buffs. Then you can place these icon groups around
-nameplate independently.
-Pay attention: spells are shared between icon groups, but you can create
-multiple spells with the same name but with different options, and then
-set link to different icon groups.]=]
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
+L["options:spells:batch-actions"] = "Batch actions"
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
+L["options:spells:consolidate"] = "Consolidate aura instances"
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura";
 
 --@end-debug@]==]

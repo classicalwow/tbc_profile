@@ -32,9 +32,9 @@ HELPERS.INVALID = newproxy()
 HELPERS.GetBaseItemString = function(itemString)
 	return ItemString.GetBaseFast(itemString)
 end
-HELPERS.GetPrice = function(itemString, key)
-	local val = private.priceFunc(itemString, key)
-	if not val or val <= 0 then
+HELPERS.GetPrice = function(itemString, key, extraArg)
+	local val = private.priceFunc(itemString, key, extraArg)
+	if not val or val < 0 then
 		return HELPERS.INVALID
 	end
 	return val
@@ -117,6 +117,10 @@ function CustomStringObject:Validate()
 	end
 end
 
+function CustomStringObject:DependantSourceIterator()
+	return private.DependantSourceIterator, self._dependencies, nil
+end
+
 function CustomStringObject:IsDependantOnSource(source)
 	return self._dependencies[source]
 end
@@ -184,4 +188,26 @@ function String.Create(str)
 	local obj = CustomStringObject()
 	obj:SetString(str)
 	return obj
+end
+
+
+
+-- ============================================================================
+-- Private Helper Functions
+-- ============================================================================
+
+function private.DependantSourceIterator(sources, source)
+	while true do
+		source = next(sources, source)
+		if not source then
+			return
+		elseif not strmatch(source, DEPENDENCY_SEP) and source ~= "convert" then
+			return source, source
+		else
+			local convertArg = strmatch(source, "^convert"..DEPENDENCY_SEP.."([a-z]+)")
+			if convertArg then
+				return source, "convert", convertArg
+			end
+		end
+	end
 end

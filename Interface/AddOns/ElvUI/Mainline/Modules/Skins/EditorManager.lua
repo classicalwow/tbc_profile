@@ -20,7 +20,7 @@ local function HandleCheckBox(checkbox)
 					checkedTexture:SetInside(checkbox.backdrop)
 				end
 			else
-				region:SetTexture('')
+				region:SetTexture(E.ClearTexture)
 			end
 		end
 	end
@@ -55,7 +55,10 @@ function S:EditorManagerFrame()
 	local editMode = _G.EditModeManagerFrame
 	editMode:StripTextures()
 	editMode:CreateBackdrop('Transparent')
-	editMode.Tutorial:Kill()
+
+	if E.global.general.disableTutorialButtons then
+		editMode.Tutorial:Kill()
+	end
 
 	S:HandleCloseButton(editMode.CloseButton)
 	S:HandleButton(editMode.RevertAllChangesButton)
@@ -66,7 +69,7 @@ function S:EditorManagerFrame()
 	S:HandleCheckBox(editMode.EnableSnapCheckButton.Button)
 	S:HandleCheckBox(editMode.EnableAdvancedOptionsCheckButton.Button)
 
-	S:HandleTrimScrollBar(editMode.AccountSettings.SettingsContainer.ScrollBar, true)
+	S:HandleTrimScrollBar(editMode.AccountSettings.SettingsContainer.ScrollBar)
 	editMode.AccountSettings.SettingsContainer.BorderArt:StripTextures()
 	editMode.AccountSettings.SettingsContainer:SetTemplate('Transparent')
 	editMode.AccountSettings.Expander.Divider:StripTextures()
@@ -74,9 +77,13 @@ function S:EditorManagerFrame()
 	-- Group Containers (Basic, Frames, Combat, Misc)
 	for _, frames in next, { editMode.AccountSettings.SettingsContainer.ScrollChild:GetChildren() } do
 		for _, frame in next, { frames:GetChildren() } do
-			for _, child in next, { frame:GetChildren() } do
-				if child.Button then
-					S:HandleCheckBox(child.Button)
+			if frame.Button then -- BasicOptionsContainer
+				S:HandleCheckBox(frame.Button)
+			else -- AdvancedOptionsContainer
+				for _, child in next, { frame:GetChildren() } do
+					if child.Button then
+						S:HandleCheckBox(child.Button)
+					end
 				end
 			end
 		end

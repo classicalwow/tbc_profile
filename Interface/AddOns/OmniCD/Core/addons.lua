@@ -66,7 +66,7 @@ local unitFrameData = {
 	},
 	{
 		[1] = "HealBot",
-		[2] = "HealBot_Action_HealUnit",
+		[2] = "HealBot_HealUnit",
 		[3] = "unit",
 		[4] = 2,
 		[5] = 50,
@@ -263,8 +263,13 @@ local unitFrameData = {
 		[4] = 1,
 		[5] = 40
 	},
-	{ -- doesn't have any party/raid frames?
+	{
 		[1] = "oUF_Ruri",
+		[2] = "oUF_PartyUnitButton",
+		[3] = "unit",
+	},
+	{
+		[1] = "oUF_Ruri-Raid",
 		[2] = "oUF_Raid%dUnitButton",
 		[3] = "unit",
 	},

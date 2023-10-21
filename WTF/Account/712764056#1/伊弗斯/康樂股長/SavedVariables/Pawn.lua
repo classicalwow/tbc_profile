@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0802,
-	["LastPlayerFullName"] = "康樂股長-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 46161,
@@ -26,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45453::::::::80:::::::::|h[严冬之拥]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 45555,
-			["Level"] = 232,
-			["Link"] = "|cffa335ee|Hitem:45555::39909:39909:39909::::80:::::::::|h[温暖死亡腰带]|h|r",
+			["ID"] = 41833,
+			["Level"] = 245,
+			["Link"] = "|cffa335ee|Hitem:41833::::::::80:::::::::|h[无情角斗士的凯旋腰带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 45141,
@@ -46,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45108::::::::80:::::::::|h[机械师的护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 46043,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:46043::::::::80:::::::::|h[无尽黑暗手套]|h|r",
+			["ID"] = 41774,
+			["Level"] = 251,
+			["Link"] = "|cffa335ee|Hitem:41774::::::::80:::::::::|h[无情角斗士的龙皮手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 46322,
@@ -85,6 +83,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45256::::::::80:::::::::|h[扭曲的面容]|h|r",
 		}, -- [16]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "康樂股長-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

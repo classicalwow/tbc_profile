@@ -121,6 +121,8 @@ L["options:general:import-profile"] = "Import profile"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 --[[Translation missing --]]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
+--[[Translation missing --]]
 L["options:general:npc-blacklist"] = "NPC blacklist"
 --[[Translation missing --]]
 L["options:general:npc-blacklist-add-button"] = "Add NPC"
@@ -182,6 +184,12 @@ L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
 L["options:spells:animation-relative:tooltip"] = "Cette option change la signification de la barre de défilement sur la gauche. Si cette option est activée, l'animation débutera lorsque le temps restant sur cette aura sera inférieur au pourcentage du temps maximum sélectionné pour cette aura. C'est utile, par exemple, lorsque vous voulez savoir quand réappliquer vos DOT sans risquer de les perdre. Si cette option est désactivée, l'animation commencera lorsque la durée avant expiration de l'aura sera inférieure à la valeur absolue de la barre de défilement (en secondes)"
 L["options:spells:animation-type"] = "Type d'animation"
 L["options:spells:appropriate-spell-ids"] = "ID de sort appropriée(s) :"
+--[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
 L["options:spells:disable-all-spells"] = "Désactiver tous les sorts"
 L["options:spells:enable-all-spells"] = "Activer tous les sorts"
 --[[Translation missing --]]
@@ -203,6 +211,8 @@ L["options:spells:icon-glow-threshold"] = "Afficher en surbrillance si la durée
 L["options:spells:icon-height"] = "Hauteur d'icône"
 L["options:spells:icon-width"] = "Largeur d'icône"
 L["options:spells:please-push-once-more"] = "Merci de cliquer une fois de plus"
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = "Attention : vous ne verrez pas cette aura sur les barres d'identification amicales tant que vous n'aurez pas activé cette option : <Général> --> <Afficher les auras sur les barres d'identification amicales>"
 --[[Translation missing --]]
 L["options:spells:spell-tooltip"] = [=[Spell tooltip

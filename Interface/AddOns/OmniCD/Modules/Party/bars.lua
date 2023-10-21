@@ -25,6 +25,8 @@ local numBars = 0
 local unusedIcons = {}
 local numIcons = 0
 
+local unusedContainers = {}
+
 local UNIT_TO_PET = {
 	["raid1"]="raidpet1", ["raid2"]="raidpet2", ["raid3"]="raidpet3", ["raid4"]="raidpet4", ["raid5"]="raidpet5",
 	["raid6"]="raidpet6", ["raid7"]="raidpet7", ["raid8"]="raidpet8", ["raid9"]="raidpet9", ["raid10"]="raidpet10",
@@ -83,13 +85,12 @@ local function CooldownBarFrame_OnEvent(self, event, ...)
 			return
 		end
 
-
-		if spellID == 384255 then
-			if not CM.syncedGroupMembers[guid] then
+		if P.spell_enabled[spellID] or E.spell_modifiers[spellID] then
+			E.ProcessSpell(spellID, guid)
+		elseif spellID == 384255 or (E.isWOTLKC and (spellID == 63644 or spellID == 63645)) then
+			if guid ~= E.userGUID and not CM.syncedGroupMembers[guid] then
 				CM:EnqueueInspect(nil, guid)
 			end
-		elseif P.spell_enabled[spellID] or E.spell_modifiers[spellID] then
-			E.ProcessSpell(spellID, guid)
 		end
 	elseif event == 'UNIT_HEALTH' then
 		local unit = ...
@@ -223,6 +224,8 @@ local function OmniCDBar_OnHide(self)
 	self.numIcons = 0
 
 
+	P:RemoveUnusedContainers(self)
+
 	for key, frame in pairs(P.extraBars) do
 		local icons = frame.icons
 		local n = 0
@@ -336,6 +339,7 @@ local function GetUnitBarFrame()
 		frame = CreateFrame("Frame", "OmniCDBar" .. numBars, UIParent, "OmniCDTemplate")
 		frame.icons = {}
 		frame.numIcons = 0
+		frame.exContainers = {}
 		frame.anchor:Hide()
 		frame.anchor.text:SetFontObject(E.AnchorFont)
 		frame.anchor:SetScript("OnMouseUp", E.OmniCDAnchor_OnMouseUp)
@@ -343,7 +347,6 @@ local function GetUnitBarFrame()
 		frame:SetScript("OnHide", OmniCDBar_OnHide)
 		frame:SetScript("OnEvent", CooldownBarFrame_OnEvent)
 	end
-
 	unitBars[#unitBars + 1] = frame
 	return frame
 end
@@ -353,6 +356,33 @@ function P:HideBars()
 		local frame = unitBars[i]
 		frame:Hide()
 	end
+end
+
+function P:RemoveUnusedContainers(frame, raidBarIndex)
+	if ( raidBarIndex ) then
+		if ( frame.exContainers[raidBarIndex] ) then
+			tinsert(unusedContainers, frame.exContainers[raidBarIndex])
+			wipe(frame.exContainers[raidBarIndex].icons)
+			frame.exContainers[raidBarIndex] = nil
+		end
+	else
+		for raidBarIndex, container in pairs(frame.exContainers) do
+			tinsert(unusedContainers, container)
+			wipe(container.icons)
+			frame.exContainers[raidBarIndex] = nil
+		end
+	end
+end
+
+local function GetContainer(frame, raidBarIndex)
+	local container = tremove(unusedContainers)
+	if ( not container ) then
+		container = CreateFrame("Frame")
+		container:SetSize(1, 1)
+		container.icons = {}
+	end
+	frame.exContainers[raidBarIndex] = container
+	return container
 end
 
 local textureUVs = {
@@ -377,7 +407,7 @@ function P:UpdatePassThroughButtons()
 	end
 end
 
-local function GetIcon(barFrame, iconIndex)
+local function GetIcon(barFrame, iconIndex, container)
 	local icon = tremove(unusedIcons)
 	if not icon then
 		numIcons = numIcons + 1
@@ -410,7 +440,7 @@ local function GetIcon(barFrame, iconIndex)
 			end
 		end
 	end
-	icon:SetParent(barFrame.container)
+	icon:SetParent(container or barFrame.container)
 	barFrame.icons[iconIndex] = icon
 	return icon
 end
@@ -458,7 +488,6 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 	if not info.bar then
 		info.bar = GetUnitBarFrame()
 	end
-
 	local frame = info.bar
 	frame.key = index
 	frame.guid = guid
@@ -495,6 +524,21 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 	end
 	frame:RegisterUnitEvent('UNIT_CONNECTION', unit)
 
+
+	for _, f in pairs(P.extraBars) do
+		if ( f.db.enabled and f.db.unitBar ) then
+			local raidBarIndex = f.index
+			local container = frame.exContainers[raidBarIndex]
+			if ( container ) then
+				if ( container.icons[1] ) then
+					wipe(container.icons)
+				end
+			else
+				frame.exContainers[raidBarIndex] = GetContainer(frame, raidBarIndex)
+			end
+		end
+	end
+
 	local isInspectedUnit = info.spec
 	local lvl = info.level
 	local iconIndex = 0
@@ -526,12 +570,12 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 
 				local isValidSpell
 				local enabledSpell = self.spell_enabled[spellID]
-				local extraBarKey, extraBarFrame
+				local extraBarKey, extraBarFrame, isUnitBar
 				if type(enabledSpell) == "number" then
 					extraBarKey = "raidBar" .. enabledSpell
 					extraBarFrame = E.db.extraBars[extraBarKey].enabled and self.extraBars[extraBarKey]
 				end
-				if enabledSpell and (notUser or (not self.isUserHidden or extraBarFrame)) then
+				if enabledSpell and (notUser or not self.isUserHidden or (extraBarFrame and not extraBarFrame.db.unitBar)) then
 					if i == 2 then
 						if type(race) == "table" then
 							for k = 1, #race do
@@ -555,7 +599,20 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 						elseif i == 4 then
 							isValidSpell = info.talentData[spec]
 						else
-							isValidSpell = self:IsEquipped(item, guid, item2)
+
+							if info.auras.hasWeyrnstone then
+								info.itemData[205146] = true
+							else
+								local _, pairedUnit = P:GetBuffDuration(unit, 410318)
+								if pairedUnit then
+									pairedUnit = UnitGUID(pairedUnit)
+									if pairedUnit then
+										info.auras.hasWeyrnstone = pairedUnit
+										info.itemData[205146] = true
+									end
+								end
+							end
+							isValidSpell = self:IsEquipped(info, item, item2)
 						end
 					else
 						if i == 6 then
@@ -657,6 +714,11 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 									end
 								end
 
+
+								if info.talentData[412713] and spellID ~= 404381 then
+									cd = cd * 0.9
+								end
+
 								modData = E.spell_chmod_talents[spellID]
 								if modData then
 									for k = 1, #modData, 2 do
@@ -671,11 +733,9 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 								end
 
 
-								local blessingOfTheBronze = E.majorMovementAbilitiesByIDs[spellID]
-								if blessingOfTheBronze then
-									if self:GetBuffDuration(unit, blessingOfTheBronze) then
-										info.auras["isBlessingOfTheBronze"] = true
-									end
+								modData = E.majorMovementAbilitiesByIDs[spellID]
+								if modData and not info.auras["isBlessingOfTheBronze"] and self:GetBuffDuration(unit, modData) then
+									info.auras["isBlessingOfTheBronze"] = true
 								end
 							elseif i == 5 then
 								local covData = E.covenant_cdmod_conduits[spellID]
@@ -706,6 +766,23 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 										ch = ch + essData[2]
 									end
 								end
+							elseif i == 2 then
+								local modData = E.spell_cdmod_talents[spellID]
+								if modData then
+									for k = 1, #modData, 2 do
+										local tal = modData[k]
+										local rank = self:IsSpecAndTalentForPvpStatus(tal, info)
+										if rank then
+											local rt = modData[k+1]
+											rt = type(rt) == "table" and (rt[rank] or rt[1]) or rt
+											cd = cd - rt
+										end
+									end
+								end
+
+								if info.talentData[412713] then
+									cd = cd * 0.9
+								end
 							end
 						end
 						ch = ch > 1 and ch
@@ -716,7 +793,13 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 						local icon
 						if extraBarFrame then
 							extraBarFrame.numIcons = extraBarFrame.numIcons + 1
-							icon = GetIcon(extraBarFrame, extraBarFrame.numIcons)
+							if ( extraBarFrame.db.unitBar ) then
+								local container = frame.exContainers[enabledSpell]
+								icon = GetIcon(extraBarFrame, extraBarFrame.numIcons, container)
+								container.icons[#container.icons + 1] = icon
+							else
+								icon = GetIcon(extraBarFrame, extraBarFrame.numIcons)
+							end
 						else
 							iconIndex = iconIndex + 1
 							icon = frame.icons[iconIndex] or GetIcon(frame, iconIndex)
@@ -765,12 +848,12 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 						if extraBarFrame then
 							local statusBar = icon.statusBar
 							if statusBar then
-								if not extraBarFrame.shouldShowProgressBar then
+								if not extraBarFrame.shouldShowProgressBar or extraBarFrame.db.unitBar then
 									self:RemoveStatusBar(statusBar)
 									icon.statusBar = nil
 								end
 							else
-								if extraBarFrame.shouldShowProgressBar then
+								if extraBarFrame.shouldShowProgressBar and not extraBarFrame.db.unitBar then
 									self:GetStatusBar(icon, extraBarKey)
 								end
 							end
@@ -805,6 +888,7 @@ function P:UpdateUnitBar(guid, isUpdateBarsOrGRU)
 	else
 		self:SetAnchor(frame)
 	end
+
 	if not isUpdateBarsOrGRU then
 		self:UpdateExBars()
 	end

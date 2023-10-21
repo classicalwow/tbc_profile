@@ -5,12 +5,14 @@ local _G = _G
 local next = next
 local select = select
 local unpack = unpack
+local bitband = bit.band
 
 local CreateColor = CreateColor
 local hooksecurefunc = hooksecurefunc
-
 local GetAchievementNumCriteria = GetAchievementNumCriteria
 local GetAchievementCriteriaInfo = GetAchievementCriteriaInfo
+
+local FLAG_PROGRESS_BAR = EVALUATION_TREE_FLAG_PROGRESS_BAR
 
 local function SetupButtonHighlight(button, backdrop)
 	if not button then return end
@@ -152,7 +154,7 @@ function S:Blizzard_AchievementUI()
 
 	local Result = AchievementFrame.SearchResults
 	Result:Point('BOTTOMLEFT', AchievementFrame, 'BOTTOMRIGHT', 15, -1)
-	S:HandleFrame(Result, true, nil, -10)
+	S:HandleFrame(Result, true, nil, -8)
 	S:HandleTrimScrollBar(Result.ScrollBar)
 
 	hooksecurefunc(Result.ScrollBox, 'Update', function(frame)
@@ -324,11 +326,13 @@ function S:Blizzard_AchievementUI()
 		local numCriteria = GetAchievementNumCriteria(id)
 		local textStrings, metas, criteria, object = 0, 0
 		for i = 1, numCriteria do
-			local _, criteriaType, completed, _, _, _, _, assetID = GetAchievementCriteriaInfo(id, i)
+			local _, criteriaType, completed, _, _, _, flags, assetID = GetAchievementCriteriaInfo(id, i)
 			if assetID and criteriaType == _G.CRITERIA_TYPE_ACHIEVEMENT then
 				metas = metas + 1
 				criteria, object = objectivesFrame:GetMeta(metas), 'Label'
-			elseif criteriaType ~= 1 then
+			elseif bitband(flags, FLAG_PROGRESS_BAR) == FLAG_PROGRESS_BAR then
+				criteria, object = nil, nil
+			else
 				textStrings = textStrings + 1
 				criteria, object = objectivesFrame:GetCriteria(textStrings), 'Name'
 			end
@@ -355,7 +359,7 @@ function S:Blizzard_AchievementUI()
 	SkinStatusBar(_G.AchievementFrameSummaryCategoriesStatusBar)
 	_G.AchievementFrameSummaryAchievementsEmptyText:SetText('')
 	_G.AchievementFrameStatsBG:SetInside(_G.AchievementFrameStats.ScrollBox, 1, 1)
-	S:HandleTrimScrollBar(_G.AchievementFrameStats.ScrollBar, true)
+	S:HandleTrimScrollBar(_G.AchievementFrameStats.ScrollBar)
 
 	-- Comparison
 	local Comparison = _G.AchievementFrameComparison

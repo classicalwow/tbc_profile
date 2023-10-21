@@ -27,7 +27,6 @@ TomTomDB = {
 				},
 			},
 			["block"] = {
-				["enable"] = false,
 				["lock"] = true,
 				["position"] = {
 					"CENTER", -- [1]
@@ -58,11 +57,162 @@ TomTomWaypointsM = {
 		["碼農巴菲特 - 伊弗斯"] = {
 		},
 		["康樂股長 - 伊弗斯"] = {
+			[118] = {
+				["118:769682151.58924:211246943.76528:Meeting Stone"] = {
+					118, -- [1]
+					0.7696821515892421, -- [2]
+					0.2112469437652812, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Meeting Stone",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Meeting Stone",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["畜生犬隊長 - 伊弗斯"] = {
+		},
+		["邁克爾假死 - 伊弗斯"] = {
 			[125] = {
-				["125:491198044.00978:251100244.49878:Mailbox"] = {
+				["125:584459289.03712:477590801.59543:达拉然: 58.45, 47.76"] = {
 					125, -- [1]
-					0.49119804400978, -- [2]
-					0.2511002444987776, -- [3]
+					0.5844592890371224, -- [2]
+					0.4775908015954255, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "达拉然: 58.45, 47.76",
+					["from"] = "TomTom/Block",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+				["125:587230308.53963:468915675.40856:达拉然: 58.72, 46.89"] = {
+					125, -- [1]
+					0.5872303085396345, -- [2]
+					0.4689156754085631, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "达拉然: 58.72, 46.89",
+					["from"] = "TomTom/Block",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+				["125:490726059.61365:319279234.76051:达拉然: 49.07, 31.93"] = {
+					125, -- [1]
+					0.49072605961365, -- [2]
+					0.3192792347605097, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "达拉然: 49.07, 31.93",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "达拉然: 49.07, 31.93",
+					["from"] = "TomTom/Block",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["125:585905060.723:473072782.46444:达拉然: 58.59, 47.31"] = {
+					125, -- [1]
+					0.5859050607229991, -- [2]
+					0.4730727824644382, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "达拉然: 58.59, 47.31",
+					["from"] = "TomTom/Block",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+			},
+		},
+		["家駒 - 伊弗斯"] = {
+			[118] = {
+				["118:758924205.37897:232762836.18582:Mailbox"] = {
+					118, -- [1]
+					0.7589242053789731, -- [2]
+					0.2327628361858191, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
@@ -74,35 +224,6 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-		},
-		["畜生犬隊長 - 伊弗斯"] = {
-		},
-		["邁克爾假死 - 伊弗斯"] = {
-			[117] = {
-				["117:793398533.00734:287775061.12469:卡特尔·迪芬斯"] = {
-					117, -- [1]
-					0.793398533007335, -- [2]
-					0.2877750611246944, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "卡特尔·迪芬斯",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "卡特尔·迪芬斯",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
 						["world"] = {
 						},
 						["minimap"] = {
@@ -112,8 +233,6 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-		},
-		["家駒 - 伊弗斯"] = {
 		},
 		["巴非特 - 伊弗斯"] = {
 		},

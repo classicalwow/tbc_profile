@@ -18,12 +18,12 @@ U1DBG = {
 				},
 				["ptype"] = "auto",
 				["class"] = "DRUID",
-				["savedate"] = 1688478241,
+				["savedate"] = 1690089570,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
 				},
-				["name"] = "登入之后",
+				["name"] = "登出之前",
 				["u1dbcollectList"] = {
 				},
 				["u1dbaddons"] = {
@@ -40,12 +40,12 @@ U1DBG = {
 				},
 				["ptype"] = "auto",
 				["class"] = "DRUID",
-				["savedate"] = 1688064053,
+				["savedate"] = 1690088368,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
 				},
-				["name"] = "登出之前",
+				["name"] = "登入之后",
 				["u1dbcollectList"] = {
 				},
 				["u1dbaddons"] = {

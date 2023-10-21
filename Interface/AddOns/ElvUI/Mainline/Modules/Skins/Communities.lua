@@ -39,21 +39,6 @@ local function ColorMemberName(button, info)
 end
 ---- TODO: need to reimplement this ^
 
-local function HandleRoleChecks(button, ...)
-	button:StripTextures()
-	button:DisableDrawLayer('ARTWORK')
-	button:DisableDrawLayer('OVERLAY')
-
-	button.bg = button:CreateTexture(nil, 'BACKGROUND', nil, -7)
-	button.bg:SetTexture(E.Media.Textures.RolesHQ)
-	button.bg:SetTexCoord(...)
-	button.bg:Point('CENTER')
-	button.bg:Size(40, 40)
-	button.bg:SetAlpha(0.6)
-
-	S:HandleCheckBox(button.CheckBox)
-end
-
 local function HandleCommunitiesButtons(button)
 	button.Background:Hide()
 	button.CircleMask:Hide()
@@ -154,7 +139,7 @@ function S:Blizzard_Communities()
 	CommunitiesFrameCommunitiesList.TopFiligree:Hide()
 	CommunitiesFrameCommunitiesList.BottomFiligree:Hide()
 	CommunitiesFrameCommunitiesList.ScrollBar:GetChildren():Hide()
-	S:HandleTrimScrollBar(CommunitiesFrameCommunitiesList.ScrollBar, true)
+	S:HandleTrimScrollBar(CommunitiesFrameCommunitiesList.ScrollBar)
 	_G.ChannelFrame.ChannelRoster.ScrollBar:StripTextures()
 	S:HandleDropDownBox(CommunitiesFrame.StreamDropDownMenu)
 
@@ -197,7 +182,7 @@ function S:Blizzard_Communities()
 
 	CommunitiesFrame.Chat:StripTextures()
 	CommunitiesFrame.Chat.InsetFrame:SetTemplate('Transparent')
-	S:HandleTrimScrollBar(CommunitiesFrame.Chat.ScrollBar, true)
+	S:HandleTrimScrollBar(CommunitiesFrame.Chat.ScrollBar)
 
 	S:HandleEditBox(CommunitiesFrame.ChatEditBox)
 	CommunitiesFrame.ChatEditBox:Size(120, 20)
@@ -228,7 +213,7 @@ function S:Blizzard_Communities()
 					for button in s.SpecsPool:EnumerateActive() do
 						if button.CheckBox then
 							S:HandleCheckBox(button.CheckBox)
-							button.CheckBox:Size(26, 26)
+							button.CheckBox:Size(26)
 						end
 					end
 				end)
@@ -244,7 +229,7 @@ function S:Blizzard_Communities()
 			if frame.GuildCards then HandleGuildCards(frame.GuildCards) end
 			if frame.PendingGuildCards then HandleGuildCards(frame.PendingGuildCards) end
 			if frame.CommunityCards then
-				S:HandleTrimScrollBar(frame.CommunityCards.ScrollBar, true)
+				S:HandleTrimScrollBar(frame.CommunityCards.ScrollBar)
 				hooksecurefunc(frame.CommunityCards.ScrollBox, 'Update', HandleCommunityCards)
 			end
 			if frame.PendingCommunityCards then
@@ -269,9 +254,9 @@ function S:Blizzard_Communities()
 	S:HandleEditBox(ClubFinderGuildFinderFrame.OptionsList.SearchBox)
 	S:HandleButton(ClubFinderGuildFinderFrame.OptionsList.Search)
 
-	HandleRoleChecks(ClubFinderGuildFinderFrame.OptionsList.TankRoleFrame, _G.LFDQueueFrameRoleButtonTank.background:GetTexCoord())
-	HandleRoleChecks(ClubFinderGuildFinderFrame.OptionsList.HealerRoleFrame, _G.LFDQueueFrameRoleButtonHealer.background:GetTexCoord())
-	HandleRoleChecks(ClubFinderGuildFinderFrame.OptionsList.DpsRoleFrame, _G.LFDQueueFrameRoleButtonDPS.background:GetTexCoord())
+	S:HandleCheckBox(ClubFinderGuildFinderFrame.OptionsList.TankRoleFrame.CheckBox)
+	S:HandleCheckBox(ClubFinderGuildFinderFrame.OptionsList.HealerRoleFrame.CheckBox)
+	S:HandleCheckBox(ClubFinderGuildFinderFrame.OptionsList.DpsRoleFrame.CheckBox)
 
 	S:HandleItemButton(ClubFinderGuildFinderFrame.ClubFinderSearchTab)
 	S:HandleItemButton(ClubFinderGuildFinderFrame.ClubFinderPendingTab)
@@ -290,9 +275,9 @@ function S:Blizzard_Communities()
 	ClubFinderCommunityAndGuildFinderFrame.OptionsList.SearchBox:Size(118, 20)
 	S:HandleEditBox(ClubFinderCommunityAndGuildFinderFrame.OptionsList.SearchBox)
 
-	HandleRoleChecks(ClubFinderCommunityAndGuildFinderFrame.OptionsList.TankRoleFrame, _G.LFDQueueFrameRoleButtonTank.background:GetTexCoord())
-	HandleRoleChecks(ClubFinderCommunityAndGuildFinderFrame.OptionsList.HealerRoleFrame, _G.LFDQueueFrameRoleButtonHealer.background:GetTexCoord())
-	HandleRoleChecks(ClubFinderCommunityAndGuildFinderFrame.OptionsList.DpsRoleFrame, _G.LFDQueueFrameRoleButtonDPS.background:GetTexCoord())
+	S:HandleCheckBox(ClubFinderCommunityAndGuildFinderFrame.OptionsList.TankRoleFrame.CheckBox)
+	S:HandleCheckBox(ClubFinderCommunityAndGuildFinderFrame.OptionsList.HealerRoleFrame.CheckBox)
+	S:HandleCheckBox(ClubFinderCommunityAndGuildFinderFrame.OptionsList.DpsRoleFrame.CheckBox)
 
 	S:HandleItemButton(ClubFinderCommunityAndGuildFinderFrame.ClubFinderSearchTab)
 	S:HandleItemButton(ClubFinderCommunityAndGuildFinderFrame.ClubFinderPendingTab)
@@ -331,9 +316,9 @@ function S:Blizzard_Communities()
 	S:HandleButton(CommunitiesFrame.CommunitiesControlFrame.CommunitiesSettingsButton)
 	CommunitiesFrame.CommunitiesControlFrame.CommunitiesSettingsButton:Size(129, 19)
 	S:HandleCheckBox(CommunitiesFrame.MemberList.ShowOfflineButton)
-	CommunitiesFrame.MemberList.ShowOfflineButton:Size(25, 25)
+	CommunitiesFrame.MemberList.ShowOfflineButton:Size(25)
 	CommunitiesFrame.MemberList.ScrollBar:GetChildren():Hide()
-	S:HandleTrimScrollBar(MemberList.ScrollBar, true)
+	S:HandleTrimScrollBar(MemberList.ScrollBar)
 
 	hooksecurefunc(CommunitiesFrame.MemberList, 'RefreshListDisplay', function(frame)
 		for _, child in next, { frame.ColumnDisplay:GetChildren() } do
@@ -359,7 +344,7 @@ function S:Blizzard_Communities()
 	GuildBenefitsFrame.Perks.TitleText:FontTemplate(nil, 14)
 	GuildBenefitsFrame.Rewards.TitleText:FontTemplate(nil, 14)
 
-	S:HandleTrimScrollBar(CommunitiesFrame.GuildBenefitsFrame.Rewards.ScrollBar, true)
+	S:HandleTrimScrollBar(CommunitiesFrame.GuildBenefitsFrame.Rewards.ScrollBar)
 
 	if E.private.skins.parchmentRemoverEnable then
 		GuildBenefitsFrame.Perks:StripTextures()
@@ -397,7 +382,7 @@ function S:Blizzard_Communities()
 	GuildDetails.InsetBorderBottomLeft2:Hide()
 	GuildDetails.InsetBorderTopLeft2:Hide()
 
-	S:HandleTrimScrollBar(_G.CommunitiesFrameGuildDetailsFrameInfo.DetailsFrame.ScrollBar, true)
+	S:HandleTrimScrollBar(_G.CommunitiesFrameGuildDetailsFrameInfo.DetailsFrame.ScrollBar)
 	S:HandleTrimScrollBar(_G.CommunitiesFrameGuildDetailsFrameNews.ScrollBar)
 
 	hooksecurefunc('GuildNewsButton_SetNews', function(button, news_id)
@@ -450,7 +435,7 @@ function S:Blizzard_Communities()
 	_G.CommunitiesFrameGuildDetailsFrameNews.TitleText:FontTemplate(nil, 14)
 
 	_G.CommunitiesFrameGuildDetailsFrameNews.ScrollBar:GetChildren():Hide()
-	S:HandleTrimScrollBar(_G.CommunitiesFrameGuildDetailsFrameNews.ScrollBar, true)
+	S:HandleTrimScrollBar(_G.CommunitiesFrameGuildDetailsFrameNews.ScrollBar)
 	S:HandleButton(CommunitiesFrame.GuildLogButton)
 
 	local BossModel = _G.CommunitiesFrameGuildDetailsFrameNews.BossModel
@@ -476,7 +461,7 @@ function S:Blizzard_Communities()
 	EditFrame:StripTextures()
 	EditFrame:SetTemplate('Transparent')
 	EditFrame.Container.NineSlice:SetTemplate('Transparent')
-	S:HandleTrimScrollBar(EditFrame.Container.ScrollFrame.ScrollBar, true)
+	S:HandleTrimScrollBar(EditFrame.Container.ScrollFrame.ScrollBar)
 	S:HandleButton(_G.CommunitiesGuildTextEditFrameAcceptButton)
 
 	local closeButton = select(4, _G.CommunitiesGuildTextEditFrame:GetChildren())
@@ -489,7 +474,7 @@ function S:Blizzard_Communities()
 	GuildLogFrame:SetTemplate('Transparent')
 	GuildLogFrame.Container.NineSlice:SetTemplate('Transparent')
 
-	S:HandleTrimScrollBar(GuildLogFrame.Container.ScrollFrame.ScrollBar, true)
+	S:HandleTrimScrollBar(GuildLogFrame.Container.ScrollFrame.ScrollBar)
 	S:HandleCloseButton(_G.CommunitiesGuildLogFrameCloseButton)
 	closeButton = select(3, _G.CommunitiesGuildLogFrame:GetChildren()) -- swap local variable
 	S:HandleButton(closeButton)

@@ -27,6 +27,7 @@ DecursiveDB = {
 				[8] = 2,
 				[16] = -14,
 				[32] = -16,
+				[64] = 7,
 			},
 			["CureOrder-2"] = {
 				-13, -- [1]
@@ -51,7 +52,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1688478365,
+		["LastVersionAnnounce"] = 1689606672,
 	},
 	["profiles"] = {
 		["Default"] = {

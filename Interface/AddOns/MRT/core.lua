@@ -1,8 +1,8 @@
---	01.05.2023
+--	13.01.2023
 
 local GlobalAddonName, MRT = ...
 
-MRT.V = 4740
+MRT.V = 4720
 MRT.T = "R"
 
 MRT.Slash = {}			--> функции вызова из коммандной строки
@@ -20,9 +20,6 @@ MRT.A = {}			--> ссылки на все модули
 
 MRT.msg_prefix = {
 	["EXRTADD"] = true,
-	MRTADDA = true,	MRTADDB = true,	MRTADDC = true,
-	MRTADDD = true,	MRTADDE = true,	MRTADDF = true,
-	MRTADDG = true,	MRTADDH = true,	MRTADDI = true,
 }
 
 MRT.L = {}			--> локализация
@@ -537,7 +534,12 @@ local reloadTimer = 0.1
 MRT.frame = CreateFrame("Frame")
 
 local function loader(self,func)
-	xpcall(func,geterrorhandler(),self)
+	local isSuccessful, errorMsg = pcall(func,self)
+	if not isSuccessful then
+		C_Timer.After(0.01,function()
+			error(errorMsg)	--Any other way to throw error for user, but continue loader?
+		end)
+	end
 end
 
 local migrateReplace
@@ -736,37 +738,34 @@ do
 end
 
 --temp fix
-local prefix_sorted = {"EXRTADD","MRTADDA","MRTADDB","MRTADDC","MRTADDD","MRTADDE","MRTADDF","MRTADDG","MRTADDH","MRTADDI"}
-
 local sendPending = {}
-local sendPrev = {0}
+local sendPrev = 0
 local sendTmr
 local _SendAddonMessage = SendAddonMessage
 local SEND_LIMIT = 10
-local sendLimit = {SEND_LIMIT}
+local sendLimit = SEND_LIMIT
 local function send(self)
 	if self then
 		sendTmr = nil
 	end
 	local t = debugprofilestop()
-	for p=1,#prefix_sorted do
-		sendLimit[p] = (sendLimit[p] or SEND_LIMIT) + floor((t - (sendPrev[p] or 0))/1000)
-		if sendLimit[p] > SEND_LIMIT then
-			sendLimit[p] = SEND_LIMIT
+	sendLimit = sendLimit + floor((t - sendPrev)/1000)
+	if sendLimit > SEND_LIMIT then
+		sendLimit = SEND_LIMIT
+	end
+	if sendLimit <= 0 then
+		if not sendTmr then
+			sendTmr = C_Timer.NewTimer(0.5, send)
 		end
-		if sendLimit[p] > 0 then
-			for i=1,#sendPending do
-				if sendLimit[p] > 0 then
-					sendLimit[p] = sendLimit[p] - 1
-					sendPending[1][1] = prefix_sorted[p] --override prefix
-					_SendAddonMessage(unpack(sendPending[1]))
-					tremove(sendPending, 1)
-					sendPrev[p] = debugprofilestop()
-				else
-					break
-				end
-			end
-		elseif p == #prefix_sorted then
+		return
+	end
+	for i=1,#sendPending do
+		if sendLimit > 0 then
+			sendLimit = sendLimit - 1
+			_SendAddonMessage(unpack(sendPending[1]))
+			tremove(sendPending, 1)
+			sendPrev = debugprofilestop()
+		else
 			if not sendTmr then
 				sendTmr = C_Timer.NewTimer(0.5, send)
 			end

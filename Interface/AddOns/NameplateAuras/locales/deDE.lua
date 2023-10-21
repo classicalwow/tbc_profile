@@ -53,8 +53,7 @@ L["instance-type:arena"] = "Arenen"
 L["instance-type:none"] = "Offene Welt"
 L["instance-type:party"] = "5-Spieler-Dungeons"
 L["instance-type:pvp"] = "Schlachtfelder"
---[[Translation missing --]]
-L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
+L["instance-type:pvp_bg_40ppl"] = "40 Spieler Schlachtfeld"
 L["instance-type:raid"] = "Schlachtzüge"
 L["instance-type:scenario"] = "Szenarien"
 L["instance-type:unknown"] = "Unbekannte Dungeons (Manche Questszenarien)"
@@ -62,21 +61,18 @@ L["Magic"] = "Magie"
 L["Options are not available in combat!"] = "Optionen sind im Kampf nicht verfügbar!"
 L["options:alpha:alpha"] = "Deckkraft der Symbole (außer der Namensplakette deines Ziels)"
 L["options:alpha:alpha-target"] = "Deckkraft der Symbole auf der Namensplakette deines Ziels"
---[[Translation missing --]]
-L["options:alpha:use-target-alpha-if-not-target-selected"] = "Display auras with target's alpha if no target selected"
+L["options:alpha:use-target-alpha-if-not-target-selected"] = "Zeige alle Auren mit Sichtbarkeit des Ziels wenn kein Ziel ausgewählt ist"
 L["options:animation-type:ICON_ANIMATION_TYPE_ALPHA"] = "Deckkraft"
 L["options:apps:dispellable-spells"] = "Bannbare/stehlbare Auras auf Namensplaketten von Feinden"
 L["options:apps:dispellable-spells:black-list-button"] = "Ausschlussliste öffnen"
 L["options:apps:dispellable-spells:tooltip"] = "Zeit bannbare/stehlbare Auren auf Namensplaketten von Gegnern. Diese Auren haben ein schwachtes Leuchten und Standardgröße"
---[[Translation missing --]]
-L["options:apps:dr"] = "Enable display of diminishing return (beta)"
+L["options:apps:dr"] = "aktiviere Anzeige von abnehmender Wirksamkeit der Werte (beta)"
 L["options:apps:dr:pve"] = "PvE (nur betäuben)"
 L["options:apps:dr:pvp"] = "PvP"
 --[[Translation missing --]]
 L["options:apps:explosive-orbs:tooltip"] = [=[Show special aura above Fel Explosive's nameplates (M+ Explosive Affix)
 This aura have a bright glow and default size]=]
---[[Translation missing --]]
-L["options:apps:spiteful"] = "Highlight Spiteful Shade (Spiteful M+ affix)"
+L["options:apps:spiteful"] = "Boshafter Schemen hervorheben (Boshafter M+ Affix)"
 --[[Translation missing --]]
 L["options:apps:spiteful:sound"] = "Sound"
 L["options:auras:enabled-state:tooltip"] = [=[Aktiviert/Deaktiviert die Aura
@@ -96,31 +92,26 @@ L["options:borders:border-type"] = "Rahmenart"
 L["options:category:alpha"] = "Deckkraft"
 L["options:category:apps"] = "Erweiterungen"
 L["options:category:dispel"] = "Reinigen/stehlen"
---[[Translation missing --]]
-L["options:category:icon-groups"] = "Icon groups"
+L["options:category:icon-groups"] = "Symbol Gruppen"
 L["options:category:interrupts"] = "Unterbrechungen"
 L["options:category:size-and-position"] = "Größe & Position"
 L["options:general:always-show-my-auras:tooltip"] = [=[Dies ist ein Filter höchster Priorität. Falls du diese
  Funktion aktivierst, werden Auren, die du gewirkt hast,
  unabhängig von anderen Filtern gezeigt]=]
---[[Translation missing --]]
-L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
---[[Translation missing --]]
-L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
---[[Translation missing --]]
-L["options:general:current-icon-group"] = "Current icon group"
---[[Translation missing --]]
-L["options:general:export-profile"] = "Export profile"
+L["options:general:always-show-my-auras-blacklist:button"] = "-> Schwarze Liste"
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Achtung! Wenn ein Zauber zur \"Zauber\" Liste und der \"Schwarzen\" Liste hinzugefügt wird, wird dieser auf den Namensplaketten angezeigt."
+L["options:general:current-icon-group"] = "Ausgewählte Symbol Gruppe"
+L["options:general:export-profile"] = "Profil exportieren"
 L["options:general:hide-blizz-frames"] = "Blizzards Auraelemente ausblenden (außer dem Spieler)"
---[[Translation missing --]]
-L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
+L["options:general:hide-player-blizz-frame"] = "Verstecke Blizzard's Auren auf dem Spieler Rahmen"
 --[[Translation missing --]]
 L["options:general:icon-grow-direction"] = "Icon growing direction"
---[[Translation missing --]]
-L["options:general:import-profile"] = "Import profile"
+L["options:general:import-profile"] = "Profil importieren"
 --[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+--[[Translation missing --]]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
 --[[Translation missing --]]
 L["options:general:npc-blacklist"] = "NPC blacklist"
 --[[Translation missing --]]
@@ -208,6 +199,12 @@ If this option is checked, animation will start when aura's remaining duration i
 If this option is unchecked, animation will start when aura's remaining duration is less than absolute value of slider (in seconds)]=]
 L["options:spells:animation-type"] = "Animationsart"
 L["options:spells:appropriate-spell-ids"] = "Passende Zauber-IDs:"
+--[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
 L["options:spells:disable-all-spells"] = "Alle Zauber deaktivieren"
 L["options:spells:enable-all-spells"] = "Alle Zauber aktivieren"
 --[[Translation missing --]]
@@ -234,6 +231,8 @@ L["options:spells:icon-glow-threshold"] = "Leuchten anzeigen, wenn verbleibende 
 L["options:spells:icon-height"] = "Symbolhöhe"
 L["options:spells:icon-width"] = "Symbolbreite"
 L["options:spells:please-push-once-more"] = "Bitte drücke noch einmal"
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = [=[Achtung:
 Die Aura wird nicht bei Nameplates freundlicher Einheiten angezeigt bis folgende Option aktiviert wird:
 <Allgemein> --> <Auren auf Namensplaketten verbündeter Einheiten anzeigen>]=]

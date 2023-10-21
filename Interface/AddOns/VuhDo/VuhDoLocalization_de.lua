@@ -508,3 +508,10 @@ VUHDO_I18N_BUFFC_EARTH_SHIELD = "Earth Shield (Self)";
 
 -- 3.150
 VUHDO_I18N_ADDON_COMPARTMENT_ICON = "AddOn Compartment Icon is now ";
+
+-- 3.152
+VUHDO_I18N_SPELL_TRACE_SINGLE = "Icon: Spell Trace (Single)";
+
+-- 3.154
+VUHDO_I18N_SPELL_TRACE_INCOMING = "Icon: Spell Trace (Incoming)";
+VUHDO_I18N_SPELL_TRACE_HEAL = "Icon: Spell Trace (Heal)";

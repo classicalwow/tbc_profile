@@ -27,7 +27,6 @@ TomTomDB = {
 				},
 			},
 			["block"] = {
-				["enable"] = false,
 				["lock"] = true,
 				["position"] = {
 					"CENTER", -- [1]
@@ -58,74 +57,6 @@ TomTomWaypointsM = {
 		["碼農巴菲特 - 伊弗斯"] = {
 		},
 		["康樂股長 - 伊弗斯"] = {
-			[125] = {
-				["125:491198044.00978:251100244.49878:Mailbox"] = {
-					125, -- [1]
-					0.49119804400978, -- [2]
-					0.2511002444987776, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mailbox",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mailbox",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-		},
-		["畜生犬隊長 - 伊弗斯"] = {
-		},
-		["邁克爾假死 - 伊弗斯"] = {
-			[117] = {
-				["117:793398533.00734:287775061.12469:卡特尔·迪芬斯"] = {
-					117, -- [1]
-					0.793398533007335, -- [2]
-					0.2877750611246944, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "卡特尔·迪芬斯",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "卡特尔·迪芬斯",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-		},
-		["家駒 - 伊弗斯"] = {
-		},
-		["巴非特 - 伊弗斯"] = {
-		},
-		["特變電工 - 伊弗斯"] = {
 			[118] = {
 				["118:769682151.58924:211246943.76528:Meeting Stone"] = {
 					118, -- [1]
@@ -151,6 +82,74 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+		},
+		["畜生犬隊長 - 伊弗斯"] = {
+		},
+		["邁克爾假死 - 伊弗斯"] = {
+			[125] = {
+				["125:490726059.61365:319279234.76051:达拉然: 49.07, 31.93"] = {
+					125, -- [1]
+					0.49072605961365, -- [2]
+					0.3192792347605097, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "达拉然: 49.07, 31.93",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "达拉然: 49.07, 31.93",
+					["from"] = "TomTom/Block",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["家駒 - 伊弗斯"] = {
+			[118] = {
+				["118:758924205.37897:232762836.18582:Mailbox"] = {
+					118, -- [1]
+					0.7589242053789731, -- [2]
+					0.2327628361858191, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mailbox",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mailbox",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["巴非特 - 伊弗斯"] = {
+		},
+		["特變電工 - 伊弗斯"] = {
 		},
 		["頂級投資家 - 伊弗斯"] = {
 		},

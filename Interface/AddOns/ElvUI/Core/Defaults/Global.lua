@@ -52,6 +52,7 @@ G.datatexts = {
 		Durability = { Label = '', NoLabel = false, percThreshold = 30 },
 		DualSpecialization = { NoLabel = false },
 		ElvUI = { Label = '' },
+		['Equipment Sets'] = { Label = '', NoLabel = false, NoIcon = false },
 		Experience = { textFormat = 'CUR' },
 		Friends = {
 			Label = '', NoLabel = false,
@@ -90,6 +91,9 @@ G.datatexts = {
 		System = { NoLabel = false, ShowOthers = true, latency = 'WORLD' },
 		Time = { time24 = _G.GetCurrentRegion() ~= 1, localTime = true, flashInvite = true },
 		Versatility = { Label = '', NoLabel = false, decimalLength = 1 },
+		Dodge = { decimalLength = 1 },
+		Parry = { decimalLength = 1 },
+		Block = { decimalLength = 1 }
 	},
 	newPanelInfo = {
 		growth = 'HORIZONTAL',

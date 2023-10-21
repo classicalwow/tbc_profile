@@ -110,6 +110,8 @@ L["options:general:icon-grow-direction"] = "Направление роста и
 L["options:general:import-profile"] = "Импорт профиля"
 L["options:general:instance-types"] = "Установить видимость кулдаунов в разных типах локаций"
 --[[Translation missing --]]
+L["options:general:masque-experimental"] = "Enable Masque support (experimental)"
+--[[Translation missing --]]
 L["options:general:npc-blacklist"] = "NPC blacklist"
 --[[Translation missing --]]
 L["options:general:npc-blacklist-add-button"] = "Add NPC"
@@ -185,6 +187,12 @@ L["options:spells:animation-relative:tooltip"] = [=[Эта опция измен
 Если эта опция выключена, то анимация будет появляться когда оставшееся время ауры меньше, чем абсолютное значение на слайдере (в секундах).]=]
 L["options:spells:animation-type"] = "Тип анимации"
 L["options:spells:appropriate-spell-ids"] = "Соответствующие ID'ы заклинаний:"
+--[[Translation missing --]]
+L["options:spells:batch-actions"] = "Batch actions"
+--[[Translation missing --]]
+L["options:spells:consolidate"] = "Consolidate aura instances"
+--[[Translation missing --]]
+L["options:spells:consolidate:tooltip"] = "Combine multiple instances of this aura into one aura"
 L["options:spells:disable-all-spells"] = "Отключить все ауры"
 L["options:spells:enable-all-spells"] = "Включить все ауры"
 L["options:spells:export-spell"] = "Экспорт ауры"
@@ -206,6 +214,8 @@ L["options:spells:icon-glow-threshold"] = "Показывать свечение
 L["options:spells:icon-height"] = "Высота иконки"
 L["options:spells:icon-width"] = "Ширина иконки"
 L["options:spells:please-push-once-more"] = "Пожалуйста, нажмите еще раз"
+--[[Translation missing --]]
+L["options:spells:set-all-spells-to-my-auras-only"] = "Set all spells to 'show only my auras'"
 L["options:spells:show-on-friends:warning0"] = [=[Пожалуйста, обратите внимание:
 Вы не увидите эту ауру на нэймплэйтах союзников, пока не включите эту опцию: <Общее> --> <Отображать ауры на нэймплэйтах союзников>]=]
 --[[Translation missing --]]

@@ -1,7 +1,7 @@
-## v4.12.39 Changes
+## v4.13.14 Changes
 
-* [Retail] Fixed crafting cost not showing on quality crafts with no quality mats
-* [Retail] Fixed AH not hiding when walking away from auctioneer
-* [All] Fixed issue with filtering Ledger by rarity
+* [All] Fixed account syncing error while in combat
+* [Retail] Support for 10.1.7
+* [Classic] Fixed error with Enchanting UI
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

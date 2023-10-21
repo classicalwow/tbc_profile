@@ -42,10 +42,11 @@ LBISSettings = {
 		["hide"] = false,
 	},
 	["PhaseTooltip"] = {
-		["Phase 3"] = true,
 		["Phase 1"] = true,
 		["Phase 2"] = true,
 		["PreRaid"] = true,
+		["Phase 3"] = true,
+		["Phase 4"] = true,
 	},
 	["SelectedRank"] = "全部",
 	["ShowTooltip"] = true,

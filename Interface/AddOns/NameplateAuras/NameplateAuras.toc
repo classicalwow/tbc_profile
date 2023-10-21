@@ -2,9 +2,10 @@
 ## Title: NameplateAuras [WotLK]
 ## Notes: Displays people's buffs/debuffs above their nameplates
 ## SavedVariables: NameplateAurasAceDB
-## Version: 30401.5-release
+## Version: 30402.0-release
 ## X-Curse-Project-ID: 101192
 ## X-Wago-ID: lQNl536e
+## OptionalDeps: Masque
 
 src\consts.lua
 embeds.xml

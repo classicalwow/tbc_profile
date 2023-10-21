@@ -1,7 +1,6 @@
 # Advanced Interface Options
 
-## [1.8.6](https://github.com/Stanzilla/AdvancedInterfaceOptions/tree/1.8.6) (2023-05-02)
-[Full Changelog](https://github.com/Stanzilla/AdvancedInterfaceOptions/compare/1.8.5...1.8.6) [Previous Releases](https://github.com/Stanzilla/AdvancedInterfaceOptions/releases)
+## [1.8.9](https://github.com/Stanzilla/AdvancedInterfaceOptions/tree/1.8.9) (2023-10-14)
+[Full Changelog](https://github.com/Stanzilla/AdvancedInterfaceOptions/compare/1.8.8...1.8.9) [Previous Releases](https://github.com/Stanzilla/AdvancedInterfaceOptions/releases)
 
-- Add TOC icon  
-- Update TOC for Patch 10.1.0  
+- Add C\_Console back to luacheck to let us use it as a fallback for live  

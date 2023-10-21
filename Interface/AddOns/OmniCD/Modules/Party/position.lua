@@ -147,6 +147,20 @@ function P:SetOffset(frame)
 	frame.container:SetPoint("TOPLEFT", frame, self.containerOfsX, self.containerOfsY)
 end
 
+local function SetContainerPosition(frame, relFrame, showRange)
+	for raidBarIndex, container in pairs(frame.exContainers) do
+		if ( showRange ) then
+			container:SetParent(relFrame)
+			container:SetFrameLevel(10)
+		else
+			container:SetParent(UIParent)
+		end
+		container:ClearAllPoints()
+		local f = P.extraBars["raidBar" .. raidBarIndex]
+		container:SetPoint(f.point, relFrame, f.relativePoint, f.containerOfsX, f.containerOfsY)
+	end
+end
+
 function P:UpdatePosition(isRefreshMembers)
 	if self.disabled then
 		return
@@ -180,6 +194,8 @@ function P:UpdatePosition(isRefreshMembers)
 				end
 				frame:ClearAllPoints()
 				frame:SetPoint(point, relFrame, relPoint)
+
+				SetContainerPosition(frame, relFrame, showRange)
 				frame:Show()
 			end
 		end
@@ -223,7 +239,8 @@ do
 	end
 
 	function P:CVAR_UPDATE(cvar, value)
-		if cvar == "USE_RAID_STYLE_PARTY_FRAMES" then
+		if cvar == "USE_RAID_STYLE_PARTY_FRAMES"
+			or cvar == "useCompactPartyFrames" then
 			self.useRaidStylePartyFrames = value == "1"
 			self:HookFunc()
 		end
@@ -340,12 +357,13 @@ do
 				end
 			end)
 
-			if E.isWOTLKC341 then
-				hooksecurefunc("RaidOptionsFrame_UpdatePartyFrames", function()
-					P.useRaidStylePartyFrames = C_CVar and C_CVar.GetCVarBool("useCompactPartyFrames") or GetCVarBool("useCompactPartyFrames")
-					P:HookFunc()
-				end)
-			end
+
+
+
+
+
+
+
 		end
 
 		self.hooked = true
